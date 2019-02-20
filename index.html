@@ -29,7 +29,7 @@
   </head>
   <body>
 
-    <header class="header">
+    <header class="header header-home">
       <div class="container">
         
         <!-- Contact Info -->
@@ -67,9 +67,9 @@
               <!-- Collect the nav links, forms, and other content for toggling -->
               <div class="collapse navbar-collapse menu-box-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav menu-box-item">
-                  <li class="active"><a href="#">Home <span class="sr-only">(current)</span></a></li>
+                  <li class="active"><a href="index.html">Home <span class="sr-only">(current)</span></a></li>
                   <li><a href="#">Family Trip</a></li>
-                  <li><a href="#">Corporate Trip</a></li>
+                  <li><a href="package.html">Corporate Trip</a></li>
                   <li><a href="#">Custom Trip</a></li>
                   <li><a href="#">Blog</a></li>
                   <li><a href="#">Contact Us</a></li>
@@ -121,8 +121,94 @@
       </div>
     </section>
     
+    <!-- Mobile Custom Menu -->
+    <section class="content content-mobile-menu">
+      <div class="container show-mobile">
+        <div class="row">
+          <div class="col-xs-12">
+            <ul class="list-inline mobile-menu-list">
+              <li class="mobile-menu-item">
+                <a href="#">
+                  <div class="panel panel-default mobile-menu-panel mobile-menu-panel-orange">
+                    <div class="panel-body">
+                      <span class="bgicon icon-gift mobile-menu-icon"></span>
+                      <p class="mobile-menu-text">Promo</p>
+                    </div>
+                  </div>
+                </a>
+              </li>
+              <li class="mobile-menu-item">
+                <a href="#">
+                  <div class="panel panel-default mobile-menu-panel mobile-menu-panel-blue">
+                    <div class="panel-body">
+                      <span class="bgicon icon-car mobile-menu-icon"></span>
+                      <p class="mobile-menu-text">Family</p>
+                    </div>
+                  </div>
+                </a>
+              </li>
+              <li class="mobile-menu-item">
+                <a href="#">
+                  <div class="panel panel-default mobile-menu-panel mobile-menu-panel-green">
+                    <div class="panel-body">
+                        <span class="bgicon icon-bus mobile-menu-icon"></span>
+                        <p class="mobile-menu-text">Corporate</p>
+                    </div>
+                  </div>
+                </a>
+              </li>
+              <li class="mobile-menu-item">
+                <a href="#">
+                  <div class="panel panel-default mobile-menu-panel mobile-menu-panel-orange">
+                    <div class="panel-body">
+                        <span class="bgicon icon-magic-wand mobile-menu-icon"></span>
+                        <p class="mobile-menu-text">Custom Trip</p>
+                    </div>
+                  </div>
+                </a>
+              </li>
+              <li class="mobile-menu-item">
+                <a href="#">
+                  <div class="panel panel-default mobile-menu-panel mobile-menu-panel-blue">
+                    <div class="panel-body">
+                        <span class="bgicon icon-news mobile-menu-icon"></span>
+                        <p class="mobile-menu-text">Blog</p>
+                    </div>
+                  </div>
+                </a>
+              </li>
+              <li class="mobile-menu-item">
+                <a href="#">
+                  <div class="panel panel-default mobile-menu-panel mobile-menu-panel-green">
+                    <div class="panel-body">
+                        <span class="bgicon icon-call mobile-menu-icon"></span>
+                        <p class="mobile-menu-text">Contact Us</p>
+                    </div>
+                  </div>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="row mobile-menu-cta">
+          <div class="col-xs-12">
+            <p class="menu-cta-title">Ada Pertanyaan? Kontak Kami</p>
+            <div class="panel panel-default menu-cta-panel js-menu-cta-panel animated">
+              <div class="panel-body">
+                <ul class="list-inline menu-cta-list">
+                  <li class="menu-cta-item"><a href="tel:+62878889992"><img class="img-responsive" src="images/icons/jagadtour-whatsapp.png" width="124" height="126" alt=""></a></li>
+                  <li class="menu-cta-item"><a href="mailto:halo@jagadtour.com"><span class="fa fa-envelope-o"></span></a></li>
+                  <li class="menu-cta-item"><a href="tel:+62878889992"><span class="fa fa-phone"></span></a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
     <!-- Popular Package -->
-    <section class="content content-home-package">
+    <section class="content content-home-package js-content-home-package">
       <div class="container">
         <div class="row">
           <div class="col-xs-12">
@@ -304,7 +390,7 @@
               </div>
             </div>
           </div>
-          <div class="col-md-7">
+          <div class="col-md-7 hidden-mobile">
             <div class="panel panel-default home-choose-founder">
               <div class="panel-body">
                 <h5 class="choose-founder-title">Pesan dari Founder</h5>
@@ -457,7 +543,7 @@
       </div>
     </section>
     
-    <footer class="footer">
+    <footer class="footer js-footer">
       <div class="footer-photo">
         <div class="owl-carousel owl-theme photo-slider">
           <div class="item photo-slider-item">
@@ -483,7 +569,7 @@
       <div class="footer-menu">
         <div class="container">
           <div class="row">
-            <div class="col-sm-6 col-md-3 footer-menu-newsletter">
+            <div class="col-xs-6 col-sm-6 col-md-3 footer-menu-newsletter">
               <h4>Newsletter</h4>
               <p class="newsletter-desc">
                 Dapatkan tips dan info diskon paket wisata terbaru dari JagadTour melalui email anda. Gratis!
@@ -497,7 +583,7 @@
                 </div>
               </form>
             </div>
-            <div class="col-sm-6 col-md-3 footer-menu-article">
+            <div class="col-xs-6 col-sm-6 col-md-3 footer-menu-article">
               <h4>Artikel Terbaru</h4>
               <div class="media article-media">
                 <div class="media-left article-media-photo">
@@ -530,7 +616,7 @@
                 </div>
               </div>
             </div>
-            <div class="col-sm-6 col-md-2 footer-menu-info">
+            <div class="col-xs-6 col-sm-6 col-md-2 footer-menu-info">
               <h4>Informasi</h4>
               <ul class="info-list">
                 <li class="info-list-item"><a href="#">Tentang Kami</a></li>
@@ -541,7 +627,7 @@
                 <li class="info-list-item"><a href="#">FAQ</a></li>
               </ul>
             </div>
-            <div class="col-sm-6 col-md-4 footer-menu-contact">
+            <div class="col-xs-6 col-sm-6 col-md-4 footer-menu-contact">
               <h4>Alamat</h4>
               <p class="contact-content contact-address">
                 PT Jagad Travel Indonesia <br>
@@ -589,7 +675,7 @@
           240:{
             items: 1
           },
-          640:{
+          480:{
             items: 2
           },
           768:{
@@ -607,7 +693,10 @@
         loop: true,
         margin: 35,
         responsive:{
-          640:{
+          0:{
+            items: 1
+          },
+          480:{
             items: 2
           },
           768:{
@@ -625,6 +714,10 @@
         margin: 35,
         responsive:{
           240:{
+            dots: true,
+            items: 2
+          },
+          480:{
             dots: true,
             items: 4
           },
@@ -645,6 +738,9 @@
         dots: false,
         responsive:{
           240:{
+            items: 2
+          },
+          480:{
             items: 3
           },
           992:{
@@ -662,7 +758,25 @@
       $(document).ready(function($){
         $('.home-package-slider').mobileSlider({
           sliderWhen: 767,
-          itemWidth: "480px"
+          itemWidth: "85%",
+          startAt: 2
+        });
+      });
+    </script>
+    
+    <script type="text/javascript" src="vendor/scrolltofixed.1.0.8/jquery-scrolltofixed-min.js"></script>
+    <script type="text/javascript">
+      $(document).ready(function(){
+        $('.js-menu-cta-panel').scrollToFixed({
+          postFixed: function() { 
+            $(".menu-cta-title").css('display', 'block');
+          },
+          preFixed: function() {
+            $('.menu-cta-panel').addClass('mobile-menu-fixed');
+            $('.menu-cta-panel').addClass('fade-in');
+            $(".menu-cta-title").css('display', 'none'); 
+            $(".footer-copyright").css('padding-bottom', '80px'); 
+          }
         });
       });
     </script>

@@ -73,6 +73,16 @@ p{
 .jgicon{
   display: inline-block;
 }
+.icon-free{
+  content: "G";
+  padding: 5px;
+  background-color: #ffb010;
+}
+.icon-parking{
+  content: "P";
+  padding: 5px;
+  background-color: #0077c2;
+}
 
 /* - Buttons - */
 .btn{
@@ -269,6 +279,8 @@ p{
 .card-single .card-single-tag{
   margin-bottom: 4px;
 }
+
+.card-complete{}
 
 .tag{
   font-family: "DINNextLTPro-Regular", Fallback, sans-serif;
@@ -740,6 +752,8 @@ p{
   color: #fff;
   padding: 16px;
 }
+
+/* -  - */
 
 
 

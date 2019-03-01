@@ -92,6 +92,31 @@ p{
     display: none;
 }
 
+/* - Custom Radio Button - */
+.radio .cr{
+  display: inline-block;
+  border: 1px solid #d6dadf;
+  background: #fff;
+  width: 19px;
+  height: 19px;
+  border-radius: 100%;
+  text-align: center;
+}
+.radio .cr .cr-icon.glyphicon-ok:before{
+  content: url(../images/icons/Checked.png);
+}
+.radio .radio-label input[type="radio"] + .cr > .cr-icon {
+  position: relative;
+  top: -1px;
+  transform: scale(3) rotateZ(-20deg);
+  opacity: 0;
+  transition: all .3s ease-in;
+}
+.radio .radio-label input[type="radio"]:checked + .cr > .cr-icon {
+  transform: scale(1) rotateZ(0deg);
+  opacity: 1;
+}
+
 /* - Icons - */
 .jgicon{
   display: inline-block;
@@ -113,6 +138,14 @@ p{
 .icon-parking{
   background-color: #0077c2;
   color: #fff;
+}
+.icon-tiket-com{
+  background-image: url(../images/icons/tiket.com.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 27px;
+  height: 27px;
+  vertical-align: middle;
 }
 
 
@@ -313,36 +346,42 @@ p{
 }
 
 /* Card Complete */
-.card-complete{
+.panel-complete{
   border-radius: 6px;
   border: 1px solid #e5e5e5;
   box-shadow: none;
 }
-.card-complete p{
+.panel-complete p{
   font-family: "DINNextLTPro-Regular", Fallback, sans-serif;
   font-size: 16px;
   line-height: 18px;
   color: #4b4b4b;
 }
 
-.card-complete .card-complete-heading{
-  background-color: #0077c2;
+.panel-complete .panel-complete-heading{
   padding: 20px 28px;
 }
-.card-complete-heading .card-complete-title{
+.panel-complete .panel-heading-blue{
+  background-color: #0077c2;
+}
+.panel-complete .panel-heading-orange{
+  background-color: #ff681f;
+}
+.panel-complete .panel-complete-heading{}
+.panel-complete-heading .panel-complete-title{
   font-family: "DINNextLTPro-Medium", Fallback, sans-serif;
   font-size: 18px;
   color: #fff;
   text-transform: uppercase;
 }
 
-.card-complete .card-complete-content{
+.panel-complete .panel-complete-content{
   padding-left: 28px;
   padding-right: 28px;
 }
 
 /* Card Group */
-.panel-group .card-complete{
+.panel-group .panel-complete{
   border-radius: 6px;
   overflow: hidden;
 }
@@ -360,11 +399,17 @@ p{
 .tag-orange{
   background-color: #ff681f;
 }
+.tag-blue{
+  background-color: #0077c2;
+}
 
 
 
 /* --- Homepage  --- */
 /* - Hero - */
+.hero{
+  overflow: hidden;
+}
 .hero-slider .item{
   position: relative;
   height: 100%;
@@ -831,7 +876,7 @@ p{
   text-align: left;
   margin-bottom: 24px;
 }
-.packdetail-destination .card-complete-content{
+.packdetail-destination .panel-complete-content{
   padding: 24px 15px 14px;
 }
 .packdetail-destination .packdetail-destination-slider{
@@ -888,7 +933,7 @@ p{
 }
 
 /* - Itinerary - */
-.packdetail-itinerary .card-complete-content{
+.packdetail-itinerary .panel-complete-content{
   padding-top: 28px;
   padding-bottom: 28px;
 }
@@ -970,6 +1015,9 @@ p{
 .packdetail-price .packdetail-price-subtitle{
   color: #818181;
 }
+.packdetail-price .packdetail-price-form{
+  margin-top: 32px;
+}
 .packdetail-price-form .control-label{
   font-family: "DINNextLTPro-Bold", Fallback, sans-serif;
   font-size: 16px;
@@ -1045,6 +1093,57 @@ p{
   color: #4b4b4b;
 }
 
+/* - Right Content - */
+.packdetail-packother .card-single{
+  margin-bottom: 32px;
+}
+.packother-panel .panel-complete-content{
+  padding-left: 0;
+  padding-right: 0;
+}
+.packother-panel .packother-form{
+  font-family: "DINNextLTPro-Regular", Fallback, sans-serif;
+  font-size: 16px;
+  line-height: 18px;
+  color: #4b4b4b;
+}
+.packother-form .form-group{
+  padding-left: 13px;
+  padding-right: 13px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.packother-form .control-label{
+  text-align: left;
+  font-family: "DINNextLTPro-Bold", Fallback, sans-serif;
+}
+.packother-form .checkbox label{
+  padding-left: 0;
+}
+.packother-form .packother-checkbox{
+  border-bottom: 1px solid #e5e5e5;
+  padding-bottom: 20px;
+}
+.packother-form .form-control{
+  border-color: #e5e5e5;
+  border-radius: 2px;
+  box-shadow: none;
+}
+.packother-form .btn{
+  padding: 18px 24px;
+  display: block;
+  margin-left: auto;
+  margin-right: 0;
+}
+.packother-form .radio-container{
+  display: inline-block;
+}
+.packother-form .radio-container .radio{
+  padding-top: 0;
+  padding-right: 5px;
+}
+
+
 
 /* --- Media Queries --- */
 @-ms-viewport{
@@ -1055,6 +1154,9 @@ p{
 @media screen and (max-width: 1199px){
   /* --- Homepage --- */
   /* - Hero - */
+  .hero-slider .hero-slider-content{
+    width: 970px;
+  }
   .hero-slider .owl-nav.disabled + .owl-dots{
     max-width: 970px;
     text-align: center;
@@ -1069,6 +1171,33 @@ p{
     padding-right: 0;
   }
   
+  
+  /* --- Package Page --- */
+  /* - Hero - */
+  .hero-package .hero-slider .hero-slider-content{
+    height: 300px;
+  }
+  
+  /* - Content - */
+  /* Destination */
+  .packdetail-destination-slider .destination-slider-image{
+    max-width: 265px;
+    max-height: 212px;
+  }
+  
+  /* Testimonials */
+  .content-packdetail .content-testi-slider .item{
+    padding-right: 1px;
+    padding-left: 1px;
+  }
+  
+  /* Right Content */
+  .packother-form .control-label{
+    margin-bottom: 5px;
+  }
+  .packother-form .btn{
+    width: 100%;
+  }
   
   /* --- Footer --- */
   .footer-photo .photo-slider-item {

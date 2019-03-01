@@ -175,6 +175,9 @@ p{
 }
 
 /* - Visibility - */
+.show-large-mobile{
+  display: none;
+}
 .show-mobile{
   display: none;
 }
@@ -1261,6 +1264,25 @@ p{
     margin-top: 0;
   }
   
+  /* --- Package Page --- */
+  /* - Hero - */
+  .hero-package .hero-slider .hero-slider-content{
+    height: 214px;
+  }
+  .packdetail-destination-slider .destination-slider-image{
+    max-width: 319px;
+    max-height: 246px;
+  }
+  
+  /* - Content - */
+  /* Destinasi */
+  .packdetail-destination-slider .owl-nav [class*='owl-'],
+  .packdetail-destination-slider .owl-nav button.owl-next,
+  .packdetail-destination-slider .owl-nav button.owl-prev{
+    top: 100px;
+  }
+  
+  
   /* --- Footer --- */
   .footer-menu .footer-menu-info{
     margin-top: 15px;
@@ -1348,6 +1370,30 @@ p{
   }
   
   
+  /* --- Package Page --- */
+  /* - Hero - */
+  .hero-package .hero-slider{
+    position: relative;
+  }
+  .hero-package .hero-slider .hero-slider-content{
+    height: 170px;
+  }
+  .hero-package .hero-slider-content .slider-content-tag{
+    margin-bottom: 24px;
+  }
+  .hero-package .hero-slider-content .slider-content-title{
+    margin-bottom: 30px;
+  }
+  .hero-package .hero-slider-content .slider-content-info{
+    text-align: center;
+  }
+  .hero-package .slider-content-info .slider-info-icon,
+  .hero-package .slider-content-info .slider-info-text{
+    font-size: 12px;
+    padding: 10px;
+  }
+  
+  
   /* --- Footer --- */
   .footer-menu .footer-menu-newsletter{
     margin-bottom: 45px;
@@ -1370,12 +1416,79 @@ p{
 
 /* ## Mobile : 639px - 480px ## */
 @media screen and (max-width: 639px){
+  /* --- General Elements --- */
+  /* - Visibility - */
+  .show-large-mobile{
+    display: block;
+  }
+  .hidden-large-mobile{
+    display: none;
+  }
+  
+  
+  /* --- Homepage --- */
+  /* - Why Choose Us - */
   .home-choose-founder .panel-body{
     max-width: none;
   }
   .home-choose-founder .choose-founder-photo{
     display: none;
   }
+  
+  /* --- Package Page --- */
+  /* - Hero - */
+  .hero-package .hero-slider{
+    height: 270px;
+    overflow: hidden;
+  }
+  .hero-package .hero-slider > img{
+    min-height: 270px;
+    width: auto;
+    max-width: none;
+  }
+  .hero-package .hero-slider .hero-slider-content{
+    height: 214px;
+  }
+  
+  /* - Content - */
+  /* Destination */
+  .packdetail-destination-slider .destination-slider-image {
+    max-width: none;
+    max-height: none;
+  }
+  .packdetail-destination-slider .owl-nav [class*='owl-'],
+  .packdetail-destination-slider .owl-nav button.owl-next,
+  .packdetail-destination-slider .owl-nav button.owl-prev{
+    top: 40%;
+  }
+  
+  /* Itinerary */
+  .packdetail-itinerary .btn{
+    padding: 18px 24px;
+    width: 100%;
+  }
+  .packdetail-itinerary-modal .packdetail-itinerary-list .table-responsive{
+    padding: 15px;
+  }
+  
+  /* Price */
+  .packdetail-price-form .form-group{
+    margin-bottom: 30px;
+  }
+  .packdetail-price-form .btn{
+    margin-bottom: 30px;
+  }
+  .packdetail-price-form .price-form-socmed{
+    text-align: left;
+    padding: 0;
+  }
+  
+  /* Testimonials */
+  .content-packdetail .content-testi-slider{
+    margin-bottom: 45px;
+  }
+  
+  
 }
 
 /* ## Mobile : 575px - 480px ## */
@@ -1603,6 +1716,30 @@ p{
   .testi-slider-media .testi-slider-name,
   .testi-slider-media .testi-slider-city{
     font-size: 14px;
+  }
+  
+  /* --- Package Page ---*/
+  /* - Content - */
+  .content-packdetail .content-title{
+    text-align: center;
+  }
+  .packdetail-destination-slider .destination-slider-image{
+    max-width: 180px;
+    max-height: 155px;
+  }
+  .packdetail-destination-slider .owl-nav [class*='owl-'],
+  .packdetail-destination-slider .owl-nav button.owl-next,
+  .packdetail-destination-slider .owl-nav button.owl-prev{
+    top: 55px;
+  }
+  .content-packdetail .content-packdetail-panel p{
+    font-size: 14px;
+  }
+  .price-form-block .jgicon{
+    margin-right: 4px;
+  }
+  .packdetail-price-form .price-form-block{
+    padding: 15px;
   }
   
   /* --- Footer ---*/

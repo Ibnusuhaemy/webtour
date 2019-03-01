@@ -235,10 +235,10 @@
                       </li>
                     </ul>
 -->
-                    <div class="packdetail-itinerary-list">
+                    <div class="packdetail-itinerary-list hidden-large-mobile">
                       <img src="images/itinerary/group-30.png" width="660" height="669" class="img-responsive" alt="Jagadtour Timeline Tour">
                     </div>
-                    <ul class="packdetail-itinerary-info">
+                    <ul class="packdetail-itinerary-info hidden-large-mobile">
                       <li>
                         <p>
                           * Itinerary diatas tidak baku, jadwal sewaktu-waktu bisa berubah sesuai kodisi di lapangan 
@@ -249,6 +249,41 @@
                         <p>* Jadwal bisa kami sesuaikan dengan Jam kedatangan dan Kepulangan Anda</p>
                       </li>
                     </ul>
+                    
+                    <button type="button" class="btn btn-rounded btn-orange show-large-mobile" data-toggle="modal" data-target="#js-modal-itinerary">Tampilkan Itinerary</button>
+                    
+                    <div class="modal fade packdetail-itinerary-modal" id="js-modal-itinerary" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                      <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                            <h4 class="modal-title" id="myModalLabel">Itinerary</h4>
+                          </div>
+                          <div class="modal-body">
+                            <div class="packdetail-itinerary-list">
+                              <div class="table-responsive">
+                                <img src="images/itinerary/group-30.png" width="660" height="669" alt="Jagadtour Timeline Tour">
+                              </div>
+                            </div>
+                            <ul class="packdetail-itinerary-info">
+                              <li>
+                                <p>
+                                  * Itinerary diatas tidak baku, jadwal sewaktu-waktu bisa berubah sesuai kodisi di lapangan 
+                                  tanpa mengganggu agenda secara keseluruhan
+                                </p>
+                              </li>
+                              <li>
+                                <p>* Jadwal bisa kami sesuaikan dengan Jam kedatangan dan Kepulangan Anda</p>
+                              </li>
+                            </ul>
+                          </div>
+                          <div class="modal-footer">
+                            <button type="button" class="btn btn-rounded btn-orange" data-dismiss="modal">Tutup</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    
                   </div>
                 </div>
               </div>
@@ -448,35 +483,35 @@
                           </div>
                         </div>
                         <div class="row form-group">
-                          <div class="col-lg-7">
+                          <div class="col-xs-5">
                             <p><span class="jgicon icon-user"></span> Dewasa</p>
                           </div>
-                          <div class="col-lg-5 form-block-right">
+                          <div class="col-xs-7 form-block-right">
                             <p><span class="count">4x</span> <span class="sub-price">Rp 8.000.000</span></p>
                           </div>
                         </div>
                         <div class="row form-group">
-                          <div class="col-lg-7">
+                          <div class="col-xs-5">
                             <p><span class="jgicon icon-user-group"></span> Anak</p>
                           </div>
-                          <div class="col-lg-5 form-block-right">
+                          <div class="col-xs-7 form-block-right">
                             <p><span class="count">4x</span> <span class="sub-price">Rp 8.000.000</span></p>
                           </div>
                         </div>
                         <div class="row">
-                          <div class="col-lg-7">
+                          <div class="col-xs-5">
                             <p><span class="jgicon price-form-star icon-star-fill"></span> Kelas Hotel</p>
                           </div>
-                          <div class="col-lg-5 form-block-right">
+                          <div class="col-xs-7 form-block-right">
                             <p><span class="count">4x</span> <span class="sub-price">Rp 8.000.000</span></p>
                           </div>
                         </div>
                         <hr>
                         <div class="row">
-                          <div class="col-lg-7">
+                          <div class="col-xs-5">
                             <p>Grand Total</p>
                           </div>
-                          <div class="col-lg-5 form-block-right">
+                          <div class="col-xs-7 form-block-right">
                             <p><span class="sub-price">Rp 24.000.000</span></p>
                           </div>
                         </div>
@@ -828,10 +863,18 @@
         navText: ['<i class="jgicon icon-chevron-left"></i>','<i class="jgicon icon-arrow-right"></i>'],
         responsive:{
           240:{
+            margin: 14,
             dots: false,
+            nav: true,
             items: 2
           },
+          480:{
+            dots: false,
+            nav: true,
+            items: 1
+          },
           768:{
+            margin: 24,
             nav: true,
             items: 2
           },
@@ -867,7 +910,7 @@
             dots: true,
             items: 1
           },
-          480:{
+          640:{
             dots: false,
             items: 2
           }
@@ -882,7 +925,7 @@
           240:{
             items: 2
           },
-          480:{
+          640:{
             items: 3
           },
           992:{

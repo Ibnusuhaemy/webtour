@@ -363,6 +363,7 @@ p{
 
 .panel-complete .panel-complete-heading{
   padding: 20px 28px;
+  border-radius: 0;
 }
 .panel-complete .panel-heading-blue{
   background-color: #0077c2;
@@ -370,7 +371,6 @@ p{
 .panel-complete .panel-heading-orange{
   background-color: #ff681f;
 }
-.panel-complete .panel-complete-heading{}
 .panel-complete-heading .panel-complete-title{
   font-family: "DINNextLTPro-Medium", Fallback, sans-serif;
   font-size: 18px;
@@ -1528,6 +1528,17 @@ p{
     font-size: 13px;
   }
   
+  /* Panel Complete */
+  .panel-group .panel-complete{
+    border-radius: 0;
+  }
+  .panel-complete{
+    border-radius: 0;
+  }
+  .panel-complete .panel-complete-content{
+    padding: 24px 15px;
+  }
+  
   /* --- Header --- */
   .header-home .header-menu{
     display: none;
@@ -1719,27 +1730,58 @@ p{
   }
   
   /* --- Package Page ---*/
+  /* - Hero - */
+  .slider-content-info li{
+    margin-right: 14px;
+  }
+  .hero-package .slider-content-info .slider-info-icon,
+  .hero-package .slider-content-info .slider-info-text{
+    padding: 4px;
+  }
+  
   /* - Content - */
+  .content-packdetail .packdetail-left{
+    padding-left: 0;
+    padding-right: 0;
+  }
   .content-packdetail .content-title{
     text-align: center;
+  }
+  .content-packdetail .content-packdetail-panel p{
+    font-size: 14px;
+  }
+  .packdetail-destination .packdetail-destination-slider{
+    padding-left: 0;
+    padding-right: 0;
   }
   .packdetail-destination-slider .destination-slider-image{
     max-width: 180px;
     max-height: 155px;
-  }
-  .packdetail-destination-slider .owl-nav [class*='owl-'],
-  .packdetail-destination-slider .owl-nav button.owl-next,
-  .packdetail-destination-slider .owl-nav button.owl-prev{
-    top: 55px;
-  }
-  .content-packdetail .content-packdetail-panel p{
-    font-size: 14px;
   }
   .price-form-block .jgicon{
     margin-right: 4px;
   }
   .packdetail-price-form .price-form-block{
     padding: 15px;
+    margin-left: -15px;
+    margin-right: -15px;
+    border-radius: 0;
+  }
+  
+  .content-packdetail .content-testi-slider{
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  
+  .content-packdetail .packother-panel{
+    margin-left: -15px;
+    margin-right: -15px;
+  }
+  .packother-form .form-group{
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: -15px;
+    margin-right: -15px;
   }
   
   /* --- Footer ---*/

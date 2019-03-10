@@ -126,8 +126,8 @@
                   <div class="member-detail-image">
                     <img src="images/photos/ivanka.jpg" width="859" height="445" alt="Tim Jagadtour" class="js-member-image">
                   </div>
-                  <h3 class="member-name">Ivanka Rubinov</h3>
-                  <p class="member-desc">
+                  <h3 class="member-name js-member-name">Ivanka Rubinov</h3>
+                  <p class="member-desc js-member-desc">
                     Since we first met Oat the Goat in June, we've kind of fallen in love with him and what he stands for, so we're 
                     delighted to reveal that Site of the Month June has been awarded to Assembly from New Zealand for their 
                     interactive, WebGL, animated storybook. Thanks for all the votes and tweets, the winner of the Pro Plan in the 
@@ -137,13 +137,13 @@
               </div>
               <div class="js-team-member member-list">
                 <ul class="js-member-thumbnails">
-                  <li class="member-thumbnail">
+                  <li class="member-thumbnail js-member-thumbnail-item">
                     <div class="member-thumbnail-image">
-                      <img src="images/photos/ivanka.jpg" width="193" height="126" alt="Tim Jagadtour" class="js-member-thumbnail-image">
+                      <img src="images/photos/ivanka.jpg" width="193" height="126" alt="Tim Jagadtour" class="js-thumbnail-item-image">
                     </div>
                     <div class="member-thumbnail-data show-large-mobile">
-                      <h3 class="member-name">Ivanka Rubinov</h3>
-                      <p class="member-desc">
+                      <h3 class="member-name js-thumbnail-name">Ivanka Rubinov</h3>
+                      <p class="member-desc js-thumbnail-desc">
                         Since we first met Oat the Goat in June, we've kind of fallen in love with him and what he stands for, so we're 
                         delighted to reveal that Site of the Month June has been awarded to Assembly from New Zealand for their 
                         interactive, WebGL, animated storybook. Thanks for all the votes and tweets, the winner of the Pro Plan in the 
@@ -151,13 +151,13 @@
                       </p>
                     </div>
                   </li>
-                  <li class="member-thumbnail">
+                  <li class="member-thumbnail js-member-thumbnail-item">
                     <div class="member-thumbnail-image">
-                      <img src="images/photos/betty.jpg" width="193" height="126" alt="Tim Jagadtour" class="js-member-thumbnail-image">
+                      <img src="images/photos/betty.jpg" width="193" height="126" alt="Tim Jagadtour" class="js-thumbnail-item-image">
                     </div>
                     <div class="member-thumbnail-data show-large-mobile">
-                      <h3 class="member-name">Ivanka Rubinov</h3>
-                      <p class="member-desc">
+                      <h3 class="member-name js-thumbnail-name">Betty Rubinov</h3>
+                      <p class="member-desc js-thumbnail-desc">
                         Since we first met Oat the Goat in June, we've kind of fallen in love with him and what he stands for, so we're 
                         delighted to reveal that Site of the Month June has been awarded to Assembly from New Zealand for their 
                         interactive, WebGL, animated storybook. Thanks for all the votes and tweets, the winner of the Pro Plan in the 
@@ -165,13 +165,13 @@
                       </p>
                     </div>
                   </li>
-                  <li class="member-thumbnail">
+                  <li class="member-thumbnail js-member-thumbnail-item">
                     <div class="member-thumbnail-image">
-                      <img src="images/photos/kevin.jpg" width="193" height="126" alt="Tim Jagadtour" class="js-member-thumbnail-image">
+                      <img src="images/photos/kevin.jpg" width="193" height="126" alt="Tim Jagadtour" class="js-thumbnail-item-image">
                     </div>
                     <div class="member-thumbnail-data show-large-mobile">
-                      <h3 class="member-name">Ivanka Rubinov</h3>
-                      <p class="member-desc">
+                      <h3 class="member-name js-thumbnail-name">Kevin Rubinov</h3>
+                      <p class="member-desc js-thumbnail-desc">
                         Since we first met Oat the Goat in June, we've kind of fallen in love with him and what he stands for, so we're 
                         delighted to reveal that Site of the Month June has been awarded to Assembly from New Zealand for their 
                         interactive, WebGL, animated storybook. Thanks for all the votes and tweets, the winner of the Pro Plan in the 
@@ -179,13 +179,13 @@
                       </p>
                     </div>
                   </li>
-                  <li class="member-thumbnail">
+                  <li class="member-thumbnail js-member-thumbnail-item">
                     <div class="member-thumbnail-image">
-                      <img src="images/photos/veranda.jpg" width="193" height="126" alt="Tim Jagadtour" class="js-member-thumbnail-image">
+                      <img src="images/photos/veranda.jpg" width="193" height="126" alt="Tim Jagadtour" class="js-thumbnail-item-image">
                     </div>
                     <div class="member-thumbnail-data show-large-mobile">
-                      <h3 class="member-name">Ivanka Rubinov</h3>
-                      <p class="member-desc">
+                      <h3 class="member-name js-thumbnail-name">Veranda Rubinov</h3>
+                      <p class="member-desc js-thumbnail-desc">
                         Since we first met Oat the Goat in June, we've kind of fallen in love with him and what he stands for, so we're 
                         delighted to reveal that Site of the Month June has been awarded to Assembly from New Zealand for their 
                         interactive, WebGL, animated storybook. Thanks for all the votes and tweets, the winner of the Pro Plan in the 
@@ -345,7 +345,7 @@
     <script type="application/javascript">
       $(document).ready(function($){
         $('.js-team-member').mobileSlider({
-          sliderWhen: 639,
+          sliderWhen: 622,
           itemWidth: "85%",
           startAt: 2
         });
@@ -354,11 +354,19 @@
     
     <script type="text/javascript">
       var mainimage = $(".js-member-image");
-      var thumbimage = $(".js-member-thumbnail-image");
+      var mainname = $(".js-member-name");
+      var maindesc = $(".js-member-desc");
+      var thumbimage = $(".js-member-thumbnail-item");
       
       $(thumbimage).click(function(){
-        var thethumbnail = $(this).attr("src");
-        mainimage.attr("src", thethumbnail);
+        var thethumbnail = $(this).find(".js-thumbnail-item-image").attr("src");
+        var thename = $(this).find(".js-thumbnail-name").text();
+        var thedesc = $(this).find(".js-thumbnail-desc").text();
+        mainimage.fadeOut(1000, function(){
+          mainimage.attr("src", thethumbnail);
+          mainname.text(thename);
+          maindesc.text(thedesc);
+        }).fadeIn(1000);
       });
       
     </script>

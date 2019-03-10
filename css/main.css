@@ -1113,6 +1113,8 @@ p{
 .member-detail .member-detail-image img{
   width: 100%;
   height: auto;
+  -webkit-animation-name: fadeIn;
+  animation-name: fadeIn;
 }
 .about-team-member .member-list{
   display: inline-block;
@@ -1597,6 +1599,31 @@ p{
   }
   
   
+  /* --- About Page --- */
+  .about-team .about-team-member{
+    margin-bottom: 0;
+  }
+  .about-team-member .member-list{
+    width: 100%;
+  }
+  .member-list .member-thumbnail{
+    padding-left: 15px;
+    padding-right: 15px;
+    text-align: center;
+  }
+  .member-thumbnail .member-thumbnail-image{
+    margin-bottom: 30px;
+  }
+  .member-list .slider-dot{
+    width: 10px;
+    height: 10px;
+    border: none;
+    background-color: rgba(75, 75, 75, 0.5);
+  }
+  .member-list .slider-nav .slider-dot.active{
+    background-color: #4b4b4b;
+  }
+  
 }
 
 /* ## Mobile : 575px - 480px ## */
@@ -1891,6 +1918,33 @@ p{
     margin-left: -15px;
     margin-right: -15px;
   }
+  
+  
+  /* --- About ---*/
+  .about-desc{
+    padding-top: 32px;
+    padding-bottom: 12px;
+  }
+  .content-about .content-header{
+    margin-bottom: 24px;
+    text-align: center;
+  }
+  .content-about .content-header .header-title{
+    font-size: 22px;
+    line-height: 32px;
+  }
+  .about-desc-detail p{
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  .about-team{
+    padding-top: 32px;
+    padding-bottom: 48px;
+  }
+  .member-list .member-thumbnail{
+    margin-bottom: 18px;
+  }
+  
   
   /* --- Footer ---*/
   .footer-menu{

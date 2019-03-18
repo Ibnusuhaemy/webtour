@@ -19,6 +19,7 @@
     <link rel="stylesheet" type="text/css" href="vendor/bootstrap.3.3.7/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="vendor/font-awesome.4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" type="text/css" href="vendor/jagad-icon.1.0/css/fontello.css">
+    <link rel="stylesheet" type="text/css" href="vendor/animate/animate.min.css">
     <link rel="stylesheet" type="text/css" href="vendor/owl-carousel.2.3.4/assets/owl.carousel.min.css">
     <link rel="stylesheet" type="text/css" href="vendor/owl-carousel.2.3.4/assets/owl.theme.default.css">
     
@@ -102,14 +103,14 @@
           </div>
         </div>
         <div class="item">
-          <img src="images/sliders/jagadtour-bromo.jpg" width="4320" height="1419" alt="Jagadtour Image Slider" class="img-responsive">
+          <img src="images/sliders/jagadtour-bromo-view.jpg" width="4320" height="1419" alt="Jagadtour Image Slider" class="img-responsive">
           <div class="hero-slider-content">
             <div class="container">
               <div class="row">
                 <div class="col-xs-12">
                   <div class="cover">
                     <div class="slider-content-tag">Family Trip</div>
-                    <div class="slider-content-title">Bromo Sunrise Tour</div>
+                    <div class="slider-content-title">Bromo Tengger Semeru Tour</div>
                     <div class="slider-content-text">3 Days 2 Nights</div>
                     <a href="#" class="btn btn-box btn-orange slider-content-button">Booking Sekarang</a>
                   </div>
@@ -631,7 +632,7 @@
             <div class="col-xs-6 col-sm-6 col-md-2 footer-menu-info">
               <h4>Informasi</h4>
               <ul class="info-list">
-                <li class="info-list-item"><a href="#">Tentang Kami</a></li>
+                <li class="info-list-item"><a href="about.html">Tentang Kami</a></li>
                 <li class="info-list-item"><a href="#">Syarat dan Ketentuan</a></li>
                 <li class="info-list-item"><a href="#">Kebijakan Privasi</a></li>
                 <li class="info-list-item"><a href="#">Cara Pembayaran</a></li>
@@ -676,7 +677,10 @@
       $('.js-hero-slider').owlCarousel({
         dots: true,
         items: 1,
-        loop: true
+        loop: true,
+        autoplay: true,
+        animateOut: 'fadeOut',
+        smartSpeed: 450
       });
     </script>
     <script type="text/javascript">
@@ -715,7 +719,8 @@
             items: 3
           },
           1200:{
-            items: 3
+            items: 3,
+            autoplay: true
           }
         } 
       });
@@ -740,6 +745,7 @@
           1200:{
             items: 6,
             dots: false,
+            autoplay: true
           }
         } 
       });

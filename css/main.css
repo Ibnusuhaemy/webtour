@@ -1,5 +1,5 @@
-/* --- General Styles --- */
 
+/* --- ## General Elements ## --- */
 /* - Font Smoothing - */
 html {
   text-rendering: optimizeLegibility !important;
@@ -149,7 +149,31 @@ p{
 }
 
 
-/* - Buttons - */
+/* - Forms - */
+/* Textfield */
+.form-control{
+  font-family: "DINNextLTPro-Regular", Fallback, sans-serif;
+  border-color: #e5e5e5;
+  height: auto;
+  padding: 10px 24px;
+  box-shadow: none;
+  font-size: 16px;
+  line-height: 19px;
+}
+/* Label */
+.control-label{
+  font-family: "DINNextLTPro-Bold", Fallback, sans-serif;
+  font-size: 16px;
+  line-height: 18px;
+  color: #4b4b4b;
+}
+/* Help Text */
+.help-block{
+  font-family: "DINNextLTPro-Regular", Fallback, sans-serif;
+  font-size: 14px;
+  line-height: 22px;
+}
+/* Buttons */
 .btn{
   font-family: "DINNextLTPro-Bold", Fallback, sans-serif;
   text-transform: uppercase;
@@ -189,6 +213,8 @@ p{
   -webkit-animation-fill-mode: both;
   animation-fill-mode: both;
 }
+
+/* Fade In */
 @-webkit-keyframes fadeIn {
   from {
     opacity: 0;
@@ -214,8 +240,114 @@ p{
   animation-name: fadeIn;
 }
 
+/* Slide Out Down */
+@-webkit-keyframes slideOutDown {
+  from {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
 
-/* --- Header --- */
+  to {
+    visibility: hidden;
+    -webkit-transform: translate3d(0, 100%, 0);
+    transform: translate3d(0, 100%, 0);
+  }
+}
+
+@keyframes slideOutDown {
+  from {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+
+  to {
+    visibility: hidden;
+    -webkit-transform: translate3d(0, 100%, 0);
+    transform: translate3d(0, 100%, 0);
+  }
+}
+
+.slideOutDown {
+  -webkit-animation-name: slideOutDown;
+  animation-name: slideOutDown;
+}
+
+/* Flip */
+@-webkit-keyframes flipInX {
+  from {
+    -webkit-transform: perspective(400px) rotate3d(1, 0, 0, 90deg);
+    transform: perspective(400px) rotate3d(1, 0, 0, 90deg);
+    -webkit-animation-timing-function: ease-in;
+    animation-timing-function: ease-in;
+    opacity: 0;
+  }
+
+  40% {
+    -webkit-transform: perspective(400px) rotate3d(1, 0, 0, -20deg);
+    transform: perspective(400px) rotate3d(1, 0, 0, -20deg);
+    -webkit-animation-timing-function: ease-in;
+    animation-timing-function: ease-in;
+  }
+
+  60% {
+    -webkit-transform: perspective(400px) rotate3d(1, 0, 0, 10deg);
+    transform: perspective(400px) rotate3d(1, 0, 0, 10deg);
+    opacity: 1;
+  }
+
+  80% {
+    -webkit-transform: perspective(400px) rotate3d(1, 0, 0, -5deg);
+    transform: perspective(400px) rotate3d(1, 0, 0, -5deg);
+  }
+
+  to {
+    -webkit-transform: perspective(400px);
+    transform: perspective(400px);
+  }
+}
+
+@keyframes flipInX {
+  from {
+    -webkit-transform: perspective(400px) rotate3d(1, 0, 0, 90deg);
+    transform: perspective(400px) rotate3d(1, 0, 0, 90deg);
+    -webkit-animation-timing-function: ease-in;
+    animation-timing-function: ease-in;
+    opacity: 0;
+  }
+
+  40% {
+    -webkit-transform: perspective(400px) rotate3d(1, 0, 0, -20deg);
+    transform: perspective(400px) rotate3d(1, 0, 0, -20deg);
+    -webkit-animation-timing-function: ease-in;
+    animation-timing-function: ease-in;
+  }
+
+  60% {
+    -webkit-transform: perspective(400px) rotate3d(1, 0, 0, 10deg);
+    transform: perspective(400px) rotate3d(1, 0, 0, 10deg);
+    opacity: 1;
+  }
+
+  80% {
+    -webkit-transform: perspective(400px) rotate3d(1, 0, 0, -5deg);
+    transform: perspective(400px) rotate3d(1, 0, 0, -5deg);
+  }
+
+  to {
+    -webkit-transform: perspective(400px);
+    transform: perspective(400px);
+  }
+}
+
+.flipInX {
+  -webkit-backface-visibility: visible !important;
+  backface-visibility: visible !important;
+  -webkit-animation-name: flipInX;
+  animation-name: flipInX;
+}
+
+
+/* --- ## Header ## --- */
 /* - Header Info - */
 .header .header-info{
   padding-top: 16px;
@@ -297,7 +429,7 @@ p{
 }
 
 
-/* --- Content --- */
+/* --- ## Content ## --- */
 /* - Header Title - */
 .content .header-title{
   font-family: "DINNextLTPro-Bold", Fallback, sans-serif;
@@ -322,6 +454,12 @@ p{
   color: #4b4b4b;
   text-transform: uppercase;
   text-align: center;
+}
+.content .content-caption{
+  font-family: "DINNextLTPro-Regular", Fallback, sans-serif;
+  font-size: 16px;
+  line-height: 18px;
+  color: #717b88;
 }
 .content p{
   font-size: 16px;
@@ -470,7 +608,7 @@ p{
 }
 
 
-/* --- Homepage  --- */
+/* --- ## Homepage ## --- */
 /* - Hero  - */
 .hero-slider .item{
   position: relative;
@@ -735,7 +873,7 @@ p{
 }
 
 
-/* --- Package Page --- */
+/* --- ## Package Page ## --- */
 /* - Hero - */
 .hero-package .hero-slider-content .slider-content-title{
   margin-bottom: 40px;
@@ -920,26 +1058,12 @@ p{
   margin-top: 32px;
 }
 .packdetail-price-form .control-label{
-  font-family: "DINNextLTPro-Bold", Fallback, sans-serif;
-  font-size: 16px;
-  line-height: 18px;
-  color: #4b4b4b;
   margin-bottom: 16px;
 }
 .packdetail-price-form .form-control{
-  font-family: "DINNextLTPro-Regular", Fallback, sans-serif;
-  border-color: #e5e5e5;
-  height: auto;
-  padding: 10px 24px;
-  box-shadow: none;
-  font-size: 16px;
-  line-height: 19px;
   margin-bottom: 16px;
 }
 .packdetail-price-form .help-block{
-  font-family: "DINNextLTPro-Regular", Fallback, sans-serif;
-  font-size: 14px;
-  line-height: 22px;
   font-style: italic;
 }
 .packdetail-price-form .radio-list{
@@ -1045,7 +1169,7 @@ p{
 }
 
 
-/* --- About --- */
+/* --- ## About ## --- */
 .content-about .content-header{
   margin-bottom: 36px;
 }
@@ -1136,8 +1260,66 @@ p{
 }
 
 
+/* --- ## Contact ## --- */
+.content-contact{
+  padding-top: 70px;
+  padding-bottom: 70px;
+  background-color: #fafafa;
+}
 
-/* --- Footer --- */
+/* - Contact Left - */
+.content-contact .contact-left{
+  margin-bottom: 45px;
+  padding-top: 50px;
+}
+.contact-left .content-title{
+  text-align: left;
+  margin-bottom: 8px;
+}
+.contact-left .content-caption{
+  margin-bottom: 40px;
+}
+.contact-left-form .form-control{
+  border: none;
+  padding: 14px 18px;
+  margin-bottom: 16px;
+  max-width: 100%;
+}
+.contact-left-form textarea.form-control{
+  margin-bottom: 18px;
+}
+.contact-left-form .btn{
+  padding: 20px 15px;
+  width: 100%;
+}
+
+/* - Contact Right - */
+.content-contact .contact-right{
+  padding: 50px 50px 0 50px;
+  margin-bottom: 45px;
+  position: relative;
+}
+.contact-right .contact-right-map{
+  height: 465px;
+  position: relative;
+  z-index: 3;
+}
+.contact-right .contact-right-bg{
+  width: 100%;
+  height: 100%;
+  max-width: 293px;
+  max-height: 400px;
+  background-color: #0077c2;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: auto;
+  z-index: 2;
+}
+
+
+/* --- ## Footer ## --- */
 /* - Footer Instagram Slider - */
 .footer-photo .photo-slider-item{
   height: 220px;
@@ -1265,7 +1447,7 @@ p{
 
 /* ## Mini desktop Size : 1199px - 992px ## */
 @media screen and (max-width: 1199px){
-  /* --- Homepage --- */
+  /* --- ## Homepage ## --- */
   /* - Hero - */
   .hero-slider .hero-slider-content{
     width: 970px;
@@ -1285,7 +1467,7 @@ p{
   }
   
   
-  /* --- Package Page --- */
+  /* --- ## Package Page ## --- */
   /* - Hero - */
   .hero-package .hero-slider .hero-slider-content{
     height: 300px;
@@ -1312,7 +1494,21 @@ p{
     width: 100%;
   }
   
-  /* --- Footer --- */
+  /* --- ## Contact ## --- */
+  /* - Contact Left - */
+  .content-contact .contact-left{
+    padding-top: 25px;
+  }
+  
+  /* - Contact Right - */
+  .content-contact .contact-right{
+    padding: 25px 25px 0 0;
+  }
+  .contact-right .contact-right-map{
+    height: 500px;
+  }
+  
+  /* --- ## Footer ## --- */
   .footer-photo .photo-slider-item {
     height: 160px;
   }
@@ -1321,7 +1517,7 @@ p{
 /* ## Tablet Size : 991px - 768px ## */
 @media screen and (max-width: 991px){
   
-  /* --- Header --- */
+  /* --- ## Header ## --- */
   /* - Header Info - */
   .info-contact .icon-call{
     margin-right: 9px;
@@ -1336,7 +1532,7 @@ p{
     margin-right: 0;
   }
   
-  /* --- Homepage --- */
+  /* --- ## Homepage ## --- */
   /* - Hero - */
   .hero-slider .hero-slider-content{
     width: 750px;
@@ -1374,7 +1570,8 @@ p{
     margin-top: 0;
   }
   
-  /* --- Package Page --- */
+  
+  /* --- ## Package Page ## --- */
   /* - Hero - */
   .hero-package .hero-slider .hero-slider-content{
     height: 214px;
@@ -1393,7 +1590,38 @@ p{
   }
   
   
-  /* --- Footer --- */
+  /* --- ## Contact ## --- */
+  .content-contact{
+    padding-top: 35px;
+    padding-bottom: 35px;
+  }
+  
+  /* - Contact Left - */
+  .content-contact .contact-left{
+    text-align: center;
+    padding: 0 20px;
+    margin-bottom: 55px;
+  }
+  .contact-left .content-title{
+    text-align: center;
+  }
+  
+  /* - Contact Right - */
+  .content-contact .contact-right{
+    padding: 0 20px;
+    margin-bottom: 15px;
+  }
+  .contact-right .contact-right-map{
+    height: auto;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(0,0,0,.16);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(0,0,0,.16);
+  }
+  .contact-right .contact-right-bg{
+    display: none;
+  }
+  
+  
+  /* --- ## Footer ## --- */
   .footer-menu .footer-menu-info{
     margin-top: 15px;
   }
@@ -1406,7 +1634,7 @@ p{
 
 /* ## Mobile : 767px - 640px ## */
 @media screen and (max-width: 767px){
-  /* --- Header --- */
+  /* --- ## Header ## --- */
   /* - Header Info - */
   .header-info .info-logo{
     margin-bottom: 15px;
@@ -1445,7 +1673,7 @@ p{
     border: none;
   }
   
-  /* --- Homepage --- */
+  /* --- ## Homepage ## --- */
   .hero-slider .item{
     height: 270px;
   }
@@ -1480,7 +1708,7 @@ p{
   }
   
   
-  /* --- Package Page --- */
+  /* --- ## Package Page ## --- */
   /* - Hero - */
   .hero-package .hero-slider{
     position: relative;
@@ -1504,7 +1732,7 @@ p{
   }
   
   
-  /* --- Footer --- */
+  /* --- ## Footer ## --- */
   .footer-menu .footer-menu-newsletter{
     margin-bottom: 45px;
   }
@@ -1526,7 +1754,7 @@ p{
 
 /* ## Mobile : 639px - 480px ## */
 @media screen and (max-width: 639px){
-  /* --- General Elements --- */
+  /* --- ## General Elements ## --- */
   /* - Visibility - */
   .show-large-mobile{
     display: block;
@@ -1536,7 +1764,7 @@ p{
   }
   
   
-  /* --- Homepage --- */
+  /* --- ## Homepage ## --- */
   /* - Why Choose Us - */
   .home-choose-founder .panel-body{
     max-width: none;
@@ -1545,7 +1773,7 @@ p{
     display: none;
   }
   
-  /* --- Package Page --- */
+  /* --- ## Package Page ## --- */
   /* - Hero - */
   .hero-package .hero-slider{
     height: 270px;
@@ -1599,7 +1827,7 @@ p{
   }
   
   
-  /* --- About Page --- */
+  /* --- ## About ## --- */
   .about-team .about-team-member{
     margin-bottom: 0;
   }
@@ -1628,7 +1856,7 @@ p{
 
 /* ## Mobile : 575px - 480px ## */
 @media screen and (max-width: 575px){
-  /* --- Footer --- */
+  /* --- ## Footer ## --- */
   .footer-menu .footer-menu-newsletter,
   .footer-menu .footer-menu-article,
   .footer-menu .footer-menu-info,
@@ -1639,7 +1867,7 @@ p{
 
 /* ## Mobile : 479px - 300px ## */
 @media screen and (max-width: 479px){
-  /* --- General Elements --- */
+  /* --- ## General Elements ## --- */
   /* - Visibility - */
   .show-mobile{
     display: block;
@@ -1674,7 +1902,7 @@ p{
     padding: 24px 15px;
   }
   
-  /* --- Header --- */
+  /* --- ## Header ## --- */
   .header-home .header-menu{
     display: none;
   }
@@ -1686,7 +1914,7 @@ p{
   }
   
   
-  /* --- Content --- */
+  /* --- ## Content ## --- */
   .content p{
     font-size: 12px;
   }
@@ -1694,9 +1922,12 @@ p{
     font-size: 18px;
     margin-bottom: 20px;
   }
+  .content .content-caption{
+    font-size: 14px;
+  }
   
   
-  /* --- Homepage --- */
+  /* --- ## Homepage ## --- */
   /* - Mobile Custom Menu - */
   .content-mobile-menu{
     background-color: #f2f2f2;
@@ -1864,7 +2095,7 @@ p{
     font-size: 14px;
   }
   
-  /* --- Package Page ---*/
+  /* --- ## Package ## ---*/
   /* - Hero - */
   .slider-content-info li{
     margin-right: 14px;
@@ -1920,7 +2151,7 @@ p{
   }
   
   
-  /* --- About ---*/
+  /* --- ## About ## --- */
   .about-desc{
     padding-top: 32px;
     padding-bottom: 12px;
@@ -1946,7 +2177,27 @@ p{
   }
   
   
-  /* --- Footer ---*/
+  /* ---## Contact ## --- */
+  .contact-left .content-title{
+    margin-bottom: 15px;
+  }
+  .contact-left .content-caption{
+    margin-bottom: 20px;
+  }
+  .contact-left-form .form-group{
+    margin-bottom: 8px;
+  }
+  .contact-left-form textarea.form-control,
+  .contact-left-form .form-control{
+    font-size: 14px;
+    margin-bottom: 0;
+  }
+  .contact-left-form .btn{
+    font-size: 14px;
+  }
+  
+  
+  /* ---## Footer ## --- */
   .footer-menu{
     padding-top: 30px;
     padding-bottom: 30px;

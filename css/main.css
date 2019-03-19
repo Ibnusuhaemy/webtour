@@ -192,6 +192,10 @@ p{
 .btn-green{
   background-color: #44b24f;
 }
+.btn-transparent{
+  border: 1px solid #fa6820;;
+  background-color: transparent;
+}
 
 /* - State - */
 :focus{
@@ -466,7 +470,7 @@ p{
 }
 
 /* - Cards - */
-/* Single Card */
+/* Card Single */
 .card-single{
   border: none;
   box-shadow: none;
@@ -479,10 +483,10 @@ p{
 }
 .card-single .card-single-caption{
   padding: 24px 20px;
-  height: 140px;
+  height: 100%;
   position: absolute;
   margin: auto;
-  top: auto;
+  top: 0;
   left: 0;
   right: 0;
   bottom: 0;
@@ -654,6 +658,10 @@ p{
 }
 .content-home-package .home-package-slider ul{
   margin-bottom: 0;
+}
+.home-package-slider .card-single .card-single-caption{
+  top: auto;
+  height: 140px;
 }
 
 /* - Trip - */
@@ -1447,6 +1455,13 @@ p{
 
 /* ## Mini desktop Size : 1199px - 992px ## */
 @media screen and (max-width: 1199px){
+  /* --- ## General ## --- */
+  /* - Cards - */
+  /* Card Single */
+  .card-single .card-single-title{
+    font-size: 18px;
+  }
+  
   /* --- ## Homepage ## --- */
   /* - Hero - */
   .hero-slider .hero-slider-content{
@@ -1455,9 +1470,6 @@ p{
   .hero-slider .owl-nav.disabled + .owl-dots{
     max-width: 970px;
     text-align: center;
-  }
-  .card-single .card-single-title{
-    font-size: 18px;
   }
   
   /* - Testimonial - */
@@ -1878,9 +1890,6 @@ p{
   
   /* - Cards - */
   /* Card Single */
-  .card-single .card-single-caption{
-    height: 150px;
-  }
   .card-single .card-single-tag{
     font-size: 10px;
   }
@@ -2027,8 +2036,11 @@ p{
   .home-package-slider .slider-content li{
     padding-left: 0;
   }
-  .content-home-package .card-single{
+  .home-package-slider .card-single{
     margin-bottom: 6px;
+  }
+  .home-package-slider .card-single .card-single-caption{
+    height: 150px;
   }
   
   /* - Trip - */

@@ -1,26 +1,3 @@
-<?php
-//  session_start();
-//  require_once 'vendor/instagram-php-api/Instagram.php';
-//  
-//  $config = array(
-//    'site_url' => "https://api.instagram.com/oauth/access_token",
-//    'client_id' => "8d8ade687ee449ce90c0d1d9ad976699", // Your client id
-//    'client_secret' => "ea0dc42e86bd4d499fccaaa9d3c45a27", // This Your client secret
-//    'grant_type' => "authorization_code",
-//    'redirect_uri' => "https://elfsight.com/service/generate-instagram-access-token/" // The redirect URI you provided when signed up for the service
-//  );
-//
-//  // Instantiate the API handler object
-//  $instagram = new Instagram($config);
-//  $accessToken = $instagram->getAccessToken();
-//  $_SESSION['InstagramAccessToken'] = $accessToken;
-//  
-//  $instagram->setAccessToken($_SESSION['InstagramAccessToken']);
-//  $popular = $instagram->getPopularMedia();
-//  $response = json_decode($popular, true);
-  
-?>
-
 <!DOCTYPE html>
 <html lang="en">
   <head>    
@@ -93,10 +70,10 @@
                 <ul class="nav navbar-nav menu-box-item">
                   <li class="active"><a href="index.php">Home <span class="sr-only">(current)</span></a></li>
                   <li><a href="#">Family Trip</a></li>
-                  <li><a href="package.html">Corporate Trip</a></li>
+                  <li><a href="package.php">Corporate Trip</a></li>
                   <li><a href="#">Custom Trip</a></li>
-                  <li><a href="blog.html">Blog</a></li>
-                  <li><a href="contact.html">Contact Us</a></li>
+                  <li><a href="blog.php">Blog</a></li>
+                  <li><a href="contact.php">Contact Us</a></li>
                 </ul>
               </div><!-- /.navbar-collapse -->
             </nav>
@@ -109,38 +86,94 @@
     <section class="hero">
       <div class="owl-carousel owl-theme hero-slider js-hero-slider">
         <div class="item">
-          <img src="images/sliders/jagadtour-bromo.jpg" width="4320" height="1419" alt="Jagadtour Image Slider" class="img-responsive">
+          <img src="images/sliders/jagadtour-wisata-bromo-22.jpg" width="1280" height="720" alt="Jagadtour Image Slider" class="img-responsive">
           <div class="hero-slider-content">
             <div class="container">
               <div class="row">
                 <div class="col-xs-12">
                   <div class="cover">
                     <div class="slider-content-tag">Family Trip</div>
-                    <div class="slider-content-title">Bromo Sunrise Tour</div>
-                    <div class="slider-content-text">3 Days 2 Nights</div>
-                    <a href="#" class="btn btn-box btn-orange slider-content-button">Booking Sekarang</a>
+                    <div class="slider-content-title">Paket Wisata Bromo</div>
+                    <div class="slider-content-text">One Day</div>
+                    <a href="package.php" class="btn btn-box btn-orange slider-content-button">Booking Sekarang</a>
                   </div>
                 </div>
               </div>
             </div>
           </div>
+          <div class="item-gradient item-gradient-big"></div>
         </div>
         <div class="item">
-          <img src="images/sliders/jagadtour-bromo-view.jpg" width="4320" height="1419" alt="Jagadtour Image Slider" class="img-responsive">
+          <img src="images/sliders/jagadtour-wisata-corporate-pantai-balekambang-malang-106.jpg" width="1280" height="720" alt="Jagadtour Image Slider" class="img-responsive">
+          <div class="hero-slider-content">
+            <div class="container">
+              <div class="row">
+                <div class="col-xs-12">
+                  <div class="cover">
+                    <div class="slider-content-tag">Corporate Trip</div>
+                    <div class="slider-content-title">Explore Malang dan Kota Batu</div>
+                    <div class="slider-content-text">2 Days 1 Nights</div>
+                    <a href="package.php" class="btn btn-box btn-orange slider-content-button">Booking Sekarang</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="item-gradient item-gradient-big"></div>
+        </div>
+        <div class="item">
+          <img src="images/sliders/jagadtour-wisata-eco-green-park-batu-12.jpg" width="1280" height="720" alt="Jagadtour Image Slider" class="img-responsive">
           <div class="hero-slider-content">
             <div class="container">
               <div class="row">
                 <div class="col-xs-12">
                   <div class="cover">
                     <div class="slider-content-tag">Family Trip</div>
-                    <div class="slider-content-title">Bromo Tengger Semeru Tour</div>
-                    <div class="slider-content-text">3 Days 2 Nights</div>
-                    <a href="#" class="btn btn-box btn-orange slider-content-button">Booking Sekarang</a>
+                    <div class="slider-content-title">Wisata Malang dan Batu</div>
+                    <div class="slider-content-text">2 Days 1 Nights</div>
+                    <a href="package.php" class="btn btn-box btn-orange slider-content-button">Booking Sekarang</a>
                   </div>
                 </div>
               </div>
             </div>
           </div>
+          <div class="item-gradient item-gradient-big"></div>
+        </div>
+        <div class="item">
+          <img src="images/sliders/jagadtour-wisata-corporate-bromo-104.jpg" width="1280" height="720" alt="Jagadtour Image Slider" class="img-responsive">
+          <div class="hero-slider-content">
+            <div class="container">
+              <div class="row">
+                <div class="col-xs-12">
+                  <div class="cover">
+                    <div class="slider-content-tag">Corporate Trip</div>
+                    <div class="slider-content-title">Jelajah Batu dan Bromo</div>
+                    <div class="slider-content-text">2 Days 1 Nights</div>
+                    <a href="package.php" class="btn btn-box btn-orange slider-content-button">Booking Sekarang</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="item-gradient item-gradient-big"></div>
+        </div>
+        <div class="item">
+          <img src="images/sliders/jagadtour-wisata-corporate-rafting-songa-105.jpg" width="1280" height="720" alt="Jagadtour Image Slider" class="img-responsive">
+          <div class="hero-slider-content">
+            <div class="container">
+              <div class="row">
+                <div class="col-xs-12">
+                  <div class="cover">
+                    <div class="slider-content-tag">Corporate Trip</div>
+                    <div class="slider-content-title">Rafting Songa + Bromo &amp; Batu</div>
+                    <div class="slider-content-text">3 Days 2 Nights</div>
+                    <a href="package.php" class="btn btn-box btn-orange slider-content-button">Booking Sekarang</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="item-gradient item-gradient-big"></div>
         </div>
       </div>
     </section>
@@ -172,7 +205,7 @@
                 </a>
               </li>
               <li class="mobile-menu-item">
-                <a href="#">
+                <a href="package.php">
                   <div class="panel panel-default mobile-menu-panel mobile-menu-panel-green">
                     <div class="panel-body">
                         <span class="jgicon icon-bus mobile-menu-icon"></span>
@@ -192,7 +225,7 @@
                 </a>
               </li>
               <li class="mobile-menu-item">
-                <a href="blog.html">
+                <a href="blog.php">
                   <div class="panel panel-default mobile-menu-panel mobile-menu-panel-blue">
                     <div class="panel-body">
                         <span class="jgicon icon-news mobile-menu-icon"></span>
@@ -202,7 +235,7 @@
                 </a>
               </li>
               <li class="mobile-menu-item">
-                <a href="#">
+                <a href="contact.php">
                   <div class="panel panel-default mobile-menu-panel mobile-menu-panel-green">
                     <div class="panel-body">
                         <span class="jgicon icon-call mobile-menu-icon"></span>
@@ -242,7 +275,7 @@
         <div class="home-package-slider js-home-package-slider">
           <ul class="row">
             <li class="col-sm-6 col-md-4">
-              <a href="#">
+              <a href="package.php">
                 <div class="panel panel-default card-single">
                   <div class="panel-body card-single-body">
                     <img src="images/thumbnails/jagadtour-bromo-sunrise.jpg" width="1035" height="642" alt="" class="img-responsive">
@@ -256,13 +289,13 @@
               </a>
             </li>
             <li class="col-sm-6 col-md-4">
-              <a href="#">
+              <a href="package.php">
                 <div class="panel panel-default card-single">
                   <div class="panel-body card-single-body">
                     <img src="images/thumbnails/jagadtour-kota-batu.jpg" width="1035" height="642" alt="" class="img-responsive">
                     <div class="card-single-caption">
                       <p class="tag tag-orange card-single-tag">Family Trip</p>
-                      <p class="card-single-title">Tour Batu &amp; Bromo</p>
+                      <p class="card-single-title">Tour Batu &amp; Inap di Bromo</p>
                       <p class="card-single-text">3 Days 2 Nights</p>
                     </div>
                   </div>
@@ -270,7 +303,7 @@
               </a>
             </li>
             <li class="col-sm-6 col-md-4">
-              <a href="#">
+              <a href="package.php">
                 <div class="panel panel-default card-single">
                   <div class="panel-body card-single-body">
                     <img src="images/thumbnails/jagadtour-kota-malang.jpg" width="1035" height="642" alt="" class="img-responsive">
@@ -284,13 +317,13 @@
               </a>
             </li>
             <li class="col-sm-6 col-md-4">
-              <a href="#">
+              <a href="package.php">
                 <div class="panel panel-default card-single">
                   <div class="panel-body card-single-body">
                     <img src="images/thumbnails/jagadtour-rafting-songa.jpg" width="1035" height="642" alt="" class="img-responsive">
                     <div class="card-single-caption">
                       <p class="tag tag-orange card-single-tag">Corporate Trip</p>
-                      <p class="card-single-title">Rafting Songa Bromo Batu</p>
+                      <p class="card-single-title">Rafting Songa Bromo &amp; Batu</p>
                       <p class="card-single-text">3 Days 2 Nights</p>
                     </div>
                   </div>
@@ -298,13 +331,13 @@
               </a>
             </li>
             <li class="col-sm-6 col-md-4">
-              <a href="package.html">
+              <a href="package.php">
                 <div class="panel panel-default card-single">
                   <div class="panel-body card-single-body">
                     <img src="images/thumbnails/jagadtour-rafting-songa.jpg" width="1035" height="642" alt="" class="img-responsive">
                     <div class="card-single-caption">
                       <p class="tag tag-orange card-single-tag">Corporate Trip</p>
-                      <p class="card-single-title">Tour Malang, Bromo, Batu</p>
+                      <p class="card-single-title">Tour Malang, Bromo, &amp; Batu</p>
                       <p class="card-single-text">4 Days 3 Nights</p>
                     </div>
                   </div>
@@ -312,7 +345,7 @@
               </a>
             </li>
             <li class="col-sm-6 col-md-4">
-              <a href="#">
+              <a href="package.php">
                 <div class="panel panel-default card-single">
                   <div class="panel-body card-single-body">
                     <img src="images/thumbnails/jagadtour-rafting-songa.jpg" width="1035" height="642" alt="" class="img-responsive">
@@ -333,13 +366,13 @@
     <!-- Trip Category -->
     <section class="content content-home-trip">
       <div class="container">
-        <div class="owl-carousel owl-theme home-trip-slider">
+        <div class="owl-carousel owl-theme home-trip-slider js-home-trip-slider">
           <div class="item">
             <div class="panel panel-default trip-slider-panel trip-slider-family">
               <div class="panel-body">
                 <h3 class="trip-panel-title">Family Trip</h3>
                 <p class="trip-panel-desc">Pilihan paket wisata dan tur yang cocok bagi anda dan keluarga</p>
-                <a href="#" class="btn btn-box btn-orange trip-panel-btn">Cek Paket</a>
+                <a href="package.php" class="btn btn-box btn-orange trip-panel-btn">Cek Paket</a>
               </div>
             </div>
           </div>
@@ -348,7 +381,7 @@
               <div class="panel-body">
                 <h3 class="trip-panel-title">Corporate Trip</h3>
                 <p class="trip-panel-desc">Pilihan paket wisata dan tur yang cocok bagi anda dan keluarga</p>
-                <a href="#" class="btn btn-box btn-orange trip-panel-btn">Cek Paket</a>
+                <a href="package.php" class="btn btn-box btn-orange trip-panel-btn">Cek Paket</a>
               </div>
             </div>
           </div>
@@ -357,7 +390,7 @@
               <div class="panel-body">
                 <h3 class="trip-panel-title">Custom Trip</h3>
                 <p class="trip-panel-desc">Pilihan paket wisata dan tur yang cocok bagi anda dan keluarga</p>
-                <a href="#" class="btn btn-box btn-orange trip-panel-btn">Cek Paket</a>
+                <a href="package.php" class="btn btn-box btn-orange trip-panel-btn">Cek Paket</a>
               </div>
             </div>
           </div>
@@ -367,7 +400,7 @@
                 <img src="images/icons/jagadtour-whatsapp.png" width="132" height="134" alt="Jagatour Whatsapp Contact" class="help-trip-whatsapp">
                 <h3 class="trip-panel-title">Butuh Bantuan</h3>
                 <p class="trip-panel-desc">Hubungi admin JagadTour bila anda memiliki pertanyaan tentang paket wisata</p>
-                <a href="#" class="btn btn-box btn-orange trip-panel-btn">Chat Admin</a>
+                <a href="https://web.whatsapp.com/send?phone=628113785758" class="btn btn-box btn-orange trip-panel-btn">Chat Admin</a>
               </div>
             </div>
           </div>
@@ -458,22 +491,22 @@
         </div>
         <div class="row">
           <div class="col-xs-12">
-            <div class="owl-carousel owl-theme content-testi-slider">
+            <div class="owl-carousel owl-theme content-testi-slider js-content-testi-slider">
               <div class="item">
                 <div class="panel panel-default testi-slider-item">
                   <div class="panel-body">
                     <p class="testi-slider-statement">
-                      Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has 
-                      been the industry's standard dummy text ever since the 1500s.
+                      Salut ane sama mas Basir (driver jeep) karena keseringan ke bromo kali yak jadi segala yang di bromo dia tau. 
+                      Intinya Recomended bgt!
                     </p>
                     <div class="media testi-slider-media">
                       <div class="media-left">
                         <a href="#">
-                          <img src="images/photos/putri-sahadaya.png" width="104" height="104" alt="Testimonial Putri Sahadaya di Jagadtour" class="media-object testi-slider-photo">
+                          <img src="images/photos/testimoni-18.jpg" width="104" height="104" alt="Testimonial Putri Sahadaya di Jagadtour" class="media-object testi-slider-photo">
                         </a>
                       </div>
                       <div class="media-body media-middle">
-                        <h4 class="media-heading testi-slider-name">Putri Sahadaya</h4>
+                        <h4 class="media-heading testi-slider-name">Putri</h4>
                         <p class="testi-slider-city">Bandung</p>
                       </div>
                     </div>
@@ -484,18 +517,17 @@
                 <div class="panel panel-default testi-slider-item">
                   <div class="panel-body">
                     <p class="testi-slider-statement">
-                      Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has 
-                      been the industry's standard dummy text ever since the 1500s.
+                      Selama gw join open trip, Kayaknya emang Jagadtour Group yg terbaik. Really Satisfied. Gw kasih 4 jempol deh.
                     </p>
                     <div class="media testi-slider-media">
                       <div class="media-left">
                         <a href="#">
-                          <img src="images/photos/thomas-budi.png" width="104" height="104" alt="Testimonial Thomas Budi di Jagadtour" class="media-object testi-slider-photo">
+                          <img src="images/photos/testimoni-47.jpg" width="104" height="104" alt="Testimonial Asuna Diana di Jagadtour" class="media-object testi-slider-photo">
                         </a>
                       </div>
                       <div class="media-body media-middle">
-                        <h4 class="media-heading testi-slider-name">Thomas Budi</h4>
-                        <p class="testi-slider-city">Surabaya</p>
+                        <h4 class="media-heading testi-slider-name">Alicia</h4>
+                        <p class="testi-slider-city">Bogor</p>
                       </div>
                     </div>
                   </div>
@@ -505,18 +537,18 @@
                 <div class="panel panel-default testi-slider-item">
                   <div class="panel-body">
                     <p class="testi-slider-statement">
-                      Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has 
-                      been the industry's standard dummy text ever since the 1500s.
+                      Gausah ragu pake jasa Mas Iwan, Menjelaskan di website dengan detail , keren dan harga sesuai dengan kualitasnya. 
+                      Jangan cepat tergiur dengan harga murah, join ama yg sudah terbukti. Recomended. Makasih mas iwan
                     </p>
                     <div class="media testi-slider-media">
                       <div class="media-left">
                         <a href="#">
-                          <img src="images/photos/asuna-diana.png" width="104" height="104" alt="Testimonial Asuna Diana di Jagadtour" class="media-object testi-slider-photo">
+                          <img src="images/photos/testimoni-23.jpg" width="104" height="104" alt="Testimonial Thomas Budi di Jagadtour" class="media-object testi-slider-photo">
                         </a>
                       </div>
                       <div class="media-body media-middle">
-                        <h4 class="media-heading testi-slider-name">Asuna Diana</h4>
-                        <p class="testi-slider-city">Depok</p>
+                        <h4 class="media-heading testi-slider-name">Intan</h4>
+                        <p class="testi-slider-city">Medan</p>
                       </div>
                     </div>
                   </div>
@@ -526,18 +558,42 @@
                 <div class="panel panel-default testi-slider-item">
                   <div class="panel-body">
                     <p class="testi-slider-statement">
-                      Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has 
-                      been the industry's standard dummy text ever since the 1500s.
+                      Keluarga saya seneng mas trip bromonya. Memuaskan dan pelayanannya super sekali. Ngga salah dapat disuruh mbak 
+                      Indri buat ngubungin mas Iwan yang kata dia puas pas di bromo bareng jagadtour. dan emang terbukti mas. Semoga 
+                      lancar terus ya mas, mohon maaf kalo ada yg salah selama trip bareng keluarga saya kemarin
                     </p>
                     <div class="media testi-slider-media">
                       <div class="media-left">
                         <a href="#">
-                          <img src="images/photos/putri-sahadaya.png" width="104" height="104" alt="Testimonial Thomas Budi di Jagadtour" class="media-object testi-slider-photo">
+                          <img src="images/photos/testimoni-8.jpg" width="104" height="104" alt="Testimonial Thomas Budi di Jagadtour" class="media-object testi-slider-photo">
                         </a>
                       </div>
                       <div class="media-body media-middle">
-                        <h4 class="media-heading testi-slider-name">Thomas Budi</h4>
-                        <p class="testi-slider-city">Surabaya</p>
+                        <h4 class="media-heading testi-slider-name">Ramadhany Putri</h4>
+                        <p class="testi-slider-city">Jakarta</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="item">
+                <div class="panel panel-default testi-slider-item">
+                  <div class="panel-body">
+                    <p class="testi-slider-statement">
+                      Sempat bandingin harga ke travel lain. Tapi harga 350rb yang ditawarkan Jagadtour Group sesuai dengan fasilitas 
+                      dan pelayanan yang kami dapat. Mulai dari penjemputan sampai kembali ke hotel, semua mantap. Udah gitu dapat 
+                      makan sambelnya mak nyusss. Recomended Travel to Bromo. Kalau mau ke bromo, jangan ragu pakai travelnya mas 
+                      Iwan. Thanks mas
+                    </p>
+                    <div class="media testi-slider-media">
+                      <div class="media-left">
+                        <a href="#">
+                          <img src="images/photos/testimoni-45.jpg" width="104" height="104" alt="Testimonial Thomas Budi di Jagadtour" class="media-object testi-slider-photo">
+                        </a>
+                      </div>
+                      <div class="media-body media-middle">
+                        <h4 class="media-heading testi-slider-name">Tyas</h4>
+                        <p class="testi-slider-city">Kemang Jakarta</p>
                       </div>
                     </div>
                   </div>
@@ -554,24 +610,117 @@
       <div class="container">
         <div class="row">
           <div class="col-xs-12">
-            <div class="owl-carousel owl-theme content-partner-slider">
+            <div class="owl-carousel owl-theme content-partner-slider js-content-partner-slider">
               <div class="item partner-slider-item">
-                <img src="images/thumbnails/jagadtour-amarta-hills.png" width="150" height="38" alt="Amart Hills Partner Jagadtour">
+                <img src="images/thumbnails/jagadtour-partner-101-malang.png" width="338" height="181" alt="Amart Hills Partner Jagadtour">
               </div>
               <div class="item partner-slider-item">
-                <img src="images/thumbnails/jagadtour-aston-hotel.png" width="182" height="90" alt="Aston Hotels Partner Jagadtour">
+                <img src="images/thumbnails/jagadtour-partner-accord-hotel.png" width="270" height="80" alt="Amart Hills Partner Jagadtour">
               </div>
               <div class="item partner-slider-item">
-                <img src="images/thumbnails/jagadtour-the-onsen-batu.png" width="150" height="38" alt="The Onsen Batu Partner Jagadtour">
+                <img src="images/thumbnails/jagadtour-partner-agrowisata-kusuma-malang.png" width="323" height="180" alt="Amart Hills Partner Jagadtour">
               </div>
               <div class="item partner-slider-item">
-                <img src="images/thumbnails/jagadtour-the-batu-villas.png" width="150" height="38" alt="The Batu Villas Partner Jagadtour">
+                <img src="images/thumbnails/jagadtour-partner-amarta-hills.png" width="300" height="74" alt="Amart Hills Partner Jagadtour">
               </div>
               <div class="item partner-slider-item">
-                <img src="images/thumbnails/jagadtour-sahid-montana.png" width="150" height="38" alt="Sahid Montana Partner Jagadtour">
+                <img src="images/thumbnails/jagadtour-partner-apple-green.png" width="640" height="317" alt="Amart Hills Partner Jagadtour">
               </div>
               <div class="item partner-slider-item">
-                <img src="images/thumbnails/jagadtour-river-stone.png" width="177" height="68" alt="River Stone Partner Jagadtour">
+                <img src="images/thumbnails/jagadtour-partner-aria-hotel-gajayana.png" width="167" height="162" alt="Amart Hills Partner Jagadtour">
+              </div>
+              <div class="item partner-slider-item">
+                <img src="images/thumbnails/jagadtour-partner-aston-hotel.png" width="265" height="105" alt="Amart Hills Partner Jagadtour">
+              </div>
+              <div class="item partner-slider-item">
+                <img src="images/thumbnails/jagadtour-partner-atria-hotel-malang.png" width="401" height="180" alt="Amart Hills Partner Jagadtour">
+              </div>
+              <div class="item partner-slider-item">
+                <img src="images/thumbnails/jagadtour-partner-azcarya.jpg" width="225" height="225" alt="Amart Hills Partner Jagadtour">
+              </div>
+              <div class="item partner-slider-item">
+                <img src="images/thumbnails/jagadtour-partner-cemara-indah-hotel.png" width="1307" height="426" alt="Amart Hills Partner Jagadtour">
+              </div>
+              <div class="item partner-slider-item">
+                <img src="images/thumbnails/jagadtour-partner-everyday-smart-hotel.jpg" width="300" height="116" alt="Amart Hills Partner Jagadtour">
+              </div>
+              <div class="item partner-slider-item">
+                <img src="images/thumbnails/jagadtour-partner-fave-hotel.png" width="960" height="264" alt="Amart Hills Partner Jagadtour">
+              </div>
+              <div class="item partner-slider-item">
+                <img src="images/thumbnails/jagadtour-partner-gets-hotel.png" width="180" height="225" alt="Amart Hills Partner Jagadtour">
+              </div>
+              <div class="item partner-slider-item">
+                <img src="images/thumbnails/jagadtour-partner-golden-tulip-logo.png" width="2100" height="900" alt="Amart Hills Partner Jagadtour">
+              </div>
+              <div class="item partner-slider-item">
+                <img src="images/thumbnails/jagadtour-partner-holiday-inn.png" width="200" height="145" alt="Amart Hills Partner Jagadtour">
+              </div>
+              <div class="item partner-slider-item">
+                <img src="images/thumbnails/jagadtour-partner-hotel-harris.jpg" width="1203" height="888" alt="Amart Hills Partner Jagadtour">
+              </div>
+              <div class="item partner-slider-item">
+                <img src="images/thumbnails/jagadtour-partner-hotel-tugu-malang.png" width="465" height="233" alt="Amart Hills Partner Jagadtour">
+              </div>
+              <div class="item partner-slider-item">
+                <img src="images/thumbnails/jagadtour-partner-hotel-ubud.png" width="400" height="265" alt="Amart Hills Partner Jagadtour">
+              </div>
+              <div class="item partner-slider-item">
+                <img src="images/thumbnails/jagadtour-partner-ijen-suites-malang.png" width="501" height="155" alt="Amart Hills Partner Jagadtour">
+              </div>
+              <div class="item partner-slider-item">
+                <img src="images/thumbnails/jagadtour-partner-jambuluwuk.png" width="600" height="320" alt="Amart Hills Partner Jagadtour">
+              </div>
+              <div class="item partner-slider-item">
+                <img src="images/thumbnails/jagadtour-partner-kampung-lumbung-batu.png" width="254" height="198" alt="Amart Hills Partner Jagadtour">
+              </div>
+              <div class="item partner-slider-item">
+                <img src="images/thumbnails/jagadtour-partner-kartika-wijaya.png" width="556" height="120" alt="Amart Hills Partner Jagadtour">
+              </div>
+              <div class="item partner-slider-item">
+                <img src="images/thumbnails/jagadtour-partner-klub-bunga.png" width="225" height="155" alt="Amart Hills Partner Jagadtour">
+              </div>
+              <div class="item partner-slider-item">
+                <img src="images/thumbnails/jagadtour-partner-lava-view.jpg" width="900" height="453" alt="Amart Hills Partner Jagadtour">
+              </div>
+              <div class="item partner-slider-item">
+                <img src="images/thumbnails/jagadtour-partner-panderman-view.png" width="324" height="206" alt="Amart Hills Partner Jagadtour">
+              </div>
+              <div class="item partner-slider-item">
+                <img src="images/thumbnails/jagadtour-partner-pohon-inn-hotel.jpg" width="1600" height="1027" alt="Amart Hills Partner Jagadtour">
+              </div>
+              <div class="item partner-slider-item">
+                <img src="images/thumbnails/jagadtour-partner-pop-hotel.png" width="200" height="145" alt="Amart Hills Partner Jagadtour">
+              </div>
+              <div class="item partner-slider-item">
+                <img src="images/thumbnails/jagadtour-partner-purnama-hotel.png" width="259" height="140" alt="Amart Hills Partner Jagadtour">
+              </div>
+              <div class="item partner-slider-item">
+                <img src="images/thumbnails/jagadtour-partner-river-stone.png" width="362" height="139" alt="Amart Hills Partner Jagadtour">
+              </div>
+              <div class="item partner-slider-item">
+                <img src="images/thumbnails/jagadtour-partner-royal-orchid-garden.png" width="145" height="155" alt="Amart Hills Partner Jagadtour">
+              </div>
+              <div class="item partner-slider-item">
+                <img src="images/thumbnails/jagadtour-partner-sahid-montana.png" width="267" height="189" alt="Amart Hills Partner Jagadtour">
+              </div>
+              <div class="item partner-slider-item">
+                <img src="images/thumbnails/jagadtour-partner-samara-resort-batu.png" width="300" height="187" alt="Amart Hills Partner Jagadtour">
+              </div>
+              <div class="item partner-slider-item">
+                <img src="images/thumbnails/jagadtour-partner-savana-hotel.png" width="640" height="325" alt="Amart Hills Partner Jagadtour">
+              </div>
+              <div class="item partner-slider-item">
+                <img src="images/thumbnails/jagadtour-partner-shantika-hotel.png" width="3300" height="1653" alt="Amart Hills Partner Jagadtour">
+              </div>
+              <div class="item partner-slider-item">
+                <img src="images/thumbnails/jagadtour-partner-singhasari-resort-batu.png" width="350" height="160" alt="Amart Hills Partner Jagadtour">
+              </div>
+              <div class="item partner-slider-item">
+                <img src="images/thumbnails/jagadtour-partner-trip-advisor.png" width="500" height="398" alt="Amart Hills Partner Jagadtour">
+              </div>
+              <div class="item partner-slider-item">
+                <img src="images/thumbnails/jagadtour-partner-zurich.png" width="260" height="63" alt="Amart Hills Partner Jagadtour">
               </div>
             </div>
           </div>
@@ -581,9 +730,10 @@
     
     <footer class="footer js-footer">
       <div class="footer-photo">
-        <div class="owl-carousel owl-theme photo-slider">
-        <!-- See Js Code "Photo Gallery Footer" -->
+        <div class="owl-carousel owl-theme photo-slider js-photo-slider">
+          <!-- See Js Code "Photo Gallery Footer" -->
         </div>
+        <a class="btn btn-instagram" href="https://www.instagram.com/jagadtour/"></a>
       </div>
       <div class="footer-menu">
         <div class="container">
@@ -638,7 +788,7 @@
             <div class="col-xs-6 col-sm-6 col-md-2 footer-menu-info">
               <h4>Informasi</h4>
               <ul class="info-list">
-                <li class="info-list-item"><a href="about.html">Tentang Kami</a></li>
+                <li class="info-list-item"><a href="about.php">Tentang Kami</a></li>
                 <li class="info-list-item"><a href="#">Syarat dan Ketentuan</a></li>
                 <li class="info-list-item"><a href="#">Kebijakan Privasi</a></li>
                 <li class="info-list-item"><a href="#">Cara Pembayaran</a></li>
@@ -690,7 +840,7 @@
       });
     </script>
     <script type="text/javascript">
-      $('.home-trip-slider').owlCarousel({
+      $('.js-home-trip-slider').owlCarousel({
         dots: true,
         margin: 30,
         responsive:{
@@ -710,10 +860,11 @@
       });
     </script>
     <script type="text/javascript">
-      $('.content-testi-slider').owlCarousel({
+      $('.js-content-testi-slider').owlCarousel({
         dots: true,
         loop: true,
         margin: 35,
+        slideBy: 2,
         responsive:{
           0:{
             items: 1
@@ -732,7 +883,7 @@
       });
     </script>
     <script type="text/javascript">
-      $('.content-partner-slider').owlCarousel({
+      $('.js-content-partner-slider').owlCarousel({
         loop: true,
         margin: 35,
         responsive:{
@@ -757,21 +908,31 @@
       });
     </script>
     <script type="text/javascript">
-      $('.photo-slider').owlCarousel({
+      $('.js-photo-slider').owlCarousel({
         loop: true,
         dots: false,
         responsive:{
-          240:{
+          240:{            
+            slideBy: 6,
             items: 2
           },
-          640:{
+          640:{           
+            slideBy: 3,
             items: 3
           },
           992:{
-            items: 6
+            items: 6,
+            slideBy: 5,
+            autoplay: true,
+            animateOut: 'fadeOut',
+            smartSpeed: 450
           },
           1200:{
-            items: 6
+            items: 6,
+            slideBy: 5,
+            autoplay: true,
+            animateOut: 'fadeOut',
+            smartSpeed: 450
           }
         } 
       });
@@ -807,24 +968,24 @@
     
     <!-- Photo Gallery Footer -->
     <script type="text/javascript">
-      var token = '1171395679.8d8ade6.1e8933b126e1467688e45e089c6b8451',
-        num_photos = 10;
+      var token = '1960439865.0ee328f.2d7986f0984f4c4f80b1390ff871fe69',
+      num_photos = 20;
 
-        $.ajax({
-          url: 'https://api.instagram.com/v1/users/self/media/recent',
-          dataType: 'jsonp',
-          type: 'GET',
-          data: {access_token: token, count: num_photos},
-          success: function(data){
-            console.log(data);
-            for( x in data.data ){
-              $('.photo-slider').owlCarousel('add', '<div class="photo-slider-item"><img src="'+data.data[x].images.low_resolution.url+'" width="452" height="490" alt="Jagadtour Photo Instagram"></div>').owlCarousel('update');
-            }
-          },
-          error: function(data){
-            console.log(data);
+      $.ajax({
+        url: 'https://api.instagram.com/v1/users/self/media/recent',
+        dataType: 'jsonp',
+        type: 'GET',
+        data: {access_token: token, count: num_photos},
+        success: function(data){
+          console.log(data);
+          for( x in data.data ){
+            $('.js-photo-slider').owlCarousel('add', '<div class="photo-slider-item"><img src="'+data.data[x].images.low_resolution.url+'" width="452" height="490" alt="Jagadtour Photo Instagram"></div>').owlCarousel('update');
           }
-        });
+        },
+        error: function(data){
+          console.log(data);
+        }
+      });
     </script>
 
   </body>

@@ -677,7 +677,7 @@
                 <h4 class="panel-title panel-complete-title"><span class="jgicon icon-tiket-com"></span>Cek Ketesediaan Tiket</h4>
               </div>
               <div class="panel-body panel-complete-content">
-                <form class="form-horizontal packother-form" id="packform">
+                <form class="form-horizontal packother-form" name="ticketform" id="packform" method="post" action="">
                   <div class="form-group packother-checkbox">
                     <label for="jeniskereta" class="control-label col-lg-4">Jenis</label>
                     <div class="col-lg-8">
@@ -685,7 +685,7 @@
                         <div class="radio-container">
                           <div class="radio">
                             <label class="radio-label">
-                              <input type="radio" name="optionjenis" id="optionjenis1" value="kereta" checked>
+                              <input type="radio" name="optionjenis" id="optionjenis1" value="STATION" checked>
                               <span class="cr"><i class="cr-icon glyphicon glyphicon-ok"></i></span> Kereta Api
                             </label>
                           </div>
@@ -693,7 +693,7 @@
                         <div class="radio-container">
                           <div class="radio">
                             <label class="radio-label">
-                              <input type="radio" name="optionjenis" id="optionjenis2" value="kereta"> 
+                              <input type="radio" name="optionjenis" id="optionjenis2" value="AIRPORT"> 
                               <span class="cr"><i class="cr-icon glyphicon glyphicon-ok"></i></span> Pesawat
                             </label>
                           </div>
@@ -704,23 +704,23 @@
                   <div class="form-group">
                     <label for="asal" class="control-label col-lg-4">Asal</label>
                     <div class="col-lg-8">
-                      <select class="form-control" id="asal">
-                        <option value="Jakarta">Jakarta</option>
+                      <select class="form-control" name="asal" id="asal">
+                        <option value="jakarta">Jakarta</option>
                       </select>
                     </div>
                   </div>
                   <div class="form-group">
                     <label for="tujuan" class="control-label col-lg-4">Tujuan</label>
                     <div class="col-lg-8">
-                      <select class="form-control" id="tujuan">
-                        <option value="Malang">Malang</option>
+                      <select class="form-control" name="tujuan" id="tujuan">
+                        <option value="malang">Malang</option>
                       </select>
                     </div>
                   </div>
                   <div class="form-group">
                     <label for="tujuan" class="control-label col-lg-4">Tanggal</label>
                     <div class="col-lg-8">
-                      <input type='text' class="form-control" id='datetimepicker4' />
+                      <input type='text' name="tanggal" class="form-control" id='datetimepicker4' />
                     </div>
                   </div>
                   <div class="form-group">
@@ -728,10 +728,42 @@
                       <p class="control-label">By tiket.com</p>
                     </div>
                     <div class="col-lg-7">
-                      <input type="submit" name="submitticket" id="btnsubmitticket" class="btn btn-rounded btn-orange" value="Cek Jadwal">
+                      <input type="submit" name="submitticket" id="btnsubmitticket" class="btn btn-rounded btn-orange" value="Cek Jadwal"> 
+                      <!-- <button type="button" name="submitticket" id="btnsubmitticket" class="btn btn-rounded btn-orange">Cek Jadwal</button> -->
                     </div>
                   </div>
                 </form>
+                <?php
+                  if(isset($_POST["submitticket"])){
+                    $type = $_POST['optionjenis'];
+                    $from = $_POST['asal'];
+                    $fromdata = "";
+                    $goto = $_POST['tujuan'];
+                    $gotodata = "";
+                    $date = $_POST['tanggal'];
+                    $passenger = 1;
+                    $datechange = str_replace('/', '-', $date);
+                    $dateformat = date('Y-m-d', strtotime($datechange));
+                      
+                    echo $type.$from.$goto.$dateformat;
+                    if($type == "AIRPORT"){
+                      if($from == "jakarta"){
+                        $fromdata = "JKTC";
+                      }else if($from == "malang"){
+                        $fromdata = "MLG";
+                      }
+                      
+                      if($goto == "jakarta"){
+                        $gotodata = "JKTC";
+                      }else if($goto == "malang"){
+                        $gotodata = "MLG";
+                      }
+                      
+                      header("Location:https://www.tiket.com/pesawat/search?d=".$fromdata."&a=".$gotodata."&dType=CITY&aType=AIRPORT&date=".$dateformat."&adult=1&child=0&infant=0&class=economy");
+                    }
+                    
+                  }
+                ?>
               </div>
             </div>
           </div>
@@ -993,13 +1025,24 @@
     
     <!-- Cek Tiket -->
     <script type="text/javascript">
-      var transType = document.querySelector('input[name="optionjenis"]:checked').value;
+      // var transType = $('[name="optionjenis"]:checked').val();
       var transFrom = $("#asal option:selected").text();
       var transTo = $("#tujuan option:selected").text();
       var transDate = document.getElementById('datetimepicker4').value;
       
-      $("#packform").submit(function(e) {
-        console.log(transType + " " + transFrom + " " + transTo + " " + transDate);
+      // $("#btnsubmitticket").click(function(e) {
+        // console.log(transType + " " + transFrom + " " + transTo + " " + transDate);
+      // });
+      
+      $(document).on("change","input[name=optionjenis]",function(){
+//        var transType = $('[name="optionjenis"]:checked').val();
+//        console.log(transType);
+//        if(transType == "STATION" ){
+//          document.ticketform.action = "https://www.tiket.com/kereta-api/search?";          
+//        }else if(transType == "AIRPORT"){
+//          document.ticketform.action = "https://www.tiket.com/pesawat/search?";          
+//          
+//        }
       });
       
     </script>

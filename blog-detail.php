@@ -256,13 +256,13 @@
                         </a>
                       </div>
                       <div class="media-body blog-detail-comment-content">
-                        <h4 class="media-heading">Keytar McSw <span class="comment-list-time"><i class="jgicon icon-clock"></i> 6 jam yang lalu</span></h4>
+                        <h4 class="media-heading" id="user-name-1">Keytar McSw <span class="comment-list-time"><i class="jgicon icon-clock"></i> 6 jam yang lalu</span></h4>
                         <p class="comment-list-text">
                           This was truly inspiring. My wife and I watched it twice! Thank you for ALL your hard work and in teaching 
                           such an important message. This inspires me to do things with technology that I know feels right in my heart.
                         </p>
                         <ul class="list-inline comment-list-share">
-                          <li><a href="#">Balas <i class="jgicon icon-reply"></i></a></li>
+                          <li><a href="#comment" id="reply-1">Balas <i class="jgicon icon-reply"></i></a></li>
                           <li><a href="#">Bagikan <i class="jgicon icon-share"></i></a></li>
                         </ul>
                       </div>
@@ -274,13 +274,13 @@
                         </a>
                       </div>
                       <div class="media-body blog-detail-comment-content">
-                        <h4 class="media-heading">Keytar McSw <span class="comment-list-time"><i class="jgicon icon-clock"></i> 6 jam yang lalu</span></h4>
+                        <h4 class="media-heading" id="user-name-2">Keytar McSw <span class="comment-list-time"><i class="jgicon icon-clock"></i> 6 jam yang lalu</span></h4>
                         <p class="comment-list-text">
                           This was truly inspiring. My wife and I watched it twice! Thank you for ALL your hard work and in teaching 
                           such an important message. This inspires me to do things with technology that I know feels right in my heart.
                         </p>
                         <ul class="list-inline comment-list-share">
-                          <li><a href="#">Balas <i class="jgicon icon-reply"></i></a></li>
+                          <li><a href="#comment" id="reply-2">Balas <i class="jgicon icon-reply"></i></a></li>
                           <li><a href="#">Bagikan <i class="jgicon icon-share"></i></a></li>
                         </ul>
                       </div>
@@ -495,6 +495,28 @@
         }
       });
     </script>
+
+    <!-- comment -->
+  <script>
+    $(document).ready(function(){
+      var name;
+      $("html #reply-1").click(function(){
+        $("html #comment").text(function(){
+          name = $("#user-name-1").clone().children().remove().end().text();
+        return "@" + name;
+      });
+  });
+});
+    $(document).ready(function(){
+      var name;
+      $("html #reply-1").click(function(){
+        $("html #comment").text(function(){
+          name = $("#user-name-1").clone().children().remove().end().text();
+        return "@" + name;
+      });
+  });
+});
+  </script>
     
   </body>
 </html>

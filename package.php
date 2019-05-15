@@ -677,7 +677,7 @@
                 <h4 class="panel-title panel-complete-title"><span class="jgicon icon-tiket-com"></span>Cek Ketesediaan Tiket</h4>
               </div>
               <div class="panel-body panel-complete-content">
-                <form class="form-horizontal packother-form" name="ticketform" id="packform" method="post" action="">
+                <form class="form-horizontal packother-form" name="ticketform" id="packform" method="post" action="linking.php">
                   <div class="form-group packother-checkbox">
                     <label for="jeniskereta" class="control-label col-lg-4">Jenis</label>
                     <div class="col-lg-8">
@@ -733,37 +733,6 @@
                     </div>
                   </div>
                 </form>
-                <?php
-                  if(isset($_POST["submitticket"])){
-                    $type = $_POST['optionjenis'];
-                    $from = $_POST['asal'];
-                    $fromdata = "";
-                    $goto = $_POST['tujuan'];
-                    $gotodata = "";
-                    $date = $_POST['tanggal'];
-                    $passenger = 1;
-                    $datechange = str_replace('/', '-', $date);
-                    $dateformat = date('Y-m-d', strtotime($datechange));
-                      
-                    echo $type.$from.$goto.$dateformat;
-                    if($type == "AIRPORT"){
-                      if($from == "jakarta"){
-                        $fromdata = "JKTC";
-                      }else if($from == "malang"){
-                        $fromdata = "MLG";
-                      }
-                      
-                      if($goto == "jakarta"){
-                        $gotodata = "JKTC";
-                      }else if($goto == "malang"){
-                        $gotodata = "MLG";
-                      }
-                      
-                      header("Location:https://www.tiket.com/pesawat/search?d=".$fromdata."&a=".$gotodata."&dType=CITY&aType=AIRPORT&date=".$dateformat."&adult=1&child=0&infant=0&class=economy");
-                    }
-                    
-                  }
-                ?>
               </div>
             </div>
           </div>
@@ -1044,8 +1013,16 @@
 //          
 //        }
       });
-      
+
     </script>
     
   </body>
+  <?php
+  
+  $btn=$_POST['#btnsubmitticket'];
+
+  if($btn){
+    header("Location:https://stackoverflow.com/questions/768431/how-do-i-make-a-redirect-in-php");
+  }
+  ?>
 </html>

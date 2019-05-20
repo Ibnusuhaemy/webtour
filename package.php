@@ -706,6 +706,12 @@
                     <div class="col-lg-8">
                       <select class="form-control" name="asal" id="asal">
                         <option value="jakarta">Jakarta</option>
+                        <option value="malang">Malang</option>
+                        <option value="bandung">Bandung</option>
+                        <option value="semarang">Semarang</option>
+                        <option value="surabaya">Surabaya</option>
+                        <option value="yogyakarta">Yogyakarta</option>
+                        <option value="banyuwangi">Banyuwangi</option>
                       </select>
                     </div>
                   </div>
@@ -713,7 +719,13 @@
                     <label for="tujuan" class="control-label col-lg-4">Tujuan</label>
                     <div class="col-lg-8">
                       <select class="form-control" name="tujuan" id="tujuan">
+                        <option value="jakarta">Jakarta</option>
                         <option value="malang">Malang</option>
+                        <option value="bandung">Bandung</option>
+                        <option value="semarang">Semarang</option>
+                        <option value="surabaya">Surabaya</option>
+                        <option value="yogyakarta">Yogyakarta</option>
+                        <option value="banyuwangi">Banyuwangi</option>
                       </select>
                     </div>
                   </div>

@@ -413,7 +413,9 @@
         </div>
         <div class="row listed-button">
           <div class="col-xs-12">
-            <button type="button" class="btn btn-transparent">Lihat Artikel Lainnya</button>
+            <!-- <button type="button" class="btn btn-transparent"> Lihat Artikel Lainnya</button> -->
+            <a class="btn btn-transparent" href="blog-list.php">Lihat Artikel Lainnya</a>
+
           </div>
         </div>
       </div>

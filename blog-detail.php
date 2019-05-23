@@ -161,7 +161,7 @@
                   <h3 class="blog-detail-big-title">Artikel Terkait</h3>
                 </div>
                 <div class="col-sm-6 related-title-right">
-                  <p class="related-thumbnail-more"><a href="#">Lebih banyak lagi</a></p>
+                  <p class="related-thumbnail-more"><a href="blog-list.php">Lebih banyak lagi</a></p>
                 </div>
               </div>
               <div class="row listed-card list list-group-list blog-detail-listed-card">

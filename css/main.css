@@ -1834,6 +1834,15 @@ p{
   max-height: 85px;
 }
 
+/* - Blog list*/
+.content-blog-list .header-title{
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.content-blog-list .listed-filter{
+  margin-top: 15px;
+}
 
 /* --- ## Footer ## --- */
 /* - Footer Instagram Slider - */

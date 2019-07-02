@@ -42,12 +42,12 @@
           <div class="col-sm-8 col-md-7 info-contact">
             <span class="jgicon icon-call"></span>
             <div class="contact-call">
-              <p class="contact-caption">For Technical Assistant</p>
-              <p class="contact-number"><a href="#">+62 123 772 821</a></p>
+              <p class="contact-caption">For General Questions</p>
+              <p class="contact-number"><a href="#">+63415051185</a></p>
             </div>
             <div class="contact-call">
               <p class="contact-caption">For Booking and Inquiries</p>
-              <p class="contact-number"><a href="#">+62 878 889 992</a></p>
+              <p class="contact-number"><a href="#">+628113785758</a></p>
             </div>
           </div>
         </div>
@@ -83,6 +83,8 @@
       </div>
     </header>
     
+  <!-- Content Warp -->
+  <div class="warper">
     <!-- About Team -->
     <section class="content content-contact">
       <div class="container">
@@ -118,7 +120,7 @@
         </div>
       </div>  
     </section>
-    
+  </div>  
     <!-- Package Detail -->
     <footer class="footer js-footer">
       <div class="footer-photo">

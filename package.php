@@ -40,12 +40,12 @@
           <div class="col-sm-8 col-md-7 info-contact">
             <span class="jgicon icon-call"></span>
             <div class="contact-call">
-              <p class="contact-caption">For Technical Assistant</p>
-              <p class="contact-number"><a href="#">+62 123 772 821</a></p>
+              <p class="contact-caption">For General Questions</p>
+              <p class="contact-number"><a href="#">+63415051185</a></p>
             </div>
             <div class="contact-call">
               <p class="contact-caption">For Booking and Inquiries</p>
-              <p class="contact-number"><a href="#">+62 878 889 992</a></p>
+              <p class="contact-number"><a href="#">+628113785758</a></p>
             </div>
           </div>
         </div>
@@ -69,7 +69,7 @@
                 <ul class="nav navbar-nav menu-box-item">
                   <li><a href="index.php">Home <span class="sr-only">(current)</span></a></li>
                   <li><a href="#">Family Trip</a></li>
-                  <li class="active"><a href="package.php">Corporate Trip</a></li>
+                  <li  class="active"><a href="package.php">Corporate Trip</a></li>
                   <li><a href="#">Custom Trip</a></li>
                   <li><a href="blog.php">Blog</a></li>
                   <li><a href="contact.php">Contact Us</a></li>
@@ -81,6 +81,8 @@
       </div>
     </header>
     
+  <!-- Content Warp -->
+  <div class="warper">
     <!-- Hero Slider -->
     <section class="hero hero-package">
       <div class="hero-slider">
@@ -113,7 +115,7 @@
         </div>
       </div>
     </section>
-    
+  </div>  
     <!-- Package Detail -->
     <section class="content content-packdetail">
       <div class="container">

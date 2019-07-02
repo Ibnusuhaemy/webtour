@@ -360,8 +360,16 @@ p{
 /* --- ## Header ## --- */
 .header{
   box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.03);
-  z-index: 3;
-  position: relative;
+  position: fixed;
+  z-index: 4;
+  background-color: #fff;
+  width: 100%;
+}
+.header {
+  
+}
+.warper{
+  padding-top: 135px;
 }
 /* - Header Info - */
 .header .header-info{
@@ -2293,6 +2301,9 @@ p{
   /* --- ## General ## --- */
   .item-gradient{
     display: none;
+  }
+  .warper {
+    padding-top: 80px;
   }
   /* - Card List - */
   .listed-card .list-group-item{

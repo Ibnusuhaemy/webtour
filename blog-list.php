@@ -44,12 +44,12 @@
         <div class="col-sm-8 col-md-7 info-contact">
           <span class="jgicon icon-call"></span>
           <div class="contact-call">
-            <p class="contact-caption">For Technical Assistant</p>
-            <p class="contact-number"><a href="#">+62 123 772 821</a></p>
+            <p class="contact-caption">For General Questions</p>
+            <p class="contact-number"><a href="#">+63415051185</a></p>
           </div>
           <div class="contact-call">
             <p class="contact-caption">For Booking and Inquiries</p>
-            <p class="contact-number"><a href="#">+62 878 889 992</a></p>
+            <p class="contact-number"><a href="#">+628113785758</a></p>
           </div>
         </div>
       </div>
@@ -72,12 +72,13 @@
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse menu-box-collapse" id="bs-example-navbar-collapse-1">
               <ul class="nav navbar-nav menu-box-item">
-                <li><a href="index.php">Home <span class="sr-only">(current)</span></a></li>
-                <li><a href="#">Family Trip</a></li>
-                <li><a href="package.php">Corporate Trip</a></li>
-                <li><a href="#">Custom Trip</a></li>
-                <li class="active"><a href="blog.php">Blog</a></li>
-                <li><a href="contact.php">Contact Us</a></li>
+                  <li><a href="index.php">Home<span class="sr-only">(current)</span></a></li>
+                  <li><a href="#">Family Trip</a></li>
+                  <li><a href="package.php">Corporate</a></li>
+                  <li><a href="#">Custom Trip</a></li>
+                  <li><a href="#">Gallery & Testimoni</a></li>
+                  <li><a href="blog.php">Blog</a></li>
+                  <li><a href="contact.php">Contact Us</a></li>
               </ul>
             </div><!-- /.navbar-collapse -->
           </nav>
@@ -86,8 +87,9 @@
     </div>
   </header>
 
+  <!-- Content Warp -->
+  <div class="warper">
   <!-- Listed Article -->
-
   <section class="content content-listed-article content-blog-list" id="listed">
     <div class="container">
       <div class="row">
@@ -357,7 +359,7 @@
       </div>
     </div>
   </section>
-
+</div>
 
   <!-- Package Detail -->
   <footer class="footer js-footer">

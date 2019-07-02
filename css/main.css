@@ -2119,6 +2119,9 @@ p{
     margin-left: 0;
     margin-right: 0;
   }
+  .menu-box .menu-box-item li a{
+    font-size: 11px;
+  }
   
   /* --- ## Homepage ## --- */
   /* - Hero - */

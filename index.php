@@ -330,12 +330,12 @@
               <a href="package.php">
                 <div class="panel panel-default card-single">
                   <div class="panel-body card-single-body">
-                    <img src="images/thumbnails/jagadtour-bromo-sunrise.jpg" width="1035" height="642" alt="" class="img-responsive">
+                    <img src="images/thumbnails/jagadtour-kota-malang.jpg" width="1035" height="642" alt="" class="img-responsive">
                     <div class="card-single-packet row">
                       <div class="left col-md-9 col-xs-9">
-                        <p class="card-single-title">Bromo Sunrise Tour</p>
+                        <p class="card-single-title">Tour Malang, Batu &amp; Bromo</p>
                         <p class="tag tag-orange card-single-tag">Family Trip</p>
-                        <p class="card-single-text duration">1 Day</p>
+                        <p class="card-single-text duration">4 Days 3 Nights</p>
                       </div>                      
                       <div class="right col-md-3 col-xs-3">
                         <p class="card-single-text">Booked</p>
@@ -350,12 +350,12 @@
               <a href="package.php">
                 <div class="panel panel-default card-single">
                   <div class="panel-body card-single-body">
-                    <img src="images/thumbnails/jagadtour-bromo-sunrise.jpg" width="1035" height="642" alt="" class="img-responsive">
+                    <img src="images/thumbnails/jagadtour-rafting-songa.jpg" width="1035" height="642" alt="" class="img-responsive">
                     <div class="card-single-packet row">
                       <div class="left col-md-9 col-xs-9">
-                        <p class="card-single-title">Bromo Sunrise Tour</p>
+                        <p class="card-single-title">Rafting Songa Bromo &amp; Batu</p>
                         <p class="tag tag-blue card-single-tag">Corporate Trip</p>
-                        <p class="card-single-text duration">1 Day</p>
+                        <p class="card-single-text duration">3 Days 2 Nights</p>
                       </div>                      
                       <div class="right col-md-3 col-xs-3">
                         <p class="card-single-text">Booked</p>
@@ -370,12 +370,12 @@
               <a href="package.php">
                 <div class="panel panel-default card-single">
                   <div class="panel-body card-single-body">
-                    <img src="images/thumbnails/jagadtour-bromo-sunrise.jpg" width="1035" height="642" alt="" class="img-responsive">
+                    <img src="images/thumbnails/jagadtour-rafting-songa.jpg" width="1035" height="642" alt="" class="img-responsive">
                     <div class="card-single-packet row">
                       <div class="left col-md-9 col-xs-9">
-                        <p class="card-single-title">Bromo Sunrise Tour</p>
+                        <p class="card-single-title">Tour Malang, Bromo, &amp; Batu</p>
                         <p class="tag tag-blue card-single-tag">Corporate Trip</p>
-                        <p class="card-single-text duration">1 Day</p>
+                        <p class="card-single-text duration">4 Days 3 Nights</p>
                       </div>                      
                       <div class="right col-md-3 col-xs-3">
                         <p class="card-single-text">Booked</p>
@@ -390,12 +390,12 @@
               <a href="package.php">
                 <div class="panel panel-default card-single">
                   <div class="panel-body card-single-body">
-                    <img src="images/thumbnails/jagadtour-bromo-sunrise.jpg" width="1035" height="642" alt="" class="img-responsive">
+                    <img src="images/thumbnails/jagadtour-rafting-songa.jpg" width="1035" height="642" alt="" class="img-responsive">
                     <div class="card-single-packet row">
                       <div class="left col-md-9 col-xs-9">
-                        <p class="card-single-title">Bromo Sunrise Tour</p>
+                        <p class="card-single-title">Tour Museum Malang</p>
                         <p class="tag tag-blue card-single-tag">Corporate Trip</p>
-                        <p class="card-single-text duration">1 Day</p>
+                        <p class="card-single-text duration">3 Days 2 Nights</p>
                       </div>                      
                       <div class="right col-md-3 col-xs-3">
                         <p class="card-single-text">Booked</p>

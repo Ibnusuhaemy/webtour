@@ -25,8 +25,7 @@
     
     <link rel="stylesheet" type="text/css" href="vendor/angle-vladov-mobile-slider/jquery.mobile-slider.min.css">
     
-    <link rel="stylesheet" type="text/css" href="css/main.css">
-
+    <link rel="stylesheet" type="text/css" href="css/main.css?v7">
   </head>
   <body>
 
@@ -96,98 +95,6 @@
           <div class="video-content-text">With Jagad Tour</div> 
         </div>
       </div> 
-      <!-- <div class="owl-carousel owl-theme hero-slider js-hero-slider">
-        <div class="item">
-          <img src="images/sliders/jagadtour-wisata-bromo-22.jpg" width="1280" height="720" alt="Jagadtour Image Slider" class="img-responsive">
-          <div class="hero-slider-content">
-            <div class="container">
-              <div class="row">
-                <div class="col-xs-12">
-                  <div class="cover">
-                    <div class="slider-content-tag">Family Trip</div>
-                    <div class="slider-content-title">Paket Wisata Bromo</div>
-                    <div class="slider-content-text">One Day</div>
-                    <a href="package.php" class="btn btn-box btn-orange slider-content-button">Booking Sekarang</a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="item-gradient item-gradient-big"></div>
-        </div>
-        <div class="item">
-          <img src="images/sliders/jagadtour-wisata-corporate-pantai-balekambang-malang-106.jpg" width="1280" height="720" alt="Jagadtour Image Slider" class="img-responsive">
-          <div class="hero-slider-content">
-            <div class="container">
-              <div class="row">
-                <div class="col-xs-12">
-                  <div class="cover">
-                    <div class="slider-content-tag">Corporate Trip</div>
-                    <div class="slider-content-title">Explore Malang dan Kota Batu</div>
-                    <div class="slider-content-text">2 Days 1 Nights</div>
-                    <a href="package.php" class="btn btn-box btn-orange slider-content-button">Booking Sekarang</a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="item-gradient item-gradient-big"></div>
-        </div>
-        <div class="item">
-          <img src="images/sliders/jagadtour-wisata-eco-green-park-batu-12.jpg" width="1280" height="720" alt="Jagadtour Image Slider" class="img-responsive">
-          <div class="hero-slider-content">
-            <div class="container">
-              <div class="row">
-                <div class="col-xs-12">
-                  <div class="cover">
-                    <div class="slider-content-tag">Family Trip</div>
-                    <div class="slider-content-title">Wisata Malang dan Batu</div>
-                    <div class="slider-content-text">2 Days 1 Nights</div>
-                    <a href="package.php" class="btn btn-box btn-orange slider-content-button">Booking Sekarang</a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="item-gradient item-gradient-big"></div>
-        </div>
-        <div class="item">
-          <img src="images/sliders/jagadtour-wisata-corporate-bromo-104.jpg" width="1280" height="720" alt="Jagadtour Image Slider" class="img-responsive">
-          <div class="hero-slider-content">
-            <div class="container">
-              <div class="row">
-                <div class="col-xs-12">
-                  <div class="cover">
-                    <div class="slider-content-tag">Corporate Trip</div>
-                    <div class="slider-content-title">Jelajah Batu dan Bromo</div>
-                    <div class="slider-content-text">2 Days 1 Nights</div>
-                    <a href="package.php" class="btn btn-box btn-orange slider-content-button">Booking Sekarang</a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="item-gradient item-gradient-big"></div>
-        </div>
-        <div class="item">
-          <img src="images/sliders/jagadtour-wisata-corporate-rafting-songa-105.jpg" width="1280" height="720" alt="Jagadtour Image Slider" class="img-responsive">
-          <div class="hero-slider-content">
-            <div class="container">
-              <div class="row">
-                <div class="col-xs-12">
-                  <div class="cover">
-                    <div class="slider-content-tag">Corporate Trip</div>
-                    <div class="slider-content-title">Rafting Songa + Bromo &amp; Batu</div>
-                    <div class="slider-content-text">3 Days 2 Nights</div>
-                    <a href="package.php" class="btn btn-box btn-orange slider-content-button">Booking Sekarang</a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="item-gradient item-gradient-big"></div>
-        </div>
-      </div> -->
     </section>
     
     <!-- Mobile Custom Menu -->
@@ -419,7 +326,7 @@
             <div class="panel panel-default trip-slider-panel trip-slider-family">
               <div class="panel-body">
                 <h3 class="trip-panel-title">Family Trip</h3>
-                <p class="trip-panel-desc">Pilihan paket wisata dan tur yang cocok bagi anda dan keluarga</p>
+                <p class="trip-panel-desc"> Pilihan paket wisata dan tour yang cocok bagi anda dan keluarga dengan jumlah kurang dari 20 orang</p>
                 <a href="package.php" class="btn btn-box btn-orange trip-panel-btn">Cek Paket</a>
               </div>
             </div>
@@ -428,7 +335,7 @@
             <div class="panel panel-default trip-slider-panel trip-slider-corporate">
               <div class="panel-body">
                 <h3 class="trip-panel-title">Corporate Trip</h3>
-                <p class="trip-panel-desc">Pilihan paket wisata dan tur yang cocok bagi anda dan keluarga</p>
+                <p class="trip-panel-desc">Pilihan Paket wisata dan tour yang cocok untuk perusahaan atau instansi anda dengan peserta lebih dari 20 orang</p>
                 <a href="package.php" class="btn btn-box btn-orange trip-panel-btn">Cek Paket</a>
               </div>
             </div>
@@ -437,7 +344,7 @@
             <div class="panel panel-default trip-slider-panel trip-slider-custom">
               <div class="panel-body">
                 <h3 class="trip-panel-title">Custom Trip</h3>
-                <p class="trip-panel-desc">Pilihan paket wisata dan tur yang cocok bagi anda dan keluarga</p>
+                <p class="trip-panel-desc">Buat sendiri list tour dan wisata dengan pilihan destinasi favorit anda</p>
                 <a href="package.php" class="btn btn-box btn-orange trip-panel-btn">Cek Paket</a>
               </div>
             </div>
@@ -447,7 +354,7 @@
               <div class="panel-body">
                 <img src="images/icons/jagadtour-whatsapp.png" width="132" height="134" alt="Jagatour Whatsapp Contact" class="help-trip-whatsapp">
                 <h3 class="trip-panel-title">Butuh Bantuan</h3>
-                <p class="trip-panel-desc">Hubungi admin JagadTour bila anda memiliki pertanyaan tentang paket wisata</p>
+                <p class="trip-panel-desc">Hubungi admin Jagad Tour bila anda memiliki pertanyaan tentang paket wisata</p>
                 <a href="https://web.whatsapp.com/send?phone=628113785758" class="btn btn-box btn-orange trip-panel-btn">Chat Admin</a>
               </div>
             </div>
@@ -455,54 +362,67 @@
         </div>
       </div>
     </section>
-    
+
     <!-- Why Choose Us -->
     <section class="content content-home-choose">
       <div class="container">
         <div class="row">
-          <h2 class="content-title">Mengapa Memilih Jagadtour</h2>
+          <h2 class="content-title">Mengapa Memilih Jagad Tour</h2>
         </div>
         <div class="row">
           <div class="col-md-5">
             <div class="media home-choose-media">
               <div class="media-left choose-media-image">
-                <a href="#">
-                  <img class="media-object img-responsive" src="images/icons/jagadtour-experience.png" width="312" height="309" alt="Pengalaman Jagadtour">
-                </a>
+              </div>
+              <div class="media-body media-middle choose-media-desc">
+                <h4 class="media-heading">Trusted</h4>
+                <div id="terpercaya"></div>
+                <p class="media-content">
+                  Karena Legalitas perusahaan sangat jelas
+                </p>
+              </div>
+            </div>
+            <div class="media home-choose-media">
+              <div class="media-left choose-media-image">
+              </div>
+              <div class="media-body media-middle choose-media-desc">
+                <h4 class="media-heading">Tim Profesional</h4>
+                <div id="solid"></div>
+                <p class="media-content">
+                  Karena Tim kami Solid dan all out di setiap project
+                </p>
+              </div>
+            </div>
+            <div class="media home-choose-media">
+              <div class="media-left choose-media-image">
+              </div>
+              <div class="media-body media-middle choose-media-desc">
+                <h4 class="media-heading">Service Terbaik</h4>
+                <div id="service"></div>
+                <p class="media-content">
+                  Karena dari segi apapun, kami Beda dari yang lain
+                </p>
+              </div>
+            </div>
+            <div class="media home-choose-media">
+              <div class="media-left choose-media-image">
+              </div>
+              <div class="media-body media-middle choose-media-desc">
+                <h4 class="media-heading">Terima Beres</h4>
+                <div id="done"></div>
+                <p class="media-content">
+                  Karena Sudah kami siapkan dengan sempurna
+                </p>
+              </div>
+            </div>
+            <div class="media home-choose-media">
+              <div class="media-left choose-media-image">
               </div>
               <div class="media-body media-middle choose-media-desc">
                 <h4 class="media-heading">Paling Berpengalaman</h4>
+                <div id="pengalaman"></div>
                 <p class="media-content">
-                  It has survived not only five centuries, but also the leap into electronic typesetting, 
-                  remaining essentially unchanged.
-                </p>
-              </div>
-            </div>
-            <div class="media home-choose-media">
-              <div class="media-left choose-media-image">
-                <a href="#">
-                  <img class="media-object img-responsive" src="images/icons/jagadtour-travel.png" width="312" height="309" alt="Fasilitas Travel, Kuliner, dan Hotel Jagadtour">
-                </a>
-              </div>
-              <div class="media-body media-middle choose-media-desc">
-                <h4 class="media-heading">Travel, Kuliner, Hotel</h4>
-                <p class="media-content">
-                  It has survived not only five centuries, but also the leap into electronic typesetting, 
-                  remaining essentially unchanged.
-                </p>
-              </div>
-            </div>
-            <div class="media home-choose-media">
-              <div class="media-left choose-media-image">
-                <a href="#">
-                  <img class="media-object img-responsive" src="images/icons/jagadtour-harga.png" width="312" height="309" alt="Harga Paket Jagadtour">
-                </a>
-              </div>
-              <div class="media-body media-middle choose-media-desc">
-                <h4 class="media-heading">Ramah di Kantong</h4>
-                <p class="media-content">
-                  It has survived not only five centuries, but also the leap into electronic typesetting, 
-                  remaining essentially unchanged.
+                  Karena jam terbang tim kami diatas rata – rata
                 </p>
               </div>
             </div>
@@ -512,13 +432,18 @@
               <div class="panel-body">
                 <h5 class="choose-founder-title">Pesan dari Founder</h5>
                 <p class="choose-founder-desc">
-                  Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has 
-                  been the industry's standard dummy text ever since the 1500s, when an unknown printer took a 
-                  galley of type and scrambled it to make a type specimen book. 
+                  Misi kami sederhana yaitu bagaimana kami bisa memberi kebahagiaan lebih
+                 kepada semua customers kami 
                 </p>
                 <p class="choose-founder-desc">
-                It has survived not only five 
-                  centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
+                 serta membuat sebuah perjalanan yang tidak 
+                 hanya sebatas jalan – jalan dan menikmati destinasi wisata
+                </p>
+                <p class="choose-founder-desc">
+                  tetapi menyelipkan 
+                  kepedulian dan kepekaan terhadap sesama
+                </p>
+                <p class="choose-founder-desc">               
                 </p>
                 <cite class="choose-founder-name">- Ikhwanul Ma'arif</cite>
                 <img class="choose-founder-photo" src="images/photos/photo-founder.png" width="735" height="1173" alt="Ikhwanul Maarif, founder Jagadtour">
@@ -808,7 +733,7 @@
                     <img class="media-object" src="images/thumbnails/jagadtour-ig-2.jpg" width="490" height="490" alt="Jagadtour Artikel">
                   </a>
                 </div>
-                <div class="media-body media-middle">
+                <div class="media-body">
                   <p>Tips mendaki dan berkeliling gunung bromo</p>
                 </div>
               </div>
@@ -818,7 +743,17 @@
                     <img class="media-object" src="images/thumbnails/jagadtour-ig-1.jpg" width="452" height="490" alt="Jagadtour Artikel">
                   </a>
                 </div>
-                <div class="media-body media-middle">
+                <div class="media-body">
+                  <p>Biaya dan itenerary pantai balekambang malang</p>
+                </div>
+              </div>
+              <div class="media article-media">
+                <div class="media-left article-media-photo">
+                  <a href="#">
+                    <img class="media-object" src="images/thumbnails/jagadtour-ig-1.jpg" width="452" height="490" alt="Jagadtour Artikel">
+                  </a>
+                </div>
+                <div class="media-body">
                   <p>Biaya dan itenerary pantai balekambang malang</p>
                 </div>
               </div>
@@ -828,7 +763,7 @@
                     <img class="media-object" src="images/thumbnails/jagadtour-ig-6.jpg" width="478" height="490" alt="Jagadtour Artikel">
                   </a>
                 </div>
-                <div class="media-body media-middle">
+                <div class="media-body">
                   <p>Kuliner jadul nan nikmat di sekitar kota malang</p>
                 </div>
               </div>
@@ -853,6 +788,13 @@
                 Kota Malang, Jawa Timur <br>
                 Kodepos : 65148
               </p>
+              <p class="contact-content">Find Us</p>
+              <p class="contact-content">
+                <a class="contact-content-sm" href="#"><i class="fa fa-instagram"></i></a>
+                <a class="contact-content-sm" href="#"><i class="fa fa-facebook-square"></i></a>
+                <a class="contact-content-sm" href="#"><i class="fa fa-twitter-square"></i></a>
+                <a class="contact-content-sm" href="#"><i class="fa fa-youtube-play"></i></a>
+              </p>
               <p class="contact-content">Email: halo@jagadtour.com</p>
               <p class="contact-content">Whatsapp: 0868887289290</p>
             </div>
@@ -863,7 +805,7 @@
         <div class="container">
           <div class="row">
             <div class="col-md-6 copyright-left">
-              <p>Copyright © 2018 JagadTour.com. All right reserved.</p>
+              <p>Copyright © 2019 Jagad Tour | All right reserved.</p>
             </div>
             <div class="col-md-6 copyright-right">
               <p>Website designed &amp; developed by Illiyin Studio</p>
@@ -877,6 +819,7 @@
     <script type="text/javascript" src="vendor/jquery.3.2.1/jquery.3.2.1.min.js"></script>
     <script type="text/javascript" src="vendor/bootstrap.3.3.7/js/bootstrap.min.js"></script>
     <script type="text/javascript" src="vendor/owl-carousel.2.3.4/owl.carousel.min.js"></script>
+    <script type="text/javascript" src="node_modules/progressbar.js/dist/progressbar.min.js"></script>
     <script type="text/javascript">
       $('.js-hero-slider').owlCarousel({
         dots: true,
@@ -887,6 +830,165 @@
         smartSpeed: 450
       });
     </script>
+
+     <!-- Progress Bar -->
+     <script type="text/javascript">
+          var barTrust = new ProgressBar.Line(terpercaya, {
+              strokeWidth: 4,
+              easing: 'easeInOut',
+              duration: 1400,
+              color: '#FF681F',
+              trailColor: 'white',
+              trailWidth: 1,
+              svgStyle: {width: '100%', height: '100%', borderRadius: '10px'},
+              text: {
+                style: {
+                  // Text color.
+                  // Default: same as stroke color (options.color)
+                  color: 'black',
+                  position: 'absolute',
+                  fontFamily: '"DINNextLTPro-Regular", Fallback, sans-serif',
+                  fontSize:'13px',
+                  right: '0',
+                  padding: 0,
+                  margin: 0,
+                  transform: null
+                },
+                autoStyleContainer: false
+              },
+              from: {color: '#FFEA82'},
+              to: {color: '#ED6A5A'},
+              step: (state, bar) => {
+                bar.setText(Math.round(bar.value() * 100) + ' %');
+              }
+            });
+          barTrust.animate(1.0);  // Number from 0.0 to 1.0
+
+          var barSolid = new ProgressBar.Line(solid, {
+              strokeWidth: 4,
+              easing: 'easeInOut',
+              duration: 1400,
+              color: '#FF681F',
+              trailColor: 'white',
+              trailWidth: 1,
+              svgStyle: {width: '100%', height: '100%', borderRadius: '10px'},
+              text: {
+                style: {
+                  // Text color.
+                  // Default: same as stroke color (options.color)
+                  color: 'black',
+                  fontFamily: '"DINNextLTPro-Regular", Fallback, sans-serif',
+                  fontSize:'13px',
+                  position: 'absolute',
+                  right: '0',
+                  padding: 0,
+                  margin: 0,
+                  transform: null
+                },
+                autoStyleContainer: false
+              },
+              from: {color: '#FFEA82'},
+              to: {color: '#ED6A5A'},
+              step: (state, bar) => {
+                bar.setText(Math.round(bar.value() * 100) + ' %');
+              }
+            });
+          barSolid.animate(0.97);  // Number from 0.0 to 1.0
+
+          var barService = new ProgressBar.Line(service, {
+              strokeWidth: 4,
+              easing: 'easeInOut',
+              duration: 1400,
+              color: '#FF681F',
+              trailColor: 'white',
+              trailWidth: 1,
+              svgStyle: {width: '100%', height: '100%', borderRadius: '10px'},
+              text: {
+                style: {
+                  // Text color.
+                  // Default: same as stroke color (options.color)
+                  color: 'black',
+                  fontFamily: '"DINNextLTPro-Regular", Fallback, sans-serif',
+                  fontSize:'13px',
+                  position: 'absolute',
+                  right: '0',
+                  padding: 0,
+                  margin: 0,
+                  transform: null
+                },
+                autoStyleContainer: false
+              },
+              from: {color: '#FFEA82'},
+              to: {color: '#ED6A5A'},
+              step: (state, bar) => {
+                bar.setText(Math.round(bar.value() * 100) + ' %');
+              }
+            });
+          barService.animate(0.98);  // Number from 0.0 to 1.0
+
+          var barDone = new ProgressBar.Line(done, {
+              strokeWidth: 4,
+              easing: 'easeInOut',
+              duration: 1400,
+              color: '#FF681F',
+              trailColor: 'white',
+              trailWidth: 1,
+              svgStyle: {width: '100%', height: '100%', borderRadius: '10px'},
+              text: {
+                style: {
+                  // Text color.
+                  // Default: same as stroke color (options.color)
+                  color: 'black',
+                  fontFamily: '"DINNextLTPro-Regular", Fallback, sans-serif',
+                  fontSize:'13px',
+                  position: 'absolute',
+                  right: '0',
+                  padding: 0,
+                  margin: 0,
+                  transform: null
+                },
+                autoStyleContainer: false
+              },
+              from: {color: '#FFEA82'},
+              to: {color: '#ED6A5A'},
+              step: (state, bar) => {
+                bar.setText(Math.round(bar.value() * 100) + ' %');
+              }
+            });
+          barDone.animate(0.97);  // Number from 0.0 to 1.0
+
+          var barPengalaman = new ProgressBar.Line(pengalaman, {
+              strokeWidth: 4,
+              easing: 'easeInOut',
+              duration: 1400,
+              color: '#FF681F',
+              trailColor: 'white',
+              trailWidth: 1,
+              svgStyle: {width: '100%', height: '100%', borderRadius: '10px'},
+              text: {
+                style: {
+                  // Text color.
+                  // Default: same as stroke color (options.color)
+                  color: 'black',
+                  fontFamily: '"DINNextLTPro-Regular", Fallback, sans-serif',
+                  fontSize:'13px',
+                  position: 'absolute',
+                  right: '0',
+                  padding: 0,
+                  margin: 0,
+                  transform: null
+                },
+                autoStyleContainer: false
+              },
+              from: {color: '#FFEA82'},
+              to: {color: '#ED6A5A'},
+              step: (state, bar) => {
+                bar.setText(Math.round(bar.value() * 100) + ' %');
+              }
+            });
+          barPengalaman.animate(0.98);  // Number from 0.0 to 1.0
+    </script>
+
     <script type="text/javascript">
       $('.js-home-trip-slider').owlCarousel({
         dots: true,
@@ -1035,6 +1137,5 @@
         }
       });
     </script>
-
   </body>
 </html>

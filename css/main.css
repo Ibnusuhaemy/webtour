@@ -542,7 +542,7 @@ p{
 }
 .card-single-packet .card-single-title{
   font-family: "DINNextLTPro-Medium", Fallback, sans-serif;
-  font-size: 22px;
+  font-size: 17px;
   color: #000;
   text-transform: uppercase;
 }
@@ -707,11 +707,10 @@ p{
 .hero-video-content{
   position: absolute;
   margin: auto;
-  top: 0;
   left: 0;
   right: 0;
   bottom: 0;
-  height: 214px;
+  height: 0;
   display: block;
 }
 .hero-slider-content .slider-content-tag{
@@ -859,8 +858,17 @@ p{
 .trip-slider-family .trip-panel-title{
   color: #fc5830;
 }
+.trip-slider-family .trip-panel-desc{
+  color: #fff;
+}
 .trip-slider-corporate .trip-panel-title{
   color: #0077c2;
+}
+.trip-slider-custom .trip-panel-title{
+  color: #fc5830;
+}
+.trip-slider-custom .trip-panel-desc{
+  color: #fff;
 }
 .content-home-trip .trip-slider-custom{
   background-image: url(../images/thumbnails/jagadtour-paket-custom.jpg);
@@ -916,6 +924,7 @@ p{
   font-family: "DINNextLTPro-Regular", Fallback, sans-serif;
   line-height: 19px;
   color: #787878;
+  width: 90%;
 }
 
 .content-home-choose .home-choose-founder{
@@ -1991,8 +2000,8 @@ p{
 }
 .article-media-photo a{
   display: block;
-  width: 60px;
-  height: 60px;
+  width: 40px;
+  height: 40px;
   background-color: #d9d9d9;
   border-radius: 2px;
   overflow: hidden;
@@ -2004,10 +2013,13 @@ p{
 }
 
 .info-list .info-list-item{
-  line-height: 36px;
+  line-height: 25px;
 }
 .footer-menu-contact .contact-content{
   line-height: 25px;
+}
+.contact-content .contact-content-sm{
+  margin-right: 15px;
 }
 .footer-menu-contact .contact-address{
   margin-bottom: 20px;
@@ -2392,14 +2404,6 @@ p{
   }
   
   /* --- ## Homepage ## --- */
-  .hero-slider .item{
-    height: 270px;
-  }
-  .hero-slider .item img{
-    height: 270px;
-    width: auto;
-    max-width: none;
-  }
   .hero-video .hero-video-content{
     text-align: center;
     width: 100%;
@@ -2537,6 +2541,7 @@ p{
   }
   .hero-video-content{
     height: 214px;
+    top: 0;
   }
   
   /* - Content - */
@@ -2742,6 +2747,9 @@ p{
   }
   .card-single .card-single-text{
     font-size: 13px;
+  }
+  .card-single-packet .card-single-title{
+    font-size: 14px;
   }
   
   /* Panel Complete */
@@ -3183,6 +3191,50 @@ p{
   .footer-menu .footer-menu-contact{
     margin-bottom: 20px;
   }
+}
+
+
+/* --- Progress Bar --- */
+
+#terpercaya {
+  margin: auto;
+  margin-bottom: 10px;
+  width: 100%;
+  height: 8px;
+  position: relative;
+  display: block;
+}
+#solid {
+  margin: auto;
+  margin-bottom: 10px;
+  width: 100%;
+  height: 8px;
+  position: relative;
+  display: block;
+}
+#pengalaman {
+  margin: auto;
+  margin-bottom: 10px;
+  width: 100%;
+  height: 8px;
+  position: relative;
+  display: block;
+}
+#done {
+  margin: auto;
+  margin-bottom: 10px;
+  width: 100%;
+  height: 8px;
+  position: relative;
+  display: block;
+}
+#service {
+  margin: auto;
+  margin-bottom: 10px;
+  width: 100%;
+  height: 8px;
+  position: relative;
+  display: block;
 }
 
 /* --- Retina Settings --- */

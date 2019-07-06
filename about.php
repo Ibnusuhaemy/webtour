@@ -73,7 +73,7 @@
                   <li><a href="#">Family Trip</a></li>
                   <li><a href="package.php">Corporate</a></li>
                   <li><a href="#">Custom Trip</a></li>
-                  <li><a href="#">Gallery & Testimoni</a></li>
+                  <li><a href="gallery-testi.php">Gallery & Testimoni</a></li>
                   <li><a href="blog.php">Blog</a></li>
                   <li><a href="contact.php">Contact Us</a></li>
                 </ul>

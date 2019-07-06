@@ -460,6 +460,7 @@
         <div class="row">
           <div class="col-md-6">
             <h2 class="content-title content-testi-title">Testimonials</h2>
+            <p>Apa kata mereka setelah menggunakan jasa Jagad Tour :</p>
             <div class="owl-carousel owl-theme content-testi-slider js-content-testi-slider">
               <div class="item">
                 <div class="panel panel-default testi-slider-item">
@@ -573,6 +574,7 @@
           </div>
           <div class="col-md-6">
             <h2 class="content-title content-testi-title">Our Happy Clients</h2>
+            <p>Mereka sudah mempercayakan tripnya kepada kami, giliran Anda selanjutnya</p>
             <ul class="list-inline happy-clients">
               <li class="happy-client-item">
                 <img src="images/clients/aiesec%20jakarta.png" width="596" height="84" class="img-responsive">
@@ -598,128 +600,6 @@
       </div>
     </section>
     
-    <!-- Partners -->
-    <section class="content content-partner">
-      <div class="container">
-        <div class="row">
-          <div class="col-xs-12">
-            <div class="owl-carousel owl-theme content-partner-slider js-content-partner-slider">
-              <div class="item partner-slider-item">
-                <img src="images/thumbnails/jagadtour-partner-101-malang.png" width="338" height="181" alt="Amart Hills Partner Jagadtour">
-              </div>
-              <div class="item partner-slider-item">
-                <img src="images/thumbnails/jagadtour-partner-accord-hotel.png" width="270" height="80" alt="Amart Hills Partner Jagadtour">
-              </div>
-              <div class="item partner-slider-item">
-                <img src="images/thumbnails/jagadtour-partner-agrowisata-kusuma-malang.png" width="323" height="180" alt="Amart Hills Partner Jagadtour">
-              </div>
-              <div class="item partner-slider-item">
-                <img src="images/thumbnails/jagadtour-partner-amarta-hills.png" width="300" height="74" alt="Amart Hills Partner Jagadtour">
-              </div>
-              <div class="item partner-slider-item">
-                <img src="images/thumbnails/jagadtour-partner-apple-green.png" width="640" height="317" alt="Amart Hills Partner Jagadtour">
-              </div>
-              <div class="item partner-slider-item">
-                <img src="images/thumbnails/jagadtour-partner-aria-hotel-gajayana.png" width="167" height="162" alt="Amart Hills Partner Jagadtour">
-              </div>
-              <div class="item partner-slider-item">
-                <img src="images/thumbnails/jagadtour-partner-aston-hotel.png" width="265" height="105" alt="Amart Hills Partner Jagadtour">
-              </div>
-              <div class="item partner-slider-item">
-                <img src="images/thumbnails/jagadtour-partner-atria-hotel-malang.png" width="401" height="180" alt="Amart Hills Partner Jagadtour">
-              </div>
-              <div class="item partner-slider-item">
-                <img src="images/thumbnails/jagadtour-partner-azcarya.jpg" width="225" height="225" alt="Amart Hills Partner Jagadtour">
-              </div>
-              <div class="item partner-slider-item">
-                <img src="images/thumbnails/jagadtour-partner-cemara-indah-hotel.png" width="1307" height="426" alt="Amart Hills Partner Jagadtour">
-              </div>
-              <div class="item partner-slider-item">
-                <img src="images/thumbnails/jagadtour-partner-everyday-smart-hotel.jpg" width="300" height="116" alt="Amart Hills Partner Jagadtour">
-              </div>
-              <div class="item partner-slider-item">
-                <img src="images/thumbnails/jagadtour-partner-fave-hotel.png" width="960" height="264" alt="Amart Hills Partner Jagadtour">
-              </div>
-              <div class="item partner-slider-item">
-                <img src="images/thumbnails/jagadtour-partner-gets-hotel.png" width="180" height="225" alt="Amart Hills Partner Jagadtour">
-              </div>
-              <div class="item partner-slider-item">
-                <img src="images/thumbnails/jagadtour-partner-golden-tulip-logo.png" width="2100" height="900" alt="Amart Hills Partner Jagadtour">
-              </div>
-              <div class="item partner-slider-item">
-                <img src="images/thumbnails/jagadtour-partner-holiday-inn.png" width="200" height="145" alt="Amart Hills Partner Jagadtour">
-              </div>
-              <div class="item partner-slider-item">
-                <img src="images/thumbnails/jagadtour-partner-hotel-harris.jpg" width="1203" height="888" alt="Amart Hills Partner Jagadtour">
-              </div>
-              <div class="item partner-slider-item">
-                <img src="images/thumbnails/jagadtour-partner-hotel-tugu-malang.png" width="465" height="233" alt="Amart Hills Partner Jagadtour">
-              </div>
-              <div class="item partner-slider-item">
-                <img src="images/thumbnails/jagadtour-partner-hotel-ubud.png" width="400" height="265" alt="Amart Hills Partner Jagadtour">
-              </div>
-              <div class="item partner-slider-item">
-                <img src="images/thumbnails/jagadtour-partner-ijen-suites-malang.png" width="501" height="155" alt="Amart Hills Partner Jagadtour">
-              </div>
-              <div class="item partner-slider-item">
-                <img src="images/thumbnails/jagadtour-partner-jambuluwuk.png" width="600" height="320" alt="Amart Hills Partner Jagadtour">
-              </div>
-              <div class="item partner-slider-item">
-                <img src="images/thumbnails/jagadtour-partner-kampung-lumbung-batu.png" width="254" height="198" alt="Amart Hills Partner Jagadtour">
-              </div>
-              <div class="item partner-slider-item">
-                <img src="images/thumbnails/jagadtour-partner-kartika-wijaya.png" width="556" height="120" alt="Amart Hills Partner Jagadtour">
-              </div>
-              <div class="item partner-slider-item">
-                <img src="images/thumbnails/jagadtour-partner-klub-bunga.png" width="225" height="155" alt="Amart Hills Partner Jagadtour">
-              </div>
-              <div class="item partner-slider-item">
-                <img src="images/thumbnails/jagadtour-partner-lava-view.jpg" width="900" height="453" alt="Amart Hills Partner Jagadtour">
-              </div>
-              <div class="item partner-slider-item">
-                <img src="images/thumbnails/jagadtour-partner-panderman-view.png" width="324" height="206" alt="Amart Hills Partner Jagadtour">
-              </div>
-              <div class="item partner-slider-item">
-                <img src="images/thumbnails/jagadtour-partner-pohon-inn-hotel.jpg" width="1600" height="1027" alt="Amart Hills Partner Jagadtour">
-              </div>
-              <div class="item partner-slider-item">
-                <img src="images/thumbnails/jagadtour-partner-pop-hotel.png" width="200" height="145" alt="Amart Hills Partner Jagadtour">
-              </div>
-              <div class="item partner-slider-item">
-                <img src="images/thumbnails/jagadtour-partner-purnama-hotel.png" width="259" height="140" alt="Amart Hills Partner Jagadtour">
-              </div>
-              <div class="item partner-slider-item">
-                <img src="images/thumbnails/jagadtour-partner-river-stone.png" width="362" height="139" alt="Amart Hills Partner Jagadtour">
-              </div>
-              <div class="item partner-slider-item">
-                <img src="images/thumbnails/jagadtour-partner-royal-orchid-garden.png" width="145" height="155" alt="Amart Hills Partner Jagadtour">
-              </div>
-              <div class="item partner-slider-item">
-                <img src="images/thumbnails/jagadtour-partner-sahid-montana.png" width="267" height="189" alt="Amart Hills Partner Jagadtour">
-              </div>
-              <div class="item partner-slider-item">
-                <img src="images/thumbnails/jagadtour-partner-samara-resort-batu.png" width="300" height="187" alt="Amart Hills Partner Jagadtour">
-              </div>
-              <div class="item partner-slider-item">
-                <img src="images/thumbnails/jagadtour-partner-savana-hotel.png" width="640" height="325" alt="Amart Hills Partner Jagadtour">
-              </div>
-              <div class="item partner-slider-item">
-                <img src="images/thumbnails/jagadtour-partner-shantika-hotel.png" width="3300" height="1653" alt="Amart Hills Partner Jagadtour">
-              </div>
-              <div class="item partner-slider-item">
-                <img src="images/thumbnails/jagadtour-partner-singhasari-resort-batu.png" width="350" height="160" alt="Amart Hills Partner Jagadtour">
-              </div>
-              <div class="item partner-slider-item">
-                <img src="images/thumbnails/jagadtour-partner-trip-advisor.png" width="500" height="398" alt="Amart Hills Partner Jagadtour">
-              </div>
-              <div class="item partner-slider-item">
-                <img src="images/thumbnails/jagadtour-partner-zurich.png" width="260" height="63" alt="Amart Hills Partner Jagadtour">
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
     
     <footer class="footer js-footer">
       <div class="footer-photo">

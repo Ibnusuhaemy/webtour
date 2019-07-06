@@ -819,7 +819,7 @@
     <script type="text/javascript" src="vendor/jquery.3.2.1/jquery.3.2.1.min.js"></script>
     <script type="text/javascript" src="vendor/bootstrap.3.3.7/js/bootstrap.min.js"></script>
     <script type="text/javascript" src="vendor/owl-carousel.2.3.4/owl.carousel.min.js"></script>
-    <script type="text/javascript" src="node_modules/progressbar.js/dist/progressbar.min.js"></script>
+    <script type="text/javascript" src="vendor/progressbar.js/dist/progressbar.min.js"></script>
     <script type="text/javascript">
       $('.js-hero-slider').owlCarousel({
         dots: true,

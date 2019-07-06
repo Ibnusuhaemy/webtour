@@ -1013,6 +1013,22 @@ p{
   margin-bottom: 0;
 }
 
+/* Happy Clients */
+.happy-clients .happy-client-item{
+  display: inline-block;
+  width: 25%;
+  height: auto;
+  padding: 10px;
+  vertical-align: middle;
+  text-align: center;
+  margin-right: -3px;
+}
+.happy-clients .happy-client-item img{
+  max-height: 100px;
+  width: auto;
+  display: inline-block;
+}
+
 /* Partner */
 .content-partner{
   padding-top: 46px;

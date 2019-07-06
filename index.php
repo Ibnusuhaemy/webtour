@@ -25,7 +25,7 @@
     
     <link rel="stylesheet" type="text/css" href="vendor/angle-vladov-mobile-slider/jquery.mobile-slider.min.css">
     
-    <link rel="stylesheet" type="text/css" href="css/main.css?v7">
+    <link rel="stylesheet" type="text/css" href="css/main.css?v=7">
   </head>
   <body>
 
@@ -458,12 +458,8 @@
     <section class="content content-testi">
       <div class="container">
         <div class="row">
-          <div class="col-xs-12">
+          <div class="col-md-6">
             <h2 class="content-title content-testi-title">Testimonials</h2>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-xs-12">
             <div class="owl-carousel owl-theme content-testi-slider js-content-testi-slider">
               <div class="item">
                 <div class="panel panel-default testi-slider-item">
@@ -573,6 +569,30 @@
                 </div>
               </div>
             </div>
+            
+          </div>
+          <div class="col-md-6">
+            <h2 class="content-title content-testi-title">Our Happy Clients</h2>
+            <ul class="list-inline happy-clients">
+              <li class="happy-client-item">
+                <img src="images/clients/aiesec%20jakarta.png" width="596" height="84" class="img-responsive">
+              </li>
+              <li class="happy-client-item">
+                <img src="images/clients/bank%20bri.jpg" width="1600" height="824" class="img-responsive">
+              </li>
+              <li class="happy-client-item">
+                <img src="images/clients/bhayangkari%20seruyan.png" width="962" height="863" class="img-responsive">
+              </li>
+              <li class="happy-client-item">
+                <img src="images/clients/bps%20kota%20palu.jpg" width="1024" height="576" class="img-responsive">
+              </li>
+              <li class="happy-client-item">
+                <img src="images/clients/dharma%20wanita%20samarinda.png" width="400" height="300" class="img-responsive">
+              </li>
+              <li class="happy-client-item">
+                <img src="images/clients/dinas%20kesehatan%20muara%20enim.png" width="174" height="200" class="img-responsive">
+              </li>
+            </ul>
           </div>
         </div>
       </div>
@@ -819,7 +839,7 @@
     <script type="text/javascript" src="vendor/jquery.3.2.1/jquery.3.2.1.min.js"></script>
     <script type="text/javascript" src="vendor/bootstrap.3.3.7/js/bootstrap.min.js"></script>
     <script type="text/javascript" src="vendor/owl-carousel.2.3.4/owl.carousel.min.js"></script>
-    <script type="text/javascript" src="node_modules/progressbar.js/dist/progressbar.min.js"></script>
+    <script type="text/javascript" src="vendor/progressbar.js/dist/progressbar.js"></script>
     <script type="text/javascript">
       $('.js-hero-slider').owlCarousel({
         dots: true,
@@ -1020,13 +1040,13 @@
             items: 1
           },
           640:{
-            items: 2
+            items: 1
           },
           768:{
-            items: 3
+            items: 1
           },
           1200:{
-            items: 3,
+            items: 1,
             autoplay: true
           }
         } 

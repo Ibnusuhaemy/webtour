@@ -460,7 +460,7 @@
         <div class="row">
           <div class="col-md-6">
             <h2 class="content-title content-testi-title">Testimonials</h2>
-            <p>Apa kata mereka setelah menggunakan jasa Jagad Tour :</p>
+            <p class="media-content-testi">Apa kata mereka setelah menggunakan jasa Jagad Tour</p>
             <div class="owl-carousel owl-theme content-testi-slider js-content-testi-slider">
               <div class="item">
                 <div class="panel panel-default testi-slider-item">
@@ -503,7 +503,7 @@
                   </div>
                 </div>
               </div>
-              <div class="item">
+              <!-- <div class="item">
                 <div class="panel panel-default testi-slider-item">
                   <div class="panel-body">
                     <p class="testi-slider-statement">
@@ -523,8 +523,8 @@
                     </div>
                   </div>
                 </div>
-              </div>
-              <div class="item">
+              </div> -->
+              <!-- <div class="item">
                 <div class="panel panel-default testi-slider-item">
                   <div class="panel-body">
                     <p class="testi-slider-statement">
@@ -545,8 +545,8 @@
                     </div>
                   </div>
                 </div>
-              </div>
-              <div class="item">
+              </div> -->
+              <!-- <div class="item">
                 <div class="panel panel-default testi-slider-item">
                   <div class="panel-body">
                     <p class="testi-slider-statement">
@@ -568,33 +568,153 @@
                     </div>
                   </div>
                 </div>
-              </div>
+              </div> -->
             </div>
-            
+            <a href="#" style="text-decoration: none;"><p class="media-content-testi-link">Baca Lainnya ></p></a>
+
           </div>
           <div class="col-md-6">
             <h2 class="content-title content-testi-title">Our Happy Clients</h2>
-            <p>Mereka sudah mempercayakan tripnya kepada kami, giliran Anda selanjutnya</p>
-            <ul class="list-inline happy-clients">
-              <li class="happy-client-item">
-                <img src="images/clients/aiesec%20jakarta.png" width="596" height="84" class="img-responsive">
-              </li>
-              <li class="happy-client-item">
-                <img src="images/clients/bank%20bri.jpg" width="1600" height="824" class="img-responsive">
-              </li>
-              <li class="happy-client-item">
-                <img src="images/clients/bhayangkari%20seruyan.png" width="962" height="863" class="img-responsive">
-              </li>
-              <li class="happy-client-item">
-                <img src="images/clients/bps%20kota%20palu.jpg" width="1024" height="576" class="img-responsive">
-              </li>
-              <li class="happy-client-item">
-                <img src="images/clients/dharma%20wanita%20samarinda.png" width="400" height="300" class="img-responsive">
-              </li>
-              <li class="happy-client-item">
-                <img src="images/clients/dinas%20kesehatan%20muara%20enim.png" width="174" height="200" class="img-responsive">
-              </li>
-            </ul>
+            <p class="media-content-testi">Mereka sudah mempercayakan tripnya kepada kami, giliran Anda selanjutnya</p>
+            <div class="owl-carousel owl-theme content-testi-slider js-content-partner-slider">
+              <div class="item">
+                <ul class="list-inline happy-clients">
+                  <li class="happy-client-item">
+                    <img src="images/clients/aiesec%20jakarta.png" width="596" height="84" class="img-responsive">
+                  </li>
+                  <li class="happy-client-item">
+                    <img src="images/clients/bank%20bri.jpg" width="1600" height="824" class="img-responsive">
+                  </li>
+                  <li class="happy-client-item">
+                    <img src="images/clients/bhayangkari%20seruyan.png" width="962" height="863" class="img-responsive">
+                  </li>
+                  <li class="happy-client-item">
+                    <img src="images/clients/bps%20kota%20palu.jpg" width="1024" height="576" class="img-responsive">
+                  </li>
+                  <li class="happy-client-item">
+                    <img src="images/clients/dharma%20wanita%20samarinda.png" width="400" height="300" class="img-responsive">
+                  </li>
+                  <li class="happy-client-item">
+                    <img src="images/clients/dinas%20kesehatan%20muara%20enim.png" width="174" height="200" class="img-responsive">
+                  </li>
+                  <li class="happy-client-item">
+                    <img src="images/clients/pertamina%20gas.jpg" width="174" height="200" class="img-responsive">
+                  </li>
+                  <li class="happy-client-item">
+                    <img src="images/clients/jict%20jakarta.jpg" width="174" height="200" class="img-responsive">
+                  </li>
+                </ul>
+              </div>
+              <div class="item">
+                <ul class="list-inline happy-clients">
+                  <li class="happy-client-item">
+                    <img src="images/clients/sma%20taruna%20bumi%20khatulistiwa.gif" width="596" height="84" class="img-responsive">
+                  </li>
+                  <li class="happy-client-item">
+                    <img src="images/clients/pt%20prisma%20harapan.jpg" width="1600" height="824" class="img-responsive">
+                  </li>
+                  <li class="happy-client-item">
+                    <img src="images/clients/pt%20ray%20cipta%20mandiri.JPG" width="962" height="863" class="img-responsive">
+                  </li>
+                  <li class="happy-client-item">
+                    <img src="images/clients/pt%20star%20concord%20indonesia.jpg" width="1024" height="576" class="img-responsive">
+                  </li>
+                  <li class="happy-client-item">
+                    <img src="images/clients/pt%20sucofindo%20jakarta.jpg" width="400" height="300" class="img-responsive">
+                  </li>
+                  <li class="happy-client-item">
+                    <img src="images/clients/smk%20muhammadiyah.jpg" width="174" height="200" class="img-responsive">
+                  </li>
+                  <li class="happy-client-item">
+                    <img src="images/clients/iwaba%20bengkulu.png" width="174" height="200" class="img-responsive">
+                  </li>
+                  <li class="happy-client-item">
+                    <img src="images/clients/jasa%20marga%20balikpapan.png" width="174" height="200" class="img-responsive">
+                  </li>
+                </ul>
+              </div>
+              <div class="item">
+                <ul class="list-inline happy-clients">
+                  <li class="happy-client-item">
+                    <img src="images/clients/kabupaten%20bungo.png" width="596" height="84" class="img-responsive">
+                  </li>
+                  <li class="happy-client-item">
+                    <img src="images/clients/kemendikbud.png" width="1600" height="824" class="img-responsive">
+                  </li>
+                  <li class="happy-client-item">
+                    <img src="images/clients/kemenkumham.png" width="962" height="863" class="img-responsive">
+                  </li>
+                  <li class="happy-client-item">
+                    <img src="images/clients/kementrian%20kesehatan%20ri.png" width="1024" height="576" class="img-responsive">
+                  </li>
+                  <li class="happy-client-item">
+                    <img src="images/clients/maestro%20law%20affice%20jakarta.png" width="400" height="300" class="img-responsive">
+                  </li>
+                  <li class="happy-client-item">
+                    <img src="images/clients/makassar%20terminal%20services.png" width="174" height="200" class="img-responsive">
+                  </li>
+                  <li class="happy-client-item">
+                    <img src="images/clients/pr%20reska%20multi%20usaha.png" width="174" height="200" class="img-responsive">
+                  </li>
+                  <li class="happy-client-item">
+                    <img src="images/clients/pt%20bayan%20resources.png" width="174" height="200" class="img-responsive">
+                  </li>
+                </ul>
+              </div>
+              <div class="item">
+                <ul class="list-inline happy-clients">
+                  <li class="happy-client-item">
+                    <img src="images/clients/pt juke solusi.png" width="596" height="84" class="img-responsive">
+                  </li>
+                  <li class="happy-client-item">
+                    <img src="images/clients/pt kompindo fontana raya.png" width="1600" height="824" class="img-responsive">
+                  </li>
+                  <li class="happy-client-item">
+                    <img src="images/clients/pt mitrasetia jaya group.png" width="962" height="863" class="img-responsive">
+                  </li>
+                  <li class="happy-client-item">
+                    <img src="images/clients/pt ptp tanjung priok.png" width="1024" height="576" class="img-responsive">
+                  </li>
+                  <li class="happy-client-item">
+                    <img src="images/clients/pt pundi mitra kencana.png" width="400" height="300" class="img-responsive">
+                  </li>
+                  <li class="happy-client-item">
+                    <img src="images/clients/pt setia sapta.png" width="174" height="200" class="img-responsive">
+                  </li>
+                  <li class="happy-client-item">
+                    <img src="images/clients/pt talbia jakarta.png" width="174" height="200" class="img-responsive">
+                  </li>
+                  <li class="happy-client-item">
+                    <img src="images/clients/pwp ru pakning.png" width="174" height="200" class="img-responsive">
+                  </li>
+                </ul>
+              </div>
+              <div class="item">
+                <ul class="list-inline happy-clients">
+                  <li class="happy-client-item">
+                    <img src="images/clients/telkom.png" width="596" height="84" class="img-responsive">
+                  </li>
+                  <li class="happy-client-item">
+                    <img src="images/clients/tmim sunter.png" width="1600" height="824" class="img-responsive">
+                  </li>
+                  <li class="happy-client-item">
+                    <img src="images/clients/trisakti.png" width="962" height="863" class="img-responsive">
+                  </li>
+                  <li class="happy-client-item">
+                    <img src="images/clients/united asia futures.png" width="1024" height="576" class="img-responsive">
+                  </li>
+                  <li class="happy-client-item">
+                    <img src="images/clients/universitas negeri padang.png" width="400" height="300" class="img-responsive">
+                  </li>
+                  <li class="happy-client-item">
+                    <img src="images/clients/yayasan nurul hikmah jakarta.png" width="174" height="200" class="img-responsive">
+                  </li>
+                  <li class="happy-client-item">
+                    <img src="images/clients/yeos family.png" width="174" height="200" class="img-responsive">
+                  </li>
+                </ul>
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -614,7 +734,7 @@
             <div class="col-xs-6 col-sm-6 col-md-3 footer-menu-newsletter">
               <h4>Newsletter</h4>
               <p class="newsletter-desc">
-                Dapatkan tips dan info diskon paket wisata terbaru dari JagadTour melalui email anda. Gratis!
+                Dapatkan tips dan info diskon paket wisata terbaru dari Jagad Tour melalui email anda. Gratis!
               </p>
               <form class="newsletter-form">
                 <div class="form-group">
@@ -722,7 +842,7 @@
     <script type="text/javascript" src="vendor/progressbar.js/dist/progressbar.js"></script>
     <script type="text/javascript">
       $('.js-hero-slider').owlCarousel({
-        dots: true,
+        dots: false,
         items: 1,
         loop: true,
         autoplay: true,
@@ -911,7 +1031,7 @@
     </script>
     <script type="text/javascript">
       $('.js-content-testi-slider').owlCarousel({
-        dots: true,
+        dots: false,
         loop: true,
         margin: 35,
         slideBy: 2,
@@ -934,24 +1054,22 @@
     </script>
     <script type="text/javascript">
       $('.js-content-partner-slider').owlCarousel({
+        dots: true,
         loop: true,
         margin: 35,
+        slideBy: 2,
         responsive:{
-          240:{
-            dots: true,
-            items: 2
+          0:{
+            items: 1
           },
-          480:{
-            dots: true,
-            items: 4
+          640:{
+            items: 1
           },
-          992:{
-            dots: false,
-            items: 6
+          768:{
+            items: 1
           },
           1200:{
-            items: 6,
-            dots: false,
+            items: 1,
             autoplay: true
           }
         } 

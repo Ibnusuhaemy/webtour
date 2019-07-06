@@ -495,6 +495,7 @@ p{
   border: none;
   box-shadow: none;
   border-radius: 6px;
+  overflow: hidden;
 }
 .card-single-body{
   padding: 0;
@@ -1369,6 +1370,27 @@ p{
   padding-right: 5px;
 }
 
+
+/* --- ## Gallery & Testimonials ## --- */
+.content-gallery-list{
+  margin-bottom: 45px;
+}
+.content-gallery-list img{
+  border-radius: 6px;
+  position: relative;
+  z-index: 2;
+}
+.content-gallery-list .card-single .card-single-body{
+  max-height: 400px;
+}
+.content-gallery-list .card-single .card-single-packet{
+  z-index: 3;
+  position: relative;
+  background: #fff;
+}
+.content-testi-list{
+  margin-bottom: 60px;
+}
 
 /* --- ## About ## --- */
 .content-about .content-header{

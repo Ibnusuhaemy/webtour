@@ -96,7 +96,7 @@
                   <li><a href="package.html">Corporate Trip</a></li>
                   <li><a href="#">Custom Trip</a></li>
                   <li><a href="blog.html">Blog</a></li>
-                  <li><a href="contact.html">Contact Us</a></li>
+                  <li><a href="contact.php">Contact Us</a></li>
                 </ul>
               </div><!-- /.navbar-collapse -->
             </nav>

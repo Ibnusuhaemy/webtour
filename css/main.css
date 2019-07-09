@@ -383,6 +383,18 @@ p{
 .header-info .info-contact{
   text-align: right;
 }
+.mobile-title{
+  color: #ff681f;
+  font-size: 11px;
+  font-family: "DINNextLTPro-Regular", Fallback, sans-serif;
+  text-align: right;
+}
+.mobile-title-desc{
+  color: #0077c2;
+  font-size: 9px;
+  font-family: "DINNextLTPro-Regular", Fallback, sans-serif;
+  text-align: right;
+}
 .info-contact .icon-call{
   font-size: 35px;
   letter-spacing: -1px;
@@ -711,8 +723,27 @@ p{
   left: 0;
   right: 0;
   bottom: 0;
-  height: 0;
   display: block;
+}
+.hero-mobile-button {
+  text-align: center;
+  font-family: "DINNextLTPro-Bold", Fallback, sans-serif;
+  color: #fff;
+}
+.hero-package {
+  position: relative;
+}
+.hero-package .button {
+  width: 80%;
+  padding: 5px;
+  border : 1px solid #fff;
+  border-radius: 5px;
+  position: absolute;
+  bottom: 60px;
+  left: 35px;
+}
+.hero-package .button a{
+  text-decoration: none;
 }
 .hero-slider-content .slider-content-tag{
   display: inline-block;
@@ -1030,6 +1061,9 @@ p{
 }
 
 /* Happy Clients */
+.content-client-slider{
+  margin-bottom: 20px;
+}
 .happy-clients .happy-client-item{
   display: inline-block;
   width: 25%;
@@ -2121,6 +2155,11 @@ p{
   }
   
   /* --- ## Homepage ## --- */
+
+  /* - Header Menu - */
+  .menu-box .menu-box-item li a{
+    font-size: 11px;
+  }
   /* - Hero - */
   .hero-slider .hero-slider-content{
     width: 970px;
@@ -2913,8 +2952,8 @@ p{
     border: none;
   }
   .mobile-menu-cta .panel-body{
-    padding-top: 8px;
-    padding-bottom: 8px;
+    padding-top: 0px;
+    padding-bottom: 0px;
   }
   .mobile-menu-cta .menu-cta-list{
     margin-bottom: 0;
@@ -3244,6 +3283,13 @@ p{
   .footer-menu .footer-menu-contact{
     margin-bottom: 20px;
   }
+}
+
+
+/* --- Owl-Class --- */
+
+.owl-theme .owl-dots {
+  text-align: right;
 }
 
 

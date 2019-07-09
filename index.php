@@ -25,7 +25,7 @@
     
     <link rel="stylesheet" type="text/css" href="vendor/angle-vladov-mobile-slider/jquery.mobile-slider.min.css">
     
-    <link rel="stylesheet" type="text/css" href="css/main.css?v=7">
+    <link rel="stylesheet" type="text/css" href="css/main.css?v9">
   </head>
   <body>
 
@@ -34,8 +34,12 @@
         
         <!-- Contact Info -->
         <div class="row header-info">
-          <div class="col-sm-4 col-md-5 info-logo">
-            <img src="images/jagadtour-logo.png" width="237" height="44" alt="Logo Jagadtour" class="img-responsive">
+          <div class="col-sm-4 col-md-5 col-xs-6 info-logo">
+            <img src="images/jagadtour-logo.png" width="237" height="44" alt="Logo Jagad Tour" class="img-responsive">
+          </div>
+          <div class="col-xs-6 show-mobile">
+          <div class="mobile-title">Let's Explore East Java!</div> 
+          <div class="mobile-title-desc">With Jagad Tour</div> 
           </div>
           <div class="col-sm-8 col-md-7 info-contact">
             <span class="jgicon icon-call"></span>
@@ -90,7 +94,12 @@
         <video class="hero-video" width="100%" autoplay loop muted>
           <source src="video/landingPage.mp4" type="video/mp4">
         </video>
-        <div class="container hero-video-content">
+        <div class="button show-mobile">
+          <a href="https://www.youtube.com/watch?v=DQPXRp3Ac1U" target="_blank">
+          <p class="hero-mobile-button">Selengkapnya klik disini</p>
+          </a>
+        </div>
+        <div class="container hero-video-content hidden-mobile">
           <div class="video-content-title">Let's Explore East Java!</div> 
           <div class="video-content-text">With Jagad Tour</div> 
         </div>
@@ -103,22 +112,12 @@
         <div class="row">
           <div class="col-xs-12">
             <ul class="list-inline mobile-menu-list">
-              <li class="mobile-menu-item">
-                <a href="#">
-                  <div class="panel panel-default mobile-menu-panel mobile-menu-panel-orange">
-                    <div class="panel-body">
-                      <span class="jgicon icon-gift mobile-menu-icon"></span>
-                      <p class="mobile-menu-text">Promo</p>
-                    </div>
-                  </div>
-                </a>
-              </li>
-              <li class="mobile-menu-item">
+            <li class="mobile-menu-item">
                 <a href="#">
                   <div class="panel panel-default mobile-menu-panel mobile-menu-panel-blue">
                     <div class="panel-body">
                       <span class="jgicon icon-car mobile-menu-icon"></span>
-                      <p class="mobile-menu-text">Family</p>
+                      <p class="mobile-menu-text">Family Trip</p>
                     </div>
                   </div>
                 </a>
@@ -128,7 +127,7 @@
                   <div class="panel panel-default mobile-menu-panel mobile-menu-panel-green">
                     <div class="panel-body">
                         <span class="jgicon icon-bus mobile-menu-icon"></span>
-                        <p class="mobile-menu-text">Corporate</p>
+                        <p class="mobile-menu-text">Corporate Trip</p>
                     </div>
                   </div>
                 </a>
@@ -144,8 +143,18 @@
                 </a>
               </li>
               <li class="mobile-menu-item">
-                <a href="blog.php">
+                <a href="#">
                   <div class="panel panel-default mobile-menu-panel mobile-menu-panel-blue">
+                    <div class="panel-body">
+                      <span class="jgicon icon-star-fill mobile-menu-icon"></span>
+                      <p class="mobile-menu-text">Testimoni</p>
+                    </div>
+                  </div>
+                </a>
+              </li>
+              <li class="mobile-menu-item">
+                <a href="blog.php">
+                  <div class="panel panel-default mobile-menu-panel mobile-menu-panel-green">
                     <div class="panel-body">
                         <span class="jgicon icon-news mobile-menu-icon"></span>
                         <p class="mobile-menu-text">Blog</p>
@@ -155,7 +164,7 @@
               </li>
               <li class="mobile-menu-item">
                 <a href="contact.php">
-                  <div class="panel panel-default mobile-menu-panel mobile-menu-panel-green">
+                  <div class="panel panel-default mobile-menu-panel mobile-menu-panel-orange">
                     <div class="panel-body">
                         <span class="jgicon icon-call mobile-menu-icon"></span>
                         <p class="mobile-menu-text">Contact Us</p>
@@ -576,7 +585,7 @@
           <div class="col-md-6">
             <h2 class="content-title content-testi-title">Our Happy Clients</h2>
             <p class="media-content-testi">Mereka sudah mempercayakan tripnya kepada kami, giliran Anda selanjutnya</p>
-            <div class="owl-carousel owl-theme content-testi-slider js-content-partner-slider">
+            <div class="owl-carousel owl-theme content-client-slider js-content-partner-slider">
               <div class="item">
                 <ul class="list-inline happy-clients">
                   <li class="happy-client-item">
@@ -1031,9 +1040,8 @@
     </script>
     <script type="text/javascript">
       $('.js-content-testi-slider').owlCarousel({
-        dots: false,
+        dots: true,
         loop: true,
-        margin: 35,
         slideBy: 2,
         responsive:{
           0:{

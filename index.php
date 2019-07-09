@@ -801,11 +801,11 @@
               <h4>Informasi</h4>
               <ul class="info-list">
                 <li class="info-list-item"><a href="about.php">Tentang Kami</a></li>
-                <li class="info-list-item"><a href="#">Syarat dan Ketentuan</a></li>
-                <li class="info-list-item"><a href="#">Kebijakan Privasi</a></li>
+                <li class="info-list-item"><a href="syarat-ketentuan.php">Syarat dan Ketentuan</a></li>
+                <li class="info-list-item"><a href="kebijakan-privasi.php">Kebijakan Privasi</a></li>
                 <li class="info-list-item"><a href="#">Cara Pembayaran</a></li>
                 <li class="info-list-item"><a href="#">Bantuan</a></li>
-                <li class="info-list-item"><a href="#">FAQ</a></li>
+                <li class="info-list-item"><a href="faq.php">FAQ</a></li>
               </ul>
             </div>
             <div class="col-xs-6 col-sm-6 col-md-4 footer-menu-contact">

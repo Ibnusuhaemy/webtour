@@ -118,7 +118,7 @@
                 <li>
                     Saat Anda turut serta dalam survey untuk memberikan kami umpan balik
                 </li>
-                <p></p>
+                <br>
                 <h1 class="header-subTitle">Penggunaan Data Pribadi</h1>
                 <p>
                     Jagadtour.com memastikan penggunaan informasi pribadi pengguna dan lokasinya adalah untuk mengoperasikan, mempertahankan, dan menyediakan kemudahan bagi pengguna untuk memaksimalkan fitur dan fungsi dari website serta layanan kami.
@@ -135,7 +135,7 @@
                 <li>
                     Untuk memberitahu Anda mengenai produk dan layanan kami, penawaran special dan promosi, dan penawaran lainnya yang sekiranya menarik untuk Anda. Meskipun layanan ini mungkin memuat produk dari pihak ketiga dari waktu ke waktu, tapi pihak ketiga ini tidak akan menghubungi Anda langsung (kecuali Anda sendiri yang menghendaki)
                 </li>
-                <p></p>
+                <br>
                 <p>
                     Dalam kasus dimana Anda membuat pemesanan dan kemudian membatalkan pesanan tersebut setelah memasukkan data pribadi, kami akan mengirimkan email kepada Anda untuk menyarankan Anda menghubungi pihak yang berwenang dalam masalah teknis, atau untuk menyelesaikan pemesanan Anda.Anda dapat segera menghentikan informasi dalam email tersebut dikirimkan pada Anda kapan saja, dengan mengklik tautan berhenti berlangganan di bagian terbawah email Anda.
                 </p>

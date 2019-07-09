@@ -381,7 +381,7 @@
         <div class="row">
           <div class="col-md-5">
             <div class="media home-choose-media">
-              <div class="media-left choose-media-image">
+              <div class="media-left choose-media-image"  id="progressBar">
               </div>
               <div class="media-body media-middle choose-media-desc">
                 <h4 class="media-heading">Trusted</h4>
@@ -891,7 +891,7 @@
                 bar.setText(Math.round(bar.value() * 100) + ' %');
               }
             });
-          barTrust.animate(1.0);  // Number from 0.0 to 1.0
+            // Number from 0.0 to 1.0
 
           var barSolid = new ProgressBar.Line(solid, {
               strokeWidth: 4,
@@ -922,7 +922,7 @@
                 bar.setText(Math.round(bar.value() * 100) + ' %');
               }
             });
-          barSolid.animate(0.97);  // Number from 0.0 to 1.0
+            // Number from 0.0 to 1.0
 
           var barService = new ProgressBar.Line(service, {
               strokeWidth: 4,
@@ -953,7 +953,7 @@
                 bar.setText(Math.round(bar.value() * 100) + ' %');
               }
             });
-          barService.animate(0.98);  // Number from 0.0 to 1.0
+            // Number from 0.0 to 1.0
 
           var barDone = new ProgressBar.Line(done, {
               strokeWidth: 4,
@@ -984,9 +984,10 @@
                 bar.setText(Math.round(bar.value() * 100) + ' %');
               }
             });
-          barDone.animate(0.97);  // Number from 0.0 to 1.0
+            // Number from 0.0 to 1.0
 
-          var barPengalaman = new ProgressBar.Line(pengalaman, {
+
+            var barPengalaman = new ProgressBar.Line(pengalaman, {
               strokeWidth: 4,
               easing: 'easeInOut',
               duration: 1400,
@@ -1015,7 +1016,17 @@
                 bar.setText(Math.round(bar.value() * 100) + ' %');
               }
             });
-          barPengalaman.animate(0.98);  // Number from 0.0 to 1.0
+
+
+            $(window).scroll(function () {
+              if (document.getElementById("progressBar")){
+                  barTrust.animate(1.0);
+                  barService.animate(0.98);
+                  barDone.animate(0.97); 
+                  barPengalaman.animate(0.98);
+                  barSolid.animate(0.97);
+              }
+            });
     </script>
 
     <script type="text/javascript">

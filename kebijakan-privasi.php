@@ -94,21 +94,57 @@
             <div class="content-header sk-desc-header">
               <p class="header-caption">JagadTour</p>
               <h1 class="header-title">Kebijakan Privasi</h1>
-              <h1 class="header-subTitle">Informasi Pribadi yang Terkumpul</h1>
             </div>
             <div class="sk-desc-detail">
+                <h1 class="header-subTitle">Informasi Pribadi yang Terkumpul</h1>
               <p>
-                Since we first met Oat the Goat in June, we've kind of fallen in love with him and what he stands for, so we're delighted 
-                to reveal that Site of the Month June has been awarded to Assembly from New Zealand for their interactive, WebGL, 
-                animated storybook. Thanks for all the votes and tweets, the winner of the Pro Plan in the Directory can be found at the 
-                bottom of the article.
+                  Jagad Tour mengerti dan menghormati pentingnya privasi Anda. Dalam Kebijakan Privasi ini, kami akan menjelaskan bagaimana kami mendapatkan data tentang Anda dan rekam jejak Anda saat menggunakan website kami, bagaimana cara kami mengolah data tersebut, kepada siapa data tersebut mungkin dikirim, dan bagaimana Anda bisa mengubah data yang sudah Anda berikan pada kami.
               </p>
               <p>
-                'Oat the Goat' is an interactive, animated storybook launched as a bullying prevention initiative by New Zealand's 
-                Ministry of Education. The web-based story was created with 4-7 year old children in mind, to introduce them to the 
-                effect their actions can have in group situations, and to encourage parents to engage with their children and open a 
-                conversation about what 'Oat' is experiencing during his big adventure.
+                  Jagadtour.com mengumpulkan data pribadi berikut ini: nama Anda, alamat, alamat email, nomor telepon, dan nomor KTP. Informasi ini dibutuhkan untuk memproses, membuat, dan menyelesaikan pemesanan Anda.
               </p>
+                <p>
+                    Jagadtour.com mungkin juga memproses data tentang perangkat komputer Anda, misalnya alamat IP, tipe browser, dan (bagi pengguna yang mengakses layanan kami melalui ponsel) Unique Device Identifier, sistem operasi, versi aplikasi, dan garis lintang/bujur lokasi Anda. Data ini biasanya bersifat anonim, tapi tetap saja dianggap data pribadi, baik secara tersendiri ataupun jika bersama-sama dikombinasikan.
+                </p>
+                <p>
+                    Kami memerlukan data pribadi Anda dalam berbagai situasi dan ketentuan:
+                </p>
+                <li>
+                    Saat Anda membuat atau mulai membuat reservasi, atau membeli sesuatu dari website kami atau melalui tim layanan pelanggan - lewat email, surat, faks, atau lewat telepon
+                </li>
+                <li>
+                    Saat Anda mendaftar di situs kami, berlangganan newsletter kami, mengikuti kompetisi atau mendaftar untuk mendapatkan promosi
+                </li>
+                <li>
+                    Saat Anda turut serta dalam survey untuk memberikan kami umpan balik
+                </li>
+                <p></p>
+                <h1 class="header-subTitle">Penggunaan Data Pribadi</h1>
+                <p>
+                    Jagadtour.com memastikan penggunaan informasi pribadi pengguna dan lokasinya adalah untuk mengoperasikan, mempertahankan, dan menyediakan kemudahan bagi pengguna untuk memaksimalkan fitur dan fungsi dari website serta layanan kami.
+                </p>
+                <p>
+                    Kami mungkin akan menggunakan data Anda untuk keperluan sebagai berikut :
+                </p>
+                <li>
+                    Untuk menyelesaikan proses pemesanan dan pembelian yang Anda buat melalui website kami, dan permintaan lain yang kami dapatkan dari Anda
+                </li>
+                <li>
+                    Untuk menghubungi Anda apabila terdapat perubahan dalam dokumen perjalanan anda, cth: perubahan jadwal terbang, delay, dll, atau untuk mengirimkan informasi penting mengenai perjalanan Anda
+                </li>
+                <li>
+                    Untuk memberitahu Anda mengenai produk dan layanan kami, penawaran special dan promosi, dan penawaran lainnya yang sekiranya menarik untuk Anda. Meskipun layanan ini mungkin memuat produk dari pihak ketiga dari waktu ke waktu, tapi pihak ketiga ini tidak akan menghubungi Anda langsung (kecuali Anda sendiri yang menghendaki)
+                </li>
+                <p></p>
+                <p>
+                    Dalam kasus dimana Anda membuat pemesanan dan kemudian membatalkan pesanan tersebut setelah memasukkan data pribadi, kami akan mengirimkan email kepada Anda untuk menyarankan Anda menghubungi pihak yang berwenang dalam masalah teknis, atau untuk menyelesaikan pemesanan Anda.Anda dapat segera menghentikan informasi dalam email tersebut dikirimkan pada Anda kapan saja, dengan mengklik tautan berhenti berlangganan di bagian terbawah email Anda.
+                </p>
+                <li>
+                    Untuk keperluan administrasi lainnya dan untuk analisis internal
+                </li>
+                <li>
+                    Untuk berpartisipasi dalam survey kami dengan tujuan untuk mendapatkan umpan balik
+                </li>
             </div>
           </div>
         </div>

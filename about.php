@@ -97,16 +97,10 @@
             </div>
             <div class="about-desc-detail">
               <p>
-                Since we first met Oat the Goat in June, we've kind of fallen in love with him and what he stands for, so we're delighted 
-                to reveal that Site of the Month June has been awarded to Assembly from New Zealand for their interactive, WebGL, 
-                animated storybook. Thanks for all the votes and tweets, the winner of the Pro Plan in the Directory can be found at the 
-                bottom of the article.
+                  Jagad Tour adalah Sebuah perusahaan Biro Perjalanan Wisata di Malang yang lahir dari impian - impian anak muda yang disatukan oleh visi dan dibesarkan oleh harapan. Sebuah perusahaan yang tidak hanya berorientasi pada uang, tapi lebih kepada memberikan kemanfaatan dan kebahagiaan kepada sesama. Dan kini kami menjadi pilihan terbaik wisatawan sebagai Best Tour Operator Di Jawa Timur.
               </p>
               <p>
-                'Oat the Goat' is an interactive, animated storybook launched as a bullying prevention initiative by New Zealand's 
-                Ministry of Education. The web-based story was created with 4-7 year old children in mind, to introduce them to the 
-                effect their actions can have in group situations, and to encourage parents to engage with their children and open a 
-                conversation about what 'Oat' is experiencing during his big adventure.
+                  Berdiri dibawah naungan PT Jagad Mahakarya Wisata, Kami adalah satu-satunya tour operator di Jawa Timur yang bekerja dengan prinsip kejujuran, integriti, menyampaikan apa adanya, all out dan sosial minded, dimana setiap perjalanan wisata kami, kami kemas dengan konsep menyelipkan edukasi dan kepekaan sosial terhadap sesama hingga menjadikan jagad tour sebagai rumah untuk berbagi kebahagiaan.
               </p>
             </div>
           </div>

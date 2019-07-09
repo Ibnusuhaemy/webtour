@@ -473,6 +473,12 @@ p{
   line-height: 53px;
   color: #4b4b4b;
 }
+.content .header-subTitle{
+  font-family: "DINNextLTPro-Bold", Fallback, sans-serif;
+  font-size: 28px;
+  line-height: 53px;
+  color: #4b4b4b;
+}
 .content .header-caption{
   font-family: "DINNextLTPro-Bold", Fallback, sans-serif;
   font-size: 18px;
@@ -1424,6 +1430,36 @@ p{
 }
 .content-testi-list{
   margin-bottom: 60px;
+}
+
+/* --- ## Syarat dan Ketentuan dan Kebijakan Provasi ## --- */
+.content-sk .content-header{
+  margin-bottom: 36px;
+}
+.content-sk .content-header .header-caption{
+  margin-bottom: 8px;
+}
+/* - SK Description - */
+.sk-desc{
+  text-align: center;
+  padding-top: 80px;
+  padding-bottom: 55px;
+  background-color: #fafafa;
+}
+.sk-desc-header .header-title{
+  max-width: 664px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.sk-desc .sk-desc-detail{
+  font-family: "DINNextLTPro-Regular", Fallback, sans-serif;
+  font-size: 18px;
+  line-height: 28px;
+  text-align: left;
+  color: #4b4b4b;
+}
+.sk-desc-detail p{
+  margin-bottom: 40px;
 }
 
 /* --- ## About ## --- */

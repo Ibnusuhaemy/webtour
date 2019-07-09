@@ -127,9 +127,9 @@
               <div class="member-detail hidden-large-mobile">
                 <div class="js-main-image">
                   <div class="member-detail-image">
-                    <img src="images/photos/ivanka.jpg" width="859" height="445" alt="Tim Jagadtour" class="js-member-image">
+                    <img src="images/photos/anik.jpg" width="859" height="445" alt="Tim Jagadtour" class="js-member-image">
                   </div>
-                  <h3 class="member-name js-member-name">Ivanka Rubinov</h3>
+                  <h3 class="member-name js-member-name">Anik</h3>
                   <p class="member-desc js-member-desc">
                     Since we first met Oat the Goat in June, we've kind of fallen in love with him and what he stands for, so we're 
                     delighted to reveal that Site of the Month June has been awarded to Assembly from New Zealand for their 
@@ -142,10 +142,10 @@
                 <ul class="js-member-thumbnails">
                   <li class="member-thumbnail js-member-thumbnail-item">
                     <div class="member-thumbnail-image">
-                      <img src="images/photos/ivanka.jpg" width="193" height="126" alt="Tim Jagadtour" class="js-thumbnail-item-image">
+                      <img src="images/photos/Byan.jpg" width="193" height="126" alt="Tim Jagadtour" class="js-thumbnail-item-image">
                     </div>
                     <div class="member-thumbnail-data show-large-mobile">
-                      <h3 class="member-name js-thumbnail-name">Ivanka Rubinov</h3>
+                      <h3 class="member-name js-thumbnail-name">Byan</h3>
                       <p class="member-desc js-thumbnail-desc">
                         Since we first met Oat the Goat in June, we've kind of fallen in love with him and what he stands for, so we're 
                         delighted to reveal that Site of the Month June has been awarded to Assembly from New Zealand for their 
@@ -156,10 +156,10 @@
                   </li>
                   <li class="member-thumbnail js-member-thumbnail-item">
                     <div class="member-thumbnail-image">
-                      <img src="images/photos/betty.jpg" width="193" height="126" alt="Tim Jagadtour" class="js-thumbnail-item-image">
+                      <img src="images/photos/deden.jpeg" width="193" height="126" alt="Tim Jagadtour" class="js-thumbnail-item-image">
                     </div>
                     <div class="member-thumbnail-data show-large-mobile">
-                      <h3 class="member-name js-thumbnail-name">Betty Rubinov</h3>
+                      <h3 class="member-name js-thumbnail-name">Deden</h3>
                       <p class="member-desc js-thumbnail-desc">
                         Since we first met Oat the Goat in June, we've kind of fallen in love with him and what he stands for, so we're 
                         delighted to reveal that Site of the Month June has been awarded to Assembly from New Zealand for their 
@@ -170,10 +170,10 @@
                   </li>
                   <li class="member-thumbnail js-member-thumbnail-item">
                     <div class="member-thumbnail-image">
-                      <img src="images/photos/kevin.jpg" width="193" height="126" alt="Tim Jagadtour" class="js-thumbnail-item-image">
+                      <img src="images/photos/Gunarto.jpeg" width="193" height="126" alt="Tim Jagadtour" class="js-thumbnail-item-image">
                     </div>
                     <div class="member-thumbnail-data show-large-mobile">
-                      <h3 class="member-name js-thumbnail-name">Kevin Rubinov</h3>
+                      <h3 class="member-name js-thumbnail-name">Gunarto</h3>
                       <p class="member-desc js-thumbnail-desc">
                         Since we first met Oat the Goat in June, we've kind of fallen in love with him and what he stands for, so we're 
                         delighted to reveal that Site of the Month June has been awarded to Assembly from New Zealand for their 
@@ -184,10 +184,150 @@
                   </li>
                   <li class="member-thumbnail js-member-thumbnail-item">
                     <div class="member-thumbnail-image">
-                      <img src="images/photos/veranda.jpg" width="193" height="126" alt="Tim Jagadtour" class="js-thumbnail-item-image">
+                      <img src="images/photos/Hengky.jpeg" width="193" height="126" alt="Tim Jagadtour" class="js-thumbnail-item-image">
                     </div>
                     <div class="member-thumbnail-data show-large-mobile">
-                      <h3 class="member-name js-thumbnail-name">Veranda Rubinov</h3>
+                      <h3 class="member-name js-thumbnail-name">Hengky</h3>
+                      <p class="member-desc js-thumbnail-desc">
+                        Since we first met Oat the Goat in June, we've kind of fallen in love with him and what he stands for, so we're 
+                        delighted to reveal that Site of the Month June has been awarded to Assembly from New Zealand for their 
+                        interactive, WebGL, animated storybook. Thanks for all the votes and tweets, the winner of the Pro Plan in the 
+                        Directory can be found at the bottom of the article.
+                      </p>
+                    </div>
+                  </li>
+                  <li class="member-thumbnail js-member-thumbnail-item">
+                    <div class="member-thumbnail-image">
+                      <img src="images/photos/ikhwanul-maarif.jpg" width="193" height="126" alt="Tim Jagadtour" class="js-thumbnail-item-image">
+                    </div>
+                    <div class="member-thumbnail-data show-large-mobile">
+                      <h3 class="member-name js-thumbnail-name">Ikhwanul Maarif</h3>
+                      <p class="member-desc js-thumbnail-desc">
+                        Since we first met Oat the Goat in June, we've kind of fallen in love with him and what he stands for, so we're 
+                        delighted to reveal that Site of the Month June has been awarded to Assembly from New Zealand for their 
+                        interactive, WebGL, animated storybook. Thanks for all the votes and tweets, the winner of the Pro Plan in the 
+                        Directory can be found at the bottom of the article.
+                      </p>
+                    </div>
+                  </li>
+                  <li class="member-thumbnail js-member-thumbnail-item">
+                    <div class="member-thumbnail-image">
+                      <img src="images/photos/Mas-Basyir.jpeg" width="193" height="126" alt="Tim Jagadtour" class="js-thumbnail-item-image">
+                    </div>
+                    <div class="member-thumbnail-data show-large-mobile">
+                      <h3 class="member-name js-thumbnail-name">Mas Basyir</h3>
+                      <p class="member-desc js-thumbnail-desc">
+                        Since we first met Oat the Goat in June, we've kind of fallen in love with him and what he stands for, so we're 
+                        delighted to reveal that Site of the Month June has been awarded to Assembly from New Zealand for their 
+                        interactive, WebGL, animated storybook. Thanks for all the votes and tweets, the winner of the Pro Plan in the 
+                        Directory can be found at the bottom of the article.
+                      </p>
+                    </div>
+                  </li>
+                  <li class="member-thumbnail js-member-thumbnail-item">
+                    <div class="member-thumbnail-image">
+                      <img src="images/photos/OVIN.jpeg" width="193" height="126" alt="Tim Jagadtour" class="js-thumbnail-item-image">
+                    </div>
+                    <div class="member-thumbnail-data show-large-mobile">
+                      <h3 class="member-name js-thumbnail-name">Ovin</h3>
+                      <p class="member-desc js-thumbnail-desc">
+                        Since we first met Oat the Goat in June, we've kind of fallen in love with him and what he stands for, so we're 
+                        delighted to reveal that Site of the Month June has been awarded to Assembly from New Zealand for their 
+                        interactive, WebGL, animated storybook. Thanks for all the votes and tweets, the winner of the Pro Plan in the 
+                        Directory can be found at the bottom of the article.
+                      </p>
+                    </div>
+                  </li>
+                  <li class="member-thumbnail js-member-thumbnail-item">
+                    <div class="member-thumbnail-image">
+                      <img src="images/photos/pak-deni.jpg" width="193" height="126" alt="Tim Jagadtour" class="js-thumbnail-item-image">
+                    </div>
+                    <div class="member-thumbnail-data show-large-mobile">
+                      <h3 class="member-name js-thumbnail-name">Pak Deni</h3>
+                      <p class="member-desc js-thumbnail-desc">
+                        Since we first met Oat the Goat in June, we've kind of fallen in love with him and what he stands for, so we're 
+                        delighted to reveal that Site of the Month June has been awarded to Assembly from New Zealand for their 
+                        interactive, WebGL, animated storybook. Thanks for all the votes and tweets, the winner of the Pro Plan in the 
+                        Directory can be found at the bottom of the article.
+                      </p>
+                    </div>
+                  </li>
+                  <li class="member-thumbnail js-member-thumbnail-item">
+                    <div class="member-thumbnail-image">
+                      <img src="images/photos/papa-roy.jpg" width="193" height="126" alt="Tim Jagadtour" class="js-thumbnail-item-image">
+                    </div>
+                    <div class="member-thumbnail-data show-large-mobile">
+                      <h3 class="member-name js-thumbnail-name">Papa Roy</h3>
+                      <p class="member-desc js-thumbnail-desc">
+                        Since we first met Oat the Goat in June, we've kind of fallen in love with him and what he stands for, so we're 
+                        delighted to reveal that Site of the Month June has been awarded to Assembly from New Zealand for their 
+                        interactive, WebGL, animated storybook. Thanks for all the votes and tweets, the winner of the Pro Plan in the 
+                        Directory can be found at the bottom of the article.
+                      </p>
+                    </div>
+                  </li>
+                  <li class="member-thumbnail js-member-thumbnail-item">
+                    <div class="member-thumbnail-image">
+                      <img src="images/photos/pego.jpg" width="193" height="126" alt="Tim Jagadtour" class="js-thumbnail-item-image">
+                    </div>
+                    <div class="member-thumbnail-data show-large-mobile">
+                      <h3 class="member-name js-thumbnail-name">Pego</h3>
+                      <p class="member-desc js-thumbnail-desc">
+                        Since we first met Oat the Goat in June, we've kind of fallen in love with him and what he stands for, so we're 
+                        delighted to reveal that Site of the Month June has been awarded to Assembly from New Zealand for their 
+                        interactive, WebGL, animated storybook. Thanks for all the votes and tweets, the winner of the Pro Plan in the 
+                        Directory can be found at the bottom of the article.
+                      </p>
+                    </div>
+                  </li>
+                  <li class="member-thumbnail js-member-thumbnail-item">
+                    <div class="member-thumbnail-image">
+                      <img src="images/photos/rosita.png" width="193" height="126" alt="Tim Jagadtour" class="js-thumbnail-item-image">
+                    </div>
+                    <div class="member-thumbnail-data show-large-mobile">
+                      <h3 class="member-name js-thumbnail-name">Rosita</h3>
+                      <p class="member-desc js-thumbnail-desc">
+                        Since we first met Oat the Goat in June, we've kind of fallen in love with him and what he stands for, so we're 
+                        delighted to reveal that Site of the Month June has been awarded to Assembly from New Zealand for their 
+                        interactive, WebGL, animated storybook. Thanks for all the votes and tweets, the winner of the Pro Plan in the 
+                        Directory can be found at the bottom of the article.
+                      </p>
+                    </div>
+                  </li>
+                  <li class="member-thumbnail js-member-thumbnail-item">
+                    <div class="member-thumbnail-image">
+                      <img src="images/photos/Sudiono.jpeg" width="193" height="126" alt="Tim Jagadtour" class="js-thumbnail-item-image">
+                    </div>
+                    <div class="member-thumbnail-data show-large-mobile">
+                      <h3 class="member-name js-thumbnail-name">Sudiono</h3>
+                      <p class="member-desc js-thumbnail-desc">
+                        Since we first met Oat the Goat in June, we've kind of fallen in love with him and what he stands for, so we're 
+                        delighted to reveal that Site of the Month June has been awarded to Assembly from New Zealand for their 
+                        interactive, WebGL, animated storybook. Thanks for all the votes and tweets, the winner of the Pro Plan in the 
+                        Directory can be found at the bottom of the article.
+                      </p>
+                    </div>
+                  </li>
+                  <li class="member-thumbnail js-member-thumbnail-item">
+                    <div class="member-thumbnail-image">
+                      <img src="images/photos/Sugeng.jpeg" width="193" height="126" alt="Tim Jagadtour" class="js-thumbnail-item-image">
+                    </div>
+                    <div class="member-thumbnail-data show-large-mobile">
+                      <h3 class="member-name js-thumbnail-name">Sugeng</h3>
+                      <p class="member-desc js-thumbnail-desc">
+                        Since we first met Oat the Goat in June, we've kind of fallen in love with him and what he stands for, so we're 
+                        delighted to reveal that Site of the Month June has been awarded to Assembly from New Zealand for their 
+                        interactive, WebGL, animated storybook. Thanks for all the votes and tweets, the winner of the Pro Plan in the 
+                        Directory can be found at the bottom of the article.
+                      </p>
+                    </div>
+                  </li>
+                  <li class="member-thumbnail js-member-thumbnail-item">
+                    <div class="member-thumbnail-image">
+                      <img src="images/photos/tipan.jpg" width="193" height="126" alt="Tim Jagadtour" class="js-thumbnail-item-image">
+                    </div>
+                    <div class="member-thumbnail-data show-large-mobile">
+                      <h3 class="member-name js-thumbnail-name">Tipan</h3>
                       <p class="member-desc js-thumbnail-desc">
                         Since we first met Oat the Goat in June, we've kind of fallen in love with him and what he stands for, so we're 
                         delighted to reveal that Site of the Month June has been awarded to Assembly from New Zealand for their 

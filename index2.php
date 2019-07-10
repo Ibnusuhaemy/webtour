@@ -28,10 +28,10 @@
     <link rel="stylesheet" type="text/css" href="css/main.css?v10">
   </head>
   <body>
-    
-  <!-- Header -->
+
     <header class="header header-home">
       <div class="container">
+        
         <!-- Contact Info -->
         <div class="row header-info">
           <div class="col-sm-4 col-md-5 col-xs-6 info-logo">
@@ -208,7 +208,7 @@
                   <div class="panel-body card-single-body">
                     <img src="images/thumbnails/jagadtour-bromo-sunrise.jpg" width="1035" height="642" alt="" class="img-responsive">
                     <div class="card-single-packet row">
-                      <div class="left col-md-9 col-xs-9 mobile-noBorder">
+                      <div class="left col-md-9 col-xs-9">
                         <p class="card-single-title">Bromo Sunrise Tour</p>
                         <p class="tag tag-orange card-single-tag">Family Trip</p>
                         <p class="card-single-text duration">1 Day</p>
@@ -228,7 +228,7 @@
                   <div class="panel-body card-single-body">
                     <img src="images/thumbnails/jagadtour-bromo-sunrise.jpg" width="1035" height="642" alt="" class="img-responsive">
                     <div class="card-single-packet row">
-                      <div class="left col-md-9 col-xs-9 mobile-noBorder">
+                      <div class="left col-md-9 col-xs-9">
                         <p class="card-single-title">Bromo Sunrise Tour</p>
                         <p class="tag tag-orange card-single-tag">Family Trip</p>
                         <p class="card-single-text duration">1 Day</p>
@@ -248,7 +248,7 @@
                   <div class="panel-body card-single-body">
                     <img src="images/thumbnails/jagadtour-kota-malang.jpg" width="1035" height="642" alt="" class="img-responsive">
                     <div class="card-single-packet row">
-                      <div class="left col-md-9 col-xs-9 mobile-noBorder">
+                      <div class="left col-md-9 col-xs-9">
                         <p class="card-single-title">Tour Malang, Batu &amp; Bromo</p>
                         <p class="tag tag-orange card-single-tag">Family Trip</p>
                         <p class="card-single-text duration">4 Days 3 Nights</p>
@@ -268,7 +268,7 @@
                   <div class="panel-body card-single-body">
                     <img src="images/thumbnails/jagadtour-rafting-songa.jpg" width="1035" height="642" alt="" class="img-responsive">
                     <div class="card-single-packet row">
-                      <div class="left col-md-9 col-xs-9 mobile-noBorder">
+                      <div class="left col-md-9 col-xs-9">
                         <p class="card-single-title">Rafting Songa Bromo &amp; Batu</p>
                         <p class="tag tag-blue card-single-tag">Corporate Trip</p>
                         <p class="card-single-text duration">3 Days 2 Nights</p>
@@ -288,7 +288,7 @@
                   <div class="panel-body card-single-body">
                     <img src="images/thumbnails/jagadtour-rafting-songa.jpg" width="1035" height="642" alt="" class="img-responsive">
                     <div class="card-single-packet row">
-                      <div class="left col-md-9 col-xs-9  mobile-noBorder">
+                      <div class="left col-md-9 col-xs-9">
                         <p class="card-single-title">Tour Malang, Bromo, &amp; Batu</p>
                         <p class="tag tag-blue card-single-tag">Corporate Trip</p>
                         <p class="card-single-text duration">4 Days 3 Nights</p>
@@ -308,7 +308,7 @@
                   <div class="panel-body card-single-body">
                     <img src="images/thumbnails/jagadtour-rafting-songa.jpg" width="1035" height="642" alt="" class="img-responsive">
                     <div class="card-single-packet row">
-                      <div class="left col-md-9 col-xs-9 mobile-noBorder">
+                      <div class="left col-md-9 col-xs-9">
                         <p class="card-single-title">Tour Museum Malang</p>
                         <p class="tag tag-blue card-single-tag">Corporate Trip</p>
                         <p class="card-single-text duration">3 Days 2 Nights</p>
@@ -754,7 +754,7 @@
                 </div>
               </form>
             </div>
-            <div class="col-xs-6 col-sm-6 col-md-3 footer-menu-article full-width">
+            <div class="right col-xs-6 col-sm-6 col-md-3 footer-menu-article half-width">
               <h4>Artikel Terbaru</h4>
               <div class="media article-media">
                 <div class="media-left article-media-photo">
@@ -797,7 +797,7 @@
                 </div>
               </div>
             </div>
-            <div class="col-xs-6 col-sm-6 col-md-2 footer-menu-info full-width">
+            <div class="left col-xs-6 col-sm-6 col-md-2 footer-menu-info half-width">
               <h4>Informasi</h4>
               <ul class="info-list">
                 <li class="info-list-item"><a href="about.php">Tentang Kami</a></li>

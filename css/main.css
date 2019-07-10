@@ -576,6 +576,8 @@ p{
 .card-single-packet .left{
   padding: 0;
   height: 100%;
+}
+.mobile-noBorder{
   border-right: 2px solid black;
 }
 .card-single-packet .right{
@@ -2633,6 +2635,15 @@ p{
   .footer-copyright .copyright-right{
     text-align: left;
   }
+
+  /* --- Footer Half-Width --- */
+  .half-width {
+  width: 50%;
+  }
+
+  .mobile-noBorder {
+    border-right: 2px solid transparent;
+  }
 }
 
 /* ## Mobile : 639px - 480px ## */
@@ -2828,7 +2839,11 @@ p{
     padding-left: 0;
     padding-right: 0;
   }
-  
+
+    /* --- Footer Half-Width --- */
+    .half-width {
+      width: 50%;
+      }
   
 }
 
@@ -2847,9 +2862,22 @@ p{
   
   /* --- ## Footer ## --- */
   .footer-menu .footer-menu-newsletter,
-  .footer-menu .footer-menu-article,
-  .footer-menu .footer-menu-info,
   .footer-menu .footer-menu-contact{
+    width: 100%;
+  }
+
+  /* --- Footer Half-Width For Index2 --- */
+  .footer-menu .footer-menu-info{
+    float: left;
+  }
+  .footer-menu .footer-menu-article{
+    float: right;
+  }
+  /* --- Footer Half-Width --- */
+  .half-width {
+    width: 50%;
+    }
+  .full-width{
     width: 100%;
   }
 }
@@ -3319,6 +3347,10 @@ p{
   .footer-menu .footer-menu-contact{
     margin-bottom: 20px;
   }
+  /* --- Footer Half-Width --- */
+  .half-width {
+    width: 50%;
+    }
 }
 
 

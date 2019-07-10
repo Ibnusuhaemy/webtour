@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>    
-    <title>Jagadtour | </title>
+    <title>Jagadtour | Contact Us </title>
 
     <!-- Meta Tags -->
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
@@ -30,14 +30,17 @@
 
   </head>
   <body>
-
-    <header class="header">
+  <!-- Header -->
+  <header class="header header-home">
       <div class="container">
-        
         <!-- Contact Info -->
         <div class="row header-info">
-          <div class="col-sm-4 col-md-5 info-logo">
-            <img src="images/jagadtour-logo.png" width="237" height="44" alt="Logo Jagadtour" class="img-responsive">
+          <div class="col-sm-4 col-md-5 col-xs-6 info-logo">
+            <img src="images/jagadtour-logo.png" width="237" height="44" alt="Logo Jagad Tour" class="img-responsive">
+          </div>
+          <div class="col-xs-6 show-mobile">
+          <div class="mobile-title">Let's Explore East Java!</div> 
+          <div class="mobile-title-desc">With Jagad Tour</div> 
           </div>
           <div class="col-sm-8 col-md-7 info-contact">
             <span class="jgicon icon-call"></span>
@@ -69,13 +72,13 @@
               <!-- Collect the nav links, forms, and other content for toggling -->
               <div class="collapse navbar-collapse menu-box-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav menu-box-item">
-                  <li><a href="index.php">Home<span class="sr-only">(current)</span></a></li>
+                  <li class="active"><a href="index.php">Home<span class="sr-only">(current)</span></a></li>
                   <li><a href="#">Family Trip</a></li>
                   <li><a href="package.php">Corporate</a></li>
                   <li><a href="#">Custom Trip</a></li>
-                  <li><a href="#">Gallery & Testimoni</a></li>
+                  <li><a href="gallery-testi.php">Gallery & Testimoni</a></li>
                   <li><a href="blog.php">Blog</a></li>
-                  <li class="active"><a href="contact.php">Contact Us</a></li>
+                  <li><a href="contact.php">Contact Us</a></li>
                 </ul>
               </div><!-- /.navbar-collapse -->
             </nav>
@@ -122,7 +125,8 @@
       </div>  
     </section>
   </div>  
-    <!-- Package Detail -->
+  
+    <!-- Footer -->
     <footer class="footer js-footer">
       <div class="footer-photo">
         <div class="owl-carousel owl-theme photo-slider js-photo-slider">
@@ -136,7 +140,7 @@
             <div class="col-xs-6 col-sm-6 col-md-3 footer-menu-newsletter">
               <h4>Newsletter</h4>
               <p class="newsletter-desc">
-                Dapatkan tips dan info diskon paket wisata terbaru dari JagadTour melalui email anda. Gratis!
+                Dapatkan tips dan info diskon paket wisata terbaru dari Jagad Tour melalui email anda. Gratis!
               </p>
               <form class="newsletter-form">
                 <div class="form-group">
@@ -147,7 +151,7 @@
                 </div>
               </form>
             </div>
-            <div class="col-xs-6 col-sm-6 col-md-3 footer-menu-article">
+            <div class="col-xs-6 col-sm-6 col-md-3 footer-menu-article full-width">
               <h4>Artikel Terbaru</h4>
               <div class="media article-media">
                 <div class="media-left article-media-photo">
@@ -155,7 +159,7 @@
                     <img class="media-object" src="images/thumbnails/jagadtour-ig-2.jpg" width="490" height="490" alt="Jagadtour Artikel">
                   </a>
                 </div>
-                <div class="media-body media-middle">
+                <div class="media-body">
                   <p>Tips mendaki dan berkeliling gunung bromo</p>
                 </div>
               </div>
@@ -165,7 +169,17 @@
                     <img class="media-object" src="images/thumbnails/jagadtour-ig-1.jpg" width="452" height="490" alt="Jagadtour Artikel">
                   </a>
                 </div>
-                <div class="media-body media-middle">
+                <div class="media-body">
+                  <p>Biaya dan itenerary pantai balekambang malang</p>
+                </div>
+              </div>
+              <div class="media article-media">
+                <div class="media-left article-media-photo">
+                  <a href="#">
+                    <img class="media-object" src="images/thumbnails/jagadtour-ig-1.jpg" width="452" height="490" alt="Jagadtour Artikel">
+                  </a>
+                </div>
+                <div class="media-body">
                   <p>Biaya dan itenerary pantai balekambang malang</p>
                 </div>
               </div>
@@ -175,20 +189,20 @@
                     <img class="media-object" src="images/thumbnails/jagadtour-ig-6.jpg" width="478" height="490" alt="Jagadtour Artikel">
                   </a>
                 </div>
-                <div class="media-body media-middle">
+                <div class="media-body">
                   <p>Kuliner jadul nan nikmat di sekitar kota malang</p>
                 </div>
               </div>
             </div>
-            <div class="col-xs-6 col-sm-6 col-md-2 footer-menu-info">
+            <div class="col-xs-6 col-sm-6 col-md-2 footer-menu-info full-width">
               <h4>Informasi</h4>
               <ul class="info-list">
                 <li class="info-list-item"><a href="about.php">Tentang Kami</a></li>
-                <li class="info-list-item"><a href="#">Syarat dan Ketentuan</a></li>
-                <li class="info-list-item"><a href="#">Kebijakan Privasi</a></li>
+                <li class="info-list-item"><a href="syarat-ketentuan.php">Syarat dan Ketentuan</a></li>
+                <li class="info-list-item"><a href="kebijakan-privasi.php">Kebijakan Privasi</a></li>
                 <li class="info-list-item"><a href="#">Cara Pembayaran</a></li>
                 <li class="info-list-item"><a href="#">Bantuan</a></li>
-                <li class="info-list-item"><a href="#">FAQ</a></li>
+                <li class="info-list-item"><a href="faq.php">FAQ</a></li>
               </ul>
             </div>
             <div class="col-xs-6 col-sm-6 col-md-4 footer-menu-contact">
@@ -200,6 +214,13 @@
                 Kota Malang, Jawa Timur <br>
                 Kodepos : 65148
               </p>
+              <p class="contact-content">Find Us</p>
+              <p class="contact-content">
+                <a class="contact-content-sm" href="#"><i class="fa fa-instagram"></i></a>
+                <a class="contact-content-sm" href="#"><i class="fa fa-facebook-square"></i></a>
+                <a class="contact-content-sm" href="#"><i class="fa fa-twitter-square"></i></a>
+                <a class="contact-content-sm" href="#"><i class="fa fa-youtube-play"></i></a>
+              </p>
               <p class="contact-content">Email: halo@jagadtour.com</p>
               <p class="contact-content">Whatsapp: 0868887289290</p>
             </div>
@@ -210,7 +231,7 @@
         <div class="container">
           <div class="row">
             <div class="col-md-6 copyright-left">
-              <p>Copyright © 2018 JagadTour.com. All right reserved.</p>
+              <p>Copyright © 2019 Jagad Tour | All right reserved.</p>
             </div>
             <div class="col-md-6 copyright-right">
               <p>Website designed &amp; developed by Illiyin Studio</p>
@@ -219,6 +240,7 @@
         </div>
       </div>
     </footer>
+
 
     <!-- Javascript -->
     <script type="text/javascript" src="vendor/jquery.3.2.1/jquery.3.2.1.min.js"></script>

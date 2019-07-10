@@ -116,7 +116,7 @@
                     <a role="button" data-toggle="collapse" data-parent="#js-package" href="#js-package-itinerary" aria-expanded="true" aria-controls="js-package-itinerary">Jikalau destinasi pengen diubah bisa nggak ya?</a>
                   </h4>
                 </div>
-                  <div id="js-package-price" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="heading-facility">
+                  <div id="js-package-content" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="heading-facility">
                       <div class="panel-body panel-complete-content">
                           <p>
                               Bisa, sesuaikan dengan keinginan anda jika ingin mengganti destinasinya.

@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>    
-    <title>Jagadtour | </title>
+    <title>Jagadtour | Gallery & Testimoni </title>
 
     <!-- Meta Tags -->
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
@@ -29,13 +29,17 @@
   </head>
   <body>
 
-    <header class="header header-home">
+  <!-- Header -->
+  <header class="header header-home">
       <div class="container">
-        
         <!-- Contact Info -->
         <div class="row header-info">
-          <div class="col-sm-4 col-md-5 info-logo">
-            <img src="images/jagadtour-logo.png" width="237" height="44" alt="Logo Jagadtour" class="img-responsive">
+          <div class="col-sm-4 col-md-5 col-xs-6 info-logo">
+            <img src="images/jagadtour-logo.png" width="237" height="44" alt="Logo Jagad Tour" class="img-responsive">
+          </div>
+          <div class="col-xs-6 show-mobile">
+          <div class="mobile-title">Let's Explore East Java!</div> 
+          <div class="mobile-title-desc">With Jagad Tour</div> 
           </div>
           <div class="col-sm-8 col-md-7 info-contact">
             <span class="jgicon icon-call"></span>
@@ -521,8 +525,12 @@
     </section>
     
     
+    <!-- Footer -->
     <footer class="footer js-footer">
       <div class="footer-photo">
+        <div class="owl-carousel owl-theme photo-slider js-photo-slider">
+          <!-- See Js Code "Photo Gallery Footer" -->
+        </div>
         <a class="btn btn-instagram" href="https://www.instagram.com/jagadtour/"></a>
       </div>
       <div class="footer-menu">
@@ -531,7 +539,7 @@
             <div class="col-xs-6 col-sm-6 col-md-3 footer-menu-newsletter">
               <h4>Newsletter</h4>
               <p class="newsletter-desc">
-                Dapatkan tips dan info diskon paket wisata terbaru dari JagadTour melalui email anda. Gratis!
+                Dapatkan tips dan info diskon paket wisata terbaru dari Jagad Tour melalui email anda. Gratis!
               </p>
               <form class="newsletter-form">
                 <div class="form-group">
@@ -542,7 +550,7 @@
                 </div>
               </form>
             </div>
-            <div class="col-xs-6 col-sm-6 col-md-3 footer-menu-article">
+            <div class="col-xs-6 col-sm-6 col-md-3 footer-menu-article full-width">
               <h4>Artikel Terbaru</h4>
               <div class="media article-media">
                 <div class="media-left article-media-photo">
@@ -585,15 +593,15 @@
                 </div>
               </div>
             </div>
-            <div class="col-xs-6 col-sm-6 col-md-2 footer-menu-info">
+            <div class="col-xs-6 col-sm-6 col-md-2 footer-menu-info full-width">
               <h4>Informasi</h4>
               <ul class="info-list">
                 <li class="info-list-item"><a href="about.php">Tentang Kami</a></li>
-                <li class="info-list-item"><a href="#">Syarat dan Ketentuan</a></li>
-                <li class="info-list-item"><a href="#">Kebijakan Privasi</a></li>
+                <li class="info-list-item"><a href="syarat-ketentuan.php">Syarat dan Ketentuan</a></li>
+                <li class="info-list-item"><a href="kebijakan-privasi.php">Kebijakan Privasi</a></li>
                 <li class="info-list-item"><a href="#">Cara Pembayaran</a></li>
                 <li class="info-list-item"><a href="#">Bantuan</a></li>
-                <li class="info-list-item"><a href="#">FAQ</a></li>
+                <li class="info-list-item"><a href="faq.php">FAQ</a></li>
               </ul>
             </div>
             <div class="col-xs-6 col-sm-6 col-md-4 footer-menu-contact">

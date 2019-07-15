@@ -1460,8 +1460,11 @@ p{
   text-align: left;
   color: #4b4b4b;
 }
-.sk-desc-detail p{
-  margin-bottom: 40px;
+.sk-desc-detail ol, .sk-desc-detail ul, .sk-desc-detail b, .sk-desc-detail p{
+  font-size: 16px;
+}
+.sk-desc-detail ul{
+  list-style-type: disc;
 }
 
 /* --- ## About ## --- */

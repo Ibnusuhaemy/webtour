@@ -34,10 +34,10 @@
       <div class="container">
         <!-- Contact Info -->
         <div class="row header-info">
-          <div class="col-sm-4 col-md-5 col-xs-6 info-logo">
+          <div class="col-sm-4 col-md-5 info-logo">
             <img src="images/jagadtour-logo.png" width="237" height="44" alt="Logo Jagad Tour" class="img-responsive">
           </div>
-          <div class="col-xs-6 show-mobile">
+          <div class="col-xs-12 text-right show-mobile">
           <div class="mobile-title">Let's Explore East Java!</div> 
           <div class="mobile-title-desc">With Jagad Tour</div> 
           </div>
@@ -75,7 +75,7 @@
                   <li><a href="#">Family Trip</a></li>
                   <li><a href="package.php">Corporate</a></li>
                   <li><a href="#">Custom Trip</a></li>
-                  <li><a href="gallery-testi.php">Gallery & Testimoni</a></li>
+                  <li><a href="gallery-testi.php">Gallery &amp; Testimoni</a></li>
                   <li><a href="blog.php">Blog</a></li>
                   <li><a href="contact.php">Contact Us</a></li>
                 </ul>
@@ -92,7 +92,7 @@
     <section class="hero">
       <div class="hero-package">
         <video class="hero-video" width="100%" autoplay loop muted>
-          <source src="video/landingPage.mp4" type="video/mp4">
+          <source src="videos/Outing%20ke%20Malang%20&%20Bromo%20PT%20Juke%20Solusi%20Jakarta%20%20-%20Organized%20by%20JAGAD%20TOUR%20MALANG.mp4" type="video/mp4">
         </video>
         <div class="button show-mobile">
           <a href="https://www.youtube.com/watch?v=DQPXRp3Ac1U" target="_blank">
@@ -100,8 +100,12 @@
           </a>
         </div>
         <div class="container hero-video-content hidden-mobile">
-          <div class="video-content-title">Let's Explore East Java!</div> 
-          <div class="video-content-text">With Jagad Tour</div> 
+          <div class="row">
+            <div class="col-xs-12">
+              <div class="video-content-title">Let's Explore East Java!</div> 
+              <div class="video-content-text">With Jagad Tour</div> 
+            </div>
+          </div>
         </div>
       </div> 
     </section>
@@ -464,7 +468,7 @@
     </section>
     
     <!-- Testimonial -->
-    <section class="content content-testi">
+    <section class="content content-testi content-testi-home">
       <div class="container">
         <div class="row">
           <div class="col-md-6">
@@ -475,17 +479,17 @@
                 <div class="panel panel-default testi-slider-item">
                   <div class="panel-body">
                     <p class="testi-slider-statement">
-                      Salut ane sama mas Basir (driver jeep) karena keseringan ke bromo kali yak jadi segala yang di bromo dia tau. 
-                      Intinya Recomended bgt!
+                      Dari awal ketika melihat jagad tour ada satu pikiran saya bahwa, travel ini memiliki rasa tanggung jawab dan 
+                      beda dengan yang lain mulai dari fasilitas dan pendukung lainnya. Sukses terus jagad tour
                     </p>
                     <div class="media testi-slider-media">
                       <div class="media-left">
                         <a href="#">
-                          <img src="images/photos/testimoni-18.jpg" width="104" height="104" alt="Testimonial Putri Sahadaya di Jagadtour" class="media-object testi-slider-photo">
+                          <img src="images/testimonials/1.jpg" width="104" height="104" alt="Testimonial Putri Sahadaya di Jagadtour" class="media-object testi-slider-photo">
                         </a>
                       </div>
                       <div class="media-body media-middle">
-                        <h4 class="media-heading testi-slider-name">Putri</h4>
+                        <h4 class="media-heading testi-slider-name">Kartika</h4>
                         <p class="testi-slider-city">Bandung</p>
                       </div>
                     </div>
@@ -496,7 +500,8 @@
                 <div class="panel panel-default testi-slider-item">
                   <div class="panel-body">
                     <p class="testi-slider-statement">
-                      Selama gw join open trip, Kayaknya emang Jagadtour Group yg terbaik. Really Satisfied. Gw kasih 4 jempol deh.
+                      Bagi saya jagad tour punya treatment khusus untuk membuat client merasa nyaman dan bahagia saat berwisata di 
+                      malang dan kami merasakan itu. Semoga Tuhan memberkati Jagad Tour dan timnya
                     </p>
                     <div class="media testi-slider-media">
                       <div class="media-left">
@@ -505,87 +510,20 @@
                         </a>
                       </div>
                       <div class="media-body media-middle">
-                        <h4 class="media-heading testi-slider-name">Alicia</h4>
-                        <p class="testi-slider-city">Bogor</p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <!-- <div class="item">
-                <div class="panel panel-default testi-slider-item">
-                  <div class="panel-body">
-                    <p class="testi-slider-statement">
-                      Gausah ragu pake jasa Mas Iwan, Menjelaskan di website dengan detail , keren dan harga sesuai dengan kualitasnya. 
-                      Jangan cepat tergiur dengan harga murah, join ama yg sudah terbukti. Recomended. Makasih mas iwan
-                    </p>
-                    <div class="media testi-slider-media">
-                      <div class="media-left">
-                        <a href="#">
-                          <img src="images/photos/testimoni-23.jpg" width="104" height="104" alt="Testimonial Thomas Budi di Jagadtour" class="media-object testi-slider-photo">
-                        </a>
-                      </div>
-                      <div class="media-body media-middle">
-                        <h4 class="media-heading testi-slider-name">Intan</h4>
-                        <p class="testi-slider-city">Medan</p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div> -->
-              <!-- <div class="item">
-                <div class="panel panel-default testi-slider-item">
-                  <div class="panel-body">
-                    <p class="testi-slider-statement">
-                      Keluarga saya seneng mas trip bromonya. Memuaskan dan pelayanannya super sekali. Ngga salah dapat disuruh mbak 
-                      Indri buat ngubungin mas Iwan yang kata dia puas pas di bromo bareng jagadtour. dan emang terbukti mas. Semoga 
-                      lancar terus ya mas, mohon maaf kalo ada yg salah selama trip bareng keluarga saya kemarin
-                    </p>
-                    <div class="media testi-slider-media">
-                      <div class="media-left">
-                        <a href="#">
-                          <img src="images/photos/testimoni-8.jpg" width="104" height="104" alt="Testimonial Thomas Budi di Jagadtour" class="media-object testi-slider-photo">
-                        </a>
-                      </div>
-                      <div class="media-body media-middle">
-                        <h4 class="media-heading testi-slider-name">Ramadhany Putri</h4>
+                        <h4 class="media-heading testi-slider-name">Andi</h4>
                         <p class="testi-slider-city">Jakarta</p>
                       </div>
                     </div>
                   </div>
                 </div>
-              </div> -->
-              <!-- <div class="item">
-                <div class="panel panel-default testi-slider-item">
-                  <div class="panel-body">
-                    <p class="testi-slider-statement">
-                      Sempat bandingin harga ke travel lain. Tapi harga 350rb yang ditawarkan Jagadtour Group sesuai dengan fasilitas 
-                      dan pelayanan yang kami dapat. Mulai dari penjemputan sampai kembali ke hotel, semua mantap. Udah gitu dapat 
-                      makan sambelnya mak nyusss. Recomended Travel to Bromo. Kalau mau ke bromo, jangan ragu pakai travelnya mas 
-                      Iwan. Thanks mas
-                    </p>
-                    <div class="media testi-slider-media">
-                      <div class="media-left">
-                        <a href="#">
-                          <img src="images/photos/testimoni-45.jpg" width="104" height="104" alt="Testimonial Thomas Budi di Jagadtour" class="media-object testi-slider-photo">
-                        </a>
-                      </div>
-                      <div class="media-body media-middle">
-                        <h4 class="media-heading testi-slider-name">Tyas</h4>
-                        <p class="testi-slider-city">Kemang Jakarta</p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div> -->
+              </div>
             </div>
-            <a href="gallery-testi.php" style="text-decoration: none;"><p class="media-content-testi-link">Baca Lainnya ></p></a>
-
+            <a href="gallery-testi.php" style="text-decoration: none;"><p class="media-content-testi-link">Baca Lainnya</p></a>
           </div>
           <div class="col-md-6">
             <h2 class="content-title content-testi-title">Our Happy Clients</h2>
             <p class="media-content-testi">Mereka sudah mempercayakan tripnya kepada kami, giliran Anda selanjutnya</p>
-            <div class="owl-carousel owl-theme content-client-slider js-content-partner-slider">
+            <div class="owl-carousel owl-theme content-client-slider js-content-client-slider">
               <div class="item">
                 <ul class="list-inline happy-clients">
                   <li class="happy-client-item">
@@ -1072,7 +1010,7 @@
       });
     </script>
     <script type="text/javascript">
-      $('.js-content-partner-slider').owlCarousel({
+      $('.js-content-client-slider').owlCarousel({
         dots: true,
         loop: true,
         margin: 35,

@@ -385,15 +385,14 @@ p{
 }
 .mobile-title{
   color: #ff681f;
-  font-size: 11px;
   font-family: "DINNextLTPro-Regular", Fallback, sans-serif;
-  text-align: right;
+  font-size: 16px;
 }
 .mobile-title-desc{
   color: #0077c2;
-  font-size: 9px;
-  font-family: "DINNextLTPro-Regular", Fallback, sans-serif;
-  text-align: right;
+  font-family: "DINNextLTPro-Bold", Fallback, sans-serif;
+  font-size: 26px;
+  margin-bottom: 15px;
 }
 .info-contact .icon-call{
   font-size: 35px;
@@ -576,6 +575,7 @@ p{
 .card-single-packet .left{
   padding: 0;
   height: 100%;
+  border-right: 1px solid #1f1f1f;
 }
 .mobile-noBorder{
   border-right: 2px solid black;
@@ -725,12 +725,18 @@ p{
 .hero{
   overflow: hidden;
 }
-.hero-video-content{
+.hero-video-content,
+.hero-slider-content{
   position: absolute;
   margin: auto;
   left: 0;
   right: 0;
-  bottom: 0;
+  bottom: 50px;
+  height: 165px;
+  display: block;
+}
+.hero-slider-content{
+  bottom: 100px;
   display: block;
 }
 .hero-mobile-button {
@@ -764,12 +770,16 @@ p{
   padding: 10px 18px;
   background-color: rgba(0, 0, 0, 0.5);
 }
+.hero-slider-content .slider-content-title,
 .hero-video-content .video-content-title{
   font-family: "DINNextLTPro-Bold", Fallback, sans-serif;
   font-size: 65px;
   font-style: italic;
   color: #EE7645;
   line-height: 65px;
+}
+.hero-slider-content .slider-content-title{
+  color: #fff;
 }
 .hero-video-content .video-content-text{
   font-family: "DINNextLTPro-Medium", Fallback, sans-serif;
@@ -1034,6 +1044,9 @@ p{
   border-color: #e5e5e5;
   box-shadow: none;
   margin-bottom: 40px;
+}
+.content-testi-home{
+  margin-bottom: 60px;
 }
 .testi-slider-item .panel-body{
   padding: 20px;
@@ -1432,6 +1445,14 @@ p{
 }
 .content-testi-list{
   margin-bottom: 60px;
+}
+.content-testi-list .content-testi-slider .item{
+  display: inline-block;
+  vertical-align: top;
+  margin-right: -3px;
+  width: 33%;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 /* --- ## Syarat dan Ketentuan dan Kebijakan Provasi ## --- */
@@ -2310,8 +2331,7 @@ p{
   /* --- ## Homepage ## --- */
   /* - Hero - */
   .hero-video-content{
-    width: 100%;
-    height: 180px;
+    height: 85px;
   }
   .hero-slider-content .slider-content-tag{
     font-size: 14px;
@@ -2490,7 +2510,7 @@ p{
     display: none;
   }
   .warper {
-    padding-top: 10vh;
+    padding-top: 140px;
   }
   /* - Card List - */
   .listed-card .list-group-item{
@@ -2562,6 +2582,11 @@ p{
     bottom: 5%;
   }
   
+  
+  /* --- ## Home Page ## --- */
+  .hero-video-content{
+    bottom: 0;
+  }
   
   /* --- ## Package Page ## --- */
   /* - Hero - */
@@ -2673,7 +2698,6 @@ p{
   /* --- ## Package Page ## --- */
   /* - Hero - */
   .hero-package .hero-video{
-    height: 270px;
     overflow: hidden;
   }
   .hero-package .hero-video > video{
@@ -2682,8 +2706,8 @@ p{
     max-width: none;
   }
   .hero-video-content{
-    height: 214px;
-    top: 0;
+    height: 85px;
+    top: auto;
   }
   
   /* - Content - */
@@ -2923,9 +2947,6 @@ p{
   }
   
   /* --- ## Header ## --- */
-  .header-home .header-menu{
-    display: none;
-  }
   .header-info .info-contact{
     display: none;
   }

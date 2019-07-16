@@ -127,7 +127,6 @@
                 <div class="panel panel-default card-single">
                   <div class="panel-body card-single-body">
                     <img src="images/testimonials/4.jpg" width="3000" height="3000" alt="Jagadtour User Photo Gallery" class="img-responsive">
-
                   </div>
                 </div>
               </a>
@@ -155,7 +154,6 @@
                 <div class="panel panel-default card-single">
                   <div class="panel-body card-single-body">
                     <img src="images/testimonials/7.jpg" width="3000" height="3000" alt="Jagadtour User Photo Gallery" class="img-responsive">
-
                   </div>
                 </div>
               </a>
@@ -165,7 +163,6 @@
                 <div class="panel panel-default card-single">
                   <div class="panel-body card-single-body">
                     <img src="images/testimonials/8.jpg" width="2606" height="2605" alt="Jagadtour User Photo Gallery" class="img-responsive">
-
                   </div>
                 </div>
               </a>
@@ -175,7 +172,6 @@
                 <div class="panel panel-default card-single">
                   <div class="panel-body card-single-body">
                     <img src="images/testimonials/9.jpeg" width="720" height="719" alt="Jagadtour User Photo Gallery" class="img-responsive">
-
                   </div>
                 </div>
               </a>
@@ -185,7 +181,6 @@
                 <div class="panel panel-default card-single">
                   <div class="panel-body card-single-body">
                     <img src="images/testimonials/10.jpg" width="2250" height="2249" alt="Jagadtour User Photo Gallery" class="img-responsive">
-
                   </div>
                 </div>
               </a>
@@ -195,7 +190,6 @@
                 <div class="panel panel-default card-single">
                   <div class="panel-body card-single-body">
                     <img src="images/testimonials/11.jpeg" width="523" height="523" alt="Jagadtour User Photo Gallery" class="img-responsive">
-
                   </div>
                 </div>
               </a>
@@ -214,7 +208,6 @@
                 <div class="panel panel-default card-single">
                   <div class="panel-body card-single-body">
                     <img src="images/testimonials/13.jpg" width="2591" height="2591" alt="Jagadtour User Photo Gallery" class="img-responsive">
-
                   </div>
                 </div>
               </a>
@@ -224,7 +217,6 @@
                 <div class="panel panel-default card-single">
                   <div class="panel-body card-single-body">
                     <img src="images/testimonials/14.jpeg" width="720" height="719" alt="Jagadtour User Photo Gallery" class="img-responsive">
-
                   </div>
                 </div>
               </a>
@@ -244,7 +236,6 @@
                 <div class="panel panel-default card-single">
                   <div class="panel-body card-single-body">
                     <img src="images/testimonials/16.jpg" width="2133" height="2133" alt="Jagadtour User Photo Gallery" class="img-responsive">
-
                   </div>
                 </div>
               </a>
@@ -254,7 +245,6 @@
                 <div class="panel panel-default card-single">
                   <div class="panel-body card-single-body">
                     <img src="images/testimonials/17.jpeg" width="720" height="720" alt="Jagadtour User Photo Gallery" class="img-responsive">
-
                   </div>
                 </div>
               </a>
@@ -264,7 +254,6 @@
                 <div class="panel panel-default card-single">
                   <div class="panel-body card-single-body">
                     <img src="images/testimonials/18.jpg" width="3375" height="3374" alt="Jagadtour User Photo Gallery" class="img-responsive">
-
                   </div>
                 </div>
               </a>
@@ -274,7 +263,6 @@
                 <div class="panel panel-default card-single">
                   <div class="panel-body card-single-body">
                     <img src="images/testimonials/19.jpg" width="2646" height="2647" alt="Jagadtour User Photo Gallery" class="img-responsive">
-
                   </div>
                 </div>
               </a>
@@ -284,7 +272,6 @@
                 <div class="panel panel-default card-single">
                   <div class="panel-body card-single-body">
                     <img src="images/testimonials/20.jpeg" width="720" height="720" alt="Jagadtour User Photo Gallery" class="img-responsive">
-
                   </div>
                 </div>
               </a>
@@ -294,7 +281,6 @@
                 <div class="panel panel-default card-single">
                   <div class="panel-body card-single-body">
                     <img src="images/testimonials/21.jpeg" width="720" height="720" alt="Jagadtour User Photo Gallery" class="img-responsive">
-
                   </div>
                 </div>
               </a>
@@ -304,7 +290,6 @@
                 <div class="panel panel-default card-single">
                   <div class="panel-body card-single-body">
                     <img src="images/testimonials/22.jpg" width="3375" height="3374" alt="Jagadtour User Photo Gallery" class="img-responsive">
-
                   </div>
                 </div>
               </a>
@@ -314,7 +299,6 @@
                 <div class="panel panel-default card-single">
                   <div class="panel-body card-single-body">
                     <img src="images/testimonials/23.jpeg" width="720" height="720" alt="Jagadtour User Photo Gallery" class="img-responsive">
-
                   </div>
                 </div>
               </a>
@@ -324,7 +308,6 @@
                 <div class="panel panel-default card-single">
                   <div class="panel-body card-single-body">
                     <img src="images/testimonials/24.jpeg" width="720" height="720" alt="Jagadtour User Photo Gallery" class="img-responsive">
-
                   </div>
                 </div>
               </a>

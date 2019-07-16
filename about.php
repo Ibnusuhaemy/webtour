@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>    
-    <title>Jagadtour | Tentang Kami</title>
+    <title>Jagad Tour | Tentang Kami</title>
 
     <!-- Meta Tags -->
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
@@ -28,7 +28,7 @@
 
     <link rel="stylesheet" type="text/css" href="vendor/angle-vladov-mobile-slider/jquery.mobile-slider.min.css">
         
-    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <link rel="stylesheet" type="text/css" href="css/main.css?v=8">
 
 
   </head>
@@ -77,7 +77,7 @@
                   <li><a href="#">Family Trip</a></li>
                   <li><a href="package.php">Corporate</a></li>
                   <li><a href="#">Custom Trip</a></li>
-                  <li><a href="gallery-testi.php">Gallery & Testimoni</a></li>
+                  <li><a href="gallery-testi.php">Gallery &amp; Testimoni</a></li>
                   <li><a href="blog.php">Blog</a></li>
                   <li><a href="contact.php">Contact Us</a></li>
                 </ul>
@@ -96,16 +96,30 @@
         <div class="row">
           <div class="col-xs-12">
             <div class="content-header about-desc-header">
-              <p class="header-caption">JagadTour</p>
+              <p class="header-caption">Jagad Tour</p>
               <h1 class="header-title">Memberikan pelayanan Premium Travel &amp; Tour.</h1>
             </div>
             <div class="about-desc-detail">
               <p>
-                  Jagad Tour adalah Sebuah perusahaan Biro Perjalanan Wisata di Malang yang lahir dari impian - impian anak muda yang disatukan oleh visi dan dibesarkan oleh harapan. Sebuah perusahaan yang tidak hanya berorientasi pada uang, tapi lebih kepada memberikan kemanfaatan dan kebahagiaan kepada sesama. Dan kini kami menjadi pilihan terbaik wisatawan sebagai Best Tour Operator Di Jawa Timur.
+                Jagad Tour adalah Sebuah perusahaan Biro Perjalanan Wisata di Malang yang lahir dari impian - impian anak muda yang 
+                disatukan oleh visi dan dibesarkan oleh harapan. Sebuah perusahaan yang tidak hanya berorientasi pada uang, tapi 
+                lebih kepada memberikan kemanfaatan dan kebahagiaan kepada sesama. Dan kini kami menjadi pilihan terbaik wisatawan 
+                sebagai Best Tour Operator Di Jawa Timur.
               </p>
               <p>
-                  Berdiri dibawah naungan PT Jagad Mahakarya Wisata, Kami adalah satu-satunya tour operator di Jawa Timur yang bekerja dengan prinsip kejujuran, integriti, menyampaikan apa adanya, all out dan sosial minded, dimana setiap perjalanan wisata kami, kami kemas dengan konsep menyelipkan edukasi dan kepekaan sosial terhadap sesama hingga menjadikan jagad tour sebagai rumah untuk berbagi kebahagiaan.
+                Berdiri dibawah naungan PT Jagad Mahakarya Wisata, Kami adalah satu-satunya tour operator di Jawa Timur yang bekerja 
+                dengan prinsip kejujuran, integriti, menyampaikan apa adanya, all out dan sosial minded, dimana setiap perjalanan 
+                wisata kami, kami kemas dengan konsep menyelipkan edukasi dan kepekaan sosial terhadap sesama hingga menjadikan 
+                jagad tour sebagai rumah untuk berbagi kebahagiaan.
               </p>
+              <ul>
+                <li>Legalitas :</li>
+                <li>PT. Jagad Mahakarya Wisata</li>
+                <li>Akta Pendirian : Notaris Rusnahadi Taufan SH. MKn, No 7 Tanggal 27 Oktober 2016</li>
+                <li>SIUP	: 600/11.27/PK/XI/2016</li>
+                <li>TDP	: 112712900540</li>
+                <li>NPWP	: 80.450.724.2-507.000</li>
+              </ul>
             </div>
           </div>
         </div>
@@ -118,32 +132,56 @@
         <div class="row">
           <div class="col-xs-12">
             <div class="content-header">
-              <p class="header-caption">JagadTour</p>
+              <p class="header-caption">Jagad Tour</p>
               <h2 class="header-title">Our Team</h2>
             </div>
             <div class="about-team-member">
               <div class="member-detail hidden-large-mobile">
                 <div class="js-main-image">
                   <div class="member-detail-image">
-                    <img src="images/photos/anik.jpg" width="859" height="445" alt="Tim Jagadtour" class="js-member-image">
+                    <img src="images/team/amel.JPG" width="4000" height="6000" alt="Tim Jagadtour" class="js-member-image">
                   </div>
-                  <h3 class="member-name js-member-name">Anik</h3>
+                  <h3 class="member-name js-member-name">Amel</h3>
                 </div>
               </div>
             <div class="js-team-member member-list">
-              <div class="mCustomScrollbar" data-mcs-axis="y">
+              <div class="js-scroll-bar">
                 <ul class="js-member-thumbnails">
                   <li class="member-thumbnail js-member-thumbnail-item">
                     <div class="member-thumbnail-image">
-                      <img src="images/photos/Byan.jpg" width="193" height="126" alt="Tim Jagadtour" class="js-thumbnail-item-image">
+                      <img src="images/team/andi.jpg" width="1415" height="2399" alt="Tim Jagadtour" class="js-thumbnail-item-image">
                     </div>
                     <div class="member-thumbnail-data show-large-mobile">
-                      <h3 class="member-name js-thumbnail-name">Byan</h3>
+                      <h3 class="member-name js-thumbnail-name">Andi</h3>
                     </div>
                   </li>
                   <li class="member-thumbnail js-member-thumbnail-item">
                     <div class="member-thumbnail-image">
-                      <img src="images/photos/deden.jpeg" width="193" height="126" alt="Tim Jagadtour" class="js-thumbnail-item-image">
+                      <img src="images/team/anik.jpg" width="3375" height="4500" alt="Tim Jagadtour" class="js-thumbnail-item-image">
+                    </div>
+                    <div class="member-thumbnail-data show-large-mobile">
+                      <h3 class="member-name js-thumbnail-name">Anik</h3>
+                    </div>
+                  </li>
+                  <li class="member-thumbnail js-member-thumbnail-item">
+                    <div class="member-thumbnail-image">
+                      <img src="images/team/asep.jpg" width="1678" height="2399" alt="Tim Jagadtour" class="js-thumbnail-item-image">
+                    </div>
+                    <div class="member-thumbnail-data show-large-mobile">
+                      <h3 class="member-name js-thumbnail-name">Asep</h3>
+                    </div>
+                  </li>
+                  <li class="member-thumbnail js-member-thumbnail-item">
+                    <div class="member-thumbnail-image">
+                    <img src="images/team/amel.JPG" width="4000" height="6000" alt="Tim Jagadtour"class="js-thumbnail-item-image">
+                    </div>
+                    <div class="member-thumbnail-data show-large-mobile">
+                      <h3 class="member-name js-thumbnail-name">Amel</h3>
+                    </div>
+                  </li>
+                  <li class="member-thumbnail js-member-thumbnail-item">
+                    <div class="member-thumbnail-image">
+                      <img src="images/team/deden.jpeg" width="193" height="126" alt="Tim Jagadtour" class="js-thumbnail-item-image">
                     </div>
                     <div class="member-thumbnail-data show-large-mobile">
                       <h3 class="member-name js-thumbnail-name">Deden</h3>
@@ -151,7 +189,7 @@
                   </li>
                   <li class="member-thumbnail js-member-thumbnail-item">
                     <div class="member-thumbnail-image">
-                      <img src="images/photos/Gunarto.jpeg" width="193" height="126" alt="Tim Jagadtour" class="js-thumbnail-item-image">
+                      <img src="images/team/Gunarto.jpeg" width="193" height="126" alt="Tim Jagadtour" class="js-thumbnail-item-image">
                     </div>
                     <div class="member-thumbnail-data show-large-mobile">
                       <h3 class="member-name js-thumbnail-name">Gunarto</h3>
@@ -159,7 +197,7 @@
                   </li>
                   <li class="member-thumbnail js-member-thumbnail-item">
                     <div class="member-thumbnail-image">
-                      <img src="images/photos/Hengky.jpeg" width="193" height="126" alt="Tim Jagadtour" class="js-thumbnail-item-image">
+                      <img src="images/team/Hengky.jpeg" width="193" height="126" alt="Tim Jagadtour" class="js-thumbnail-item-image">
                     </div>
                     <div class="member-thumbnail-data show-large-mobile">
                       <h3 class="member-name js-thumbnail-name">Hengky</h3>
@@ -167,7 +205,7 @@
                   </li>
                   <li class="member-thumbnail js-member-thumbnail-item">
                     <div class="member-thumbnail-image">
-                      <img src="images/photos/ikhwanul-maarif.jpg" width="193" height="126" alt="Tim Jagadtour" class="js-thumbnail-item-image">
+                      <img src="images/team/ikhwanul%20ma;arif.jpg" width="193" height="126" alt="Tim Jagadtour" class="js-thumbnail-item-image">
                     </div>
                     <div class="member-thumbnail-data show-large-mobile">
                       <h3 class="member-name js-thumbnail-name">Ikhwanul Maarif</h3>
@@ -175,7 +213,7 @@
                   </li>
                   <li class="member-thumbnail js-member-thumbnail-item">
                     <div class="member-thumbnail-image">
-                      <img src="images/photos/Mas-Basyir.jpeg" width="193" height="126" alt="Tim Jagadtour" class="js-thumbnail-item-image">
+                      <img src="images/team/Mas%20Basyir.jpeg" width="193" height="126" alt="Tim Jagadtour" class="js-thumbnail-item-image">
                     </div>
                     <div class="member-thumbnail-data show-large-mobile">
                       <h3 class="member-name js-thumbnail-name">Mas Basyir</h3>
@@ -183,7 +221,23 @@
                   </li>
                   <li class="member-thumbnail js-member-thumbnail-item">
                     <div class="member-thumbnail-image">
-                      <img src="images/photos/OVIN.jpeg" width="193" height="126" alt="Tim Jagadtour" class="js-thumbnail-item-image">
+                      <img src="images/team/nisa.JPG" width="193" height="126" alt="Tim Jagadtour" class="js-thumbnail-item-image">
+                    </div>
+                    <div class="member-thumbnail-data show-large-mobile">
+                      <h3 class="member-name js-thumbnail-name">Nisa</h3>
+                    </div>
+                  </li>
+                  <li class="member-thumbnail js-member-thumbnail-item">
+                    <div class="member-thumbnail-image">
+                      <img src="images/team/noval.JPG" width="193" height="126" alt="Tim Jagadtour" class="js-thumbnail-item-image">
+                    </div>
+                    <div class="member-thumbnail-data show-large-mobile">
+                      <h3 class="member-name js-thumbnail-name">Noval</h3>
+                    </div>
+                  </li>
+                  <li class="member-thumbnail js-member-thumbnail-item">
+                    <div class="member-thumbnail-image">
+                      <img src="images/team/OVIN.jpg" width="193" height="126" alt="Tim Jagadtour" class="js-thumbnail-item-image">
                     </div>
                     <div class="member-thumbnail-data show-large-mobile">
                       <h3 class="member-name js-thumbnail-name">Ovin</h3>
@@ -191,31 +245,15 @@
                   </li>
                   <li class="member-thumbnail js-member-thumbnail-item">
                     <div class="member-thumbnail-image">
-                      <img src="images/photos/pak-deni.jpg" width="193" height="126" alt="Tim Jagadtour" class="js-thumbnail-item-image">
+                      <img src="images/team/Riki%20jeep%20bromo.jpeg" width="720" height="960" alt="Tim Jagadtour" class="js-thumbnail-item-image">
                     </div>
                     <div class="member-thumbnail-data show-large-mobile">
-                      <h3 class="member-name js-thumbnail-name">Pak Deni</h3>
+                      <h3 class="member-name js-thumbnail-name">Riki Jeep Bromo</h3>
                     </div>
                   </li>
                   <li class="member-thumbnail js-member-thumbnail-item">
                     <div class="member-thumbnail-image">
-                      <img src="images/photos/papa-roy.jpg" width="193" height="126" alt="Tim Jagadtour" class="js-thumbnail-item-image">
-                    </div>
-                    <div class="member-thumbnail-data show-large-mobile">
-                      <h3 class="member-name js-thumbnail-name">Papa Roy</h3>
-                    </div>
-                  </li>
-                  <li class="member-thumbnail js-member-thumbnail-item">
-                    <div class="member-thumbnail-image">
-                      <img src="images/photos/pego.jpg" width="193" height="126" alt="Tim Jagadtour" class="js-thumbnail-item-image">
-                    </div>
-                    <div class="member-thumbnail-data show-large-mobile">
-                      <h3 class="member-name js-thumbnail-name">Pego</h3>
-                    </div>
-                  </li>
-                  <li class="member-thumbnail js-member-thumbnail-item">
-                    <div class="member-thumbnail-image">
-                      <img src="images/photos/rosita.png" width="193" height="126" alt="Tim Jagadtour" class="js-thumbnail-item-image">
+                      <img src="images/team/rosita.jpeg" width="193" height="126" alt="Tim Jagadtour" class="js-thumbnail-item-image">
                     </div>
                     <div class="member-thumbnail-data show-large-mobile">
                       <h3 class="member-name js-thumbnail-name">Rosita</h3>
@@ -223,7 +261,15 @@
                   </li>
                   <li class="member-thumbnail js-member-thumbnail-item">
                     <div class="member-thumbnail-image">
-                      <img src="images/photos/Sudiono.jpeg" width="193" height="126" alt="Tim Jagadtour" class="js-thumbnail-item-image">
+                      <img src="images/team/Roy.jpg" width="2818" height="3758" alt="Tim Jagadtour" class="js-thumbnail-item-image">
+                    </div>
+                    <div class="member-thumbnail-data show-large-mobile">
+                      <h3 class="member-name js-thumbnail-name">Roy</h3>
+                    </div>
+                  </li>
+                  <li class="member-thumbnail js-member-thumbnail-item">
+                    <div class="member-thumbnail-image">
+                      <img src="images/team/Sudiono.jpeg" width="193" height="126" alt="Tim Jagadtour" class="js-thumbnail-item-image">
                     </div>
                     <div class="member-thumbnail-data show-large-mobile">
                       <h3 class="member-name js-thumbnail-name">Sudiono</h3>
@@ -231,18 +277,34 @@
                   </li>
                   <li class="member-thumbnail js-member-thumbnail-item">
                     <div class="member-thumbnail-image">
-                      <img src="images/photos/Sugeng.jpeg" width="193" height="126" alt="Tim Jagadtour" class="js-thumbnail-item-image">
+                      <img src="images/team/tipan.jpg" width="193" height="126" alt="Tim Jagadtour" class="js-thumbnail-item-image">
                     </div>
                     <div class="member-thumbnail-data show-large-mobile">
-                      <h3 class="member-name js-thumbnail-name">Sugeng</h3>
+                      <h3 class="member-name js-thumbnail-name">Tipan</h3>
                     </div>
                   </li>
                   <li class="member-thumbnail js-member-thumbnail-item">
                     <div class="member-thumbnail-image">
-                      <img src="images/photos/tipan.jpg" width="193" height="126" alt="Tim Jagadtour" class="js-thumbnail-item-image">
+                      <img src="images/team/wahyu.JPG" width="193" height="126" alt="Tim Jagadtour" class="js-thumbnail-item-image">
                     </div>
                     <div class="member-thumbnail-data show-large-mobile">
-                      <h3 class="member-name js-thumbnail-name">Tipan</h3>
+                      <h3 class="member-name js-thumbnail-name">Wahyu</h3>
+                    </div>
+                  </li>
+                  <li class="member-thumbnail js-member-thumbnail-item">
+                    <div class="member-thumbnail-image">
+                      <img src="images/team/yani.jpg" width="193" height="126" alt="Tim Jagadtour" class="js-thumbnail-item-image">
+                    </div>
+                    <div class="member-thumbnail-data show-large-mobile">
+                      <h3 class="member-name js-thumbnail-name">Yani</h3>
+                    </div>
+                  </li>
+                  <li class="member-thumbnail js-member-thumbnail-item">
+                    <div class="member-thumbnail-image">
+                      <img src="images/team/yono.jpg" width="193" height="126" alt="Tim Jagadtour" class="js-thumbnail-item-image">
+                    </div>
+                    <div class="member-thumbnail-data show-large-mobile">
+                      <h3 class="member-name js-thumbnail-name">Yono</h3>
                     </div>
                   </li>
                 </ul>
@@ -376,14 +438,11 @@
     <script src="vendor/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.concat.min.js"></script>        
 
     <script>
-    (function($){
-        $(window).on("load",function(){
-            $(".member-list").mCustomScrollbar({
-              setHeight: 445,
-              setWidth: "18%",
-              theme: "dark",
-            });
-        });
+     $(document).ready(function($){
+          $(".js-scroll-bar").mCustomScrollbar({
+            setHeight: 1000,
+            theme: "dark"
+          });
     })(jQuery);
     </script>
 
@@ -450,24 +509,24 @@
     
     <!-- Photo Gallery Footer -->
     <script type="text/javascript">
-      var token = '1960439865.0ee328f.2d7986f0984f4c4f80b1390ff871fe69',
-      num_photos = 20;
-
-      $.ajax({
-        url: 'https://api.instagram.com/v1/users/self/media/recent',
-        dataType: 'jsonp',
-        type: 'GET',
-        data: {access_token: token, count: num_photos},
-        success: function(data){
-          console.log(data);
-          for( x in data.data ){
-            $('.js-photo-slider').owlCarousel('add', '<div class="photo-slider-item"><img src="'+data.data[x].images.low_resolution.url+'" width="452" height="490" alt="Jagadtour Photo Instagram"></div>').owlCarousel('update');
-          }
-        },
-        error: function(data){
-          console.log(data);
-        }
-      });
+//      var token = '1960439865.0ee328f.2d7986f0984f4c4f80b1390ff871fe69',
+//      num_photos = 20;
+//
+//      $.ajax({
+//        url: 'https://api.instagram.com/v1/users/self/media/recent',
+//        dataType: 'jsonp',
+//        type: 'GET',
+//        data: {access_token: token, count: num_photos},
+//        success: function(data){
+//          console.log(data);
+//          for( x in data.data ){
+//            $('.js-photo-slider').owlCarousel('add', '<div class="photo-slider-item"><img src="'+data.data[x].images.low_resolution.url+'" width="452" height="490" alt="Jagadtour Photo Instagram"></div>').owlCarousel('update');
+//          }
+//        },
+//        error: function(data){
+//          console.log(data);
+//        }
+//      });
     </script>
     
   </body>

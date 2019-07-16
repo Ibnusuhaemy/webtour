@@ -1,8 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>    
-    <title>Jagadtour | Gallery & Testimoni </title>
-
+    <title>Jagad Tour | Galeri &amp; Testimonial</title>
     <!-- Meta Tags -->
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
     <meta name="description" content="">
@@ -24,8 +23,8 @@
     <link rel="stylesheet" type="text/css" href="vendor/owl-carousel.2.3.4/assets/owl.theme.default.css">
     
     <link rel="stylesheet" type="text/css" href="vendor/angle-vladov-mobile-slider/jquery.mobile-slider.min.css">
-    
-    <link rel="stylesheet" type="text/css" href="css/main.css?v=7">
+    <link rel="stylesheet" type="text/css" href="vendor/lightbox/dist/ekko-lightbox.css">
+    <link rel="stylesheet" type="text/css" href="css/main.css?v10">
   </head>
   <body>
 
@@ -97,306 +96,250 @@
         <div class="home-package-slider js-home-package-slider">
           <ul class="row">
             <li class="col-sm-6 col-md-4">
-              <a href="package.php">
+              <a href="images/testimonials/1.jpg" data-toggle="lightbox" data-gallery="gallery" data-type="image">
                 <div class="panel panel-default card-single">
-                  <div class="panel-body card-single-body">
-                    <img src="images/testimonials/1.jpg" width="960" height="960" alt="Jagadtour User Photo Gallery" class="img-responsive">
-                    <div class="card-single-packet row">
-                      <p class="card-single-title">Bromo Sunrise Tour</p> 
-                    </div>
+                  <div class="panel-body card-single-body" >
+                    <img src="images/testimonials/1.jpg" width="960" height="960" alt="Jagadtour User Photo Gallery" class="img-responsive " class="img-fluid"">
                   </div>
                 </div>
               </a>
             </li>
             <li class="col-sm-6 col-md-4">
-              <a href="package.php">
+              <a href="images/testimonials/2.jpg" data-toggle="lightbox" data-gallery="gallery" data-type="image">
                 <div class="panel panel-default card-single">
                   <div class="panel-body card-single-body">
-                    <img src="images/testimonials/2.jpg" width="3000" height="3000" alt="Jagadtour User Photo Gallery" class="img-responsive">
-                    <div class="card-single-packet row">
-                      <p class="card-single-title">Bromo Sunrise Tour</p> 
-                    </div>
+                    <img src="images/testimonials/2.jpg" width="3000" height="3000" alt="Jagadtour User Photo Gallery" class="img-responsive" class="img-fluid">
                   </div>
                 </div>
               </a>
             </li>
             <li class="col-sm-6 col-md-4">
-              <a href="package.php">
+            <a href="images/testimonials/3.jpeg" data-toggle="lightbox" data-gallery="gallery" data-type="image">
                 <div class="panel panel-default card-single">
                   <div class="panel-body card-single-body">
                     <img src="images/testimonials/3.jpeg" width="720" height="719" alt="Jagadtour User Photo Gallery" class="img-responsive">
-                    <div class="card-single-packet row">
-                      <p class="card-single-title">Bromo Sunrise Tour</p> 
-                    </div>
                   </div>
                 </div>
               </a>
             </li>
             <li class="col-sm-6 col-md-4">
-              <a href="package.php">
+            <a href="images/testimonials/4.jpg" data-toggle="lightbox" data-gallery="gallery" data-type="image">
                 <div class="panel panel-default card-single">
                   <div class="panel-body card-single-body">
                     <img src="images/testimonials/4.jpg" width="3000" height="3000" alt="Jagadtour User Photo Gallery" class="img-responsive">
-                    <div class="card-single-packet row">
-                      <p class="card-single-title">Bromo Sunrise Tour</p> 
-                    </div>
+
                   </div>
                 </div>
               </a>
             </li>
             <li class="col-sm-6 col-md-4">
-              <a href="package.php">
+            <a href="images/testimonials/5.jpg" data-toggle="lightbox" data-gallery="gallery" data-type="image">
                 <div class="panel panel-default card-single">
                   <div class="panel-body card-single-body">
                     <img src="images/testimonials/5.jpg" width="3375" height="3374" alt="Jagadtour User Photo Gallery" class="img-responsive">
-                    <div class="card-single-packet row">
-                      <p class="card-single-title">Bromo Sunrise Tour</p> 
-                    </div>
                   </div>
                 </div>
               </a>
             </li>
             <li class="col-sm-6 col-md-4">
-              <a href="package.php">
+            <a href="images/testimonials/6.jpg" data-toggle="lightbox" data-gallery="gallery" data-type="image">
                 <div class="panel panel-default card-single">
                   <div class="panel-body card-single-body">
                     <img src="images/testimonials/6.jpg" width="1683" height="1683" alt="Jagadtour User Photo Gallery" class="img-responsive">
-                    <div class="card-single-packet row">
-                      <p class="card-single-title">Bromo Sunrise Tour</p> 
-                    </div>
                   </div>
                 </div>
               </a>
             </li>
             <li class="col-sm-6 col-md-4">
-              <a href="package.php">
+            <a href="images/testimonials/7.jpg" data-toggle="lightbox" data-gallery="gallery" data-type="image">
                 <div class="panel panel-default card-single">
                   <div class="panel-body card-single-body">
                     <img src="images/testimonials/7.jpg" width="3000" height="3000" alt="Jagadtour User Photo Gallery" class="img-responsive">
-                    <div class="card-single-packet row">
-                      <p class="card-single-title">Bromo Sunrise Tour</p> 
-                    </div>
+
                   </div>
                 </div>
               </a>
             </li>
             <li class="col-sm-6 col-md-4">
-              <a href="package.php">
+            <a href="images/testimonials/8.jpg" data-toggle="lightbox" data-gallery="gallery" data-type="image">
                 <div class="panel panel-default card-single">
                   <div class="panel-body card-single-body">
                     <img src="images/testimonials/8.jpg" width="2606" height="2605" alt="Jagadtour User Photo Gallery" class="img-responsive">
-                    <div class="card-single-packet row">
-                      <p class="card-single-title">Bromo Sunrise Tour</p> 
-                    </div>
+
                   </div>
                 </div>
               </a>
             </li>
             <li class="col-sm-6 col-md-4">
-              <a href="package.php">
+            <a href="images/testimonials/9.jpeg" data-toggle="lightbox" data-gallery="gallery" data-type="image">
                 <div class="panel panel-default card-single">
                   <div class="panel-body card-single-body">
                     <img src="images/testimonials/9.jpeg" width="720" height="719" alt="Jagadtour User Photo Gallery" class="img-responsive">
-                    <div class="card-single-packet row">
-                      <p class="card-single-title">Bromo Sunrise Tour</p> 
-                    </div>
+
                   </div>
                 </div>
               </a>
             </li>
             <li class="col-sm-6 col-md-4">
-              <a href="package.php">
+            <a href="images/testimonials/10.jpg" data-toggle="lightbox" data-gallery="gallery" data-type="image">
                 <div class="panel panel-default card-single">
                   <div class="panel-body card-single-body">
                     <img src="images/testimonials/10.jpg" width="2250" height="2249" alt="Jagadtour User Photo Gallery" class="img-responsive">
-                    <div class="card-single-packet row">
-                      <p class="card-single-title">Bromo Sunrise Tour</p> 
-                    </div>
+
                   </div>
                 </div>
               </a>
             </li>
             <li class="col-sm-6 col-md-4">
-              <a href="package.php">
+            <a href="images/testimonials/11.jpeg" data-toggle="lightbox" data-gallery="gallery" data-type="image">
                 <div class="panel panel-default card-single">
                   <div class="panel-body card-single-body">
                     <img src="images/testimonials/11.jpeg" width="523" height="523" alt="Jagadtour User Photo Gallery" class="img-responsive">
-                    <div class="card-single-packet row">
-                      <p class="card-single-title">Bromo Sunrise Tour</p> 
-                    </div>
+
                   </div>
                 </div>
               </a>
             </li>
             <li class="col-sm-6 col-md-4">
-              <a href="package.php">
+            <a href="images/testimonials/12.jpg" data-toggle="lightbox" data-gallery="gallery" data-type="image">
                 <div class="panel panel-default card-single">
                   <div class="panel-body card-single-body">
                     <img src="images/testimonials/12.jpg" width="1764" height="1763" alt="Jagadtour User Photo Gallery" class="img-responsive">
-                    <div class="card-single-packet row">
-                      <p class="card-single-title">Bromo Sunrise Tour</p> 
-                    </div>
                   </div>
                 </div>
               </a>
             </li>
             <li class="col-sm-6 col-md-4">
-              <a href="package.php">
+            <a href="images/testimonials/13.jpg" data-toggle="lightbox" data-gallery="gallery" data-type="image">
                 <div class="panel panel-default card-single">
                   <div class="panel-body card-single-body">
                     <img src="images/testimonials/13.jpg" width="2591" height="2591" alt="Jagadtour User Photo Gallery" class="img-responsive">
-                    <div class="card-single-packet row">
-                      <p class="card-single-title">Bromo Sunrise Tour</p> 
-                    </div>
+
                   </div>
                 </div>
               </a>
             </li>
             <li class="col-sm-6 col-md-4">
-              <a href="package.php">
+            <a href="images/testimonials/14.jpeg" data-toggle="lightbox" data-gallery="gallery" data-type="image">
                 <div class="panel panel-default card-single">
                   <div class="panel-body card-single-body">
                     <img src="images/testimonials/14.jpeg" width="720" height="719" alt="Jagadtour User Photo Gallery" class="img-responsive">
-                    <div class="card-single-packet row">
-                      <p class="card-single-title">Bromo Sunrise Tour</p> 
-                    </div>
+
                   </div>
                 </div>
               </a>
             </li>
             <li class="col-sm-6 col-md-4">
-              <a href="package.php">
+            <a href="images/testimonials/15.jpeg" data-toggle="lightbox" data-gallery="gallery" data-type="image">
                 <div class="panel panel-default card-single">
                   <div class="panel-body card-single-body">
                     <img src="images/testimonials/15.jpeg" width="720" height="720" alt="Jagadtour User Photo Gallery" class="img-responsive">
-                    <div class="card-single-packet row">
-                      <p class="card-single-title">Bromo Sunrise Tour</p> 
-                    </div>
+ 
                   </div>
                 </div>
               </a>
             </li>
             <li class="col-sm-6 col-md-4">
-              <a href="package.php">
+            <a href="images/testimonials/16.jpg" data-toggle="lightbox" data-gallery="gallery" data-type="image">
                 <div class="panel panel-default card-single">
                   <div class="panel-body card-single-body">
                     <img src="images/testimonials/16.jpg" width="2133" height="2133" alt="Jagadtour User Photo Gallery" class="img-responsive">
-                    <div class="card-single-packet row">
-                      <p class="card-single-title">Bromo Sunrise Tour</p> 
-                    </div>
+
                   </div>
                 </div>
               </a>
             </li>
             <li class="col-sm-6 col-md-4">
-              <a href="package.php">
+            <a href="images/testimonials/17.jpeg" data-toggle="lightbox" data-gallery="gallery" data-type="image">
                 <div class="panel panel-default card-single">
                   <div class="panel-body card-single-body">
                     <img src="images/testimonials/17.jpeg" width="720" height="720" alt="Jagadtour User Photo Gallery" class="img-responsive">
-                    <div class="card-single-packet row">
-                      <p class="card-single-title">Bromo Sunrise Tour</p> 
-                    </div>
+
                   </div>
                 </div>
               </a>
             </li>
             <li class="col-sm-6 col-md-4">
-              <a href="package.php">
+            <a href="images/testimonials/18.jpg" data-toggle="lightbox" data-gallery="gallery" data-type="image">
                 <div class="panel panel-default card-single">
                   <div class="panel-body card-single-body">
                     <img src="images/testimonials/18.jpg" width="3375" height="3374" alt="Jagadtour User Photo Gallery" class="img-responsive">
-                    <div class="card-single-packet row">
-                      <p class="card-single-title">Bromo Sunrise Tour</p> 
-                    </div>
+
                   </div>
                 </div>
               </a>
             </li>
             <li class="col-sm-6 col-md-4">
-              <a href="package.php">
+            <a href="images/testimonials/19.jpg" data-toggle="lightbox" data-gallery="gallery" data-type="image">
                 <div class="panel panel-default card-single">
                   <div class="panel-body card-single-body">
                     <img src="images/testimonials/19.jpg" width="2646" height="2647" alt="Jagadtour User Photo Gallery" class="img-responsive">
-                    <div class="card-single-packet row">
-                      <p class="card-single-title">Bromo Sunrise Tour</p> 
-                    </div>
+
                   </div>
                 </div>
               </a>
             </li>
             <li class="col-sm-6 col-md-4">
-              <a href="package.php">
+            <a href="images/testimonials/20.jpeg" data-toggle="lightbox" data-gallery="gallery" data-type="image">
                 <div class="panel panel-default card-single">
                   <div class="panel-body card-single-body">
                     <img src="images/testimonials/20.jpeg" width="720" height="720" alt="Jagadtour User Photo Gallery" class="img-responsive">
-                    <div class="card-single-packet row">
-                      <p class="card-single-title">Bromo Sunrise Tour</p> 
-                    </div>
+
                   </div>
                 </div>
               </a>
             </li>
             <li class="col-sm-6 col-md-4">
-              <a href="package.php">
+            <a href="images/testimonials/21.jpeg" data-toggle="lightbox" data-gallery="gallery" data-type="image">
                 <div class="panel panel-default card-single">
                   <div class="panel-body card-single-body">
                     <img src="images/testimonials/21.jpeg" width="720" height="720" alt="Jagadtour User Photo Gallery" class="img-responsive">
-                    <div class="card-single-packet row">
-                      <p class="card-single-title">Bromo Sunrise Tour</p> 
-                    </div>
+
                   </div>
                 </div>
               </a>
             </li>
             <li class="col-sm-6 col-md-4">
-              <a href="package.php">
+            <a href="images/testimonials/22.jpg" data-toggle="lightbox" data-gallery="gallery" data-type="image">
                 <div class="panel panel-default card-single">
                   <div class="panel-body card-single-body">
                     <img src="images/testimonials/22.jpg" width="3375" height="3374" alt="Jagadtour User Photo Gallery" class="img-responsive">
-                    <div class="card-single-packet row">
-                      <p class="card-single-title">Bromo Sunrise Tour</p> 
-                    </div>
+
                   </div>
                 </div>
               </a>
             </li>
             <li class="col-sm-6 col-md-4">
-              <a href="package.php">
+            <a href="images/testimonials/23.jpeg" data-toggle="lightbox" data-gallery="gallery" data-type="image">
                 <div class="panel panel-default card-single">
                   <div class="panel-body card-single-body">
                     <img src="images/testimonials/23.jpeg" width="720" height="720" alt="Jagadtour User Photo Gallery" class="img-responsive">
-                    <div class="card-single-packet row">
-                      <p class="card-single-title">Bromo Sunrise Tour</p> 
-                    </div>
+
                   </div>
                 </div>
               </a>
             </li>
             <li class="col-sm-6 col-md-4">
-              <a href="package.php">
+            <a href="images/testimonials/24.jpeg" data-toggle="lightbox" data-gallery="gallery" data-type="image">
                 <div class="panel panel-default card-single">
                   <div class="panel-body card-single-body">
                     <img src="images/testimonials/24.jpeg" width="720" height="720" alt="Jagadtour User Photo Gallery" class="img-responsive">
-                    <div class="card-single-packet row">
-                      <p class="card-single-title">Bromo Sunrise Tour</p> 
-                    </div>
+
                   </div>
                 </div>
               </a>
             </li>
             <li class="col-sm-6 col-md-4">
-              <a href="package.php">
+            <a href="images/testimonials/25.jpg" data-toggle="lightbox" data-gallery="gallery" data-type="image">
                 <div class="panel panel-default card-single">
                   <div class="panel-body card-single-body">
                     <img src="images/testimonials/25.jpg" width="3375" height="3374" alt="Jagadtour User Photo Gallery" class="img-responsive">
-                    <div class="card-single-packet row">
-                      <p class="card-single-title">Bromo Sunrise Tour</p> 
-                    </div>
                   </div>
                 </div>
               </a>
             </li>
           </ul>
+        </div>
         </div>
       </div>
     </section>
@@ -410,108 +353,534 @@
           </div>
         </div>
         <div class="content-testi-slider row">
-          <div class="item col-xs-12 col-md-4">
+          <div class="item">
             <div class="panel panel-default testi-slider-item">
               <div class="panel-body">
                 <p class="testi-slider-statement">
-                  Salut ane sama mas Basir (driver jeep) karena keseringan ke bromo kali yak jadi segala yang di bromo dia tau. 
-                  Intinya Recomended bgt!
+                  Dari awal ketika melihat jagad tour ada satu pikiran saya bahwa, travel ini memiliki rasa tanggung jawab dan beda 
+                  dengan yang lain mulai dari fasilitas dan pendukung lainnya. Sukses terus jagad tour.
                 </p>
                 <div class="media testi-slider-media">
                   <div class="media-left">
                     <a href="#">
-                      <img src="images/photos/testimoni-18.jpg" width="104" height="104" alt="Testimonial Putri Sahadaya di Jagadtour" class="media-object testi-slider-photo">
+                      <img src="images/testimonials/1.jpg" width="960" height="960" alt="Testimonial Putri Sahadaya di Jagadtour" class="media-object testi-slider-photo">
                     </a>
                   </div>
                   <div class="media-body media-middle">
-                    <h4 class="media-heading testi-slider-name">Putri</h4>
+                    <h4 class="media-heading testi-slider-name">Kartika</h4>
                     <p class="testi-slider-city">Bandung</p>
                   </div>
                 </div>
               </div>
             </div>
           </div>
-          <div class="item col-xs-12 col-md-4">
+          <div class="item">
             <div class="panel panel-default testi-slider-item">
               <div class="panel-body">
                 <p class="testi-slider-statement">
-                  Selama gw join open trip, Kayaknya emang Jagadtour Group yg terbaik. Really Satisfied. Gw kasih 4 jempol deh.
+                  Bagi saya jagad tour punya treatment khusus untuk membuat client merasa nyaman dan bahagia saat berwisata di 
+                  malang dan kami merasakan itu. Semoga Tuhan memberkati Jagad Tour dan timnya
                 </p>
                 <div class="media testi-slider-media">
                   <div class="media-left">
                     <a href="#">
-                      <img src="images/photos/testimoni-47.jpg" width="104" height="104" alt="Testimonial Asuna Diana di Jagadtour" class="media-object testi-slider-photo">
+                      <img src="images/testimonials/2.jpg" width="3000" height="3000" alt="Testimonial Asuna Diana di Jagadtour" class="media-object testi-slider-photo">
                     </a>
                   </div>
                   <div class="media-body media-middle">
-                    <h4 class="media-heading testi-slider-name">Alicia</h4>
-                    <p class="testi-slider-city">Bogor</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="item col-xs-12 col-md-4">
-            <div class="panel panel-default testi-slider-item">
-              <div class="panel-body">
-                <p class="testi-slider-statement">
-                  Gausah ragu pake jasa Mas Iwan, Menjelaskan di website dengan detail , keren dan harga sesuai dengan kualitasnya. 
-                  Jangan cepat tergiur dengan harga murah, join ama yg sudah terbukti. Recomended. Makasih mas iwan
-                </p>
-                <div class="media testi-slider-media">
-                  <div class="media-left">
-                    <a href="#">
-                      <img src="images/photos/testimoni-23.jpg" width="104" height="104" alt="Testimonial Thomas Budi di Jagadtour" class="media-object testi-slider-photo">
-                    </a>
-                  </div>
-                  <div class="media-body media-middle">
-                    <h4 class="media-heading testi-slider-name">Intan</h4>
-                    <p class="testi-slider-city">Medan</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="item col-xs-12 col-md-4">
-            <div class="panel panel-default testi-slider-item">
-              <div class="panel-body">
-                <p class="testi-slider-statement">
-                  Keluarga saya seneng mas trip bromonya. Memuaskan dan pelayanannya super sekali. Ngga salah dapat disuruh mbak 
-                  Indri buat ngubungin mas Iwan yang kata dia puas pas di bromo bareng jagadtour. dan emang terbukti mas. Semoga 
-                  lancar terus ya mas, mohon maaf kalo ada yg salah selama trip bareng keluarga saya kemarin
-                </p>
-                <div class="media testi-slider-media">
-                  <div class="media-left">
-                    <a href="#">
-                      <img src="images/photos/testimoni-8.jpg" width="104" height="104" alt="Testimonial Thomas Budi di Jagadtour" class="media-object testi-slider-photo">
-                    </a>
-                  </div>
-                  <div class="media-body media-middle">
-                    <h4 class="media-heading testi-slider-name">Ramadhany Putri</h4>
+                    <h4 class="media-heading testi-slider-name">Andi</h4>
                     <p class="testi-slider-city">Jakarta</p>
                   </div>
                 </div>
               </div>
             </div>
           </div>
-          <div class="item col-xs-12 col-md-4">
+          <div class="item">
             <div class="panel panel-default testi-slider-item">
               <div class="panel-body">
                 <p class="testi-slider-statement">
-                  Sempat bandingin harga ke travel lain. Tapi harga 350rb yang ditawarkan Jagadtour Group sesuai dengan fasilitas 
-                  dan pelayanan yang kami dapat. Mulai dari penjemputan sampai kembali ke hotel, semua mantap. Udah gitu dapat 
-                  makan sambelnya mak nyusss. Recomended Travel to Bromo. Kalau mau ke bromo, jangan ragu pakai travelnya mas 
-                  Iwan. Thanks mas
+                  Selama saya liburan bersama keluarga ada moment yang tak terlupakan bagi anak saya ketika di malang yaitu 
+                  mendonasikan sebagian rejeki kami untuk ibu Halimah di Desa Pujon dan itu sangat menyentuh, terimakasih jagad tour 
+                  sudah mengajarkan anak kami arti kepedulian. Semoga makin besar
                 </p>
                 <div class="media testi-slider-media">
                   <div class="media-left">
                     <a href="#">
-                      <img src="images/photos/testimoni-45.jpg" width="104" height="104" alt="Testimonial Thomas Budi di Jagadtour" class="media-object testi-slider-photo">
+                      <img src="images/testimonials/3.jpeg" width="720" height="719" alt="Testimonial Thomas Budi di Jagadtour" class="media-object testi-slider-photo">
                     </a>
                   </div>
                   <div class="media-body media-middle">
-                    <h4 class="media-heading testi-slider-name">Tyas</h4>
-                    <p class="testi-slider-city">Kemang Jakarta</p>
+                    <h4 class="media-heading testi-slider-name">Salma</h4>
+                    <p class="testi-slider-city">Palembang</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="panel panel-default testi-slider-item">
+              <div class="panel-body">
+                <p class="testi-slider-statement">
+                  Apa yang dijelaskan di website sama dengan apa yang kami terima saat di Malang. Hotelnya juga sesuai dengan 
+                  permintaan. Liburan kami berkesan dan terorganized dengan baik, Thank’s jagad tour
+                </p>
+                <div class="media testi-slider-media">
+                  <div class="media-left">
+                    <a href="#">
+                      <img src="images/testimonials/4.jpg" width="3000" height="3000" alt="Testimonial Thomas Budi di Jagadtour" class="media-object testi-slider-photo">
+                    </a>
+                  </div>
+                  <div class="media-body media-middle">
+                    <h4 class="media-heading testi-slider-name">Pak Davis</h4>
+                    <p class="testi-slider-city">Balikpapan</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="panel panel-default testi-slider-item">
+              <div class="panel-body">
+                <p class="testi-slider-statement">
+                  Tim mereka profesional apalagi saat menjelaskan detail objek wisata di Malang, mereka memberi saran sesuai dengan 
+                  apa yang kita inginkan. Tidak ada yang ditutupi dan mencoba menjelaskan apa adanya. Kami mengapresiasi kejujuran 
+                  kalian. Maju Terus Jagad Tour
+                </p>
+                <div class="media testi-slider-media">
+                  <div class="media-left">
+                    <a href="#">
+                      <img src="images/testimonials/5.jpg" width="3375" height="3374" alt="Testimonial Thomas Budi di Jagadtour" class="media-object testi-slider-photo">
+                    </a>
+                  </div>
+                  <div class="media-body media-middle">
+                    <h4 class="media-heading testi-slider-name">Alim</h4>
+                    <p class="testi-slider-city">Jakarta</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="panel panel-default testi-slider-item">
+              <div class="panel-body">
+                <p class="testi-slider-statement">
+                  Jagad Tour layak untuk direkomendasikan kepada siapapun, karena paket yang mereka punya dan pelayanan mereka cocok 
+                  untuk semua kalangan. Dan memang tim mereka kepekaan sosialnya sangat tinggi. Di setiap menjumpai pengemis di 
+                  persimpangan jalan selalu ada acara untuk memberikan bunga social kepada mereka yang membutuhkan.
+                </p>
+                <div class="media testi-slider-media">
+                  <div class="media-left">
+                    <a href="#">
+                      <img src="images/testimonials/6.jpg" width="1683" height="1683" alt="Testimonial Thomas Budi di Jagadtour" class="media-object testi-slider-photo">
+                    </a>
+                  </div>
+                  <div class="media-body media-middle">
+                    <h4 class="media-heading testi-slider-name">Helen</h4>
+                    <p class="testi-slider-city">Jakarta Barat</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="panel panel-default testi-slider-item">
+              <div class="panel-body">
+                <p class="testi-slider-statement">
+                  Saya baru pertama kali di Malang dan kami pasrahkan semua kepada jagad tour. well, semua berjalan dengan lancar dan 
+                  menarik untuk diceritakan. Semoga Jagad Tour makin jaya dan laris manis
+                </p>
+                <div class="media testi-slider-media">
+                  <div class="media-left">
+                    <a href="#">
+                      <img src="images/testimonials/7.jpg" width="3000" height="3000" alt="Testimonial Thomas Budi di Jagadtour" class="media-object testi-slider-photo">
+                    </a>
+                  </div>
+                  <div class="media-body media-middle">
+                    <h4 class="media-heading testi-slider-name">Helen</h4>
+                    <p class="testi-slider-city">Jakarta Barat</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="panel panel-default testi-slider-item">
+              <div class="panel-body">
+                <p class="testi-slider-statement">
+                  Jika ingin membuka cabang di Jakarta kami siap membantu karena berkaca dari apa yang kami dapatkan, service dari 
+                  jagad tour memang memuaskan dan kami PD untuk menjadi bagian jagad tour
+                </p>
+                <div class="media testi-slider-media">
+                  <div class="media-left">
+                    <a href="#">
+                      <img src="images/testimonials/8.jpg" width="2606" height="2605" alt="Testimonial Thomas Budi di Jagadtour" class="media-object testi-slider-photo">
+                    </a>
+                  </div>
+                  <div class="media-body media-middle">
+                    <h4 class="media-heading testi-slider-name">Pak Luminto</h4>
+                    <p class="testi-slider-city">Jakarta Timur</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="panel panel-default testi-slider-item">
+              <div class="panel-body">
+                <p class="testi-slider-statement">
+                  Mungkin saya adalah satu dari  banyak orang yang telah menggunakan jagad tour dan kami berikan 4 jempol untuk 
+                  tour kami selama 4 hari di malang dan bromo
+                </p>
+                <div class="media testi-slider-media">
+                  <div class="media-left">
+                    <a href="#">
+                      <img src="images/testimonials/9.jpeg" width="720" height="719" alt="Testimonial Thomas Budi di Jagadtour" class="media-object testi-slider-photo">
+                    </a>
+                  </div>
+                  <div class="media-body media-middle">
+                    <h4 class="media-heading testi-slider-name">Pak Enggar</h4>
+                    <p class="testi-slider-city">Padang</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="panel panel-default testi-slider-item">
+              <div class="panel-body">
+                <p class="testi-slider-statement">
+                  Ternyata waktu 3 hari berasa kurang untuk kami berlibur di Malang dan ternyata banyak destinasi yang belum 
+                  dikunjungi di Malang salah satunya Jatimpark 3 yang masih baru di batu, semoga suatu saat bisa ke Malang lagi 
+                  bersama jagad tour
+                </p>
+                <div class="media testi-slider-media">
+                  <div class="media-left">
+                    <a href="#">
+                      <img src="images/testimonials/10.jpg" width="2250" height="2249" alt="Testimonial Thomas Budi di Jagadtour" class="media-object testi-slider-photo">
+                    </a>
+                  </div>
+                  <div class="media-body media-middle">
+                    <h4 class="media-heading testi-slider-name">Bu Dessy</h4>
+                    <p class="testi-slider-city">Semarang</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="panel panel-default testi-slider-item">
+              <div class="panel-body">
+                <p class="testi-slider-statement">
+                  An amazing journey can enjoy bromo and ranukumbolo with Jagad Tour. They understand the conditions on the ground 
+                  and can provide other alternatives so that we don't feel exhausted and the food menu even though it's simple feels 
+                  good. Highly recommended
+                </p>
+                <div class="media testi-slider-media">
+                  <div class="media-left">
+                    <a href="#">
+                      <img src="images/testimonials/11.jpeg" width="523" height="523" alt="Testimonial Thomas Budi di Jagadtour" class="media-object testi-slider-photo">
+                    </a>
+                  </div>
+                  <div class="media-body media-middle">
+                    <h4 class="media-heading testi-slider-name">Erika</h4>
+                    <p class="testi-slider-city">Netherland</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="panel panel-default testi-slider-item">
+              <div class="panel-body">
+                <p class="testi-slider-statement">
+                  Jujur dan terpercaya itu saya gambarkan untuk jagad tour, terimakasih pak iwan untuk bantuannya.
+                </p>
+                <div class="media testi-slider-media">
+                  <div class="media-left">
+                    <a href="#">
+                      <img src="images/testimonials/12.jpg" width="1764" height="1763" alt="Testimonial Thomas Budi di Jagadtour" class="media-object testi-slider-photo">
+                    </a>
+                  </div>
+                  <div class="media-body media-middle">
+                    <h4 class="media-heading testi-slider-name">Pak Julius</h4>
+                    <p class="testi-slider-city">Makassar</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="panel panel-default testi-slider-item">
+              <div class="panel-body">
+                <p class="testi-slider-statement">
+                  Customer servicenya asik bisa memberi referensi dan saran untuk rombongan kita yang notabenenya pensiunan, semua 
+                  terorganiser dengan baik dan servicenya juga OK. Kami semuanya puas 
+                </p>
+                <div class="media testi-slider-media">
+                  <div class="media-left">
+                    <a href="#">
+                      <img src="images/testimonials/13.jpg" width="2591" height="2591" alt="Testimonial Thomas Budi di Jagadtour" class="media-object testi-slider-photo">
+                    </a>
+                  </div>
+                  <div class="media-body media-middle">
+                    <h4 class="media-heading testi-slider-name">Alex</h4>
+                    <p class="testi-slider-city">Jakarta</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="panel panel-default testi-slider-item">
+              <div class="panel-body">
+                <p class="testi-slider-statement">
+                  Meskipun hanya berdonasi 1 buku kami merasa terenyuh dan jagad tour sukses membuat perjalanan kami menjadi lebih bermakna
+                </p>
+                <div class="media testi-slider-media">
+                  <div class="media-left">
+                    <a href="#">
+                      <img src="images/testimonials/14.jpeg" width="720" height="719" alt="Testimonial Thomas Budi di Jagadtour" class="media-object testi-slider-photo">
+                    </a>
+                  </div>
+                  <div class="media-body media-middle">
+                    <h4 class="media-heading testi-slider-name">Pak Rahmad</h4>
+                    <p class="testi-slider-city">Makassar</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="panel panel-default testi-slider-item">
+              <div class="panel-body">
+                <p class="testi-slider-statement">
+                  It was perfect, and highly recomended
+                </p>
+                <div class="media testi-slider-media">
+                  <div class="media-left">
+                    <a href="#">
+                      <img src="images/testimonials/15.jpeg" width="720" height="720" alt="Testimonial Thomas Budi di Jagadtour" class="media-object testi-slider-photo">
+                    </a>
+                  </div>
+                  <div class="media-body media-middle">
+                    <h4 class="media-heading testi-slider-name">Riana</h4>
+                    <p class="testi-slider-city">Prancis</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="panel panel-default testi-slider-item">
+              <div class="panel-body">
+                <p class="testi-slider-statement">
+                  Sempat membandingkan dengan 8 travel di malang dengan penawaran yang berbeda – beda, tapi dari semuanya kami 
+                  sepakat untuk memilih jagad tour meski harga jauh diatas yang lain. Banyak point yang menjadi pertimbangan kami, 
+                  tapi ada satu point yang membuat kami jatuh hati kepada jagad tour yaitu konsisten terhadap fasilitas biarpun kami 
+                  memancing untuk menjatuhkan harga, tapi tim mereka tidak menggubris itu. Mereka punya standart pelayanan yang beda 
+                  dari yg lain. Dan itu terbukti, kami sangat puas!
+                </p>
+                <div class="media testi-slider-media">
+                  <div class="media-left">
+                    <a href="#">
+                      <img src="images/testimonials/16.jpg" width="2133" height="2133" alt="Testimonial Thomas Budi di Jagadtour" class="media-object testi-slider-photo">
+                    </a>
+                  </div>
+                  <div class="media-body media-middle">
+                    <h4 class="media-heading testi-slider-name">Andre</h4>
+                    <p class="testi-slider-city">Jakarta</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="panel panel-default testi-slider-item">
+              <div class="panel-body">
+                <p class="testi-slider-statement">
+                  Yang paling menyentuh adalah saat di hari terakhir kami diajak datang ke suatu desa pelosok yang belum terjangkau, 
+                  dan memberikan donasi kepada pak Rohman yang jauh dari kata layak, dan kami merasakan arti berbagi yang 
+                  sesungguhnya. Pengalaman ini tak akan pernah lupa. Terimaksih jagad tour, semoga konsisten dengan misinya.
+                </p>
+                <div class="media testi-slider-media">
+                  <div class="media-left">
+                    <a href="#">
+                      <img src="images/testimonials/17.jpeg" width="720" height="720" alt="Testimonial Thomas Budi di Jagadtour" class="media-object testi-slider-photo">
+                    </a>
+                  </div>
+                  <div class="media-body media-middle">
+                    <h4 class="media-heading testi-slider-name">Bu Lina</h4>
+                    <p class="testi-slider-city">Jakarta</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="panel panel-default testi-slider-item">
+              <div class="panel-body">
+                <p class="testi-slider-statement">
+                  Perusahaan kami sudah pernah ke malang dan menggunakan travel X dan tahun ini menggunakan jagad tour. Sangat jauh 
+                  perbedaannya, mulai dari hotel, makan, serta hal lain saat berlangsung tripnya. Liburan bareng jagad tour berasa 
+                  santai dan menikmati perjalanan, tidak kemrungsung. Sesuai dengan ekspektasi kami dari awal. Kamsia ya
+                </p>
+                <div class="media testi-slider-media">
+                  <div class="media-left">
+                    <a href="#">
+                      <img src="images/testimonials/18.jpg" width="3375" height="3374" alt="Testimonial Thomas Budi di Jagadtour" class="media-object testi-slider-photo">
+                    </a>
+                  </div>
+                  <div class="media-body media-middle">
+                    <h4 class="media-heading testi-slider-name">Pratikno</h4>
+                    <p class="testi-slider-city">Jakarta</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="panel panel-default testi-slider-item">
+              <div class="panel-body">
+                <p class="testi-slider-statement">
+                  Sekali lagi tim jagad tour sangat luar biasa, begitu cekatan dan all out saat melayani kami. Mereka tak hanya jadi 
+                  guide kami, tetapi sampai hal terkecil berupa tissue saat di resto pun dengan sigap mereka ambilkan untuk kami. Tim 
+                  kalian sudah solid luar biasa, pertahankan ya Pak Iwan
+                </p>
+                <div class="media testi-slider-media">
+                  <div class="media-left">
+                    <a href="#">
+                      <img src="images/testimonials/19.jpg" width="2646" height="2647" alt="Testimonial Thomas Budi di Jagadtour" class="media-object testi-slider-photo">
+                    </a>
+                  </div>
+                  <div class="media-body media-middle">
+                    <h4 class="media-heading testi-slider-name">Cece Yuyun</h4>
+                    <p class="testi-slider-city">Tangerang</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="panel panel-default testi-slider-item">
+              <div class="panel-body">
+                <p class="testi-slider-statement">
+                  Jujur dan detail, itulah jagad tour. Sehingga dari awal memang kami tak ada keraguan sedikitpun menggunakan 
+                  jasa mereka. Terbaik diantara yang lain. Terimakasih jagad
+                </p>
+                <div class="media testi-slider-media">
+                  <div class="media-left">
+                    <a href="#">
+                      <img src="images/testimonials/20.jpeg" width="720" height="720" alt="Testimonial Thomas Budi di Jagadtour" class="media-object testi-slider-photo">
+                    </a>
+                  </div>
+                  <div class="media-body media-middle">
+                    <h4 class="media-heading testi-slider-name">Komarudin</h4>
+                    <p class="testi-slider-city">Bogor</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="panel panel-default testi-slider-item">
+              <div class="panel-body">
+                <p class="testi-slider-statement">
+                  Apa ya, intinya terimakasih kepada tim jagad tour yang sudah memberikan kepada kami pelayanan yang sangat memuaskan. 
+                  Semua karyawan kami merasakan puas dan makanannya enak – enak. Sukses terus pak iwan dan jagad tournya
+                </p>
+                <div class="media testi-slider-media">
+                  <div class="media-left">
+                    <a href="#">
+                      <img src="images/testimonials/21.jpeg" width="720" height="720" alt="Testimonial Thomas Budi di Jagadtour" class="media-object testi-slider-photo">
+                    </a>
+                  </div>
+                  <div class="media-body media-middle">
+                    <h4 class="media-heading testi-slider-name">Hutama</h4>
+                    <p class="testi-slider-city">Medan</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="panel panel-default testi-slider-item">
+              <div class="panel-body">
+                <p class="testi-slider-statement">
+                  Biru orange di malang hanya 1 yaitu jagad tour dan tim mereka sangat solid. Luar biasa jagad!
+                </p>
+                <div class="media testi-slider-media">
+                  <div class="media-left">
+                    <a href="#">
+                      <img src="images/testimonials/22.jpg" width="3375" height="3374" alt="Testimonial Thomas Budi di Jagadtour" class="media-object testi-slider-photo">
+                    </a>
+                  </div>
+                  <div class="media-body media-middle">
+                    <h4 class="media-heading testi-slider-name">Koh Andrean</h4>
+                    <p class="testi-slider-city">Jakarta</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="panel panel-default testi-slider-item">
+              <div class="panel-body">
+                <p class="testi-slider-statement">
+                  Terimakasih sudah meberikan pelayanan yang istimewa bagi kami. Malang memang wenak tenan. Terima mas andy dan mas 
+                  asep yang sudah menemani kami selama 3 hari ini. Kami semuanya puas dan recommended
+                </p>
+                <div class="media testi-slider-media">
+                  <div class="media-left">
+                    <a href="#">
+                      <img src="images/testimonials/23.jpeg" width="720" height="720" alt="Testimonial Thomas Budi di Jagadtour" class="media-object testi-slider-photo">
+                    </a>
+                  </div>
+                  <div class="media-body media-middle">
+                    <h4 class="media-heading testi-slider-name">Koh Andrean</h4>
+                    <p class="testi-slider-city">Jakarta</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="panel panel-default testi-slider-item">
+              <div class="panel-body">
+                <p class="testi-slider-statement">
+                  Jagad tour punya keahlian membaca insting yang sangat bagus, mereka memperlihatkan kepada kami bagaimana sebuah tim 
+                  bekerja hingga menyukseskan acara kami yang bisa dibilang serba dadakan dan semuanya dilakukan dengan 
+                  profesionalitas tinggi. Terimakasih banyak pak iwan atas supportnya. Semoga berkah usahanya
+                </p>
+                <div class="media testi-slider-media">
+                  <div class="media-left">
+                    <a href="#">
+                      <img src="images/testimonials/24.jpeg" width="720" height="720" alt="Testimonial Thomas Budi di Jagadtour" class="media-object testi-slider-photo">
+                    </a>
+                  </div>
+                  <div class="media-body media-middle">
+                    <h4 class="media-heading testi-slider-name">Pak Alan</h4>
+                    <p class="testi-slider-city">Bekasi</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="panel panel-default testi-slider-item">
+              <div class="panel-body">
+                <p class="testi-slider-statement">
+                  Biarpun kami hanya mendonasikan pakaian yang sudah tidak kami pakai, kami merasa berarti untuk sesama. Pertahankan 
+                  terus jagad tour atas pelayanannya. Teruslah berinovasi untuk selalu menjadi yang terbaik
+                </p>
+                <div class="media testi-slider-media">
+                  <div class="media-left">
+                    <a href="#">
+                      <img src="images/testimonials/25.jpg" width="3375" height="3374" alt="Testimonial Thomas Budi di Jagadtour" class="media-object testi-slider-photo">
+                    </a>
+                  </div>
+                  <div class="media-body media-middle">
+                    <h4 class="media-heading testi-slider-name">Irawan</h4>
+                    <p class="testi-slider-city">Jakarta</p>
                   </div>
                 </div>
               </div>
@@ -641,7 +1010,15 @@
     <script type="text/javascript" src="vendor/jquery.3.2.1/jquery.3.2.1.min.js"></script>
     <script type="text/javascript" src="vendor/bootstrap.3.3.7/js/bootstrap.min.js"></script>
     <script type="text/javascript" src="vendor/owl-carousel.2.3.4/owl.carousel.min.js"></script>
-    <script type="text/javascript" src="vendor/progressbar.js/dist/progressbar.js"></script>
+    <script type="text/javascript" src="vendor/lightbox/dist/ekko-lightbox.js"></script>
+    
+    <script>
+      $(document).on('click', '[data-toggle="lightbox"]', function(event) {
+                event.preventDefault();
+                $(this).ekkoLightbox();
+            });
+    </script>
+    
     <script type="text/javascript">
       $('.js-hero-slider').owlCarousel({
         dots: true,
@@ -651,164 +1028,6 @@
         animateOut: 'fadeOut',
         smartSpeed: 450
       });
-    </script>
-
-     <!-- Progress Bar -->
-     <script type="text/javascript">
-          var barTrust = new ProgressBar.Line(terpercaya, {
-              strokeWidth: 4,
-              easing: 'easeInOut',
-              duration: 1400,
-              color: '#FF681F',
-              trailColor: 'white',
-              trailWidth: 1,
-              svgStyle: {width: '100%', height: '100%', borderRadius: '10px'},
-              text: {
-                style: {
-                  // Text color.
-                  // Default: same as stroke color (options.color)
-                  color: 'black',
-                  position: 'absolute',
-                  fontFamily: '"DINNextLTPro-Regular", Fallback, sans-serif',
-                  fontSize:'13px',
-                  right: '0',
-                  padding: 0,
-                  margin: 0,
-                  transform: null
-                },
-                autoStyleContainer: false
-              },
-              from: {color: '#FFEA82'},
-              to: {color: '#ED6A5A'},
-              step: (state, bar) => {
-                bar.setText(Math.round(bar.value() * 100) + ' %');
-              }
-            });
-          barTrust.animate(1.0);  // Number from 0.0 to 1.0
-
-          var barSolid = new ProgressBar.Line(solid, {
-              strokeWidth: 4,
-              easing: 'easeInOut',
-              duration: 1400,
-              color: '#FF681F',
-              trailColor: 'white',
-              trailWidth: 1,
-              svgStyle: {width: '100%', height: '100%', borderRadius: '10px'},
-              text: {
-                style: {
-                  // Text color.
-                  // Default: same as stroke color (options.color)
-                  color: 'black',
-                  fontFamily: '"DINNextLTPro-Regular", Fallback, sans-serif',
-                  fontSize:'13px',
-                  position: 'absolute',
-                  right: '0',
-                  padding: 0,
-                  margin: 0,
-                  transform: null
-                },
-                autoStyleContainer: false
-              },
-              from: {color: '#FFEA82'},
-              to: {color: '#ED6A5A'},
-              step: (state, bar) => {
-                bar.setText(Math.round(bar.value() * 100) + ' %');
-              }
-            });
-          barSolid.animate(0.97);  // Number from 0.0 to 1.0
-
-          var barService = new ProgressBar.Line(service, {
-              strokeWidth: 4,
-              easing: 'easeInOut',
-              duration: 1400,
-              color: '#FF681F',
-              trailColor: 'white',
-              trailWidth: 1,
-              svgStyle: {width: '100%', height: '100%', borderRadius: '10px'},
-              text: {
-                style: {
-                  // Text color.
-                  // Default: same as stroke color (options.color)
-                  color: 'black',
-                  fontFamily: '"DINNextLTPro-Regular", Fallback, sans-serif',
-                  fontSize:'13px',
-                  position: 'absolute',
-                  right: '0',
-                  padding: 0,
-                  margin: 0,
-                  transform: null
-                },
-                autoStyleContainer: false
-              },
-              from: {color: '#FFEA82'},
-              to: {color: '#ED6A5A'},
-              step: (state, bar) => {
-                bar.setText(Math.round(bar.value() * 100) + ' %');
-              }
-            });
-          barService.animate(0.98);  // Number from 0.0 to 1.0
-
-          var barDone = new ProgressBar.Line(done, {
-              strokeWidth: 4,
-              easing: 'easeInOut',
-              duration: 1400,
-              color: '#FF681F',
-              trailColor: 'white',
-              trailWidth: 1,
-              svgStyle: {width: '100%', height: '100%', borderRadius: '10px'},
-              text: {
-                style: {
-                  // Text color.
-                  // Default: same as stroke color (options.color)
-                  color: 'black',
-                  fontFamily: '"DINNextLTPro-Regular", Fallback, sans-serif',
-                  fontSize:'13px',
-                  position: 'absolute',
-                  right: '0',
-                  padding: 0,
-                  margin: 0,
-                  transform: null
-                },
-                autoStyleContainer: false
-              },
-              from: {color: '#FFEA82'},
-              to: {color: '#ED6A5A'},
-              step: (state, bar) => {
-                bar.setText(Math.round(bar.value() * 100) + ' %');
-              }
-            });
-          barDone.animate(0.97);  // Number from 0.0 to 1.0
-
-          var barPengalaman = new ProgressBar.Line(pengalaman, {
-              strokeWidth: 4,
-              easing: 'easeInOut',
-              duration: 1400,
-              color: '#FF681F',
-              trailColor: 'white',
-              trailWidth: 1,
-              svgStyle: {width: '100%', height: '100%', borderRadius: '10px'},
-              text: {
-                style: {
-                  // Text color.
-                  // Default: same as stroke color (options.color)
-                  color: 'black',
-                  fontFamily: '"DINNextLTPro-Regular", Fallback, sans-serif',
-                  fontSize:'13px',
-                  position: 'absolute',
-                  right: '0',
-                  padding: 0,
-                  margin: 0,
-                  transform: null
-                },
-                autoStyleContainer: false
-              },
-              from: {color: '#FFEA82'},
-              to: {color: '#ED6A5A'},
-              step: (state, bar) => {
-                bar.setText(Math.round(bar.value() * 100) + ' %');
-              }
-            });
-          barPengalaman.animate(0.98);  // Number from 0.0 to 1.0
     </script>
 
     <script type="text/javascript">

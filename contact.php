@@ -311,8 +311,8 @@
         $mail->isSMTP();
         $mail->Host = 'smtp.gmail.com';
         $mail->Port = 587;
-        $mail->Username = 'liwaalex11@gmail.com'; // Email Yang Digunakan untuk Mengirim ----------------------- SETTING EMAIL TERLEBIH DULU
-        $mail->Password = 'asolole123'; // Password Email Yang Digunakan Untuk Mengirim ----- SETTING EMAIL TERLEBIH DULU
+        $mail->Username = 'webjagadtour@gmail.com'; // Email Yang Digunakan untuk Mengirim ----------------------- SETTING EMAIL TERLEBIH DULU
+        $mail->Password = 'jagadtour123'; // Password Email Yang Digunakan Untuk Mengirim ----- SETTING EMAIL TERLEBIH DULU
         $mail->SMTPSecure = 'tls';
         $mail->SMTPAuth = true;
 

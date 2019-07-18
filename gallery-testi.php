@@ -24,7 +24,7 @@
     
     <link rel="stylesheet" type="text/css" href="vendor/angle-vladov-mobile-slider/jquery.mobile-slider.min.css">
     <link rel="stylesheet" type="text/css" href="vendor/lightbox/dist/ekko-lightbox.css">
-    <link rel="stylesheet" type="text/css" href="css/main.css?v10">
+    <link rel="stylesheet" type="text/css" href="css/main.css?v12">
   </head>
   <body>
 
@@ -96,7 +96,7 @@
         <div class="home-package-slider js-home-package-slider">
           <ul class="row">
             <li class="col-sm-6 col-md-4">
-              <a href="images/testimonials/1.jpg" data-toggle="lightbox" data-gallery="gallery" data-type="image">
+              <a href="images/testimonials/1.jpg" data-toggle="lightbox" data-gallery="gallery" data-type="image" >
                 <div class="panel panel-default card-single">
                   <div class="panel-body card-single-body" >
                     <img src="images/testimonials/1.jpg" width="960" height="960" alt="Jagadtour User Photo Gallery" class="img-responsive " class="img-fluid"">

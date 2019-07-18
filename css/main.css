@@ -2879,8 +2879,7 @@ p{
     /* --- Footer Half-Width --- */
     .half-width {
       width: 50%;
-      }
-  
+      }  
 }
 
 /* ## Mobile : 575px - 480px ## */
@@ -3384,6 +3383,17 @@ p{
   .half-width {
     width: 50%;
     }
+}
+
+@media screen and (max-width: 379px){
+  .ekko-lightbox-container{
+    max-height: 300px !important;
+    height: 300px !important;
+  }
+  .ekko-lightbox-container img{
+    max-height: 300px !important;
+    height: 300px !important;
+  }
 }
 
 

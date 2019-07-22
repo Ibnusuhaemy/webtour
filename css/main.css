@@ -750,11 +750,23 @@ p{
 .hero-package .button {
   width: 80%;
   padding: 5px;
+<<<<<<< HEAD
   border : 1px solid #fff;
   border-radius: 5px;
   position: absolute;
   bottom: 60px;
   left: 35px;
+=======
+  border: 1px solid #fff;
+  border-radius: 5px;
+  position: absolute;
+  top: auto;
+  right: 0;
+  left: 0;
+  bottom: 60px;
+  margin: auto;
+  height: 32px;
+>>>>>>> 4887dd6b730aa69b6134e8edf5ae4ed782e62088
 }
 .hero-package .button a{
   text-decoration: none;
@@ -843,6 +855,10 @@ p{
 }
 .content-home-package .card-single{
   margin-bottom: 30px;
+<<<<<<< HEAD
+=======
+  max-height: 400px;
+>>>>>>> 4887dd6b730aa69b6134e8edf5ae4ed782e62088
 }
 .content-home-package .home-package-slider{
   padding-bottom: 18px;
@@ -1430,10 +1446,24 @@ p{
 .content-gallery-list{
   margin-bottom: 45px;
 }
+<<<<<<< HEAD
+=======
+.content-gallery-list .card-single{
+  max-height: none;
+  margin-bottom: 0;
+}
+.content-gallery-list .home-package-slider li{
+  height: 400px;
+}
+.content-gallery-list .home-package-slider li a{
+  display: block;
+}
+>>>>>>> 4887dd6b730aa69b6134e8edf5ae4ed782e62088
 .content-gallery-list img{
   border-radius: 6px;
   position: relative;
   z-index: 2;
+<<<<<<< HEAD
 }
 .content-gallery-list .card-single .card-single-body{
   max-height: 400px;
@@ -1442,6 +1472,10 @@ p{
   z-index: 3;
   position: relative;
   background: #fff;
+=======
+  width: 100%;
+  height: auto;
+>>>>>>> 4887dd6b730aa69b6134e8edf5ae4ed782e62088
 }
 .content-testi-list{
   margin-bottom: 60px;
@@ -2870,8 +2904,12 @@ p{
     /* --- Footer Half-Width --- */
     .half-width {
       width: 50%;
+<<<<<<< HEAD
       }
   
+=======
+      }  
+>>>>>>> 4887dd6b730aa69b6134e8edf5ae4ed782e62088
 }
 
 /* ## Mobile : 575px - 480px ## */
@@ -3377,6 +3415,20 @@ p{
     }
 }
 
+<<<<<<< HEAD
+=======
+@media screen and (max-width: 379px){
+  .ekko-lightbox-container{
+    max-height: 300px !important;
+    height: 300px !important;
+  }
+  .ekko-lightbox-container img{
+    max-height: 300px !important;
+    height: 300px !important;
+  }
+}
+
+>>>>>>> 4887dd6b730aa69b6134e8edf5ae4ed782e62088
 
 /* --- Owl-Class --- */
 

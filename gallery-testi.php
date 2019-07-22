@@ -23,22 +23,19 @@
     <link rel="stylesheet" type="text/css" href="vendor/owl-carousel.2.3.4/assets/owl.theme.default.css">
     
     <link rel="stylesheet" type="text/css" href="vendor/angle-vladov-mobile-slider/jquery.mobile-slider.min.css">
-    
-    <link rel="stylesheet" type="text/css" href="css/main.css?v=8">
+    <link rel="stylesheet" type="text/css" href="vendor/lightbox/dist/ekko-lightbox.css">
+    <link rel="stylesheet" type="text/css" href="css/main.css?v12">
   </head>
   <body>
 
   <!-- Header -->
-  <header class="header header-home">
+  <header class="header">
       <div class="container">
+        
         <!-- Contact Info -->
         <div class="row header-info">
-          <div class="col-sm-4 col-md-5 col-xs-6 info-logo">
-            <img src="images/jagadtour-logo.png" width="237" height="44" alt="Logo Jagad Tour" class="img-responsive">
-          </div>
-          <div class="col-xs-6 show-mobile">
-          <div class="mobile-title">Let's Explore East Java!</div> 
-          <div class="mobile-title-desc">With Jagad Tour</div> 
+          <div class="col-sm-4 col-md-5 info-logo">
+            <img src="images/jagadtour-logo.png" width="237" height="44" alt="Logo Jagadtour" class="img-responsive">
           </div>
           <div class="col-sm-8 col-md-7 info-contact">
             <span class="jgicon icon-call"></span>
@@ -99,301 +96,226 @@
         <div class="home-package-slider js-home-package-slider">
           <ul class="row">
             <li class="col-sm-6 col-md-4">
-              <a href="package.php">
+              <a href="images/testimonials/1.jpg" data-toggle="lightbox" data-gallery="gallery" data-type="image" >
                 <div class="panel panel-default card-single">
-                  <div class="panel-body card-single-body">
-                    <img src="images/testimonials/1.jpg" width="960" height="960" alt="Jagadtour User Photo Gallery" class="img-responsive">
-                    <div class="card-single-packet row">
-                      <p class="card-single-title">Momen bersama Jagad Tour</p>
-                    </div>
+                  <div class="panel-body card-single-body" >
+                    <img src="images/testimonials/1.jpg" width="960" height="960" alt="Jagadtour User Photo Gallery" class="img-responsive " class="img-fluid">
                   </div>
                 </div>
               </a>
             </li>
             <li class="col-sm-6 col-md-4">
-              <a href="package.php">
+              <a href="images/testimonials/2.jpg" data-toggle="lightbox" data-gallery="gallery" data-type="image">
                 <div class="panel panel-default card-single">
                   <div class="panel-body card-single-body">
-                    <img src="images/testimonials/2.jpg" width="3000" height="3000" alt="Jagadtour User Photo Gallery" class="img-responsive">
-                    <div class="card-single-packet row">
-                      <p class="card-single-title">Momen bersama Jagad Tour</p>
-                    </div>
+                    <img src="images/testimonials/2.jpg" width="3000" height="3000" alt="Jagadtour User Photo Gallery" class="img-responsive" class="img-fluid">
                   </div>
                 </div>
               </a>
             </li>
             <li class="col-sm-6 col-md-4">
-              <a href="package.php">
+            <a href="images/testimonials/3.jpeg" data-toggle="lightbox" data-gallery="gallery" data-type="image">
                 <div class="panel panel-default card-single">
                   <div class="panel-body card-single-body">
                     <img src="images/testimonials/3.jpeg" width="720" height="719" alt="Jagadtour User Photo Gallery" class="img-responsive">
-                    <div class="card-single-packet row">
-                      <p class="card-single-title">Momen bersama Jagad Tour</p>
-                    </div>
                   </div>
                 </div>
               </a>
             </li>
             <li class="col-sm-6 col-md-4">
-              <a href="package.php">
+              <a href="images/testimonials/4.jpg" data-toggle="lightbox" data-gallery="gallery" data-type="image">
                 <div class="panel panel-default card-single">
                   <div class="panel-body card-single-body">
                     <img src="images/testimonials/4.jpg" width="3000" height="3000" alt="Jagadtour User Photo Gallery" class="img-responsive">
-                    <div class="card-single-packet row">
-                      <p class="card-single-title">Momen bersama Jagad Tour</p>
-                    </div>
                   </div>
                 </div>
               </a>
             </li>
             <li class="col-sm-6 col-md-4">
-              <a href="package.php">
+              <a href="images/testimonials/5.jpg" data-toggle="lightbox" data-gallery="gallery" data-type="image">
                 <div class="panel panel-default card-single">
                   <div class="panel-body card-single-body">
                     <img src="images/testimonials/5.jpg" width="3375" height="3374" alt="Jagadtour User Photo Gallery" class="img-responsive">
-                    <div class="card-single-packet row">
-                      <p class="card-single-title">Momen bersama Jagad Tour</p>
-                    </div>
                   </div>
                 </div>
               </a>
             </li>
             <li class="col-sm-6 col-md-4">
-              <a href="package.php">
+              <a href="images/testimonials/6.jpg" data-toggle="lightbox" data-gallery="gallery" data-type="image">
                 <div class="panel panel-default card-single">
                   <div class="panel-body card-single-body">
                     <img src="images/testimonials/6.jpg" width="1683" height="1683" alt="Jagadtour User Photo Gallery" class="img-responsive">
-                    <div class="card-single-packet row">
-                      <p class="card-single-title">Momen bersama Jagad Tour</p>
-                    </div>
                   </div>
                 </div>
               </a>
             </li>
             <li class="col-sm-6 col-md-4">
-              <a href="package.php">
+              <a href="images/testimonials/7.jpg" data-toggle="lightbox" data-gallery="gallery" data-type="image">
                 <div class="panel panel-default card-single">
                   <div class="panel-body card-single-body">
                     <img src="images/testimonials/7.jpg" width="3000" height="3000" alt="Jagadtour User Photo Gallery" class="img-responsive">
-                    <div class="card-single-packet row">
-                      <p class="card-single-title">Momen bersama Jagad Tour</p>
-                    </div>
                   </div>
                 </div>
               </a>
             </li>
             <li class="col-sm-6 col-md-4">
-              <a href="package.php">
+              <a href="images/testimonials/8.jpg" data-toggle="lightbox" data-gallery="gallery" data-type="image">
                 <div class="panel panel-default card-single">
                   <div class="panel-body card-single-body">
                     <img src="images/testimonials/8.jpg" width="2606" height="2605" alt="Jagadtour User Photo Gallery" class="img-responsive">
-                    <div class="card-single-packet row">
-                      <p class="card-single-title">Momen bersama Jagad Tour</p>
-                    </div>
                   </div>
                 </div>
               </a>
             </li>
             <li class="col-sm-6 col-md-4">
-              <a href="package.php">
+              <a href="images/testimonials/9.jpeg" data-toggle="lightbox" data-gallery="gallery" data-type="image">
                 <div class="panel panel-default card-single">
                   <div class="panel-body card-single-body">
                     <img src="images/testimonials/9.jpeg" width="720" height="719" alt="Jagadtour User Photo Gallery" class="img-responsive">
-                    <div class="card-single-packet row">
-                      <p class="card-single-title">Momen bersama Jagad Tour</p>
-                    </div>
                   </div>
                 </div>
               </a>
             </li>
             <li class="col-sm-6 col-md-4">
-              <a href="package.php">
+              <a href="images/testimonials/10.jpg" data-toggle="lightbox" data-gallery="gallery" data-type="image">
                 <div class="panel panel-default card-single">
                   <div class="panel-body card-single-body">
                     <img src="images/testimonials/10.jpg" width="2250" height="2249" alt="Jagadtour User Photo Gallery" class="img-responsive">
-                    <div class="card-single-packet row">
-                      <p class="card-single-title">Momen bersama Jagad Tour</p>
-                    </div>
                   </div>
                 </div>
               </a>
             </li>
             <li class="col-sm-6 col-md-4">
-              <a href="package.php">
+              <a href="images/testimonials/11.jpeg" data-toggle="lightbox" data-gallery="gallery" data-type="image">
                 <div class="panel panel-default card-single">
                   <div class="panel-body card-single-body">
                     <img src="images/testimonials/11.jpeg" width="523" height="523" alt="Jagadtour User Photo Gallery" class="img-responsive">
-                    <div class="card-single-packet row">
-                      <p class="card-single-title">Momen bersama Jagad Tour</p>
-                    </div>
                   </div>
                 </div>
               </a>
             </li>
             <li class="col-sm-6 col-md-4">
-              <a href="package.php">
+              <a href="images/testimonials/12.jpg" data-toggle="lightbox" data-gallery="gallery" data-type="image">
                 <div class="panel panel-default card-single">
                   <div class="panel-body card-single-body">
                     <img src="images/testimonials/12.jpg" width="1764" height="1763" alt="Jagadtour User Photo Gallery" class="img-responsive">
-                    <div class="card-single-packet row">
-                      <p class="card-single-title">Momen bersama Jagad Tour</p>
-                    </div>
                   </div>
                 </div>
               </a>
             </li>
             <li class="col-sm-6 col-md-4">
-              <a href="package.php">
+              <a href="images/testimonials/13.jpg" data-toggle="lightbox" data-gallery="gallery" data-type="image">
                 <div class="panel panel-default card-single">
                   <div class="panel-body card-single-body">
                     <img src="images/testimonials/13.jpg" width="2591" height="2591" alt="Jagadtour User Photo Gallery" class="img-responsive">
-                    <div class="card-single-packet row">
-                      <p class="card-single-title">Momen bersama Jagad Tour</p>
-                    </div>
                   </div>
                 </div>
               </a>
             </li>
             <li class="col-sm-6 col-md-4">
-              <a href="package.php">
+              <a href="images/testimonials/14.jpeg" data-toggle="lightbox" data-gallery="gallery" data-type="image">
                 <div class="panel panel-default card-single">
                   <div class="panel-body card-single-body">
                     <img src="images/testimonials/14.jpeg" width="720" height="719" alt="Jagadtour User Photo Gallery" class="img-responsive">
-                    <div class="card-single-packet row">
-                      <p class="card-single-title">Momen bersama Jagad Tour</p>
-                    </div>
                   </div>
                 </div>
               </a>
             </li>
             <li class="col-sm-6 col-md-4">
-              <a href="package.php">
+            <a href="images/testimonials/15.jpeg" data-toggle="lightbox" data-gallery="gallery" data-type="image">
                 <div class="panel panel-default card-single">
                   <div class="panel-body card-single-body">
                     <img src="images/testimonials/15.jpeg" width="720" height="720" alt="Jagadtour User Photo Gallery" class="img-responsive">
-                    <div class="card-single-packet row">
-                      <p class="card-single-title">Momen bersama Jagad Tour</p>
-                    </div>
                   </div>
                 </div>
               </a>
             </li>
             <li class="col-sm-6 col-md-4">
-              <a href="package.php">
+              <a href="images/testimonials/16.jpg" data-toggle="lightbox" data-gallery="gallery" data-type="image">
                 <div class="panel panel-default card-single">
                   <div class="panel-body card-single-body">
                     <img src="images/testimonials/16.jpg" width="2133" height="2133" alt="Jagadtour User Photo Gallery" class="img-responsive">
-                    <div class="card-single-packet row">
-                      <p class="card-single-title">Momen bersama Jagad Tour</p>
-                    </div>
                   </div>
                 </div>
               </a>
             </li>
             <li class="col-sm-6 col-md-4">
-              <a href="package.php">
+              <a href="images/testimonials/17.jpeg" data-toggle="lightbox" data-gallery="gallery" data-type="image">
                 <div class="panel panel-default card-single">
                   <div class="panel-body card-single-body">
                     <img src="images/testimonials/17.jpeg" width="720" height="720" alt="Jagadtour User Photo Gallery" class="img-responsive">
-                    <div class="card-single-packet row">
-                      <p class="card-single-title">Momen bersama Jagad Tour</p>
-                    </div>
                   </div>
                 </div>
               </a>
             </li>
             <li class="col-sm-6 col-md-4">
-              <a href="package.php">
+              <a href="images/testimonials/18.jpg" data-toggle="lightbox" data-gallery="gallery" data-type="image">
                 <div class="panel panel-default card-single">
                   <div class="panel-body card-single-body">
                     <img src="images/testimonials/18.jpg" width="3375" height="3374" alt="Jagadtour User Photo Gallery" class="img-responsive">
-                    <div class="card-single-packet row">
-                      <p class="card-single-title">Momen bersama Jagad Tour</p>
-                    </div>
                   </div>
                 </div>
               </a>
             </li>
             <li class="col-sm-6 col-md-4">
-              <a href="package.php">
+              <a href="images/testimonials/19.jpg" data-toggle="lightbox" data-gallery="gallery" data-type="image">
                 <div class="panel panel-default card-single">
                   <div class="panel-body card-single-body">
                     <img src="images/testimonials/19.jpg" width="2646" height="2647" alt="Jagadtour User Photo Gallery" class="img-responsive">
-                    <div class="card-single-packet row">
-                      <p class="card-single-title">Momen bersama Jagad Tour</p>
-                    </div>
                   </div>
                 </div>
               </a>
             </li>
             <li class="col-sm-6 col-md-4">
-              <a href="package.php">
+              <a href="images/testimonials/20.jpeg" data-toggle="lightbox" data-gallery="gallery" data-type="image">
                 <div class="panel panel-default card-single">
                   <div class="panel-body card-single-body">
                     <img src="images/testimonials/20.jpeg" width="720" height="720" alt="Jagadtour User Photo Gallery" class="img-responsive">
-                    <div class="card-single-packet row">
-                      <p class="card-single-title">Momen bersama Jagad Tour</p>
-                    </div>
                   </div>
                 </div>
               </a>
             </li>
             <li class="col-sm-6 col-md-4">
-              <a href="package.php">
+              <a href="images/testimonials/21.jpeg" data-toggle="lightbox" data-gallery="gallery" data-type="image">
                 <div class="panel panel-default card-single">
                   <div class="panel-body card-single-body">
                     <img src="images/testimonials/21.jpeg" width="720" height="720" alt="Jagadtour User Photo Gallery" class="img-responsive">
-                    <div class="card-single-packet row">
-                      <p class="card-single-title">Momen bersama Jagad Tour</p>
-                    </div>
                   </div>
                 </div>
               </a>
             </li>
             <li class="col-sm-6 col-md-4">
-              <a href="package.php">
+              <a href="images/testimonials/22.jpg" data-toggle="lightbox" data-gallery="gallery" data-type="image">
                 <div class="panel panel-default card-single">
                   <div class="panel-body card-single-body">
                     <img src="images/testimonials/22.jpg" width="3375" height="3374" alt="Jagadtour User Photo Gallery" class="img-responsive">
-                    <div class="card-single-packet row">
-                      <p class="card-single-title">Momen bersama Jagad Tour</p>
-                    </div>
                   </div>
                 </div>
               </a>
             </li>
             <li class="col-sm-6 col-md-4">
-              <a href="package.php">
+              <a href="images/testimonials/23.jpeg" data-toggle="lightbox" data-gallery="gallery" data-type="image">
                 <div class="panel panel-default card-single">
                   <div class="panel-body card-single-body">
                     <img src="images/testimonials/23.jpeg" width="720" height="720" alt="Jagadtour User Photo Gallery" class="img-responsive">
-                    <div class="card-single-packet row">
-                      <p class="card-single-title">Momen bersama Jagad Tour</p>
-                    </div>
                   </div>
                 </div>
               </a>
             </li>
             <li class="col-sm-6 col-md-4">
-              <a href="package.php">
+              <a href="images/testimonials/24.jpeg" data-toggle="lightbox" data-gallery="gallery" data-type="image">
                 <div class="panel panel-default card-single">
                   <div class="panel-body card-single-body">
                     <img src="images/testimonials/24.jpeg" width="720" height="720" alt="Jagadtour User Photo Gallery" class="img-responsive">
-                    <div class="card-single-packet row">
-                      <p class="card-single-title">Momen bersama Jagad Tour</p>
-                    </div>
                   </div>
                 </div>
               </a>
             </li>
             <li class="col-sm-6 col-md-4">
-              <a href="package.php">
+              <a href="images/testimonials/25.jpg" data-toggle="lightbox" data-gallery="gallery" data-type="image">
                 <div class="panel panel-default card-single">
                   <div class="panel-body card-single-body">
                     <img src="images/testimonials/25.jpg" width="3375" height="3374" alt="Jagadtour User Photo Gallery" class="img-responsive">
-                    <div class="card-single-packet row">
-                      <p class="card-single-title">Momen bersama Jagad Tour</p>
-                    </div>
                   </div>
                 </div>
               </a>
@@ -1069,7 +991,15 @@
     <script type="text/javascript" src="vendor/jquery.3.2.1/jquery.3.2.1.min.js"></script>
     <script type="text/javascript" src="vendor/bootstrap.3.3.7/js/bootstrap.min.js"></script>
     <script type="text/javascript" src="vendor/owl-carousel.2.3.4/owl.carousel.min.js"></script>
-    <script type="text/javascript" src="vendor/progressbar.js/dist/progressbar.js"></script>
+    <script type="text/javascript" src="vendor/lightbox/dist/ekko-lightbox.js"></script>
+    
+    <script>
+      $(document).on('click', '[data-toggle="lightbox"]', function(event) {
+                event.preventDefault();
+                $(this).ekkoLightbox();
+            });
+    </script>
+    
     <script type="text/javascript">
       $('.js-hero-slider').owlCarousel({
         dots: true,
@@ -1079,164 +1009,6 @@
         animateOut: 'fadeOut',
         smartSpeed: 450
       });
-    </script>
-
-     <!-- Progress Bar -->
-     <script type="text/javascript">
-          var barTrust = new ProgressBar.Line(terpercaya, {
-              strokeWidth: 4,
-              easing: 'easeInOut',
-              duration: 1400,
-              color: '#FF681F',
-              trailColor: 'white',
-              trailWidth: 1,
-              svgStyle: {width: '100%', height: '100%', borderRadius: '10px'},
-              text: {
-                style: {
-                  // Text color.
-                  // Default: same as stroke color (options.color)
-                  color: 'black',
-                  position: 'absolute',
-                  fontFamily: '"DINNextLTPro-Regular", Fallback, sans-serif',
-                  fontSize:'13px',
-                  right: '0',
-                  padding: 0,
-                  margin: 0,
-                  transform: null
-                },
-                autoStyleContainer: false
-              },
-              from: {color: '#FFEA82'},
-              to: {color: '#ED6A5A'},
-              step: (state, bar) => {
-                bar.setText(Math.round(bar.value() * 100) + ' %');
-              }
-            });
-          barTrust.animate(1.0);  // Number from 0.0 to 1.0
-
-          var barSolid = new ProgressBar.Line(solid, {
-              strokeWidth: 4,
-              easing: 'easeInOut',
-              duration: 1400,
-              color: '#FF681F',
-              trailColor: 'white',
-              trailWidth: 1,
-              svgStyle: {width: '100%', height: '100%', borderRadius: '10px'},
-              text: {
-                style: {
-                  // Text color.
-                  // Default: same as stroke color (options.color)
-                  color: 'black',
-                  fontFamily: '"DINNextLTPro-Regular", Fallback, sans-serif',
-                  fontSize:'13px',
-                  position: 'absolute',
-                  right: '0',
-                  padding: 0,
-                  margin: 0,
-                  transform: null
-                },
-                autoStyleContainer: false
-              },
-              from: {color: '#FFEA82'},
-              to: {color: '#ED6A5A'},
-              step: (state, bar) => {
-                bar.setText(Math.round(bar.value() * 100) + ' %');
-              }
-            });
-          barSolid.animate(0.97);  // Number from 0.0 to 1.0
-
-          var barService = new ProgressBar.Line(service, {
-              strokeWidth: 4,
-              easing: 'easeInOut',
-              duration: 1400,
-              color: '#FF681F',
-              trailColor: 'white',
-              trailWidth: 1,
-              svgStyle: {width: '100%', height: '100%', borderRadius: '10px'},
-              text: {
-                style: {
-                  // Text color.
-                  // Default: same as stroke color (options.color)
-                  color: 'black',
-                  fontFamily: '"DINNextLTPro-Regular", Fallback, sans-serif',
-                  fontSize:'13px',
-                  position: 'absolute',
-                  right: '0',
-                  padding: 0,
-                  margin: 0,
-                  transform: null
-                },
-                autoStyleContainer: false
-              },
-              from: {color: '#FFEA82'},
-              to: {color: '#ED6A5A'},
-              step: (state, bar) => {
-                bar.setText(Math.round(bar.value() * 100) + ' %');
-              }
-            });
-          barService.animate(0.98);  // Number from 0.0 to 1.0
-
-          var barDone = new ProgressBar.Line(done, {
-              strokeWidth: 4,
-              easing: 'easeInOut',
-              duration: 1400,
-              color: '#FF681F',
-              trailColor: 'white',
-              trailWidth: 1,
-              svgStyle: {width: '100%', height: '100%', borderRadius: '10px'},
-              text: {
-                style: {
-                  // Text color.
-                  // Default: same as stroke color (options.color)
-                  color: 'black',
-                  fontFamily: '"DINNextLTPro-Regular", Fallback, sans-serif',
-                  fontSize:'13px',
-                  position: 'absolute',
-                  right: '0',
-                  padding: 0,
-                  margin: 0,
-                  transform: null
-                },
-                autoStyleContainer: false
-              },
-              from: {color: '#FFEA82'},
-              to: {color: '#ED6A5A'},
-              step: (state, bar) => {
-                bar.setText(Math.round(bar.value() * 100) + ' %');
-              }
-            });
-          barDone.animate(0.97);  // Number from 0.0 to 1.0
-
-          var barPengalaman = new ProgressBar.Line(pengalaman, {
-              strokeWidth: 4,
-              easing: 'easeInOut',
-              duration: 1400,
-              color: '#FF681F',
-              trailColor: 'white',
-              trailWidth: 1,
-              svgStyle: {width: '100%', height: '100%', borderRadius: '10px'},
-              text: {
-                style: {
-                  // Text color.
-                  // Default: same as stroke color (options.color)
-                  color: 'black',
-                  fontFamily: '"DINNextLTPro-Regular", Fallback, sans-serif',
-                  fontSize:'13px',
-                  position: 'absolute',
-                  right: '0',
-                  padding: 0,
-                  margin: 0,
-                  transform: null
-                },
-                autoStyleContainer: false
-              },
-              from: {color: '#FFEA82'},
-              to: {color: '#ED6A5A'},
-              step: (state, bar) => {
-                bar.setText(Math.round(bar.value() * 100) + ' %');
-              }
-            });
-          barPengalaman.animate(0.98);  // Number from 0.0 to 1.0
     </script>
 
     <script type="text/javascript">

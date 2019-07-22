@@ -30,17 +30,15 @@
 
   </head>
   <body>
+  
   <!-- Header -->
-  <header class="header header-home">
+    <header class="header">
       <div class="container">
+        
         <!-- Contact Info -->
         <div class="row header-info">
-          <div class="col-sm-4 col-md-5 col-xs-6 info-logo">
-            <img src="images/jagadtour-logo.png" width="237" height="44" alt="Logo Jagad Tour" class="img-responsive">
-          </div>
-          <div class="col-xs-6 show-mobile">
-          <div class="mobile-title">Let's Explore East Java!</div> 
-          <div class="mobile-title-desc">With Jagad Tour</div> 
+          <div class="col-sm-4 col-md-5 info-logo">
+            <img src="images/jagadtour-logo.png" width="237" height="44" alt="Logo Jagadtour" class="img-responsive">
           </div>
           <div class="col-sm-8 col-md-7 info-contact">
             <span class="jgicon icon-call"></span>
@@ -72,13 +70,13 @@
               <!-- Collect the nav links, forms, and other content for toggling -->
               <div class="collapse navbar-collapse menu-box-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav menu-box-item">
-                  <li class="active"><a href="index.php">Home<span class="sr-only">(current)</span></a></li>
+                  <li><a href="index.php">Home<span class="sr-only">(current)</span></a></li>
                   <li><a href="#">Family Trip</a></li>
                   <li><a href="package.php">Corporate</a></li>
                   <li><a href="#">Custom Trip</a></li>
                   <li><a href="gallery-testi.php">Gallery & Testimoni</a></li>
                   <li><a href="blog.php">Blog</a></li>
-                  <li><a href="contact.php">Contact Us</a></li>
+                  <li class="active"><a href="contact.php">Contact Us</a></li>
                 </ul>
               </div><!-- /.navbar-collapse -->
             </nav>
@@ -87,9 +85,9 @@
       </div>
     </header>
     
-  <!-- Content Warp -->
-  <div class="warper">
-    <!-- About Team -->
+    <!-- Content Warp -->
+    <div class="warper">
+    <!-- Contact form -->
     <section class="content content-contact">
       <div class="container">
         <div class="row">
@@ -97,18 +95,18 @@
             <div class="contact-left">
               <h2 class="content-title">Kirimkan Saran atau Pertanyaan Anda!</h2>
               <p class="content-caption">Atau datang dan minum kopi bersama di Office Kami</p>
-              <form class="contact-left-form">
+              <form class="contact-left-form" action="contact.php" method="post">
                 <div class="form-group">
-                  <input type="text" class="form-control" placeholder="Nama lengkap">
+                  <input type="text" class="form-control" placeholder="Nama lengkap" name="nama">
                 </div>
                 <div class="form-group">
-                  <input type="text" class="form-control" placeholder="Email anda">
+                  <input type="text" class="form-control" placeholder="Email anda" name="email">
                 </div>
                 <div class="form-group">
-                  <textarea rows="7" class="form-control" placeholder="Pesan yang mau disampaikan"></textarea>
+                  <textarea rows="7" class="form-control" placeholder="Pesan yang mau disampaikan" name="pesan"></textarea>
                 </div>
                 <div class="form-group">
-                  <input type="submit" class="btn btn-rounded btn-orange" value="Submit Pesan">
+                  <input type="submit" class="btn btn-rounded btn-orange" value="Submit Pesan" name="send">
                 </div>
               </form>
             </div>
@@ -116,7 +114,7 @@
           <div class="col-md-6">
             <div class="contact-right">
               <div class="embed-responsive embed-responsive-16by9 contact-right-map">
-                <iframe class="embed-responsive-item" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15807.208649277267!2d112.5646063!3d-7.9157237!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x420f8825f3638218!2sJAGAD+TOUR+%7C+BIRO+WISATA+MALANG!5e0!3m2!1sid!2sid!4v1556010950547!5m2!1sid!2sid" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+                <iframe class="embed-responsive-item" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15806.94210127064!2d112.5718291180355!3d-7.922669305701599!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e788190108ac8d1%3A0x227cef2955c83b2d!2sJAGAD+TOUR+%7C+%231+Biro+Perjalanan+Wisata+di+Malang!5e0!3m2!1sid!2sid!4v1552902236924" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
               </div>
               <div class="contact-right-bg"></div>
             </div>
@@ -299,6 +297,37 @@
         }
       });
     </script>
-    
+
+    <?php
+      use PHPMailer\PHPMailer\PHPMailer;
+
+      require 'vendor/autoload.php';
+
+        if(isset($_POST['send'])) {
+          $nama = $_POST['nama'];
+          $email = $_POST['email'];
+          $pesan = $_POST['pesan'];
+
+          $mail = new PHPMailer;
+          $mail->isSMTP();
+          $mail->Host = 'smtp.gmail.com';
+          $mail->Port = 587;
+          $mail->Username = 'webjagadtour@gmail.com'; // Email Yang Digunakan untuk Mengirim ----------------------- SETTING EMAIL TERLEBIH DULU
+          $mail->Password = 'jagadtour123'; // Password Email Yang Digunakan Untuk Mengirim ----- SETTING EMAIL TERLEBIH DULU
+          $mail->SMTPSecure = 'tls';
+          $mail->SMTPAuth = true;
+
+          $mail->addAddress('liwaalex99@gmail.com'); // Email Yang Penerima Pesan.. Contoh = JagadTour@gmail.com
+          $mail->setFrom('liwaalex11@gmail.com', 'Jagad Tour'); // Email Yang Mengirim Pesan .. Contoh = JagadTour2@gmail.com
+          $mail->Subject = $nama;
+          $mail->Body = 'Email Pengirim : ' . $email . '' . ' Saran & Pesan : ' . $pesan;
+          $mail->send();
+          echo '<script language="javascript">';
+          echo 'alert("Terimakasih Email Anda sudah terkirim")';
+          echo '</script>';
+        }else{
+          echo '<p>Please enter valid data</p>';
+        }
+      ?>
   </body>
 </html>

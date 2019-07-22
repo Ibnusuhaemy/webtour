@@ -32,16 +32,13 @@
   <body>
 
   <!-- Header -->
-  <header class="header header-home">
+    <header class="header">
       <div class="container">
+        
         <!-- Contact Info -->
         <div class="row header-info">
-          <div class="col-sm-4 col-md-5 col-xs-6 info-logo">
-            <img src="images/jagadtour-logo.png" width="237" height="44" alt="Logo Jagad Tour" class="img-responsive">
-          </div>
-          <div class="col-xs-6 show-mobile">
-          <div class="mobile-title">Let's Explore East Java!</div> 
-          <div class="mobile-title-desc">With Jagad Tour</div> 
+          <div class="col-sm-4 col-md-5 info-logo">
+            <img src="images/jagadtour-logo.png" width="237" height="44" alt="Logo Jagadtour" class="img-responsive">
           </div>
           <div class="col-sm-8 col-md-7 info-contact">
             <span class="jgicon icon-call"></span>
@@ -87,95 +84,96 @@
         </div>
       </div>
     </header>
-    
 
-  <!-- Content Warp -->
-  <div class="warper">
-    <!-- Featured Article -->
-    <section class="content content-blog-featured">
-      <div class="container">
-        <div class="row">
-          <div class="col-xs-12">
-            <h2 class="content-title">Artikel Jagad Tour</h2>
-            <div class="blog-featured-container js-blog-featured-container">
-              <ul class="list-inline featured-list">
-                <li class="featured-1 featured-item">
-                  <a href="blog-detail.php">
-                    <div class="panel panel-default card-single">
-                      <div class="panel-body card-single-body">
-                        <img src="images/thumbnails/jagadtour-blog-hutan-pinus.jpg" width="261" height="562" alt="Jagadtour Blog Image" class="img-responsive">
-                        <div class="card-single-caption">
-                          <p class="tag tag-orange card-single-tag">Family Trip</p>
-                          <p class="card-single-title">Wisata Ke Hutan Pinus Malang</p>
-                          <p class="card-single-text">20 Mar 2018</p>
+
+    <!-- Content Warp -->
+    <div class="warper">
+      <!-- Featured Article -->
+      <section class="content content-blog-featured">
+        <div class="container">
+          <div class="row">
+            <div class="col-xs-12">
+              <h2 class="content-title">Artikel Jagad Tour</h2>
+              <div class="blog-featured-container js-blog-featured-container">
+                <ul class="list-inline featured-list">
+                  <li class="featured-1 featured-item">
+                    <a href="blog-detail.php">
+                      <div class="panel panel-default card-single">
+                        <div class="panel-body card-single-body">
+                          <img src="images/thumbnails/jagadtour-blog-hutan-pinus.jpg" width="261" height="562" alt="Jagadtour Blog Image" class="img-responsive">
+                          <div class="card-single-caption">
+                            <p class="tag tag-orange card-single-tag">Family Trip</p>
+                            <p class="card-single-title">Wisata Ke Hutan Pinus Malang</p>
+                            <p class="card-single-text">20 Mar 2018</p>
+                          </div>
                         </div>
                       </div>
-                    </div>
-                  </a>
-                </li>
-                <li class="featured-2 featured-item">
-                  <a href="blog-detail.php">
-                    <div class="panel panel-default card-single">
-                      <div class="panel-body card-single-body">
-                        <img src="images/thumbnails/jagadtour-blog-touring.jpg" width="524" height="269" alt="Jagadtour Blog Image" class="img-responsive">
-                        <div class="card-single-caption">
-                          <p class="tag tag-orange card-single-tag">Family Trip</p>
-                          <p class="card-single-title">Destinasi Wisata untuk Pecinta Touring di Malang</p>
-                          <p class="card-single-text">08 Oct 2018</p>
+                    </a>
+                  </li>
+                  <li class="featured-2 featured-item">
+                    <a href="blog-detail.php">
+                      <div class="panel panel-default card-single">
+                        <div class="panel-body card-single-body">
+                          <img src="images/thumbnails/jagadtour-blog-touring.jpg" width="524" height="269" alt="Jagadtour Blog Image" class="img-responsive">
+                          <div class="card-single-caption">
+                            <p class="tag tag-orange card-single-tag">Family Trip</p>
+                            <p class="card-single-title">Destinasi Wisata untuk Pecinta Touring di Malang</p>
+                            <p class="card-single-text">08 Oct 2018</p>
+                          </div>
                         </div>
                       </div>
-                    </div>
-                  </a>
-                </li>
-                <li class="featured-3 featured-item">
-                  <a href="blog-detail.php">
-                    <div class="panel panel-default card-single">
-                      <div class="panel-body card-single-body">
-                        <img src="images/thumbnails/jagadtour-blog-outbond.jpg" width="250" height="269" alt="Jagadtour Blog Image" class="img-responsive">
-                        <div class="card-single-caption">
-                          <p class="tag tag-orange card-single-tag">Family Trip</p>
-                          <p class="card-single-title">Tempat Outbond di Malang untuk Have Fun Bareng Sahabat</p>
-                          <p class="card-single-text">11 Jul 2018</p>
+                    </a>
+                  </li>
+                  <li class="featured-3 featured-item">
+                    <a href="blog-detail.php">
+                      <div class="panel panel-default card-single">
+                        <div class="panel-body card-single-body">
+                          <img src="images/thumbnails/jagadtour-blog-outbond.jpg" width="250" height="269" alt="Jagadtour Blog Image" class="img-responsive">
+                          <div class="card-single-caption">
+                            <p class="tag tag-orange card-single-tag">Family Trip</p>
+                            <p class="card-single-title">Tempat Outbond di Malang untuk Have Fun Bareng Sahabat</p>
+                            <p class="card-single-text">11 Jul 2018</p>
+                          </div>
                         </div>
                       </div>
-                    </div>
-                  </a>
-                </li>
-                <li class="featured-4 featured-item">
-                  <a href="blog-detail.php">
-                    <div class="panel panel-default card-single">
-                      <div class="panel-body card-single-body">
-                        <img src="images/thumbnails/jagadtour-blog-ledok-ombo.jpg" width="250" height="269" alt="Jagadtour Blog Image" class="img-responsive">
-                        <div class="card-single-caption">
-                          <p class="tag tag-orange card-single-tag">Family Trip</p>
-                          <p class="card-single-title">Taman Hiburan di Malang</p>
-                          <p class="card-single-text">10 Sep 2018</p>
+                    </a>
+                  </li>
+                  <li class="featured-4 featured-item">
+                    <a href="blog-detail.php">
+                      <div class="panel panel-default card-single">
+                        <div class="panel-body card-single-body">
+                          <img src="images/thumbnails/jagadtour-blog-ledok-ombo.jpg" width="250" height="269" alt="Jagadtour Blog Image" class="img-responsive">
+                          <div class="card-single-caption">
+                            <p class="tag tag-orange card-single-tag">Family Trip</p>
+                            <p class="card-single-title">Taman Hiburan di Malang</p>
+                            <p class="card-single-text">10 Sep 2018</p>
+                          </div>
                         </div>
                       </div>
-                    </div>
-                  </a>
-                </li>
-                <li class="featured-5 featured-item">
-                  <a href="blog-detail.php">
-                    <div class="panel panel-default card-single">
-                      <div class="panel-body card-single-body">
-                        <img src="images/thumbnails/jagadtour-blog-taman.jpg" width="261" height="562" alt="Jagadtour Blog Image" class="img-responsive">
-                        <div class="card-single-caption">
-                          <p class="tag tag-orange card-single-tag">Family Trip</p>
-                          <p class="card-single-title">Ledok Ombo, Menikmati Alam</p>
-                          <p class="card-single-text">03 Apr 2018</p>
+                    </a>
+                  </li>
+                  <li class="featured-5 featured-item">
+                    <a href="blog-detail.php">
+                      <div class="panel panel-default card-single">
+                        <div class="panel-body card-single-body">
+                          <img src="images/thumbnails/jagadtour-blog-taman.jpg" width="261" height="562" alt="Jagadtour Blog Image" class="img-responsive">
+                          <div class="card-single-caption">
+                            <p class="tag tag-orange card-single-tag">Family Trip</p>
+                            <p class="card-single-title">Ledok Ombo, Menikmati Alam</p>
+                            <p class="card-single-text">03 Apr 2018</p>
+                          </div>
                         </div>
                       </div>
-                    </div>
-                  </a>
-                </li>
-              </ul>
+                    </a>
+                  </li>
+                </ul>
+              </div>
             </div>
           </div>
         </div>
-      </div>
-    </section>
-  </div> 
+      </section>
+    </div> 
+    
     <!-- Listed Article -->
     <section class="content content-listed-article" id="listed">
       <div class="container">

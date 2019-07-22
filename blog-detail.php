@@ -30,17 +30,15 @@
 
   </head>
   <body>
-  <!-- Header -->
-  <header class="header header-home">
+
+    <!-- Header -->
+    <header class="header">
       <div class="container">
+        
         <!-- Contact Info -->
         <div class="row header-info">
-          <div class="col-sm-4 col-md-5 col-xs-6 info-logo">
-            <img src="images/jagadtour-logo.png" width="237" height="44" alt="Logo Jagad Tour" class="img-responsive">
-          </div>
-          <div class="col-xs-6 show-mobile">
-          <div class="mobile-title">Let's Explore East Java!</div> 
-          <div class="mobile-title-desc">With Jagad Tour</div> 
+          <div class="col-sm-4 col-md-5 info-logo">
+            <img src="images/jagadtour-logo.png" width="237" height="44" alt="Logo Jagadtour" class="img-responsive">
           </div>
           <div class="col-sm-8 col-md-7 info-contact">
             <span class="jgicon icon-call"></span>
@@ -72,12 +70,12 @@
               <!-- Collect the nav links, forms, and other content for toggling -->
               <div class="collapse navbar-collapse menu-box-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav menu-box-item">
-                  <li class="active"><a href="index.php">Home<span class="sr-only">(current)</span></a></li>
+                  <li><a href="index.php">Home<span class="sr-only">(current)</span></a></li>
                   <li><a href="#">Family Trip</a></li>
                   <li><a href="package.php">Corporate</a></li>
                   <li><a href="#">Custom Trip</a></li>
                   <li><a href="gallery-testi.php">Gallery & Testimoni</a></li>
-                  <li><a href="blog.php">Blog</a></li>
+                  <li class="active"><a href="blog.php">Blog</a></li>
                   <li><a href="contact.php">Contact Us</a></li>
                 </ul>
               </div><!-- /.navbar-collapse -->

@@ -23,7 +23,7 @@
     <link rel="stylesheet" type="text/css" href="vendor/owl-carousel.2.3.4/assets/owl.theme.default.css">
     <link rel="stylesheet" type="text/css" href="vendor/angle-vladov-mobile-slider/jquery.mobile-slider.min.css">
     <link rel="stylesheet" type="text/css" href="vendor/datetimepicker.4.17.42/css/bootstrap-datetimepicker.min.css">
-    
+    <link rel="stylesheet" type="text/css" href="vendor/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.css" /> 
     <link rel="stylesheet" type="text/css" href="vendor/angle-vladov-mobile-slider/jquery.mobile-slider.min.css">
         
     <link rel="stylesheet" type="text/css" href="css/main.css?v=8">
@@ -31,17 +31,14 @@
   </head>
   <body>
 
+
   <!-- Header -->
-  <header class="header header-home">
+  <header class="header">
       <div class="container">
         <!-- Contact Info -->
         <div class="row header-info">
-          <div class="col-sm-4 col-md-5 col-xs-6 info-logo">
+          <div class="col-sm-4 col-md-5 info-logo">
             <img src="images/jagadtour-logo.png" width="237" height="44" alt="Logo Jagad Tour" class="img-responsive">
-          </div>
-          <div class="col-xs-6 show-mobile">
-          <div class="mobile-title">Let's Explore East Java!</div> 
-          <div class="mobile-title-desc">With Jagad Tour</div> 
           </div>
           <div class="col-sm-8 col-md-7 info-contact">
             <span class="jgicon icon-call"></span>
@@ -126,25 +123,27 @@
       </div>
     </section>
   </div> 
-    <!-- About Team -->
-    <section class="content content-about about-team">
-      <div class="container">
-        <div class="row">
-          <div class="col-xs-12">
-            <div class="content-header">
-              <p class="header-caption">Jagad Tour</p>
-              <h2 class="header-title">Our Team</h2>
-            </div>
-            <div class="about-team-member">
-              <div class="member-detail hidden-large-mobile">
-                <div class="js-main-image">
-                  <div class="member-detail-image">
-                    <img src="images/team/amel.JPG" width="4000" height="6000" alt="Tim Jagadtour" class="js-member-image">
-                  </div>
-                  <h3 class="member-name js-member-name">Amel</h3>
+  
+  <!-- About Team -->
+  <section class="content content-about about-team">
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12">
+          <div class="content-header">
+            <p class="header-caption">Jagad Tour</p>
+            <h2 class="header-title">Our Team</h2>
+          </div>
+          <div class="about-team-member">
+            <div class="member-detail hidden-large-mobile">
+              <div class="js-main-image">
+                <div class="member-detail-image">
+                  <img src="images/team/amel.JPG" width="4000" height="6000" alt="Tim Jagadtour" class="js-member-image">
                 </div>
+                <h3 class="member-name js-member-name">Amel</h3>
               </div>
-              <div class="js-team-member member-list">
+            </div>
+            <div class="js-team-member member-list">
+              <div class="js-scroll-bar">
                 <ul class="js-member-thumbnails">
                   <li class="member-thumbnail js-member-thumbnail-item">
                     <div class="member-thumbnail-image">
@@ -168,6 +167,14 @@
                     </div>
                     <div class="member-thumbnail-data show-large-mobile">
                       <h3 class="member-name js-thumbnail-name">Asep</h3>
+                    </div>
+                  </li>
+                  <li class="member-thumbnail js-member-thumbnail-item">
+                    <div class="member-thumbnail-image">
+                    <img src="images/team/amel.JPG" width="4000" height="6000" alt="Tim Jagadtour"class="js-thumbnail-item-image">
+                    </div>
+                    <div class="member-thumbnail-data show-large-mobile">
+                      <h3 class="member-name js-thumbnail-name">Amel</h3>
                     </div>
                   </li>
                   <li class="member-thumbnail js-member-thumbnail-item">
@@ -299,6 +306,7 @@
                     </div>
                   </li>
                 </ul>
+               </div>
               </div>
             </div>
           </div>
@@ -425,7 +433,17 @@
     <script type="text/javascript" src="vendor/jquery.3.2.1/jquery.3.2.1.min.js"></script>
     <script type="text/javascript" src="vendor/bootstrap.3.3.7/js/bootstrap.min.js"></script>
     <script type="text/javascript" src="vendor/owl-carousel.2.3.4/owl.carousel.min.js"></script>
-        
+    <script src="vendor/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.concat.min.js"></script>        
+
+    <script type="text/javascript">
+     $(document).ready(function($){
+          $(".js-scroll-bar").mCustomScrollbar({
+            setHeight: 1000,
+            theme: "dark"
+          });
+    })(jQuery);
+    </script>
+    
     <script type="text/javascript">
       $('.js-photo-slider').owlCarousel({
         loop: true,

@@ -744,19 +744,12 @@ p{
   font-family: "DINNextLTPro-Bold", Fallback, sans-serif;
   color: #fff;
 }
-.hero-package {
+.hero-home {
   position: relative;
 }
-.hero-package .button {
+.hero-home .button {
   width: 80%;
   padding: 5px;
-<<<<<<< HEAD
-  border : 1px solid #fff;
-  border-radius: 5px;
-  position: absolute;
-  bottom: 60px;
-  left: 35px;
-=======
   border: 1px solid #fff;
   border-radius: 5px;
   position: absolute;
@@ -766,9 +759,8 @@ p{
   bottom: 60px;
   margin: auto;
   height: 32px;
->>>>>>> 4887dd6b730aa69b6134e8edf5ae4ed782e62088
 }
-.hero-package .button a{
+.hero-home .button a{
   text-decoration: none;
 }
 .hero-slider-content .slider-content-tag{
@@ -855,10 +847,7 @@ p{
 }
 .content-home-package .card-single{
   margin-bottom: 30px;
-<<<<<<< HEAD
-=======
   max-height: 400px;
->>>>>>> 4887dd6b730aa69b6134e8edf5ae4ed782e62088
 }
 .content-home-package .home-package-slider{
   padding-bottom: 18px;
@@ -1140,6 +1129,10 @@ p{
 /* - Hero - */
 .hero-package .hero-slider{
   position: relative;
+}
+.hero-package .hero-slider .hero-slider-content{
+  height: 210px;
+  bottom: 50px;
 }
 .hero-package .hero-slider-content .slider-content-title{
   margin-bottom: 40px;
@@ -1446,8 +1439,6 @@ p{
 .content-gallery-list{
   margin-bottom: 45px;
 }
-<<<<<<< HEAD
-=======
 .content-gallery-list .card-single{
   max-height: none;
   margin-bottom: 0;
@@ -1458,24 +1449,12 @@ p{
 .content-gallery-list .home-package-slider li a{
   display: block;
 }
->>>>>>> 4887dd6b730aa69b6134e8edf5ae4ed782e62088
 .content-gallery-list img{
   border-radius: 6px;
   position: relative;
   z-index: 2;
-<<<<<<< HEAD
-}
-.content-gallery-list .card-single .card-single-body{
-  max-height: 400px;
-}
-.content-gallery-list .card-single .card-single-packet{
-  z-index: 3;
-  position: relative;
-  background: #fff;
-=======
   width: 100%;
   height: auto;
->>>>>>> 4887dd6b730aa69b6134e8edf5ae4ed782e62088
 }
 .content-testi-list{
   margin-bottom: 60px;
@@ -2249,6 +2228,9 @@ p{
     bottom: auto;
     left: auto;
   }
+  .warper{
+    padding-top: 24vh;
+  }
   
   /* --- ## Homepage ## --- */
 
@@ -2276,6 +2258,7 @@ p{
   /* - Hero - */
   .hero-package .hero-slider .hero-slider-content{
     height: 300px;
+    bottom: 0;
   }
   
   /* - Content - */
@@ -2403,7 +2386,23 @@ p{
   /* --- ## Package Page ## --- */
   /* - Hero - */
   .hero-package .hero-slider .hero-slider-content{
-    height: 214px;
+    height: 180px;
+    width: auto;
+  }
+  .hero-package .hero-slider-content .slider-content-tag{
+    font-size: 14px;
+    padding: 5px 9px;
+    margin-bottom: 5px;
+  }
+  .hero-package .hero-slider-content .slider-content-title{
+    font-size: 36px;
+    line-height: normal;
+    margin-bottom: 15px;
+  }
+  .hero-package .slider-content-info .slider-info-icon,
+  .hero-package .slider-content-info .slider-info-text{
+    font-size: 14px;
+    padding: 12px;
   }
   .packdetail-destination-slider .destination-slider-image{
     max-width: 319px;
@@ -2544,7 +2543,7 @@ p{
     display: none;
   }
   .warper {
-    padding-top: 140px;
+    padding-top: 150px;
   }
   /* - Card List - */
   .listed-card .list-group-item{
@@ -2628,16 +2627,8 @@ p{
     position: relative;
   }
   .hero-package .hero-slider .hero-slider-content{
-    height: 170px;
-  }
-  .hero-package .hero-slider-content .slider-content-tag{
-    margin-bottom: 24px;
-  }
-  .hero-package .hero-slider-content .slider-content-title{
-    margin-bottom: 30px;
-  }
-  .hero-package .hero-slider-content .slider-content-info{
-    text-align: center;
+    top: auto;
+    min-height: 170px;
   }
   .hero-package .slider-content-info .slider-info-icon,
   .hero-package .slider-content-info .slider-info-text{
@@ -2667,6 +2658,11 @@ p{
     margin-bottom: 0;
   }
   
+  
+  /* --- ## Gallery ## --- */
+  .content-testi-list .content-testi-slider .item{
+    width: 50%;
+  }
   
   /* --- ## Blog Detail ## --- */
   /* - Blog Detail Related Thumbnail - */
@@ -2797,7 +2793,16 @@ p{
   }
   .member-thumbnail .member-thumbnail-image{
     margin-bottom: 30px;
+    max-height: 300px;
+    overflow: hidden;
   }
+  .member-list .js-scroll-bar{
+    height: auto !important;
+  }
+  .member-list .slider-nav{
+    display: none;
+  }
+/*
   .member-list .slider-dot{
     width: 10px;
     height: 10px;
@@ -2807,6 +2812,7 @@ p{
   .member-list .slider-nav .slider-dot.active{
     background-color: #4b4b4b;
   }
+*/
   
   
   /* --- ## Blog ## --- */
@@ -2901,15 +2907,10 @@ p{
     padding-right: 0;
   }
 
-    /* --- Footer Half-Width --- */
-    .half-width {
-      width: 50%;
-<<<<<<< HEAD
-      }
-  
-=======
-      }  
->>>>>>> 4887dd6b730aa69b6134e8edf5ae4ed782e62088
+  /* --- Footer Half-Width --- */
+  .half-width {
+    width: 50%;
+  }
 }
 
 /* ## Mobile : 575px - 480px ## */
@@ -2917,6 +2918,37 @@ p{
   /* --- ## Blog ## --- */
   .content-listed-article .listed-card .list-group-item{
     width: 100%;
+  }
+  
+  /* --- ## Package ## --- */
+  .hero-package .hero-slider{
+    height: 240px;
+  }
+  .hero-package .hero-slider img{
+    width: 100%;
+    min-height: 240px;
+  }
+  .hero-package .hero-slider .hero-slider-content{
+    top: 0;
+    text-align: center;
+    margin: auto;
+  }
+  .hero-package .hero-slider-content .slider-content-tag{
+    font-size: 13px;
+    letter-spacing: 0.57px;
+    margin-bottom: 24px;
+  }
+  .hero-package .hero-slider-content .slider-content-title{
+    font-size: 30px;
+    margin-bottom: 30px;
+  }
+  .hero-package .hero-slider-content .slider-content-info{
+    text-align: center;
+  }
+  .hero-package .slider-content-info .slider-info-icon,
+  .hero-package .slider-content-info .slider-info-text{
+    font-size: 12px;
+    padding: 10px;
   }
   
   /* --- ## Blog Detail ## --- */
@@ -2957,6 +2989,9 @@ p{
   .hidden-mobile{
     display: none !important;
   }
+  .warper{
+    padding-top: 76px;
+  }
   
   /* - Cards - */
   /* Card Single */
@@ -2985,6 +3020,17 @@ p{
   }
   
   /* --- ## Header ## --- */
+  .header-home .navbar-header{
+    display: none;
+  }
+  .header-home .header-info{
+    position: relative;
+  }
+  .header-home .header-info .text-right{
+    position: absolute;
+    right: 0;
+    top: 10px;
+  }
   .header-info .info-contact{
     display: none;
   }
@@ -3004,6 +3050,9 @@ p{
   .content .content-caption{
     font-size: 14px;
   }
+  .content-faq{
+    padding-top: 25px;
+  }
   
   
   /* --- ## Homepage ## --- */
@@ -3017,6 +3066,9 @@ p{
     line-height: 48px;
     max-height: 48px;
     font-size: 20px;
+  }
+  .hero-home .button{
+    bottom: 30px;
   }
   
   /* - Mobile Custom Menu - */
@@ -3117,6 +3169,7 @@ p{
   }
   .home-package-slider .slider-content li{
     padding-left: 0;
+    height: auto;
   }
   .home-package-slider .card-single{
     margin-bottom: 6px;
@@ -3194,6 +3247,9 @@ p{
   .slider-content-info li{
     margin-right: 14px;
   }
+  .hero-package .hero-slider .hero-slider-content{
+    height: 200px;
+  }
   .hero-package .slider-content-info .slider-info-icon,
   .hero-package .slider-content-info .slider-info-text{
     padding: 4px;
@@ -3268,6 +3324,11 @@ p{
   }
   .member-list .member-thumbnail{
     margin-bottom: 18px;
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+  .member-thumbnail .member-thumbnail-image{
+    max-height: 240px;
   }
   
   
@@ -3386,13 +3447,31 @@ p{
   }
   
   
+  /* --- ## Gallery ## --- */
+  .content-gallery-list{
+    padding-top: 30px;
+  }
+  .content-testi-list .content-testi-slider .item{
+    width: 100%;
+  }
+  .content-gallery-list img{
+/*    max-height: 200px;*/
+/*    width: auto;*/
+  }
+  
+  /* --- ## FAQ ## --- */
+  .content-faq .packdetail-left{
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  
   /* --- ## Footer ## --- */
   .footer-photo .btn-instagram{
     width: 159px;
     height: 50px;
   }
   .footer-menu{
-    padding-top: 30px;
+    padding-top: 50px;
     padding-bottom: 30px;
   }
   .footer-menu h4{
@@ -3409,15 +3488,27 @@ p{
   .footer-menu .footer-menu-contact{
     margin-bottom: 20px;
   }
-  /* --- Footer Half-Width --- */
+  
+  /* - Footer Half-Width - */
   .half-width {
     width: 50%;
-    }
+  }
 }
 
-<<<<<<< HEAD
-=======
 @media screen and (max-width: 379px){
+  
+  /* --- ## Homepage ## --- */
+  .mobile-title{
+    font-size: 11px;
+  }
+  .mobile-title-desc{
+    font-size: 18px;
+  }
+  .header-home .header-info .text-right{
+    top: 15px;
+  }
+  
+  /* --- ## Gallery ## --- */
   .ekko-lightbox-container{
     max-height: 300px !important;
     height: 300px !important;
@@ -3427,8 +3518,6 @@ p{
     height: 300px !important;
   }
 }
-
->>>>>>> 4887dd6b730aa69b6134e8edf5ae4ed782e62088
 
 /* --- Owl-Class --- */
 

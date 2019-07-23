@@ -35,7 +35,7 @@
         <!-- Contact Info -->
         <div class="row header-info">
           <div class="col-sm-4 col-md-5 info-logo">
-            <img src="images/jagadtour-logo.png" width="237" height="44" alt="Logo Jagadtour" class="img-responsive">
+            <img src="images/jagadtour-logo-new.png" width="237" height="44" alt="Logo Jagadtour" class="img-responsive">
           </div>
           <div class="col-sm-8 col-md-7 info-contact">
             <span class="jgicon icon-call"></span>
@@ -901,32 +901,32 @@
               <h4>Artikel Terbaru</h4>
               <div class="media article-media">
                 <div class="media-left article-media-photo">
-                  <a href="#">
+                  <a href="blog-detail.php">
                     <img class="media-object" src="images/thumbnails/jagadtour-ig-2.jpg" width="490" height="490" alt="Jagadtour Artikel">
                   </a>
                 </div>
                 <div class="media-body">
-                  <p>Tips mendaki dan berkeliling gunung bromo</p>
+                  <p><a href="blog-detail.php">Tips mendaki dan berkeliling gunung bromo</a></p>
                 </div>
               </div>
               <div class="media article-media">
                 <div class="media-left article-media-photo">
-                  <a href="#">
+                  <a href="blog-detail.php">
                     <img class="media-object" src="images/thumbnails/jagadtour-ig-1.jpg" width="452" height="490" alt="Jagadtour Artikel">
                   </a>
                 </div>
                 <div class="media-body">
-                  <p>Biaya dan itenerary pantai balekambang malang</p>
+                  <p><a href="blog-detail.php">Biaya dan itenerary pantai balekambang malang</a></p>
                 </div>
               </div>
               <div class="media article-media">
                 <div class="media-left article-media-photo">
-                  <a href="#">
+                  <a href="blog-detail.php">
                     <img class="media-object" src="images/thumbnails/jagadtour-ig-1.jpg" width="452" height="490" alt="Jagadtour Artikel">
                   </a>
                 </div>
                 <div class="media-body">
-                  <p>Biaya dan itenerary pantai balekambang malang</p>
+                  <p><a href="blog-detail.php">Biaya dan itenerary pantai balekambang malang</a></p>                  
                 </div>
               </div>
               <div class="media article-media">
@@ -936,7 +936,7 @@
                   </a>
                 </div>
                 <div class="media-body">
-                  <p>Kuliner jadul nan nikmat di sekitar kota malang</p>
+                  <p><a href="blog-detail.php">Kuliner jadul nan nikmat di sekitar kota malang</a></p>
                 </div>
               </div>
             </div>
@@ -995,9 +995,9 @@
     
     <script>
       $(document).on('click', '[data-toggle="lightbox"]', function(event) {
-                event.preventDefault();
-                $(this).ekkoLightbox();
-            });
+        event.preventDefault();
+        $(this).ekkoLightbox();
+      });
     </script>
     
     <script type="text/javascript">
@@ -1037,7 +1037,7 @@
       $(document).ready(function($){
         $('.js-home-package-slider').mobileSlider({
           sliderWhen: 767,
-          itemWidth: "85%",
+          itemWidth: "50%",
           startAt: 2
         });
       });

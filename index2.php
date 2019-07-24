@@ -35,7 +35,7 @@
         <!-- Contact Info -->
         <div class="row header-info">
           <div class="col-sm-4 col-md-5 col-xs-6 info-logo">
-            <img src="images/jagadtour-logo.png" width="237" height="44" alt="Logo Jagad Tour" class="img-responsive">
+            <img src="images/jagadtour-logo-new.png" width="237" height="44" alt="Logo Jagad Tour" class="img-responsive">
           </div>
           <div class="col-xs-6 show-mobile">
           <div class="mobile-title">Let's Explore East Java!</div> 
@@ -455,7 +455,7 @@
                 <p class="choose-founder-desc">               
                 </p>
                 <cite class="choose-founder-name">- Ikhwanul Ma'arif</cite>
-                <img class="choose-founder-photo" src="images/photos/photo-founder.png" width="735" height="1173" alt="Ikhwanul Maarif, founder Jagadtour">
+                <img class="choose-founder-photo" src="images/photos/founder.png" width="735" height="1173" alt="Ikhwanul Maarif, founder Jagadtour">
               </div>
             </div>
           </div>
@@ -754,36 +754,36 @@
                 </div>
               </form>
             </div>
-            <div class="right col-xs-6 col-sm-6 col-md-3 footer-menu-article half-width">
+            <div class="col-xs-6 col-sm-6 col-md-3 footer-menu-article full-width">
               <h4>Artikel Terbaru</h4>
               <div class="media article-media">
                 <div class="media-left article-media-photo">
-                  <a href="#">
+                  <a href="blog-detail.php">
                     <img class="media-object" src="images/thumbnails/jagadtour-ig-2.jpg" width="490" height="490" alt="Jagadtour Artikel">
                   </a>
                 </div>
                 <div class="media-body">
-                  <p>Tips mendaki dan berkeliling gunung bromo</p>
+                  <p><a href="blog-detail.php">Tips mendaki dan berkeliling gunung bromo</a></p>
                 </div>
               </div>
               <div class="media article-media">
                 <div class="media-left article-media-photo">
-                  <a href="#">
+                  <a href="blog-detail.php">
                     <img class="media-object" src="images/thumbnails/jagadtour-ig-1.jpg" width="452" height="490" alt="Jagadtour Artikel">
                   </a>
                 </div>
                 <div class="media-body">
-                  <p>Biaya dan itenerary pantai balekambang malang</p>
+                  <p><a href="blog-detail.php">Biaya dan itenerary pantai balekambang malang</a></p>
                 </div>
               </div>
               <div class="media article-media">
                 <div class="media-left article-media-photo">
-                  <a href="#">
+                  <a href="blog-detail.php">
                     <img class="media-object" src="images/thumbnails/jagadtour-ig-1.jpg" width="452" height="490" alt="Jagadtour Artikel">
                   </a>
                 </div>
                 <div class="media-body">
-                  <p>Biaya dan itenerary pantai balekambang malang</p>
+                  <p><a href="blog-detail.php">Biaya dan itenerary pantai balekambang malang</a></p>                  
                 </div>
               </div>
               <div class="media article-media">
@@ -793,7 +793,7 @@
                   </a>
                 </div>
                 <div class="media-body">
-                  <p>Kuliner jadul nan nikmat di sekitar kota malang</p>
+                  <p><a href="blog-detail.php">Kuliner jadul nan nikmat di sekitar kota malang</a></p>
                 </div>
               </div>
             </div>

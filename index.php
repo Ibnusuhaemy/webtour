@@ -683,14 +683,20 @@
               <p class="newsletter-desc">
                 Dapatkan tips dan info diskon paket wisata terbaru dari Jagad Tour melalui email anda. Gratis!
               </p>
-              <form class="newsletter-form">
-                <div class="form-group">
-                  <input type="email" name="email" value="" placeholder="Masukkan email anda" class="form-control">
-                </div>
-                <div class="form-group">
-                  <input type="submit" name="subscribe" value="subscribe" class="btn btn-rounded btn-orange">
-                </div>
-              </form>
+              <!-- Begin Mailchimp Signup Form -->
+                <form action="https://gmail.us3.list-manage.com/subscribe/post?u=095f958e797e8d60296fc8499&amp;id=5205866a69" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="newsletter-form validate" target="_blank" novalidate>
+                  <div class="form-group">
+                    <input type="email" value="" name="EMAIL" class="required email form-control" placeholder="Masukkan email anda" id="mce-EMAIL">
+                  </div>
+                  <div id="mce-responses" class="clear">
+                    <div class="response" id="mce-error-response" style="display:none"></div>
+                    <div class="response" id="mce-success-response" style="display:none"></div>
+                  </div> 
+                  <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+                  <div class="clear">
+                    <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button btn btn-rounded btn-orange">
+                  </div>
+                </form>
             </div>
             <div class="col-xs-6 col-sm-6 col-md-3 footer-menu-article full-width">
               <h4>Artikel Terbaru</h4>

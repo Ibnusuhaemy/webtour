@@ -391,15 +391,31 @@
                   <div class="panel-body panel-complete-content">
                     <h5 class="packdetail-price-title">Masukkan Jumlah Peserta &amp; pilih Kelas Hotel</h5>
                     <p class="packdetail-price-subtitle">Harga belum termasuk periode High Sesion Idul Fitri, Natal &amp; Tahun Baru</p>
-                    <form class="packdetail-price-form">
+                  <form class="packdetail-price-form" action="package.php" method="post">
+                    <div id="printDiv">
+                    <div class="form-group">
+                        <label for="member" class="control-label">Identitas Pemesan</label>
+                        <div class="row">
+                          <div class="col-md-6">
+                            <input type="email" class="form-control" id="email" placeholder="Email" name="email" value="" required>
+                          </div>
+                          <div class="col-md-6">
+                            <input type="text" class="form-control" id="nama" placeholder="Nama Lengkap" name="namaPemesan" value="" required>
+                          </div>
+                          <div class="col-md-6">
+                            <input type="text" class="form-control" id="nomor" placeholder="No.Telp" name="telp" value="" required>
+                          </div>
+                        </div>
+                        <span id="member-help" class="help-block">Mohon diisi sesuai dengan ketentuan</span>
+                      </div>
                       <div class="form-group">
                         <label for="member" class="control-label">Jumlah Peserta</label>
                         <div class="row">
                           <div class="col-md-6">
-                            <input type="text" class="form-control" id="old" placeholder="Dewasa">
+                            <input type="text" class="form-control" id="old" placeholder="Dewasa" name="old" value="">
                           </div>
                           <div class="col-md-6">
-                            <input type="text" class="form-control" id="kid" placeholder="Anak">
+                            <input type="text" class="form-control" id="kid" placeholder="Anak" name="kid" value="">
                           </div>
                         </div>
                         <span id="member-help" class="help-block">Untuk anak 3 tahun kebawah gratis</span>
@@ -411,7 +427,7 @@
                             <div class="radio-container">
                               <div class="radio">
                                 <label class="radio-label">
-                                  <input type="radio" name="star" id="star_1" value="1" checked>
+                                  <input type="radio" name="star" id="star_1" value="1000000">
                                   <label class="radio-panel" for="star_1">
                                     <i class="jgicon icon-star-blank"></i>
                                   </label>
@@ -423,7 +439,7 @@
                             <div class="radio-container">
                               <div class="radio">
                                 <label class="radio-label">
-                                  <input type="radio" name="star" id="star_2" value="2" checked>
+                                  <input type="radio" name="star" id="star_2" value="2000000">
                                   <label class="radio-panel" for="star_2">
                                     <i class="jgicon icon-star-blank"></i>
                                     <i class="jgicon icon-star-blank"></i>
@@ -436,7 +452,7 @@
                             <div class="radio-container">
                               <div class="radio">
                                 <label class="radio-label">
-                                  <input type="radio" name="star" id="star_3" value="3">
+                                  <input type="radio" name="star" id="star_3" value="3000000">
                                   <label class="radio-panel" for="star_3">
                                     <i class="jgicon icon-star-blank"></i>
                                     <i class="jgicon icon-star-blank"></i>
@@ -450,7 +466,7 @@
                             <div class="radio-container">
                               <div class="radio">
                                 <label class="radio-label">
-                                  <input type="radio" name="star" id="star_4" value="4">
+                                  <input type="radio" name="star" id="star_4" value="5000000">
                                   <label class="radio-panel" for="star_4">
                                     <i class="jgicon icon-star-blank"></i>
                                     <i class="jgicon icon-star-blank"></i>
@@ -465,7 +481,7 @@
                             <div class="radio-container">
                               <div class="radio">
                                 <label class="radio-label">
-                                  <input type="radio" name="star" id="star_5" value="5">
+                                  <input type="radio" name="star" id="star_5" value="8000000">
                                   <label class="radio-panel" for="star_5">
                                     <i class="jgicon icon-star-blank"></i>
                                     <i class="jgicon icon-star-blank"></i>
@@ -491,7 +507,7 @@
                             <p><span class="jgicon icon-user"></span> Dewasa</p>
                           </div>
                           <div class="col-xs-7 form-block-right">
-                            <p><span class="count">4x</span> <span class="sub-price">Rp 8.000.000</span></p>
+                            <p><span class="count" id="jumlahDewasa"></span> <span class="sub-price">Rp 1.000.000</span></p>
                           </div>
                         </div>
                         <div class="row form-group">
@@ -499,7 +515,7 @@
                             <p><span class="jgicon icon-user-group"></span> Anak</p>
                           </div>
                           <div class="col-xs-7 form-block-right">
-                            <p><span class="count">4x</span> <span class="sub-price">Rp 8.000.000</span></p>
+                            <p><span class="count" id="jumlahAnak"></span><span class="sub-price">Rp 500.000</span></p>
                           </div>
                         </div>
                         <div class="row">
@@ -507,7 +523,7 @@
                             <p><span class="jgicon price-form-star icon-star-fill"></span> Kelas Hotel</p>
                           </div>
                           <div class="col-xs-7 form-block-right">
-                            <p><span class="count">4x</span> <span class="sub-price">Rp 8.000.000</span></p>
+                            <p><span class="count" ></span> <span class="sub-price" id="kelasHotel"></span></p>
                           </div>
                         </div>
                         <hr>
@@ -516,14 +532,21 @@
                             <p>Grand Total</p>
                           </div>
                           <div class="col-xs-7 form-block-right">
-                            <p><span class="sub-price">Rp 24.000.000</span></p>
+                            <p><span class="sub-price" id="total"></span></p>
                           </div>
                         </div>
                       </div>
+                      </div>
+                        <div class="form-group">
+                              <button id="cekharga" type="button" class="btn btn-rounded btn-orange" onclick="cekaharga()">Cek Harga</button>
+                        </div>
+                        <div class="form-group">
+                            <div class="g-recaptcha" data-sitekey="6LfpmK8UAAAAABFxfsXkfagvooSbzW1Q2LhB14E4" required></div>
+                        </div>
                       <div class="form-group">
                         <div class="row">
                           <div class="col-md-6">
-                            <input type="submit" class="btn btn-rounded btn-green" value="Booking Sekarang">
+                            <input type="submit" class="btn btn-rounded btn-green" value="Booking Sekarang" name="send">
                           </div>
                           <div class="col-md-6">
                             <ul class="list-inline price-form-socmed">
@@ -531,7 +554,7 @@
                               <li><span class="jgicon icon-facebook"></span></li>
                               <li><span class="jgicon icon-twitter"></span></li>
                               <li><span class="jgicon icon-whatsapp"></span></li>
-                              <li><span class="jgicon icon-print"></span></li>
+                              <li><span class="jgicon icon-print" id="pdfDownloader"></span></li>
                             </ul>
                           </div>
                         </div>
@@ -875,7 +898,342 @@
     <script type="text/javascript" src="vendor/jquery.3.2.1/jquery.3.2.1.min.js"></script>
     <script type="text/javascript" src="vendor/bootstrap.3.3.7/js/bootstrap.min.js"></script>
     <script type="text/javascript" src="vendor/owl-carousel.2.3.4/owl.carousel.min.js"></script>
-    
+
+    <!-- //---script Print pdf--// -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/0.4.1/html2canvas.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/1.0.272/jspdf.debug.js"></script>
+
+    <script type="text/javascript">
+      $("#pdfDownloader").click(function(){
+	
+      html2canvas(document.getElementById("printDiv"), {
+            onrendered: function(canvas) {
+
+            var imgData = canvas.toDataURL('image/png');
+            console.log('Report Image URL: '+imgData);
+            var doc = new jsPDF('p', 'mm', 'a4');
+
+            doc.setFontSize(35);
+            doc.text(50, 25, 'Bukti Pemesanan');
+            doc.setFontSize(10);
+            doc.setFont('times')
+            doc.setFontType('italic')
+            doc.text(45, 35, 'Harga belum termasuk periode High Sesion Idul Fitri, Natal & Tahun Baru')
+            doc.addImage(imgData, 'JPEG', 15, 40);
+            doc.save('Bukti Pemesanan.pdf');
+         }
+      });
+    });
+    </script>
+
+    <!-- //---API google recaptcha--// -->
+    <script src='https://www.google.com/recaptcha/api.js'></script>
+
+    <!-- //---script Harga total--// -->
+    <script type="text/javascript">
+    function cekaharga (e) {    
+        var data = $(".packdetail-price-form").serializeArray();
+            oldPrice = data[3].value;
+            kidPrice = data[4].value;
+            hotelPrice = data[5].value;
+            total = (oldPrice * 1000000 ) + (kidPrice * 500000) + (hotelPrice * 1) ;
+        
+        // <!-- //---script Konversi Rupiah Total -->
+        var	reverse = total.toString().split('').reverse().join(''),
+            totalribuan = reverse.match(/\d{1,3}/g);
+            totalribuan	= totalribuan.join('.').split('').reverse().join('');
+
+        // <!-- //---script Konversi Rupiah Hotel -->
+        var	reverse = hotelPrice.toString().split('').reverse().join(''),
+            hotelribuan = reverse.match(/\d{1,3}/g);
+            hotelribuan	= hotelribuan.join('.').split('').reverse().join('');
+
+        
+        document.getElementById("jumlahDewasa").innerHTML = oldPrice + ' X';
+        document.getElementById("jumlahAnak").innerHTML = kidPrice + ' X';
+        document.getElementById("kelasHotel").innerHTML = 'Rp ' + hotelribuan;
+        document.getElementById("total").innerHTML = 'Rp ' +totalribuan;
+
+        console.log(data);
+        e.preventDefault();
+        }
+    </script>
+    <script>
+        function
+    </script>
+
+    <!-- //---PHP mailer Pemensanan--// -->
+    <?php
+      use PHPMailer\PHPMailer\PHPMailer;
+
+      require 'vendor/autoload.php';
+
+      $secret = '6LfpmK8UAAAAALK5qi5unR40vHhbiNcDrHh71KYi'; // CHANGE THIS TO YOUR OWN!
+      $url = "https://www.google.com/recaptcha/api/siteverify?secret=$secret&response=".$_POST['g-recaptcha-response'];
+      $verify = json_decode(file_get_contents($url));
+
+      if ($verify->success == true) {
+          $nama = $_POST['namaPemesan'];
+          $email = $_POST['email'];
+          $telp = $_POST['telp'];
+          $old = $_POST['old'];
+          $kid = $_POST['kid'];
+          $hotel = $_POST['star'];
+          
+          $hargaHotel = number_format($_POST['star'], 0, ".", ".");
+          $hargaOld = number_format(($old * 1000000), 0, ".", ".");
+          $hargaKid = number_format(($kid * 500000), 0, ".", ".");
+          $hargaTotal = number_format(($old * 1000000) + ($kid * 500000) + ($hotel * 1), 0, ".", ".");
+
+          $bitangHotel = 0;
+
+          if($hotel == 8000000){
+            $bintangHotel = 5;
+          }
+          else if ($hotel == 5000000){
+            $bintangHotel = 4;
+          }
+          else if ($hotel == 3000000){
+            $bintangHotel = 3;
+          }
+          else if ($hotel == 2000000){
+            $bintangHotel = 2;
+          }
+          else if ($hotel < 2000000){
+            $bintangHotel = 1;
+          }
+
+          $mail = new PHPMailer;
+          $mail->isSMTP();
+          $mail->Host = 'smtp.gmail.com';
+          $mail->Port = 587;
+          $mail->Username = 'webjagadtour@gmail.com';
+          $mail->Password = 'jagadtour123'; 
+          $mail->SMTPSecure = 'tls';
+          $mail->SMTPAuth = true;
+          $mail->isHTML(true);
+          $mail->addAddress('liwaalex99@gmail.com');
+          $mail->setFrom('liwaalex11@gmail.com', 'Jagad Tour');
+          $mail->Subject = 'Pengirim '.$nama;
+          $mail->Body = '      
+             
+          <body style="height: 100%; margin: 0; padding: 0; width: 100%; -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; background-color: #FAFAFA;">
+          <!--*|IF:MC_PREVIEW_TEXT|*-->
+          <!--[if !gte mso 9]>
+          <!---->
+          <span class="mcnPreviewText" style="font-size: 0px; line-height: 0px; max-height: 0px; max-width: 0px; opacity: 0; overflow: hidden; visibility: hidden; mso-hide: all; display: none;">Kiriman Email dari Pelanggan</span>
+          <!--
+          <![endif]-->
+          <!--*|END:IF|*-->
+          <center>
+            <table align="center" border="0" cellpadding="0" cellspacing="0" height="100%" width="100%" id="bodyTable" style="border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; height: 100%; margin: 0; padding: 0; width: 100%; background-color: #FAFAFA;" bgcolor="#FAFAFA">
+              <tr>
+                <td align="center" valign="top" id="bodyCell" style="mso-line-height-rule: exactly; -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; height: 100%; margin: 0; width: 100%; padding: 10px; border-top: 0;" width="100%" height="100%">
+                  <!-- BEGIN TEMPLATE // -->
+                  <!--[if (gte mso 9)|(IE)]>
+                  <table align="center" border="0" cellspacing="0" cellpadding="0" width="600" style="width:600px;">
+                    <tr>
+                      <td align="center" valign="top" width="600" style="width:600px;">
+                        <![endif]-->
+                        <table border="0" cellpadding="0" cellspacing="0" width="100%" class="templateContainer" style="border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; border: 0; max-width: 600px;">
+                          <tr>
+                            <td valign="top" id="templatePreheader" style="mso-line-height-rule: exactly; -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; background-color: #FAFAFA; background-image: none; background-repeat: no-repeat; background-position: center; background-size: cover; border-top: 0; border-bottom: 0; padding-top: 9px; padding-bottom: 9px;" bgcolor="#FAFAFA" background="none">
+                              <table border="0" cellpadding="0" cellspacing="0" width="100%" class="mcnImageBlock" style="border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; min-width: 100%;">
+                                <tbody class="mcnImageBlockOuter">
+                                  <tr>
+                                    <td valign="top" style="mso-line-height-rule: exactly; -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; padding: 9px;" class="mcnImageBlockInner">
+                                      <table align="left" width="100%" border="0" cellpadding="0" cellspacing="0" class="mcnImageContentContainer" style="border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; min-width: 100%;">
+                                        <tbody>
+                                          <tr>
+                                            <td class="mcnImageContent" valign="top" style="mso-line-height-rule: exactly; -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; padding-right: 9px; padding-left: 9px; padding-top: 0; padding-bottom: 0; text-align: center;" align="center">
+                                              <img align="center" alt="" src="https://gallery.mailchimp.com/095f958e797e8d60296fc8499/images/bcf6c632-347f-4204-b72e-21967edd2976.png" width="257" style="border: 0; height: auto; outline: none; text-decoration: none; -ms-interpolation-mode: bicubic; max-width: 257px; padding-bottom: 0; vertical-align: bottom; display: inline;" class="mcnImage">
+                                              </td>
+                                            </tr>
+                                          </tbody>
+                                        </table>
+                                      </td>
+                                    </tr>
+                                  </tbody>
+                                </table>
+                                <table border="0" cellpadding="0" cellspacing="0" width="100%" class="mcnDividerBlock" style="border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; min-width: 100%; background-color: #FFB13D; table-layout: fixed;" bgcolor="#FFB13D">
+                                  <tbody class="mcnDividerBlockOuter">
+                                    <tr>
+                                      <td class="mcnDividerBlockInner" style="mso-line-height-rule: exactly; -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; min-width: 100%; padding: 18px;">
+                                        <table class="mcnDividerContent" border="0" cellpadding="0" cellspacing="0" width="100%" style="border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; min-width: 100%;">
+                                          <tbody>
+                                            <tr>
+                                              <td style="mso-line-height-rule: exactly; -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%;">
+                                                <span></span>
+                                              </td>
+                                            </tr>
+                                          </tbody>
+                                        </table>
+                                        <!-- <td class="mcnDividerBlockInner" style="padding: 18px;"><hr class="mcnDividerContent" style="border-bottom-color:none; border-left-color:none; border-right-color:none; border-bottom-width:0; border-left-width:0; border-right-width:0; margin-top:0; margin-right:0; margin-bottom:0; margin-left:0;" /> -->
+                                      </td>
+                                    </tr>
+                                  </tbody>
+                                </table>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td valign="top" id="templateHeader" style="mso-line-height-rule: exactly; -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; background-color: #FFFFFF; background-image: none; background-repeat: no-repeat; background-position: center; background-size: cover; border-top: 0; border-bottom: 0; padding-top: 9px; padding-bottom: 0;" bgcolor="#FFFFFF" background="none">
+                                <table border="0" cellpadding="0" cellspacing="0" width="100%" class="mcnTextBlock" style="border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; min-width: 100%;">
+                                  <tbody class="mcnTextBlockOuter">
+                                    <tr>
+                                      <td valign="top" class="mcnTextBlockInner" style="mso-line-height-rule: exactly; -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; padding-top: 9px;">
+                                        <!--[if mso]>
+                                        <table align="left" border="0" cellspacing="0" cellpadding="0" width="100%" style="width:100%;">
+                                          <tr>
+                                            <![endif]-->
+                                            <!--[if mso]>
+                                            <td valign="top" width="600" style="width:600px;">
+                                              <![endif]-->
+                                              <table align="left" border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; max-width: 100%; min-width: 100%;" width="100%" class="mcnTextContentContainer">
+                                                <tbody>
+                                                  <tr>
+                                                    <td valign="top" class="mcnTextContent" style="mso-line-height-rule: exactly; -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; word-break: break-word; color: #202020; font-family: Helvetica; font-size: 16px; line-height: 150%; text-align: left; padding-top: 0; padding-right: 18px; padding-bottom: 9px; padding-left: 18px;" align="left">
+                                                      <h1 style="display: block; margin: 0; padding: 0; color: #202020; font-family: Helvetica; font-size: 16px; font-style: normal; font-weight: bold; line-height: 125%; letter-spacing: normal; text-align: center;">Email Pemesanan Paket</h1>
+                                                      <p>
+                                                        <b>Identitas pengirim</b>
+                                                      </p>
+                                                        <ul>
+                                                          <li>Nama Pemesan : '.$nama.'</li>
+                                                          <li>Email        : '.$email.'</li>
+                                                          <li>No. Telp     : '.$telp.'</li>
+                                                        </ul>
+                                                      <p>
+                                                        <b>Detail Pemesanan</b>
+                                                      </p>
+                                                        <ul>
+                                                          <li>Dewasa : '.$old.' Orang</li>
+                                                          <li>Anak   : '.$kid.' Orang</li>
+                                                          <li>Hotel  : Bintang '.$bintangHotel.'</li>
+                                                        </ul>
+                                                    <p>
+                                                      <b>Perkiraan Biaya</b>
+                                                    </p>
+                                                      <ul>
+                                                        <li>Harga Dewasa : Rp '.$hargaOld.'</li>
+                                                        <li>Harga Anak   : Rp '.$hargaKid.'</li>
+                                                        <li>Harga Hotel  : Rp '.$hargaHotel.'</li>
+                                                        <li>Total Biaya  : Rp '.$hargaTotal.'</li>
+                                                      </ul>
+                                                    </td>
+                                                  </tr>
+                                                </tbody>
+                                              </table>
+                                              <!--[if mso]>
+                                            </td>
+                                            <![endif]-->
+                                            <!--[if mso]>
+                                          </tr>
+                                        </table>
+                                        <![endif]-->
+                                      </td>
+                                    </tr>
+                                  </tbody>
+                                </table>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td valign="top" id="templateBody" style="mso-line-height-rule: exactly; -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; background-color: #FFFFFF; background-image: none; background-repeat: no-repeat; background-position: center; background-size: cover; border-top: 0; border-bottom: 2px solid #EAEAEA; padding-top: 0; padding-bottom: 9px;" bgcolor="#FFFFFF" background="none"></td>
+                            </tr>
+                            <tr>
+                              <td valign="top" id="templateFooter" style="mso-line-height-rule: exactly; -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; background-color: #FAFAFA; background-image: none; background-repeat: no-repeat; background-position: center; background-size: cover; border-top: 0; border-bottom: 0; padding-top: 9px; padding-bottom: 9px;" bgcolor="#FAFAFA" background="none">
+                                <table border="0" cellpadding="0" cellspacing="0" width="100%" class="mcnDividerBlock" style="border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; min-width: 100%; background-color: #29BAFD; table-layout: fixed;" bgcolor="#29BAFD">
+                                  <tbody class="mcnDividerBlockOuter">
+                                    <tr>
+                                      <td class="mcnDividerBlockInner" style="mso-line-height-rule: exactly; -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; min-width: 100%; padding: 10px 18px 25px;">
+                                        <table class="mcnDividerContent" border="0" cellpadding="0" cellspacing="0" width="100%" style="border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; min-width: 100%; border-top: 2px none #EEEEEE;">
+                                          <tbody>
+                                            <tr>
+                                              <td style="mso-line-height-rule: exactly; -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%;">
+                                                <span></span>
+                                              </td>
+                                            </tr>
+                                          </tbody>
+                                        </table>
+                                        <!-- <td class="mcnDividerBlockInner" style="padding: 18px;"><hr class="mcnDividerContent" style="border-bottom-color:none; border-left-color:none; border-right-color:none; border-bottom-width:0; border-left-width:0; border-right-width:0; margin-top:0; margin-right:0; margin-bottom:0; margin-left:0;" /> -->
+                                      </td>
+                                    </tr>
+                                  </tbody>
+                                </table>
+                                <table border="0" cellpadding="0" cellspacing="0" width="100%" class="mcnTextBlock" style="border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; min-width: 100%;">
+                                  <tbody class="mcnTextBlockOuter">
+                                    <tr>
+                                      <td valign="top" class="mcnTextBlockInner" style="mso-line-height-rule: exactly; -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; padding-top: 9px;">
+                                        <!--[if mso]>
+                                        <table align="left" border="0" cellspacing="0" cellpadding="0" width="100%" style="width:100%;">
+                                          <tr>
+                                            <![endif]-->
+                                            <!--[if mso]>
+                                            <td valign="top" width="600" style="width:600px;">
+                                              <![endif]-->
+                                              <table align="left" border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; max-width: 100%; min-width: 100%;" width="100%" class="mcnTextContentContainer">
+                                                <tbody>
+                                                  <tr>
+                                                    <td valign="top" class="mcnTextContent" style="mso-line-height-rule: exactly; -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; word-break: break-word; color: #656565; font-family: Helvetica; font-size: 12px; line-height: 150%; text-align: center; padding-top: 0; padding-right: 18px; padding-bottom: 9px; padding-left: 18px;" align="center">
+                                                      <em>Copyright © Illiyin Studio, All rights reserved.</em>
+                                                      <br>
+                                                        <br>
+                                                          <strong>Our address is:</strong>
+                                                          <br> Jagad Tour | #1 Biro Pariwisata Jawa Timur&nbsp;
+                      
+                                                            <br>
+                                                              <br> Dau Assakinah Residence No. 08,
+                                                                    Banjartengah,
+                                                                    Sumbersekar,
+                                                                    Kec. Dau,
+                                                                    Malang,
+                                                                    Jawa Timur 65151 
+                                                              </td>
+                                                            </tr>
+                                                          </tbody>
+                                                        </table>
+                                                        <!--[if mso]>
+                                                      </td>
+                                                      <![endif]-->
+                                                      <!--[if mso]>
+                                                    </tr>
+                                                  </table>
+                                                  <![endif]-->
+                                                </td>
+                                              </tr>
+                                            </tbody>
+                                          </table>
+                                        </td>
+                                      </tr>
+                                    </table>
+                                    <!--[if (gte mso 9)|(IE)]>
+                                  </td>
+                                </tr>
+                              </table>
+                              <![endif]-->
+                              <!-- // END TEMPLATE -->
+                            </td>
+                          </tr>
+                        </table>
+                      </center>
+                    </body>
+          ';
+          if($mail->send()){
+            echo '<script language="javascript">';
+            echo 'alert("Terimakasih Email Anda sudah terkirim")';
+            echo '</script>';
+          }
+          else{
+            echo '<script language="javascript">';
+            echo 'alert("Maaf Terjadi Error dalam pengiriman Email Anda")';
+            echo '</script>';
+          }
+
+        }else if ($verify->success == false){
+          echo '<script language="javascript">';
+          echo 'alert("Mohon captcha diisi dengan benar")';
+          echo '</script>';
+        }
+      ?>
+
     <script type="text/javascript">
       $('.js-packdetail-destination-slider').owlCarousel({
         loop: true,
@@ -1015,7 +1373,6 @@
         type: 'GET',
         data: {access_token: token, count: num_photos},
         success: function(data){
-          console.log(data);
           for( x in data.data ){
             $('.js-photo-slider').owlCarousel('add', '<div class="photo-slider-item"><img src="'+data.data[x].images.low_resolution.url+'" width="452" height="490" alt="Jagadtour Photo Instagram"></div>').owlCarousel('update');
           }

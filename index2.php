@@ -28,16 +28,16 @@
     <link rel="stylesheet" type="text/css" href="css/main.css?v10">
   </head>
   <body>
-    
-  <!-- Header -->
+
     <header class="header header-home">
       <div class="container">
+        
         <!-- Contact Info -->
         <div class="row header-info">
-          <div class="col-sm-4 col-md-5 info-logo">
+          <div class="col-sm-4 col-md-5 col-xs-6 info-logo">
             <img src="images/jagadtour-logo-new.png" width="237" height="44" alt="Logo Jagad Tour" class="img-responsive">
           </div>
-          <div class="col-xs-12 text-right show-mobile">
+          <div class="col-xs-6 show-mobile">
           <div class="mobile-title">Let's Explore East Java!</div> 
           <div class="mobile-title-desc">With Jagad Tour</div> 
           </div>
@@ -75,7 +75,7 @@
                   <li><a href="#">Family Trip</a></li>
                   <li><a href="package.php">Corporate</a></li>
                   <li><a href="#">Custom Trip</a></li>
-                  <li><a href="gallery-testi.php">Gallery &amp; Testimoni</a></li>
+                  <li><a href="gallery-testi.php">Gallery & Testimoni</a></li>
                   <li><a href="blog.php">Blog</a></li>
                   <li><a href="contact.php">Contact Us</a></li>
                 </ul>
@@ -90,9 +90,9 @@
   <div class="warper">
     <!-- Hero Slider -->
     <section class="hero">
-      <div class="hero-home">
+      <div class="hero-package">
         <video class="hero-video" width="100%" autoplay loop muted>
-          <source src="videos/Outing%20ke%20Malang%20&%20Bromo%20PT%20Juke%20Solusi%20Jakarta%20%20-%20Organized%20by%20JAGAD%20TOUR%20MALANG.mp4" type="video/mp4">
+          <source src="video/landingPage.mp4" type="video/mp4">
         </video>
         <div class="button show-mobile">
           <a href="https://www.youtube.com/watch?v=DQPXRp3Ac1U" target="_blank">
@@ -100,12 +100,8 @@
           </a>
         </div>
         <div class="container hero-video-content hidden-mobile">
-          <div class="row">
-            <div class="col-xs-12">
-              <div class="video-content-title">Let's Explore East Java!</div> 
-              <div class="video-content-text">With Jagad Tour</div> 
-            </div>
-          </div>
+          <div class="video-content-title">Let's Explore East Java!</div> 
+          <div class="video-content-text">With Jagad Tour</div> 
         </div>
       </div> 
     </section>
@@ -212,7 +208,7 @@
                   <div class="panel-body card-single-body">
                     <img src="images/thumbnails/jagadtour-bromo-sunrise.jpg" width="1035" height="642" alt="" class="img-responsive">
                     <div class="card-single-packet row">
-                      <div class="left col-md-9 col-xs-9 mobile-noBorder">
+                      <div class="left col-md-9 col-xs-9">
                         <p class="card-single-title">Bromo Sunrise Tour</p>
                         <p class="tag tag-orange card-single-tag">Family Trip</p>
                         <p class="card-single-text duration">1 Day</p>
@@ -232,7 +228,7 @@
                   <div class="panel-body card-single-body">
                     <img src="images/thumbnails/jagadtour-bromo-sunrise.jpg" width="1035" height="642" alt="" class="img-responsive">
                     <div class="card-single-packet row">
-                      <div class="left col-md-9 col-xs-9 mobile-noBorder">
+                      <div class="left col-md-9 col-xs-9">
                         <p class="card-single-title">Bromo Sunrise Tour</p>
                         <p class="tag tag-orange card-single-tag">Family Trip</p>
                         <p class="card-single-text duration">1 Day</p>
@@ -252,7 +248,7 @@
                   <div class="panel-body card-single-body">
                     <img src="images/thumbnails/jagadtour-kota-malang.jpg" width="1035" height="642" alt="" class="img-responsive">
                     <div class="card-single-packet row">
-                      <div class="left col-md-9 col-xs-9 mobile-noBorder">
+                      <div class="left col-md-9 col-xs-9">
                         <p class="card-single-title">Tour Malang, Batu &amp; Bromo</p>
                         <p class="tag tag-orange card-single-tag">Family Trip</p>
                         <p class="card-single-text duration">4 Days 3 Nights</p>
@@ -272,7 +268,7 @@
                   <div class="panel-body card-single-body">
                     <img src="images/thumbnails/jagadtour-rafting-songa.jpg" width="1035" height="642" alt="" class="img-responsive">
                     <div class="card-single-packet row">
-                      <div class="left col-md-9 col-xs-9 mobile-noBorder">
+                      <div class="left col-md-9 col-xs-9">
                         <p class="card-single-title">Rafting Songa Bromo &amp; Batu</p>
                         <p class="tag tag-blue card-single-tag">Corporate Trip</p>
                         <p class="card-single-text duration">3 Days 2 Nights</p>
@@ -292,7 +288,7 @@
                   <div class="panel-body card-single-body">
                     <img src="images/thumbnails/jagadtour-rafting-songa.jpg" width="1035" height="642" alt="" class="img-responsive">
                     <div class="card-single-packet row">
-                      <div class="left col-md-9 col-xs-9  mobile-noBorder">
+                      <div class="left col-md-9 col-xs-9">
                         <p class="card-single-title">Tour Malang, Bromo, &amp; Batu</p>
                         <p class="tag tag-blue card-single-tag">Corporate Trip</p>
                         <p class="card-single-text duration">4 Days 3 Nights</p>
@@ -312,7 +308,7 @@
                   <div class="panel-body card-single-body">
                     <img src="images/thumbnails/jagadtour-rafting-songa.jpg" width="1035" height="642" alt="" class="img-responsive">
                     <div class="card-single-packet row">
-                      <div class="left col-md-9 col-xs-9 mobile-noBorder">
+                      <div class="left col-md-9 col-xs-9">
                         <p class="card-single-title">Tour Museum Malang</p>
                         <p class="tag tag-blue card-single-tag">Corporate Trip</p>
                         <p class="card-single-text duration">3 Days 2 Nights</p>
@@ -468,7 +464,7 @@
     </section>
     
     <!-- Testimonial -->
-    <section class="content content-testi content-testi-home">
+    <section class="content content-testi">
       <div class="container">
         <div class="row">
           <div class="col-md-6">
@@ -479,17 +475,17 @@
                 <div class="panel panel-default testi-slider-item">
                   <div class="panel-body">
                     <p class="testi-slider-statement">
-                      Dari awal ketika melihat jagad tour ada satu pikiran saya bahwa, travel ini memiliki rasa tanggung jawab dan 
-                      beda dengan yang lain mulai dari fasilitas dan pendukung lainnya. Sukses terus jagad tour
+                      Salut ane sama mas Basir (driver jeep) karena keseringan ke bromo kali yak jadi segala yang di bromo dia tau. 
+                      Intinya Recomended bgt!
                     </p>
                     <div class="media testi-slider-media">
                       <div class="media-left">
                         <a href="#">
-                          <img src="images/testimonials/1.jpg" width="104" height="104" alt="Testimonial Putri Sahadaya di Jagadtour" class="media-object testi-slider-photo">
+                          <img src="images/photos/testimoni-18.jpg" width="104" height="104" alt="Testimonial Putri Sahadaya di Jagadtour" class="media-object testi-slider-photo">
                         </a>
                       </div>
                       <div class="media-body media-middle">
-                        <h4 class="media-heading testi-slider-name">Kartika</h4>
+                        <h4 class="media-heading testi-slider-name">Putri</h4>
                         <p class="testi-slider-city">Bandung</p>
                       </div>
                     </div>
@@ -500,8 +496,7 @@
                 <div class="panel panel-default testi-slider-item">
                   <div class="panel-body">
                     <p class="testi-slider-statement">
-                      Bagi saya jagad tour punya treatment khusus untuk membuat client merasa nyaman dan bahagia saat berwisata di 
-                      malang dan kami merasakan itu. Semoga Tuhan memberkati Jagad Tour dan timnya
+                      Selama gw join open trip, Kayaknya emang Jagadtour Group yg terbaik. Really Satisfied. Gw kasih 4 jempol deh.
                     </p>
                     <div class="media testi-slider-media">
                       <div class="media-left">
@@ -510,20 +505,87 @@
                         </a>
                       </div>
                       <div class="media-body media-middle">
-                        <h4 class="media-heading testi-slider-name">Andi</h4>
-                        <p class="testi-slider-city">Jakarta</p>
+                        <h4 class="media-heading testi-slider-name">Alicia</h4>
+                        <p class="testi-slider-city">Bogor</p>
                       </div>
                     </div>
                   </div>
                 </div>
               </div>
+              <!-- <div class="item">
+                <div class="panel panel-default testi-slider-item">
+                  <div class="panel-body">
+                    <p class="testi-slider-statement">
+                      Gausah ragu pake jasa Mas Iwan, Menjelaskan di website dengan detail , keren dan harga sesuai dengan kualitasnya. 
+                      Jangan cepat tergiur dengan harga murah, join ama yg sudah terbukti. Recomended. Makasih mas iwan
+                    </p>
+                    <div class="media testi-slider-media">
+                      <div class="media-left">
+                        <a href="#">
+                          <img src="images/photos/testimoni-23.jpg" width="104" height="104" alt="Testimonial Thomas Budi di Jagadtour" class="media-object testi-slider-photo">
+                        </a>
+                      </div>
+                      <div class="media-body media-middle">
+                        <h4 class="media-heading testi-slider-name">Intan</h4>
+                        <p class="testi-slider-city">Medan</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div> -->
+              <!-- <div class="item">
+                <div class="panel panel-default testi-slider-item">
+                  <div class="panel-body">
+                    <p class="testi-slider-statement">
+                      Keluarga saya seneng mas trip bromonya. Memuaskan dan pelayanannya super sekali. Ngga salah dapat disuruh mbak 
+                      Indri buat ngubungin mas Iwan yang kata dia puas pas di bromo bareng jagadtour. dan emang terbukti mas. Semoga 
+                      lancar terus ya mas, mohon maaf kalo ada yg salah selama trip bareng keluarga saya kemarin
+                    </p>
+                    <div class="media testi-slider-media">
+                      <div class="media-left">
+                        <a href="#">
+                          <img src="images/photos/testimoni-8.jpg" width="104" height="104" alt="Testimonial Thomas Budi di Jagadtour" class="media-object testi-slider-photo">
+                        </a>
+                      </div>
+                      <div class="media-body media-middle">
+                        <h4 class="media-heading testi-slider-name">Ramadhany Putri</h4>
+                        <p class="testi-slider-city">Jakarta</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div> -->
+              <!-- <div class="item">
+                <div class="panel panel-default testi-slider-item">
+                  <div class="panel-body">
+                    <p class="testi-slider-statement">
+                      Sempat bandingin harga ke travel lain. Tapi harga 350rb yang ditawarkan Jagadtour Group sesuai dengan fasilitas 
+                      dan pelayanan yang kami dapat. Mulai dari penjemputan sampai kembali ke hotel, semua mantap. Udah gitu dapat 
+                      makan sambelnya mak nyusss. Recomended Travel to Bromo. Kalau mau ke bromo, jangan ragu pakai travelnya mas 
+                      Iwan. Thanks mas
+                    </p>
+                    <div class="media testi-slider-media">
+                      <div class="media-left">
+                        <a href="#">
+                          <img src="images/photos/testimoni-45.jpg" width="104" height="104" alt="Testimonial Thomas Budi di Jagadtour" class="media-object testi-slider-photo">
+                        </a>
+                      </div>
+                      <div class="media-body media-middle">
+                        <h4 class="media-heading testi-slider-name">Tyas</h4>
+                        <p class="testi-slider-city">Kemang Jakarta</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div> -->
             </div>
-            <a href="gallery-testi.php" style="text-decoration: none;"><p class="media-content-testi-link">Baca Lainnya</p></a>
+            <a href="gallery-testi.php" style="text-decoration: none;"><p class="media-content-testi-link">Baca Lainnya ></p></a>
+
           </div>
           <div class="col-md-6">
             <h2 class="content-title content-testi-title">Our Happy Clients</h2>
             <p class="media-content-testi">Mereka sudah mempercayakan tripnya kepada kami, giliran Anda selanjutnya</p>
-            <div class="owl-carousel owl-theme content-client-slider js-content-client-slider">
+            <div class="owl-carousel owl-theme content-client-slider js-content-partner-slider">
               <div class="item">
                 <ul class="list-inline happy-clients">
                   <li class="happy-client-item">
@@ -683,20 +745,14 @@
               <p class="newsletter-desc">
                 Dapatkan tips dan info diskon paket wisata terbaru dari Jagad Tour melalui email anda. Gratis!
               </p>
-              <!-- Begin Mailchimp Signup Form -->
-                <form action="https://gmail.us3.list-manage.com/subscribe/post?u=095f958e797e8d60296fc8499&amp;id=5205866a69" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="newsletter-form validate" target="_blank" novalidate>
-                  <div class="form-group">
-                    <input type="email" value="" name="EMAIL" class="required email form-control" placeholder="Masukkan email anda" id="mce-EMAIL">
-                  </div>
-                  <div id="mce-responses" class="clear">
-                    <div class="response" id="mce-error-response" style="display:none"></div>
-                    <div class="response" id="mce-success-response" style="display:none"></div>
-                  </div> 
-                  <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-                  <div class="clear">
-                    <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button btn btn-rounded btn-orange">
-                  </div>
-                </form>
+              <form class="newsletter-form">
+                <div class="form-group">
+                  <input type="email" name="email" value="" placeholder="Masukkan email anda" class="form-control">
+                </div>
+                <div class="form-group">
+                  <input type="submit" name="subscribe" value="subscribe" class="btn btn-rounded btn-orange">
+                </div>
+              </form>
             </div>
             <div class="col-xs-6 col-sm-6 col-md-3 footer-menu-article full-width">
               <h4>Artikel Terbaru</h4>
@@ -741,7 +797,7 @@
                 </div>
               </div>
             </div>
-            <div class="col-xs-6 col-sm-6 col-md-2 footer-menu-info full-width">
+            <div class="left col-xs-6 col-sm-6 col-md-2 footer-menu-info half-width">
               <h4>Informasi</h4>
               <ul class="info-list">
                 <li class="info-list-item"><a href="about.php">Tentang Kami</a></li>
@@ -1016,7 +1072,7 @@
       });
     </script>
     <script type="text/javascript">
-      $('.js-content-client-slider').owlCarousel({
+      $('.js-content-partner-slider').owlCarousel({
         dots: true,
         loop: true,
         margin: 35,

@@ -90,105 +90,6 @@
 
   <!-- Content Warp -->
   <div class="warper">
-    <!-- Hero Slider -->
-    <section class="hero">
-      <div class="hero-home">
-        <video class="hero-video" width="100%" autoplay loop>
-          <source src="videos/Outing%20ke%20Malang%20&%20Bromo%20PT%20Juke%20Solusi%20Jakarta%20%20-%20Organized%20by%20JAGAD%20TOUR%20MALANG.mp4" type="video/mp4">
-        </video>
-        <div class="button show-mobile">
-          <a href="https://www.youtube.com/watch?v=DQPXRp3Ac1U" target="_blank">
-            <p class="hero-mobile-button">Selengkapnya klik disini</p>
-          </a>
-        </div>
-      </div>
-    </section>
-
-    <!-- Mobile Custom Menu -->
-    <section class="content content-mobile-menu">
-      <div class="container show-mobile">
-        <div class="row">
-          <div class="col-xs-12">
-            <ul class="list-inline mobile-menu-list">
-              <li class="mobile-menu-item">
-                <a href="#">
-                  <div class="panel panel-default mobile-menu-panel mobile-menu-panel-blue">
-                    <div class="panel-body">
-                      <span class="jgicon icon-car mobile-menu-icon"></span>
-                      <p class="mobile-menu-text">Family Trip</p>
-                    </div>
-                  </div>
-                </a>
-              </li>
-              <li class="mobile-menu-item">
-                <a href="package.php">
-                  <div class="panel panel-default mobile-menu-panel mobile-menu-panel-green">
-                    <div class="panel-body">
-                      <span class="jgicon icon-bus mobile-menu-icon"></span>
-                      <p class="mobile-menu-text">Corporate Trip</p>
-                    </div>
-                  </div>
-                </a>
-              </li>
-              <li class="mobile-menu-item">
-                <a href="#">
-                  <div class="panel panel-default mobile-menu-panel mobile-menu-panel-orange">
-                    <div class="panel-body">
-                      <span class="jgicon icon-magic-wand mobile-menu-icon"></span>
-                      <p class="mobile-menu-text">Custom Trip</p>
-                    </div>
-                  </div>
-                </a>
-              </li>
-              <li class="mobile-menu-item">
-                <a href="#">
-                  <div class="panel panel-default mobile-menu-panel mobile-menu-panel-blue">
-                    <div class="panel-body">
-                      <span class="jgicon icon-star-fill mobile-menu-icon"></span>
-                      <p class="mobile-menu-text">Gallery</p>
-                    </div>
-                  </div>
-                </a>
-              </li>
-              <li class="mobile-menu-item">
-                <a href="blog.php">
-                  <div class="panel panel-default mobile-menu-panel mobile-menu-panel-green">
-                    <div class="panel-body">
-                      <span class="jgicon icon-news mobile-menu-icon"></span>
-                      <p class="mobile-menu-text">Blog</p>
-                    </div>
-                  </div>
-                </a>
-              </li>
-              <li class="mobile-menu-item">
-                <a href="contact.php">
-                  <div class="panel panel-default mobile-menu-panel mobile-menu-panel-orange">
-                    <div class="panel-body">
-                      <span class="jgicon icon-call mobile-menu-icon"></span>
-                      <p class="mobile-menu-text">Contact Us</p>
-                    </div>
-                  </div>
-                </a>
-              </li>
-            </ul>
-          </div>
-        </div>
-        <div class="row mobile-menu-cta">
-          <div class="col-xs-12">
-            <p class="menu-cta-title">Ada Pertanyaan? Kontak Kami</p>
-            <div class="panel panel-default menu-cta-panel js-menu-cta-panel animated">
-              <div class="panel-body">
-                <ul class="list-inline menu-cta-list">
-                  <li class="menu-cta-item"><a href="tel:+62878889992"><img class="img-responsive" src="images/icons/jagadtour-whatsapp.png" width="124" height="126" alt=""></a></li>
-                  <li class="menu-cta-item"><a href="mailto:halo@jagadtour.com"><span class="fa fa-envelope-o"></span></a></li>
-                  <li class="menu-cta-item"><a href="tel:+62878889992"><span class="fa fa-phone"></span></a></li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
   </div>
   <!-- 1 day -->
   <section class="content content-home-package js-content-home-package">
@@ -198,7 +99,7 @@
           <h2 class="content-title">1 day</h2>
         </div>
       </div>
-      <div class="owl-carousel day-1-carousel owl-theme">
+      <div class="owl-carousel day-carousel owl-theme">
           <div class="col-md-12">
             <a href="package.php">
               <div class="panel panel-default card-single">
@@ -332,7 +233,7 @@
           <h2 class="content-title">2 day</h2>
         </div>
       </div>
-      <div class="owl-carousel day-2-carousel owl-theme">
+      <div class="owl-carousel day-carousel owl-theme">
           <div class="col-md-12">
             <a href="package.php">
               <div class="panel panel-default card-single">
@@ -804,19 +705,31 @@
 
   </script>
   <script type="text/javascript">
-    $('.day-1-carousel').owlCarousel({
+    $('.day-carousel').owlCarousel({
         loop:true,
         nav:true,
         dots: false,
-        items:4
-    })
-  </script>
-  <script type="text/javascript">
-    $('.day-2-carousel').owlCarousel({
-        loop:true,
-        nav:true,
-        dots: false,
-        items:4
+        items:4,
+        responsive:{
+          0:{
+              items:1
+          },
+          479:{
+              items:1
+          },
+          639:{
+              items:2
+          },
+          767:{
+              items:2
+          },
+          1199:{
+              items:3
+          },
+          1440:{
+              items:4
+          }
+        }
     })
   </script>
   

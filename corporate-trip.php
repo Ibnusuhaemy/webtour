@@ -73,9 +73,9 @@
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse menu-box-collapse" id="bs-example-navbar-collapse-1">
               <ul class="nav navbar-nav menu-box-item">
-                <li class="active"><a href="index.php">Home<span class="sr-only">(current)</span></a></li>
+                <li><a href="index.php">Home<span class="sr-only">(current)</span></a></li>
                 <li><a href="family-trip.php">Family Trip</a></li>
-                <li><a href="corporate-trip.php">Corporate</a></li>
+                <li class="active"><a href="corporate-trip.php">Corporate</a></li>
                 <li><a href="#">Custom Trip</a></li>
                 <li><a href="gallery-testi.php">Gallery &amp; Testimoni</a></li>
                 <li><a href="blog.php">Blog</a></li>
@@ -190,17 +190,16 @@
       </div>
     </section>
   </div>
-  <!-- Popular Package -->
+  <!-- 1 day -->
   <section class="content content-home-package js-content-home-package">
     <div class="container">
       <div class="row">
         <div class="col-xs-12">
-          <h2 class="content-title">Popular Package</h2>
+          <h2 class="content-title">1 day</h2>
         </div>
       </div>
-      <div class="home-package-slider js-home-package-slider">
-        <ul class="row">
-          <li class="col-sm-6 col-md-4">
+      <div class="owl-carousel day-1-carousel owl-theme">
+          <div class="col-md-12">
             <a href="package.php">
               <div class="panel panel-default card-single">
                 <div class="panel-body card-single-body">
@@ -219,8 +218,8 @@
                 </div>
               </div>
             </a>
-          </li>
-          <li class="col-sm-6 col-md-4">
+          </div>
+          <div class="col-md-12">
             <a href="package.php">
               <div class="panel panel-default card-single">
                 <div class="panel-body card-single-body">
@@ -239,8 +238,8 @@
                 </div>
               </div>
             </a>
-          </li>
-          <li class="col-sm-6 col-md-4">
+          </div>
+          <div class="col-md-12">
             <a href="package.php">
               <div class="panel panel-default card-single">
                 <div class="panel-body card-single-body">
@@ -259,8 +258,8 @@
                 </div>
               </div>
             </a>
-          </li>
-          <li class="col-sm-6 col-md-4">
+          </div>
+          <div class="col-md-12">
             <a href="package.php">
               <div class="panel panel-default card-single">
                 <div class="panel-body card-single-body">
@@ -279,8 +278,8 @@
                 </div>
               </div>
             </a>
-          </li>
-          <li class="col-sm-6 col-md-4">
+          </div>
+          <div class="col-md-12">
             <a href="package.php">
               <div class="panel panel-default card-single">
                 <div class="panel-body card-single-body">
@@ -299,8 +298,8 @@
                 </div>
               </div>
             </a>
-          </li>
-          <li class="col-sm-6 col-md-4">
+          </div>
+          <div class="col-md-12">
             <a href="package.php">
               <div class="panel panel-default card-single">
                 <div class="panel-body card-single-body">
@@ -319,144 +318,142 @@
                 </div>
               </div>
             </a>
-          </li>
+          </div>
         </ul>
       </div>
     </div>
   </section>
 
-  <!-- Trip Category -->
-  <section class="content content-home-trip">
-    <div class="container">
-      <div class="owl-carousel owl-theme home-trip-slider js-home-trip-slider">
-        <div class="item">
-          <div class="panel panel-default trip-slider-panel trip-slider-family">
-            <div class="panel-body">
-              <h3 class="trip-panel-title">Family Trip</h3>
-              <p class="trip-panel-desc"> Pilihan paket wisata dan tour yang cocok bagi anda dan keluarga dengan jumlah kurang dari 20 orang</p>
-              <a href="package.php" class="btn btn-box btn-orange trip-panel-btn">Cek Paket</a>
-            </div>
-          </div>
-        </div>
-        <div class="item">
-          <div class="panel panel-default trip-slider-panel trip-slider-corporate">
-            <div class="panel-body">
-              <h3 class="trip-panel-title">Corporate Trip</h3>
-              <p class="trip-panel-desc">Pilihan Paket wisata dan tour yang cocok untuk perusahaan atau instansi anda dengan peserta lebih dari 20 orang</p>
-              <a href="package.php" class="btn btn-box btn-orange trip-panel-btn">Cek Paket</a>
-            </div>
-          </div>
-        </div>
-        <div class="item">
-          <div class="panel panel-default trip-slider-panel trip-slider-custom">
-            <div class="panel-body">
-              <h3 class="trip-panel-title">Custom Trip</h3>
-              <p class="trip-panel-desc">Buat sendiri list tour dan wisata dengan pilihan destinasi favorit anda</p>
-              <a href="package.php" class="btn btn-box btn-orange trip-panel-btn">Cek Paket</a>
-            </div>
-          </div>
-        </div>
-        <div class="item">
-          <div class="panel panel-default trip-slider-panel trip-slider-help">
-            <div class="panel-body">
-              <img src="images/icons/jagadtour-whatsapp.png" width="132" height="134" alt="Jagatour Whatsapp Contact" class="help-trip-whatsapp">
-              <h3 class="trip-panel-title">Butuh Bantuan</h3>
-              <p class="trip-panel-desc">Hubungi admin Jagad Tour bila anda memiliki pertanyaan tentang paket wisata</p>
-              <a href="https://web.whatsapp.com/send?phone=628113785758" class="btn btn-box btn-orange trip-panel-btn">Chat Admin</a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- Why Choose Us -->
-  <section class="content content-home-choose">
+  <!-- 2 day -->
+  <section class="content content-home-package js-content-home-package">
     <div class="container">
       <div class="row">
-        <h2 class="content-title">Alasan Mereka Memilih Jagad Tour</h2>
+        <div class="col-xs-12">
+          <h2 class="content-title">2 day</h2>
+        </div>
       </div>
-      <div class="row">
-        <div class="col-md-5">
-          <div class="media home-choose-media">
-            <div class="media-left choose-media-image" id="progressBar">
-            </div>
-            <div class="media-body media-middle choose-media-desc">
-              <h4 class="media-heading">Trusted</h4>
-              <div id="terpercaya" class="choose-progressbar"></div>
-              <p class="media-content">
-                Karena Legalitas perusahaan sangat jelas
-              </p>
-            </div>
+      <div class="owl-carousel day-2-carousel owl-theme">
+          <div class="col-md-12">
+            <a href="package.php">
+              <div class="panel panel-default card-single">
+                <div class="panel-body card-single-body">
+                  <img src="images/thumbnails/jagadtour-bromo-sunrise.jpg" width="1035" height="642" alt="" class="img-responsive">
+                  <div class="card-single-packet row">
+                    <div class="left col-md-9 col-xs-9">
+                      <p class="card-single-title">Bromo Sunrise Tour</p>
+                      <p class="tag tag-orange card-single-tag">Family Trip</p>
+                      <p class="card-single-text duration">1 Day</p>
+                    </div>
+                    <div class="right col-md-3 col-xs-3">
+                      <p class="card-single-text">Booked</p>
+                      <p class="card-single-text">978x</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </a>
           </div>
-          <div class="media home-choose-media">
-            <div class="media-left choose-media-image">
-            </div>
-            <div class="media-body media-middle choose-media-desc">
-              <h4 class="media-heading">Tim Profesional</h4>
-              <div id="solid" class="choose-progressbar"></div>
-              <p class="media-content">
-                Karena Tim kami Solid dan all out di setiap project
-              </p>
-            </div>
+          <div class="col-md-12">
+            <a href="package.php">
+              <div class="panel panel-default card-single">
+                <div class="panel-body card-single-body">
+                  <img src="images/thumbnails/jagadtour-bromo-sunrise.jpg" width="1035" height="642" alt="" class="img-responsive">
+                  <div class="card-single-packet row">
+                    <div class="left col-md-9 col-xs-9">
+                      <p class="card-single-title">Bromo Sunrise Tour</p>
+                      <p class="tag tag-orange card-single-tag">Family Trip</p>
+                      <p class="card-single-text duration">1 Day</p>
+                    </div>
+                    <div class="right col-md-3 col-xs-3">
+                      <p class="card-single-text">Booked</p>
+                      <p class="card-single-text">978x</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </a>
           </div>
-          <div class="media home-choose-media">
-            <div class="media-left choose-media-image">
-            </div>
-            <div class="media-body media-middle choose-media-desc">
-              <h4 class="media-heading">Service Terbaik</h4>
-              <div id="service" class="choose-progressbar"></div>
-              <p class="media-content">
-                Karena dari segi apapun, kami Beda dari yang lain
-              </p>
-            </div>
+          <div class="col-md-12">
+            <a href="package.php">
+              <div class="panel panel-default card-single">
+                <div class="panel-body card-single-body">
+                  <img src="images/thumbnails/jagadtour-kota-malang.jpg" width="1035" height="642" alt="" class="img-responsive">
+                  <div class="card-single-packet row">
+                    <div class="left col-md-9 col-xs-9">
+                      <p class="card-single-title">Tour Malang, Batu &amp; Bromo</p>
+                      <p class="tag tag-orange card-single-tag">Family Trip</p>
+                      <p class="card-single-text duration">4 Days 3 N</p>
+                    </div>
+                    <div class="right col-md-3 col-xs-3">
+                      <p class="card-single-text">Booked</p>
+                      <p class="card-single-text">978x</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </a>
           </div>
-          <div class="media home-choose-media">
-            <div class="media-left choose-media-image">
-            </div>
-            <div class="media-body media-middle choose-media-desc">
-              <h4 class="media-heading">Terima Beres</h4>
-              <div id="done" class="choose-progressbar"></div>
-              <p class="media-content">
-                Karena Sudah kami siapkan dengan sempurna
-              </p>
-            </div>
+          <div class="col-md-12">
+            <a href="package.php">
+              <div class="panel panel-default card-single">
+                <div class="panel-body card-single-body">
+                  <img src="images/thumbnails/jagadtour-rafting-songa.jpg" width="1035" height="642" alt="" class="img-responsive">
+                  <div class="card-single-packet row">
+                    <div class="left col-md-9 col-xs-9">
+                      <p class="card-single-title">Rafting Songa Bromo &amp; Batu</p>
+                      <p class="tag tag-blue card-single-tag">Corporate Trip</p>
+                      <p class="card-single-text duration">3 Days 2 N</p>
+                    </div>
+                    <div class="right col-md-3 col-xs-3">
+                      <p class="card-single-text">Booked</p>
+                      <p class="card-single-text">978x</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </a>
           </div>
-          <div class="media home-choose-media">
-            <div class="media-left choose-media-image">
-            </div>
-            <div class="media-body media-middle choose-media-desc">
-              <h4 class="media-heading">Paling Berpengalaman</h4>
-              <div id="pengalaman" class="choose-progressbar"></div>
-              <p class="media-content">
-                Karena jam terbang tim kami diatas rata – rata
-              </p>
-            </div>
+          <div class="col-md-12">
+            <a href="package.php">
+              <div class="panel panel-default card-single">
+                <div class="panel-body card-single-body">
+                  <img src="images/thumbnails/jagadtour-rafting-songa.jpg" width="1035" height="642" alt="" class="img-responsive">
+                  <div class="card-single-packet row">
+                    <div class="left col-md-9 col-xs-9">
+                      <p class="card-single-title">Tour Malang, Bromo, &amp; Batu</p>
+                      <p class="tag tag-blue card-single-tag">Corporate Trip</p>
+                      <p class="card-single-text duration">4 Days 3 N</p>
+                    </div>
+                    <div class="right col-md-3 col-xs-3">
+                      <p class="card-single-text">Booked</p>
+                      <p class="card-single-text">978x</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </a>
           </div>
-        </div>
-        <div class="col-md-7 hidden-mobile">
-          <div class="panel panel-default home-choose-founder">
-            <div class="panel-body">
-              <h5 class="choose-founder-title">Pesan dari Founder</h5>
-              <p class="choose-founder-desc">
-                Misi kami sederhana yaitu bagaimana kami bisa memberi kebahagiaan lebih
-                kepada semua customers kami
-              </p>
-              <p class="choose-founder-desc">
-                serta membuat sebuah perjalanan yang tidak
-                hanya sebatas jalan – jalan dan menikmati destinasi wisata
-              </p>
-              <p class="choose-founder-desc">
-                tetapi menyelipkan
-                kepedulian dan kepekaan terhadap sesama
-              </p>
-              <p class="choose-founder-desc">
-              </p>
-              <cite class="choose-founder-name">- Ikhwanul Ma'arif</cite>
-              <img class="choose-founder-photo" src="images/photos/founder.png" width="735" height="1173" alt="Ikhwanul Maarif, founder Jagadtour">
-            </div>
+          <div class="col-md-12">
+            <a href="package.php">
+              <div class="panel panel-default card-single">
+                <div class="panel-body card-single-body">
+                  <img src="images/thumbnails/jagadtour-rafting-songa.jpg" width="1035" height="642" alt="" class="img-responsive">
+                  <div class="card-single-packet row">
+                    <div class="left col-md-9 col-xs-9">
+                      <p class="card-single-title">Tour Museum Malang</p>
+                      <p class="tag tag-blue card-single-tag">Corporate Trip</p>
+                      <p class="card-single-text duration">3 Days 2 N</p>
+                    </div>
+                    <div class="right col-md-3 col-xs-3">
+                      <p class="card-single-text">Booked</p>
+                      <p class="card-single-text">978x</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </a>
           </div>
-        </div>
+        </ul>
       </div>
     </div>
   </section>
@@ -511,7 +508,7 @@
                 </div>
               </div>
             </div>
-          </div>
+          </div>    
           <a href="gallery-testi.php" style="text-decoration: none;">
             <p class="media-content-testi-link">Baca Lainnya</p>
           </a>
@@ -806,7 +803,23 @@
     });
 
   </script>
-
+  <script type="text/javascript">
+    $('.day-1-carousel').owlCarousel({
+        loop:true,
+        nav:true,
+        dots: false,
+        items:4
+    })
+  </script>
+  <script type="text/javascript">
+    $('.day-2-carousel').owlCarousel({
+        loop:true,
+        nav:true,
+        dots: false,
+        items:4
+    })
+  </script>
+  
   <!-- Progress Bar -->
   <script type="text/javascript">
     var barTrust = new ProgressBar.Line(terpercaya, {

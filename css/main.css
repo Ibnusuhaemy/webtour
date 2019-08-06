@@ -1256,8 +1256,8 @@ p {
 
 .testi-slider-item .testi-slider-media a {
   display: block;
-  width: 51px;
-  height: 51px;
+  width: 175px;
+  height: auto;
   border-radius: 100%;
 }
 
@@ -1731,7 +1731,7 @@ p {
   display: inline-block;
   vertical-align: top;
   margin-right: -3px;
-  width: 33%;
+  width: 100%;
   padding-left: 15px;
   padding-right: 15px;
 }

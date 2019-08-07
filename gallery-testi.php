@@ -1032,20 +1032,29 @@
         nav:true,
         navText: ['<i class="jgicon icon-chevron-left"></i>', '<i class="jgicon icon-arrow-right"></i>'],
         dots: false,
-        items:2,
         responsive:{
           0:{
               items:1
           },
-          639:{
-              items:1
-          },
-          767:{
+          992:{
               items:2
           }
         }
     })
   </script>
+
+  <script src="vendor/collapser/jquery.collapser.min.js"></script>
+  
+  <script type="text/javascript">
+			$(document).ready(function(){
+				$('.testi-slider-statement').collapser({
+        mode: 'chars',
+        truncate: 80,      
+        showText: 'Selengkapnya',
+		    hideText: 'Sembunyikan',
+      });
+    })
+	</script>
 
   <script type="text/javascript">
     $('.js-hero-slider').owlCarousel({

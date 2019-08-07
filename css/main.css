@@ -1256,7 +1256,7 @@ p {
 
 .testi-slider-item .testi-slider-media a {
   display: block;
-  width: 175px;
+  width: 100px;
   height: auto;
   border-radius: 100%;
 }
@@ -1276,6 +1276,7 @@ p {
 
 .testi-slider-media .testi-slider-city {
   font-style: italic;
+  padding-bottom: 10px;
 }
 
 .testi-slider-media .testi-slider-name {
@@ -3163,7 +3164,7 @@ p {
 
   /* --- ## Gallery ## --- */
   .content-testi-list .content-testi-slider .item {
-    width: 50%;
+    width: 100%;
   }
 
   /* --- ## Blog Detail ## --- */
@@ -3833,7 +3834,13 @@ p {
   .testi-slider-media .testi-slider-city {
     font-size: 14px;
   }
-
+  .testi-slider-media .media-left{
+    display: inline;
+  }
+  .testi-slider-media .media-left a{
+    width: 100%;
+    height: auto;
+  }
   /* --- ## Package ## ---*/
   /* - Hero - */
   .slider-content-info li {

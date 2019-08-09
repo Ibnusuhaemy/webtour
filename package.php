@@ -25,7 +25,7 @@
   <link rel="stylesheet" type="text/css" href="vendor/angle-vladov-mobile-slider/jquery.mobile-slider.min.css">
   <link rel="stylesheet" type="text/css" href="vendor/datetimepicker.4.17.42/css/bootstrap-datetimepicker.min.css">
 
-  <link rel="stylesheet" type="text/css" href="css/main.css?v=13">
+  <link rel="stylesheet" type="text/css" href="css/main.css?v=15">
 
 </head>
 
@@ -164,7 +164,7 @@
                 </div>
                 <div class="item">
                   <div class="destination-slider-image">
-                    <img src="images/sliders/Jagadtour-Tiket-Jatim-Park-1.jpg" width="1366" height="768" alt="Paket Wisata Jagadtour">
+                    <img src="images/sliders/jagadtour-jatim-park-1.jpg" width="1366" height="768" alt="Paket Wisata Jagadtour">
                   </div>
                   <div class="destination-slider-caption">
                     <p>JatimPark 1</p>
@@ -222,7 +222,7 @@
                     <div class="media">
                       <div class="media-left">
                         <a href="#">
-                          <img class="media-object" width="490" height="490" src="images/sliders/Jagadtour-Tiket-Jatim-Park-1.jpg" alt="Jagadtour Itinerary Image">
+                          <img class="media-object" width="490" height="490" src="images/sliders/jagadtour-jatim-park-1.jpg" alt="Jagadtour Itinerary Image">
                         </a>
                       </div>
                       <div class="media-body">

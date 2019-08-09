@@ -1554,6 +1554,17 @@ p {
 }
 
 /* - Price - */
+.packdetail-right {
+  position: relative;
+}
+
+/*
+.packdetail-price {
+  position: fixed;
+  width: 100%;
+}
+*/
+
 .packdetail-price .packdetail-price-title {
   font-family: "DINNextLTPro-Bold", Fallback, sans-serif;
   font-size: 16px;

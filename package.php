@@ -343,7 +343,7 @@
 
         </div>
 
-        <div class="col-md-4 col-lg-3">
+        <div class="col-md-4 col-lg-3 packdetail-right">
 
           <!-- Price -->
           <div class="panel panel-default panel-complete content-packdetail-panel packdetail-price">

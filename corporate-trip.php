@@ -32,22 +32,19 @@
 <body>
 
   <!-- Header -->
-  <header class="header header-home">
+  <header class="header">
     <div class="container">
+
       <!-- Contact Info -->
       <div class="row header-info">
         <div class="col-sm-4 col-md-5 info-logo">
-          <img src="images/jagadtour-logo-baru.png" width="237" height="44" alt="Logo Jagad Tour" class="img-responsive">
-        </div>
-        <div class="col-xs-12 text-right show-mobile">
-          <div class="mobile-title">Let's Explore <br> East Java!</div>
-          <!--          <div class="mobile-title-desc">With Jagad Tour</div>-->
+          <img src="images/jagadtour-logo-baru.png" width="237" height="44" alt="Logo Jagadtour" class="img-responsive">
         </div>
         <div class="col-sm-8 col-md-7 info-contact">
           <span class="jgicon icon-call"></span>
           <div class="contact-call">
             <p class="contact-caption">For General Questions</p>
-            <p class="contact-number"><a href="#">+623415051185</a></p>
+            <p class="contact-number"><a href="#">+63415051185</a></p>
           </div>
           <div class="contact-call">
             <p class="contact-caption">For Booking and Inquiries</p>
@@ -91,276 +88,293 @@
   <!-- Content Warp -->
   <div class="warper">
   </div>
+
   <!-- 1 day -->
-  <section class="content content-home-package js-content-home-package">
+  <section class="content content-home-package">
     <div class="container">
       <div class="row">
         <div class="col-xs-12">
           <h2 class="content-title">1 day</h2>
         </div>
       </div>
-      <div class="owl-carousel day-carousel owl-theme">
-          <div class="col-md-12">
-            <a href="package.php">
-              <div class="panel panel-default card-single">
-                <div class="panel-body card-single-body">
-                  <img src="images/thumbnails/jagadtour-bromo-sunrise.jpg" width="1035" height="642" alt="" class="img-responsive">
-                  <div class="card-single-packet row">
-                    <div class="left col-md-9 col-xs-9">
-                      <p class="card-single-title">Bromo Sunrise Tour</p>
-                      <p class="tag tag-orange card-single-tag">Family Trip</p>
-                      <p class="card-single-text duration">1 Day</p>
-                    </div>
-                    <div class="right col-md-3 col-xs-3">
-                      <p class="card-single-text">Booked</p>
-                      <p class="card-single-text">978x</p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </a>
-          </div>
-          <div class="col-md-12">
-            <a href="package.php">
-              <div class="panel panel-default card-single">
-                <div class="panel-body card-single-body">
-                  <img src="images/thumbnails/jagadtour-bromo-sunrise.jpg" width="1035" height="642" alt="" class="img-responsive">
-                  <div class="card-single-packet row">
-                    <div class="left col-md-9 col-xs-9">
-                      <p class="card-single-title">Bromo Sunrise Tour</p>
-                      <p class="tag tag-orange card-single-tag">Family Trip</p>
-                      <p class="card-single-text duration">1 Day</p>
-                    </div>
-                    <div class="right col-md-3 col-xs-3">
-                      <p class="card-single-text">Booked</p>
-                      <p class="card-single-text">978x</p>
+      <div class="row">
+        <div class="col-xs-12">
+          <div class="owl-carousel corporate-one js-corporate-one owl-theme">
+            <div class="item">
+              <a href="package.php">
+                <div class="panel panel-default card-single">
+                  <div class="panel-body card-single-body">
+                    <img src="images/thumbnails/jagadtour-bromo-sunrise.jpg" width="1035" height="642" alt="" class="img-responsive">
+                    <div class="card-single-packet row">
+                      <div class="left col-md-9 col-xs-9">
+                        <p class="card-single-title">Bromo Sunrise Tour</p>
+                        <p class="tag tag-orange card-single-tag">Family Trip</p>
+                        <p class="card-single-text duration">1 Day</p>
+                      </div>
+                      <div class="right col-md-3 col-xs-3">
+                        <p class="card-single-text">Booked</p>
+                        <p class="card-single-text">978x</p>
+                      </div>
                     </div>
                   </div>
                 </div>
-              </div>
-            </a>
-          </div>
-          <div class="col-md-12">
-            <a href="package.php">
-              <div class="panel panel-default card-single">
-                <div class="panel-body card-single-body">
-                  <img src="images/thumbnails/jagadtour-kota-malang.jpg" width="1035" height="642" alt="" class="img-responsive">
-                  <div class="card-single-packet row">
-                    <div class="left col-md-9 col-xs-9">
-                      <p class="card-single-title">Tour Malang, Batu &amp; Bromo</p>
-                      <p class="tag tag-orange card-single-tag">Family Trip</p>
-                      <p class="card-single-text duration">4 Days 3 N</p>
-                    </div>
-                    <div class="right col-md-3 col-xs-3">
-                      <p class="card-single-text">Booked</p>
-                      <p class="card-single-text">978x</p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </a>
-          </div>
-          <div class="col-md-12">
-            <a href="package.php">
-              <div class="panel panel-default card-single">
-                <div class="panel-body card-single-body">
-                  <img src="images/thumbnails/jagadtour-rafting-songa.jpg" width="1035" height="642" alt="" class="img-responsive">
-                  <div class="card-single-packet row">
-                    <div class="left col-md-9 col-xs-9">
-                      <p class="card-single-title">Rafting Songa Bromo &amp; Batu</p>
-                      <p class="tag tag-blue card-single-tag">Corporate Trip</p>
-                      <p class="card-single-text duration">3 Days 2 N</p>
-                    </div>
-                    <div class="right col-md-3 col-xs-3">
-                      <p class="card-single-text">Booked</p>
-                      <p class="card-single-text">978x</p>
+              </a>
+            </div>
+            <div class="item">
+              <a href="package.php">
+                <div class="panel panel-default card-single">
+                  <div class="panel-body card-single-body">
+                    <img src="images/thumbnails/jagadtour-bromo-sunrise.jpg" width="1035" height="642" alt="" class="img-responsive">
+                    <div class="card-single-packet row">
+                      <div class="left col-md-9 col-xs-9">
+                        <p class="card-single-title">Bromo Sunrise Tour</p>
+                        <p class="tag tag-orange card-single-tag">Family Trip</p>
+                        <p class="card-single-text duration">1 Day</p>
+                      </div>
+                      <div class="right col-md-3 col-xs-3">
+                        <p class="card-single-text">Booked</p>
+                        <p class="card-single-text">978x</p>
+                      </div>
                     </div>
                   </div>
                 </div>
-              </div>
-            </a>
-          </div>
-          <div class="col-md-12">
-            <a href="package.php">
-              <div class="panel panel-default card-single">
-                <div class="panel-body card-single-body">
-                  <img src="images/thumbnails/jagadtour-rafting-songa.jpg" width="1035" height="642" alt="" class="img-responsive">
-                  <div class="card-single-packet row">
-                    <div class="left col-md-9 col-xs-9">
-                      <p class="card-single-title">Tour Malang, Bromo, &amp; Batu</p>
-                      <p class="tag tag-blue card-single-tag">Corporate Trip</p>
-                      <p class="card-single-text duration">4 Days 3 N</p>
-                    </div>
-                    <div class="right col-md-3 col-xs-3">
-                      <p class="card-single-text">Booked</p>
-                      <p class="card-single-text">978x</p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </a>
-          </div>
-          <div class="col-md-12">
-            <a href="package.php">
-              <div class="panel panel-default card-single">
-                <div class="panel-body card-single-body">
-                  <img src="images/thumbnails/jagadtour-rafting-songa.jpg" width="1035" height="642" alt="" class="img-responsive">
-                  <div class="card-single-packet row">
-                    <div class="left col-md-9 col-xs-9">
-                      <p class="card-single-title">Tour Museum Malang</p>
-                      <p class="tag tag-blue card-single-tag">Corporate Trip</p>
-                      <p class="card-single-text duration">3 Days 2 N</p>
-                    </div>
-                    <div class="right col-md-3 col-xs-3">
-                      <p class="card-single-text">Booked</p>
-                      <p class="card-single-text">978x</p>
+              </a>
+            </div>
+            <div class="item">
+              <a href="package.php">
+                <div class="panel panel-default card-single">
+                  <div class="panel-body card-single-body">
+                    <img src="images/thumbnails/jagadtour-kota-malang.jpg" width="1035" height="642" alt="" class="img-responsive">
+                    <div class="card-single-packet row">
+                      <div class="left col-md-9 col-xs-9">
+                        <p class="card-single-title">Tour Malang, Batu &amp; Bromo</p>
+                        <p class="tag tag-orange card-single-tag">Family Trip</p>
+                        <p class="card-single-text duration">4 Days 3 N</p>
+                      </div>
+                      <div class="right col-md-3 col-xs-3">
+                        <p class="card-single-text">Booked</p>
+                        <p class="card-single-text">978x</p>
+                      </div>
                     </div>
                   </div>
                 </div>
-              </div>
-            </a>
+              </a>
+            </div>
+            <div class="item">
+              <a href="package.php">
+                <div class="panel panel-default card-single">
+                  <div class="panel-body card-single-body">
+                    <img src="images/thumbnails/jagadtour-rafting-songa.jpg" width="1035" height="642" alt="" class="img-responsive">
+                    <div class="card-single-packet row">
+                      <div class="left col-md-9 col-xs-9">
+                        <p class="card-single-title">Rafting Songa Bromo &amp; Batu</p>
+                        <p class="tag tag-blue card-single-tag">Corporate Trip</p>
+                        <p class="card-single-text duration">3 Days 2 N</p>
+                      </div>
+                      <div class="right col-md-3 col-xs-3">
+                        <p class="card-single-text">Booked</p>
+                        <p class="card-single-text">978x</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="item">
+              <a href="package.php">
+                <div class="panel panel-default card-single">
+                  <div class="panel-body card-single-body">
+                    <img src="images/thumbnails/jagadtour-rafting-songa.jpg" width="1035" height="642" alt="" class="img-responsive">
+                    <div class="card-single-packet row">
+                      <div class="left col-md-9 col-xs-9">
+                        <p class="card-single-title">Tour Malang, Bromo, &amp; Batu</p>
+                        <p class="tag tag-blue card-single-tag">Corporate Trip</p>
+                        <p class="card-single-text duration">4 Days 3 N</p>
+                      </div>
+                      <div class="right col-md-3 col-xs-3">
+                        <p class="card-single-text">Booked</p>
+                        <p class="card-single-text">978x</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="item">
+              <a href="package.php">
+                <div class="panel panel-default card-single">
+                  <div class="panel-body card-single-body">
+                    <img src="images/thumbnails/jagadtour-rafting-songa.jpg" width="1035" height="642" alt="" class="img-responsive">
+                    <div class="card-single-packet row">
+                      <div class="left col-md-9 col-xs-9">
+                        <p class="card-single-title">Tour Museum Malang</p>
+                        <p class="tag tag-blue card-single-tag">Corporate Trip</p>
+                        <p class="card-single-text duration">3 Days 2 N</p>
+                      </div>
+                      <div class="right col-md-3 col-xs-3">
+                        <p class="card-single-text">Booked</p>
+                        <p class="card-single-text">978x</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </a>
+            </div>
           </div>
-        </ul>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-xs-12">
+          <hr class="package-separator">
+        </div>
       </div>
     </div>
   </section>
 
   <!-- 2 day -->
-  <section class="content content-home-package js-content-home-package">
+  <section class="content content-home-package">
     <div class="container">
       <div class="row">
         <div class="col-xs-12">
           <h2 class="content-title">2 day</h2>
         </div>
       </div>
-      <div class="owl-carousel day-carousel owl-theme">
-          <div class="col-md-12">
-            <a href="package.php">
-              <div class="panel panel-default card-single">
-                <div class="panel-body card-single-body">
-                  <img src="images/thumbnails/jagadtour-bromo-sunrise.jpg" width="1035" height="642" alt="" class="img-responsive">
-                  <div class="card-single-packet row">
-                    <div class="left col-md-9 col-xs-9">
-                      <p class="card-single-title">Bromo Sunrise Tour</p>
-                      <p class="tag tag-orange card-single-tag">Family Trip</p>
-                      <p class="card-single-text duration">1 Day</p>
-                    </div>
-                    <div class="right col-md-3 col-xs-3">
-                      <p class="card-single-text">Booked</p>
-                      <p class="card-single-text">978x</p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </a>
-          </div>
-          <div class="col-md-12">
-            <a href="package.php">
-              <div class="panel panel-default card-single">
-                <div class="panel-body card-single-body">
-                  <img src="images/thumbnails/jagadtour-bromo-sunrise.jpg" width="1035" height="642" alt="" class="img-responsive">
-                  <div class="card-single-packet row">
-                    <div class="left col-md-9 col-xs-9">
-                      <p class="card-single-title">Bromo Sunrise Tour</p>
-                      <p class="tag tag-orange card-single-tag">Family Trip</p>
-                      <p class="card-single-text duration">1 Day</p>
-                    </div>
-                    <div class="right col-md-3 col-xs-3">
-                      <p class="card-single-text">Booked</p>
-                      <p class="card-single-text">978x</p>
+      <div class="row">
+        <div class="col-xs-12">
+          <div class="owl-carousel corporate-two js-corporate-two owl-theme">
+            <div class="item">
+              <a href="package.php">
+                <div class="panel panel-default card-single">
+                  <div class="panel-body card-single-body">
+                    <img src="images/thumbnails/jagadtour-bromo-sunrise.jpg" width="1035" height="642" alt="" class="img-responsive">
+                    <div class="card-single-packet row">
+                      <div class="left col-md-9 col-xs-9">
+                        <p class="card-single-title">Bromo Sunrise Tour</p>
+                        <p class="tag tag-orange card-single-tag">Family Trip</p>
+                        <p class="card-single-text duration">1 Day</p>
+                      </div>
+                      <div class="right col-md-3 col-xs-3">
+                        <p class="card-single-text">Booked</p>
+                        <p class="card-single-text">978x</p>
+                      </div>
                     </div>
                   </div>
                 </div>
-              </div>
-            </a>
-          </div>
-          <div class="col-md-12">
-            <a href="package.php">
-              <div class="panel panel-default card-single">
-                <div class="panel-body card-single-body">
-                  <img src="images/thumbnails/jagadtour-kota-malang.jpg" width="1035" height="642" alt="" class="img-responsive">
-                  <div class="card-single-packet row">
-                    <div class="left col-md-9 col-xs-9">
-                      <p class="card-single-title">Tour Malang, Batu &amp; Bromo</p>
-                      <p class="tag tag-orange card-single-tag">Family Trip</p>
-                      <p class="card-single-text duration">4 Days 3 N</p>
-                    </div>
-                    <div class="right col-md-3 col-xs-3">
-                      <p class="card-single-text">Booked</p>
-                      <p class="card-single-text">978x</p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </a>
-          </div>
-          <div class="col-md-12">
-            <a href="package.php">
-              <div class="panel panel-default card-single">
-                <div class="panel-body card-single-body">
-                  <img src="images/thumbnails/jagadtour-rafting-songa.jpg" width="1035" height="642" alt="" class="img-responsive">
-                  <div class="card-single-packet row">
-                    <div class="left col-md-9 col-xs-9">
-                      <p class="card-single-title">Rafting Songa Bromo &amp; Batu</p>
-                      <p class="tag tag-blue card-single-tag">Corporate Trip</p>
-                      <p class="card-single-text duration">3 Days 2 N</p>
-                    </div>
-                    <div class="right col-md-3 col-xs-3">
-                      <p class="card-single-text">Booked</p>
-                      <p class="card-single-text">978x</p>
+              </a>
+            </div>
+            <div class="item">
+              <a href="package.php">
+                <div class="panel panel-default card-single">
+                  <div class="panel-body card-single-body">
+                    <img src="images/thumbnails/jagadtour-bromo-sunrise.jpg" width="1035" height="642" alt="" class="img-responsive">
+                    <div class="card-single-packet row">
+                      <div class="left col-md-9 col-xs-9">
+                        <p class="card-single-title">Bromo Sunrise Tour</p>
+                        <p class="tag tag-orange card-single-tag">Family Trip</p>
+                        <p class="card-single-text duration">1 Day</p>
+                      </div>
+                      <div class="right col-md-3 col-xs-3">
+                        <p class="card-single-text">Booked</p>
+                        <p class="card-single-text">978x</p>
+                      </div>
                     </div>
                   </div>
                 </div>
-              </div>
-            </a>
-          </div>
-          <div class="col-md-12">
-            <a href="package.php">
-              <div class="panel panel-default card-single">
-                <div class="panel-body card-single-body">
-                  <img src="images/thumbnails/jagadtour-rafting-songa.jpg" width="1035" height="642" alt="" class="img-responsive">
-                  <div class="card-single-packet row">
-                    <div class="left col-md-9 col-xs-9">
-                      <p class="card-single-title">Tour Malang, Bromo, &amp; Batu</p>
-                      <p class="tag tag-blue card-single-tag">Corporate Trip</p>
-                      <p class="card-single-text duration">4 Days 3 N</p>
-                    </div>
-                    <div class="right col-md-3 col-xs-3">
-                      <p class="card-single-text">Booked</p>
-                      <p class="card-single-text">978x</p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </a>
-          </div>
-          <div class="col-md-12">
-            <a href="package.php">
-              <div class="panel panel-default card-single">
-                <div class="panel-body card-single-body">
-                  <img src="images/thumbnails/jagadtour-rafting-songa.jpg" width="1035" height="642" alt="" class="img-responsive">
-                  <div class="card-single-packet row">
-                    <div class="left col-md-9 col-xs-9">
-                      <p class="card-single-title">Tour Museum Malang</p>
-                      <p class="tag tag-blue card-single-tag">Corporate Trip</p>
-                      <p class="card-single-text duration">3 Days 2 N</p>
-                    </div>
-                    <div class="right col-md-3 col-xs-3">
-                      <p class="card-single-text">Booked</p>
-                      <p class="card-single-text">978x</p>
+              </a>
+            </div>
+            <div class="item">
+              <a href="package.php">
+                <div class="panel panel-default card-single">
+                  <div class="panel-body card-single-body">
+                    <img src="images/thumbnails/jagadtour-kota-malang.jpg" width="1035" height="642" alt="" class="img-responsive">
+                    <div class="card-single-packet row">
+                      <div class="left col-md-9 col-xs-9">
+                        <p class="card-single-title">Tour Malang, Batu &amp; Bromo</p>
+                        <p class="tag tag-orange card-single-tag">Family Trip</p>
+                        <p class="card-single-text duration">4 Days 3 N</p>
+                      </div>
+                      <div class="right col-md-3 col-xs-3">
+                        <p class="card-single-text">Booked</p>
+                        <p class="card-single-text">978x</p>
+                      </div>
                     </div>
                   </div>
                 </div>
-              </div>
-            </a>
+              </a>
+            </div>
+            <div class="item">
+              <a href="package.php">
+                <div class="panel panel-default card-single">
+                  <div class="panel-body card-single-body">
+                    <img src="images/thumbnails/jagadtour-rafting-songa.jpg" width="1035" height="642" alt="" class="img-responsive">
+                    <div class="card-single-packet row">
+                      <div class="left col-md-9 col-xs-9">
+                        <p class="card-single-title">Rafting Songa Bromo &amp; Batu</p>
+                        <p class="tag tag-blue card-single-tag">Corporate Trip</p>
+                        <p class="card-single-text duration">3 Days 2 N</p>
+                      </div>
+                      <div class="right col-md-3 col-xs-3">
+                        <p class="card-single-text">Booked</p>
+                        <p class="card-single-text">978x</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="item">
+              <a href="package.php">
+                <div class="panel panel-default card-single">
+                  <div class="panel-body card-single-body">
+                    <img src="images/thumbnails/jagadtour-rafting-songa.jpg" width="1035" height="642" alt="" class="img-responsive">
+                    <div class="card-single-packet row">
+                      <div class="left col-md-9 col-xs-9">
+                        <p class="card-single-title">Tour Malang, Bromo, &amp; Batu</p>
+                        <p class="tag tag-blue card-single-tag">Corporate Trip</p>
+                        <p class="card-single-text duration">4 Days 3 N</p>
+                      </div>
+                      <div class="right col-md-3 col-xs-3">
+                        <p class="card-single-text">Booked</p>
+                        <p class="card-single-text">978x</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="item">
+              <a href="package.php">
+                <div class="panel panel-default card-single">
+                  <div class="panel-body card-single-body">
+                    <img src="images/thumbnails/jagadtour-rafting-songa.jpg" width="1035" height="642" alt="" class="img-responsive">
+                    <div class="card-single-packet row">
+                      <div class="left col-md-9 col-xs-9">
+                        <p class="card-single-title">Tour Museum Malang</p>
+                        <p class="tag tag-blue card-single-tag">Corporate Trip</p>
+                        <p class="card-single-text duration">3 Days 2 N</p>
+                      </div>
+                      <div class="right col-md-3 col-xs-3">
+                        <p class="card-single-text">Booked</p>
+                        <p class="card-single-text">978x</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </a>
+            </div>
           </div>
-        </ul>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-xs-12">
+          <hr class="package-separator">
+        </div>
       </div>
     </div>
   </section>
 
   <!-- Testimonial -->
-  <section class="content content-testi content-testi-home">
+  <section class="content content-testi content-testi-home content-test-corporate">
     <div class="container">
       <div class="row">
         <div class="col-md-6">
@@ -409,7 +423,7 @@
                 </div>
               </div>
             </div>
-          </div>    
+          </div>
           <a href="gallery-testi.php" style="text-decoration: none;">
             <p class="media-content-testi-link">Baca Lainnya</p>
           </a>
@@ -692,281 +706,67 @@
   <script type="text/javascript" src="vendor/jquery.3.2.1/jquery.3.2.1.min.js"></script>
   <script type="text/javascript" src="vendor/bootstrap.3.3.7/js/bootstrap.min.js"></script>
   <script type="text/javascript" src="vendor/owl-carousel.2.3.4/owl.carousel.min.js"></script>
-  <script type="text/javascript" src="vendor/progressbar.js/dist/progressbar.js"></script>
+
   <script type="text/javascript">
-    $('.js-hero-slider').owlCarousel({
-      dots: false,
-      items: 1,
+    $('.js-corporate-one').owlCarousel({
       loop: true,
-      autoplay: true,
-      animateOut: 'fadeOut',
-      smartSpeed: 450
-    });
-
-  </script>
-  <script type="text/javascript">
-    $('.day-carousel').owlCarousel({
-        loop:true,
-        nav:true,
-        dots: false,
-        items:4,
-        responsive:{
-          0:{
-              items:1
-          },
-          479:{
-              items:1
-          },
-          639:{
-              items:2
-          },
-          767:{
-              items:2
-          },
-          1199:{
-              items:3
-          },
-          1200:{
-              items:4
-          }
-        }
-    })
-  </script>
-  
-  <!-- Progress Bar -->
-  <script type="text/javascript">
-    var barTrust = new ProgressBar.Line(terpercaya, {
-      strokeWidth: 4,
-      easing: 'easeInOut',
-      duration: 1400,
-      color: '#FF681F',
-      trailColor: 'white',
-      trailWidth: 1,
-      svgStyle: {
-        width: '100%',
-        height: '100%',
-        borderRadius: '10px'
-      },
-      text: {
-        style: {
-          // Text color.
-          // Default: same as stroke color (options.color)
-          color: 'black',
-          position: 'absolute',
-          fontFamily: '"DINNextLTPro-Regular", Fallback, sans-serif',
-          fontSize: '13px',
-          right: '0',
-          padding: 0,
-          margin: 0,
-          transform: null
-        },
-        autoStyleContainer: false
-      },
-      from: {
-        color: '#FFEA82'
-      },
-      to: {
-        color: '#ED6A5A'
-      },
-      step: (state, bar) => {
-        bar.setText(Math.round(bar.value() * 100) + ' %');
-      }
-    });
-    // Number from 0.0 to 1.0
-
-    var barSolid = new ProgressBar.Line(solid, {
-      strokeWidth: 4,
-      easing: 'easeInOut',
-      duration: 1400,
-      color: '#FF681F',
-      trailColor: 'white',
-      trailWidth: 1,
-      svgStyle: {
-        width: '100%',
-        height: '100%',
-        borderRadius: '10px'
-      },
-      text: {
-        style: {
-          // Text color.
-          // Default: same as stroke color (options.color)
-          color: 'black',
-          fontFamily: '"DINNextLTPro-Regular", Fallback, sans-serif',
-          fontSize: '13px',
-          position: 'absolute',
-          right: '0',
-          padding: 0,
-          margin: 0,
-          transform: null
-        },
-        autoStyleContainer: false
-      },
-      from: {
-        color: '#FFEA82'
-      },
-      to: {
-        color: '#ED6A5A'
-      },
-      step: (state, bar) => {
-        bar.setText(Math.round(bar.value() * 100) + ' %');
-      }
-    });
-    // Number from 0.0 to 1.0
-
-    var barService = new ProgressBar.Line(service, {
-      strokeWidth: 4,
-      easing: 'easeInOut',
-      duration: 1400,
-      color: '#FF681F',
-      trailColor: 'white',
-      trailWidth: 1,
-      svgStyle: {
-        width: '100%',
-        height: '100%',
-        borderRadius: '10px'
-      },
-      text: {
-        style: {
-          // Text color.
-          // Default: same as stroke color (options.color)
-          color: 'black',
-          fontFamily: '"DINNextLTPro-Regular", Fallback, sans-serif',
-          fontSize: '13px',
-          position: 'absolute',
-          right: '0',
-          padding: 0,
-          margin: 0,
-          transform: null
-        },
-        autoStyleContainer: false
-      },
-      from: {
-        color: '#FFEA82'
-      },
-      to: {
-        color: '#ED6A5A'
-      },
-      step: (state, bar) => {
-        bar.setText(Math.round(bar.value() * 100) + ' %');
-      }
-    });
-    // Number from 0.0 to 1.0
-
-    var barDone = new ProgressBar.Line(done, {
-      strokeWidth: 4,
-      easing: 'easeInOut',
-      duration: 1400,
-      color: '#FF681F',
-      trailColor: 'white',
-      trailWidth: 1,
-      svgStyle: {
-        width: '100%',
-        height: '100%',
-        borderRadius: '10px'
-      },
-      text: {
-        style: {
-          // Text color.
-          // Default: same as stroke color (options.color)
-          color: 'black',
-          fontFamily: '"DINNextLTPro-Regular", Fallback, sans-serif',
-          fontSize: '13px',
-          position: 'absolute',
-          right: '0',
-          padding: 0,
-          margin: 0,
-          transform: null
-        },
-        autoStyleContainer: false
-      },
-      from: {
-        color: '#FFEA82'
-      },
-      to: {
-        color: '#ED6A5A'
-      },
-      step: (state, bar) => {
-        bar.setText(Math.round(bar.value() * 100) + ' %');
-      }
-    });
-    // Number from 0.0 to 1.0
-
-
-    var barPengalaman = new ProgressBar.Line(pengalaman, {
-      strokeWidth: 4,
-      easing: 'easeInOut',
-      duration: 1400,
-      color: '#FF681F',
-      trailColor: 'white',
-      trailWidth: 1,
-      svgStyle: {
-        width: '100%',
-        height: '100%',
-        borderRadius: '10px'
-      },
-      text: {
-        style: {
-          // Text color.
-          // Default: same as stroke color (options.color)
-          color: 'black',
-          fontFamily: '"DINNextLTPro-Regular", Fallback, sans-serif',
-          fontSize: '13px',
-          position: 'absolute',
-          right: '0',
-          padding: 0,
-          margin: 0,
-          transform: null
-        },
-        autoStyleContainer: false
-      },
-      from: {
-        color: '#FFEA82'
-      },
-      to: {
-        color: '#ED6A5A'
-      },
-      step: (state, bar) => {
-        bar.setText(Math.round(bar.value() * 100) + ' %');
-      }
-    });
-
-
-    $(window).scroll(function() {
-      if (document.getElementById("progressBar")) {
-        barTrust.animate(1.0);
-        barService.animate(0.98);
-        barDone.animate(0.97);
-        barPengalaman.animate(0.98);
-        barSolid.animate(0.97);
-      }
-    });
-
-  </script>
-
-  <script type="text/javascript">
-    $('.js-home-trip-slider').owlCarousel({
-      dots: true,
-      margin: 30,
+      nav: true,
+      navText: ['<i class="jgicon icon-chevron-left"></i>', '<i class="jgicon icon-arrow-right"></i>'],
+      dots: false,
+      margin: 15,
       responsive: {
-        240: {
+        0: {
           items: 1
         },
-        480: {
+        479: {
+          items: 1
+        },
+        639: {
           items: 2
         },
-        768: {
-          items: 3
+        767: {
+          items: 2
         },
-        992: {
-          items: 4
+        1199: {
+          items: 3
         }
       }
-    });
+    })
 
   </script>
+
+  <script type="text/javascript">
+    $('.js-corporate-two').owlCarousel({
+      loop: true,
+      nav: true,
+      navText: ['<i class="jgicon icon-chevron-left"></i>', '<i class="jgicon icon-arrow-right"></i>'],
+      dots: false,
+      margin: 15,
+      responsive: {
+        0: {
+          items: 1
+        },
+        479: {
+          items: 1
+        },
+        639: {
+          items: 2
+        },
+        767: {
+          items: 2
+        },
+        1199: {
+          items: 3
+        }
+      }
+    })
+
+  </script>
+
   <script type="text/javascript">
     $('.js-content-testi-slider').owlCarousel({
       nav: true,
+      navText: ['<i class="jgicon icon-chevron-left"></i>', '<i class="jgicon icon-arrow-right"></i>'],
       dots: false,
       loop: true,
       slideBy: 2,
@@ -991,6 +791,7 @@
   <script type="text/javascript">
     $('.js-content-client-slider').owlCarousel({
       nav: true,
+      navText: ['<i class="jgicon icon-chevron-left"></i>', '<i class="jgicon icon-arrow-right"></i>'],
       dots: false,
       loop: true,
       margin: 35,
@@ -1075,31 +876,6 @@
 
   </script>
 
-  <!-- Photo Gallery Footer -->
-  <script type="text/javascript">
-    var token = '1960439865.0ee328f.2d7986f0984f4c4f80b1390ff871fe69',
-      num_photos = 20;
-
-    $.ajax({
-      url: 'https://api.instagram.com/v1/users/self/media/recent',
-      dataType: 'jsonp',
-      type: 'GET',
-      data: {
-        access_token: token,
-        count: num_photos
-      },
-      success: function(data) {
-        console.log(data);
-        for (x in data.data) {
-          $('.js-photo-slider').owlCarousel('add', '<div class="photo-slider-item"><img src="' + data.data[x].images.low_resolution.url + '" width="452" height="490" alt="Jagadtour Photo Instagram"></div>').owlCarousel('update');
-        }
-      },
-      error: function(data) {
-        console.log(data);
-      }
-    });
-
-  </script>
 </body>
 
 </html>

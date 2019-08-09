@@ -94,7 +94,7 @@
   <section class="content content-packdetail font-dinnex">
     <div class="container">
       <div class="row">
-        <div class="col-md-8 packdetail-left">
+        <div class="col-md-8">
           <h2 class="content-title">Checkout</h2>
 			<hr>
 			<div class="checkour-form">
@@ -177,7 +177,7 @@
 			<div class="panel panel-default">
 				<div class="panel-body">
 					<div class="row">
-						<div class="col-xs-6 col-md-7 mry-1">
+						<div class="col-xs-6 col-md-7 mry-05">
 							<p class="title"><strong>New York: Museum of Modern Art</strong></p>
 							<p class="text-muted">Bromo, Lumajang</p>
 						</div>

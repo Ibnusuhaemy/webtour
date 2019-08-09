@@ -3301,9 +3301,33 @@ p {
   }
 
   /* - Content - */
+  .packdetail-info .media-body p {
+    font-size: 14px;
+  }
+
   /* Destination */
+  .content-packdetail .packdetail-destination {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
   .packdetail-destination-slider .destination-slider-image {
     max-width: none;
+  }
+
+  .packdetail-itinerary .packdetail-itinerary-detail .media-left {
+    display: block;
+    margin-bottom: 12px;
+  }
+
+  .packdetail-itinerary .packdetail-itinerary-detail a {
+    width: auto;
+    height: auto;
+  }
+
+  .packdetail-itinerary-detail .media-body {
+    padding-left: 0;
+    padding-right: 0;
   }
 
   /*
@@ -3909,6 +3933,7 @@ p {
     padding-right: 0;
   }
   */
+
   .packdetail-destination-slider .destination-slider-image img {
     width: 100%;
     height: auto;
@@ -4214,6 +4239,13 @@ p {
 
   .header-home .header-info .text-right {
     top: 15px;
+  }
+
+  /* --- ## Package ## --- */
+  .packdetail-destination-slider .owl-nav [class*='owl-'],
+  .packdetail-destination-slider .owl-nav button.owl-next,
+  .packdetail-destination-slider .owl-nav button.owl-prev {
+    top: -40px;
   }
 
   /* --- ## Gallery ## --- */

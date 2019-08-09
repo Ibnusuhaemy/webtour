@@ -1044,6 +1044,7 @@
       dots: false,
       loop: true,
       slideBy: 2,
+      navText: ['<i class="jgicon icon-chevron-left"></i>', '<i class="jgicon icon-arrow-right"></i>'],
       responsive: {
         0: {
           items: 1
@@ -1069,6 +1070,7 @@
       loop: true,
       margin: 35,
       slideBy: 2,
+      navText: ['<i class="jgicon icon-chevron-left"></i>', '<i class="jgicon icon-arrow-right"></i>'],
       responsive: {
         0: {
           items: 1

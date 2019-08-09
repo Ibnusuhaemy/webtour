@@ -757,7 +757,7 @@
               Kodepos : 65148
             </p>
             <p class="contact-content">Find Us</p>
-            <p class="contact-content">
+            <p class="contact-content socmed-list">
               <a class="contact-content-sm" href="#"><i class="fa fa-instagram"></i></a>
               <a class="contact-content-sm" href="#"><i class="fa fa-facebook-square"></i></a>
               <a class="contact-content-sm" href="#"><i class="fa fa-twitter-square"></i></a>
@@ -779,10 +779,10 @@
     <div class="footer-copyright">
       <div class="container">
         <div class="row">
-          <div class="col-md-6 copyright-left">
+          <div class="col-sm-6 copyright-left">
             <p>Copyright © 2019 Jagad Tour | All right reserved.</p>
           </div>
-          <div class="col-md-6 copyright-right">
+          <div class="col-sm-6 copyright-right">
             <p>Website designed &amp; developed by Illiyin Studio</p>
           </div>
         </div>

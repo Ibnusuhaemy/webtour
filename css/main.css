@@ -2648,8 +2648,16 @@ p {
   line-height: 25px;
 }
 
+.footer-menu-contact .socmed-list {
+  margin-bottom: 10px;
+}
+
 .contact-content .contact-content-sm {
   margin-right: 15px;
+}
+
+.footer-menu-contact .payment-list {
+  margin-bottom: 10px;
 }
 
 .payment-list a {

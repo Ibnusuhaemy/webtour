@@ -97,6 +97,7 @@ h5,
 h6 {
   margin: 0;
   line-height: normal;
+  font-family: "DINNextLTPro-Medium", Fallback, sans-serif;
 }
 
 /* - Paragraph - */
@@ -420,11 +421,13 @@ p {
 /* - Owl Carousel - */
 .owl-carousel .owl-nav {
   text-align: right;
+  margin-top: 0;
+  margin-bottom: 10px;
 }
 
 .owl-carousel .owl-nav button.owl-next,
 .owl-carousel .owl-nav button.owl-prev {
-  font-size: 30px;
+  /*  font-size: 30px;*/
   line-height: normal;
 }
 
@@ -599,6 +602,7 @@ p {
 
 .content p {
   font-size: 16px;
+  font-family: "DINNextLTPro-Regular", Fallback, sans-serif;
 }
 
 /* - Cards - */
@@ -1376,13 +1380,43 @@ p {
   padding-bottom: 50px;
 }
 
+.content-packdetail .packdetail-contents {
+  padding-bottom: 15px;
+  margin-bottom: 50px;
+  border-bottom: 1px solid #dadada;
+}
+
+.content-packdetail .packdetail-contents:last-child {
+  padding-bottom: 0;
+  margin-bottom: 0;
+  border-bottom: none;
+}
+
 .content-packdetail .content-packdetail-panel {
-  margin-bottom: 30px;
+  /*  margin-bottom: 30px;*/
 }
 
 .content-packdetail .content-title {
   text-align: left;
-  margin-bottom: 24px;
+  margin-bottom: 15px;
+}
+
+.content-packdetail .title-package {
+  border-bottom: 1px solid #dadada;
+  padding-bottom: 15px;
+  margin-bottom: 30px;
+}
+
+.packdetail-info {
+  margin-bottom: 30px;
+}
+
+.packdetail-info .media-heading {
+  margin-bottom: 0;
+}
+
+.packdetail-info .media a {
+  font-size: 30px;
 }
 
 .packdetail-destination .panel-complete-content {
@@ -1391,8 +1425,6 @@ p {
 
 .packdetail-destination .packdetail-destination-slider {
   position: relative;
-  padding-left: 13px;
-  padding-right: 13px;
 }
 
 .packdetail-destination-slide .owl-nav {
@@ -1415,30 +1447,29 @@ p {
   border-radius: 100%;
   background-color: #fff;
   position: absolute;
-  top: 70px;
-  bottom: auto;
+  top: 0;
+  bottom: 0;
   margin: auto;
 }
 
 .packdetail-destination-slider .owl-nav button.owl-next {
-  right: 0;
+  right: -20px;
 }
 
 .packdetail-destination-slider .owl-nav button.owl-prev {
-  left: 0;
+  left: -20px;
 }
 
 .packdetail-destination-slider .destination-slider-image {
   margin-bottom: 16px;
   overflow: hidden;
-  max-width: 215px;
-  max-height: 178px;
   border-radius: 6px;
+  max-height: 500px;
 }
 
-.destination-slider-image img {
+.packdetail-destination-slider .destination-slider-image img {
   width: auto;
-  height: auto;
+  min-height: 500px;
 }
 
 .packdetail-destination-slider .destination-slider-caption {
@@ -1450,86 +1481,76 @@ p {
 }
 
 /* - Itinerary - */
+.content-packdetail .packdetail-itinerary {
+  margin-bottom: 10px;
+}
+
 .packdetail-itinerary .panel-complete-content {
   padding-top: 28px;
   padding-bottom: 28px;
 }
 
-.packdetail-itinerary .packdetail-itinerary-list {
-  margin-bottom: 20px;
-  border-bottom: 1px solid #e5e5e5;
-}
-
-.packdetail-itinerary .packdetail-itinerary-list img {
+.packdetail-itinerary .packdetail-itinerary-detail .media-left {
   margin-bottom: 48px;
-  display: inline-block;
 }
 
-.packdetail-itinerary .jgicon {
-  width: 34px;
-  height: 34px;
-  padding: 6px 0;
-  background-color: rgba(255, 104, 31, 0.1);
-  color: #ff681f;
-  text-align: center;
-  border-radius: 100%;
-  font-size: 14px;
-  margin-bottom: 16px;
-}
-
-.packdetail-itinerary time {
-  font-family: "DINNextLTPro-Bold", Fallback, sans-serif;
-  font-weight: bold;
-  font-size: 15px;
-  color: #4b4b4b;
+.packdetail-itinerary .packdetail-itinerary-detail a {
+  width: 300px;
+  height: 150px;
+  overflow: hidden;
   display: block;
-  margin-bottom: 24px;
+  border-radius: 6px;
 }
 
-.packdetail-itinerary .itinerary-list-item {
-  width: calc(100% / 4);
-  margin-right: -3px;
-  vertical-align: top;
-  padding-left: 20px;
-  padding-right: 20px;
-  margin-bottom: 50px;
+.packdetail-itinerary .packdetail-itinerary-detail .media-object {
+  width: 100%;
+  height: auto;
 }
 
-.packdetail-itinerary-info {
-  max-width: 485px;
-  margin: 0 auto;
+.packdetail-itinerary-detail .media-body {
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
-.packdetail-itinerary-info li {
-  text-align: center;
-  font-style: italic;
+.packdetail-itinerary-detail .media-body p {
+  font-family: "DINNextLTPro-Regular", Fallback, sans-serif;
   font-size: 14px;
   line-height: 22px;
 }
 
-.packdetail-itinerary-info li p {
-  font-size: 14px;
-}
-
 /* - Facility - */
-.packdetail-facility .card-complete-content {
-  padding: 24px;
+.packdetail-facility .facility-list::after {
+  display: block;
+  content: "";
+  clear: both;
 }
 
-.packdetail-facility .packdetail-facility-item {
-  border-radius: 6px;
-  border: 1px solid #e5e5e5;
-  padding: 20px;
-}
-
-.packdetail-facility-item .facility-item-icon {
-  margin-bottom: 24px;
-}
-
-.facility-item-icon .facility-icon {
+.packdetail-facility .facility-list .facility-item {
+  font-family: "DINNextLTPro-Regular", Fallback, sans-serif;
+  font-size: 18px;
+  line-height: normal;
   width: 50%;
-  display: inline-block;
-  margin-left: -3px;
+  float: left;
+  display: block;
+}
+
+.packdetail-facility .facility-list .facility-item-icon {
+  margin-right: 5px;
+}
+
+.packdetail-facility .facility-list .facility-item-icon-in {
+  color: #44b24f;
+}
+
+.packdetail-facility .facility-list .facility-item-icon-ex {
+  color: #e74c3c;
+}
+
+/* - FAQ - */
+.packdetail-contents .packdetail-faq-title {
+  margin-bottom: 10px;
+  font-family: "DINNextLTPro-Medium", Fallback, sans-serif;
+  font-size: 18px;
 }
 
 /* - Price - */
@@ -1554,11 +1575,12 @@ p {
 }
 
 .packdetail-price-form .form-control {
-  margin-bottom: 16px;
+  margin-bottom: 10px;
 }
 
 .packdetail-price-form .help-block {
   font-style: italic;
+  padding-bottom: 10px;
 }
 
 .packdetail-price-form .radio-list {
@@ -1568,8 +1590,14 @@ p {
 .packdetail-price-form .radio-list li {
   padding-left: 8px;
   padding-right: 8px;
+  display: block;
 }
 
+.packdetail-price-form .radio-list .radio {
+  margin-top: 0;
+}
+
+/*
 .packdetail-price-form .price-form-block {
   background-color: #f9f9f9;
   padding: 24px;
@@ -1596,19 +1624,26 @@ p {
 .price-form-block .form-block-right {
   text-align: right;
 }
+*/
 
 .packdetail-price-form .btn {
   padding: 16px 25px;
+  width: 100%;
 }
 
 .packdetail-price-form .price-form-socmed {
-  padding: 16px 0;
-  margin-bottom: 0;
-  text-align: right;
+  margin-top: 16px;
+  margin-bottom: 16px;
+  text-align: left;
 }
 
-.price-form-socmed .price-socmed-caption {
+.packdetail-price-form .price-form-socmed ul li {
+  padding-right: 0;
+}
+
+.packdetail-price-form .price-socmed-caption {
   text-decoration: underline;
+  margin-bottom: 5px;
 }
 
 .price-form-socmed .icon-facebook {
@@ -1627,9 +1662,18 @@ p {
   color: #4b4b4b;
 }
 
-/* - Right Content - */
+/* - Package Related Content - */
+.content-packdetail .package-separator {
+  border-top: 1px solid #dadada;
+  margin-bottom: 30px;
+}
+
+.content-packdetail .related-package-slider .owl-nav {
+  margin-top: 15px;
+}
+
 .packdetail-packother .card-single {
-  margin-bottom: 32px;
+  margin-bottom: 0;
 }
 
 .packdetail-packother .card-single .card-single-caption {
@@ -2717,16 +2761,12 @@ p {
 
   /* - Content - */
   /* Destination */
+  /*
   .packdetail-destination-slider .destination-slider-image {
     max-width: 265px;
     max-height: 212px;
   }
-
-  /* Testimonials */
-  .content-packdetail .content-testi-slider .item {
-    padding-right: 1px;
-    padding-left: 1px;
-  }
+  */
 
   /* Right Content */
   .packother-form .control-label {
@@ -2735,6 +2775,10 @@ p {
 
   .packother-form .btn {
     width: 100%;
+  }
+
+  .packdetail-contents .packdetail-info .media {
+    margin-bottom: 10px;
   }
 
   /* --- ## Contact ## --- */
@@ -2871,18 +2915,22 @@ p {
     padding: 12px;
   }
 
+  /*
   .packdetail-destination-slider .destination-slider-image {
     max-width: 319px;
     max-height: 246px;
   }
+  */
 
   /* - Content - */
   /* Destinasi */
+  /*
   .packdetail-destination-slider .owl-nav [class*='owl-'],
   .packdetail-destination-slider .owl-nav button.owl-next,
   .packdetail-destination-slider .owl-nav button.owl-prev {
     top: 100px;
   }
+  */
 
 
   /* --- ## Contact ## --- */
@@ -3253,17 +3301,46 @@ p {
   }
 
   /* - Content - */
-  /* Destination */
-  .packdetail-destination-slider .destination-slider-image {
-    max-width: none;
-    max-height: none;
+  .packdetail-info .media-body p {
+    font-size: 14px;
   }
 
+  /* Destination */
+  .content-packdetail .packdetail-destination {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .packdetail-destination-slider .destination-slider-image {
+    max-width: none;
+  }
+
+  .packdetail-itinerary .packdetail-itinerary-detail .media-left {
+    display: block;
+    margin-bottom: 12px;
+  }
+
+  .packdetail-itinerary .packdetail-itinerary-detail a {
+    width: auto;
+    height: auto;
+  }
+
+  .packdetail-itinerary-detail .media-body {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  /*
+  .packdetail-destination-slider .destination-slider-image img {
+    min-height: inherit;
+  }
+  
   .packdetail-destination-slider .owl-nav [class*='owl-'],
   .packdetail-destination-slider .owl-nav button.owl-next,
   .packdetail-destination-slider .owl-nav button.owl-prev {
     top: 40%;
   }
+  */
 
   /* Itinerary */
   .packdetail-itinerary .btn {
@@ -3850,9 +3927,22 @@ p {
   }
 
   /* - Content - */
+  /*
   .content-packdetail .packdetail-left {
     padding-left: 0;
     padding-right: 0;
+  }
+  */
+
+  .packdetail-destination-slider .destination-slider-image img {
+    width: 100%;
+    height: auto;
+  }
+
+  .packdetail-destination-slider .owl-nav [class*='owl-'],
+  .packdetail-destination-slider .owl-nav button.owl-next,
+  .packdetail-destination-slider .owl-nav button.owl-prev {
+    top: -20px;
   }
 
   .content-packdetail .content-title {
@@ -3869,8 +3959,12 @@ p {
   }
 
   .packdetail-destination-slider .destination-slider-image {
-    max-width: 180px;
+    /* max-width: 180px; */
     max-height: 155px;
+  }
+
+  .packdetail-destination-slider .destination-slider-image img {
+    min-height: inherit;
   }
 
   .price-form-block .jgicon {
@@ -4145,6 +4239,13 @@ p {
 
   .header-home .header-info .text-right {
     top: 15px;
+  }
+
+  /* --- ## Package ## --- */
+  .packdetail-destination-slider .owl-nav [class*='owl-'],
+  .packdetail-destination-slider .owl-nav button.owl-next,
+  .packdetail-destination-slider .owl-nav button.owl-prev {
+    top: -40px;
   }
 
   /* --- ## Gallery ## --- */

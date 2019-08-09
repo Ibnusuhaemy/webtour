@@ -25,7 +25,7 @@
 
   <link rel="stylesheet" type="text/css" href="vendor/angle-vladov-mobile-slider/jquery.mobile-slider.min.css">
   <link rel="stylesheet" type="text/css" href="vendor/lightbox/dist/ekko-lightbox.css">
-  <link rel="stylesheet" type="text/css" href="css/main.css?v12">
+  <link rel="stylesheet" type="text/css" href="css/main.css?v=15">
 </head>
 
 <body>

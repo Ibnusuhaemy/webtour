@@ -360,7 +360,7 @@
                 <p class="packdetail-price-subtitle">Harga belum termasuk periode High Sesion Idul Fitri, Natal &amp; Tahun Baru</p>
                 -->
 
-                <form class="packdetail-price-form" action="package.php" method="post">
+                <form class="packdetail-price-form" action="checkout.php" method="post">
                   <div id="printDiv">
 
                     <div class="form-group">

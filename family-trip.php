@@ -71,8 +71,8 @@
             <div class="collapse navbar-collapse menu-box-collapse" id="bs-example-navbar-collapse-1">
               <ul class="nav navbar-nav menu-box-item">
                 <li><a href="index.php">Home<span class="sr-only">(current)</span></a></li>
-                <li><a href="family-trip.php">Family Trip</a></li>
-                <li class="active"><a href="corporate-trip.php">Corporate</a></li>
+                <li class="active"><a href="family-trip.php">Family Trip</a></li>
+                <li><a href="corporate-trip.php">Corporate</a></li>
                 <li><a href="#">Custom Trip</a></li>
                 <li><a href="gallery-testi.php">Gallery &amp; Testimoni</a></li>
                 <li><a href="blog.php">Blog</a></li>
@@ -86,7 +86,18 @@
   </header>
 
   <!-- Content Warp -->
-  <div class="warper">
+  <div class="warper"></div>
+
+  <div class="mobile-cta-other mobile-menu-cta">
+    <div class="panel panel-default menu-cta-panel js-menu-cta-other animated">
+      <div class="panel-body">
+        <ul class="list-inline menu-cta-list">
+          <li class="menu-cta-item"><a href="tel:+62878889992"><img class="img-responsive" src="images/icons/jagadtour-whatsapp.png" width="124" height="126" alt=""></a></li>
+          <li class="menu-cta-item"><a href="mailto:halo@jagadtour.com"><span class="fa fa-envelope-o"></span></a></li>
+          <li class="menu-cta-item"><a href="tel:+62878889992"><span class="fa fa-phone"></span></a></li>
+        </ul>
+      </div>
+    </div>
   </div>
 
   <!-- 1 day -->
@@ -814,61 +825,15 @@
     });
 
   </script>
-  <script type="text/javascript">
-    $('.js-photo-slider').owlCarousel({
-      loop: true,
-      dots: false,
-      responsive: {
-        240: {
-          slideBy: 6,
-          items: 2
-        },
-        640: {
-          slideBy: 3,
-          items: 3
-        },
-        992: {
-          items: 6,
-          slideBy: 5,
-          autoplay: true,
-          animateOut: 'fadeOut',
-          smartSpeed: 450
-        },
-        1200: {
-          items: 6,
-          slideBy: 5,
-          autoplay: true,
-          animateOut: 'fadeOut',
-          smartSpeed: 450
-        }
-      }
-    });
-
-  </script>
-
-  <script type="application/javascript" src="vendor/angle-vladov-mobile-slider/jquery.mobile-slider.min.js"></script>
-  <script type="application/javascript">
-    $(document).ready(function($) {
-      $('.js-home-package-slider').mobileSlider({
-        sliderWhen: 767,
-        itemWidth: "85%",
-        startAt: 2
-      });
-    });
-
-  </script>
 
   <script type="text/javascript" src="vendor/scrolltofixed.1.0.8/jquery-scrolltofixed-min.js"></script>
   <script type="text/javascript">
     $(document).ready(function() {
-      $('.js-menu-cta-panel').scrollToFixed({
-        postFixed: function() {
-          $(".menu-cta-title").css('display', 'block');
-        },
+      $('.js-menu-cta-other').scrollToFixed({
+        bottom: 0,
         preFixed: function() {
           $('.menu-cta-panel').addClass('mobile-menu-fixed');
           $('.menu-cta-panel').addClass('fade-in');
-          $(".menu-cta-title").css('display', 'none');
           $(".footer-copyright").css('padding-bottom', '80px');
         }
       });

@@ -1260,8 +1260,8 @@ p {
 
 .testi-slider-item .testi-slider-media a {
   display: block;
-  width: 51px;
-  height: 51px;
+  width: 100px;
+  height: auto;
   border-radius: 100%;
 }
 
@@ -1280,6 +1280,7 @@ p {
 
 .testi-slider-media .testi-slider-city {
   font-style: italic;
+  padding-bottom: 10px;
 }
 
 .testi-slider-media .testi-slider-name {
@@ -1782,13 +1783,15 @@ p {
   margin-bottom: 60px;
 }
 
+.content-testi-list .content-testi-title {
+  margin-bottom: 25px;
+}
+
 .content-testi-list .content-testi-slider .item {
   display: inline-block;
   vertical-align: top;
   margin-right: -3px;
-  width: 33%;
-  padding-left: 15px;
-  padding-right: 15px;
+  width: 100%;
 }
 
 /* --- ## Syarat dan Ketentuan dan Kebijakan Provasi ## --- */
@@ -2715,7 +2718,20 @@ p {
 }
 
 
-/* --- Media Queries --- */
+/* --- ## Corporate Trip ## --- */
+.content-home-package .corporate-one .card-single {
+  margin-bottom: 0;
+}
+
+.content-home-package .corporate-two .card-single {
+  margin-bottom: 0;
+}
+
+.content-test-corporate {
+  padding-top: 44px;
+}
+
+/* --- ## Media Queries ## --- */
 @-ms-viewport {
   width: device-width;
 }
@@ -3230,7 +3246,7 @@ p {
 
   /* --- ## Gallery ## --- */
   .content-testi-list .content-testi-slider .item {
-    width: 50%;
+    width: 100%;
   }
 
   /* --- ## Blog Detail ## --- */
@@ -3928,6 +3944,15 @@ p {
   .testi-slider-media .testi-slider-name,
   .testi-slider-media .testi-slider-city {
     font-size: 14px;
+  }
+
+  .testi-slider-media .media-left {
+    display: inline;
+  }
+
+  .testi-slider-media .media-left a {
+    width: 100%;
+    height: auto;
   }
 
   /* --- ## Package ## ---*/

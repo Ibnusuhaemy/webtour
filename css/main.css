@@ -441,8 +441,7 @@ p {
   width: 100%;
 }
 
-.header {}
-
+/* - Top Warp - */
 .warper {
   padding-top: 20vh;
 }
@@ -946,6 +945,10 @@ p {
   padding: 16px 24px;
 }
 
+/* Mobile CTA */
+.mobile-cta-other {
+  display: none;
+}
 
 /* --- ## Homepage ## --- */
 /* - Hero  - */
@@ -1239,7 +1242,7 @@ p {
 .content-testi-slider .testi-slider-item {
   border-color: #e5e5e5;
   box-shadow: none;
-  margin-bottom: 40px;
+  margin-bottom: 30px;
 }
 
 .content-testi-home {
@@ -1779,8 +1782,14 @@ p {
   height: auto;
 }
 
+.content-gallery-list .gallery-carousel .owl-nav {
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-bottom: 0;
+}
+
 .content-testi-list {
-  margin-bottom: 60px;
+  margin-bottom: 80px;
 }
 
 .content-testi-list .content-testi-title {
@@ -1792,6 +1801,12 @@ p {
   vertical-align: top;
   margin-right: -3px;
   width: 100%;
+}
+
+.content-testi-list .content-testi-slider .owl-nav {
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-bottom: 0;
 }
 
 /* --- ## Syarat dan Ketentuan dan Kebijakan Provasi ## --- */
@@ -2407,7 +2422,7 @@ p {
 }
 
 .blog-detail-comment .blog-detail-comment-content {
-  margin-left: 14px;
+  /*  margin-left: 14px;*/
 }
 
 /* Blog Detail Comment Form */
@@ -2415,6 +2430,7 @@ p {
   margin-bottom: 35px;
 }
 
+/*
 .blog-detail-comment .blog-detail-comment-photo {
   padding-right: 24px;
 }
@@ -2427,6 +2443,7 @@ p {
   background-color: #d8d8d8;
   overflow: hidden;
 }
+*/
 
 .blog-detail-comment-content .comment-form-textarea .form-control {
   padding: 24px;
@@ -2731,6 +2748,17 @@ p {
   padding-top: 44px;
 }
 
+
+/* --- ## FAQ ## --- */
+.content-faq .content-packdetail-panel {
+  margin-bottom: 30px;
+}
+
+.content-faq .packdetail-packother {
+  margin-bottom: 30px;
+}
+
+
 /* --- ## Media Queries ## --- */
 @-ms-viewport {
   width: device-width;
@@ -2760,7 +2788,7 @@ p {
   }
 
   .warper {
-    padding-top: 24vh;
+    padding-top: 130px;
   }
 
   /* --- ## Homepage ## --- */
@@ -2802,6 +2830,10 @@ p {
     max-height: 212px;
   }
   */
+  .packdetail-itinerary .packdetail-itinerary-detail a {
+    width: 220px;
+    height: auto;
+  }
 
   /* Right Content */
   .packother-form .control-label {
@@ -3478,8 +3510,9 @@ p {
   }
 
   .listed-navigation .listed-filter {
-    width: 100%;
+    width: 80%;
     float: none;
+    z-index: 3;
   }
 
   .listed-navigation .listed-search {
@@ -3505,10 +3538,12 @@ p {
     transition: width 0.4s ease-in-out;
     background-color: #fff;
     overflow: hidden;
+    z-index: 1;
   }
 
   .listed-search .form-inline.form-show {
     width: 100%;
+    z-index: 5;
   }
 
   .listed-search .listed-search-field {
@@ -3725,6 +3760,13 @@ p {
     padding-top: 25px;
   }
 
+  /* Mobile CTA Other Page */
+  .mobile-cta-other {
+    display: block;
+    margin-top: -30px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
 
   /* --- ## Homepage ## --- */
   /* - Hero Slider - */
@@ -4074,6 +4116,7 @@ p {
 
   .member-thumbnail .member-thumbnail-image {
     max-height: 240px;
+    overflow: hidden;
   }
 
 
@@ -4201,6 +4244,7 @@ p {
     padding-bottom: 10px;
   }
 
+  /*
   .blog-detail-comment .blog-detail-comment-photo {
     padding-right: 10px;
   }
@@ -4209,12 +4253,18 @@ p {
     width: 36px;
     height: 36px;
   }
+*/
 
   .comment-list-item .blog-detail-comment-content,
   .blog-detail-comment-content .comment-list-text {
     font-size: 14px;
   }
 
+
+  /* --- ## Blog List ## --- */
+  .content-blog-list .listed-filter {
+    margin-top: 0;
+  }
 
   /* --- ## Gallery ## --- */
   .content-gallery-list {
@@ -4234,6 +4284,33 @@ p {
   .content-faq .packdetail-left {
     padding-left: 15px;
     padding-right: 15px;
+  }
+
+  .content-faq .packdetail-destination {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  /* --- ## Syarat dan Ketentuan ## --- */
+  .sk-desc {
+    padding-top: 40px;
+  }
+
+  .sk-desc-header .header-title {
+    font-size: 40px;
+    line-height: normal;
+  }
+
+  .sk-desc-detail .header-subTitle {
+    font-size: 20px;
+    line-height: normal;
+  }
+
+  .sk-desc-detail ol,
+  .sk-desc-detail ul,
+  .sk-desc-detail b,
+  .sk-desc-detail p {
+    font-size: 14px;
   }
 
   /* --- ## Footer ## --- */

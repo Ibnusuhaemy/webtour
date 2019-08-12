@@ -111,7 +111,7 @@
           <div class="col-xs-12">
             <ul class="list-inline mobile-menu-list">
               <li class="mobile-menu-item">
-                <a href="#">
+                <a href="family-trip.php">
                   <div class="panel panel-default mobile-menu-panel mobile-menu-panel-blue">
                     <div class="panel-body">
                       <span class="jgicon icon-car mobile-menu-icon"></span>
@@ -121,7 +121,7 @@
                 </a>
               </li>
               <li class="mobile-menu-item">
-                <a href="package.php">
+                <a href="corporate-trip.php">
                   <div class="panel panel-default mobile-menu-panel mobile-menu-panel-green">
                     <div class="panel-body">
                       <span class="jgicon icon-bus mobile-menu-icon"></span>
@@ -141,7 +141,7 @@
                 </a>
               </li>
               <li class="mobile-menu-item">
-                <a href="#">
+                <a href="gallery-testi.php">
                   <div class="panel panel-default mobile-menu-panel mobile-menu-panel-blue">
                     <div class="panel-body">
                       <span class="jgicon icon-star-fill mobile-menu-icon"></span>

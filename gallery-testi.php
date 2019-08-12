@@ -24,7 +24,7 @@
   <link rel="stylesheet" type="text/css" href="vendor/owl-carousel.2.3.4/assets/owl.theme.default.css">
 
   <link rel="stylesheet" type="text/css" href="vendor/angle-vladov-mobile-slider/jquery.mobile-slider.min.css">
-  <link rel="stylesheet" type="text/css" href="vendor/lightbox/dist/ekko-lightbox.css">
+  <link rel="stylesheet" type="text/css" href="vendor/ekko-lightbox/ekko-lightbox.css">
   <link rel="stylesheet" type="text/css" href="css/main.css?v=15">
 </head>
 
@@ -1075,32 +1075,6 @@
           $(".footer-copyright").css('padding-bottom', '80px');
         }
       });
-    });
-
-  </script>
-
-  <!-- Photo Gallery Footer -->
-  <script type="text/javascript">
-    var token = '1960439865.0ee328f.2d7986f0984f4c4f80b1390ff871fe69',
-      num_photos = 20;
-
-    $.ajax({
-      url: 'https://api.instagram.com/v1/users/self/media/recent',
-      dataType: 'jsonp',
-      type: 'GET',
-      data: {
-        access_token: token,
-        count: num_photos
-      },
-      success: function(data) {
-        console.log(data);
-        for (x in data.data) {
-          $('.js-photo-slider').owlCarousel('add', '<div class="photo-slider-item"><img src="' + data.data[x].images.low_resolution.url + '" width="452" height="490" alt="Jagadtour Photo Instagram"></div>').owlCarousel('update');
-        }
-      },
-      error: function(data) {
-        console.log(data);
-      }
     });
 
   </script>

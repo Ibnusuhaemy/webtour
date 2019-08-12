@@ -87,65 +87,78 @@
   </header>
 
   <!-- Content Warp -->
-  <div class="warper">
-    <!-- SK Description -->
-    <section class="content content-sk sk-desc">
-      <div class="container">
-        <div class="row">
-          <div class="col-xs-12">
-            <div class="content-header sk-desc-header">
-              <p class="header-caption">JagadTour</p>
-              <h1 class="header-title">Kebijakan Privasi</h1>
-            </div>
-            <div class="sk-desc-detail">
-              <h1 class="header-subTitle">Informasi Pribadi yang Terkumpul</h1>
-              <ol>
-                <li>
-                  Jagad Tour mengerti dan menghormati pentingnya privasi Anda. Dalam Kebijakan Privasi ini, kami akan menjelaskan bagaimana kami mendapatkan data tentang Anda dan rekam jejak Anda saat menggunakan website kami, bagaimana cara kami mengolah data tersebut, kepada siapa data tersebut mungkin dikirim, dan bagaimana Anda bisa mengubah data yang sudah Anda berikan pada kami.
-                </li>
-                <li>
-                  Jagadtour.com mengumpulkan data pribadi berikut ini: nama Anda, alamat, alamat email, nomor telepon, dan nomor KTP. Informasi ini dibutuhkan untuk memproses, membuat, dan menyelesaikan pemesanan Anda.
-                </li>
-                <li>
-                  Jagadtour.com mungkin juga memproses data tentang perangkat komputer Anda, misalnya alamat IP, tipe browser, dan (bagi pengguna yang mengakses layanan kami melalui ponsel) Unique Device Identifier, sistem operasi, versi aplikasi, dan garis lintang/bujur lokasi Anda. Data ini biasanya bersifat anonim, tapi tetap saja dianggap data pribadi, baik secara tersendiri ataupun jika bersama-sama dikombinasikan.
-                </li>
-                <li>
-                  Kami memerlukan data pribadi Anda dalam berbagai situasi dan ketentuan:
-                </li>
-                <ul>
-                  <li>Saat Anda membuat atau mulai membuat reservasi, atau membeli sesuatu dari website kami atau melalui tim layanan pelanggan - lewat email, surat, faks, atau lewat telepon</li>
-                  <li>Saat Anda mendaftar di situs kami, berlangganan newsletter kami, mengikuti kompetisi atau mendaftar untuk mendapatkan promosi</li>
-                  <li>Saat Anda turut serta dalam survey untuk memberikan kami umpan balik</li>
-                </ul>
-              </ol>
-              <br>
-              <h1 class="header-subTitle">Penggunaan Data Pribadi</h1>
-              <ol>
-                <li>
-                  Jagadtour.com memastikan penggunaan informasi pribadi pengguna dan lokasinya adalah untuk mengoperasikan, mempertahankan, dan menyediakan kemudahan bagi pengguna untuk memaksimalkan fitur dan fungsi dari website serta layanan kami.
-                </li>
-                <li>
-                  Kami mungkin akan menggunakan data Anda untuk keperluan sebagai berikut :
-                </li>
-                <ul>
-                  <li>Untuk menyelesaikan proses pemesanan dan pembelian yang Anda buat melalui website kami, dan permintaan lain yang kami dapatkan dari Anda</li>
-                  <li>Untuk menghubungi Anda apabila terdapat perubahan dalam dokumen perjalanan anda, cth: perubahan jadwal terbang, delay, dll, atau untuk mengirimkan informasi penting mengenai perjalanan Anda</li>
-                  <li>Untuk memberitahu Anda mengenai produk dan layanan kami, penawaran special dan promosi, dan penawaran lainnya yang sekiranya menarik untuk Anda. Meskipun layanan ini mungkin memuat produk dari pihak ketiga dari waktu ke waktu, tapi pihak ketiga ini tidak akan menghubungi Anda langsung (kecuali Anda sendiri yang menghendaki)</li>
-                </ul>
-                <li>
-                  Dalam kasus dimana Anda membuat pemesanan dan kemudian membatalkan pesanan tersebut setelah memasukkan data pribadi, kami akan mengirimkan email kepada Anda untuk menyarankan Anda menghubungi pihak yang berwenang dalam masalah teknis, atau untuk menyelesaikan pemesanan Anda.Anda dapat segera menghentikan informasi dalam email tersebut dikirimkan pada Anda kapan saja, dengan mengklik tautan berhenti berlangganan di bagian terbawah email Anda.
-                </li>
-                <ul>
-                  <li>Untuk keperluan administrasi lainnya dan untuk analisis internal</li>
-                  <li>Untuk berpartisipasi dalam survey kami dengan tujuan untuk mendapatkan umpan balik</li>
-                </ul>
-              </ol>
-            </div>
+  <div class="warper"></div>
+
+  <!-- Mobile Menu CTA Sticky -->
+  <div class="mobile-cta-other mobile-menu-cta">
+    <div class="panel panel-default menu-cta-panel js-menu-cta-other animated">
+      <div class="panel-body">
+        <ul class="list-inline menu-cta-list">
+          <li class="menu-cta-item"><a href="tel:+62878889992"><img class="img-responsive" src="images/icons/jagadtour-whatsapp.png" width="124" height="126" alt=""></a></li>
+          <li class="menu-cta-item"><a href="mailto:halo@jagadtour.com"><span class="fa fa-envelope-o"></span></a></li>
+          <li class="menu-cta-item"><a href="tel:+62878889992"><span class="fa fa-phone"></span></a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <!-- SK Description -->
+  <section class="content content-sk sk-desc">
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12">
+          <div class="content-header sk-desc-header">
+            <p class="header-caption">JagadTour</p>
+            <h1 class="header-title">Kebijakan Privasi</h1>
+          </div>
+          <div class="sk-desc-detail">
+            <h1 class="header-subTitle">Informasi Pribadi yang Terkumpul</h1>
+            <ol>
+              <li>
+                Jagad Tour mengerti dan menghormati pentingnya privasi Anda. Dalam Kebijakan Privasi ini, kami akan menjelaskan bagaimana kami mendapatkan data tentang Anda dan rekam jejak Anda saat menggunakan website kami, bagaimana cara kami mengolah data tersebut, kepada siapa data tersebut mungkin dikirim, dan bagaimana Anda bisa mengubah data yang sudah Anda berikan pada kami.
+              </li>
+              <li>
+                Jagadtour.com mengumpulkan data pribadi berikut ini: nama Anda, alamat, alamat email, nomor telepon, dan nomor KTP. Informasi ini dibutuhkan untuk memproses, membuat, dan menyelesaikan pemesanan Anda.
+              </li>
+              <li>
+                Jagadtour.com mungkin juga memproses data tentang perangkat komputer Anda, misalnya alamat IP, tipe browser, dan (bagi pengguna yang mengakses layanan kami melalui ponsel) Unique Device Identifier, sistem operasi, versi aplikasi, dan garis lintang/bujur lokasi Anda. Data ini biasanya bersifat anonim, tapi tetap saja dianggap data pribadi, baik secara tersendiri ataupun jika bersama-sama dikombinasikan.
+              </li>
+              <li>
+                Kami memerlukan data pribadi Anda dalam berbagai situasi dan ketentuan:
+              </li>
+              <ul>
+                <li>Saat Anda membuat atau mulai membuat reservasi, atau membeli sesuatu dari website kami atau melalui tim layanan pelanggan - lewat email, surat, faks, atau lewat telepon</li>
+                <li>Saat Anda mendaftar di situs kami, berlangganan newsletter kami, mengikuti kompetisi atau mendaftar untuk mendapatkan promosi</li>
+                <li>Saat Anda turut serta dalam survey untuk memberikan kami umpan balik</li>
+              </ul>
+            </ol>
+            <br>
+            <h1 class="header-subTitle">Penggunaan Data Pribadi</h1>
+            <ol>
+              <li>
+                Jagadtour.com memastikan penggunaan informasi pribadi pengguna dan lokasinya adalah untuk mengoperasikan, mempertahankan, dan menyediakan kemudahan bagi pengguna untuk memaksimalkan fitur dan fungsi dari website serta layanan kami.
+              </li>
+              <li>
+                Kami mungkin akan menggunakan data Anda untuk keperluan sebagai berikut :
+              </li>
+              <ul>
+                <li>Untuk menyelesaikan proses pemesanan dan pembelian yang Anda buat melalui website kami, dan permintaan lain yang kami dapatkan dari Anda</li>
+                <li>Untuk menghubungi Anda apabila terdapat perubahan dalam dokumen perjalanan anda, cth: perubahan jadwal terbang, delay, dll, atau untuk mengirimkan informasi penting mengenai perjalanan Anda</li>
+                <li>Untuk memberitahu Anda mengenai produk dan layanan kami, penawaran special dan promosi, dan penawaran lainnya yang sekiranya menarik untuk Anda. Meskipun layanan ini mungkin memuat produk dari pihak ketiga dari waktu ke waktu, tapi pihak ketiga ini tidak akan menghubungi Anda langsung (kecuali Anda sendiri yang menghendaki)</li>
+              </ul>
+              <li>
+                Dalam kasus dimana Anda membuat pemesanan dan kemudian membatalkan pesanan tersebut setelah memasukkan data pribadi, kami akan mengirimkan email kepada Anda untuk menyarankan Anda menghubungi pihak yang berwenang dalam masalah teknis, atau untuk menyelesaikan pemesanan Anda.Anda dapat segera menghentikan informasi dalam email tersebut dikirimkan pada Anda kapan saja, dengan mengklik tautan berhenti berlangganan di bagian terbawah email Anda.
+              </li>
+              <ul>
+                <li>Untuk keperluan administrasi lainnya dan untuk analisis internal</li>
+                <li>Untuk berpartisipasi dalam survey kami dengan tujuan untuk mendapatkan umpan balik</li>
+              </ul>
+            </ol>
           </div>
         </div>
       </div>
-    </section>
-  </div>
+    </div>
+  </section>
 
   <!-- Footer -->
   <footer class="footer js-footer">
@@ -163,16 +176,22 @@
             <p class="newsletter-desc">
               Dapatkan tips dan info diskon paket wisata terbaru dari Jagad Tour melalui email anda. Gratis!
             </p>
-            <form class="newsletter-form">
+            <!-- Begin Mailchimp Signup Form -->
+            <form action="https://gmail.us3.list-manage.com/subscribe/post?u=095f958e797e8d60296fc8499&amp;id=5205866a69" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="newsletter-form validate" target="_blank" novalidate>
               <div class="form-group">
-                <input type="email" name="email" value="" placeholder="Masukkan email anda" class="form-control">
+                <input type="email" value="" name="EMAIL" class="required email form-control" placeholder="Masukkan email anda" id="mce-EMAIL">
               </div>
-              <div class="form-group">
-                <input type="submit" name="subscribe" value="subscribe" class="btn btn-rounded btn-orange">
+              <div id="mce-responses" class="clear">
+                <div class="response" id="mce-error-response" style="display:none"></div>
+                <div class="response" id="mce-success-response" style="display:none"></div>
+              </div>
+              <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+              <div class="clear">
+                <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button btn btn-rounded btn-orange">
               </div>
             </form>
           </div>
-          <div class="col-xs-6 col-sm-6 col-md-3 footer-menu-article full-width">
+          <div class="col-xs-6 col-sm-6 col-md-4 footer-menu-article full-width">
             <h4>Artikel Terbaru</h4>
             <div class="media article-media">
               <div class="media-left article-media-photo">
@@ -226,24 +245,30 @@
               <li class="info-list-item"><a href="faq.php">FAQ</a></li>
             </ul>
           </div>
-          <div class="col-xs-6 col-sm-6 col-md-4 footer-menu-contact">
+          <div class="col-xs-6 col-sm-6 col-md-3 footer-menu-contact">
             <h4>Alamat</h4>
             <p class="contact-content contact-address">
-              PT Jagad Travel Indonesia <br>
-              Perumahan Bumi Dau Permai B12 <br>
-              Kecamatan Bumiaji <br>
-              Kota Malang, Jawa Timur <br>
+              PT. Jagad Mahakarya Wisata <br>
+              Malang (Office 1) | Banyuwangi (Office 2) | Ranupane (Basecamp) <br>
+              Jawa Timur <br>
               Kodepos : 65148
             </p>
             <p class="contact-content">Find Us</p>
-            <p class="contact-content">
+            <p class="contact-content socmed-list">
               <a class="contact-content-sm" href="#"><i class="fa fa-instagram"></i></a>
               <a class="contact-content-sm" href="#"><i class="fa fa-facebook-square"></i></a>
               <a class="contact-content-sm" href="#"><i class="fa fa-twitter-square"></i></a>
               <a class="contact-content-sm" href="#"><i class="fa fa-youtube-play"></i></a>
             </p>
-            <p class="contact-content">Email: halo@jagadtour.com</p>
-            <p class="contact-content">Whatsapp: 0868887289290</p>
+            <p class="contact-content">We Accept Payment From</p>
+            <p class="contact-content payment-list">
+              <a href="#"><i class="bank-icon icon-bri"></i></a>
+              <a href="#"><i class="bank-icon icon-bni"></i></a>
+              <a href="#"><i class="bank-icon icon-mandiri"></i></a>
+              <a href="#"><i class="bank-icon icon-bca"></i></a>
+            </p>
+            <p class="contact-content">Email: cs@jagadtour.com</p>
+            <p class="contact-content">Hotline : 0341 – 5051185 / 08113785758 / 082244441318</p>
           </div>
         </div>
       </div>
@@ -251,10 +276,10 @@
     <div class="footer-copyright">
       <div class="container">
         <div class="row">
-          <div class="col-md-6 copyright-left">
+          <div class="col-sm-6 copyright-left">
             <p>Copyright © 2019 Jagad Tour | All right reserved.</p>
           </div>
-          <div class="col-md-6 copyright-right">
+          <div class="col-sm-6 copyright-right">
             <p>Website designed &amp; developed by Illiyin Studio</p>
           </div>
         </div>
@@ -269,6 +294,21 @@
   <script type="text/javascript" src="vendor/owl-carousel.2.3.4/owl.carousel.min.js"></script>
 
   <script type="application/javascript" src="vendor/angle-vladov-mobile-slider/jquery.mobile-slider.min.js"></script>
+
+  <script type="text/javascript" src="vendor/scrolltofixed.1.0.8/jquery-scrolltofixed-min.js"></script>
+  <script type="text/javascript">
+    $(document).ready(function() {
+      $('.js-menu-cta-other').scrollToFixed({
+        bottom: 0,
+        preFixed: function() {
+          $('.menu-cta-panel').addClass('mobile-menu-fixed');
+          $('.menu-cta-panel').addClass('fade-in');
+          $(".footer-copyright").css('padding-bottom', '80px');
+        }
+      });
+    });
+
+  </script>
 
 </body>
 

@@ -24,7 +24,7 @@
   <link rel="stylesheet" type="text/css" href="vendor/owl-carousel.2.3.4/assets/owl.theme.default.css">
 
   <link rel="stylesheet" type="text/css" href="vendor/angle-vladov-mobile-slider/jquery.mobile-slider.min.css">
-  <link rel="stylesheet" type="text/css" href="vendor/lightbox/dist/ekko-lightbox.css">
+  <link rel="stylesheet" type="text/css" href="vendor/ekko-lightbox/ekko-lightbox.css">
   <link rel="stylesheet" type="text/css" href="css/main.css?v=15">
 </head>
 
@@ -87,6 +87,18 @@
   <!-- Content Warp -->
   <div class="warper"></div>
 
+  <div class="mobile-cta-other mobile-menu-cta">
+    <div class="panel panel-default menu-cta-panel js-menu-cta-other animated">
+      <div class="panel-body">
+        <ul class="list-inline menu-cta-list">
+          <li class="menu-cta-item"><a href="tel:+62878889992"><img class="img-responsive" src="images/icons/jagadtour-whatsapp.png" width="124" height="126" alt=""></a></li>
+          <li class="menu-cta-item"><a href="mailto:halo@jagadtour.com"><span class="fa fa-envelope-o"></span></a></li>
+          <li class="menu-cta-item"><a href="tel:+62878889992"><span class="fa fa-phone"></span></a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
   <!-- Popular Package -->
   <section class="content content-home-package content-gallery-list js-content-home-package">
     <div class="container">
@@ -96,7 +108,7 @@
         </div>
       </div>
       <div class="row">
-        <div class="owl-carousel gallery-carousel home-package-slider js-home-package-slider">
+        <div class="owl-carousel gallery-carousel home-package-slider">
           <div class="col-md-12">
             <a href="images/testimonials/1.jpg" data-toggle="lightbox" data-gallery="gallery" data-type="image">
               <div class="panel panel-default">
@@ -1002,7 +1014,7 @@
   <script type="text/javascript" src="vendor/jquery.3.2.1/jquery.3.2.1.min.js"></script>
   <script type="text/javascript" src="vendor/bootstrap.3.3.7/js/bootstrap.min.js"></script>
   <script type="text/javascript" src="vendor/owl-carousel.2.3.4/owl.carousel.min.js"></script>
-  <script type="text/javascript" src="vendor/lightbox/dist/ekko-lightbox.js"></script>
+  <script type="text/javascript" src="vendor/ekko-lightbox/ekko-lightbox.min.js"></script>
 
   <script>
     $(document).on('click', '[data-toggle="lightbox"]', function(event) {
@@ -1075,92 +1087,17 @@
 
   </script>
 
-  <script type="text/javascript">
-    $('.js-hero-slider').owlCarousel({
-      dots: true,
-      items: 1,
-      loop: true,
-      autoplay: true,
-      animateOut: 'fadeOut',
-      smartSpeed: 450
-    });
-
-  </script>
-
-  <script type="text/javascript">
-    $('.js-home-trip-slider').owlCarousel({
-      dots: true,
-      margin: 30,
-      responsive: {
-        240: {
-          items: 1
-        },
-        480: {
-          items: 2
-        },
-        768: {
-          items: 3
-        },
-        992: {
-          items: 4
-        }
-      }
-    });
-
-  </script>
-
-  <script type="application/javascript" src="vendor/angle-vladov-mobile-slider/jquery.mobile-slider.min.js"></script>
-  <script type="application/javascript">
-    $(document).ready(function($) {
-      $('.js-home-package-slider').mobileSlider({
-        sliderWhen: 767,
-        itemWidth: "50%",
-        startAt: 2
-      });
-    });
-
-  </script>
-
   <script type="text/javascript" src="vendor/scrolltofixed.1.0.8/jquery-scrolltofixed-min.js"></script>
   <script type="text/javascript">
     $(document).ready(function() {
-      $('.js-menu-cta-panel').scrollToFixed({
-        postFixed: function() {
-          $(".menu-cta-title").css('display', 'block');
-        },
+      $('.js-menu-cta-other').scrollToFixed({
+        bottom: 0,
         preFixed: function() {
           $('.menu-cta-panel').addClass('mobile-menu-fixed');
           $('.menu-cta-panel').addClass('fade-in');
-          $(".menu-cta-title").css('display', 'none');
           $(".footer-copyright").css('padding-bottom', '80px');
         }
       });
-    });
-
-  </script>
-
-  <!-- Photo Gallery Footer -->
-  <script type="text/javascript">
-    var token = '1960439865.0ee328f.2d7986f0984f4c4f80b1390ff871fe69',
-      num_photos = 20;
-
-    $.ajax({
-      url: 'https://api.instagram.com/v1/users/self/media/recent',
-      dataType: 'jsonp',
-      type: 'GET',
-      data: {
-        access_token: token,
-        count: num_photos
-      },
-      success: function(data) {
-        console.log(data);
-        for (x in data.data) {
-          $('.js-photo-slider').owlCarousel('add', '<div class="photo-slider-item"><img src="' + data.data[x].images.low_resolution.url + '" width="452" height="490" alt="Jagadtour Photo Instagram"></div>').owlCarousel('update');
-        }
-      },
-      error: function(data) {
-        console.log(data);
-      }
     });
 
   </script>

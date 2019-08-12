@@ -88,42 +88,54 @@
   </header>
 
   <!-- Content Warp -->
-  <div class="warper">
-    <!-- About Description -->
-    <section class="content content-about about-desc">
-      <div class="container">
-        <div class="row">
-          <div class="col-xs-12">
-            <div class="content-header about-desc-header">
-              <p class="header-caption">Jagad Tour</p>
-            </div>
-            <div class="about-desc-detail">
-              <p>
-                Jagad Tour adalah Sebuah perusahaan Biro Perjalanan Wisata di Malang yang lahir dari impian - impian anak muda yang
-                disatukan oleh visi dan dibesarkan oleh harapan. Sebuah perusahaan yang tidak hanya berorientasi pada uang, tapi
-                lebih kepada memberikan kemanfaatan dan kebahagiaan kepada sesama. Dan kini kami menjadi pilihan terbaik wisatawan
-                sebagai Best Tour Operator Di Jawa Timur.
-              </p>
-              <p>
-                Berdiri dibawah naungan PT Jagad Mahakarya Wisata, Kami adalah satu-satunya tour operator di Jawa Timur yang bekerja
-                dengan prinsip kejujuran, integriti, menyampaikan apa adanya, all out dan sosial minded, dimana setiap perjalanan
-                wisata kami, kami kemas dengan konsep menyelipkan edukasi dan kepekaan sosial terhadap sesama hingga menjadikan
-                jagad tour sebagai rumah untuk berbagi kebahagiaan.
-              </p>
-              <ul class="about-desc-legal">
-                <li><b>Legalitas :</b></li>
-                <li>PT. Jagad Mahakarya Wisata</li>
-                <li>Akta Pendirian : Notaris Rusnahadi Taufan SH. MKn, No 7 Tanggal 27 Oktober 2016</li>
-                <li>SIUP : 600/11.27/PK/XI/2016</li>
-                <li>TDP : 112712900540</li>
-                <li>NPWP : 80.450.724.2-507.000</li>
-              </ul>
-            </div>
+  <div class="warper"></div>
+
+  <div class="mobile-cta-other mobile-menu-cta">
+    <div class="panel panel-default menu-cta-panel js-menu-cta-other animated">
+      <div class="panel-body">
+        <ul class="list-inline menu-cta-list">
+          <li class="menu-cta-item"><a href="tel:+62878889992"><img class="img-responsive" src="images/icons/jagadtour-whatsapp.png" width="124" height="126" alt=""></a></li>
+          <li class="menu-cta-item"><a href="mailto:halo@jagadtour.com"><span class="fa fa-envelope-o"></span></a></li>
+          <li class="menu-cta-item"><a href="tel:+62878889992"><span class="fa fa-phone"></span></a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <!-- About Description -->
+  <section class="content content-about about-desc">
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12">
+          <div class="content-header about-desc-header">
+            <p class="header-caption">Jagad Tour</p>
+          </div>
+          <div class="about-desc-detail">
+            <p>
+              Jagad Tour adalah Sebuah perusahaan Biro Perjalanan Wisata di Malang yang lahir dari impian - impian anak muda yang
+              disatukan oleh visi dan dibesarkan oleh harapan. Sebuah perusahaan yang tidak hanya berorientasi pada uang, tapi
+              lebih kepada memberikan kemanfaatan dan kebahagiaan kepada sesama. Dan kini kami menjadi pilihan terbaik wisatawan
+              sebagai Best Tour Operator Di Jawa Timur.
+            </p>
+            <p>
+              Berdiri dibawah naungan PT Jagad Mahakarya Wisata, Kami adalah satu-satunya tour operator di Jawa Timur yang bekerja
+              dengan prinsip kejujuran, integriti, menyampaikan apa adanya, all out dan sosial minded, dimana setiap perjalanan
+              wisata kami, kami kemas dengan konsep menyelipkan edukasi dan kepekaan sosial terhadap sesama hingga menjadikan
+              jagad tour sebagai rumah untuk berbagi kebahagiaan.
+            </p>
+            <ul class="about-desc-legal">
+              <li><b>Legalitas :</b></li>
+              <li>PT. Jagad Mahakarya Wisata</li>
+              <li>Akta Pendirian : Notaris Rusnahadi Taufan SH. MKn, No 7 Tanggal 27 Oktober 2016</li>
+              <li>SIUP : 600/11.27/PK/XI/2016</li>
+              <li>TDP : 112712900540</li>
+              <li>NPWP : 80.450.724.2-507.000</li>
+            </ul>
           </div>
         </div>
       </div>
-    </section>
-  </div>
+    </div>
+  </section>
 
   <!-- About Team -->
   <section class="content content-about about-team">
@@ -465,38 +477,6 @@
 
   </script>
 
-  <script type="text/javascript">
-    $('.js-photo-slider').owlCarousel({
-      loop: true,
-      dots: false,
-      responsive: {
-        240: {
-          slideBy: 6,
-          items: 2
-        },
-        640: {
-          slideBy: 3,
-          items: 3
-        },
-        992: {
-          items: 6,
-          slideBy: 5,
-          autoplay: true,
-          animateOut: 'fadeOut',
-          smartSpeed: 450
-        },
-        1200: {
-          items: 6,
-          slideBy: 5,
-          autoplay: true,
-          animateOut: 'fadeOut',
-          smartSpeed: 450
-        }
-      }
-    });
-
-  </script>
-
   <script type="application/javascript" src="vendor/angle-vladov-mobile-slider/jquery.mobile-slider.min.js"></script>
   <script type="application/javascript">
     $(document).ready(function($) {
@@ -528,26 +508,18 @@
 
   </script>
 
-  <!-- Photo Gallery Footer -->
+  <script type="text/javascript" src="vendor/scrolltofixed.1.0.8/jquery-scrolltofixed-min.js"></script>
   <script type="text/javascript">
-    //      var token = '1960439865.0ee328f.2d7986f0984f4c4f80b1390ff871fe69',
-    //      num_photos = 20;
-    //
-    //      $.ajax({
-    //        url: 'https://api.instagram.com/v1/users/self/media/recent',
-    //        dataType: 'jsonp',
-    //        type: 'GET',
-    //        data: {access_token: token, count: num_photos},
-    //        success: function(data){
-    //          console.log(data);
-    //          for( x in data.data ){
-    //            $('.js-photo-slider').owlCarousel('add', '<div class="photo-slider-item"><img src="'+data.data[x].images.low_resolution.url+'" width="452" height="490" alt="Jagadtour Photo Instagram"></div>').owlCarousel('update');
-    //          }
-    //        },
-    //        error: function(data){
-    //          console.log(data);
-    //        }
-    //      });
+    $(document).ready(function() {
+      $('.js-menu-cta-other').scrollToFixed({
+        bottom: 0,
+        preFixed: function() {
+          $('.menu-cta-panel').addClass('mobile-menu-fixed');
+          $('.menu-cta-panel').addClass('fade-in');
+          $(".footer-copyright").css('padding-bottom', '80px');
+        }
+      });
+    });
 
   </script>
 

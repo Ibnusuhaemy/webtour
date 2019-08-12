@@ -22,7 +22,6 @@
   <link rel="stylesheet" type="text/css" href="vendor/jagad-icon.1.0/css/fontello.css">
   <link rel="stylesheet" type="text/css" href="vendor/owl-carousel.2.3.4/assets/owl.carousel.min.css">
   <link rel="stylesheet" type="text/css" href="vendor/owl-carousel.2.3.4/assets/owl.theme.default.css">
-  <link rel="stylesheet" type="text/css" href="vendor/angle-vladov-mobile-slider/jquery.mobile-slider.min.css">
   <link rel="stylesheet" type="text/css" href="vendor/datetimepicker.4.17.42/css/bootstrap-datetimepicker.min.css">
 
   <link rel="stylesheet" type="text/css" href="css/main.css?v=15">
@@ -87,6 +86,19 @@
 
   <!-- Content Warp -->
   <div class="warper"></div>
+
+  <!-- Mobile Menu CTA Sticky -->
+  <div class="mobile-cta-other mobile-menu-cta">
+    <div class="panel panel-default menu-cta-panel js-menu-cta-other animated">
+      <div class="panel-body">
+        <ul class="list-inline menu-cta-list">
+          <li class="menu-cta-item"><a href="tel:+62878889992"><img class="img-responsive" src="images/icons/jagadtour-whatsapp.png" width="124" height="126" alt=""></a></li>
+          <li class="menu-cta-item"><a href="mailto:halo@jagadtour.com"><span class="fa fa-envelope-o"></span></a></li>
+          <li class="menu-cta-item"><a href="tel:+62878889992"><span class="fa fa-phone"></span></a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
 
   <!-- Package Detail -->
   <section class="content content-packdetail">
@@ -830,37 +842,6 @@
     });
 
   </script>
-  <script type="text/javascript">
-    $('.js-photo-slider').owlCarousel({
-      loop: true,
-      dots: false,
-      responsive: {
-        240: {
-          slideBy: 6,
-          items: 2
-        },
-        640: {
-          slideBy: 3,
-          items: 3
-        },
-        992: {
-          items: 6,
-          slideBy: 5,
-          autoplay: true,
-          animateOut: 'fadeOut',
-          smartSpeed: 450
-        },
-        1200: {
-          items: 6,
-          slideBy: 5,
-          autoplay: true,
-          animateOut: 'fadeOut',
-          smartSpeed: 450
-        }
-      }
-    });
-
-  </script>
 
   <script type="text/javascript" src="vendor/scrolltofixed.1.0.8/jquery-scrolltofixed-min.js"></script>
   <script type="text/javascript">
@@ -892,27 +873,17 @@
 
   </script>
 
-  <!-- Photo Gallery Footer -->
+  <script type="text/javascript" src="vendor/scrolltofixed.1.0.8/jquery-scrolltofixed-min.js"></script>
   <script type="text/javascript">
-    var token = '1960439865.0ee328f.2d7986f0984f4c4f80b1390ff871fe69',
-      num_photos = 20;
-
-    $.ajax({
-      url: 'https://api.instagram.com/v1/users/self/media/recent',
-      dataType: 'jsonp',
-      type: 'GET',
-      data: {
-        access_token: token,
-        count: num_photos
-      },
-      success: function(data) {
-        for (x in data.data) {
-          $('.js-photo-slider').owlCarousel('add', '<div class="photo-slider-item"><img src="' + data.data[x].images.low_resolution.url + '" width="452" height="490" alt="Jagadtour Photo Instagram"></div>').owlCarousel('update');
+    $(document).ready(function() {
+      $('.js-menu-cta-other').scrollToFixed({
+        bottom: 0,
+        preFixed: function() {
+          $('.menu-cta-panel').addClass('mobile-menu-fixed');
+          $('.menu-cta-panel').addClass('fade-in');
+          $(".footer-copyright").css('padding-bottom', '80px');
         }
-      },
-      error: function(data) {
-        console.log(data);
-      }
+      });
     });
 
   </script>

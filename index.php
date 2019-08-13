@@ -371,6 +371,7 @@
   </section>
 
   <!-- Why Choose Us -->
+  <div class="js-content-home-choose"></div>
   <section class="content content-home-choose">
     <div class="container">
       <div class="row">
@@ -809,6 +810,21 @@
 
   <!-- Progress Bar -->
   <script type="text/javascript">
+    //    $(window).scroll(function() {
+    //       var hT = $('#scroll-to').offset().top,
+    //           hH = $('#scroll-to').outerHeight(),
+    //           wH = $(window).height(),
+    //           wS = $(this).scrollTop();
+    //       if (wS > (hT+hH-wH) && (hT > wS) && (wS+wH > hT+hH)){
+    //          $('h1').addClass('view')
+    //       } else {
+    //          $('h1').removeClass('view')
+    //       }
+    //    });
+
+  </script>
+
+  <script type="text/javascript">
     var barTrust = new ProgressBar.Line(terpercaya, {
       strokeWidth: 4,
       easing: 'easeInOut',
@@ -1006,13 +1022,27 @@
 
 
     $(window).scroll(function() {
-      if (document.getElementById("progressBar")) {
+      var hT = $('.js-content-home-choose').offset().top,
+        hH = $('.js-content-home-choose').outerHeight(),
+        wH = $(window).height(),
+        wS = $(this).scrollTop();
+
+      //if (document.getElementById("progressBar")) {
+      if (wS > (hT + hH - wH) && (hT > wS) && (wS + wH > hT + hH)) {
+        console.log("content home choose");
         barTrust.animate(1.0);
         barService.animate(0.98);
         barDone.animate(0.97);
         barPengalaman.animate(0.98);
         barSolid.animate(0.97);
+      } else {
+        barTrust.animate(0.02);
+        barService.animate(0.02);
+        barDone.animate(0.02);
+        barPengalaman.animate(0.02);
+        barSolid.animate(0.02);
       }
+      //}
     });
 
   </script>

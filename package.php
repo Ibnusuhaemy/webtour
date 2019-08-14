@@ -358,7 +358,7 @@
         <div class="col-md-4 col-lg-3 packdetail-right">
 
           <!-- Price -->
-          <div class="panel panel-default panel-complete content-packdetail-panel packdetail-price">
+          <div class="panel panel-default panel-complete content-packdetail-panel packdetail-price js-packdetail-price">
             <div class="panel-heading panel-complete-heading panel-heading-blue" role="tab" id="heading-facility">
               <h4 class="panel-title panel-complete-title">
                 <a role="button">Start From IDR 500.000</a>
@@ -513,7 +513,7 @@
 
       </div>
 
-      <hr class="package-separator">
+      <hr class="package-separator js-package-separator">
 
       <div class="row">
         <div class="col-xs-12">
@@ -857,6 +857,10 @@
           $(".footer-copyright").css('padding-bottom', '80px');
         }
       });
+//      $('.js-packdetail-price').scrollToFixed({
+// bottom: 0,
+// limit: $('.js-package-separator').offset().top
+// });
     });
 
   </script>

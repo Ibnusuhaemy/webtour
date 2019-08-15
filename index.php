@@ -201,124 +201,100 @@
       <div class="home-package-slider js-home-package-slider">
         <ul class="row">
           <li class="col-sm-6 col-md-4">
-            <a href="package.php">
-              <div class="panel panel-default card-single">
-                <div class="panel-body card-single-body">
-                  <img src="images/thumbnails/jagadtour-bromo-sunrise.jpg" width="1035" height="642" alt="" class="img-responsive">
-                  <div class="card-single-packet row">
-                    <div class="left col-md-9 col-xs-9">
-                      <p class="card-single-title">Bromo Sunrise Tour</p>
+            <div class="packdetail-packother card-single">
+              <a href="#">
+                <div class="panel panel-default card-single">
+                  <div class="panel-body card-single-body">
+                    <img src="images/thumbnails/jagadtour-bromo-sunrise.jpg" width="1035" height="642" alt="" class="img-responsive">
+                    <div class="card-single-caption">
                       <p class="tag tag-orange card-single-tag">Family Trip</p>
-                      <p class="card-single-text duration">1 Day</p>
-                    </div>
-                    <div class="right col-md-3 col-xs-3">
-                      <p class="card-single-text">Booked</p>
-                      <p class="card-single-text">978x</p>
+                      <p class="card-single-title">Bromo Sunrise Tour</p>
+                      <p class="card-single-text">1 Day</p>
                     </div>
                   </div>
                 </div>
-              </div>
-            </a>
+              </a>
+            </div>
           </li>
           <li class="col-sm-6 col-md-4">
-            <a href="package.php">
-              <div class="panel panel-default card-single">
-                <div class="panel-body card-single-body">
-                  <img src="images/thumbnails/jagadtour-bromo-sunrise.jpg" width="1035" height="642" alt="" class="img-responsive">
-                  <div class="card-single-packet row">
-                    <div class="left col-md-9 col-xs-9">
-                      <p class="card-single-title">Bromo Sunrise Tour</p>
+            <div class="packdetail-packother card-single">
+              <a href="#">
+                <div class="panel panel-default card-single">
+                  <div class="panel-body card-single-body">
+                    <img src="images/thumbnails/jagadtour-bromo-sunrise.jpg" width="1035" height="642" alt="" class="img-responsive">
+                    <div class="card-single-caption">
                       <p class="tag tag-orange card-single-tag">Family Trip</p>
-                      <p class="card-single-text duration">1 Day</p>
-                    </div>
-                    <div class="right col-md-3 col-xs-3">
-                      <p class="card-single-text">Booked</p>
-                      <p class="card-single-text">978x</p>
+                      <p class="card-single-title">Bromo Sunrise Tour</p>
+                      <p class="card-single-text">1 Day</p>
                     </div>
                   </div>
                 </div>
-              </div>
-            </a>
+              </a>
+            </div>
           </li>
           <li class="col-sm-6 col-md-4">
-            <a href="package.php">
-              <div class="panel panel-default card-single">
-                <div class="panel-body card-single-body">
-                  <img src="images/thumbnails/jagadtour-kota-malang.jpg" width="1035" height="642" alt="" class="img-responsive">
-                  <div class="card-single-packet row">
-                    <div class="left col-md-9 col-xs-9">
+            <div class="packdetail-packother card-single">
+              <a href="#">
+                <div class="panel panel-default card-single">
+                  <div class="panel-body card-single-body">
+                    <img src="images/thumbnails/jagadtour-kota-malang.jpg" width="1035" height="642" alt="" class="img-responsive">
+                    <div class="card-single-caption">
+                      <p class="tag tag-orange card-single-tag">Family Trip</p>
                       <p class="card-single-title">Tour Malang, Batu &amp; Bromo</p>
-                      <p class="tag tag-orange card-single-tag">Family Trip</p>
-                      <p class="card-single-text duration">4 Days 3 N</p>
-                    </div>
-                    <div class="right col-md-3 col-xs-3">
-                      <p class="card-single-text">Booked</p>
-                      <p class="card-single-text">978x</p>
+                      <p class="card-single-text">4 Days 3 N</p>
                     </div>
                   </div>
                 </div>
-              </div>
-            </a>
+              </a>
+            </div>
           </li>
           <li class="col-sm-6 col-md-4">
-            <a href="package.php">
-              <div class="panel panel-default card-single">
-                <div class="panel-body card-single-body">
-                  <img src="images/thumbnails/jagadtour-rafting-songa.jpg" width="1035" height="642" alt="" class="img-responsive">
-                  <div class="card-single-packet row">
-                    <div class="left col-md-9 col-xs-9">
+            <div class="packdetail-packother card-single">
+              <a href="#">
+                <div class="panel panel-default card-single">
+                  <div class="panel-body card-single-body">
+                    <img src="images/thumbnails/jagadtour-rafting-songa.jpg" width="1035" height="642" alt="" class="img-responsive">
+                    <div class="card-single-caption">
+                      <p class="tag tag-orange card-single-tag">Corporate Trip</p>
                       <p class="card-single-title">Rafting Songa Bromo &amp; Batu</p>
-                      <p class="tag tag-blue card-single-tag">Corporate Trip</p>
-                      <p class="card-single-text duration">3 Days 2 N</p>
-                    </div>
-                    <div class="right col-md-3 col-xs-3">
-                      <p class="card-single-text">Booked</p>
-                      <p class="card-single-text">978x</p>
+                      <p class="card-single-text">3 Days 2 N</p>
                     </div>
                   </div>
                 </div>
-              </div>
-            </a>
+              </a>
+            </div>
           </li>
           <li class="col-sm-6 col-md-4">
-            <a href="package.php">
-              <div class="panel panel-default card-single">
-                <div class="panel-body card-single-body">
-                  <img src="images/thumbnails/jagadtour-rafting-songa.jpg" width="1035" height="642" alt="" class="img-responsive">
-                  <div class="card-single-packet row">
-                    <div class="left col-md-9 col-xs-9">
+            <div class="packdetail-packother card-single">
+              <a href="#">
+                <div class="panel panel-default card-single">
+                  <div class="panel-body card-single-body">
+                    <img src="images/thumbnails/jagadtour-rafting-songa.jpg" width="1035" height="642" alt="" class="img-responsive">
+                    <div class="card-single-caption">
+                      <p class="tag tag-orange card-single-tag">Corporate Trip</p>
                       <p class="card-single-title">Tour Malang, Bromo, &amp; Batu</p>
-                      <p class="tag tag-blue card-single-tag">Corporate Trip</p>
-                      <p class="card-single-text duration">4 Days 3 N</p>
-                    </div>
-                    <div class="right col-md-3 col-xs-3">
-                      <p class="card-single-text">Booked</p>
-                      <p class="card-single-text">978x</p>
+                      <p class="card-single-text">4 Days 3 N</p>
                     </div>
                   </div>
                 </div>
-              </div>
-            </a>
+              </a>
+            </div>
           </li>
           <li class="col-sm-6 col-md-4">
-            <a href="package.php">
-              <div class="panel panel-default card-single">
-                <div class="panel-body card-single-body">
-                  <img src="images/thumbnails/jagadtour-rafting-songa.jpg" width="1035" height="642" alt="" class="img-responsive">
-                  <div class="card-single-packet row">
-                    <div class="left col-md-9 col-xs-9">
+            <div class="packdetail-packother card-single">
+              <a href="#">
+                <div class="panel panel-default card-single">
+                  <div class="panel-body card-single-body">
+                    <img src="images/thumbnails/jagadtour-rafting-songa.jpg" width="1035" height="642" alt="" class="img-responsive">
+                    <div class="card-single-caption">
+                      <p class="tag tag-orange card-single-tag">Corporate Trip</p>
                       <p class="card-single-title">Tour Museum Malang</p>
-                      <p class="tag tag-blue card-single-tag">Corporate Trip</p>
-                      <p class="card-single-text duration">3 Days 2 N</p>
-                    </div>
-                    <div class="right col-md-3 col-xs-3">
-                      <p class="card-single-text">Booked</p>
-                      <p class="card-single-text">978x</p>
+                      <p class="card-single-text">3 Days 2 N</p>
                     </div>
                   </div>
                 </div>
-              </div>
-            </a>
+              </a>
+            </div>
           </li>
         </ul>
       </div>
@@ -473,19 +449,19 @@
             <div class="item">
               <div class="panel panel-default testi-slider-item">
                 <div class="panel-body">
-                  <p class="testi-slider-statement">
-                    Dari awal ketika melihat jagad tour ada satu pikiran saya bahwa, travel ini memiliki rasa tanggung jawab dan
-                    beda dengan yang lain mulai dari fasilitas dan pendukung lainnya. Sukses terus jagad tour
-                  </p>
                   <div class="media testi-slider-media">
-                    <div class="media-left">
-                      <a href="#">
-                        <img src="images/testimonials/1.jpg" width="104" height="104" alt="Testimonial Putri Sahadaya di Jagadtour" class="media-object testi-slider-photo">
-                      </a>
-                    </div>
                     <div class="media-body media-middle">
-                      <h4 class="media-heading testi-slider-name">Kartika</h4>
-                      <p class="testi-slider-city">Bandung</p>
+                      <a class="home" href="#">
+                        <img src="images/testimonials/1.jpg" width="960" height="960" alt="Testimonial Putri Sahadaya di Jagadtour" class="media-object testi-slider-photo">
+                      </a>
+                      <div class="home-comment">
+                        <h4 class="media-heading testi-slider-name">Kartika</h4>
+                        <p class="testi-slider-city">Bandung</p>
+                        <p class="testi-slider-statement">
+                          Dari awal ketika melihat jagad tour ada satu pikiran saya bahwa, travel ini memiliki rasa tanggung jawab dan beda
+                          dengan yang lain mulai dari fasilitas dan pendukung lainnya. Sukses terus jagad tour.
+                        </p>
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -494,19 +470,19 @@
             <div class="item">
               <div class="panel panel-default testi-slider-item">
                 <div class="panel-body">
-                  <p class="testi-slider-statement">
-                    Bagi saya jagad tour punya treatment khusus untuk membuat client merasa nyaman dan bahagia saat berwisata di
-                    malang dan kami merasakan itu. Semoga Tuhan memberkati Jagad Tour dan timnya
-                  </p>
                   <div class="media testi-slider-media">
-                    <div class="media-left">
-                      <a href="#">
-                        <img src="images/photos/testimoni-47.jpg" width="104" height="104" alt="Testimonial Asuna Diana di Jagadtour" class="media-object testi-slider-photo">
-                      </a>
-                    </div>
                     <div class="media-body media-middle">
-                      <h4 class="media-heading testi-slider-name">Andi</h4>
-                      <p class="testi-slider-city">Jakarta</p>
+                      <a class="home" href="#">
+                        <img src="images/testimonials/2.jpg" width="3000" height="3000" alt="Testimonial Asuna Diana di Jagadtour" class="media-object testi-slider-photo">
+                      </a>
+                      <div class="home-comment">
+                        <h4 class="media-heading testi-slider-name">Andi</h4>
+                        <p class="testi-slider-city">Jakarta</p>
+                        <p class="testi-slider-statement">
+                          Bagi saya jagad tour punya treatment khusus untuk membuat client merasa nyaman dan bahagia saat berwisata di
+                          malang dan kami merasakan itu. Semoga Tuhan memberkati Jagad Tour dan timnya
+                        </p>
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -751,12 +727,13 @@
           </div>
           <div class="col-xs-6 col-sm-6 col-md-3 footer-menu-contact">
             <h4>Alamat</h4>
-            <p class="contact-content contact-address">
+            <p class="contact-content">
               PT. Jagad Mahakarya Wisata <br>
-              Malang (Office 1) | Banyuwangi (Office 2) | Ranupane (Basecamp) <br>
-              Jawa Timur <br>
-              Kodepos : 65148
+              Malang (Office 1) <br> Banyuwangi (Office 2) <br> Ranupane (Basecamp) <br>
+              Jawa Timur : 65148 <br>
             </p>
+            <p class="contact-content">Email: cs@jagadtour.com</p>
+            <p class="contact-content contact-address">Hotline : 0341 – 5051185 / 08113785758 / 082244441318</p>
             <p class="contact-content">Find Us</p>
             <p class="contact-content socmed-list">
               <a class="contact-content-sm" href="#"><i class="fa fa-instagram"></i></a>
@@ -771,8 +748,6 @@
               <a href="#"><i class="bank-icon icon-mandiri"></i></a>
               <a href="#"><i class="bank-icon icon-bca"></i></a>
             </p>
-            <p class="contact-content">Email: cs@jagadtour.com</p>
-            <p class="contact-content">Hotline : 0341 – 5051185 / 08113785758 / 082244441318</p>
           </div>
         </div>
       </div>

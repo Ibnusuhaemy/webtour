@@ -105,7 +105,7 @@
     <div class="container">
       <div class="row">
         <div class="col-xs-12">
-          <h2 class="content-title">1 day</h2>
+          <h2 class="trip content-title">1 day</h2>
         </div>
       </div>
       <div class="row">
@@ -247,7 +247,7 @@
     <div class="container">
       <div class="row">
         <div class="col-xs-12">
-          <h2 class="content-title">2 day</h2>
+          <h2 class="trip content-title">2 day</h2>
         </div>
       </div>
       <div class="row">
@@ -587,7 +587,7 @@
   </section>
 
   <!-- Footer -->
-  <footer class="footer js-footer">
+ <footer class="footer js-footer">
     <div class="footer-photo">
       <div class="owl-carousel owl-theme photo-slider js-photo-slider">
         <!-- See Js Code "Photo Gallery Footer" -->
@@ -673,14 +673,15 @@
           </div>
           <div class="col-xs-6 col-sm-6 col-md-3 footer-menu-contact">
             <h4>Alamat</h4>
-            <p class="contact-content contact-address">
-              PT. Jagad Mahakarya Wisata <br>
-              Malang (Office 1) | Banyuwangi (Office 2) | Ranupane (Basecamp) <br>
-              Jawa Timur <br>
-              Kodepos : 65148
-            </p>
-            <p class="contact-content">Find Us</p>
             <p class="contact-content">
+              PT. Jagad Mahakarya Wisata <br>
+              Malang (Office 1) <br> Banyuwangi (Office 2) <br> Ranupane (Basecamp) <br>
+              Jawa Timur : 65148 <br>
+            </p>
+            <p class="contact-content">Email: cs@jagadtour.com</p>
+            <p class="contact-content contact-address">Hotline : 0341 – 5051185 / 08113785758 / 082244441318</p>
+            <p class="contact-content">Find Us</p>
+            <p class="contact-content socmed-list">
               <a class="contact-content-sm" href="#"><i class="fa fa-instagram"></i></a>
               <a class="contact-content-sm" href="#"><i class="fa fa-facebook-square"></i></a>
               <a class="contact-content-sm" href="#"><i class="fa fa-twitter-square"></i></a>
@@ -693,8 +694,6 @@
               <a href="#"><i class="bank-icon icon-mandiri"></i></a>
               <a href="#"><i class="bank-icon icon-bca"></i></a>
             </p>
-            <p class="contact-content">Email: cs@jagadtour.com</p>
-            <p class="contact-content">Hotline : 0341 – 5051185 / 08113785758 / 082244441318</p>
           </div>
         </div>
       </div>
@@ -702,10 +701,10 @@
     <div class="footer-copyright">
       <div class="container">
         <div class="row">
-          <div class="col-md-6 copyright-left">
+          <div class="col-sm-6 copyright-left">
             <p>Copyright © 2019 Jagad Tour | All right reserved.</p>
           </div>
-          <div class="col-md-6 copyright-right">
+          <div class="col-sm-6 copyright-right">
             <p>Website designed &amp; developed by Illiyin Studio</p>
           </div>
         </div>

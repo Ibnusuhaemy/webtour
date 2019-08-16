@@ -457,7 +457,7 @@ p {
 
 /* - Top Warp - */
 .warper {
-  padding-top: 20vh;
+  padding-top: 135px;
 }
 
 /* - Header Info - */
@@ -803,7 +803,7 @@ p {
 
 
 .panel-complete .panel-complete-heading {
-  padding: 20px 28px;
+  padding: 12px 28px;
   border-radius: 0;
 }
 
@@ -811,8 +811,16 @@ p {
   background-color: #0077c2;
 }
 
+.panel-complete .panel-heading-light_blue {
+  background-color: #48dbfb;
+}
+
 .panel-complete .panel-heading-orange {
   background-color: #ff681f;
+}
+
+.panel-complete .panel-heading-light_orange {
+  background-color: #ff9f43;
 }
 
 .panel-complete-heading .panel-complete-title {
@@ -823,8 +831,8 @@ p {
 }
 
 .panel-complete .panel-complete-content {
-  padding-left: 28px;
-  padding-right: 28px;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 /* Card Group */
@@ -1031,7 +1039,9 @@ p {
 .content-home-package .home-package-slider ul {
   margin-bottom: 0;
 }
-
+.content-home-package .owl-nav{
+  padding-top: 20px;
+}
 .home-package-slider .card-single .card-single-caption {
   top: auto;
   height: 140px;
@@ -1320,7 +1330,7 @@ p {
 
 .happy-clients .happy-client-item {
   display: inline-block;
-  width: 25%;
+  width: 24.9%;
   height: auto;
   padding: 10px;
   vertical-align: middle;
@@ -1494,8 +1504,48 @@ p {
 }
 
 .packdetail-destination-slider .destination-slider-image img {
-  width: auto;
-  min-height: 500px;
+  width: 100%;
+  height: auto;
+}
+
+.js-packdetail-destination-thumbnail{
+  padding-top: 40px;
+}
+
+.js-packdetail-destination-thumbnail .destination-slider-image{
+  padding: 0 20px;
+}
+
+.js-packdetail-destination-thumbnail .destination-slider-image img{
+  border-radius: 6px;
+}
+
+.thumbnail-icon{
+    position: absolute;
+    background: #0077c2;
+    padding: 15px;
+    border-radius: 25px;
+    z-index: 1;
+    color: #fff;
+    top: 55%;
+}
+
+.thumbnail-icon-left{
+    transform: translate(-50%, -50%);
+    left: 0;
+}
+
+.thumbnail-icon-right{
+    right: 0;
+    transform: translate(50%, -50%);
+}
+
+.item.slick-slide.slick-current.slick-active.slick-center .destination-slider-image{
+  transform: scale(1.1);
+}
+
+.slick-track{
+  padding: 20px 0;
 }
 
 .packdetail-destination-slider .destination-slider-caption {
@@ -1581,7 +1631,15 @@ p {
 
 /* - Price - */
 .packdetail-right {
-  position: relative;
+  position: sticky;
+  top: 25vh;
+}
+.packdetail-right .form-group{
+  margin: 0 ;
+}
+.packdetail-right .panel-body{
+  padding-top: 5px;
+  padding-bottom: 5px;
 }
 
 /*
@@ -1604,11 +1662,11 @@ p {
 }
 
 .packdetail-price .packdetail-price-form {
-  margin-top: 32px;
+  margin-top: 5px;
 }
 
 .packdetail-price-form .control-label {
-  margin-bottom: 16px;
+  margin-bottom: 10px;
 }
 
 .packdetail-price-form .form-control {
@@ -1618,6 +1676,7 @@ p {
 .packdetail-price-form .help-block {
   font-style: italic;
   padding-bottom: 10px;
+  margin: 0;
 }
 
 .packdetail-price-form .radio-list {
@@ -1664,13 +1723,12 @@ p {
 */
 
 .packdetail-price-form .btn {
-  padding: 16px 25px;
+  padding: 10px 25px;
   width: 100%;
 }
 
 .packdetail-price-form .price-form-socmed {
-  margin-top: 16px;
-  margin-bottom: 16px;
+  margin-top: 10px;
   text-align: left;
 }
 
@@ -2810,7 +2868,7 @@ p {
   }
 
   .warper {
-    padding-top: 130px;
+    padding-top: 185px;
   }
 
   /* --- ## Homepage ## --- */
@@ -2842,6 +2900,10 @@ p {
   .hero-package .hero-slider .hero-slider-content {
     height: 300px;
     bottom: 0;
+  }
+  /* - price - */
+  .packdetail-right {
+    top: 30%;
   }
 
   /* - Content - */
@@ -3004,6 +3066,11 @@ p {
     padding: 12px;
   }
 
+  /* - price - */
+  .packdetail-right {
+    position: relative;
+  }
+  
   /*
   .packdetail-destination-slider .destination-slider-image {
     max-width: 319px;
@@ -3117,7 +3184,6 @@ p {
   .content-listed-article .listed-card .list-group-item {
     width: 50%;
   }
-
 
   /* --- ## Blog Detail ## --- */
   /* - Blog Detail Right - */
@@ -3659,6 +3725,22 @@ p {
   .hero-package .slider-content-info .slider-info-text {
     font-size: 12px;
     padding: 10px;
+  }
+
+  .js-packdetail-destination-thumbnail{
+    padding-top: 20px;
+  }
+  
+  .thumbnail-icon{
+    top: 50%;
+  }
+  
+  .panel-complete-heading .panel-complete-title, .packdetail-facility .facility-list .facility-item, .content-packdetail .content-title {
+    font-size: 14px;
+  }
+
+  .content-packdetail .title-package, .packdetail-info .media-heading{
+    font-size: 16px;
   }
 
   /* --- ## Blog Detail ## --- */

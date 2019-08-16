@@ -112,124 +112,100 @@
         <div class="col-xs-12">
           <div class="owl-carousel corporate-one js-corporate-one owl-theme">
             <div class="item">
-              <a href="package.php">
-                <div class="panel panel-default card-single">
-                  <div class="panel-body card-single-body">
-                    <img src="images/thumbnails/jagadtour-bromo-sunrise.jpg" width="1035" height="642" alt="" class="img-responsive">
-                    <div class="card-single-packet row">
-                      <div class="left col-md-9 col-xs-9">
-                        <p class="card-single-title">Bromo Sunrise Tour</p>
+              <div class="packdetail-packother card-single">
+                <a href="#">
+                  <div class="panel panel-default card-single">
+                    <div class="panel-body card-single-body">
+                      <img src="images/thumbnails/jagadtour-bromo-sunrise.jpg" width="1035" height="642" alt="" class="img-responsive">
+                      <div class="card-single-caption">
                         <p class="tag tag-orange card-single-tag">Family Trip</p>
-                        <p class="card-single-text duration">1 Day</p>
-                      </div>
-                      <div class="right col-md-3 col-xs-3">
-                        <p class="card-single-text">Booked</p>
-                        <p class="card-single-text">978x</p>
+                        <p class="card-single-title">Bromo Sunrise Tour</p>
+                        <p class="card-single-text">1 Day</p>
                       </div>
                     </div>
                   </div>
-                </div>
-              </a>
+                </a>
+              </div>
             </div>
             <div class="item">
-              <a href="package.php">
-                <div class="panel panel-default card-single">
-                  <div class="panel-body card-single-body">
-                    <img src="images/thumbnails/jagadtour-bromo-sunrise.jpg" width="1035" height="642" alt="" class="img-responsive">
-                    <div class="card-single-packet row">
-                      <div class="left col-md-9 col-xs-9">
-                        <p class="card-single-title">Bromo Sunrise Tour</p>
+              <div class="packdetail-packother card-single">
+                <a href="#">
+                  <div class="panel panel-default card-single">
+                    <div class="panel-body card-single-body">
+                      <img src="images/thumbnails/jagadtour-bromo-sunrise.jpg" width="1035" height="642" alt="" class="img-responsive">
+                      <div class="card-single-caption">
                         <p class="tag tag-orange card-single-tag">Family Trip</p>
-                        <p class="card-single-text duration">1 Day</p>
-                      </div>
-                      <div class="right col-md-3 col-xs-3">
-                        <p class="card-single-text">Booked</p>
-                        <p class="card-single-text">978x</p>
+                        <p class="card-single-title">Bromo Sunrise Tour</p>
+                        <p class="card-single-text">1 Day</p>
                       </div>
                     </div>
                   </div>
-                </div>
-              </a>
+                </a>
+              </div>
             </div>
             <div class="item">
-              <a href="package.php">
-                <div class="panel panel-default card-single">
-                  <div class="panel-body card-single-body">
-                    <img src="images/thumbnails/jagadtour-kota-malang.jpg" width="1035" height="642" alt="" class="img-responsive">
-                    <div class="card-single-packet row">
-                      <div class="left col-md-9 col-xs-9">
+              <div class="packdetail-packother card-single">
+                <a href="#">
+                  <div class="panel panel-default card-single">
+                    <div class="panel-body card-single-body">
+                      <img src="images/thumbnails/jagadtour-bromo-sunrise.jpg" width="1035" height="642" alt="" class="img-responsive">
+                      <div class="card-single-caption">
+                        <p class="tag tag-orange card-single-tag">Family Trip</p>
                         <p class="card-single-title">Tour Malang, Batu &amp; Bromo</p>
-                        <p class="tag tag-orange card-single-tag">Family Trip</p>
-                        <p class="card-single-text duration">4 Days 3 N</p>
-                      </div>
-                      <div class="right col-md-3 col-xs-3">
-                        <p class="card-single-text">Booked</p>
-                        <p class="card-single-text">978x</p>
+                        <p class="card-single-text">4 Days 3 N</p>
                       </div>
                     </div>
                   </div>
-                </div>
-              </a>
+                </a>
+              </div>
             </div>
             <div class="item">
-              <a href="package.php">
-                <div class="panel panel-default card-single">
-                  <div class="panel-body card-single-body">
-                    <img src="images/thumbnails/jagadtour-rafting-songa.jpg" width="1035" height="642" alt="" class="img-responsive">
-                    <div class="card-single-packet row">
-                      <div class="left col-md-9 col-xs-9">
+              <div class="packdetail-packother card-single">
+                <a href="#">
+                  <div class="panel panel-default card-single">
+                    <div class="panel-body card-single-body">
+                      <img src="images/thumbnails/jagadtour-rafting-songa.jpg" width="1035" height="642" alt="" class="img-responsive">
+                      <div class="card-single-caption">
+                        <p class="tag tag-orange card-single-tag">Corporate Trip</p>
                         <p class="card-single-title">Rafting Songa Bromo &amp; Batu</p>
-                        <p class="tag tag-blue card-single-tag">Corporate Trip</p>
-                        <p class="card-single-text duration">3 Days 2 N</p>
-                      </div>
-                      <div class="right col-md-3 col-xs-3">
-                        <p class="card-single-text">Booked</p>
-                        <p class="card-single-text">978x</p>
+                        <p class="card-single-text">3 Days 2 N</p>
                       </div>
                     </div>
                   </div>
-                </div>
-              </a>
+                </a>
+              </div>
             </div>
             <div class="item">
-              <a href="package.php">
-                <div class="panel panel-default card-single">
-                  <div class="panel-body card-single-body">
-                    <img src="images/thumbnails/jagadtour-rafting-songa.jpg" width="1035" height="642" alt="" class="img-responsive">
-                    <div class="card-single-packet row">
-                      <div class="left col-md-9 col-xs-9">
+              <div class="packdetail-packother card-single">
+                <a href="#">
+                  <div class="panel panel-default card-single">
+                    <div class="panel-body card-single-body">
+                      <img src="images/thumbnails/jagadtour-rafting-songa.jpg" width="1035" height="642" alt="" class="img-responsive">
+                      <div class="card-single-caption">
+                        <p class="tag tag-orange card-single-tag">Corporate Trip</p>
                         <p class="card-single-title">Tour Malang, Bromo, &amp; Batu</p>
-                        <p class="tag tag-blue card-single-tag">Corporate Trip</p>
-                        <p class="card-single-text duration">4 Days 3 N</p>
-                      </div>
-                      <div class="right col-md-3 col-xs-3">
-                        <p class="card-single-text">Booked</p>
-                        <p class="card-single-text">978x</p>
+                        <p class="card-single-text">4 Days 3 N</p>
                       </div>
                     </div>
                   </div>
-                </div>
-              </a>
+                </a>
+              </div>
             </div>
             <div class="item">
-              <a href="package.php">
-                <div class="panel panel-default card-single">
-                  <div class="panel-body card-single-body">
-                    <img src="images/thumbnails/jagadtour-rafting-songa.jpg" width="1035" height="642" alt="" class="img-responsive">
-                    <div class="card-single-packet row">
-                      <div class="left col-md-9 col-xs-9">
+              <div class="packdetail-packother card-single">
+                <a href="#">
+                  <div class="panel panel-default card-single">
+                    <div class="panel-body card-single-body">
+                      <img src="images/thumbnails/jagadtour-rafting-songa.jpg" width="1035" height="642" alt="" class="img-responsive">
+                      <div class="card-single-caption">
+                        <p class="tag tag-orange card-single-tag">Corporate Trip</p>
                         <p class="card-single-title">Tour Museum Malang</p>
-                        <p class="tag tag-blue card-single-tag">Corporate Trip</p>
-                        <p class="card-single-text duration">3 Days 2 N</p>
-                      </div>
-                      <div class="right col-md-3 col-xs-3">
-                        <p class="card-single-text">Booked</p>
-                        <p class="card-single-text">978x</p>
+                        <p class="card-single-text">3 Days 2 N</p>
                       </div>
                     </div>
                   </div>
-                </div>
-              </a>
+                </a>
+              </div>
             </div>
           </div>
         </div>
@@ -254,124 +230,100 @@
         <div class="col-xs-12">
           <div class="owl-carousel corporate-two js-corporate-two owl-theme">
             <div class="item">
-              <a href="package.php">
-                <div class="panel panel-default card-single">
-                  <div class="panel-body card-single-body">
-                    <img src="images/thumbnails/jagadtour-bromo-sunrise.jpg" width="1035" height="642" alt="" class="img-responsive">
-                    <div class="card-single-packet row">
-                      <div class="left col-md-9 col-xs-9">
-                        <p class="card-single-title">Bromo Sunrise Tour</p>
+              <div class="packdetail-packother card-single">
+                <a href="#">
+                  <div class="panel panel-default card-single">
+                    <div class="panel-body card-single-body">
+                      <img src="images/thumbnails/jagadtour-bromo-sunrise.jpg" width="1035" height="642" alt="" class="img-responsive">
+                      <div class="card-single-caption">
                         <p class="tag tag-orange card-single-tag">Family Trip</p>
-                        <p class="card-single-text duration">1 Day</p>
-                      </div>
-                      <div class="right col-md-3 col-xs-3">
-                        <p class="card-single-text">Booked</p>
-                        <p class="card-single-text">978x</p>
+                        <p class="card-single-title">Bromo Sunrise Tour</p>
+                        <p class="card-single-text">1 Day</p>
                       </div>
                     </div>
                   </div>
-                </div>
-              </a>
+                </a>
+              </div>
             </div>
             <div class="item">
-              <a href="package.php">
-                <div class="panel panel-default card-single">
-                  <div class="panel-body card-single-body">
-                    <img src="images/thumbnails/jagadtour-bromo-sunrise.jpg" width="1035" height="642" alt="" class="img-responsive">
-                    <div class="card-single-packet row">
-                      <div class="left col-md-9 col-xs-9">
-                        <p class="card-single-title">Bromo Sunrise Tour</p>
+              <div class="packdetail-packother card-single">
+                <a href="#">
+                  <div class="panel panel-default card-single">
+                    <div class="panel-body card-single-body">
+                      <img src="images/thumbnails/jagadtour-bromo-sunrise.jpg" width="1035" height="642" alt="" class="img-responsive">
+                      <div class="card-single-caption">
                         <p class="tag tag-orange card-single-tag">Family Trip</p>
-                        <p class="card-single-text duration">1 Day</p>
-                      </div>
-                      <div class="right col-md-3 col-xs-3">
-                        <p class="card-single-text">Booked</p>
-                        <p class="card-single-text">978x</p>
+                        <p class="card-single-title">Bromo Sunrise Tour</p>
+                        <p class="card-single-text">1 Day</p>
                       </div>
                     </div>
                   </div>
-                </div>
-              </a>
+                </a>
+              </div>
             </div>
             <div class="item">
-              <a href="package.php">
-                <div class="panel panel-default card-single">
-                  <div class="panel-body card-single-body">
-                    <img src="images/thumbnails/jagadtour-kota-malang.jpg" width="1035" height="642" alt="" class="img-responsive">
-                    <div class="card-single-packet row">
-                      <div class="left col-md-9 col-xs-9">
+              <div class="packdetail-packother card-single">
+                <a href="#">
+                  <div class="panel panel-default card-single">
+                    <div class="panel-body card-single-body">
+                      <img src="images/thumbnails/jagadtour-bromo-sunrise.jpg" width="1035" height="642" alt="" class="img-responsive">
+                      <div class="card-single-caption">
+                        <p class="tag tag-orange card-single-tag">Family Trip</p>
                         <p class="card-single-title">Tour Malang, Batu &amp; Bromo</p>
-                        <p class="tag tag-orange card-single-tag">Family Trip</p>
-                        <p class="card-single-text duration">4 Days 3 N</p>
-                      </div>
-                      <div class="right col-md-3 col-xs-3">
-                        <p class="card-single-text">Booked</p>
-                        <p class="card-single-text">978x</p>
+                        <p class="card-single-text">4 Days 3 N</p>
                       </div>
                     </div>
                   </div>
-                </div>
-              </a>
+                </a>
+              </div>
             </div>
             <div class="item">
-              <a href="package.php">
-                <div class="panel panel-default card-single">
-                  <div class="panel-body card-single-body">
-                    <img src="images/thumbnails/jagadtour-rafting-songa.jpg" width="1035" height="642" alt="" class="img-responsive">
-                    <div class="card-single-packet row">
-                      <div class="left col-md-9 col-xs-9">
+              <div class="packdetail-packother card-single">
+                <a href="#">
+                  <div class="panel panel-default card-single">
+                    <div class="panel-body card-single-body">
+                      <img src="images/thumbnails/jagadtour-rafting-songa.jpg" width="1035" height="642" alt="" class="img-responsive">
+                      <div class="card-single-caption">
+                        <p class="tag tag-orange card-single-tag">Corporate Trip</p>
                         <p class="card-single-title">Rafting Songa Bromo &amp; Batu</p>
-                        <p class="tag tag-blue card-single-tag">Corporate Trip</p>
-                        <p class="card-single-text duration">3 Days 2 N</p>
-                      </div>
-                      <div class="right col-md-3 col-xs-3">
-                        <p class="card-single-text">Booked</p>
-                        <p class="card-single-text">978x</p>
+                        <p class="card-single-text">3 Days 2 N</p>
                       </div>
                     </div>
                   </div>
-                </div>
-              </a>
+                </a>
+              </div>
             </div>
             <div class="item">
-              <a href="package.php">
-                <div class="panel panel-default card-single">
-                  <div class="panel-body card-single-body">
-                    <img src="images/thumbnails/jagadtour-rafting-songa.jpg" width="1035" height="642" alt="" class="img-responsive">
-                    <div class="card-single-packet row">
-                      <div class="left col-md-9 col-xs-9">
+              <div class="packdetail-packother card-single">
+                <a href="#">
+                  <div class="panel panel-default card-single">
+                    <div class="panel-body card-single-body">
+                      <img src="images/thumbnails/jagadtour-rafting-songa.jpg" width="1035" height="642" alt="" class="img-responsive">
+                      <div class="card-single-caption">
+                        <p class="tag tag-orange card-single-tag">Corporate Trip</p>
                         <p class="card-single-title">Tour Malang, Bromo, &amp; Batu</p>
-                        <p class="tag tag-blue card-single-tag">Corporate Trip</p>
-                        <p class="card-single-text duration">4 Days 3 N</p>
-                      </div>
-                      <div class="right col-md-3 col-xs-3">
-                        <p class="card-single-text">Booked</p>
-                        <p class="card-single-text">978x</p>
+                        <p class="card-single-text">4 Days 3 N</p>
                       </div>
                     </div>
                   </div>
-                </div>
-              </a>
+                </a>
+              </div>
             </div>
             <div class="item">
-              <a href="package.php">
-                <div class="panel panel-default card-single">
-                  <div class="panel-body card-single-body">
-                    <img src="images/thumbnails/jagadtour-rafting-songa.jpg" width="1035" height="642" alt="" class="img-responsive">
-                    <div class="card-single-packet row">
-                      <div class="left col-md-9 col-xs-9">
+              <div class="packdetail-packother card-single">
+                <a href="#">
+                  <div class="panel panel-default card-single">
+                    <div class="panel-body card-single-body">
+                      <img src="images/thumbnails/jagadtour-rafting-songa.jpg" width="1035" height="642" alt="" class="img-responsive">
+                      <div class="card-single-caption">
+                        <p class="tag tag-orange card-single-tag">Corporate Trip</p>
                         <p class="card-single-title">Tour Museum Malang</p>
-                        <p class="tag tag-blue card-single-tag">Corporate Trip</p>
-                        <p class="card-single-text duration">3 Days 2 N</p>
-                      </div>
-                      <div class="right col-md-3 col-xs-3">
-                        <p class="card-single-text">Booked</p>
-                        <p class="card-single-text">978x</p>
+                        <p class="card-single-text">3 Days 2 N</p>
                       </div>
                     </div>
                   </div>
-                </div>
-              </a>
+                </a>
+              </div>
             </div>
           </div>
         </div>
@@ -395,19 +347,19 @@
             <div class="item">
               <div class="panel panel-default testi-slider-item">
                 <div class="panel-body">
-                  <p class="testi-slider-statement">
-                    Dari awal ketika melihat jagad tour ada satu pikiran saya bahwa, travel ini memiliki rasa tanggung jawab dan
-                    beda dengan yang lain mulai dari fasilitas dan pendukung lainnya. Sukses terus jagad tour
-                  </p>
                   <div class="media testi-slider-media">
-                    <div class="media-left">
-                      <a href="#">
-                        <img src="images/testimonials/1.jpg" width="104" height="104" alt="Testimonial Putri Sahadaya di Jagadtour" class="media-object testi-slider-photo">
-                      </a>
-                    </div>
-                    <div class="media-body media-middle">
-                      <h4 class="media-heading testi-slider-name">Kartika</h4>
-                      <p class="testi-slider-city">Bandung</p>
+                    <a class="home" href="#">
+                      <img src="images/testimonials/1.jpg" width="104" height="104" alt="Testimonial Putri Sahadaya di Jagadtour" class="media-object testi-slider-photo">
+                    </a>
+                    <div class="home-comment">
+                      <div class="media-body media-middle">
+                        <h4 class="media-heading testi-slider-name">Kartika</h4>
+                        <p class="testi-slider-city">Bandung</p>
+                        <p class="testi-slider-statement">
+                          Dari awal ketika melihat jagad tour ada satu pikiran saya bahwa, travel ini memiliki rasa tanggung jawab dan
+                          beda dengan yang lain mulai dari fasilitas dan pendukung lainnya. Sukses terus jagad tour
+                        </p>
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -416,19 +368,19 @@
             <div class="item">
               <div class="panel panel-default testi-slider-item">
                 <div class="panel-body">
-                  <p class="testi-slider-statement">
-                    Bagi saya jagad tour punya treatment khusus untuk membuat client merasa nyaman dan bahagia saat berwisata di
-                    malang dan kami merasakan itu. Semoga Tuhan memberkati Jagad Tour dan timnya
-                  </p>
                   <div class="media testi-slider-media">
-                    <div class="media-left">
-                      <a href="#">
-                        <img src="images/photos/testimoni-47.jpg" width="104" height="104" alt="Testimonial Asuna Diana di Jagadtour" class="media-object testi-slider-photo">
-                      </a>
-                    </div>
                     <div class="media-body media-middle">
-                      <h4 class="media-heading testi-slider-name">Andi</h4>
-                      <p class="testi-slider-city">Jakarta</p>
+                      <a class="home" href="#">
+                        <img src="images/testimonials/2.jpg" width="3000" height="3000" alt="Testimonial Asuna Diana di Jagadtour" class="media-object testi-slider-photo">
+                      </a>
+                      <div class="home-comment">
+                        <h4 class="media-heading testi-slider-name">Andi</h4>
+                        <p class="testi-slider-city">Jakarta</p>
+                        <p class="testi-slider-statement">
+                          Bagi saya jagad tour punya treatment khusus untuk membuat client merasa nyaman dan bahagia saat berwisata di
+                          malang dan kami merasakan itu. Semoga Tuhan memberkati Jagad Tour dan timnya
+                        </p>
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -446,22 +398,22 @@
             <div class="item">
               <ul class="list-inline happy-clients">
                 <li class="happy-client-item">
-                  <img src="images/clients/aiesec%20jakarta.png" width="596" height="84" class="img-responsive">
+                  <img src="images/clients/aiesec%20jakarta.jpg" width="596" height="84" class="img-responsive">
                 </li>
                 <li class="happy-client-item">
                   <img src="images/clients/bank%20bri.jpg" width="1600" height="824" class="img-responsive">
                 </li>
                 <li class="happy-client-item">
-                  <img src="images/clients/bhayangkari%20seruyan.png" width="962" height="863" class="img-responsive">
+                  <img src="images/clients/bhayangkari%20seruyan.jpg" width="962" height="863" class="img-responsive">
                 </li>
                 <li class="happy-client-item">
                   <img src="images/clients/bps%20kota%20palu.jpg" width="1024" height="576" class="img-responsive">
                 </li>
                 <li class="happy-client-item">
-                  <img src="images/clients/dharma%20wanita%20samarinda.png" width="400" height="300" class="img-responsive">
+                  <img src="images/clients/dharma%20wanita%20samarinda.jpg" width="400" height="300" class="img-responsive">
                 </li>
                 <li class="happy-client-item">
-                  <img src="images/clients/dinas%20kesehatan%20muara%20enim.png" width="174" height="200" class="img-responsive">
+                  <img src="images/clients/dinas%20kesehatan%20muara%20enim.jpg" width="174" height="200" class="img-responsive">
                 </li>
                 <li class="happy-client-item">
                   <img src="images/clients/pertamina%20gas.jpg" width="174" height="200" class="img-responsive">
@@ -474,13 +426,13 @@
             <div class="item">
               <ul class="list-inline happy-clients">
                 <li class="happy-client-item">
-                  <img src="images/clients/sma%20taruna%20bumi%20khatulistiwa.gif" width="596" height="84" class="img-responsive">
+                  <img src="images/clients/sma%20taruna%20bumi%20khatulistiwa.jpg" width="596" height="84" class="img-responsive">
                 </li>
                 <li class="happy-client-item">
                   <img src="images/clients/pt%20prisma%20harapan.jpg" width="1600" height="824" class="img-responsive">
                 </li>
                 <li class="happy-client-item">
-                  <img src="images/clients/pt%20ray%20cipta%20mandiri.JPG" width="962" height="863" class="img-responsive">
+                  <img src="images/clients/pt%20ray%20cipta%20mandiri.jpg" width="962" height="863" class="img-responsive">
                 </li>
                 <li class="happy-client-item">
                   <img src="images/clients/pt%20star%20concord%20indonesia.jpg" width="1024" height="576" class="img-responsive">
@@ -492,91 +444,91 @@
                   <img src="images/clients/smk%20muhammadiyah.jpg" width="174" height="200" class="img-responsive">
                 </li>
                 <li class="happy-client-item">
-                  <img src="images/clients/iwaba%20bengkulu.png" width="174" height="200" class="img-responsive">
+                  <img src="images/clients/iwaba%20bengkulu.jpg" width="174" height="200" class="img-responsive">
                 </li>
                 <li class="happy-client-item">
-                  <img src="images/clients/jasa%20marga%20balikpapan.png" width="174" height="200" class="img-responsive">
-                </li>
-              </ul>
-            </div>
-            <div class="item">
-              <ul class="list-inline happy-clients">
-                <li class="happy-client-item">
-                  <img src="images/clients/kabupaten%20bungo.png" width="596" height="84" class="img-responsive">
-                </li>
-                <li class="happy-client-item">
-                  <img src="images/clients/kemendikbud.png" width="1600" height="824" class="img-responsive">
-                </li>
-                <li class="happy-client-item">
-                  <img src="images/clients/kemenkumham.png" width="962" height="863" class="img-responsive">
-                </li>
-                <li class="happy-client-item">
-                  <img src="images/clients/kementrian%20kesehatan%20ri.png" width="1024" height="576" class="img-responsive">
-                </li>
-                <li class="happy-client-item">
-                  <img src="images/clients/maestro%20law%20affice%20jakarta.png" width="400" height="300" class="img-responsive">
-                </li>
-                <li class="happy-client-item">
-                  <img src="images/clients/makassar%20terminal%20services.png" width="174" height="200" class="img-responsive">
-                </li>
-                <li class="happy-client-item">
-                  <img src="images/clients/pr%20reska%20multi%20usaha.png" width="174" height="200" class="img-responsive">
-                </li>
-                <li class="happy-client-item">
-                  <img src="images/clients/pt%20bayan%20resources.png" width="174" height="200" class="img-responsive">
+                  <img src="images/clients/jasa%20marga%20balikpapan.jpg" width="174" height="200" class="img-responsive">
                 </li>
               </ul>
             </div>
             <div class="item">
               <ul class="list-inline happy-clients">
                 <li class="happy-client-item">
-                  <img src="images/clients/pt juke solusi.png" width="596" height="84" class="img-responsive">
+                  <img src="images/clients/kabupaten%20bungo.jpg" width="596" height="84" class="img-responsive">
                 </li>
                 <li class="happy-client-item">
-                  <img src="images/clients/pt kompindo fontana raya.png" width="1600" height="824" class="img-responsive">
+                  <img src="images/clients/kemendikbud.jpg" width="1600" height="824" class="img-responsive">
                 </li>
                 <li class="happy-client-item">
-                  <img src="images/clients/pt mitrasetia jaya group.png" width="962" height="863" class="img-responsive">
+                  <img src="images/clients/kemenkumham.jpg" width="962" height="863" class="img-responsive">
                 </li>
                 <li class="happy-client-item">
-                  <img src="images/clients/pt ptp tanjung priok.png" width="1024" height="576" class="img-responsive">
+                  <img src="images/clients/kementrian%20kesehatan%20ri.jpg" width="1024" height="576" class="img-responsive">
                 </li>
                 <li class="happy-client-item">
-                  <img src="images/clients/pt pundi mitra kencana.png" width="400" height="300" class="img-responsive">
+                  <img src="images/clients/maestro%20law%20affice%20jakarta.jpg" width="400" height="300" class="img-responsive">
                 </li>
                 <li class="happy-client-item">
-                  <img src="images/clients/pt setia sapta.png" width="174" height="200" class="img-responsive">
+                  <img src="images/clients/makassar%20terminal%20services.jpg" width="174" height="200" class="img-responsive">
                 </li>
                 <li class="happy-client-item">
-                  <img src="images/clients/pt talbia jakarta.png" width="174" height="200" class="img-responsive">
+                  <img src="images/clients/pr%20reska%20multi%20usaha.jpg" width="174" height="200" class="img-responsive">
                 </li>
                 <li class="happy-client-item">
-                  <img src="images/clients/pwp ru pakning.png" width="174" height="200" class="img-responsive">
+                  <img src="images/clients/pt%20bayan%20resources.jpg" width="174" height="200" class="img-responsive">
                 </li>
               </ul>
             </div>
             <div class="item">
               <ul class="list-inline happy-clients">
                 <li class="happy-client-item">
-                  <img src="images/clients/telkom.png" width="596" height="84" class="img-responsive">
+                  <img src="images/clients/pt juke solusi.jpg" width="596" height="84" class="img-responsive">
                 </li>
                 <li class="happy-client-item">
-                  <img src="images/clients/tmim sunter.png" width="1600" height="824" class="img-responsive">
+                  <img src="images/clients/pt kompindo fontana raya.jpg" width="1600" height="824" class="img-responsive">
                 </li>
                 <li class="happy-client-item">
-                  <img src="images/clients/trisakti.png" width="962" height="863" class="img-responsive">
+                  <img src="images/clients/pt mitrasetia jaya group.jpg" width="962" height="863" class="img-responsive">
                 </li>
                 <li class="happy-client-item">
-                  <img src="images/clients/united asia futures.png" width="1024" height="576" class="img-responsive">
+                  <img src="images/clients/pt ptp tanjung priok.jpg" width="1024" height="576" class="img-responsive">
                 </li>
                 <li class="happy-client-item">
-                  <img src="images/clients/universitas negeri padang.png" width="400" height="300" class="img-responsive">
+                  <img src="images/clients/pt pundi mitra kencana.jpg" width="400" height="300" class="img-responsive">
                 </li>
                 <li class="happy-client-item">
-                  <img src="images/clients/yayasan nurul hikmah jakarta.png" width="174" height="200" class="img-responsive">
+                  <img src="images/clients/pt setia sapta.jpg" width="174" height="200" class="img-responsive">
                 </li>
                 <li class="happy-client-item">
-                  <img src="images/clients/yeos family.png" width="174" height="200" class="img-responsive">
+                  <img src="images/clients/pt talbia jakarta.jpg" width="174" height="200" class="img-responsive">
+                </li>
+                <li class="happy-client-item">
+                  <img src="images/clients/pwp ru pakning.jpg" width="174" height="200" class="img-responsive">
+                </li>
+              </ul>
+            </div>
+            <div class="item">
+              <ul class="list-inline happy-clients">
+                <li class="happy-client-item">
+                  <img src="images/clients/telkom.jpg" width="596" height="84" class="img-responsive">
+                </li>
+                <li class="happy-client-item">
+                  <img src="images/clients/tmim sunter.jpg" width="1600" height="824" class="img-responsive">
+                </li>
+                <li class="happy-client-item">
+                  <img src="images/clients/trisakti.jpg" width="962" height="863" class="img-responsive">
+                </li>
+                <li class="happy-client-item">
+                  <img src="images/clients/united asia futures.jpg" width="1024" height="576" class="img-responsive">
+                </li>
+                <li class="happy-client-item">
+                  <img src="images/clients/universitas negeri padang.jpg" width="400" height="300" class="img-responsive">
+                </li>
+                <li class="happy-client-item">
+                  <img src="images/clients/yayasan nurul hikmah jakarta.jpg" width="174" height="200" class="img-responsive">
+                </li>
+                <li class="happy-client-item">
+                  <img src="images/clients/yeos family.jpg" width="174" height="200" class="img-responsive">
                 </li>
               </ul>
             </div>
@@ -818,7 +770,7 @@
         },
         1200: {
           items: 1,
-          autoplay: true
+          // autoplay: true
         }
       }
     });

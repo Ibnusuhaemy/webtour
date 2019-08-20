@@ -126,45 +126,51 @@
             <p class="newsletter-desc">
               Dapatkan tips dan info diskon paket wisata terbaru dari Jagad Tour melalui email anda. Gratis!
             </p>
-            <form class="newsletter-form">
+            <!-- Begin Mailchimp Signup Form -->
+            <form action="https://gmail.us3.list-manage.com/subscribe/post?u=095f958e797e8d60296fc8499&amp;id=5205866a69" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="newsletter-form validate" target="_blank" novalidate>
               <div class="form-group">
-                <input type="email" name="email" value="" placeholder="Masukkan email anda" class="form-control">
+                <input type="email" value="" name="EMAIL" class="required email form-control" placeholder="Masukkan email anda" id="mce-EMAIL">
               </div>
-              <div class="form-group">
-                <input type="submit" name="subscribe" value="subscribe" class="btn btn-rounded btn-orange">
+              <div id="mce-responses" class="clear">
+                <div class="response" id="mce-error-response" style="display:none"></div>
+                <div class="response" id="mce-success-response" style="display:none"></div>
+              </div>
+              <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+              <div class="clear">
+                <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button btn btn-rounded btn-orange">
               </div>
             </form>
           </div>
-          <div class="col-xs-6 col-sm-6 col-md-3 footer-menu-article full-width">
+          <div class="col-xs-6 col-sm-6 col-md-4 footer-menu-article full-width">
             <h4>Artikel Terbaru</h4>
             <div class="media article-media">
               <div class="media-left article-media-photo">
-                <a href="#">
+                <a href="blog-detail.php">
                   <img class="media-object" src="images/thumbnails/jagadtour-ig-2.jpg" width="490" height="490" alt="Jagadtour Artikel">
                 </a>
               </div>
               <div class="media-body">
-                <p>Tips mendaki dan berkeliling gunung bromo</p>
+                <p><a href="blog-detail.php">Tips mendaki dan berkeliling gunung bromo</a></p>
               </div>
             </div>
             <div class="media article-media">
               <div class="media-left article-media-photo">
-                <a href="#">
+                <a href="blog-detail.php">
                   <img class="media-object" src="images/thumbnails/jagadtour-ig-1.jpg" width="452" height="490" alt="Jagadtour Artikel">
                 </a>
               </div>
               <div class="media-body">
-                <p>Biaya dan itenerary pantai balekambang malang</p>
+                <p><a href="blog-detail.php">Biaya dan itenerary pantai balekambang malang</a></p>
               </div>
             </div>
             <div class="media article-media">
               <div class="media-left article-media-photo">
-                <a href="#">
+                <a href="blog-detail.php">
                   <img class="media-object" src="images/thumbnails/jagadtour-ig-1.jpg" width="452" height="490" alt="Jagadtour Artikel">
                 </a>
               </div>
               <div class="media-body">
-                <p>Biaya dan itenerary pantai balekambang malang</p>
+                <p><a href="blog-detail.php">Biaya dan itenerary pantai balekambang malang</a></p>
               </div>
             </div>
             <div class="media article-media">
@@ -174,7 +180,7 @@
                 </a>
               </div>
               <div class="media-body">
-                <p>Kuliner jadul nan nikmat di sekitar kota malang</p>
+                <p><a href="blog-detail.php">Kuliner jadul nan nikmat di sekitar kota malang</a></p>
               </div>
             </div>
           </div>
@@ -189,24 +195,29 @@
               <li class="info-list-item"><a href="faq.php">FAQ</a></li>
             </ul>
           </div>
-          <div class="col-xs-6 col-sm-6 col-md-4 footer-menu-contact">
+          <div class="col-xs-6 col-sm-6 col-md-3 footer-menu-contact">
             <h4>Alamat</h4>
-            <p class="contact-content contact-address">
-              PT Jagad Travel Indonesia <br>
-              Perumahan Bumi Dau Permai B12 <br>
-              Kecamatan Bumiaji <br>
-              Kota Malang, Jawa Timur <br>
-              Kodepos : 65148
-            </p>
-            <p class="contact-content">Find Us</p>
             <p class="contact-content">
+              PT. Jagad Mahakarya Wisata <br>
+              Malang (Office 1) <br> Banyuwangi (Office 2) <br> Ranupane (Basecamp) <br>
+              Jawa Timur : 65148 <br>
+            </p>
+            <p class="contact-content">Email: cs@jagadtour.com</p>
+            <p class="contact-content contact-address">Hotline : 0341 – 5051185 / 08113785758 / 082244441318</p>
+            <p class="contact-content">Find Us</p>
+            <p class="contact-content socmed-list">
               <a class="contact-content-sm" href="#"><i class="fa fa-instagram"></i></a>
               <a class="contact-content-sm" href="#"><i class="fa fa-facebook-square"></i></a>
               <a class="contact-content-sm" href="#"><i class="fa fa-twitter-square"></i></a>
               <a class="contact-content-sm" href="#"><i class="fa fa-youtube-play"></i></a>
             </p>
-            <p class="contact-content">Email: halo@jagadtour.com</p>
-            <p class="contact-content">Whatsapp: 0868887289290</p>
+            <p class="contact-content">We Accept Payment From</p>
+            <p class="contact-content payment-list">
+              <a href="#"><i class="bank-icon icon-bri"></i></a>
+              <a href="#"><i class="bank-icon icon-bni"></i></a>
+              <a href="#"><i class="bank-icon icon-mandiri"></i></a>
+              <a href="#"><i class="bank-icon icon-bca"></i></a>
+            </p>
           </div>
         </div>
       </div>
@@ -214,10 +225,10 @@
     <div class="footer-copyright">
       <div class="container">
         <div class="row">
-          <div class="col-md-6 copyright-left">
+          <div class="col-sm-6 copyright-left">
             <p>Copyright © 2019 Jagad Tour | All right reserved.</p>
           </div>
-          <div class="col-md-6 copyright-right">
+          <div class="col-sm-6 copyright-right">
             <p>Website designed &amp; developed by Illiyin Studio</p>
           </div>
         </div>

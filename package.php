@@ -23,6 +23,7 @@
   <link rel="stylesheet" type="text/css" href="vendor/owl-carousel.2.3.4/assets/owl.carousel.min.css">
   <link rel="stylesheet" type="text/css" href="vendor/owl-carousel.2.3.4/assets/owl.theme.default.css">
   <link rel="stylesheet" type="text/css" href="vendor/datetimepicker.4.17.42/css/bootstrap-datetimepicker.min.css">
+  <link rel="stylesheet" type="text/css" href="vendor/slick/slick.css">
 
   <link rel="stylesheet" type="text/css" href="css/main.css?v=15">
 
@@ -70,8 +71,8 @@
             <div class="collapse navbar-collapse menu-box-collapse" id="bs-example-navbar-collapse-1">
               <ul class="nav navbar-nav menu-box-item">
                 <li><a href="index.php">Home<span class="sr-only">(current)</span></a></li>
-                <li><a href="#">Family Trip</a></li>
-                <li class="active"><a href="package.php">Corporate</a></li>
+                <li><a href="family-trip.php">Family Trip</a></li>
+                <li><a href="corporate-trip.php">Corporate</a></li>
                 <li><a href="#">Custom Trip</a></li>
                 <li><a href="gallery-testi.php">Gallery & Testimoni</a></li>
                 <li><a href="blog.php">Blog</a></li>
@@ -164,11 +165,12 @@
               </div>
             </div>
 
-            <div class="content-packdetail-panel packdetail-destination">
-              <div class="owl-carousel owl-theme packdetail-destination-slider js-packdetail-destination-slider">
+            <div class="content-packdetail-panel packdetail-destination">              
+              <div class="packdetail-destination-slider js-packdetail-destination-slider">
                 <div class="item">
                   <div class="destination-slider-image">
-                    <img src="images/sliders/jagadtour-taman-rekreasi-selecta.jpg" width="800" height="445" alt="Paket Wisata Jagadtour">
+                    <!-- <img src="images/sliders/jagadtour-taman-rekreasi-selecta.jpg" width="800" height="445" alt="Paket Wisata Jagadtour"> -->
+                    <img src="images/sliders/jagadtour-wisata-bromo-6.jpg" width="1280" height="720" alt="Paket Wisata Jagadtour">
                   </div>
                   <div class="destination-slider-caption">
                     <p>Selecta</p>
@@ -176,7 +178,8 @@
                 </div>
                 <div class="item">
                   <div class="destination-slider-image">
-                    <img src="images/sliders/jagadtour-jatim-park-1.jpg" width="1366" height="768" alt="Paket Wisata Jagadtour">
+                    <!-- <img src="images/sliders/jagadtour-jatim-park-1.jpg" width="1366" height="768" alt="Paket Wisata Jagadtour"> -->
+                    <img src="images/sliders/jagadtour-wisata-bromo-5.jpg" width="1280" height="720" alt="Paket Wisata Jagadtour">
                   </div>
                   <div class="destination-slider-caption">
                     <p>JatimPark 1</p>
@@ -184,10 +187,46 @@
                 </div>
                 <div class="item">
                   <div class="destination-slider-image">
-                    <img src="images/sliders/jagadtour-museum-angkut-malang.jpg" width="1440" height="959" alt="Paket Wisata Jagadtour">
+                    <!-- <img src="images/sliders/jagadtour-museum-angkut-malang.jpg" width="1440" height="959" alt="Paket Wisata Jagadtour"> -->
+                    <img src="images/sliders/jagadtour-wisata-bromo-2.jpg" width="1280" height="720" alt="Paket Wisata Jagadtour">
                   </div>
                   <div class="destination-slider-caption">
                     <p>Museum Angkot</p>
+                  </div>
+                </div>
+                <div class="item">
+                  <div class="destination-slider-image">
+                    <!-- <img src="images/sliders/jagadtour-museum-angkut-malang.jpg" width="1440" height="959" alt="Paket Wisata Jagadtour"> -->
+                    <img src="images/sliders/jagadtour-wisata-bromo-1.jpg" width="1280" height="720" alt="Paket Wisata Jagadtour">
+                  </div>
+                  <div class="destination-slider-caption">
+                    <p>Museum Angkot</p>
+                  </div>
+                </div>
+              </div>
+              <div class="packdetail-destination-slider js-packdetail-destination-thumbnail">
+                <div class="item">
+                  <div class="destination-slider-image">
+                    <!-- <img src="images/sliders/jagadtour-taman-rekreasi-selecta.jpg" width="800" height="445" alt="Paket Wisata Jagadtour"> -->
+                    <img src="images/sliders/jagadtour-wisata-bromo-6.jpg" width="1280" height="720" alt="Paket Wisata Jagadtour">
+                  </div>
+                </div>
+                <div class="item">
+                  <div class="destination-slider-image">
+                    <!-- <img src="images/sliders/jagadtour-jatim-park-1.jpg" width="1366" height="768" alt="Paket Wisata Jagadtour"> -->
+                    <img src="images/sliders/jagadtour-wisata-bromo-5.jpg" width="1280" height="720" alt="Paket Wisata Jagadtour">
+                  </div>
+                </div>
+                <div class="item">
+                  <div class="destination-slider-image">
+                    <!-- <img src="images/sliders/jagadtour-museum-angkut-malang.jpg" width="1440" height="959" alt="Paket Wisata Jagadtour"> -->
+                    <img src="images/sliders/jagadtour-wisata-bromo-2.jpg" width="1280" height="720" alt="Paket Wisata Jagadtour">
+                  </div>
+                </div>
+                <div class="item">
+                  <div class="destination-slider-image">
+                    <!-- <img src="images/sliders/jagadtour-museum-angkut-malang.jpg" width="1440" height="959" alt="Paket Wisata Jagadtour"> -->
+                    <img src="images/sliders/jagadtour-wisata-bromo-1.jpg" width="1280" height="720" alt="Paket Wisata Jagadtour">
                   </div>
                 </div>
               </div>
@@ -199,7 +238,7 @@
             <h2 class="content-title">Itinerary</h2>
             <div class="panel-group card-group" id="js-package" role="tablist" aria-multiselectable="true">
               <div class="panel panel-default panel-complete content-packdetail-panel packdetail-itinerary">
-                <div class="panel-heading panel-complete-heading panel-heading-blue" role="tab" id="heading-itinerary">
+                <div class="panel-heading panel-complete-heading panel-heading-light_blue" role="tab" id="heading-itinerary">
                   <h4 class="panel-title panel-complete-title">
                     <a role="button" data-toggle="collapse" data-parent="#js-package" href="#js-package-itinerary-1" aria-expanded="true" aria-controls="js-package-itinerary">Hari ke 1: Taman Rekreasi Selecta</a>
                   </h4>
@@ -224,7 +263,7 @@
                 </div>
               </div>
               <div class="panel panel-default panel-complete content-packdetail-panel packdetail-itinerary">
-                <div class="panel-heading panel-complete-heading panel-heading-blue" role="tab" id="heading-itinerary">
+                <div class="panel-heading panel-complete-heading panel-heading-light_blue" role="tab" id="heading-itinerary">
                   <h4 class="panel-title panel-complete-title">
                     <a role="button" data-toggle="collapse" data-parent="#js-package" href="#js-package-itinerary-2" aria-expanded="true" aria-controls="js-package-itinerary">Hari ke 2: Jatim Park 1</a>
                   </h4>
@@ -251,7 +290,7 @@
                 </div>
               </div>
               <div class="panel panel-default panel-complete content-packdetail-panel packdetail-itinerary">
-                <div class="panel-heading panel-complete-heading panel-heading-blue" role="tab" id="heading-itinerary">
+                <div class="panel-heading panel-complete-heading panel-heading-light_blue" role="tab" id="heading-itinerary">
                   <h4 class="panel-title panel-complete-title">
                     <a role="button" data-toggle="collapse" data-parent="#js-package" href="#js-package-itinerary-3" aria-expanded="true" aria-controls="js-package-itinerary">Hari ke 3: Museum Angkut</a>
                   </h4>
@@ -283,12 +322,12 @@
           <div class="packdetail-contents packdetail-facility">
             <h2 class="content-title">Fasilitas</h2>
             <ul class="facility-list">
-              <li class="facility-item"><i class="fa fa-check-circle facility-item-icon facility-item-icon-in"></i> Bus Wisata</li>
-              <li class="facility-item"><i class="fa fa-check-circle facility-item-icon facility-item-icon-in"></i> Hotel</li>
-              <li class="facility-item"><i class="fa fa-times-circle facility-item-icon facility-item-icon-ex"></i> Jeep</li>
-              <li class="facility-item"><i class="fa fa-times-circle facility-item-icon facility-item-icon-ex"></i> Villa</li>
-              <li class="facility-item"><i class="fa fa-check-circle facility-item-icon facility-item-icon-in"></i> Sarapan</li>
-              <li class="facility-item"><i class="fa fa-times-circle facility-item-icon facility-item-icon-ex"></i> Coffe Break</li>
+              <li class="facility-item"><i class="fa fa-circle facility-item-icon"></i> Bus Wisata</li>
+              <li class="facility-item"><i class="fa fa-circle facility-item-icon"></i> Hotel</li>
+              <li class="facility-item"><i class="fa fa-circle facility-item-icon"></i> Jeep</li>
+              <li class="facility-item"><i class="fa fa-circle facility-item-icon"></i> Villa</li>
+              <li class="facility-item"><i class="fa fa-circle facility-item-icon"></i> Sarapan</li>
+              <li class="facility-item"><i class="fa fa-circle facility-item-icon"></i> Coffe Break</li>
             </ul>
           </div>
 
@@ -297,7 +336,7 @@
             <h2 class="content-title">FAQ</h2>
             <div class="panel-group card-group" id="js-package-faq" role="tablist" aria-multiselectable="true">
               <div class="panel panel-default panel-complete content-packdetail-panel packdetail-itinerary">
-                <div class="panel-heading panel-complete-heading panel-heading-blue" role="tab" id="heading-itinerary">
+                <div class="panel-heading panel-complete-heading panel-heading-light_orange" role="tab" id="heading-itinerary">
                   <h4 class="panel-title panel-complete-title">
                     <a role="button" data-toggle="collapse" data-parent="#js-package-faq" href="#js-package-faq-1" aria-expanded="true" aria-controls="js-package-itinerary">Judul Pertanyaan 1</a>
                   </h4>
@@ -314,7 +353,7 @@
                 </div>
               </div>
               <div class="panel panel-default panel-complete content-packdetail-panel packdetail-itinerary">
-                <div class="panel-heading panel-complete-heading panel-heading-blue" role="tab" id="heading-itinerary">
+                <div class="panel-heading panel-complete-heading panel-heading-light_orange" role="tab" id="heading-itinerary">
                   <h4 class="panel-title panel-complete-title">
                     <a role="button" data-toggle="collapse" data-parent="#js-package-faq" href="#js-package-faq-2" aria-expanded="true" aria-controls="js-package-itinerary">Judul Pertanyaan 2</a>
                   </h4>
@@ -333,7 +372,7 @@
                 </div>
               </div>
               <div class="panel panel-default panel-complete content-packdetail-panel packdetail-itinerary">
-                <div class="panel-heading panel-complete-heading panel-heading-blue" role="tab" id="heading-itinerary">
+                <div class="panel-heading panel-complete-heading panel-heading-light_orange" role="tab" id="heading-itinerary">
                   <h4 class="panel-title panel-complete-title">
                     <a role="button" data-toggle="collapse" data-parent="#js-package-faq" href="#js-package-faq-3" aria-expanded="true" aria-controls="js-package-itinerary">Judul Pertanyaan 3</a>
                   </h4>
@@ -394,86 +433,8 @@
                           <input type="text" class="form-control" id="kid" placeholder="Anak" name="kid" value="">
                         </div>
                       </div>
-                      <span id="member-help" class="help-block">Untuk anak 3 tahun kebawah gratis</span>
+                      <span id="member-help" class="help-block">Untuk anak 5 tahun kebawah gratis</span>
                     </div>
-
-                    <div class="form-group">
-                      <label for="hotel" class="control-label">Kelas Hotel</label>
-                      <ul class="list-inline radio-list">
-                        <li>
-                          <div class="radio-container">
-                            <div class="radio">
-                              <label class="radio-label">
-                                <input type="radio" name="star" id="star_1" value="1000000">
-                                <label class="radio-panel" for="star_1">
-                                  <i class="jgicon icon-star-blank"></i>
-                                </label>
-                              </label>
-                            </div>
-                          </div>
-                        </li>
-                        <li>
-                          <div class="radio-container">
-                            <div class="radio">
-                              <label class="radio-label">
-                                <input type="radio" name="star" id="star_2" value="2000000">
-                                <label class="radio-panel" for="star_2">
-                                  <i class="jgicon icon-star-blank"></i>
-                                  <i class="jgicon icon-star-blank"></i>
-                                </label>
-                              </label>
-                            </div>
-                          </div>
-                        </li>
-                        <li>
-                          <div class="radio-container">
-                            <div class="radio">
-                              <label class="radio-label">
-                                <input type="radio" name="star" id="star_3" value="3000000">
-                                <label class="radio-panel" for="star_3">
-                                  <i class="jgicon icon-star-blank"></i>
-                                  <i class="jgicon icon-star-blank"></i>
-                                  <i class="jgicon icon-star-blank"></i>
-                                </label>
-                              </label>
-                            </div>
-                          </div>
-                        </li>
-                        <li>
-                          <div class="radio-container">
-                            <div class="radio">
-                              <label class="radio-label">
-                                <input type="radio" name="star" id="star_4" value="5000000">
-                                <label class="radio-panel" for="star_4">
-                                  <i class="jgicon icon-star-blank"></i>
-                                  <i class="jgicon icon-star-blank"></i>
-                                  <i class="jgicon icon-star-blank"></i>
-                                  <i class="jgicon icon-star-blank"></i>
-                                </label>
-                              </label>
-                            </div>
-                          </div>
-                        </li>
-                        <li>
-                          <div class="radio-container">
-                            <div class="radio">
-                              <label class="radio-label">
-                                <input type="radio" name="star" id="star_5" value="8000000">
-                                <label class="radio-panel" for="star_5">
-                                  <i class="jgicon icon-star-blank"></i>
-                                  <i class="jgicon icon-star-blank"></i>
-                                  <i class="jgicon icon-star-blank"></i>
-                                  <i class="jgicon icon-star-blank"></i>
-                                  <i class="jgicon icon-star-blank"></i>
-                                </label>
-                              </label>
-                            </div>
-                          </div>
-                        </li>
-                      </ul>
-                      <span id="member-help" class="help-block">Pilihan diatas adalah kelas bintang hotel</span>
-                    </div>
-
                   </div>
 
                   <!--
@@ -788,39 +749,7 @@
 
   </script>
 
-  <script type="text/javascript">
-    $('.js-packdetail-destination-slider').owlCarousel({
-      loop: true,
-      navText: ['<i class="jgicon icon-chevron-left"></i>', '<i class="jgicon icon-arrow-right"></i>'],
-      dots: false,
-      responsive: {
-        240: {
-          margin: 14,
-          dots: false,
-          nav: true,
-          items: 1
-        },
-        480: {
-          dots: false,
-          nav: true,
-          items: 1
-        },
-        768: {
-          margin: 24,
-          nav: true,
-          items: 1,
-          autoplay: true
-        },
-        1200: {
-          margin: 24,
-          items: 1,
-          nav: true,
-          autoplay: true
-        }
-      }
-    });
-
-  </script>
+  <!-- //---script owl carousel--// -->
   <script type="text/javascript">
     $('.js-related-package-slider').owlCarousel({
       loop: true,
@@ -829,11 +758,17 @@
       nav: true,
       navText: ['<i class="jgicon icon-chevron-left"></i>', '<i class="jgicon icon-arrow-right"></i>'],
       responsive: {
-        240: {
+        0: {
           items: 1
         },
-        480: {
+        575: {
+          items: 1
+        },
+        767:{
           items: 2
+        },
+        992:{
+          items: 3
         },
         1200: {
           items: 3
@@ -841,6 +776,45 @@
       }
     });
 
+  </script>
+
+  <!-- //---script slick carousel--// -->
+  <script src="vendor/slick/slick.min.js"></script>
+  <script>
+      $('.js-packdetail-destination-slider').slick({
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        arrows: false,
+        fade: true,
+        asNavFor: '.js-packdetail-destination-thumbnail',
+        infinite: true,
+        // autoplay: true
+      });
+      $('.js-packdetail-destination-thumbnail').slick({
+        slidesToShow: 3,
+        slidesToScroll: 1,
+        asNavFor: '.js-packdetail-destination-slider',
+        centerMode: true,
+        focusOnSelect: true,
+        prevArrow: '<i class="thumbnail-icon thumbnail-icon-left jgicon icon-chevron-left"></i>',
+        nextArrow: '<i class="thumbnail-icon thumbnail-icon-right jgicon icon-arrow-right"></i>',
+        responsive: [
+          {
+            breakpoint: 768,
+            settings: {
+              slidesToShow: 2,
+              slidesToScroll: 1
+            }
+          },
+          {
+            breakpoint: 576,
+            settings: {
+              slidesToShow: 1,
+              slidesToScroll: 1
+            }
+          }
+        ]
+      });
   </script>
 
   <script type="text/javascript" src="vendor/scrolltofixed.1.0.8/jquery-scrolltofixed-min.js"></script>

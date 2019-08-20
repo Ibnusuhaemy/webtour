@@ -151,7 +151,7 @@
               <div class="js-main-image">
                 <div class="member-detail-image">
                   <div class="member-detail-photo">
-                    <img src="images/team/amel.JPG" width="4000" height="6000" alt="Tim Jagadtour" class="js-member-image">
+                    <img src="images/team/amel.png" width="4000" height="6000" alt="Tim Jagadtour" class="js-member-image">
                   </div>
                   <div class="member-detail-desc">
                     <p class="member-data"><span class="member-label">Nama:</span> <span class="js-member-name">Amel</span></p>
@@ -191,7 +191,7 @@
                   </li>
                   <li class="member-thumbnail js-member-thumbnail-item">
                     <div class="member-thumbnail-image">
-                      <img src="images/team/amel.JPG" width="4000" height="6000" alt="Tim Jagadtour" class="js-thumbnail-item-image">
+                      <img src="images/team/amel.png" width="4000" height="6000" alt="Tim Jagadtour" class="js-thumbnail-item-image">
                     </div>
                     <div class="member-thumbnail-data show-large-mobile">
                       <h3 class="member-name js-thumbnail-name">Amel</h3>
@@ -311,7 +311,7 @@
                   </li>
                   <li class="member-thumbnail js-member-thumbnail-item">
                     <div class="member-thumbnail-image">
-                      <img src="images/team/yani.jpg" width="193" height="126" alt="Tim Jagadtour" class="js-thumbnail-item-image">
+                      <img src="images/team/yani.png" width="193" height="126" alt="Tim Jagadtour" class="js-thumbnail-item-image">
                     </div>
                     <div class="member-thumbnail-data show-large-mobile">
                       <h3 class="member-name js-thumbnail-name">Yani</h3>
@@ -421,12 +421,13 @@
           </div>
           <div class="col-xs-6 col-sm-6 col-md-3 footer-menu-contact">
             <h4>Alamat</h4>
-            <p class="contact-content contact-address">
+            <p class="contact-content">
               PT. Jagad Mahakarya Wisata <br>
-              Malang (Office 1) | Banyuwangi (Office 2) | Ranupane (Basecamp) <br>
-              Jawa Timur <br>
-              Kodepos : 65148
+              Malang (Office 1) <br> Banyuwangi (Office 2) <br> Ranupane (Basecamp) <br>
+              Jawa Timur : 65148 <br>
             </p>
+            <p class="contact-content">Email: cs@jagadtour.com</p>
+            <p class="contact-content contact-address">Hotline : 0341 – 5051185 / 08113785758 / 082244441318</p>
             <p class="contact-content">Find Us</p>
             <p class="contact-content socmed-list">
               <a class="contact-content-sm" href="#"><i class="fa fa-instagram"></i></a>
@@ -441,8 +442,6 @@
               <a href="#"><i class="bank-icon icon-mandiri"></i></a>
               <a href="#"><i class="bank-icon icon-bca"></i></a>
             </p>
-            <p class="contact-content">Email: cs@jagadtour.com</p>
-            <p class="contact-content">Hotline : 0341 – 5051185 / 08113785758 / 082244441318</p>
           </div>
         </div>
       </div>
@@ -481,7 +480,7 @@
   <script type="application/javascript">
     $(document).ready(function($) {
       $('.js-team-member').mobileSlider({
-        sliderWhen: 622,
+        sliderWhen: 639,
         itemWidth: "50%",
         startAt: 2
       });

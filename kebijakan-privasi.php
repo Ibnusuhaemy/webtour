@@ -247,12 +247,13 @@
           </div>
           <div class="col-xs-6 col-sm-6 col-md-3 footer-menu-contact">
             <h4>Alamat</h4>
-            <p class="contact-content contact-address">
+            <p class="contact-content">
               PT. Jagad Mahakarya Wisata <br>
-              Malang (Office 1) | Banyuwangi (Office 2) | Ranupane (Basecamp) <br>
-              Jawa Timur <br>
-              Kodepos : 65148
+              Malang (Office 1) <br> Banyuwangi (Office 2) <br> Ranupane (Basecamp) <br>
+              Jawa Timur : 65148 <br>
             </p>
+            <p class="contact-content">Email: cs@jagadtour.com</p>
+            <p class="contact-content contact-address">Hotline : 0341 – 5051185 / 08113785758 / 082244441318</p>
             <p class="contact-content">Find Us</p>
             <p class="contact-content socmed-list">
               <a class="contact-content-sm" href="#"><i class="fa fa-instagram"></i></a>
@@ -267,8 +268,6 @@
               <a href="#"><i class="bank-icon icon-mandiri"></i></a>
               <a href="#"><i class="bank-icon icon-bca"></i></a>
             </p>
-            <p class="contact-content">Email: cs@jagadtour.com</p>
-            <p class="contact-content">Hotline : 0341 – 5051185 / 08113785758 / 082244441318</p>
           </div>
         </div>
       </div>

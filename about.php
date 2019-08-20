@@ -151,7 +151,7 @@
               <div class="js-main-image">
                 <div class="member-detail-image">
                   <div class="member-detail-photo">
-                    <img src="images/team/amel.JPG" width="4000" height="6000" alt="Tim Jagadtour" class="js-member-image">
+                    <img src="images/team/amel.png" width="4000" height="6000" alt="Tim Jagadtour" class="js-member-image">
                   </div>
                   <div class="member-detail-desc">
                     <p class="member-data"><span class="member-label">Nama:</span> <span class="js-member-name">Amel</span></p>
@@ -191,7 +191,7 @@
                   </li>
                   <li class="member-thumbnail js-member-thumbnail-item">
                     <div class="member-thumbnail-image">
-                      <img src="images/team/amel.JPG" width="4000" height="6000" alt="Tim Jagadtour" class="js-thumbnail-item-image">
+                      <img src="images/team/amel.png" width="4000" height="6000" alt="Tim Jagadtour" class="js-thumbnail-item-image">
                     </div>
                     <div class="member-thumbnail-data show-large-mobile">
                       <h3 class="member-name js-thumbnail-name">Amel</h3>
@@ -311,7 +311,7 @@
                   </li>
                   <li class="member-thumbnail js-member-thumbnail-item">
                     <div class="member-thumbnail-image">
-                      <img src="images/team/yani.jpg" width="193" height="126" alt="Tim Jagadtour" class="js-thumbnail-item-image">
+                      <img src="images/team/yani.png" width="193" height="126" alt="Tim Jagadtour" class="js-thumbnail-item-image">
                     </div>
                     <div class="member-thumbnail-data show-large-mobile">
                       <h3 class="member-name js-thumbnail-name">Yani</h3>
@@ -480,7 +480,7 @@
   <script type="application/javascript">
     $(document).ready(function($) {
       $('.js-team-member').mobileSlider({
-        sliderWhen: 622,
+        sliderWhen: 639,
         itemWidth: "50%",
         startAt: 2
       });

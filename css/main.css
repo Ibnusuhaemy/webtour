@@ -3544,7 +3544,7 @@ p {
 
   .member-thumbnail .member-thumbnail-image {
     margin-bottom: 30px;
-    max-height: 300px;
+    min-height: 300px;
     overflow: hidden;
   }
 
@@ -4229,7 +4229,7 @@ p {
   }
 
   .member-thumbnail .member-thumbnail-image {
-    max-height: 240px;
+    min-height: 240px;
     overflow: hidden;
   }
 

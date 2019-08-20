@@ -27,7 +27,7 @@
 
   <link rel="stylesheet" type="text/css" href="vendor/angle-vladov-mobile-slider/jquery.mobile-slider.min.css">
 
-  <link rel="stylesheet" type="text/css" href="css/main.css?v=15">
+  <link rel="stylesheet" type="text/css" href="css/main.css?v=16">
 
 </head>
 
@@ -338,8 +338,8 @@
           $mail->addAddress('liwaalex99@gmail.com'); // Email Yang Penerima Pesan.. Contoh = JagadTour@gmail.com
           $mail->setFrom('liwaalex11@gmail.com', 'Jagad Tour'); // Email Yang Mengirim Pesan .. Contoh = JagadTour2@gmail.com
           $mail->Subject = 'Pengirim '.$nama;
-          $mail->Body = '      
-             
+          $mail->Body = '
+
           <body style="height: 100%; margin: 0; padding: 0; width: 100%; -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; background-color: #FAFAFA;">
           <!--*|IF:MC_PREVIEW_TEXT|*-->
           <!--[if !gte mso 9]>
@@ -484,14 +484,14 @@
                                                         <br>
                                                           <strong>Our address is:</strong>
                                                           <br> Jagad Tour | #1 Biro Pariwisata Jawa Timur&nbsp;
-                      
+
                                                             <br>
                                                               <br> Dau Assakinah Residence No. 08,
                                                                     Banjartengah,
                                                                     Sumbersekar,
                                                                     Kec. Dau,
                                                                     Malang,
-                                                                    Jawa Timur 65151 
+                                                                    Jawa Timur 65151
                                                               </td>
                                                             </tr>
                                                           </tbody>

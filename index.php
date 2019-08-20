@@ -202,7 +202,7 @@
         <ul class="row">
           <li class="col-sm-6 col-md-4">
             <div class="packdetail-packother card-single">
-              <a href="#">
+              <a href="package.php">
                 <div class="panel panel-default card-single">
                   <div class="panel-body card-single-body">
                     <img src="images/thumbnails/jagadtour-bromo-sunrise.jpg" width="1035" height="642" alt="" class="img-responsive">
@@ -218,7 +218,7 @@
           </li>
           <li class="col-sm-6 col-md-4">
             <div class="packdetail-packother card-single">
-              <a href="#">
+              <a href="package.php">
                 <div class="panel panel-default card-single">
                   <div class="panel-body card-single-body">
                     <img src="images/thumbnails/jagadtour-bromo-sunrise.jpg" width="1035" height="642" alt="" class="img-responsive">
@@ -234,7 +234,7 @@
           </li>
           <li class="col-sm-6 col-md-4">
             <div class="packdetail-packother card-single">
-              <a href="#">
+              <a href="package.php">
                 <div class="panel panel-default card-single">
                   <div class="panel-body card-single-body">
                     <img src="images/thumbnails/jagadtour-kota-malang.jpg" width="1035" height="642" alt="" class="img-responsive">
@@ -250,7 +250,7 @@
           </li>
           <li class="col-sm-6 col-md-4">
             <div class="packdetail-packother card-single">
-              <a href="#">
+              <a href="package.php">
                 <div class="panel panel-default card-single">
                   <div class="panel-body card-single-body">
                     <img src="images/thumbnails/jagadtour-rafting-songa.jpg" width="1035" height="642" alt="" class="img-responsive">
@@ -266,7 +266,7 @@
           </li>
           <li class="col-sm-6 col-md-4">
             <div class="packdetail-packother card-single">
-              <a href="#">
+              <a href="package.php">
                 <div class="panel panel-default card-single">
                   <div class="panel-body card-single-body">
                     <img src="images/thumbnails/jagadtour-rafting-songa.jpg" width="1035" height="642" alt="" class="img-responsive">
@@ -282,7 +282,7 @@
           </li>
           <li class="col-sm-6 col-md-4">
             <div class="packdetail-packother card-single">
-              <a href="#">
+              <a href="package.php">
                 <div class="panel panel-default card-single">
                   <div class="panel-body card-single-body">
                     <img src="images/thumbnails/jagadtour-rafting-songa.jpg" width="1035" height="642" alt="" class="img-responsive">

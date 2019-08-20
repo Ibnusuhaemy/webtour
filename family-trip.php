@@ -113,7 +113,7 @@
           <div class="owl-carousel corporate-one js-corporate-one owl-theme">
             <div class="item">
               <div class="packdetail-packother card-single">
-                <a href="#">
+                <a href="package.php">
                   <div class="panel panel-default card-single">
                     <div class="panel-body card-single-body">
                       <img src="images/thumbnails/jagadtour-bromo-sunrise.jpg" width="1035" height="642" alt="" class="img-responsive">
@@ -129,7 +129,7 @@
             </div>
             <div class="item">
               <div class="packdetail-packother card-single">
-                <a href="#">
+                <a href="package.php">
                   <div class="panel panel-default card-single">
                     <div class="panel-body card-single-body">
                       <img src="images/thumbnails/jagadtour-bromo-sunrise.jpg" width="1035" height="642" alt="" class="img-responsive">
@@ -145,7 +145,7 @@
             </div>
             <div class="item">
               <div class="packdetail-packother card-single">
-                <a href="#">
+                <a href="package.php">
                   <div class="panel panel-default card-single">
                     <div class="panel-body card-single-body">
                       <img src="images/thumbnails/jagadtour-bromo-sunrise.jpg" width="1035" height="642" alt="" class="img-responsive">
@@ -161,7 +161,7 @@
             </div>
             <div class="item">
               <div class="packdetail-packother card-single">
-                <a href="#">
+                <a href="package.php">
                   <div class="panel panel-default card-single">
                     <div class="panel-body card-single-body">
                       <img src="images/thumbnails/jagadtour-rafting-songa.jpg" width="1035" height="642" alt="" class="img-responsive">
@@ -177,7 +177,7 @@
             </div>
             <div class="item">
               <div class="packdetail-packother card-single">
-                <a href="#">
+                <a href="package.php">
                   <div class="panel panel-default card-single">
                     <div class="panel-body card-single-body">
                       <img src="images/thumbnails/jagadtour-rafting-songa.jpg" width="1035" height="642" alt="" class="img-responsive">
@@ -193,7 +193,7 @@
             </div>
             <div class="item">
               <div class="packdetail-packother card-single">
-                <a href="#">
+                <a href="package.php">
                   <div class="panel panel-default card-single">
                     <div class="panel-body card-single-body">
                       <img src="images/thumbnails/jagadtour-rafting-songa.jpg" width="1035" height="642" alt="" class="img-responsive">
@@ -231,7 +231,7 @@
           <div class="owl-carousel corporate-two js-corporate-two owl-theme">
             <div class="item">
               <div class="packdetail-packother card-single">
-                <a href="#">
+                <a href="package.php">
                   <div class="panel panel-default card-single">
                     <div class="panel-body card-single-body">
                       <img src="images/thumbnails/jagadtour-bromo-sunrise.jpg" width="1035" height="642" alt="" class="img-responsive">
@@ -247,7 +247,7 @@
             </div>
             <div class="item">
               <div class="packdetail-packother card-single">
-                <a href="#">
+                <a href="package.php">
                   <div class="panel panel-default card-single">
                     <div class="panel-body card-single-body">
                       <img src="images/thumbnails/jagadtour-bromo-sunrise.jpg" width="1035" height="642" alt="" class="img-responsive">
@@ -263,7 +263,7 @@
             </div>
             <div class="item">
               <div class="packdetail-packother card-single">
-                <a href="#">
+                <a href="package.php">
                   <div class="panel panel-default card-single">
                     <div class="panel-body card-single-body">
                       <img src="images/thumbnails/jagadtour-bromo-sunrise.jpg" width="1035" height="642" alt="" class="img-responsive">
@@ -279,7 +279,7 @@
             </div>
             <div class="item">
               <div class="packdetail-packother card-single">
-                <a href="#">
+                <a href="package.php">
                   <div class="panel panel-default card-single">
                     <div class="panel-body card-single-body">
                       <img src="images/thumbnails/jagadtour-rafting-songa.jpg" width="1035" height="642" alt="" class="img-responsive">
@@ -295,7 +295,7 @@
             </div>
             <div class="item">
               <div class="packdetail-packother card-single">
-                <a href="#">
+                <a href="package.php">
                   <div class="panel panel-default card-single">
                     <div class="panel-body card-single-body">
                       <img src="images/thumbnails/jagadtour-rafting-songa.jpg" width="1035" height="642" alt="" class="img-responsive">
@@ -311,7 +311,7 @@
             </div>
             <div class="item">
               <div class="packdetail-packother card-single">
-                <a href="#">
+                <a href="package.php">
                   <div class="panel panel-default card-single">
                     <div class="panel-body card-single-body">
                       <img src="images/thumbnails/jagadtour-rafting-songa.jpg" width="1035" height="642" alt="" class="img-responsive">

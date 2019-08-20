@@ -445,6 +445,10 @@ p {
   line-height: normal;
 }
 
+.owl-theme .owl-dots {
+  text-align: right;
+}
+
 
 /* --- ## Header ## --- */
 .header {
@@ -803,7 +807,7 @@ p {
 
 
 .panel-complete .panel-complete-heading {
-  padding: 12px 28px;
+  padding: 12px 20px;
   border-radius: 0;
 }
 
@@ -812,7 +816,7 @@ p {
 }
 
 .panel-complete .panel-heading-light_blue {
-  background-color: #48dbfb;
+  background-color: #54a0ff;
 }
 
 .panel-complete .panel-heading-orange {
@@ -820,7 +824,7 @@ p {
 }
 
 .panel-complete .panel-heading-light_orange {
-  background-color: #ff9f43;
+  background-color: #fa983a;
 }
 
 .panel-complete-heading .panel-complete-title {
@@ -1253,6 +1257,28 @@ p {
   opacity: 0.75;
 }
 
+/* - Progress Bar - */
+.choose-progressbar {
+  width: 80%;
+  margin: auto auto auto 0;
+  margin-bottom: 10px;
+  height: 8px;
+  position: relative;
+  display: block;
+}
+
+.choose-progressbar .progressbar-text {
+  right: -20% !important;
+  position: absolute;
+  top: -5px;
+  bottom: auto;
+  margin: auto 0 auto auto;
+  height: 24px !important;
+  font-size: 21px !important;
+  font-family: 'DINNextRoundedLTPro-Medium', Fallback, sans-serif !important;
+  color: #787878 !important;
+}
+
 /* Testimonial */
 .content-testi .content-testi-title {
   margin-bottom: 10px;
@@ -1418,7 +1444,7 @@ p {
 
 .content-packdetail .packdetail-contents {
   padding-bottom: 15px;
-  margin-bottom: 50px;
+  margin-bottom: 20px;
   border-bottom: 1px solid #dadada;
 }
 
@@ -1439,12 +1465,12 @@ p {
 
 .content-packdetail .title-package {
   border-bottom: 1px solid #dadada;
-  padding-bottom: 15px;
-  margin-bottom: 30px;
+  padding-bottom: 5px;
+  margin-bottom: 15px;
 }
 
 .packdetail-info {
-  margin-bottom: 30px;
+  margin-bottom: 0;
 }
 
 .packdetail-info .media-heading {
@@ -1496,6 +1522,10 @@ p {
   left: -20px;
 }
 
+.packdetail-destination-slider .slick-track{
+  padding-bottom: 0;
+}
+
 .packdetail-destination-slider .destination-slider-image {
   margin-bottom: 16px;
   overflow: hidden;
@@ -1508,12 +1538,13 @@ p {
   height: auto;
 }
 
-.js-packdetail-destination-thumbnail{
-  padding-top: 40px;
+.js-packdetail-destination-thumbnail .slick-track{
+  padding-bottom: 20px;
 }
 
 .js-packdetail-destination-thumbnail .destination-slider-image{
   padding: 0 20px;
+  margin-bottom: 0;
 }
 
 .js-packdetail-destination-thumbnail .destination-slider-image img{
@@ -1562,8 +1593,8 @@ p {
 }
 
 .packdetail-itinerary .panel-complete-content {
-  padding-top: 28px;
-  padding-bottom: 28px;
+  padding-top: 12px;
+  padding-bottom: 20px;
 }
 
 .packdetail-itinerary .packdetail-itinerary-detail .media-left {
@@ -3070,7 +3101,7 @@ p {
   .packdetail-right {
     position: relative;
   }
-  
+
   /*
   .packdetail-destination-slider .destination-slider-image {
     max-width: 319px;
@@ -3489,7 +3520,7 @@ p {
   .packdetail-destination-slider .destination-slider-image img {
     min-height: inherit;
   }
-  
+
   .packdetail-destination-slider .owl-nav [class*='owl-'],
   .packdetail-destination-slider .owl-nav button.owl-next,
   .packdetail-destination-slider .owl-nav button.owl-prev {
@@ -3730,11 +3761,11 @@ p {
   .js-packdetail-destination-thumbnail{
     padding-top: 20px;
   }
-  
+
   .thumbnail-icon{
     top: 50%;
   }
-  
+
   .panel-complete-heading .panel-complete-title, .packdetail-facility .facility-list .facility-item, .content-packdetail .content-title {
     font-size: 14px;
   }
@@ -4483,6 +4514,15 @@ p {
     top: -40px;
   }
 
+  /* --- ## Why Choose Us ## --- */
+  .choose-progressbar {
+    width: 65%;
+  }
+
+  .choose-progressbar .progressbar-text {
+    right: -35% !important;
+  }
+
   /* --- ## Gallery ## --- */
   .ekko-lightbox-container {
     max-height: 300px !important;
@@ -4493,51 +4533,4 @@ p {
     max-height: 300px !important;
     height: 300px !important;
   }
-}
-
-/* --- Owl-Class --- */
-
-.owl-theme .owl-dots {
-  text-align: right;
-}
-
-
-/* --- Progress Bar --- */
-
-.choose-progressbar {
-  margin: auto auto auto 0;
-  margin-bottom: 10px;
-  width: 65%;
-  height: 8px;
-  position: relative;
-  display: block;
-}
-
-.choose-progressbar .progressbar-text {
-  position: absolute;
-  top: -5px;
-  bottom: auto;
-  right: -35% !important;
-  margin: auto 0 auto auto;
-  height: 24px !important;
-  font-size: 21px !important;
-  font-family: 'DINNextRoundedLTPro-Medium', Fallback, sans-serif !important;
-  color: #787878 !important;
-}
-
-
-/* --- Retina Settings --- */
-@media only screen and (-webkit-min-device-pixel-ratio: 2),
-only screen and (min--moz-device-pixel-ratio: 2),
-only screen and (-o-min-device-pixel-ratio: 2/1),
-only screen and (min-device-pixel-ratio: 2),
-only screen and (min-resolution: 192dpi),
-only screen and (min-resolution: 2dppx) {
-
-  /* Header Background */
-  header {
-    /*        background: url(../images/header-bg@2x.jpg) no-repeat;*/
-  }
-
-  /* Services */
 }

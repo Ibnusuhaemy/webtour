@@ -25,7 +25,7 @@
   <link rel="stylesheet" type="text/css" href="vendor/angle-vladov-mobile-slider/jquery.mobile-slider.min.css">
   <link rel="stylesheet" type="text/css" href="vendor/datetimepicker.4.17.42/css/bootstrap-datetimepicker.min.css">
 
-  <link rel="stylesheet" type="text/css" href="css/main.css?v=13">
+  <link rel="stylesheet" type="text/css" href="css/main.css?v=16">
   <link rel="stylesheet" type="text/css" href="css/kevin_style.css">
 
 </head>
@@ -667,9 +667,9 @@
     //  var transType = $('[name="optionjenis"]:checked').val();
     //  console.log(transType);
     //  if(transType == "STATION" ){
-    //    document.ticketform.action = "https://www.tiket.com/kereta-api/search?";          
+    //    document.ticketform.action = "https://www.tiket.com/kereta-api/search?";
     //  }else if(transType == "AIRPORT"){
-    //    document.ticketform.action = "https://www.tiket.com/pesawat/search?";          
+    //    document.ticketform.action = "https://www.tiket.com/pesawat/search?";
 
     //  }
     // });

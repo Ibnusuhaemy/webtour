@@ -2062,6 +2062,7 @@ p {
   width: 60%;
   height: 400px;
   display: table-cell;
+  position: relative;
 }
 
 .member-detail .member-detail-image img {
@@ -2069,6 +2070,8 @@ p {
   height: auto;
   -webkit-animation-name: fadeIn;
   animation-name: fadeIn;
+  position: absolute;
+  top: -100px;
 }
 
 .member-detail .member-detail-desc {
@@ -2091,6 +2094,9 @@ p {
 
 .member-thumbnail .member-thumbnail-image {
   display: block;
+  position: relative;
+  width: 174px;
+  height: 150px;
   border-radius: 12px;
   overflow: hidden;
   cursor: pointer;
@@ -2100,6 +2106,9 @@ p {
 .member-thumbnail .member-thumbnail-image img {
   width: 100%;
   height: auto;
+  position: absolute;
+  left: 0;
+  top: -25px;
 }
 
 

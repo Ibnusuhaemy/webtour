@@ -89,16 +89,16 @@ ul {
 }
 
 @font-face {
-  font-family: 'Grand-hotel';
-  src: url('../fonts/GrandHotel-Regular.eot');
+  font-family: 'Nickainley';
+  src: url('../fonts/Nickainley-Normal.eot');
   /* IE9 Compat Modes */
-  src: url('../fonts/GrandHotel-Regular.eot?#iefix') format('embedded-opentype'),
+  src: url('../fonts/Nickainley-Normal.eot?#iefix') format('embedded-opentype'),
     /* IE6-IE8 */
-    url('../fonts/GrandHotel-Regular.woff') format('woff'),
+    url('../fonts/Nickainley-Normal.woff') format('woff'),
     /* Pretty Modern Browsers */
-    url('../fonts/GrandHotel-Regular.ttf') format('truetype'),
+    url('../fonts/Nickainley-Normal.ttf') format('truetype'),
     /* Safari, Android, iOS */
-    url('../fonts/GrandHotel-Regular.svg#GrandHotel-Regular') format('svg');
+    url('../fonts/Nickainley-Normal.svg#Nickainley-Normal') format('svg');
   /* Legacy iOS */
 }
 
@@ -221,7 +221,7 @@ p {
   font-family: "DINNextLTPro-Regular", Fallback, sans-serif;
   border-color: #e5e5e5;
   height: auto;
-  padding: 10px 24px;
+  padding: 8px 24px;
   box-shadow: none;
   font-size: 16px;
   line-height: 19px;
@@ -481,7 +481,7 @@ p {
 
 .mobile-title {
   color: #ff681f;
-  font-family: "Grand-hotel", Fallback, sans-serif;
+  font-family: "Nickainley", Fallback, sans-serif;
   font-size: 20px;
   line-height: 22px;
 }
@@ -1754,8 +1754,12 @@ p {
 */
 
 .packdetail-price-form .btn {
-  padding: 10px 25px;
+  padding: 8px 25px;
   width: 100%;
+}
+
+.packdetail-price-form .btn-orange{
+  margin-bottom: 10px;
 }
 
 .packdetail-price-form .price-form-socmed {

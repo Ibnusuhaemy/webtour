@@ -2094,9 +2094,9 @@ p {
 
 .member-thumbnail .member-thumbnail-image {
   display: block;
-  position: relative;
-  width: 174px;
-  height: 150px;
+  /* position: relative; */
+  /* width: 174px;
+  height: 150px; */
   border-radius: 12px;
   overflow: hidden;
   cursor: pointer;
@@ -2106,9 +2106,7 @@ p {
 .member-thumbnail .member-thumbnail-image img {
   width: 100%;
   height: auto;
-  position: absolute;
-  left: 0;
-  top: -25px;
+  transform: translateY(-30px);
 }
 
 
@@ -3006,8 +3004,12 @@ p {
   .card-complete-body .card-complete-title {
     font-size: 18px;
   }
-
-
+  
+  /* - About Team - */
+  .member-thumbnail .member-thumbnail-image img {
+    transform: translateY(0px);
+  }
+  
   /* --- ## Footer ## --- */
   .footer-photo .photo-slider-item {
     height: 160px;
@@ -3588,6 +3590,7 @@ p {
 
   .member-thumbnail .member-thumbnail-image {
     margin-bottom: 30px;
+    max-height: 300px;
     min-height: 300px;
     overflow: hidden;
   }

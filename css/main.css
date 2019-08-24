@@ -89,16 +89,16 @@ ul {
 }
 
 @font-face {
-  font-family: 'Grand-hotel';
-  src: url('../fonts/GrandHotel-Regular.eot');
+  font-family: 'Nickainley';
+  src: url('../fonts/Nickainley-Normal.eot');
   /* IE9 Compat Modes */
-  src: url('../fonts/GrandHotel-Regular.eot?#iefix') format('embedded-opentype'),
+  src: url('../fonts/Nickainley-Normal.eot?#iefix') format('embedded-opentype'),
     /* IE6-IE8 */
-    url('../fonts/GrandHotel-Regular.woff') format('woff'),
+    url('../fonts/Nickainley-Normal.woff') format('woff'),
     /* Pretty Modern Browsers */
-    url('../fonts/GrandHotel-Regular.ttf') format('truetype'),
+    url('../fonts/Nickainley-Normal.ttf') format('truetype'),
     /* Safari, Android, iOS */
-    url('../fonts/GrandHotel-Regular.svg#GrandHotel-Regular') format('svg');
+    url('../fonts/Nickainley-Normal.svg#Nickainley-Normal') format('svg');
   /* Legacy iOS */
 }
 
@@ -221,7 +221,7 @@ p {
   font-family: "DINNextLTPro-Regular", Fallback, sans-serif;
   border-color: #e5e5e5;
   height: auto;
-  padding: 10px 24px;
+  padding: 8px 24px;
   box-shadow: none;
   font-size: 16px;
   line-height: 19px;
@@ -481,7 +481,7 @@ p {
 
 .mobile-title {
   color: #ff681f;
-  font-family: "Grand-hotel", Fallback, sans-serif;
+  font-family: "Nickainley", Fallback, sans-serif;
   font-size: 20px;
   line-height: 22px;
 }
@@ -1171,7 +1171,7 @@ p {
 }
 
 .home-choose-media .choose-media-image {
-  padding-right: 35px;
+  padding-right: 0px;
 }
 
 .choose-media-image a {
@@ -1754,8 +1754,12 @@ p {
 */
 
 .packdetail-price-form .btn {
-  padding: 10px 25px;
+  padding: 8px 25px;
   width: 100%;
+}
+
+.packdetail-price-form .btn-orange{
+  margin-bottom: 10px;
 }
 
 .packdetail-price-form .price-form-socmed {
@@ -2058,6 +2062,7 @@ p {
   width: 60%;
   height: 400px;
   display: table-cell;
+  position: relative;
 }
 
 .member-detail .member-detail-image img {
@@ -2065,6 +2070,8 @@ p {
   height: auto;
   -webkit-animation-name: fadeIn;
   animation-name: fadeIn;
+  position: absolute;
+  top: -100px;
 }
 
 .member-detail .member-detail-desc {
@@ -2087,6 +2094,9 @@ p {
 
 .member-thumbnail .member-thumbnail-image {
   display: block;
+  /* position: relative; */
+  /* width: 174px;
+  height: 150px; */
   border-radius: 12px;
   overflow: hidden;
   cursor: pointer;
@@ -2096,6 +2106,7 @@ p {
 .member-thumbnail .member-thumbnail-image img {
   width: 100%;
   height: auto;
+  transform: translateY(-30px);
 }
 
 
@@ -2993,8 +3004,12 @@ p {
   .card-complete-body .card-complete-title {
     font-size: 18px;
   }
-
-
+  
+  /* - About Team - */
+  .member-thumbnail .member-thumbnail-image img {
+    transform: translateY(0px);
+  }
+  
   /* --- ## Footer ## --- */
   .footer-photo .photo-slider-item {
     height: 160px;
@@ -3575,6 +3590,7 @@ p {
 
   .member-thumbnail .member-thumbnail-image {
     margin-bottom: 30px;
+    max-height: 300px;
     min-height: 300px;
     overflow: hidden;
   }

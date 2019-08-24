@@ -452,6 +452,9 @@
                   <div class="form-group">
                     <div class="row">
                       <div class="col-xs-12">
+                        <input type="submit" class="btn btn-rounded btn-orange" value="Cek Harga" name="send">
+                      </div>
+                      <div class="col-xs-12">
                         <input type="submit" class="btn btn-rounded btn-green" value="Booking Sekarang" name="send">
                       </div>
                       <div class="col-xs-12 price-form-socmed">

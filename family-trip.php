@@ -44,11 +44,11 @@
           <span class="jgicon icon-call"></span>
           <div class="contact-call">
             <p class="contact-caption">For General Questions</p>
-            <p class="contact-number"><a href="#">+63415051185</a></p>
+            <p class="contact-number"><a href="tel:+623415051185">+623415051185</a></p>
           </div>
           <div class="contact-call">
             <p class="contact-caption">For Booking and Inquiries</p>
-            <p class="contact-number"><a href="#">+628113785758</a></p>
+          <p class="contact-number"><a href="tel:+628113785758">+628113785758</a></p>
           </div>
         </div>
       </div>
@@ -337,7 +337,8 @@
   </section>
 
   <!-- Testimonial -->
-  <section class="content content-testi content-testi-home content-test-corporate">
+  <section class="content<p class="contact-number"><a href="tel:+623415051185">+623415051185</a></p>
+    <p class="contact-number"><a href="tel:+628113785758">+628113785758</a></p>
     <div class="container">
       <div class="row">
         <div class="col-md-6">
@@ -539,7 +540,7 @@
   </section>
 
   <!-- Footer -->
- <footer class="footer js-footer">
+  <footer class="footer js-footer">
     <div class="footer-photo">
       <div class="owl-carousel owl-theme photo-slider js-photo-slider">
         <!-- See Js Code "Photo Gallery Footer" -->
@@ -634,10 +635,10 @@
             <p class="contact-content contact-address">Hotline : 0341 – 5051185 / 08113785758 / 082244441318</p>
             <p class="contact-content">Find Us</p>
             <p class="contact-content socmed-list">
-              <a class="contact-content-sm" href="#"><i class="fa fa-instagram"></i></a>
-              <a class="contact-content-sm" href="#"><i class="fa fa-facebook-square"></i></a>
-              <a class="contact-content-sm" href="#"><i class="fa fa-twitter-square"></i></a>
-              <a class="contact-content-sm" href="#"><i class="fa fa-youtube-play"></i></a>
+              <a class="contact-content-sm" href="https://www.instagram.com/jagadtour/"><i class="fa fa-instagram"></i></a>
+              <a class="contact-content-sm" href="https://www.facebook.com/officialjagadtour/"><i class="fa fa-facebook-square"></i></a>
+              <a class="contact-content-sm" href="https://www.youtube.com/watch?v=rrf9fu9lSos"><i class="fa fa-twitter-square"></i></a>
+              <a class="contact-content-sm" href="https://twitter.com/jagadtourtravel"><i class="fa fa-youtube-play"></i></a>
             </p>
             <p class="contact-content">We Accept Payment From</p>
             <p class="contact-content payment-list">

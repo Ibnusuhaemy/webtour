@@ -46,11 +46,11 @@
           <span class="jgicon icon-call"></span>
           <div class="contact-call">
             <p class="contact-caption">For General Questions</p>
-            <p class="contact-number"><a href="#">+623415051185</a></p>
+            <p class="contact-number"><a href="tel:+623415051185">+623415051185</a></p>
           </div>
           <div class="contact-call">
             <p class="contact-caption">For Booking and Inquiries</p>
-            <p class="contact-number"><a href="#">+628113785758</a></p>
+            <p class="contact-number"><a href="tel:+628113785758">+628113785758</a></p>
           </div>
         </div>
       </div>
@@ -222,10 +222,10 @@
             <p class="contact-content contact-address">Hotline : 0341 – 5051185 / 08113785758 / 082244441318</p>
             <p class="contact-content">Find Us</p>
             <p class="contact-content socmed-list">
-              <a class="contact-content-sm" href="#"><i class="fa fa-instagram"></i></a>
-              <a class="contact-content-sm" href="#"><i class="fa fa-facebook-square"></i></a>
-              <a class="contact-content-sm" href="#"><i class="fa fa-twitter-square"></i></a>
-              <a class="contact-content-sm" href="#"><i class="fa fa-youtube-play"></i></a>
+              <a class="contact-content-sm" href="https://www.instagram.com/jagadtour/"><i class="fa fa-instagram"></i></a>
+              <a class="contact-content-sm" href="https://www.facebook.com/officialjagadtour/"><i class="fa fa-facebook-square"></i></a>
+              <a class="contact-content-sm" href="https://www.youtube.com/watch?v=rrf9fu9lSos"><i class="fa fa-twitter-square"></i></a>
+              <a class="contact-content-sm" href="https://twitter.com/jagadtourtravel"><i class="fa fa-youtube-play"></i></a>
             </p>
             <p class="contact-content">We Accept Payment From</p>
             <p class="contact-content payment-list">
@@ -251,7 +251,6 @@
       </div>
     </div>
   </footer>
-
 
   <!-- Javascript -->
   <script type="text/javascript" src="vendor/jquery.3.2.1/jquery.3.2.1.min.js"></script>

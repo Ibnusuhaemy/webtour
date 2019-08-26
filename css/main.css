@@ -2045,7 +2045,7 @@ p {
 }
 
 .member-detail .member-detail-image {
-  display: block;
+  display: flex;
   margin-bottom: 40px;
   overflow: hidden;
   border-radius: 6px;
@@ -2061,7 +2061,7 @@ p {
 .member-detail .member-detail-photo {
   width: 60%;
   height: 400px;
-  display: table-cell;
+  display: block;
   position: relative;
 }
 
@@ -2075,7 +2075,7 @@ p {
 }
 
 .member-detail .member-detail-desc {
-  display: table-cell;
+  display: block;
   vertical-align: top;
   width: 40%;
   background-color: #fafafa;
@@ -2910,7 +2910,7 @@ p {
   }
 
   .warper {
-    padding-top: 185px;
+    /* padding-top: 185px; */
   }
 
   /* --- ## Homepage ## --- */
@@ -3004,12 +3004,12 @@ p {
   .card-complete-body .card-complete-title {
     font-size: 18px;
   }
-  
+
   /* - About Team - */
   .member-thumbnail .member-thumbnail-image img {
     transform: translateY(0px);
   }
-  
+
   /* --- ## Footer ## --- */
   .footer-photo .photo-slider-item {
     height: 160px;

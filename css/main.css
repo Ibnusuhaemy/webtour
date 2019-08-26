@@ -1472,7 +1472,7 @@ p {
 .content-packdetail .title-package {
   border-bottom: 1px solid #dadada;
   padding-bottom: 5px;
-  margin-bottom: 15px;
+  margin-bottom: 0px;
 }
 
 .packdetail-info {
@@ -1485,7 +1485,7 @@ p {
 }
 
 .packdetail-info .media a {
-  font-size: 30px;
+  font-size: 20px;
 }
 
 .packdetail-destination .panel-complete-content {
@@ -1633,6 +1633,11 @@ p {
 }
 
 /* - Facility - */
+.packdetail-facility .facility-list {
+  list-style: disc;
+  margin-left: 20px;
+}
+
 .packdetail-facility .facility-list::after {
   display: block;
   content: "";
@@ -1641,16 +1646,16 @@ p {
 
 .packdetail-facility .facility-list .facility-item {
   font-family: "DINNextLTPro-Regular", Fallback, sans-serif;
-  font-size: 18px;
+  font-size: 16px;
   line-height: normal;
   width: 50%;
   float: left;
-  display: block;
+  display: list-item;
 }
 
 .packdetail-facility .facility-list .facility-item-icon {
   margin-right: 5px;
-  font-size: 14px;
+  font-size: 10px;
 }
 
 .packdetail-facility .facility-list .facility-item-icon-in {

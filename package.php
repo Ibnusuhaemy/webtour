@@ -324,12 +324,12 @@
           <div class="packdetail-contents packdetail-facility">
             <h2 class="content-title">Fasilitas</h2>
             <ul class="facility-list">
-              <li class="facility-item"><i class="fa fa-circle facility-item-icon"></i> Bus Wisata</li>
-              <li class="facility-item"><i class="fa fa-circle facility-item-icon"></i> Hotel</li>
-              <li class="facility-item"><i class="fa fa-circle facility-item-icon"></i> Jeep</li>
-              <li class="facility-item"><i class="fa fa-circle facility-item-icon"></i> Villa</li>
-              <li class="facility-item"><i class="fa fa-circle facility-item-icon"></i> Sarapan</li>
-              <li class="facility-item"><i class="fa fa-circle facility-item-icon"></i> Coffe Break</li>
+              <li class="facility-item">Bus Wisata</li>
+              <li class="facility-item">Hotel</li>
+              <li class="facility-item">Jeep</li>
+              <li class="facility-item">Villa</li>
+              <li class="facility-item">Sarapan</li>
+              <li class="facility-item">Coffe Break</li>
             </ul>
           </div>
 
@@ -402,7 +402,7 @@
           <div class="panel panel-default panel-complete content-packdetail-panel packdetail-price js-packdetail-price">
             <div class="panel-heading panel-complete-heading panel-heading-blue" role="tab" id="heading-facility">
               <h4 class="panel-title panel-complete-title">
-                <a role="button">Start From IDR 500.000</a>
+                <a role="button">Form Booking</a>
               </h4>
             </div>
             <div id="js-package-price" class="panel-collapse collapse in">

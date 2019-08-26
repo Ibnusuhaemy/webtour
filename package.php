@@ -103,13 +103,81 @@
 
   <!-- Package Detail -->
   <section class="content content-packdetail">
-    <div class="container">
-      <div class="row">
+   <div class="container">
+     <div class="row">
         <div class="col-md-8 col-lg-9 packdetail-left">
+        
+          <h2 class="content-title title-package">Explore Malang &amp; Kota Batu</h2>
 
+          <div class="content-packdetail-panel packdetail-destination">
+            <div class="packdetail-destination-slider js-packdetail-destination-slider">
+              <div class="item">
+                <div class="destination-slider-image">
+                  <!-- <img src="images/sliders/jagadtour-taman-rekreasi-selecta.jpg" width="800" height="445" alt="Paket Wisata Jagadtour"> -->
+                  <img src="images/sliders/jagadtour-wisata-bromo-6.jpg" width="1280" height="720" alt="Paket Wisata Jagadtour">
+                </div>
+                <div class="destination-slider-caption">
+                  <p>Selecta</p>
+                </div>
+              </div>
+              <div class="item">
+                <div class="destination-slider-image">
+                  <!-- <img src="images/sliders/jagadtour-jatim-park-1.jpg" width="1366" height="768" alt="Paket Wisata Jagadtour"> -->
+                  <img src="images/sliders/jagadtour-wisata-bromo-5.jpg" width="1280" height="720" alt="Paket Wisata Jagadtour">
+                </div>
+                <div class="destination-slider-caption">
+                  <p>JatimPark 1</p>
+                </div>
+              </div>
+              <div class="item">
+                <div class="destination-slider-image">
+                  <!-- <img src="images/sliders/jagadtour-museum-angkut-malang.jpg" width="1440" height="959" alt="Paket Wisata Jagadtour"> -->
+                  <img src="images/sliders/jagadtour-wisata-bromo-2.jpg" width="1280" height="720" alt="Paket Wisata Jagadtour">
+                </div>
+                <div class="destination-slider-caption">
+                  <p>Museum Angkot</p>
+                </div>
+              </div>
+              <div class="item">
+                <div class="destination-slider-image">
+                  <!-- <img src="images/sliders/jagadtour-museum-angkut-malang.jpg" width="1440" height="959" alt="Paket Wisata Jagadtour"> -->
+                  <img src="images/sliders/jagadtour-wisata-bromo-1.jpg" width="1280" height="720" alt="Paket Wisata Jagadtour">
+                </div>
+                <div class="destination-slider-caption">
+                  <p>Museum Angkot</p>
+                </div>
+              </div>
+            </div>
+            <div class="packdetail-destination-slider js-packdetail-destination-thumbnail">
+              <div class="item">
+                <div class="destination-slider-image">
+                  <!-- <img src="images/sliders/jagadtour-taman-rekreasi-selecta.jpg" width="800" height="445" alt="Paket Wisata Jagadtour"> -->
+                  <img src="images/sliders/jagadtour-wisata-bromo-6.jpg" width="1280" height="720" alt="Paket Wisata Jagadtour">
+                </div>
+              </div>
+              <div class="item">
+                <div class="destination-slider-image">
+                  <!-- <img src="images/sliders/jagadtour-jatim-park-1.jpg" width="1366" height="768" alt="Paket Wisata Jagadtour"> -->
+                  <img src="images/sliders/jagadtour-wisata-bromo-5.jpg" width="1280" height="720" alt="Paket Wisata Jagadtour">
+                </div>
+              </div>
+              <div class="item">
+                <div class="destination-slider-image">
+                  <!-- <img src="images/sliders/jagadtour-museum-angkut-malang.jpg" width="1440" height="959" alt="Paket Wisata Jagadtour"> -->
+                  <img src="images/sliders/jagadtour-wisata-bromo-2.jpg" width="1280" height="720" alt="Paket Wisata Jagadtour">
+                </div>
+              </div>
+              <div class="item">
+                <div class="destination-slider-image">
+                  <!-- <img src="images/sliders/jagadtour-museum-angkut-malang.jpg" width="1440" height="959" alt="Paket Wisata Jagadtour"> -->
+                  <img src="images/sliders/jagadtour-wisata-bromo-1.jpg" width="1280" height="720" alt="Paket Wisata Jagadtour">
+                </div>
+              </div>
+            </div>
+          </div>
+            
           <!-- Destinasi -->
-          <div class="packdetail-contents">
-            <h2 class="content-title title-package">Explore Malang &amp; Kota Batu</h2>
+          <div class="packdetail-contents destination-section">
             <div class="row packdetail-info">
               <div class="col-xs-6 col-lg-3">
                 <div class="media">
@@ -165,72 +233,6 @@
               </div>
             </div>
 
-            <div class="content-packdetail-panel packdetail-destination">
-              <div class="packdetail-destination-slider js-packdetail-destination-slider">
-                <div class="item">
-                  <div class="destination-slider-image">
-                    <!-- <img src="images/sliders/jagadtour-taman-rekreasi-selecta.jpg" width="800" height="445" alt="Paket Wisata Jagadtour"> -->
-                    <img src="images/sliders/jagadtour-wisata-bromo-6.jpg" width="1280" height="720" alt="Paket Wisata Jagadtour">
-                  </div>
-                  <div class="destination-slider-caption">
-                    <p>Selecta</p>
-                  </div>
-                </div>
-                <div class="item">
-                  <div class="destination-slider-image">
-                    <!-- <img src="images/sliders/jagadtour-jatim-park-1.jpg" width="1366" height="768" alt="Paket Wisata Jagadtour"> -->
-                    <img src="images/sliders/jagadtour-wisata-bromo-5.jpg" width="1280" height="720" alt="Paket Wisata Jagadtour">
-                  </div>
-                  <div class="destination-slider-caption">
-                    <p>JatimPark 1</p>
-                  </div>
-                </div>
-                <div class="item">
-                  <div class="destination-slider-image">
-                    <!-- <img src="images/sliders/jagadtour-museum-angkut-malang.jpg" width="1440" height="959" alt="Paket Wisata Jagadtour"> -->
-                    <img src="images/sliders/jagadtour-wisata-bromo-2.jpg" width="1280" height="720" alt="Paket Wisata Jagadtour">
-                  </div>
-                  <div class="destination-slider-caption">
-                    <p>Museum Angkot</p>
-                  </div>
-                </div>
-                <div class="item">
-                  <div class="destination-slider-image">
-                    <!-- <img src="images/sliders/jagadtour-museum-angkut-malang.jpg" width="1440" height="959" alt="Paket Wisata Jagadtour"> -->
-                    <img src="images/sliders/jagadtour-wisata-bromo-1.jpg" width="1280" height="720" alt="Paket Wisata Jagadtour">
-                  </div>
-                  <div class="destination-slider-caption">
-                    <p>Museum Angkot</p>
-                  </div>
-                </div>
-              </div>
-              <div class="packdetail-destination-slider js-packdetail-destination-thumbnail">
-                <div class="item">
-                  <div class="destination-slider-image">
-                    <!-- <img src="images/sliders/jagadtour-taman-rekreasi-selecta.jpg" width="800" height="445" alt="Paket Wisata Jagadtour"> -->
-                    <img src="images/sliders/jagadtour-wisata-bromo-6.jpg" width="1280" height="720" alt="Paket Wisata Jagadtour">
-                  </div>
-                </div>
-                <div class="item">
-                  <div class="destination-slider-image">
-                    <!-- <img src="images/sliders/jagadtour-jatim-park-1.jpg" width="1366" height="768" alt="Paket Wisata Jagadtour"> -->
-                    <img src="images/sliders/jagadtour-wisata-bromo-5.jpg" width="1280" height="720" alt="Paket Wisata Jagadtour">
-                  </div>
-                </div>
-                <div class="item">
-                  <div class="destination-slider-image">
-                    <!-- <img src="images/sliders/jagadtour-museum-angkut-malang.jpg" width="1440" height="959" alt="Paket Wisata Jagadtour"> -->
-                    <img src="images/sliders/jagadtour-wisata-bromo-2.jpg" width="1280" height="720" alt="Paket Wisata Jagadtour">
-                  </div>
-                </div>
-                <div class="item">
-                  <div class="destination-slider-image">
-                    <!-- <img src="images/sliders/jagadtour-museum-angkut-malang.jpg" width="1440" height="959" alt="Paket Wisata Jagadtour"> -->
-                    <img src="images/sliders/jagadtour-wisata-bromo-1.jpg" width="1280" height="720" alt="Paket Wisata Jagadtour">
-                  </div>
-                </div>
-              </div>
-            </div>
           </div>
 
           <!-- Itinerary -->

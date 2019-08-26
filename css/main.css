@@ -1561,7 +1561,7 @@ p {
 .thumbnail-icon{
     position: absolute;
     background: #0077c2;
-    padding: 15px;
+    padding: 4px;
     border-radius: 25px;
     z-index: 1;
     color: #fff;

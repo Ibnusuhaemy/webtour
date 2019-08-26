@@ -44,7 +44,7 @@
           <span class="jgicon icon-call"></span>
           <div class="contact-call">
             <p class="contact-caption">For General Questions</p>
-            <p class="contact-number"><a href="#">+63415051185</a></p>
+            <p class="contact-number"><a href="#">+623415051185</a></p>
           </div>
           <div class="contact-call">
             <p class="contact-caption">For Booking and Inquiries</p>

@@ -455,8 +455,7 @@
                         <img src="images/testimonials/1.jpg" width="960" height="960" alt="Testimonial Putri Sahadaya di Jagadtour" class="media-object testi-slider-photo">
                       </a>
                       <div class="home-comment">
-                        <h4 class="media-heading testi-slider-name">Kartika</h4>
-                        <p class="testi-slider-city">Bandung</p>
+                        <h4 class="media-heading testi-slider-name">Kartika - <span class="testi-slider-city">Bandung</span></h4>
                         <p class="testi-slider-statement">
                           Dari awal ketika melihat jagad tour ada satu pikiran saya bahwa, travel ini memiliki rasa tanggung jawab dan beda
                           dengan yang lain mulai dari fasilitas dan pendukung lainnya. Sukses terus jagad tour.
@@ -476,8 +475,7 @@
                         <img src="images/testimonials/2.jpg" width="3000" height="3000" alt="Testimonial Asuna Diana di Jagadtour" class="media-object testi-slider-photo">
                       </a>
                       <div class="home-comment">
-                        <h4 class="media-heading testi-slider-name">Andi</h4>
-                        <p class="testi-slider-city">Jakarta</p>
+                        <h4 class="media-heading testi-slider-name">Andi - <span class="testi-slider-city">Jakarta</span></h4>
                         <p class="testi-slider-statement">
                           Bagi saya jagad tour punya treatment khusus untuk membuat client merasa nyaman dan bahagia saat berwisata di
                           malang dan kami merasakan itu. Semoga Tuhan memberkati Jagad Tour dan timnya
@@ -728,12 +726,10 @@
           <div class="col-xs-6 col-sm-6 col-md-3 footer-menu-contact">
             <h4>Alamat</h4>
             <p class="contact-content">
-              PT. Jagad Mahakarya Wisata <br>
               Malang (Office 1) <br> Banyuwangi (Office 2) <br> Ranupane (Basecamp) <br>
-              Jawa Timur : 65148 <br>
             </p>
             <p class="contact-content">Email: cs@jagadtour.com</p>
-            <p class="contact-content contact-address">Hotline : 0341 – 5051185 / 08113785758 / 082244441318</p>
+            <p class="contact-content contact-address">0341 – 5051185 / 08113785758</p>
             <p class="contact-content">Find Us</p>
             <p class="contact-content socmed-list">
               <a class="contact-content-sm" href="https://www.instagram.com/jagadtour/"><i class="fa fa-instagram"></i></a>

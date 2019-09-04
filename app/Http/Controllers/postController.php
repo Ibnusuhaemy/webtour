@@ -41,6 +41,7 @@ class postController extends Controller
             'harga_dewasa' => 'required',
             'harga_anak' => 'required',
             'booked' => 'required',
+            'lokasi' => 'required',
         ]);
 
         $photo = $request->file('gambar_paket');
@@ -54,6 +55,9 @@ class postController extends Controller
             'harga_dewasa' => $request->input('harga_dewasa'),
             'harga_anak' => $request->input('harga_anak'),
             'booked' => $request->input('booked'),
+            'overview' => $request->input('overview'),
+            'grup_size' => $request->input('grup_size'),
+            'lokasi' => $request->input('lokasi'),
             'created_at' => \Carbon\Carbon::now(),
             'updated_at' => \Carbon\Carbon::now()
         ]);
@@ -93,10 +97,7 @@ class postController extends Controller
 
     public function storeFasilitas(Request $request, $id_paket){
         $request->validate([
-            'fasilitas1' => 'required',
-            'fasilitas2' => 'required',
-            'fasilitas3' => 'required',
-            'fasilitas4' => 'required'
+            'fasilitas' => 'required',
         ]);
 
         $fasilitas = fasilitas::where('id_paket','=',$id_paket);
@@ -104,10 +105,7 @@ class postController extends Controller
         if ($paket != null && $fasilitas == null){
             fasilitas::insert([
                 'id_paket' => $id_paket,
-                'fasilitas1' => $request->input('fasilitas1'),
-                'fasilitas2' => $request->input('fasilitas2'),
-                'fasilitas3' => $request->input('fasilitas3'),
-                'fasilitas4' => $request->input('fasilitas4'),
+                'fasilitas' => $request->input('fasilitas'),
                 'created_at' => \Carbon\Carbon::now(),
                 'updated_at' => \Carbon\Carbon::now()
             ]);
@@ -118,7 +116,7 @@ class postController extends Controller
         }
     }
 
-    public function storeTestimoni(Request $request, $id_paket){
+    public function storeTestimoniByPaket(Request $request, $id_paket){
         $request->validate([
             'nama_testimoni' => 'required',
             'kota_testimoni' => 'required',
@@ -148,17 +146,41 @@ class postController extends Controller
         }
     }
 
+    public function storeTestimoni(Request $request){
+        $request->validate([
+            'nama_testimoni' => 'required',
+            'kota_testimoni' => 'required',
+            'testimoni' => 'required',
+            'foto_testimoni' => 'required',
+        ]);
+
+        $photo = $request->file('foto_testimoni');
+        $foto_testimoni = $photo->getFilename().'.'.$photo->getClientOriginalExtension();
+        Storage::disk('folder_foto_testimoni')->put($foto_testimoni,File::get($photo));
+
+        testimoni::insert([
+            'nama_testimoni' => $request->input('nama_testimoni'),
+            'kota_testimoni' => $request->input('kota_testimoni'),
+            'testimoni' => $request->input('testimoni'),
+            'foto_testimoni' => $foto_testimoni,
+            'created_at' => \Carbon\Carbon::now(),
+            'updated_at' => \Carbon\Carbon::now()
+        ]);
+        return response()->json($this->successStatus);
+    }
+
     public function storeHotel(Request $request, $id_paket){
+        $request->validate([
+            'nama_hotel' => 'required',
+         ]);
+
         $hotel = hotel::where('id_paket','=',$id_paket);
         $paket = paket::where('id','=',$id_paket);
         if ($paket != null && $hotel == null) {
             hotel::insert([
                 'id_paket' => $id_paket,
-                '1' => $request->input('1'),
-                '2' => $request->input('2'),
-                '3' => $request->input('3'),
-                '4' => $request->input('4'),
-                '5' => $request->input('5'),
+                'nama_hotel' => $request->input('nama_hotel'),
+                'harga_hotel' => $request->input('harga_hotel'),
                 'created_at' => \Carbon\Carbon::now(),
                 'updated_at' => \Carbon\Carbon::now()
             ]);
@@ -172,8 +194,7 @@ class postController extends Controller
     public function storeRencana(Request $request, $id_paket){
         $request->validate([
             'rencana' => 'required',
-            'gambar_rencana' => 'required',
-            'deskripsi' => 'required'
+            'gambar_rencana' => 'required'
         ]);
 
         $photo = $request->file('gambar_rencana');
@@ -259,8 +280,7 @@ class postController extends Controller
         $request->validate([
             'judul' => 'required',
             'id_type' => 'required',
-            'gambar_blog' => 'required',
-            'deskripsi' => 'required'
+            'gambar_blog' => 'required'
         ]);
 
         $photo = $request->file('gambar_blog');

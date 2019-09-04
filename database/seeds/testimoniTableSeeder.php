@@ -26,13 +26,6 @@ class testimoniTableSeeder extends Seeder
                 'testimoni' => 'asdaefsdvdrgxvaexcsfsdsfj sej fjsy  efejf sjeyfvs jef',
                 'foto_testimoni' => 'fgfgdefse.jpg'
             ],
-            [
-                'id_paket' => 2,
-                'nama_testimoni' => 'Arya Annurseno',
-                'kota_testimoni' => 'Jogjakarta',
-                'testimoni' => 'asdaefsdvdrgxvaexcsfsdsfj sej fjsy  efejf sjeyfvs jef',
-                'foto_testimoni' => 'fgfgdefs123.jpg'
-            ]
         ]);
     }
 }

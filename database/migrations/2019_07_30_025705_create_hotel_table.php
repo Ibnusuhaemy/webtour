@@ -16,11 +16,8 @@ class CreateHotelTable extends Migration
         Schema::create('hotel', function (Blueprint $table) {
             $table->bigIncrements('id');
             $table->unsignedInteger('id_paket');
-            $table->integer('1')->nullable();
-            $table->integer('2')->nullable();
-            $table->integer('3')->nullable();
-            $table->integer('4')->nullable();
-            $table->integer('5')->nullable();
+            $table->string('nama_hotel');
+            $table->string('harga_hotel')->nullable();
             $table->timestamps();
 
             $table->foreign('id_paket')->references('id')->on('paket');

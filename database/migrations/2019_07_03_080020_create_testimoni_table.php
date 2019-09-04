@@ -15,7 +15,7 @@ class CreateTestimoniTable extends Migration
     {
         Schema::create('testimoni', function (Blueprint $table) {
             $table->increments('id');
-            $table->unsignedInteger('id_paket');
+            $table->unsignedInteger('id_paket')->nullable();
             $table->string('nama_testimoni');
             $table->string('kota_testimoni');
             $table->string('testimoni');

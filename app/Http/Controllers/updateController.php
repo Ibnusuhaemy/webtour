@@ -53,6 +53,9 @@ class updateController extends Controller
             'harga_dewasa' => $request->input('harga_dewasa'),
             'harga_anak' => $request->input('harga_anak'),
             'booked' => $request->input('booked'),
+            'overview' => $request->input('overview'),
+            'grup_size' => $request->input('grup_size'),
+            'lokasi' => $request->input('lokasi'),
             'created_at' => \Carbon\Carbon::now(),
             'updated_at' => \Carbon\Carbon::now()
         ]);
@@ -83,17 +86,11 @@ class updateController extends Controller
 
     public function updateFasilitas(Request $request, $id){
         $request->validate([
-            'fasilitas1' => 'required',
-            'fasilitas2' => 'required',
-            'fasilitas3' => 'required',
-            'fasilitas4' => 'required'
+            'fasilitas' => 'required',
         ]);
 
         fasilitas::where('id',$id)->update([
-            'fasilitas1' => $request->input('fasilitas1'),
-            'fasilitas2' => $request->input('fasilitas2'),
-            'fasilitas3' => $request->input('fasilitas3'),
-            'fasilitas4' => $request->input('fasilitas4'),
+            'fasilitas' => $request->input('fasilitas'),
             'created_at' => \Carbon\Carbon::now(),
             'updated_at' => \Carbon\Carbon::now()
         ]);
@@ -124,12 +121,13 @@ class updateController extends Controller
     }
 
     public function updateHotel(Request $request, $id){
+        $request->validate([
+            'nama_hotel' => 'required',
+        ]);
+
         hotel::where('id',$id)->update([
-            '1' => $request->input('1'),
-            '2' => $request->input('2'),
-            '3' => $request->input('3'),
-            '4' => $request->input('4'),
-            '5' => $request->input('5'),
+            'nama_hotel' => $request->input('nama_hotel'),
+            'harga_hotel' => $request->input('harga_hotel'),
             'created_at' => \Carbon\Carbon::now(),
             'updated_at' => \Carbon\Carbon::now()
         ]);
@@ -139,8 +137,7 @@ class updateController extends Controller
     public function updateRencana(Request $request, $id){
         $request->validate([
             'rencana' => 'required',
-            'gambar_rencana' => 'required',
-            'deskripsi' => 'required'
+            'gambar_rencana' => 'required'
         ]);
 
         $photo = $request->file('gambar_rencana');
@@ -187,8 +184,7 @@ class updateController extends Controller
         $request->validate([
             'judul' => 'required',
             'id_type' => 'required',
-            'gambar_blog' => 'required',
-            'deskripsi' => 'required'
+            'gambar_blog' => 'required'
         ]);
 
         $photo = $request->file('gambar_blog');

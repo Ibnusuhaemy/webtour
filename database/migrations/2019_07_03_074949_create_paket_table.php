@@ -21,6 +21,10 @@ class CreatePaketTable extends Migration
             $table->integer('harga_dewasa');
             $table->integer('harga_anak');
             $table->integer('booked')->nullable();
+            $table->longText('overview')->nullable();
+            $table->string('grup_size')->nullable();
+            $table->string('lokasi')->nullable();
+            $table->string('meet_point')->nullable();
             $table->timestamps();
 
             $table->foreign('id_type')->references('id')->on('type_paket');

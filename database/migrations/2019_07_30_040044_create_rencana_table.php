@@ -18,7 +18,7 @@ class CreateRencanaTable extends Migration
             $table->unsignedInteger('id_paket');
             $table->string('rencana');
             $table->string('gambar_rencana')->nullable();
-            $table->string('deskripsi')->nullable();
+            $table->longText('deskripsi')->nullable();
             $table->timestamps();
 
             $table->foreign('id_paket')->references('id')->on('paket');

@@ -14,22 +14,40 @@ class destinasiTableSeeder extends Seeder
         DB::table('destinasi')->insert([
             [
                 'id_paket' => 1,
-                'nama_tempat_destinasi' => 'Alun-alun kota Malang',
-                'kota_destinasi' => 'Malang',
-                'gambar_destinasi' => 'dfvsef.jpg'
+                'nama_tempat_destinasi' => 'Petik Apel',
+                'kota_destinasi' => 'Batu',
+                'gambar_destinasi' => 'dummy.jpg'
             ],
             [
                 'id_paket' => 1,
-                'nama_tempat_destinasi' => 'Hawai Waterpark',
-                'kota_destinasi' => 'Malang',
-                'gambar_destinasi' => 'dfvjnd.jpg'
+                'nama_tempat_destinasi' => 'Coban Talun',
+                'kota_destinasi' => 'Batu',
+                'gambar_destinasi' => 'dummy.jpg'
             ],
             [
-                'id_paket' => 2,
-                'nama_tempat_detinasi' => 'Pantai Pandawa',
-                'kota_destinasi' => 'Bali',
-                'gambar_destinasi' => 'mjknsce.jpg'
-            ]
+                'id_paket' => 1,
+                'nama_tempat_destinasi' => 'Dino Park (Jatimpark 3)',
+                'kota_destinasi' => 'Batu',
+                'gambar_destinasi' => 'dummy.jpg'
+            ],
+            [
+                'id_paket' => 1,
+                'nama_tempat_destinasi' => 'The Legend Star (Jatimpark 3)',
+                'kota_destinasi' => 'Batu',
+                'gambar_destinasi' => 'dummy.jpg'
+            ],
+            [
+                'id_paket' => 1,
+                'nama_tempat_destinasi' => 'Alun-alun Kota Wisata Batu',
+                'kota_destinasi' => 'Batu',
+                'gambar_destinasi' => 'dummy.jpg'
+            ],
+            [
+                'id_paket' => 1,
+                'nama_tempat_destinasi' => 'Pos Ketan Legenda',
+                'kota_destinasi' => 'Batu',
+                'gambar_destinasi' => 'dummy.jpg'
+            ],
         ]);
     }
 }

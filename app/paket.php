@@ -27,4 +27,12 @@ class paket extends Model
     public function faqs(){
         return $this->hasMany('App\faqs','id_paket','id');
     }
+
+    public function fasilitas(){
+        return $this->hasMany('App\fasilitas','id_paket','id');
+    }
+
+    public function hotel(){
+        return $this->hasMany('App\hotel','id_paket','id');
+    }
 }

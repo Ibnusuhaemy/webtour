@@ -72,8 +72,8 @@
                 <div class="collapse navbar-collapse menu-box-collapse" id="bs-example-navbar-collapse-1">
                   <ul class="nav navbar-nav menu-box-item">
                     <li><a href={{ url('/')}}>Home<span class="sr-only">(current)</span></a></li>
-                    <li><a href="#">Family Trip</a></li>
-                    <li><a href={{ url('/package')}}>Corporate</a></li>
+                    <li><a href={{ url('/family-trip')}}>Family Trip</a></li>
+                    <li><a href={{ url('/corporate-trip')}}>Corporate</a></li>
                     <li><a href="#">Custom Trip</a></li>
                     <li><a href={{ url('/gallery-testimoni')}}>Gallery & Testimoni</a></li>
                     <li><a href={{ url('/blog')}}>Blog</a></li>

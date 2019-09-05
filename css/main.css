@@ -604,8 +604,8 @@ p {
 /* - Title - */
 .content .content-title {
   font-family: "DINNextLTPro-Medium", Fallback, sans-serif;
-  font-size: 20px;
-  color: #4b4b4b;
+  font-size: 25px;
+  color: #111111;
   text-transform: uppercase;
   text-align: center;
 }
@@ -618,7 +618,7 @@ p {
 }
 
 .content p {
-  font-size: 14px;
+  font-size: 18px;
   font-family: "DINNextLTPro-Regular", Fallback, sans-serif;
 }
 
@@ -829,7 +829,7 @@ p {
 
 .panel-complete-heading .panel-complete-title {
   font-family: "DINNextLTPro-Medium", Fallback, sans-serif;
-  font-size: 16px;
+  font-size: 18px;
   color: #fff;
   text-transform: uppercase;
 }
@@ -837,6 +837,24 @@ p {
 .panel-complete .panel-complete-content {
   padding-left: 20px;
   padding-right: 20px;
+}
+
+.panel-heading-faqs .panel-title.panel-complete-title{
+  color: #111;
+}
+
+.panel-heading-faqs .panel-title.panel-complete-title a{
+  color: #525861;
+}
+
+.panel-heading-faqs .panel-body{
+  color: #717b88;
+}
+
+.panel-title.panel-complete-title a:focus,
+.panel-title.panel-complete-title a:hover{
+  outline: none;
+  text-decoration: none;
 }
 
 /* Card Group */
@@ -1460,8 +1478,8 @@ p {
   border-bottom: none;
 }
 
-.content-packdetail .content-packdetail-panel {
-  /*  margin-bottom: 30px;*/
+.content-packdetail .content-packdetail-panel.panel-left {
+   margin-top: 110px;
 }
 
 .content-packdetail .content-title {
@@ -1470,9 +1488,18 @@ p {
 }
 
 .content-packdetail .title-package {
-  border-bottom: 1px solid #dadada;
-  padding-bottom: 5px;
   margin-bottom: 0px;
+  font-size: 40px;
+  color: #111;
+  text-transform: capitalize;
+}
+
+.content-packdetail .subtitle-package {
+  font-size: 25px;
+  margin-bottom: 0px;
+  color: #ff681f;
+  text-transform: capitalize;
+  font-family: "DINNextLTPro-Regular", Fallback, sans-serif;
 }
 
 .packdetail-info {
@@ -1485,7 +1512,7 @@ p {
 }
 
 .packdetail-info .media a {
-  font-size: 20px;
+  font-size: 30px;
 }
 
 .packdetail-destination .panel-complete-content {
@@ -1561,7 +1588,7 @@ p {
 .thumbnail-icon{
     position: absolute;
     background: #0077c2;
-    padding: 15px;
+    padding: 4px;
     border-radius: 25px;
     z-index: 1;
     color: #fff;
@@ -1628,16 +1655,11 @@ p {
 
 .packdetail-itinerary-detail .media-body p {
   font-family: "DINNextLTPro-Regular", Fallback, sans-serif;
-  font-size: 14px;
+  font-size: 18px;
   line-height: 22px;
 }
 
 /* - Facility - */
-.packdetail-facility .facility-list {
-  list-style: disc;
-  margin-left: 20px;
-}
-
 .packdetail-facility .facility-list::after {
   display: block;
   content: "";
@@ -1646,25 +1668,30 @@ p {
 
 .packdetail-facility .facility-list .facility-item {
   font-family: "DINNextLTPro-Regular", Fallback, sans-serif;
-  font-size: 16px;
+  font-size: 18px;
   line-height: normal;
-  width: 50%;
-  float: left;
   display: list-item;
 }
 
-.packdetail-facility .facility-list .facility-item-icon {
-  margin-right: 5px;
-  font-size: 10px;
+.packdetail-facility .facility-list .facility-item .facility-box {
+  display: inline-block;
+  vertical-align: middle;
 }
 
-.packdetail-facility .facility-list .facility-item-icon-in {
+.packdetail-facility .facility-list .facility-item .facility-box_inner {
+  width: 5px;
+  height: 5px;
+  background-color: #0077c2;
+  margin-right: 15px;
+}
+
+/* .packdetail-facility .facility-list .facility-item-icon-in {
   color: #44b24f;
 }
 
 .packdetail-facility .facility-list .facility-item-icon-ex {
   color: #e74c3c;
-}
+} */
 
 /* - FAQ - */
 .packdetail-contents .packdetail-faq-title {
@@ -1676,7 +1703,7 @@ p {
 /* - Price - */
 .packdetail-right {
   position: sticky;
-  top: 25vh;
+  top: 10vh;
 }
 .packdetail-right .form-group{
   margin: 0 ;
@@ -3125,6 +3152,10 @@ p {
     padding: 12px;
   }
 
+  .content-packdetail .content-packdetail-panel.panel-left{
+    margin-top: 0;
+  }
+
   /* - price - */
   .packdetail-right {
     position: relative;
@@ -3917,7 +3948,7 @@ p {
 
   /* --- ## Content ## --- */
   .content p {
-    font-size: 12px;
+    font-size: 14px;
   }
 
   .content .content-title {

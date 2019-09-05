@@ -37,6 +37,9 @@ Route::get('galeri/getgaleritestimoni','getController@getGaleri');
 
 //BLOG
 Route::get('blog/pageblog', 'getController@getBlog');
+Route::get('blog/getall','getController@getAllBlog');
+Route::post('blog/komentar/{id_blog}','postController@storeKomentar');
+Route::get('blog/getblog/{id}','getController@getBlogById');
 //=========================================================================
 
 //UNIVERSAL API
@@ -69,7 +72,6 @@ Route::get('getallpaket', 'getController@getPaketAll');
 //    Route::post('insert/hotel/{id_paket}', 'postController@storeHotel');
 //    Route::post('insert/faqs/{id_paket}', 'postController@storeFaqs');
 //    Route::post('insert/galeri','postController@storeGaleri');
-//    Route::post('insert/komentar/{id_blog}','postController@storeKomentar');
 //    Route::post('insert/blog','postController@storeBlog');
 //
 //    // UPDATE API

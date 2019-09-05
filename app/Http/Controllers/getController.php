@@ -189,6 +189,66 @@ class getController extends Controller
         return response()->json($response);
     }
 
+    public function getBlogById($id){
+        $blog = blog::join('type_blog','type_blog.id','=','blog.id_type')
+            ->where('blog.id',$id)
+            ->withCount('komentar')
+            ->with(['komentar' => function($query){
+                $query->orderBy('id','desc');
+            }])
+            ->get(['blog.id','blog.judul','type_blog.type_blog','blog.created_at','blog.gambar_blog','blog.deskripsi','blog.featured']);
+
+        //NESTED ARRAY TABEL HOTEL
+            komentar::where('id_blog',$blog)
+            ->get(['id','id_blog','nama_komentar','komentar','created_at']);
+
+        $bloglain = blog::join('type_blog','type_blog.id','=','blog.id_type')
+            ->withCount('komentar')
+            ->with(['komentar' => function($query){
+                $query->orderBy('id','desc');
+            }])
+            ->get(['blog.id','blog.judul','type_blog.type_blog','blog.created_at','blog.gambar_blog','blog.deskripsi','blog.featured']);
+
+        //NESTED ARRAY TABEL HOTEL
+        komentar::where('id_blog',$bloglain)
+            ->get(['id','id_blog','nama_komentar','komentar','created_at']);
+
+
+        $paket = paket::join('type_paket','type_paket.id', '=', 'paket.id_type')
+            ->join('durasi','durasi.id_paket','=','paket.id')
+            ->inRandomOrder()
+            ->limit(3)
+            ->get(['paket.id','paket.nama_paket','paket.gambar_paket','type_paket.type','durasi.jam','durasi.hari','durasi.malam']);
+
+        $response = [
+            'blog' => $blog,
+            'bloglain' => $bloglain,
+            'paket' => $paket
+        ];
+        return response()->json($response);
+    }
+
+    public function getAllBlog(){
+        $blog = blog::join('type_blog','type_blog.id','=','blog.id_type')
+            ->inRandomOrder()
+            ->withCount('komentar')
+            ->with(['komentar' => function($query){
+                $query->orderBy('id','desc');
+            }])
+            ->get(['blog.id','blog.judul','type_blog.type_blog','blog.created_at','blog.gambar_blog','blog.deskripsi','blog.featured']);
+
+        //NESTED ARRAY TABEL HOTEL
+        $komentar = komentar::where('id_blog',$blog)
+            ->orderBy('komentar.id','desc')
+            ->limit(1)
+            ->get(['id','id_blog','nama_komentar','komentar','created_at']);
+
+        $response = [
+            'data' => $blog
+        ];
+        return response()->json($response);
+    }
+
     public function getPopulerPaketHome()
     {
         $paket = paket::join('type_paket', 'type_paket.id', '=', 'paket.id_type')

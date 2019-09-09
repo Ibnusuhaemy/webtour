@@ -845,6 +845,7 @@ p {
 
 .panel-heading-faqs .panel-title.panel-complete-title a{
   color: #525861;
+  font-size: 22px;
 }
 
 .panel-heading-faqs .panel-body{
@@ -1735,6 +1736,11 @@ p {
 
 .panel-heading-faqs .packdetail-faqs{
   margin-bottom: 5px;
+  box-shadow: none;
+  border-bottom: 1px solid #ddd;
+  border-bottom-left-radius: unset;
+  border-bottom-right-radius: unset;
+
 }
 
 /* - Price - */

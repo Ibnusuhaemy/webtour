@@ -301,6 +301,20 @@
                 </div>
               </div>
             </a>
+            <a href="images/testimonials/3.jpeg" data-toggle="lightbox" data-gallery="gallery" data-type="image">
+              <div class="panel panel-default">
+                <div class="panel-body card-single-body">
+                  <img src="images/testimonials/3.jpeg" width="720" height="719" alt="Jagadtour User Photo Gallery" class="img-responsive">
+                </div>
+              </div>
+            </a>
+            <a href="images/testimonials/4.jpg" data-toggle="lightbox" data-gallery="gallery" data-type="image">
+              <div class="panel panel-default">
+                <div class="panel-body card-single-body">
+                  <img src="images/testimonials/4.jpg" width="3000" height="3000" alt="Jagadtour User Photo Gallery" class="img-responsive">
+                </div>
+              </div>
+            </a>
           </div>
         </div>
       </div>
@@ -316,7 +330,6 @@
         </div>
       </div>
       <div class="row">
-
         <div class="owl-carousel testi-carousel content-testi-slider">
           <div class="col-md-12">
             <div class="item">
@@ -870,6 +883,27 @@
                       <p class="testi-slider-statement">
                         Biarpun kami hanya mendonasikan pakaian yang sudah tidak kami pakai, kami merasa berarti untuk sesama. Pertahankan
                         terus jagad tour atas pelayanannya. Teruslah berinovasi untuk selalu menjadi yang terbaik
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="item">
+              <div class="panel panel-default testi-slider-item">
+                <div class="panel-body">
+                  <div class="media testi-slider-media">
+                    <div class="media-left">
+                      <a href="#">
+                        <img src="images/testimonials/13.jpg" width="2591" height="2591" alt="Testimonial Thomas Budi di Jagadtour" class="media-object testi-slider-photo">
+                      </a>
+                    </div>
+                    <div class="media-body media-middle">
+                      <h4 class="media-heading testi-slider-name">Alex</h4>
+                      <p class="testi-slider-city">Jakarta</p>
+                      <p class="testi-slider-statement">
+                        Customer servicenya asik bisa memberi referensi dan saran untuk rombongan kita yang notabenenya pensiunan, semua
+                        terorganiser dengan baik dan servicenya juga OK. Kami semuanya puas
                       </p>
                     </div>
                   </div>

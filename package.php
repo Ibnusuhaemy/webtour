@@ -104,7 +104,7 @@
   <!-- Package Detail -->
   <section class="content content-packdetail">
    <div class="container">
-     <div class="row">
+     <div class="row wrapper">
         <div class="col-md-8 col-lg-9 packdetail-left">
         
           <h2 class="content-title title-package">Explore Malang &amp; Kota Batu</h2>
@@ -116,63 +116,63 @@
                   <!-- <img src="images/sliders/jagadtour-taman-rekreasi-selecta.jpg" width="800" height="445" alt="Paket Wisata Jagadtour"> -->
                   <img src="images/sliders/jagadtour-wisata-bromo-6.jpg" width="1280" height="720" alt="Paket Wisata Jagadtour">
                 </div>
-                <div class="destination-slider-caption">
+                <!-- <div class="destination-slider-caption">
                   <p>Bromo</p>
-                </div>
+                </div> -->
               </div>
               <div class="item">
                 <div class="destination-slider-image">
                   <!-- <img src="images/sliders/jagadtour-jatim-park-1.jpg" width="1366" height="768" alt="Paket Wisata Jagadtour"> -->
                   <img src="images/sliders/jagadtour-wisata-bromo-5.jpg" width="1280" height="720" alt="Paket Wisata Jagadtour">
                 </div>
-                <div class="destination-slider-caption">
+                <!-- <div class="destination-slider-caption">
                   <p>Bromo</p>
-                </div>
+                </div> -->
               </div>
               <div class="item">
                 <div class="destination-slider-image">
                   <!-- <img src="images/sliders/jagadtour-museum-angkut-malang.jpg" width="1440" height="959" alt="Paket Wisata Jagadtour"> -->
                   <img src="images/sliders/jagadtour-wisata-bromo-2.jpg" width="1280" height="720" alt="Paket Wisata Jagadtour">
                 </div>
-                <div class="destination-slider-caption">
+                <!-- <div class="destination-slider-caption">
                   <p>Bromo</p>
-                </div>
+                </div> -->
               </div>
               <div class="item">
                 <div class="destination-slider-image">
                   <!-- <img src="images/sliders/jagadtour-museum-angkut-malang.jpg" width="1440" height="959" alt="Paket Wisata Jagadtour"> -->
                   <img src="images/sliders/jagadtour-wisata-bromo-1.jpg" width="1280" height="720" alt="Paket Wisata Jagadtour">
                 </div>
-                <div class="destination-slider-caption">
+                <!-- <div class="destination-slider-caption">
                   <p>Bromo</p>
-                </div>
+                </div> -->
               </div>
               <div class="item">
                 <div class="destination-slider-image">
                   <!-- <img src="images/sliders/jagadtour-museum-angkut-malang.jpg" width="1440" height="959" alt="Paket Wisata Jagadtour"> -->
                   <img src="images/sliders/jagadtour-wisata-bromo-1.jpg" width="1280" height="720" alt="Paket Wisata Jagadtour">
                 </div>
-                <div class="destination-slider-caption">
+                <!-- <div class="destination-slider-caption">
                   <p>Bromo</p>
-                </div>
+                </div> -->
               </div>
               <div class="item">
                 <div class="destination-slider-image">
                   <!-- <img src="images/sliders/jagadtour-museum-angkut-malang.jpg" width="1440" height="959" alt="Paket Wisata Jagadtour"> -->
                   <img src="images/sliders/jagadtour-wisata-pananjakan-3.jpg" width="1280" height="720" alt="Paket Wisata Jagadtour">
                 </div>
-                <div class="destination-slider-caption">
+                <!-- <div class="destination-slider-caption">
                   <p>Pananjakan</p>
-                </div>
+                </div> -->
               </div>
               <div class="item">
                 <div class="destination-slider-image">
                   <!-- <img src="images/sliders/jagadtour-museum-angkut-malang.jpg" width="1440" height="959" alt="Paket Wisata Jagadtour"> -->
                   <img src="images/sliders/jagadtour-wisata-malang-105.jpg" width="1280" height="720" alt="Paket Wisata Jagadtour">
                 </div>
-                <div class="destination-slider-caption">
+                <!-- <div class="destination-slider-caption">
                   <p>Malang Kota</p>
-                </div>
+                </div> -->
               </div>
             </div>
             <div class="packdetail-destination-slider js-packdetail-destination-thumbnail">
@@ -310,7 +310,10 @@
               <div class="panel panel-default panel-complete content-packdetail-panel packdetail-itinerary">
                 <div class="panel-heading panel-complete-heading panel-heading-blue" role="tab" id="heading-itinerary">
                   <h4 class="panel-title panel-complete-title">
-                    <a role="button" data-toggle="collapse" data-parent="#js-package" href="#js-package-itinerary-1" aria-expanded="true" aria-controls="js-package-itinerary">Hari ke 1: Taman Rekreasi Selecta</a>
+                    <a role="button" data-toggle="collapse" data-parent="#js-package" href="#js-package-itinerary-1" aria-expanded="true" aria-controls="js-package-itinerary">
+                      Hari ke 1: Taman Rekreasi Selecta
+                      <i class="glyphicon glyphicon-menu-down"></i>
+                    </a>
                   </h4>
                 </div>
                 <div id="js-package-itinerary-1" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="heading-itinerary">
@@ -335,7 +338,10 @@
               <div class="panel panel-default panel-complete content-packdetail-panel packdetail-itinerary">
                 <div class="panel-heading panel-complete-heading panel-heading-blue" role="tab" id="heading-itinerary">
                   <h4 class="panel-title panel-complete-title">
-                    <a role="button" data-toggle="collapse" data-parent="#js-package" href="#js-package-itinerary-2" aria-expanded="true" aria-controls="js-package-itinerary">Hari ke 2: Jatim Park 1</a>
+                    <a role="button" data-toggle="collapse" data-parent="#js-package" href="#js-package-itinerary-2" aria-expanded="true" aria-controls="js-package-itinerary" class="collapsed">
+                      Hari ke 2: Jatim Park 1
+                      <i class="glyphicon glyphicon-menu-down"></i>
+                    </a>
                   </h4>
                 </div>
                 <div id="js-package-itinerary-2" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading-itinerary">
@@ -362,7 +368,10 @@
               <div class="panel panel-default panel-complete content-packdetail-panel packdetail-itinerary">
                 <div class="panel-heading panel-complete-heading panel-heading-blue" role="tab" id="heading-itinerary">
                   <h4 class="panel-title panel-complete-title">
-                    <a role="button" data-toggle="collapse" data-parent="#js-package" href="#js-package-itinerary-3" aria-expanded="true" aria-controls="js-package-itinerary">Hari ke 3: Museum Angkut</a>
+                    <a role="button" data-toggle="collapse" data-parent="#js-package" href="#js-package-itinerary-3" aria-expanded="true" aria-controls="js-package-itinerary" class="collapsed">
+                      Hari ke 3: Museum Angkut 
+                      <i class="glyphicon glyphicon-menu-down"></i>
+                    </a>
                   </h4>
                 </div>
                 <div id="js-package-itinerary-3" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading-itinerary">
@@ -392,10 +401,13 @@
           <div class="packdetail-contents panel-heading-faqs">
             <h2 class="content-title">FAQ</h2>
             <div class="panel-group card-group" id="js-package-faq" role="tablist" aria-multiselectable="true">
-              <div class="panel panel-complete content-packdetail-panel packdetail-itinerary">
+              <div class="panel panel-complete content-packdetail-panel packdetail-faqs">
                 <div class="panel-heading panel-complete-heading " role="tab" id="heading-itinerary">
                   <h4 class="panel-title panel-complete-title">
-                    <a role="button" data-toggle="collapse" data-parent="#js-package-faq" href="#js-package-faq-1" aria-expanded="true" aria-controls="js-package-itinerary">Apakah Meeting Point Bisa Ditentukan?</a>
+                    <a role="button" data-toggle="collapse" data-parent="#js-package-faq" href="#js-package-faq-1" aria-expanded="true" aria-controls="js-package-itinerary">
+                      Apakah Meeting Point Bisa Ditentukan?
+                      <i class="glyphicon glyphicon-menu-down"></i>
+                    </a>
                   </h4>
                 </div>
                 <div id="js-package-faq-1" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="heading-itinerary">
@@ -404,10 +416,13 @@
                   </div>
                 </div>
                </div>
-              <div class="panel panel-complete content-packdetail-panel packdetail-itinerary">
+              <div class="panel panel-complete content-packdetail-panel packdetail-faqs">
                 <div class="panel-heading panel-complete-heading " role="tab" id="heading-itinerary">
                   <h4 class="panel-title panel-complete-title">
-                    <a role="button" data-toggle="collapse" data-parent="#js-package-faq" href="#js-package-faq-2" aria-expanded="true" aria-controls="js-package-itinerary">Berapa Jumpah minimal peserta untuk booking paket ini?</a>
+                    <a role="button" data-toggle="collapse" data-parent="#js-package-faq" href="#js-package-faq-2" aria-expanded="true" aria-controls="js-package-itinerary" class="collapsed">
+                      Berapa Jumpah minimal peserta untuk booking paket ini?
+                      <i class="glyphicon glyphicon-menu-down"></i>
+                    </a>
                   </h4>
                 </div>
                 <div id="js-package-faq-2" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading-itinerary">
@@ -416,10 +431,13 @@
                   </div>
                 </div>
                </div>
-              <div class="panel panel-complete content-packdetail-panel packdetail-itinerary">
+              <div class="panel panel-complete content-packdetail-panel packdetail-faqs">
                 <div class="panel-heading panel-complete-heading " role="tab" id="heading-itinerary">
                   <h4 class="panel-title panel-complete-title">
-                    <a role="button" data-toggle="collapse" data-parent="#js-package-faq" href="#js-package-faq-3" aria-expanded="true" aria-controls="js-package-itinerary">Apakah untuk booking diperlukan DP?</a>
+                    <a role="button" data-toggle="collapse" data-parent="#js-package-faq" href="#js-package-faq-3" aria-expanded="true" aria-controls="js-package-itinerary" class="collapsed">
+                      Apakah untuk booking diperlukan DP?
+                      <i class="glyphicon glyphicon-menu-down"></i>
+                    </a>                  
                   </h4>
                 </div>
                 <div id="js-package-faq-3" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading-itinerary">

@@ -606,7 +606,7 @@ p {
   font-family: "DINNextLTPro-Medium", Fallback, sans-serif;
   font-size: 25px;
   color: #111111;
-  text-transform: uppercase;
+  text-transform: capitalize;
   text-align: center;
 }
 
@@ -831,7 +831,7 @@ p {
   font-family: "DINNextLTPro-Medium", Fallback, sans-serif;
   font-size: 18px;
   color: #fff;
-  text-transform: uppercase;
+  text-transform: capitalize;
 }
 
 .panel-complete .panel-complete-content {
@@ -849,6 +849,20 @@ p {
 
 .panel-heading-faqs .panel-body{
   color: #717b88;
+}
+
+.panel-heading-faqs .panel-complete .panel-complete-heading,
+.panel-heading-faqs .panel-complete .panel-complete-content{
+  padding-left: 0;
+}
+
+.packdetail-faqs .glyphicon{
+  float: right;
+  transition: .5s all ease;
+}
+
+.packdetail-faqs .collapsed .glyphicon{
+  transform: rotate3d(1, 0, 0, 190deg);
 }
 
 .panel-title.panel-complete-title a:focus,
@@ -1460,16 +1474,20 @@ p {
   padding-bottom: 50px;
 }
 
+.content-packdetail .row.wrapper:first-child{
+  margin-bottom: 50px;
+}
+
 .content-packdetail .packdetail-contents {
-  padding-bottom: 15px;
-  margin-bottom: 20px;
+  padding-top: 35px;
+  padding-bottom: 35px;
+  /* margin-bottom: 20px; */
   border-bottom: 1px solid #dadada;
 }
 
 .content-packdetail .packdetail-contents.destination-section {
-  padding-top: 15px;
-  margin-top: 20px;
-  border-top: 1px solid #dadada;
+  padding-top: 35px;
+
 }
 
 .content-packdetail .packdetail-contents:last-child {
@@ -1623,7 +1641,8 @@ p {
 
 /* - Itinerary - */
 .content-packdetail .packdetail-itinerary {
-  margin-bottom: 10px;
+  margin-bottom: 20px;
+  margin-top: 0;
 }
 
 .packdetail-itinerary .panel-complete-content {
@@ -1659,6 +1678,15 @@ p {
   line-height: 22px;
 }
 
+.packdetail-itinerary .glyphicon{
+  float: right;
+  transition: .5s all ease;
+}
+
+.packdetail-itinerary .collapsed .glyphicon{
+  transform: rotate3d(1, 0, 0, 190deg);
+}
+
 /* - Facility - */
 .packdetail-facility .facility-list::after {
   display: block;
@@ -1666,11 +1694,16 @@ p {
   clear: both;
 }
 
+.packdetail-facility .facility-list .col-xs-4:first-child{
+  padding-left: 0;
+}
+
 .packdetail-facility .facility-list .facility-item {
   font-family: "DINNextLTPro-Regular", Fallback, sans-serif;
   font-size: 18px;
   line-height: normal;
   display: list-item;
+  padding-bottom: 8px;
 }
 
 .packdetail-facility .facility-list .facility-item .facility-box {
@@ -1698,6 +1731,10 @@ p {
   margin-bottom: 10px;
   font-family: "DINNextLTPro-Medium", Fallback, sans-serif;
   font-size: 18px;
+}
+
+.panel-heading-faqs .packdetail-faqs{
+  margin-bottom: 5px;
 }
 
 /* - Price - */

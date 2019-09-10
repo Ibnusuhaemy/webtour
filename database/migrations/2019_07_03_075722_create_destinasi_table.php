@@ -18,6 +18,8 @@ class CreateDestinasiTable extends Migration
             $table->unsignedInteger('id_paket');
             $table->string('nama_tempat_destinasi',255);
             $table->string('kota_destinasi',255);
+            $table->string('url');
+            $table->string('directory');
             $table->string('gambar_destinasi',255);
             $table->timestamps();
 

@@ -17,6 +17,8 @@ class CreateRencanaTable extends Migration
             $table->bigIncrements('id');
             $table->unsignedInteger('id_paket');
             $table->string('rencana');
+            $table->string('url');
+            $table->string('directory');
             $table->string('gambar_rencana')->nullable();
             $table->longText('deskripsi')->nullable();
             $table->timestamps();

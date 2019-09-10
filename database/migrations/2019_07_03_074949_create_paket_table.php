@@ -17,6 +17,8 @@ class CreatePaketTable extends Migration
             $table->increments('id');
             $table->unsignedInteger('id_type');
             $table->string('nama_paket',255);
+            $table->string('url');
+            $table->string('directory');
             $table->string('gambar_paket',255);
             $table->integer('harga_dewasa');
             $table->integer('harga_anak');

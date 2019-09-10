@@ -19,6 +19,8 @@ class CreateTestimoniTable extends Migration
             $table->string('nama_testimoni');
             $table->string('kota_testimoni');
             $table->string('testimoni');
+            $table->string('url');
+            $table->string('directory');
             $table->string('foto_testimoni');
             $table->timestamps();
 

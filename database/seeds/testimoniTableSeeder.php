@@ -17,14 +17,18 @@ class testimoniTableSeeder extends Seeder
                 'nama_testimoni' => 'Fareladzin Wibi Ramadhan',
                 'kota_testimoni' => 'Jakarta',
                 'testimoni' => 'asdaefsdvdrgxvaexcsfsdsfj sej fjsy  efejf sjeyfvs jef',
-                'foto_testimoni' => 'fbsfsdf.jpg'
+                'url' => 'http://45.32.105.117:7094/',
+                'directory' => 'public/uploads/foto_testimoni/',
+                'foto_testimoni' => '20.jpeg'
             ],
             [
                 'id_paket' => 1,
                 'nama_testimoni' => 'Liwa Alex',
                 'kota_testimoni' => 'Ambon',
                 'testimoni' => 'asdaefsdvdrgxvaexcsfsdsfj sej fjsy  efejf sjeyfvs jef',
-                'foto_testimoni' => 'fgfgdefse.jpg'
+                'url' => 'http://45.32.105.117:7094/',
+                'directory' => 'public/uploads/foto_testimoni/',
+                'foto_testimoni' => '14.jpeg'
             ],
         ]);
     }

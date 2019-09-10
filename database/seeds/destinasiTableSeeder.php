@@ -16,37 +16,49 @@ class destinasiTableSeeder extends Seeder
                 'id_paket' => 1,
                 'nama_tempat_destinasi' => 'Petik Apel',
                 'kota_destinasi' => 'Batu',
-                'gambar_destinasi' => 'dummy.jpg'
+                'url' => 'http://45.32.105.117:7094/',
+                'directory' => 'public/uploads/gambar_destinasi/',
+                'gambar_destinasi' => '1.jpg'
             ],
             [
                 'id_paket' => 1,
                 'nama_tempat_destinasi' => 'Coban Talun',
                 'kota_destinasi' => 'Batu',
-                'gambar_destinasi' => 'dummy.jpg'
+                'url' => 'http://45.32.105.117:7094/',
+                'directory' => 'public/uploads/gambar_destinasi/',
+                'gambar_destinasi' => '2.jpg'
             ],
             [
                 'id_paket' => 1,
                 'nama_tempat_destinasi' => 'Dino Park (Jatimpark 3)',
                 'kota_destinasi' => 'Batu',
-                'gambar_destinasi' => 'dummy.jpg'
+                'url' => 'http://45.32.105.117:7094/',
+                'directory' => 'public/uploads/gambar_destinasi/',
+                'gambar_destinasi' => '3.jpg'
             ],
             [
                 'id_paket' => 1,
                 'nama_tempat_destinasi' => 'The Legend Star (Jatimpark 3)',
                 'kota_destinasi' => 'Batu',
-                'gambar_destinasi' => 'dummy.jpg'
+                'url' => 'http://45.32.105.117:7094/',
+                'directory' => 'public/uploads/gambar_destinasi/',
+                'gambar_destinasi' => '4.jpg'
             ],
             [
                 'id_paket' => 1,
                 'nama_tempat_destinasi' => 'Alun-alun Kota Wisata Batu',
                 'kota_destinasi' => 'Batu',
-                'gambar_destinasi' => 'dummy.jpg'
+                'url' => 'http://45.32.105.117:7094/',
+                'directory' => 'public/uploads/gambar_destinasi/',
+                'gambar_destinasi' => '5.jpg'
             ],
             [
                 'id_paket' => 1,
                 'nama_tempat_destinasi' => 'Pos Ketan Legenda',
                 'kota_destinasi' => 'Batu',
-                'gambar_destinasi' => 'dummy.jpg'
+                'url' => 'http://45.32.105.117:7094/',
+                'directory' => 'public/uploads/gambar_destinasi/',
+                'gambar_destinasi' => '6.jpg'
             ],
         ]);
     }

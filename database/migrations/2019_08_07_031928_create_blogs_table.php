@@ -17,6 +17,8 @@ class CreateBlogsTable extends Migration
             $table->Increments('id');
             $table->unsignedInteger('id_type');
             $table->string('Judul');
+            $table->string('url');
+            $table->string('directory');
             $table->string('gambar_blog');
             $table->longText('deskripsi');
             $table->boolean('featured');

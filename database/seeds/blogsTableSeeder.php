@@ -15,21 +15,27 @@ class blogsTableSeeder extends Seeder
             [
                 'id_type' => '1',
                 'judul' => 'Tempat Outbond di Malang untuk Have Fun Bareng Sahabat',
-                'gambar_blog' => 'jskfawdas.jpg',
+                'url' => 'http://45.32.105.117:7094/',
+                'directory' => 'public/uploads/gambar_blog/',
+                'gambar_blog' => '1.jpg',
                 'deskripsi' => 'Deskripsi .........',
                 'featured' => 1
             ],
             [
                 'id_type' => '2',
                 'judul' => 'Bakpao Telo, Oleh-oleh Paling Juara dari Malang',
-                'gambar_blog' => 'jskfawsadawddas.jpg',
+                'url' => 'http://45.32.105.117:7094/',
+                'directory' => 'public/uploads/gambar_blog/',
+                'gambar_blog' => '2.jpg',
                 'deskripsi' => 'Deskripsi .........',
                 'featured' => 1
             ],
             [
                 'id_type' => '3',
                 'judul' => 'Kuliner Malang dengan Porsi Jumbo, Bisa Makan Keroyokan',
-                'gambar_blog' => 'jskfa12323wdas.jpg',
+                'url' => 'http://45.32.105.117:7094/',
+                'directory' => 'public/uploads/gambar_blog/',
+                'gambar_blog' => '3.jpg',
                 'deskripsi' => 'Deskripsi .........',
                 'featured' => 0
             ]

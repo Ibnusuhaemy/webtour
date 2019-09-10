@@ -604,7 +604,7 @@ p {
 /* - Title - */
 .content .content-title {
   font-family: "DINNextLTPro-Medium", Fallback, sans-serif;
-  font-size: 25px;
+  font-size: 28px;
   color: #111111;
   text-transform: capitalize;
   text-align: center;
@@ -829,7 +829,7 @@ p {
 
 .panel-complete-heading .panel-complete-title {
   font-family: "DINNextLTPro-Medium", Fallback, sans-serif;
-  font-size: 18px;
+  font-size: 20px;
   color: #fff;
   text-transform: capitalize;
 }
@@ -844,12 +844,12 @@ p {
 }
 
 .panel-heading-faqs .panel-title.panel-complete-title a{
-  color: #525861;
-  font-size: 22px;
+  color: #4F4F4F;
+  font-size: 20px;
 }
 
 .panel-heading-faqs .panel-body{
-  color: #717b88;
+  color: #656565;
 }
 
 .panel-heading-faqs .panel-complete .panel-complete-heading,
@@ -1491,6 +1491,10 @@ p {
 
 }
 
+.content-packdetail .packdetail-contents.destination-section .media-left{
+  vertical-align: middle;
+}
+
 .content-packdetail .packdetail-contents:last-child {
   padding-bottom: 0;
   margin-bottom: 0;
@@ -1514,7 +1518,7 @@ p {
 }
 
 .content-packdetail .subtitle-package {
-  font-size: 25px;
+  font-size: 23px;
   margin-bottom: 0px;
   color: #ff681f;
   text-transform: capitalize;
@@ -1527,11 +1531,11 @@ p {
 
 .packdetail-info .media-heading {
   margin-bottom: 0;
-  font-size: 14px;
+  font-size: 20px;
 }
 
 .packdetail-info .media a {
-  font-size: 30px;
+  font-size: 35px;
 }
 
 .packdetail-destination .panel-complete-content {
@@ -1675,7 +1679,7 @@ p {
 
 .packdetail-itinerary-detail .media-body p {
   font-family: "DINNextLTPro-Regular", Fallback, sans-serif;
-  font-size: 18px;
+  font-size: 19px;
   line-height: 22px;
 }
 
@@ -1701,7 +1705,7 @@ p {
 
 .packdetail-facility .facility-list .facility-item {
   font-family: "DINNextLTPro-Regular", Fallback, sans-serif;
-  font-size: 18px;
+  font-size: 19px;
   line-height: normal;
   display: list-item;
   padding-bottom: 8px;

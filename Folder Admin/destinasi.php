@@ -27,6 +27,7 @@
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700,200" rel="stylesheet" />
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" />
     <!-- CSS Files -->
+    <link rel="stylesheet" href="assets/datatables/css/jquery.dataTables.min.css">
     <link href="assets/css/bootstrap.min.css" rel="stylesheet" />
     <link href="assets/css/light-bootstrap-dashboard.css?v=2.0.0 " rel="stylesheet" />
     <!-- CSS Just for demo purpose, don't include it in your project -->
@@ -133,7 +134,7 @@
                                 <div class="card-header ">
                                     <h4 class="card-title">Destinasi</h4>
                                 </div>
-                                <div class="card-body table-full-width table-responsive">
+                                <div class="card-body table-responsive">
                                     <table class="table table-hover table-striped">
                                         <thead>
                                             <th>Nomor</th>
@@ -235,6 +236,17 @@
         demo.showNotification();
 
     });
+</script>
+<!-- Plugin -->
+<script src="assets/datatables/js/jquery.dataTables.min.js"></script>
+<script>
+    $(document).ready( function () {
+        $('table').DataTable({
+            paging: false,
+            "autoWidth": false,
+            "info": false
+        });
+    } );
 </script>
 
 </html>

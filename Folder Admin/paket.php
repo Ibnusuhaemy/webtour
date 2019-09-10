@@ -27,6 +27,7 @@
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700,200" rel="stylesheet" />
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" />
     <!-- CSS Files -->
+    <link rel="stylesheet" href="assets/datatables/css/jquery.dataTables.min.css">
     <link href="assets/css/bootstrap.min.css" rel="stylesheet" />
     <link href="assets/css/light-bootstrap-dashboard.css?v=2.0.0 " rel="stylesheet" />
     <!-- CSS Just for demo purpose, don't include it in your project -->
@@ -129,11 +130,11 @@
                 <div class="container-fluid">
                     <div class="row">
                         <div class="col-md-12">
-                            <div class="card strpied-tabled-with-hover">
+                            <div class="card striped-tabled-with-hover">
                                 <div class="card-header ">
                                     <h4 class="card-title">Paket</h4>
                                 </div>
-                                <div class="card-body table-full-width table-responsive">
+                                <div class="card-body table-responsive">
                                     <table class="table table-hover table-striped">
                                         <thead>
                                             <th class="w-25">Paket</th>
@@ -142,7 +143,6 @@
                                             <th>Harga</th>
                                             <th>Jumlah Grup</th>
                                             <th>Lokasi</th>
-                                            <th>Jam</th>
                                             <th>Hari</th>
                                             <th>Kontrol</th>
                                         </thead>
@@ -164,7 +164,6 @@
                                                 <td>Dewasa : <br> <?php echo $data['harga_dewasa'];?> <br> Anak : <br> <?php echo $data['harga_anak'];?> </td>
                                                 <td><?php echo $data['grup_size'];?></td>
                                                 <td><?php echo $data['lokasi'];?></td>
-                                                <td>2</td>
                                                 <td>3 Hari <br> 2 Malam</td>
                                                 <td style="display:table-cell;">
                                                     <a class="control-icon alert-info"  data-toggle="modal" data-target="#myModal1" href="#pablo">
@@ -204,7 +203,7 @@
                                             <div class="card-header ">
                                                 <h4 class="card-title">Paket Bromo</h4>
                                             </div>
-                                            <div class="card-body table-full-width table-responsive">
+                                            <div class="card-body table-responsive">
                                                 <table class="table table-hover table-striped">
                                                     <thead>
                                                         <th>Paket</th>
@@ -307,6 +306,17 @@
         demo.showNotification();
 
     });
+</script>
+<!-- Plugin -->
+<script src="assets/datatables/js/jquery.dataTables.min.js"></script>
+<script>
+    $(document).ready( function () {
+        $('table').DataTable({
+            paging: false,
+            "autoWidth": false,
+            "info": false
+        });
+    } );
 </script>
 
 </html>

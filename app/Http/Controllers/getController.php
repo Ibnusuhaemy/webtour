@@ -35,6 +35,8 @@ class getController extends Controller
                 'paket.id',
                 'paket.nama_paket',
                 'type_paket.type',
+                'paket.url',
+                'paket.directory',
                 'paket.gambar_paket',
                 'paket.harga_dewasa',
                 'paket.harga_anak',
@@ -57,13 +59,13 @@ class getController extends Controller
             ->join('durasi','durasi.id_paket','=','paket.id')
             ->where('durasi.hari','=',1)
             ->where('paket.id_type','=',1)
-            ->get(['paket.id','paket.nama_paket','type_paket.type','paket.gambar_paket','durasi.hari']);
+            ->get(['paket.id','paket.nama_paket','type_paket.type','paket.url', 'paket.directory','paket.gambar_paket','durasi.hari']);
 
         $paket2day = paket::join('type_paket','type_paket.id', '=', 'paket.id_type')
             ->join('durasi','durasi.id_paket','=','paket.id')
             ->where('durasi.hari','=',2)
             ->where('paket.id_type','=',1)
-            ->get(['paket.id','paket.nama_paket','type_paket.type','paket.gambar_paket','durasi.hari']);
+            ->get(['paket.id','paket.nama_paket','type_paket.type','paket.url','paket.directory','paket.gambar_paket','durasi.hari']);
 
         $response = [
             '1day' => $paket1day,
@@ -77,13 +79,13 @@ class getController extends Controller
             ->join('durasi','durasi.id_paket','=','paket.id')
             ->where('durasi.hari','=',1)
             ->where('paket.id_type','=',2)
-            ->get(['paket.id','paket.nama_paket','type_paket.type','paket.gambar_paket','durasi.hari']);
+            ->get(['paket.id','paket.nama_paket','type_paket.type','paket.url', 'paket.directory','paket.gambar_paket','durasi.hari']);
 
         $paket2day = paket::join('type_paket','type_paket.id', '=', 'paket.id_type')
             ->join('durasi','durasi.id_paket','=','paket.id')
             ->where('durasi.hari','=',2)
             ->where('paket.id_type','=',2)
-            ->get(['paket.id','paket.nama_paket','type_paket.type','paket.gambar_paket','durasi.hari']);
+            ->get(['paket.id','paket.nama_paket','type_paket.type','paket.url', 'paket.directory','paket.gambar_paket','durasi.hari']);
 
         $response = [
             '1day' => $paket1day,
@@ -97,13 +99,13 @@ class getController extends Controller
             ->join('durasi','durasi.id_paket','=','paket.id')
             ->where('durasi.hari','=',1)
             ->where('paket.id_type','=',3)
-            ->get(['paket.id','paket.nama_paket','type_paket.type','paket.gambar_paket','durasi.hari']);
+            ->get(['paket.id','paket.nama_paket','type_paket.type','paket.url', 'paket.directory','paket.gambar_paket','durasi.hari']);
 
         $paket2day = paket::join('type_paket','type_paket.id', '=', 'paket.id_type')
             ->join('durasi','durasi.id_paket','=','paket.id')
             ->where('durasi.hari','=',2)
             ->where('paket.id_type','=',3)
-            ->get(['paket.id','paket.nama_paket','type_paket.type','paket.gambar_paket','durasi.hari']);
+            ->get(['paket.id','paket.nama_paket','type_paket.type','paket.url', 'paket.directory','paket.gambar_paket','durasi.hari']);
 
         $response = [
             '1day' => $paket1day,
@@ -126,6 +128,8 @@ class getController extends Controller
                 'paket.id',
                 'paket.nama_paket',
                 'type_paket.type',
+                'paket.url',
+                'paket.directory',
                 'paket.gambar_paket',
                 'paket.harga_dewasa',
                 'paket.harga_anak',
@@ -140,7 +144,7 @@ class getController extends Controller
             ->join('durasi','durasi.id_paket','=','paket.id')
             ->inRandomOrder()
             ->limit(9)
-            ->get(['paket.id','paket.nama_paket','paket.gambar_paket','type_paket.type','durasi.jam','durasi.hari','durasi.malam']);
+            ->get(['paket.id','paket.nama_paket','paket.url', 'paket.directory','paket.gambar_paket','type_paket.type','durasi.jam','durasi.hari','durasi.malam']);
 
         //RESPONSE
         $response = [
@@ -151,7 +155,7 @@ class getController extends Controller
     }
 
     public function getGaleri(){
-        $galeri = galeri::get(['id','gambar_galeri']);
+        $galeri = galeri::get(['id','url','directory','gambar_galeri']);
 
         $testimoni = testimoni::get();
 
@@ -166,14 +170,14 @@ class getController extends Controller
         $featured = blog::join('type_blog','type_blog.id','=','blog.id_type')
             ->where('featured',1)
             ->limit(5)
-            ->get(['blog.id','type_blog.type_blog','blog.judul','blog.gambar_blog','blog.created_at']);
+            ->get(['blog.id','type_blog.type_blog','blog.judul','blog.url', 'blog.directory','blog.gambar_blog','blog.created_at']);
 
         $blog = blog::join('type_blog','type_blog.id','=','blog.id_type')
             ->withCount('komentar')
             ->with(['komentar' => function($query){
                 $query->orderBy('id','desc');
             }])
-            ->get(['blog.id','blog.judul','type_blog.type_blog','blog.created_at','blog.gambar_blog','blog.deskripsi','blog.featured']);
+            ->get(['blog.id','blog.judul','type_blog.type_blog','blog.created_at','blog.url', 'blog.directory','blog.gambar_blog','blog.deskripsi','blog.featured']);
 
         //NESTED ARRAY TABEL HOTEL
         $komentar = komentar::where('id_blog',$blog)
@@ -196,7 +200,7 @@ class getController extends Controller
             ->with(['komentar' => function($query){
                 $query->orderBy('id','desc');
             }])
-            ->get(['blog.id','blog.judul','type_blog.type_blog','blog.created_at','blog.gambar_blog','blog.deskripsi','blog.featured']);
+            ->get(['blog.id','blog.judul','type_blog.type_blog','blog.created_at','blog.url', 'blog.directory','blog.gambar_blog','blog.deskripsi','blog.featured']);
 
         //NESTED ARRAY TABEL HOTEL
             komentar::where('id_blog',$blog)
@@ -207,7 +211,7 @@ class getController extends Controller
             ->with(['komentar' => function($query){
                 $query->orderBy('id','desc');
             }])
-            ->get(['blog.id','blog.judul','type_blog.type_blog','blog.created_at','blog.gambar_blog','blog.deskripsi','blog.featured']);
+            ->get(['blog.id','blog.judul','type_blog.type_blog','blog.created_at','blog.url', 'blog.directory','blog.gambar_blog','blog.deskripsi','blog.featured']);
 
         //NESTED ARRAY TABEL HOTEL
         komentar::where('id_blog',$bloglain)
@@ -218,7 +222,7 @@ class getController extends Controller
             ->join('durasi','durasi.id_paket','=','paket.id')
             ->inRandomOrder()
             ->limit(3)
-            ->get(['paket.id','paket.nama_paket','paket.gambar_paket','type_paket.type','durasi.jam','durasi.hari','durasi.malam']);
+            ->get(['paket.id','paket.nama_paket','paket.url', 'paket.directory','paket.gambar_paket','type_paket.type','durasi.jam','durasi.hari','durasi.malam']);
 
         $response = [
             'blog' => $blog,
@@ -235,7 +239,7 @@ class getController extends Controller
             ->with(['komentar' => function($query){
                 $query->orderBy('id','desc');
             }])
-            ->get(['blog.id','blog.judul','type_blog.type_blog','blog.created_at','blog.gambar_blog','blog.deskripsi','blog.featured']);
+            ->get(['blog.id','blog.judul','type_blog.type_blog','blog.created_at','blog.url', 'blog.directory','blog.gambar_blog','blog.deskripsi','blog.featured']);
 
         //NESTED ARRAY TABEL HOTEL
         $komentar = komentar::where('id_blog',$blog)
@@ -255,7 +259,7 @@ class getController extends Controller
             ->join('durasi','durasi.id_paket','=','paket.id')
             ->orderBy('booked','asc')
             ->limit(6)
-            ->get(['paket.id', 'paket.nama_paket', 'type_paket.type', 'paket.gambar_paket','durasi.jam','durasi.hari','durasi.malam']);
+            ->get(['paket.id', 'paket.nama_paket', 'type_paket.type', 'paket.url', 'paket.directory','paket.gambar_paket','durasi.jam','durasi.hari','durasi.malam']);
 
         $response = [
             'data' => $paket
@@ -279,7 +283,7 @@ class getController extends Controller
     {
         $blog = blog::orderBy('id','desc')
             ->limit(4)
-            ->get(['id','id_type','judul','gambar_blog','created_at']);
+            ->get(['id','id_type','judul','blog.url', 'blog.directory','gambar_blog','created_at']);
 
         $response = [
             'data' => $blog

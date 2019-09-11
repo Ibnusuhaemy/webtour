@@ -4277,14 +4277,21 @@ p {
   }
 
   .packdetail-contents .packdetail-info .col-xs-6{
-    width: 100%;
+    /* width: 100%; */
   }
-  
+  .packdetail-info .media a{
+    font-size: 25px;
+  }
+
+  .content-packdetail .packdetail-contents.destination-section .media-left{
+    display: block;
+  }
+
   .content-packdetail .packdetail-contents.destination-section{
-    width: 200px;
+    width: 100%;
     margin: 0 auto;
   }
-  
+
   .content-home-package .home-package-slider {
     border-width: 2px;
   }
@@ -4301,15 +4308,15 @@ p {
   .home-package-slider .card-single .card-single-caption {
     height: 150px;
   }
-  
+
   .packdetail-facility .facility-list .col-xs-4{
     width: unset;
     float: unset;
   }
 
-  
+
   .packdetail-facility .facility-list .col-xs-4:first-child{
-    padding-left: 15px;    
+    padding-left: 15px;
   }
 
   .packdetail-facility .facility-list .facility-item{
@@ -4684,7 +4691,7 @@ p {
   .panel-complete .panel-heading-blue a{
     font-size: 18px;
   }
-  
+
   .panel-heading-faqs .panel-title.panel-complete-title a{
     font-size: 18px;
   }

@@ -432,7 +432,7 @@
                   <img src="images/clients/pt_prisma_harapan.jpg" width="1600" height="824" class="img-responsive">
                 </li>
                 <li class="happy-client-item">
-                  <img src="images/clients/pt_ray_cipta_mandiri.JPG" width="962" height="863" class="img-responsive">
+                  <img src="images/clients/pt_ray_cipta_mandiri.jpg" width="962" height="863" class="img-responsive">
                 </li>
                 <li class="happy-client-item">
                   <img src="images/clients/pt_star_concord_indonesia.jpg" width="1024" height="576" class="img-responsive">

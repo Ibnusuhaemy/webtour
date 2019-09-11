@@ -337,7 +337,7 @@
   </section>
 
   <!-- Testimonial -->
-  <section class="content content-home-package">
+  <section class="content content-testi content-testi-home content-test-corporate">
     <div class="container">
       <div class="row">
         <div class="col-md-6">

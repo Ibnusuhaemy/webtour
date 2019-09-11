@@ -104,11 +104,11 @@
   <!-- Package Detail -->
   <section class="content content-packdetail">
    <div class="container">
-     <div class="row">
+     <div class="row wrapper">
         <div class="col-md-8 col-lg-9 packdetail-left">
         
           <h2 class="content-title title-package">Explore Malang &amp; Kota Batu</h2>
-
+          <h2 class="content-title subtitle-package">Corporate Trip</h2>
           <div class="content-packdetail-panel packdetail-destination">
             <div class="packdetail-destination-slider js-packdetail-destination-slider">
               <div class="item">
@@ -116,36 +116,63 @@
                   <!-- <img src="images/sliders/jagadtour-taman-rekreasi-selecta.jpg" width="800" height="445" alt="Paket Wisata Jagadtour"> -->
                   <img src="images/sliders/jagadtour-wisata-bromo-6.jpg" width="1280" height="720" alt="Paket Wisata Jagadtour">
                 </div>
-                <div class="destination-slider-caption">
-                  <p>Selecta</p>
-                </div>
+                <!-- <div class="destination-slider-caption">
+                  <p>Bromo</p>
+                </div> -->
               </div>
               <div class="item">
                 <div class="destination-slider-image">
                   <!-- <img src="images/sliders/jagadtour-jatim-park-1.jpg" width="1366" height="768" alt="Paket Wisata Jagadtour"> -->
                   <img src="images/sliders/jagadtour-wisata-bromo-5.jpg" width="1280" height="720" alt="Paket Wisata Jagadtour">
                 </div>
-                <div class="destination-slider-caption">
-                  <p>JatimPark 1</p>
-                </div>
+                <!-- <div class="destination-slider-caption">
+                  <p>Bromo</p>
+                </div> -->
               </div>
               <div class="item">
                 <div class="destination-slider-image">
                   <!-- <img src="images/sliders/jagadtour-museum-angkut-malang.jpg" width="1440" height="959" alt="Paket Wisata Jagadtour"> -->
                   <img src="images/sliders/jagadtour-wisata-bromo-2.jpg" width="1280" height="720" alt="Paket Wisata Jagadtour">
                 </div>
-                <div class="destination-slider-caption">
-                  <p>Museum Angkot</p>
-                </div>
+                <!-- <div class="destination-slider-caption">
+                  <p>Bromo</p>
+                </div> -->
               </div>
               <div class="item">
                 <div class="destination-slider-image">
                   <!-- <img src="images/sliders/jagadtour-museum-angkut-malang.jpg" width="1440" height="959" alt="Paket Wisata Jagadtour"> -->
                   <img src="images/sliders/jagadtour-wisata-bromo-1.jpg" width="1280" height="720" alt="Paket Wisata Jagadtour">
                 </div>
-                <div class="destination-slider-caption">
-                  <p>Museum Angkot</p>
+                <!-- <div class="destination-slider-caption">
+                  <p>Bromo</p>
+                </div> -->
+              </div>
+              <div class="item">
+                <div class="destination-slider-image">
+                  <!-- <img src="images/sliders/jagadtour-museum-angkut-malang.jpg" width="1440" height="959" alt="Paket Wisata Jagadtour"> -->
+                  <img src="images/sliders/jagadtour-wisata-bromo-1.jpg" width="1280" height="720" alt="Paket Wisata Jagadtour">
                 </div>
+                <!-- <div class="destination-slider-caption">
+                  <p>Bromo</p>
+                </div> -->
+              </div>
+              <div class="item">
+                <div class="destination-slider-image">
+                  <!-- <img src="images/sliders/jagadtour-museum-angkut-malang.jpg" width="1440" height="959" alt="Paket Wisata Jagadtour"> -->
+                  <img src="images/sliders/jagadtour-wisata-pananjakan-3.jpg" width="1280" height="720" alt="Paket Wisata Jagadtour">
+                </div>
+                <!-- <div class="destination-slider-caption">
+                  <p>Pananjakan</p>
+                </div> -->
+              </div>
+              <div class="item">
+                <div class="destination-slider-image">
+                  <!-- <img src="images/sliders/jagadtour-museum-angkut-malang.jpg" width="1440" height="959" alt="Paket Wisata Jagadtour"> -->
+                  <img src="images/sliders/jagadtour-wisata-malang-105.jpg" width="1280" height="720" alt="Paket Wisata Jagadtour">
+                </div>
+                <!-- <div class="destination-slider-caption">
+                  <p>Malang Kota</p>
+                </div> -->
               </div>
             </div>
             <div class="packdetail-destination-slider js-packdetail-destination-thumbnail">
@@ -173,6 +200,18 @@
                   <img src="images/sliders/jagadtour-wisata-bromo-1.jpg" width="1280" height="720" alt="Paket Wisata Jagadtour">
                 </div>
               </div>
+              <div class="item">
+                <div class="destination-slider-image">
+                  <!-- <img src="images/sliders/jagadtour-museum-angkut-malang.jpg" width="1440" height="959" alt="Paket Wisata Jagadtour"> -->
+                  <img src="images/sliders/jagadtour-wisata-pananjakan-3.jpg" width="1280" height="720" alt="Paket Wisata Jagadtour">
+                </div>
+              </div>
+              <div class="item">
+                <div class="destination-slider-image">
+                  <!-- <img src="images/sliders/jagadtour-museum-angkut-malang.jpg" width="1440" height="959" alt="Paket Wisata Jagadtour"> -->
+                  <img src="images/sliders/jagadtour-wisata-malang-105.jpg" width="1280" height="720" alt="Paket Wisata Jagadtour">
+                </div>
+              </div>
             </div>
           </div>
             
@@ -187,8 +226,8 @@
                     </a>
                   </div>
                   <div class="media-body">
-                    <h4 class="media-heading">Duration</h4>
-                    <p>5 Days</p>
+                    <h4 class="media-heading">Durasi</h4>
+                    <p>2 hari 1 malam</p>
                   </div>
                 </div>
               </div>
@@ -200,12 +239,12 @@
                     </a>
                   </div>
                   <div class="media-body">
-                    <h4 class="media-heading">Tour Type</h4>
-                    <p>Open Trip</p>
+                    <h4 class="media-heading">start Trip</h4>
+                    <p>08.00 WIB</p>
                   </div>
                 </div>
               </div>
-              <div class="col-xs-6 col-lg-4">
+              <div class="col-xs-6 col-lg-3">
                 <div class="media">
                   <div class="media-left">
                     <a href="#">
@@ -213,12 +252,12 @@
                     </a>
                   </div>
                   <div class="media-body">
-                    <h4 class="media-heading">Meet Point</h4>
-                    <p>Stasiun Kota Baru Malang</p>
+                    <h4 class="media-heading">End Trip</h4>
+                    <p>16.00 WIB</p>
                   </div>
                 </div>
               </div>
-              <div class="col-xs-6 col-lg-2">
+              <div class="col-xs-6 col-lg-3">
                 <div class="media">
                   <div class="media-left">
                     <a href="#">
@@ -226,8 +265,8 @@
                     </a>
                   </div>
                   <div class="media-body">
-                    <h4 class="media-heading">Booked</h4>
-                    <p>978x</p>
+                    <h4 class="media-heading">Meeting Point</h4>
+                    <p>Malang,Surabaya</p>
                   </div>
                 </div>
               </div>
@@ -235,14 +274,40 @@
 
           </div>
 
+          <!-- Deskripsi Singkat -->
+          <div class="packdetail-contents packdetail-facility">
+            <p>
+              Nikmati sensasi berkeliling di berbagai spot wisata terbaik di kota malang dan batu - paris van java bersama JagadTour. Kami akan mengajak anda mengunjungi berbagai destinasi yang meliputi : Eco Green Park, Batu Secret Zoo, Museum Angkot, Alun-Alun Batu, Air Terjun Coban Rondo, Petik Apel Agro Rakyat, Tepat Oleh - Oleh Khas Malang.
+            </p>
+          </div>
+
+          <!-- Fasilitas -->
+          <div class="packdetail-contents packdetail-facility">
+            <h2 class="content-title">Fasilitas</h2>
+            <ul class="facility-list">
+                <li class="facility-item"><span class="facility-box"><div class="facility-box_inner"></div></span>Bus Wisata</li>
+                <li class="facility-item"><span class="facility-box"><div class="facility-box_inner"></div></span>Jeep</li>
+                <li class="facility-item"><span class="facility-box"><div class="facility-box_inner"></div></span>Sarapan Pagi</li>
+                <li class="facility-item"><span class="facility-box"><div class="facility-box_inner"></div></span>Hotel</li>
+                <li class="facility-item"><span class="facility-box"><div class="facility-box_inner"></div></span>Villa</li>
+                <li class="facility-item"><span class="facility-box"><div class="facility-box_inner"></div></span>Coffe Break</li>
+                <li class="facility-item"><span class="facility-box"><div class="facility-box_inner"></div></span>Full Wifi</li>
+                <li class="facility-item"><span class="facility-box"><div class="facility-box_inner"></div></span>Makan Siang</li>
+                <li class="facility-item"><span class="facility-box"><div class="facility-box_inner"></div></span>Video tour</li>
+            </ul>
+          </div>
+
           <!-- Itinerary -->
           <div class="packdetail-contents">
             <h2 class="content-title">Itinerary</h2>
             <div class="panel-group card-group" id="js-package" role="tablist" aria-multiselectable="true">
               <div class="panel panel-default panel-complete content-packdetail-panel packdetail-itinerary">
-                <div class="panel-heading panel-complete-heading panel-heading-light_blue" role="tab" id="heading-itinerary">
+                <div class="panel-heading panel-complete-heading panel-heading-blue" role="tab" id="heading-itinerary">
                   <h4 class="panel-title panel-complete-title">
-                    <a role="button" data-toggle="collapse" data-parent="#js-package" href="#js-package-itinerary-1" aria-expanded="true" aria-controls="js-package-itinerary">Hari ke 1: Taman Rekreasi Selecta</a>
+                    <a role="button" data-toggle="collapse" data-parent="#js-package" href="#js-package-itinerary-1" aria-expanded="true" aria-controls="js-package-itinerary">
+                      Hari ke 1: Taman Rekreasi Selecta
+                      <i class="glyphicon glyphicon-menu-down"></i>
+                    </a>
                   </h4>
                 </div>
                 <div id="js-package-itinerary-1" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="heading-itinerary">
@@ -265,9 +330,12 @@
                 </div>
               </div>
               <div class="panel panel-default panel-complete content-packdetail-panel packdetail-itinerary">
-                <div class="panel-heading panel-complete-heading panel-heading-light_blue" role="tab" id="heading-itinerary">
+                <div class="panel-heading panel-complete-heading panel-heading-blue" role="tab" id="heading-itinerary">
                   <h4 class="panel-title panel-complete-title">
-                    <a role="button" data-toggle="collapse" data-parent="#js-package" href="#js-package-itinerary-2" aria-expanded="true" aria-controls="js-package-itinerary">Hari ke 2: Jatim Park 1</a>
+                    <a role="button" data-toggle="collapse" data-parent="#js-package" href="#js-package-itinerary-2" aria-expanded="true" aria-controls="js-package-itinerary" class="collapsed">
+                      Hari ke 2: Jatim Park 1
+                      <i class="glyphicon glyphicon-menu-down"></i>
+                    </a>
                   </h4>
                 </div>
                 <div id="js-package-itinerary-2" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading-itinerary">
@@ -292,9 +360,12 @@
                 </div>
               </div>
               <div class="panel panel-default panel-complete content-packdetail-panel packdetail-itinerary">
-                <div class="panel-heading panel-complete-heading panel-heading-light_blue" role="tab" id="heading-itinerary">
+                <div class="panel-heading panel-complete-heading panel-heading-blue" role="tab" id="heading-itinerary">
                   <h4 class="panel-title panel-complete-title">
-                    <a role="button" data-toggle="collapse" data-parent="#js-package" href="#js-package-itinerary-3" aria-expanded="true" aria-controls="js-package-itinerary">Hari ke 3: Museum Angkut</a>
+                    <a role="button" data-toggle="collapse" data-parent="#js-package" href="#js-package-itinerary-3" aria-expanded="true" aria-controls="js-package-itinerary" class="collapsed">
+                      Hari ke 3: Museum Angkut 
+                      <i class="glyphicon glyphicon-menu-down"></i>
+                    </a>
                   </h4>
                 </div>
                 <div id="js-package-itinerary-3" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading-itinerary">
@@ -320,74 +391,52 @@
             </div>
           </div>
 
-          <!-- Fasilitas -->
-          <div class="packdetail-contents packdetail-facility">
-            <h2 class="content-title">Fasilitas</h2>
-            <ul class="facility-list">
-              <li class="facility-item">Bus Wisata</li>
-              <li class="facility-item">Hotel</li>
-              <li class="facility-item">Jeep</li>
-              <li class="facility-item">Villa</li>
-              <li class="facility-item">Sarapan</li>
-              <li class="facility-item">Coffe Break</li>
-            </ul>
-          </div>
-
           <!-- FAQ -->
-          <div class="packdetail-contents">
+          <div class="packdetail-contents panel-heading-faqs">
             <h2 class="content-title">FAQ</h2>
             <div class="panel-group card-group" id="js-package-faq" role="tablist" aria-multiselectable="true">
-              <div class="panel panel-default panel-complete content-packdetail-panel packdetail-itinerary">
-                <div class="panel-heading panel-complete-heading panel-heading-light_orange" role="tab" id="heading-itinerary">
+              <div class="panel panel-complete content-packdetail-panel packdetail-faqs">
+                <div class="panel-heading panel-complete-heading " role="tab" id="heading-itinerary">
                   <h4 class="panel-title panel-complete-title">
-                    <a role="button" data-toggle="collapse" data-parent="#js-package-faq" href="#js-package-faq-1" aria-expanded="true" aria-controls="js-package-itinerary">Judul Pertanyaan 1</a>
+                    <a role="button" data-toggle="collapse" data-parent="#js-package-faq" href="#js-package-faq-1" aria-expanded="true" aria-controls="js-package-itinerary">
+                      Apakah Meeting Point Bisa Ditentukan?
+                      <i class="glyphicon glyphicon-menu-down"></i>
+                    </a>
                   </h4>
                 </div>
                 <div id="js-package-faq-1" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="heading-itinerary">
                   <div class="panel-body panel-complete-content packdetail-itinerary-detail">
-                    <h5 class="packdetail-faq-title">Pertanyaan ke 1</h5>
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard
-                      dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen
-                      book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially
-                      unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more
-                      recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                    <p>Ya. Peserta tour dibebaskan untuk memilih meeting point sendiri diluar Malang. Batu dan Surabaya. Untuk meeting point In & Out Surabaya akan dikenakan tambahan biaya 400.00,-/ Group</p>
                   </div>
                 </div>
-              </div>
-              <div class="panel panel-default panel-complete content-packdetail-panel packdetail-itinerary">
-                <div class="panel-heading panel-complete-heading panel-heading-light_orange" role="tab" id="heading-itinerary">
+               </div>
+              <div class="panel panel-complete content-packdetail-panel packdetail-faqs">
+                <div class="panel-heading panel-complete-heading " role="tab" id="heading-itinerary">
                   <h4 class="panel-title panel-complete-title">
-                    <a role="button" data-toggle="collapse" data-parent="#js-package-faq" href="#js-package-faq-2" aria-expanded="true" aria-controls="js-package-itinerary">Judul Pertanyaan 2</a>
+                    <a role="button" data-toggle="collapse" data-parent="#js-package-faq" href="#js-package-faq-2" aria-expanded="true" aria-controls="js-package-itinerary" class="collapsed">
+                      Berapa Jumpah minimal peserta untuk booking paket ini?
+                      <div class="glyphicon glyphicon-menu-down"></div>
+                    </a>
                   </h4>
                 </div>
                 <div id="js-package-faq-2" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading-itinerary">
                   <div class="panel-body panel-complete-content packdetail-itinerary-detail">
-                    <h5 class="packdetail-faq-title">Pertanyaan ke 2</h5>
-                    <p>ontrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature
-                      from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia,
-                      looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of
-                      the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33
-                      of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise
-                      on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit
-                      amet..", comes from a line in section 1.10.32.</p>
+                    <p>Ya. Peserta tour dibebaskan untuk memilih meeting point sendiri diluar Malang. Batu dan Surabaya. Untuk meeting point In & Out Surabaya akan dikenakan tambahan biaya 400.00,-/ Group</p>
                   </div>
                 </div>
-              </div>
-              <div class="panel panel-default panel-complete content-packdetail-panel packdetail-itinerary">
-                <div class="panel-heading panel-complete-heading panel-heading-light_orange" role="tab" id="heading-itinerary">
+               </div>
+              <div class="panel panel-complete content-packdetail-panel packdetail-faqs">
+                <div class="panel-heading panel-complete-heading " role="tab" id="heading-itinerary">
                   <h4 class="panel-title panel-complete-title">
-                    <a role="button" data-toggle="collapse" data-parent="#js-package-faq" href="#js-package-faq-3" aria-expanded="true" aria-controls="js-package-itinerary">Judul Pertanyaan 3</a>
+                    <a role="button" data-toggle="collapse" data-parent="#js-package-faq" href="#js-package-faq-3" aria-expanded="true" aria-controls="js-package-itinerary" class="collapsed">
+                      Apakah untuk booking diperlukan DP?
+                      <i class="glyphicon glyphicon-menu-down"></i>
+                    </a>                  
                   </h4>
                 </div>
                 <div id="js-package-faq-3" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading-itinerary">
                   <div class="panel-body panel-complete-content packdetail-itinerary-detail">
-                    <h5 class="packdetail-faq-title">Pertanyaan ke 3</h5>
-                    <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its
-                      layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using
-                      'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors
-                      now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in
-                      their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour
-                      and the like).</p>
+                    <p>Ya. Peserta tour dibebaskan untuk memilih meeting point sendiri diluar Malang. Batu dan Surabaya. Untuk meeting point In & Out Surabaya akan dikenakan tambahan biaya 400.00,-/ Group</p>
                   </div>
                 </div>
               </div>
@@ -399,7 +448,7 @@
         <div class="col-md-4 col-lg-3 packdetail-right">
 
           <!-- Price -->
-          <div class="panel panel-default panel-complete content-packdetail-panel packdetail-price js-packdetail-price">
+          <div class="panel panel-default panel-complete content-packdetail-panel packdetail-price js-packdetail-price panel-left">
             <div class="panel-heading panel-complete-heading panel-heading-blue" role="tab" id="heading-facility">
               <h4 class="panel-title panel-complete-title">
                 <a role="button">Form Booking</a>
@@ -793,7 +842,7 @@
         // autoplay: true
       });
       $('.js-packdetail-destination-thumbnail').slick({
-        slidesToShow: 3,
+        slidesToShow: 5,
         slidesToScroll: 1,
         asNavFor: '.js-packdetail-destination-slider',
         centerMode: true,

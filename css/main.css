@@ -604,9 +604,9 @@ p {
 /* - Title - */
 .content .content-title {
   font-family: "DINNextLTPro-Medium", Fallback, sans-serif;
-  font-size: 20px;
-  color: #4b4b4b;
-  text-transform: uppercase;
+  font-size: 28px;
+  color: #111111;
+  text-transform: capitalize;
   text-align: center;
 }
 
@@ -618,7 +618,7 @@ p {
 }
 
 .content p {
-  font-size: 14px;
+  font-size: 18px;
   font-family: "DINNextLTPro-Regular", Fallback, sans-serif;
 }
 
@@ -809,6 +809,7 @@ p {
 .panel-complete .panel-complete-heading {
   padding: 12px 20px;
   border-radius: 0;
+  position: relative;
 }
 
 .panel-complete .panel-heading-blue {
@@ -829,14 +830,53 @@ p {
 
 .panel-complete-heading .panel-complete-title {
   font-family: "DINNextLTPro-Medium", Fallback, sans-serif;
-  font-size: 16px;
+  font-size: 20px;
   color: #fff;
-  text-transform: uppercase;
+  text-transform: capitalize;
 }
 
 .panel-complete .panel-complete-content {
   padding-left: 20px;
   padding-right: 20px;
+}
+
+.panel-heading-faqs .panel-title.panel-complete-title{
+  color: #111;
+}
+
+.panel-heading-faqs .panel-title.panel-complete-title a{
+  color: #4F4F4F;
+  font-size: 20px;
+}
+
+.panel-heading-faqs .panel-body{
+  color: #656565;
+}
+
+.panel-heading-faqs .panel-complete .panel-complete-heading,
+.panel-heading-faqs .panel-complete .panel-complete-content{
+  padding-left: 0;
+}
+
+.packdetail-faqs .glyphicon{
+  position: absolute;
+  right: 5%;
+  top: 50%;
+  transform: translateY(-50%);
+  transition: .5s all ease;
+  font-size: 20px;
+  color: #4F4F4F;
+}
+
+.packdetail-faqs .collapsed>.glyphicon{
+  transform: rotate3d(1, 0, 0, 190deg);
+  top: 30%;
+}
+
+.panel-title.panel-complete-title a:focus,
+.panel-title.panel-complete-title a:hover{
+  outline: none;
+  text-decoration: none;
 }
 
 /* Card Group */
@@ -1442,16 +1482,24 @@ p {
   padding-bottom: 50px;
 }
 
+.content-packdetail .row.wrapper:first-child{
+  margin-bottom: 50px;
+}
+
 .content-packdetail .packdetail-contents {
-  padding-bottom: 15px;
-  margin-bottom: 20px;
+  padding-top: 35px;
+  padding-bottom: 35px;
+  /* margin-bottom: 20px; */
   border-bottom: 1px solid #dadada;
 }
 
 .content-packdetail .packdetail-contents.destination-section {
-  padding-top: 15px;
-  margin-top: 20px;
-  border-top: 1px solid #dadada;
+  padding-top: 35px;
+
+}
+
+.content-packdetail .packdetail-contents.destination-section .media-left{
+  vertical-align: middle;
 }
 
 .content-packdetail .packdetail-contents:last-child {
@@ -1460,8 +1508,8 @@ p {
   border-bottom: none;
 }
 
-.content-packdetail .content-packdetail-panel {
-  /*  margin-bottom: 30px;*/
+.content-packdetail .content-packdetail-panel.panel-left {
+   margin-top: 110px;
 }
 
 .content-packdetail .content-title {
@@ -1470,9 +1518,18 @@ p {
 }
 
 .content-packdetail .title-package {
-  border-bottom: 1px solid #dadada;
-  padding-bottom: 5px;
   margin-bottom: 0px;
+  font-size: 40px;
+  color: #111;
+  text-transform: capitalize;
+}
+
+.content-packdetail .subtitle-package {
+  font-size: 23px;
+  margin-bottom: 0px;
+  color: #ff681f;
+  text-transform: capitalize;
+  font-family: "DINNextLTPro-Regular", Fallback, sans-serif;
 }
 
 .packdetail-info {
@@ -1481,11 +1538,11 @@ p {
 
 .packdetail-info .media-heading {
   margin-bottom: 0;
-  font-size: 14px;
+  font-size: 20px;
 }
 
 .packdetail-info .media a {
-  font-size: 20px;
+  font-size: 35px;
 }
 
 .packdetail-destination .panel-complete-content {
@@ -1596,7 +1653,8 @@ p {
 
 /* - Itinerary - */
 .content-packdetail .packdetail-itinerary {
-  margin-bottom: 10px;
+  margin-bottom: 20px;
+  margin-top: 0;
 }
 
 .packdetail-itinerary .panel-complete-content {
@@ -1628,43 +1686,65 @@ p {
 
 .packdetail-itinerary-detail .media-body p {
   font-family: "DINNextLTPro-Regular", Fallback, sans-serif;
-  font-size: 14px;
+  font-size: 19px;
   line-height: 22px;
 }
 
-/* - Facility - */
-.packdetail-facility .facility-list {
-  list-style: disc;
-  margin-left: 20px;
+.packdetail-itinerary .glyphicon{
+  position: absolute;
+  right: 5%;
+  top: 50%;
+  transform: translateY(-50%);
+  transition: .5s all ease;
+  font-size: 20px;
+  color: #fff;
 }
 
+.packdetail-itinerary .collapsed>.glyphicon{
+  transform: rotate3d(1, 0, 0, 190deg);
+  top: 30%;
+}
+
+/* - Facility - */
 .packdetail-facility .facility-list::after {
   display: block;
   content: "";
   clear: both;
 }
 
+.packdetail-facility .facility-list .col-xs-4:first-child{
+  padding-left: 0;
+}
+
 .packdetail-facility .facility-list .facility-item {
   font-family: "DINNextLTPro-Regular", Fallback, sans-serif;
-  font-size: 16px;
+  font-size: 19px;
   line-height: normal;
-  width: 50%;
-  float: left;
   display: list-item;
+  padding-bottom: 8px;
+  width: calc(100% / 3);
+  float: left;
 }
 
-.packdetail-facility .facility-list .facility-item-icon {
-  margin-right: 5px;
-  font-size: 10px;
+.packdetail-facility .facility-list .facility-item .facility-box {
+  display: inline-block;
+  vertical-align: middle;
 }
 
-.packdetail-facility .facility-list .facility-item-icon-in {
+.packdetail-facility .facility-list .facility-item .facility-box_inner {
+  width: 5px;
+  height: 5px;
+  background-color: #0077c2;
+  margin-right: 15px;
+}
+
+/* .packdetail-facility .facility-list .facility-item-icon-in {
   color: #44b24f;
 }
 
 .packdetail-facility .facility-list .facility-item-icon-ex {
   color: #e74c3c;
-}
+} */
 
 /* - FAQ - */
 .packdetail-contents .packdetail-faq-title {
@@ -1673,10 +1753,19 @@ p {
   font-size: 18px;
 }
 
+.panel-heading-faqs .packdetail-faqs{
+  margin-bottom: 5px;
+  box-shadow: none;
+  border-bottom: 1px solid #ddd;
+  border-bottom-left-radius: unset;
+  border-bottom-right-radius: unset;
+
+}
+
 /* - Price - */
 .packdetail-right {
   position: sticky;
-  top: 25vh;
+  top: 10vh;
 }
 .packdetail-right .form-group{
   margin: 0 ;
@@ -3125,6 +3214,10 @@ p {
     padding: 12px;
   }
 
+  .content-packdetail .content-packdetail-panel.panel-left{
+    margin-top: 0;
+  }
+
   /* - price - */
   .packdetail-right {
     position: relative;
@@ -3577,7 +3670,6 @@ p {
 
   .packdetail-price-form .price-form-socmed {
     text-align: left;
-    padding: 0;
   }
 
   /* Testimonials */
@@ -3792,15 +3884,32 @@ p {
   }
 
   .thumbnail-icon{
-    top: 50%;
+    top: 55%;
   }
 
-  .panel-complete-heading .panel-complete-title, .packdetail-facility .facility-list .facility-item, .content-packdetail .content-title {
-    font-size: 14px;
+  .panel-complete-heading .panel-complete-title{
+    font-size: 25px;
+    text-align: center;
+    margin-right: 20px;
+  }
+
+  .content-packdetail .content-title{
+    font-size: 30px;
+    text-align: center;
+  }
+
+  .panel-complete .panel-heading-blue a{
+    font-size: 20px;
   }
 
   .content-packdetail .title-package {
-    font-size: 16px;
+    font-size: 40px;
+    text-align: center;
+  }
+
+  .packdetail-facility .facility-list .col-xs-4{
+    padding-left: 15px;
+    padding-right: 0;
   }
 
   /* --- ## Blog Detail ## --- */
@@ -3917,12 +4026,11 @@ p {
 
   /* --- ## Content ## --- */
   .content p {
-    font-size: 12px;
+    font-size: 19px;
   }
 
   .content .content-title {
-    font-size: 18px;
-    margin-bottom: 20px;
+    font-size: 30px;
   }
 
   .content .content-caption {
@@ -4067,24 +4175,6 @@ p {
     bottom: 0;
   }
 
-  /* - Package - */
-  .content-home-package .home-package-slider {
-    border-width: 2px;
-  }
-
-  .home-package-slider .slider-content li {
-    padding-left: 0;
-    height: auto;
-  }
-
-  .home-package-slider .card-single {
-    margin-bottom: 6px;
-  }
-
-  .home-package-slider .card-single .card-single-caption {
-    height: 150px;
-  }
-
   /* - Trip - */
   .content-home-trip {
     padding-top: 22px;
@@ -4186,6 +4276,52 @@ p {
     padding: 4px;
   }
 
+  .packdetail-contents .packdetail-info .col-xs-6{
+    /* width: 100%; */
+  }
+  .packdetail-info .media a{
+    font-size: 25px;
+  }
+
+  .content-packdetail .packdetail-contents.destination-section .media-left{
+    display: block;
+  }
+
+  .content-packdetail .packdetail-contents.destination-section{
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .content-home-package .home-package-slider {
+    border-width: 2px;
+  }
+
+  .home-package-slider .slider-content li {
+    padding-left: 0;
+    height: auto;
+  }
+
+  .home-package-slider .card-single {
+    margin-bottom: 6px;
+  }
+
+  .home-package-slider .card-single .card-single-caption {
+    height: 150px;
+  }
+
+  .packdetail-facility .facility-list .col-xs-4{
+    width: unset;
+    float: unset;
+  }
+
+
+  .packdetail-facility .facility-list .col-xs-4:first-child{
+    padding-left: 15px;
+  }
+
+  .packdetail-facility .facility-list .facility-item{
+    width: calc(100% / 2);
+  }
   /* - Content - */
   /*
   .content-packdetail .packdetail-left {
@@ -4209,8 +4345,12 @@ p {
     text-align: center;
   }
 
+  .content-packdetail .subtitle-package{
+    font-size: 25px;
+  }
+
   .content-packdetail .content-packdetail-panel p {
-    font-size: 14px;
+    font-size: 16px;
   }
 
   .packdetail-destination .packdetail-destination-slider {
@@ -4254,7 +4394,6 @@ p {
     margin-left: -15px;
     margin-right: -15px;
   }
-
 
   /* --- ## About ## --- */
   .about-desc {
@@ -4543,6 +4682,20 @@ p {
     top: -40px;
   }
 
+  .packdetail-facility .facility-list .col-xs-4{
+    float: none;
+    padding-left: 15px;
+    padding-right: 0;
+  }
+
+  .panel-complete .panel-heading-blue a{
+    font-size: 18px;
+  }
+
+  .panel-heading-faqs .panel-title.panel-complete-title a{
+    font-size: 18px;
+  }
+
   /* --- ## Why Choose Us ## --- */
   .choose-progressbar {
     width: 65%;
@@ -4561,5 +4714,11 @@ p {
   .ekko-lightbox-container img {
     max-height: 300px !important;
     height: 300px !important;
+  }
+}
+
+@media screen and (max-width:320px){
+  .thumbnail-icon{
+    top: 60%;
   }
 }

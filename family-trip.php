@@ -337,8 +337,7 @@
   </section>
 
   <!-- Testimonial -->
-  <section class="content<p class="contact-number"><a href="tel:+623415051185">+623415051185</a></p>
-    <p class="contact-number"><a href="tel:+628113785758">+628113785758</a></p>
+  <section class="content content-home-package">
     <div class="container">
       <div class="row">
         <div class="col-md-6">

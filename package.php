@@ -25,7 +25,7 @@
   <link rel="stylesheet" type="text/css" href="vendor/datetimepicker.4.17.42/css/bootstrap-datetimepicker.min.css">
   <link rel="stylesheet" type="text/css" href="vendor/slick/slick.css">
 
-  <link rel="stylesheet" type="text/css" href="css/main.css?v=19">
+  <link rel="stylesheet" type="text/css" href="css/main.css?v=20">
 
 </head>
 

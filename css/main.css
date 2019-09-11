@@ -809,6 +809,7 @@ p {
 .panel-complete .panel-complete-heading {
   padding: 12px 20px;
   border-radius: 0;
+  position: relative;
 }
 
 .panel-complete .panel-heading-blue {
@@ -858,12 +859,18 @@ p {
 }
 
 .packdetail-faqs .glyphicon{
-  float: right;
+  position: absolute;
+  right: 5%;
+  top: 50%;
+  transform: translateY(-50%);
   transition: .5s all ease;
+  font-size: 20px;
+  color: #4F4F4F;
 }
 
-.packdetail-faqs .collapsed .glyphicon{
+.packdetail-faqs .collapsed>.glyphicon{
   transform: rotate3d(1, 0, 0, 190deg);
+  top: 30%;
 }
 
 .panel-title.panel-complete-title a:focus,
@@ -1684,12 +1691,18 @@ p {
 }
 
 .packdetail-itinerary .glyphicon{
-  float: right;
+  position: absolute;
+  right: 5%;
+  top: 50%;
+  transform: translateY(-50%);
   transition: .5s all ease;
+  font-size: 20px;
+  color: #fff;
 }
 
-.packdetail-itinerary .collapsed .glyphicon{
+.packdetail-itinerary .collapsed>.glyphicon{
   transform: rotate3d(1, 0, 0, 190deg);
+  top: 30%;
 }
 
 /* - Facility - */
@@ -1709,6 +1722,8 @@ p {
   line-height: normal;
   display: list-item;
   padding-bottom: 8px;
+  width: calc(100% / 3);
+  float: left;
 }
 
 .packdetail-facility .facility-list .facility-item .facility-box {
@@ -3655,7 +3670,6 @@ p {
 
   .packdetail-price-form .price-form-socmed {
     text-align: left;
-    padding: 0;
   }
 
   /* Testimonials */
@@ -3870,15 +3884,32 @@ p {
   }
 
   .thumbnail-icon{
-    top: 50%;
+    top: 55%;
   }
 
-  .panel-complete-heading .panel-complete-title, .packdetail-facility .facility-list .facility-item, .content-packdetail .content-title {
-    font-size: 14px;
+  .panel-complete-heading .panel-complete-title{
+    font-size: 25px;
+    text-align: center;
+    margin-right: 20px;
+  }
+
+  .content-packdetail .content-title{
+    font-size: 30px;
+    text-align: center;
+  }
+
+  .panel-complete .panel-heading-blue a{
+    font-size: 20px;
   }
 
   .content-packdetail .title-package {
-    font-size: 16px;
+    font-size: 40px;
+    text-align: center;
+  }
+
+  .packdetail-facility .facility-list .col-xs-4{
+    padding-left: 15px;
+    padding-right: 0;
   }
 
   /* --- ## Blog Detail ## --- */
@@ -3995,12 +4026,11 @@ p {
 
   /* --- ## Content ## --- */
   .content p {
-    font-size: 14px;
+    font-size: 19px;
   }
 
   .content .content-title {
-    font-size: 18px;
-    margin-bottom: 20px;
+    font-size: 30px;
   }
 
   .content .content-caption {
@@ -4145,24 +4175,6 @@ p {
     bottom: 0;
   }
 
-  /* - Package - */
-  .content-home-package .home-package-slider {
-    border-width: 2px;
-  }
-
-  .home-package-slider .slider-content li {
-    padding-left: 0;
-    height: auto;
-  }
-
-  .home-package-slider .card-single {
-    margin-bottom: 6px;
-  }
-
-  .home-package-slider .card-single .card-single-caption {
-    height: 150px;
-  }
-
   /* - Trip - */
   .content-home-trip {
     padding-top: 22px;
@@ -4264,6 +4276,45 @@ p {
     padding: 4px;
   }
 
+  .packdetail-contents .packdetail-info .col-xs-6{
+    width: 100%;
+  }
+  
+  .content-packdetail .packdetail-contents.destination-section{
+    width: 200px;
+    margin: 0 auto;
+  }
+  
+  .content-home-package .home-package-slider {
+    border-width: 2px;
+  }
+
+  .home-package-slider .slider-content li {
+    padding-left: 0;
+    height: auto;
+  }
+
+  .home-package-slider .card-single {
+    margin-bottom: 6px;
+  }
+
+  .home-package-slider .card-single .card-single-caption {
+    height: 150px;
+  }
+  
+  .packdetail-facility .facility-list .col-xs-4{
+    width: unset;
+    float: unset;
+  }
+
+  
+  .packdetail-facility .facility-list .col-xs-4:first-child{
+    padding-left: 15px;    
+  }
+
+  .packdetail-facility .facility-list .facility-item{
+    width: calc(100% / 2);
+  }
   /* - Content - */
   /*
   .content-packdetail .packdetail-left {
@@ -4287,8 +4338,12 @@ p {
     text-align: center;
   }
 
+  .content-packdetail .subtitle-package{
+    font-size: 25px;
+  }
+
   .content-packdetail .content-packdetail-panel p {
-    font-size: 14px;
+    font-size: 16px;
   }
 
   .packdetail-destination .packdetail-destination-slider {
@@ -4332,7 +4387,6 @@ p {
     margin-left: -15px;
     margin-right: -15px;
   }
-
 
   /* --- ## About ## --- */
   .about-desc {
@@ -4621,6 +4675,20 @@ p {
     top: -40px;
   }
 
+  .packdetail-facility .facility-list .col-xs-4{
+    float: none;
+    padding-left: 15px;
+    padding-right: 0;
+  }
+
+  .panel-complete .panel-heading-blue a{
+    font-size: 18px;
+  }
+  
+  .panel-heading-faqs .panel-title.panel-complete-title a{
+    font-size: 18px;
+  }
+
   /* --- ## Why Choose Us ## --- */
   .choose-progressbar {
     width: 65%;
@@ -4639,5 +4707,11 @@ p {
   .ekko-lightbox-container img {
     max-height: 300px !important;
     height: 300px !important;
+  }
+}
+
+@media screen and (max-width:320px){
+  .thumbnail-icon{
+    top: 60%;
   }
 }

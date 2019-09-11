@@ -285,21 +285,15 @@
           <div class="packdetail-contents packdetail-facility">
             <h2 class="content-title">Fasilitas</h2>
             <ul class="facility-list">
-              <div class="col-xs-4">
                 <li class="facility-item"><span class="facility-box"><div class="facility-box_inner"></div></span>Bus Wisata</li>
                 <li class="facility-item"><span class="facility-box"><div class="facility-box_inner"></div></span>Jeep</li>
                 <li class="facility-item"><span class="facility-box"><div class="facility-box_inner"></div></span>Sarapan Pagi</li>
-              </div>
-              <div class="col-xs-4">
                 <li class="facility-item"><span class="facility-box"><div class="facility-box_inner"></div></span>Hotel</li>
                 <li class="facility-item"><span class="facility-box"><div class="facility-box_inner"></div></span>Villa</li>
                 <li class="facility-item"><span class="facility-box"><div class="facility-box_inner"></div></span>Coffe Break</li>
-              </div>
-              <div class="col-xs-4">
                 <li class="facility-item"><span class="facility-box"><div class="facility-box_inner"></div></span>Full Wifi</li>
                 <li class="facility-item"><span class="facility-box"><div class="facility-box_inner"></div></span>Makan Siang</li>
                 <li class="facility-item"><span class="facility-box"><div class="facility-box_inner"></div></span>Video tour</li>
-              </div>
             </ul>
           </div>
 
@@ -421,7 +415,7 @@
                   <h4 class="panel-title panel-complete-title">
                     <a role="button" data-toggle="collapse" data-parent="#js-package-faq" href="#js-package-faq-2" aria-expanded="true" aria-controls="js-package-itinerary" class="collapsed">
                       Berapa Jumpah minimal peserta untuk booking paket ini?
-                      <i class="glyphicon glyphicon-menu-down"></i>
+                      <div class="glyphicon glyphicon-menu-down"></div>
                     </a>
                   </h4>
                 </div>

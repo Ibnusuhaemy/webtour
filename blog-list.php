@@ -25,7 +25,7 @@
 
   <link rel="stylesheet" type="text/css" href="vendor/angle-vladov-mobile-slider/jquery.mobile-slider.min.css">
 
-  <link rel="stylesheet" type="text/css" href="css/main.css?v=18">
+  <link rel="stylesheet" type="text/css" href="css/main.css?v=19">
 
 </head>
 
@@ -480,7 +480,7 @@
       </div>
     </div>
   </footer>
-  
+
   <!-- Javascript -->
   <script type="text/javascript" src="vendor/jquery.3.2.1/jquery.3.2.1.min.js"></script>
   <script type="text/javascript" src="vendor/bootstrap.3.3.7/js/bootstrap.min.js"></script>

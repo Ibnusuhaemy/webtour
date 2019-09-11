@@ -27,11 +27,10 @@
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700,200" rel="stylesheet" />
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" />
     <!-- CSS Files -->
-    <link rel="stylesheet" href="assets/datatables/css/jquery.dataTables.min.css">
     <link href="assets/css/bootstrap.min.css" rel="stylesheet" />
     <link href="assets/css/light-bootstrap-dashboard.css?v=2.0.0 " rel="stylesheet" />
-    <!-- CSS Just for demo purpose, don't include it in your project -->
-    <link href="assets/css/demo.css" rel="stylesheet" />
+    <link rel="stylesheet" href="assets/datatables/css/jquery.dataTables.min.css">
+    <link rel="stylesheet" href="assets/css/custom.css">
 </head>
 
 <body>
@@ -144,13 +143,19 @@
                                             <th>Kontrol</th>
                                         </thead>
                                         <tbody>
+                                            <?php
+                                                include "crud/koneksi.php";
+                                                $query="SELECT * FROM destinasi";
+                                                $hasil=mysqli_query($koneksi_db,$query);
+                                                while($data=mysqli_fetch_array($hasil)){
+                                            ?>
                                             <tr>
-                                                <td>1</td>
-                                                <td>Bromo</td>
-                                                <td>img</td>
+                                                <td><?php echo $data['id'];?></td>
+                                                <td><?php echo $data['nama_tempat_destinasi'];?></td>
+                                                <td><?php echo $data['kota_destinasi'];?></td>
                                                 <td>
                                                     <div class="img-box">
-                                                        <img src="assets/img/bromo1.jpg" alt="bromo" class="img-fluid">
+                                                        <img src="<?php echo $data['gambar_destinasi'];?>" alt="bromo" class="img-fluid">
                                                     </div>
                                                 </td>
                                                 <td style="display:table-cell;">
@@ -164,6 +169,9 @@
                                                     </a>
                                                 </td>
                                             </tr>
+                                            <?php
+                                                }
+                                            ?>
                                         </tbody>
                                     </table>
                                 </div>

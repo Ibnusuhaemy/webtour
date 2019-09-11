@@ -29,8 +29,8 @@
     <!-- CSS Files -->
     <link href="assets/css/bootstrap.min.css" rel="stylesheet" />
     <link href="assets/css/light-bootstrap-dashboard.css?v=2.0.0 " rel="stylesheet" />
-    <!-- CSS Just for demo purpose, don't include it in your project -->
-    <link href="assets/css/demo.css" rel="stylesheet" />
+    <link rel="stylesheet" href="assets/datatables/css/jquery.dataTables.min.css">
+    <link rel="stylesheet" href="assets/css/custom.css">
 </head>
 
 <body>
@@ -142,10 +142,16 @@
                                             <th>Kontrol</th>
                                         </thead>
                                         <tbody>
+                                            <?php
+                                                include "crud/koneksi.php";
+                                                $query="SELECT * FROM hotel";
+                                                $hasil=mysqli_query($koneksi_db,$query);
+                                                while($data=mysqli_fetch_array($hasil)){
+                                            ?>
                                             <tr>
-                                                <td>1</td>
-                                                <td>Bromo</td>
-                                                <td>Rp 550.000,00</td>
+                                                <td><?php echo $data['id'];?></td>
+                                                <td><?php echo $data['nama_hotel'];?></td>
+                                                <td><?php echo $data['harga_hotel'];?></td>
                                                 <td style="display:table-cell;">
                                                     <a href="#" class="control-icon alert-success">
                                                         <i class="nc-icon nc-settings-tool-66"></i>
@@ -157,6 +163,9 @@
                                                     </a>
                                                 </td>
                                             </tr>
+                                            <?php
+                                                }
+                                            ?>
                                         </tbody>
                                     </table>
                                 </div>

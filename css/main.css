@@ -1332,7 +1332,7 @@ p {
 .content-testi-slider .testi-slider-item {
   border-color: #e5e5e5;
   box-shadow: none;
-  margin-bottom: 30px;
+  margin-bottom: 15px;
 }
 
 .content-testi-home {
@@ -2024,6 +2024,10 @@ p {
   padding-left: 10px;
   padding-right: 10px;
   margin-bottom: 0;
+}
+
+.content-home-package .content-testi-slider .owl-nav{
+  padding-top: 0;
 }
 
 /* --- ## Syarat dan Ketentuan dan Kebijakan Provasi ## --- */

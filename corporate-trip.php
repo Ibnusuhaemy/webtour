@@ -483,28 +483,28 @@
             <div class="item">
               <ul class="list-inline happy-clients">
                 <li class="happy-client-item">
-                  <img src="images/clients/pt juke solusi.jpg" width="596" height="84" class="img-responsive">
+                  <img src="images/clients/pt_juke_solusi.jpg" width="596" height="84" class="img-responsive">
                 </li>
                 <li class="happy-client-item">
-                  <img src="images/clients/pt kompindo fontana raya.jpg" width="1600" height="824" class="img-responsive">
+                  <img src="images/clients/pt_kompindo_fontana_raya.jpg" width="1600" height="824" class="img-responsive">
                 </li>
                 <li class="happy-client-item">
-                  <img src="images/clients/pt mitrasetia jaya group.jpg" width="962" height="863" class="img-responsive">
+                  <img src="images/clients/pt_mitrasetia_jaya_group.jpg" width="962" height="863" class="img-responsive">
                 </li>
                 <li class="happy-client-item">
-                  <img src="images/clients/pt ptp tanjung priok.jpg" width="1024" height="576" class="img-responsive">
+                  <img src="images/clients/pt_ptp_tanjung_priok.jpg" width="1024" height="576" class="img-responsive">
                 </li>
                 <li class="happy-client-item">
-                  <img src="images/clients/pt pundi mitra kencana.jpg" width="400" height="300" class="img-responsive">
+                  <img src="images/clients/pt_pundi_mitra_kencana.jpg" width="400" height="300" class="img-responsive">
                 </li>
                 <li class="happy-client-item">
-                  <img src="images/clients/pt setia sapta.jpg" width="174" height="200" class="img-responsive">
+                  <img src="images/clients/pt_setia_sapta.jpg" width="174" height="200" class="img-responsive">
                 </li>
                 <li class="happy-client-item">
-                  <img src="images/clients/pt talbia jakarta.jpg" width="174" height="200" class="img-responsive">
+                  <img src="images/clients/pt_talbia_jakarta.jpg" width="174" height="200" class="img-responsive">
                 </li>
                 <li class="happy-client-item">
-                  <img src="images/clients/pwp ru pakning.jpg" width="174" height="200" class="img-responsive">
+                  <img src="images/clients/pwp_ru_pakning.jpg" width="174" height="200" class="img-responsive">
                 </li>
               </ul>
             </div>
@@ -514,22 +514,22 @@
                   <img src="images/clients/telkom.jpg" width="596" height="84" class="img-responsive">
                 </li>
                 <li class="happy-client-item">
-                  <img src="images/clients/tmim sunter.jpg" width="1600" height="824" class="img-responsive">
+                  <img src="images/clients/tmim_sunter.jpg" width="1600" height="824" class="img-responsive">
                 </li>
                 <li class="happy-client-item">
                   <img src="images/clients/trisakti.jpg" width="962" height="863" class="img-responsive">
                 </li>
                 <li class="happy-client-item">
-                  <img src="images/clients/united asia futures.jpg" width="1024" height="576" class="img-responsive">
+                  <img src="images/clients/united_asia_futures.jpg" width="1024" height="576" class="img-responsive">
                 </li>
                 <li class="happy-client-item">
-                  <img src="images/clients/universitas negeri padang.jpg" width="400" height="300" class="img-responsive">
+                  <img src="images/clients/universitas_negeri_padang.jpg" width="400" height="300" class="img-responsive">
                 </li>
                 <li class="happy-client-item">
-                  <img src="images/clients/yayasan nurul hikmah jakarta.jpg" width="174" height="200" class="img-responsive">
+                  <img src="images/clients/yayasan_nurul_hikmah_jakarta.jpg" width="174" height="200" class="img-responsive">
                 </li>
                 <li class="happy-client-item">
-                  <img src="images/clients/yeos family.jpg" width="174" height="200" class="img-responsive">
+                  <img src="images/clients/yeos_family.jpg" width="174" height="200" class="img-responsive">
                 </li>
               </ul>
             </div>

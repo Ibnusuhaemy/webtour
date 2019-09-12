@@ -105,7 +105,7 @@
   <section class="content content-packdetail">
    <div class="container">
      <div class="row wrapper">
-        <div class="col-md-8 col-lg-9 packdetail-left">
+        <div class="col-md-12 col-lg-9 packdetail-left">
 
           <h2 class="content-title title-package">Explore Malang &amp; Kota Batu</h2>
           <h2 class="content-title subtitle-package">Corporate Trip</h2>
@@ -445,7 +445,7 @@
 
         </div>
 
-        <div class="col-md-4 col-lg-3 packdetail-right">
+        <div class="col-md-12 col-lg-3 packdetail-right">
 
           <!-- Price -->
           <div class="panel panel-default panel-complete content-packdetail-panel packdetail-price js-packdetail-price panel-left">

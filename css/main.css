@@ -604,7 +604,7 @@ p {
 /* - Title - */
 .content .content-title {
   font-family: "DINNextLTPro-Medium", Fallback, sans-serif;
-  font-size: 28px;
+  font-size: 22px;
   color: #111111;
   text-transform: capitalize;
   text-align: center;
@@ -618,7 +618,7 @@ p {
 }
 
 .content p {
-  font-size: 18px;
+  font-size: 16px;
   font-family: "DINNextLTPro-Regular", Fallback, sans-serif;
 }
 
@@ -830,7 +830,7 @@ p {
 
 .panel-complete-heading .panel-complete-title {
   font-family: "DINNextLTPro-Medium", Fallback, sans-serif;
-  font-size: 20px;
+  font-size: 18px;
   color: #fff;
   text-transform: capitalize;
 }
@@ -846,7 +846,7 @@ p {
 
 .panel-heading-faqs .panel-title.panel-complete-title a{
   color: #4F4F4F;
-  font-size: 20px;
+  font-size: 18px;
 }
 
 .panel-heading-faqs .panel-body{
@@ -1538,11 +1538,11 @@ p {
 
 .packdetail-info .media-heading {
   margin-bottom: 0;
-  font-size: 20px;
+  font-size: 18px;
 }
 
 .packdetail-info .media a {
-  font-size: 35px;
+  font-size: 25px;
 }
 
 .packdetail-destination .panel-complete-content {
@@ -1686,7 +1686,7 @@ p {
 
 .packdetail-itinerary-detail .media-body p {
   font-family: "DINNextLTPro-Regular", Fallback, sans-serif;
-  font-size: 19px;
+  font-size: 16px;
   line-height: 22px;
 }
 
@@ -1718,7 +1718,7 @@ p {
 
 .packdetail-facility .facility-list .facility-item {
   font-family: "DINNextLTPro-Regular", Fallback, sans-serif;
-  font-size: 19px;
+  font-size: 16px;
   line-height: normal;
   display: list-item;
   padding-bottom: 8px;
@@ -3024,6 +3024,8 @@ p {
   /* - Header Menu - */
   .menu-box .menu-box-item li a {
     font-size: 11px;
+    padding-left: 7px;
+    padding-right: 7px;
   }
 
   /* - Hero - */
@@ -4030,7 +4032,7 @@ p {
 
   /* --- ## Content ## --- */
   .content p {
-    font-size: 19px;
+    font-size: 16px;
   }
 
   .content .content-title {
@@ -4241,8 +4243,12 @@ p {
   }
 
   /* - Testimonial - */
+  .owl-carousel .owl-nav{
+    margin-bottom: 0px;
+  }
+
   .content-testi-slider .testi-slider-item {
-    margin-bottom: 20px;
+    margin-bottom: 10px;
   }
 
   .testi-slider-item .testi-slider-media a {
@@ -4298,6 +4304,15 @@ p {
 
   .content-home-package .home-package-slider {
     border-width: 2px;
+  }
+
+  
+  .content-home-package .panel{
+    margin-bottom: 5px;
+  }
+  
+  .content-home-package .owl-nav{
+    padding-top: 5px;
   }
 
   .home-package-slider .slider-content li {

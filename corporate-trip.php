@@ -26,7 +26,7 @@
 
   <link rel="stylesheet" type="text/css" href="vendor/angle-vladov-mobile-slider/jquery.mobile-slider.min.css">
 
-  <link rel="stylesheet" type="text/css" href="css/main.css?v=18">
+  <link rel="stylesheet" type="text/css" href="css/main.css?v=20">
 </head>
 
 <body>
@@ -399,63 +399,63 @@
             <div class="item">
               <ul class="list-inline happy-clients">
                 <li class="happy-client-item">
-                  <img src="images/clients/aiesec%20jakarta.jpg" width="596" height="84" class="img-responsive">
+                  <img src="images/clients/aiesec_jakarta.jpg" width="596" height="84" class="img-responsive">
                 </li>
                 <li class="happy-client-item">
-                  <img src="images/clients/bank%20bri.jpg" width="1600" height="824" class="img-responsive">
+                  <img src="images/clients/bank_bri.jpg" width="1600" height="824" class="img-responsive">
                 </li>
                 <li class="happy-client-item">
-                  <img src="images/clients/bhayangkari%20seruyan.jpg" width="962" height="863" class="img-responsive">
+                  <img src="images/clients/bhayangkari_seruyan.jpg" width="962" height="863" class="img-responsive">
                 </li>
                 <li class="happy-client-item">
-                  <img src="images/clients/bps%20kota%20palu.jpg" width="1024" height="576" class="img-responsive">
+                  <img src="images/clients/bps_kota_palu.jpg" width="1024" height="576" class="img-responsive">
                 </li>
                 <li class="happy-client-item">
-                  <img src="images/clients/dharma%20wanita%20samarinda.jpg" width="400" height="300" class="img-responsive">
+                  <img src="images/clients/dharma_wanita_samarinda.jpg" width="400" height="300" class="img-responsive">
                 </li>
                 <li class="happy-client-item">
-                  <img src="images/clients/dinas%20kesehatan%20muara%20enim.jpg" width="174" height="200" class="img-responsive">
+                  <img src="images/clients/dinas_kesehatan_muara_enim.jpg" width="174" height="200" class="img-responsive">
                 </li>
                 <li class="happy-client-item">
-                  <img src="images/clients/pertamina%20gas.jpg" width="174" height="200" class="img-responsive">
+                  <img src="images/clients/pertamina_gas.jpg" width="174" height="200" class="img-responsive">
                 </li>
                 <li class="happy-client-item">
-                  <img src="images/clients/jict%20jakarta.jpg" width="174" height="200" class="img-responsive">
-                </li>
-              </ul>
-            </div>
-            <div class="item">
-              <ul class="list-inline happy-clients">
-                <li class="happy-client-item">
-                  <img src="images/clients/sma%20taruna%20bumi%20khatulistiwa.jpg" width="596" height="84" class="img-responsive">
-                </li>
-                <li class="happy-client-item">
-                  <img src="images/clients/pt%20prisma%20harapan.jpg" width="1600" height="824" class="img-responsive">
-                </li>
-                <li class="happy-client-item">
-                  <img src="images/clients/pt%20ray%20cipta%20mandiri.jpg" width="962" height="863" class="img-responsive">
-                </li>
-                <li class="happy-client-item">
-                  <img src="images/clients/pt%20star%20concord%20indonesia.jpg" width="1024" height="576" class="img-responsive">
-                </li>
-                <li class="happy-client-item">
-                  <img src="images/clients/pt%20sucofindo%20jakarta.jpg" width="400" height="300" class="img-responsive">
-                </li>
-                <li class="happy-client-item">
-                  <img src="images/clients/smk%20muhammadiyah.jpg" width="174" height="200" class="img-responsive">
-                </li>
-                <li class="happy-client-item">
-                  <img src="images/clients/iwaba%20bengkulu.jpg" width="174" height="200" class="img-responsive">
-                </li>
-                <li class="happy-client-item">
-                  <img src="images/clients/jasa%20marga%20balikpapan.jpg" width="174" height="200" class="img-responsive">
+                  <img src="images/clients/jict_jakarta.jpg" width="174" height="200" class="img-responsive">
                 </li>
               </ul>
             </div>
             <div class="item">
               <ul class="list-inline happy-clients">
                 <li class="happy-client-item">
-                  <img src="images/clients/kabupaten%20bungo.jpg" width="596" height="84" class="img-responsive">
+                  <img src="images/clients/sma_taruna_bumi_khatulistiwa.jpg" width="596" height="84" class="img-responsive">
+                </li>
+                <li class="happy-client-item">
+                  <img src="images/clients/pt_prisma_harapan.jpg" width="1600" height="824" class="img-responsive">
+                </li>
+                <li class="happy-client-item">
+                  <img src="images/clients/pt_ray_cipta_mandiri.jpg" width="962" height="863" class="img-responsive">
+                </li>
+                <li class="happy-client-item">
+                  <img src="images/clients/pt_star_concord_indonesia.jpg" width="1024" height="576" class="img-responsive">
+                </li>
+                <li class="happy-client-item">
+                  <img src="images/clients/pt_sucofindo_jakarta.jpg" width="400" height="300" class="img-responsive">
+                </li>
+                <li class="happy-client-item">
+                  <img src="images/clients/smk_muhammadiyah.jpg" width="174" height="200" class="img-responsive">
+                </li>
+                <li class="happy-client-item">
+                  <img src="images/clients/iwaba_bengkulu.jpg" width="174" height="200" class="img-responsive">
+                </li>
+                <li class="happy-client-item">
+                  <img src="images/clients/jasa_marga_balikpapan.jpg" width="174" height="200" class="img-responsive">
+                </li>
+              </ul>
+            </div>
+            <div class="item">
+              <ul class="list-inline happy-clients">
+                <li class="happy-client-item">
+                  <img src="images/clients/kabupaten_bungo.jpg" width="596" height="84" class="img-responsive">
                 </li>
                 <li class="happy-client-item">
                   <img src="images/clients/kemendikbud.jpg" width="1600" height="824" class="img-responsive">
@@ -464,47 +464,47 @@
                   <img src="images/clients/kemenkumham.jpg" width="962" height="863" class="img-responsive">
                 </li>
                 <li class="happy-client-item">
-                  <img src="images/clients/kementrian%20kesehatan%20ri.jpg" width="1024" height="576" class="img-responsive">
+                  <img src="images/clients/kementrian_kesehatan_ri.jpg" width="1024" height="576" class="img-responsive">
                 </li>
                 <li class="happy-client-item">
-                  <img src="images/clients/maestro%20law%20affice%20jakarta.jpg" width="400" height="300" class="img-responsive">
+                  <img src="images/clients/maestro_law_affice_jakarta.jpg" width="400" height="300" class="img-responsive">
                 </li>
                 <li class="happy-client-item">
-                  <img src="images/clients/makassar%20terminal%20services.jpg" width="174" height="200" class="img-responsive">
+                  <img src="images/clients/makassar_terminal_services.jpg" width="174" height="200" class="img-responsive">
                 </li>
                 <li class="happy-client-item">
-                  <img src="images/clients/pr%20reska%20multi%20usaha.jpg" width="174" height="200" class="img-responsive">
+                  <img src="images/clients/pr_reska_multi_usaha.jpg" width="174" height="200" class="img-responsive">
                 </li>
                 <li class="happy-client-item">
-                  <img src="images/clients/pt%20bayan%20resources.jpg" width="174" height="200" class="img-responsive">
+                  <img src="images/clients/pt_bayan_resources.jpg" width="174" height="200" class="img-responsive">
                 </li>
               </ul>
             </div>
             <div class="item">
               <ul class="list-inline happy-clients">
                 <li class="happy-client-item">
-                  <img src="images/clients/pt juke solusi.jpg" width="596" height="84" class="img-responsive">
+                  <img src="images/clients/pt_juke_solusi.jpg" width="596" height="84" class="img-responsive">
                 </li>
                 <li class="happy-client-item">
-                  <img src="images/clients/pt kompindo fontana raya.jpg" width="1600" height="824" class="img-responsive">
+                  <img src="images/clients/pt_kompindo_fontana_raya.jpg" width="1600" height="824" class="img-responsive">
                 </li>
                 <li class="happy-client-item">
-                  <img src="images/clients/pt mitrasetia jaya group.jpg" width="962" height="863" class="img-responsive">
+                  <img src="images/clients/pt_mitrasetia_jaya_group.jpg" width="962" height="863" class="img-responsive">
                 </li>
                 <li class="happy-client-item">
-                  <img src="images/clients/pt ptp tanjung priok.jpg" width="1024" height="576" class="img-responsive">
+                  <img src="images/clients/pt_ptp_tanjung_priok.jpg" width="1024" height="576" class="img-responsive">
                 </li>
                 <li class="happy-client-item">
-                  <img src="images/clients/pt pundi mitra kencana.jpg" width="400" height="300" class="img-responsive">
+                  <img src="images/clients/pt_pundi_mitra_kencana.jpg" width="400" height="300" class="img-responsive">
                 </li>
                 <li class="happy-client-item">
-                  <img src="images/clients/pt setia sapta.jpg" width="174" height="200" class="img-responsive">
+                  <img src="images/clients/pt_setia_sapta.jpg" width="174" height="200" class="img-responsive">
                 </li>
                 <li class="happy-client-item">
-                  <img src="images/clients/pt talbia jakarta.jpg" width="174" height="200" class="img-responsive">
+                  <img src="images/clients/pt_talbia_jakarta.jpg" width="174" height="200" class="img-responsive">
                 </li>
                 <li class="happy-client-item">
-                  <img src="images/clients/pwp ru pakning.jpg" width="174" height="200" class="img-responsive">
+                  <img src="images/clients/pwp_ru_pakning.jpg" width="174" height="200" class="img-responsive">
                 </li>
               </ul>
             </div>
@@ -514,22 +514,22 @@
                   <img src="images/clients/telkom.jpg" width="596" height="84" class="img-responsive">
                 </li>
                 <li class="happy-client-item">
-                  <img src="images/clients/tmim sunter.jpg" width="1600" height="824" class="img-responsive">
+                  <img src="images/clients/tmim_sunter.jpg" width="1600" height="824" class="img-responsive">
                 </li>
                 <li class="happy-client-item">
                   <img src="images/clients/trisakti.jpg" width="962" height="863" class="img-responsive">
                 </li>
                 <li class="happy-client-item">
-                  <img src="images/clients/united asia futures.jpg" width="1024" height="576" class="img-responsive">
+                  <img src="images/clients/united_asia_futures.jpg" width="1024" height="576" class="img-responsive">
                 </li>
                 <li class="happy-client-item">
-                  <img src="images/clients/universitas negeri padang.jpg" width="400" height="300" class="img-responsive">
+                  <img src="images/clients/universitas_negeri_padang.jpg" width="400" height="300" class="img-responsive">
                 </li>
                 <li class="happy-client-item">
-                  <img src="images/clients/yayasan nurul hikmah jakarta.jpg" width="174" height="200" class="img-responsive">
+                  <img src="images/clients/yayasan_nurul_hikmah_jakarta.jpg" width="174" height="200" class="img-responsive">
                 </li>
                 <li class="happy-client-item">
-                  <img src="images/clients/yeos family.jpg" width="174" height="200" class="img-responsive">
+                  <img src="images/clients/yeos_family.jpg" width="174" height="200" class="img-responsive">
                 </li>
               </ul>
             </div>
@@ -627,12 +627,10 @@
           <div class="col-xs-6 col-sm-6 col-md-3 footer-menu-contact">
             <h4>Alamat</h4>
             <p class="contact-content">
-              PT. Jagad Mahakarya Wisata <br>
               Malang (Office 1) <br> Banyuwangi (Office 2) <br> Ranupane (Basecamp) <br>
-              Jawa Timur : 65148 <br>
             </p>
             <p class="contact-content">Email: cs@jagadtour.com</p>
-            <p class="contact-content contact-address">Hotline : 0341 – 5051185 / 08113785758 / 082244441318</p>
+            <p class="contact-content contact-address">0341 – 5051185 / 08113785758</p>
             <p class="contact-content">Find Us</p>
             <p class="contact-content socmed-list">
               <a class="contact-content-sm" href="https://www.instagram.com/jagadtour/"><i class="fa fa-instagram"></i></a>

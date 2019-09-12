@@ -25,7 +25,7 @@
 
   <link rel="stylesheet" type="text/css" href="vendor/angle-vladov-mobile-slider/jquery.mobile-slider.min.css">
 
-  <link rel="stylesheet" type="text/css" href="css/main.css?v=18">
+  <link rel="stylesheet" type="text/css" href="css/main.css?v=20">
 
 </head>
 
@@ -445,12 +445,10 @@
           <div class="col-xs-6 col-sm-6 col-md-3 footer-menu-contact">
             <h4>Alamat</h4>
             <p class="contact-content">
-              PT. Jagad Mahakarya Wisata <br>
               Malang (Office 1) <br> Banyuwangi (Office 2) <br> Ranupane (Basecamp) <br>
-              Jawa Timur : 65148 <br>
             </p>
             <p class="contact-content">Email: cs@jagadtour.com</p>
-            <p class="contact-content contact-address">Hotline : 0341 – 5051185 / 08113785758 / 082244441318</p>
+            <p class="contact-content contact-address">0341 – 5051185 / 08113785758</p>
             <p class="contact-content">Find Us</p>
             <p class="contact-content socmed-list">
               <a class="contact-content-sm" href="https://www.instagram.com/jagadtour/"><i class="fa fa-instagram"></i></a>

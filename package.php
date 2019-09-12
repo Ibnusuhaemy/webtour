@@ -25,7 +25,7 @@
   <link rel="stylesheet" type="text/css" href="vendor/datetimepicker.4.17.42/css/bootstrap-datetimepicker.min.css">
   <link rel="stylesheet" type="text/css" href="vendor/slick/slick.css">
 
-  <link rel="stylesheet" type="text/css" href="css/main.css?v=18">
+  <link rel="stylesheet" type="text/css" href="css/main.css?v=20">
 
 </head>
 
@@ -106,7 +106,7 @@
    <div class="container">
      <div class="row wrapper">
         <div class="col-md-8 col-lg-9 packdetail-left">
-        
+
           <h2 class="content-title title-package">Explore Malang &amp; Kota Batu</h2>
           <h2 class="content-title subtitle-package">Corporate Trip</h2>
           <div class="content-packdetail-panel packdetail-destination">
@@ -214,7 +214,7 @@
               </div>
             </div>
           </div>
-            
+
           <!-- Destinasi -->
           <div class="packdetail-contents destination-section">
             <div class="row packdetail-info">
@@ -363,7 +363,7 @@
                 <div class="panel-heading panel-complete-heading panel-heading-blue" role="tab" id="heading-itinerary">
                   <h4 class="panel-title panel-complete-title">
                     <a role="button" data-toggle="collapse" data-parent="#js-package" href="#js-package-itinerary-3" aria-expanded="true" aria-controls="js-package-itinerary" class="collapsed">
-                      Hari ke 3: Museum Angkut 
+                      Hari ke 3: Museum Angkut
                       <i class="glyphicon glyphicon-menu-down"></i>
                     </a>
                   </h4>
@@ -431,7 +431,7 @@
                     <a role="button" data-toggle="collapse" data-parent="#js-package-faq" href="#js-package-faq-3" aria-expanded="true" aria-controls="js-package-itinerary" class="collapsed">
                       Apakah untuk booking diperlukan DP?
                       <i class="glyphicon glyphicon-menu-down"></i>
-                    </a>                  
+                    </a>
                   </h4>
                 </div>
                 <div id="js-package-faq-3" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading-itinerary">

@@ -349,16 +349,15 @@
               <div class="panel panel-default testi-slider-item">
                 <div class="panel-body">
                   <div class="media testi-slider-media">
-                    <a class="home" href="#">
-                      <img src="images/testimonials/1.jpg" width="104" height="104" alt="Testimonial Putri Sahadaya di Jagadtour" class="media-object testi-slider-photo">
-                    </a>
-                    <div class="home-comment">
-                      <div class="media-body media-middle">
-                        <h4 class="media-heading testi-slider-name">Kartika</h4>
-                        <p class="testi-slider-city">Bandung</p>
+                    <div class="media-body media-middle">
+                      <a class="home" href="#">
+                        <img src="images/testimonials/1.jpg" width="960" height="960" alt="Testimonial Putri Sahadaya di Jagadtour" class="media-object testi-slider-photo">
+                      </a>
+                      <div class="home-comment">
+                        <h4 class="media-heading testi-slider-name">Kartika - <span class="testi-slider-city">Bandung</span></h4>
                         <p class="testi-slider-statement">
-                          Dari awal ketika melihat jagad tour ada satu pikiran saya bahwa, travel ini memiliki rasa tanggung jawab dan
-                          beda dengan yang lain mulai dari fasilitas dan pendukung lainnya. Sukses terus jagad tour
+                          Dari awal ketika melihat jagad tour ada satu pikiran saya bahwa, travel ini memiliki rasa tanggung jawab dan beda
+                          dengan yang lain mulai dari fasilitas dan pendukung lainnya. Sukses terus jagad tour.
                         </p>
                       </div>
                     </div>
@@ -375,8 +374,7 @@
                         <img src="images/testimonials/2.jpg" width="3000" height="3000" alt="Testimonial Asuna Diana di Jagadtour" class="media-object testi-slider-photo">
                       </a>
                       <div class="home-comment">
-                        <h4 class="media-heading testi-slider-name">Andi</h4>
-                        <p class="testi-slider-city">Jakarta</p>
+                        <h4 class="media-heading testi-slider-name">Andi - <span class="testi-slider-city">Jakarta</span></h4>
                         <p class="testi-slider-statement">
                           Bagi saya jagad tour punya treatment khusus untuk membuat client merasa nyaman dan bahagia saat berwisata di
                           malang dan kami merasakan itu. Semoga Tuhan memberkati Jagad Tour dan timnya

@@ -25,7 +25,7 @@
 
   <link rel="stylesheet" type="text/css" href="vendor/angle-vladov-mobile-slider/jquery.mobile-slider.min.css">
   <link rel="stylesheet" type="text/css" href="vendor/ekko-lightbox/ekko-lightbox.css">
-  <link rel="stylesheet" type="text/css" href="css/main.css?v=20">
+  <link rel="stylesheet" type="text/css" href="css/main.css?v=21">
 </head>
 
 <body>
@@ -356,7 +356,7 @@
               <div class="panel panel-default testi-slider-item">
                 <div class="panel-body">
                   <div class="media testi-slider-media">
-                    <div class="media-body media-middle">                    
+                    <div class="media-body media-middle">
                       <a class="home" href="#">
                         <img src="images/testimonials/2.jpg" width="3000" height="3000" alt="Testimonial Asuna Diana di Jagadtour" class="media-object testi-slider-photo">
                       </a>
@@ -891,7 +891,7 @@
       </div>
     </div>
   </section>
-  
+
   <!-- Footer -->
   <footer class="footer js-footer">
     <div class="footer-photo">

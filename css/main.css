@@ -3894,7 +3894,6 @@ p {
   }
 
   .panel-complete-heading .panel-complete-title{
-    font-size: 25px;
     text-align: left;
     margin-right: 20px;
   }
@@ -4032,11 +4031,11 @@ p {
 
   /* --- ## Content ## --- */
   .content p {
-    font-size: 16px;
+    font-size: 14px;
   }
 
   .content .content-title {
-    font-size: 30px;
+    font-size: 22px;
   }
 
   .content .content-caption {
@@ -4340,6 +4339,7 @@ p {
 
   .packdetail-facility .facility-list .facility-item{
     width: calc(100% / 2);
+    font-size: 14px;
   }
   /* - Content - */
   /*
@@ -4369,7 +4369,7 @@ p {
   }
 
   .content-packdetail .content-packdetail-panel p {
-    font-size: 16px;
+    font-size: 14px;
   }
 
   .packdetail-destination .packdetail-destination-slider {

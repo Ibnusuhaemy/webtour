@@ -133,20 +133,38 @@
                                 <div class="card-header ">
                                     <h4 class="card-title">Galeri</h4>
                                 </div>
-                                <div class="card-body">
-                                    <div class="col-md-12">
-                                        <div class="row">
-                                            <div class="galeri-img">
-                                                <img src="assets/img/bromo1.jpg" alt="bromo" class="img-fluid">
-                                            </div>
-                                            <div class="galeri-img">
-                                                <div class="add-button">
-                                                    <i class="add-icon nc-icon nc-simple-add"></i>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>  
+                                <div class="btn-box">
+                                    <a href="tambah/destinasi.php" type="submit" class="btn btn-info btn-fill btn-tambah">Tambah Data</a>
+                                </div>
+                                <div class="card-body table-responsive">
+                                    <table class="table table-hover table-striped">
+                                        <thead>
+                                            <th>Nomor</th>
+                                            <th>Gambar</th>
+                                            <th>Kontrol</th>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td>1</td>
+                                                <td>
+                                                    <div class="img-box">
+                                                        <img src="assets/img/bromo1.jpg" alt="bromo" class="img-fluid">
+                                                    </div>
+                                                </td>
+                                                <td style="display:table-cell;">
+                                                    <a href="#" class="control-icon alert-success">
+                                                        <i class="nc-icon nc-settings-tool-66"></i>
+                                                        Edit
+                                                    </a>
+                                                    <a class="control-icon alert-danger" data-toggle="modal" data-target="#myModal1" href="#pablo">
+                                                        <i class="nc-icon nc-simple-remove"></i>
+                                                        Delete
+                                                    </a>
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -196,6 +214,16 @@
         demo.showNotification();
 
     });
+</script>
+<!-- Plugin -->
+<script src="assets/datatables/js/jquery.dataTables.min.js"></script>
+<script>
+    $(document).ready( function () {
+        $('table').DataTable({
+            "autoWidth": false,
+            "info": false
+        });
+    } );
 </script>
 
 </html>

@@ -130,8 +130,11 @@
                     <div class="row">
                         <div class="col-md-12">
                             <div class="card strpied-tabled-with-hover">
-                                <div class="card-header ">
+                                <div class="card-header">
                                     <h4 class="card-title">Destinasi</h4>
+                                </div>
+                                <div class="btn-box">
+                                    <a href="tambah/destinasi.php" type="submit" class="btn btn-info btn-fill btn-tambah">Tambah Data</a>
                                 </div>
                                 <div class="card-body table-responsive">
                                     <table class="table table-hover table-striped">
@@ -178,9 +181,6 @@
                             </div>
                         </div>
                     </div>
-                </div>
-                <div class="btn-box text-center">
-                    <a href="tambah/destinasi.php" type="submit" class="btn btn-info btn-fill btn-tambah">Tambah Data</a>
                 </div>
                 <!-- Mini Confirmation -->
                     <div class="modal fade modal-mini modal-primary" id="myModal1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
@@ -250,7 +250,6 @@
 <script>
     $(document).ready( function () {
         $('table').DataTable({
-            paging: false,
             "autoWidth": false,
             "info": false
         });

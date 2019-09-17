@@ -133,7 +133,10 @@
                                 <div class="card-header ">
                                     <h4 class="card-title">Testimoni</h4>
                                 </div>
-                                <div class="card-body table-full-width table-responsive">
+                                <div class="btn-box">
+                                    <a href="tambah/testimoni.php" type="submit" class="btn btn-info btn-fill btn-tambah">Tambah Data</a>
+                                </div>
+                                <div class="card-body table-responsive">
                                     <table class="table table-hover table-striped">
                                         <thead>
                                             <th>ID Paket</th>
@@ -171,9 +174,6 @@
                             </div>
                         </div>
                     </div>
-                </div>
-                <div class="btn-box text-center">
-                    <a href="tambah/testimoni.php" type="submit" class="btn btn-info btn-fill btn-tambah">Tambah Data</a>
                 </div>
                 <!-- Mini Confirmation -->
                     <div class="modal fade modal-mini modal-primary" id="myModal1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
@@ -237,6 +237,16 @@
         demo.showNotification();
 
     });
+</script>
+<!-- Plugin -->
+<script src="assets/datatables/js/jquery.dataTables.min.js"></script>
+<script>
+    $(document).ready( function () {
+        $('table').DataTable({
+            "autoWidth": false,
+            "info": false
+        });
+    } );
 </script>
 
 </html>

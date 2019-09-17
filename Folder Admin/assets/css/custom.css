@@ -96,7 +96,22 @@
     color: #fff;
 }
 
+.btn-box{
+    padding: 15px 15px 0 15px;
+}
+
 .btn-tambah{
     cursor: pointer;
     -webkit-appearance: inherit;
 }
+
+/* datatable */
+.content .dataTables_wrapper .dataTables_filter input{
+    border: 2px solid #42d0ed;
+    border-radius: 5px;
+}
+
+.content .dataTables_wrapper .dataTables_paginate .paginate_button.current{
+    
+}
+/* , .dataTables_wrapper .dataTables_paginate .paginate_button.current:hover */

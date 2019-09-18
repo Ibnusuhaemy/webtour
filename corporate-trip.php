@@ -26,7 +26,7 @@
 
   <link rel="stylesheet" type="text/css" href="vendor/angle-vladov-mobile-slider/jquery.mobile-slider.min.css">
 
-  <link rel="stylesheet" type="text/css" href="css/main.css?v=22">
+  <link rel="stylesheet" type="text/css" href="css/main.css?v=23">
 </head>
 
 <body>

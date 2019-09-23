@@ -44,6 +44,30 @@ class fasilitasTableSeeder extends Seeder
                 'id_paket' => 1,
                 'fasilitas' => 'Asuransi Zurich'
             ],
+            [
+                'id_paket' => 2,
+                'fasilitas' => 'Tiket masuk Destinasi Wisata'
+            ],
+            [
+                'id_paket' => 2,
+                'fasilitas' => 'Snack di awal Penjemputan'
+            ],
+            [
+                'id_paket' => 2,
+                'fasilitas' => 'Air mineral selama tour'
+            ],
+            [
+                'id_paket' => 2,
+                'fasilitas' => 'Asuransi Zurich'
+            ],
+            [
+                'id_paket' => 3,
+                'fasilitas' => 'Snack di awal Penjemputan'
+            ],
+            [
+                'id_paket' => 3,
+                'fasilitas' => 'Air mineral selama tour'
+            ],
         ]);
     }
 }

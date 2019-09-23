@@ -27,6 +27,11 @@ class hotelTableSeeder extends Seeder
                 'nama_hotel' => 'Radho Syariah Hotel',
                 'harga_hotel' => null
             ],
+            [
+                'id_paket' => 2,
+                'nama_hotel' => 'Penginapan Semalam Sebelum ke Bromo',
+                'harga_hotel' => null
+            ],
         ]);
     }
 }

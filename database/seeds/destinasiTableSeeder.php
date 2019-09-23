@@ -60,6 +60,22 @@ class destinasiTableSeeder extends Seeder
                 'directory' => 'uploads/gambar_destinasi/',
                 'gambar_destinasi' => '6.jpg'
             ],
+            [
+                'id_paket' => 2,
+                'nama_tempat_destinasi' => 'Gunung Bromo',
+                'kota_destinasi' => 'Malang',
+                'url' => 'http://45.32.105.117:7094/',
+                'directory' => 'uploads/gambar_destinasi/',
+                'gambar_destinasi' => '7.jpg'
+            ],
+            [
+                'id_paket' => 3,
+                'nama_tempat_destinasi' => 'Kampung Warna Warni',
+                'kota_destinasi' => 'Malang',
+                'url' => 'http://45.32.105.117:7094/',
+                'directory' => 'uploads/gambar_destinasi/',
+                'gambar_destinasi' => '8.jpg'
+            ],
         ]);
     }
 }

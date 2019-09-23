@@ -16,7 +16,7 @@ class paketTableSeeder extends Seeder
                 'id_type' => 1,
                 'nama_paket' => 'Paket Wisata Malang Batu 4D3N - PAKET C',
                 'url' => 'http://45.32.105.117:7094/',
-                'directory' => 'public/uploads/gambar_paket/',
+                'directory' => 'uploads/gambar_paket/',
                 'gambar_paket' => 'jagadtour-bromo-sunrise.jpg',
                 'harga_dewasa' => 1500000,
                 'harga_anak' => 1000000,

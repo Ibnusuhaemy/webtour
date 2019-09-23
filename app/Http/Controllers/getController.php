@@ -41,6 +41,9 @@ class getController extends Controller
                 'paket.harga_dewasa',
                 'paket.harga_anak',
                 'paket.meet_point',
+                'paket.overview',
+                'paket.grup_size',
+                'paket.lokasi',
                 'paket.booked',
                 'durasi.jam',
                 'durasi.hari',
@@ -68,8 +71,8 @@ class getController extends Controller
             ->get(['paket.id','paket.nama_paket','type_paket.type','paket.url','paket.directory','paket.gambar_paket','durasi.hari']);
 
         $response = [
-            '1day' => $paket1day,
-            '2day' => $paket2day
+            'oneday' => $paket1day,
+            'twoday' => $paket2day
         ];
         return response()->json($response);
     }
@@ -88,8 +91,8 @@ class getController extends Controller
             ->get(['paket.id','paket.nama_paket','type_paket.type','paket.url', 'paket.directory','paket.gambar_paket','durasi.hari']);
 
         $response = [
-            '1day' => $paket1day,
-            '2day' => $paket2day
+            'oneday' => $paket1day,
+            'twoday' => $paket2day
         ];
         return response()->json($response);
     }
@@ -108,8 +111,8 @@ class getController extends Controller
             ->get(['paket.id','paket.nama_paket','type_paket.type','paket.url', 'paket.directory','paket.gambar_paket','durasi.hari']);
 
         $response = [
-            '1day' => $paket1day,
-            '2day' => $paket2day
+            'oneday' => $paket1day,
+            'twoday' => $paket2day
         ];
         return response()->json($response);
     }
@@ -133,6 +136,9 @@ class getController extends Controller
                 'paket.gambar_paket',
                 'paket.harga_dewasa',
                 'paket.harga_anak',
+                'paket.overview',
+                'paket.grup_size',
+                'paket.lokasi',
                 'paket.meet_point',
                 'paket.booked',
                 'durasi.jam',
@@ -177,6 +183,7 @@ class getController extends Controller
             ->with(['komentar' => function($query){
                 $query->orderBy('id','desc');
             }])
+            ->limit(6)
             ->get(['blog.id','blog.judul','type_blog.type_blog','blog.created_at','blog.url', 'blog.directory','blog.gambar_blog','blog.deskripsi','blog.featured']);
 
         //NESTED ARRAY TABEL HOTEL

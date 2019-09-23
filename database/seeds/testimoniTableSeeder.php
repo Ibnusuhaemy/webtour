@@ -18,7 +18,7 @@ class testimoniTableSeeder extends Seeder
                 'kota_testimoni' => 'Jakarta',
                 'testimoni' => 'asdaefsdvdrgxvaexcsfsdsfj sej fjsy  efejf sjeyfvs jef',
                 'url' => 'http://45.32.105.117:7094/',
-                'directory' => 'public/uploads/foto_testimoni/',
+                'directory' => 'uploads/foto_testimoni/',
                 'foto_testimoni' => '20.jpeg'
             ],
             [
@@ -27,7 +27,7 @@ class testimoniTableSeeder extends Seeder
                 'kota_testimoni' => 'Ambon',
                 'testimoni' => 'asdaefsdvdrgxvaexcsfsdsfj sej fjsy  efejf sjeyfvs jef',
                 'url' => 'http://45.32.105.117:7094/',
-                'directory' => 'public/uploads/foto_testimoni/',
+                'directory' => 'uploads/foto_testimoni/',
                 'foto_testimoni' => '14.jpeg'
             ],
         ]);

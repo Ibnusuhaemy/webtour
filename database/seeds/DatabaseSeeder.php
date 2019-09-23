@@ -23,7 +23,8 @@ class DatabaseSeeder extends Seeder
             faqsTableSeeder::class,
             typeBlogsTableSeeder::class,
             blogsTableSeeder::class,
-            komentarsTableSeeder::class
+            komentarsTableSeeder::class,
+            galeriTableSeeder::class
         ]);
     }
 }

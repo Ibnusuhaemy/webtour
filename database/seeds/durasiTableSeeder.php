@@ -28,8 +28,14 @@ class durasiTableSeeder extends Seeder
                 'id_paket' => 3,
                 'jam' => null,
                 'hari' => 1,
-                'malam' => 1
+                'malam' => null
             ],
+            [
+                'id_paket' => 4,
+                'jam' => 12,
+                'hari' => null,
+                'malam' => null
+            ]
         ]);
     }
 }

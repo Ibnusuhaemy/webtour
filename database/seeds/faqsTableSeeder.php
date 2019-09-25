@@ -47,6 +47,16 @@ class faqsTableSeeder extends Seeder
                 'pertanyaan' => '<b> Untuk harga anak bagaimana? </b>',
                 'jawaban' => 'Untuk harga anak dibawah 5 tahun tidak dikenakan biaya (free), dan untuk anak usia 5 - 8 tahun dikenakan biasaya sebesar 50% dari harga dewasa.',
             ],
+            [
+                'id_paket' => 4,
+                'pertanyaan' => '<b> Untuk harga anak bagaimana? </b>',
+                'jawaban' => 'Untuk harga anak dibawah 5 tahun tidak dikenakan biaya (free), dan untuk anak usia 5 - 8 tahun dikenakan biasaya sebesar 50% dari harga dewasa.',
+            ],
+            [
+                'id_paket' => 4,
+                'pertanyaan' => '<b> Ini nanti transportnya pakai apa ya? </b>',
+                'jawaban' => 'Untuk peseta dibawah 6 orang kami menggunakan Armada Inova dan diatas 6 orang hingga 12 orang kami menggunakan Armada Toyota Hiace.',
+            ],
         ]);
     }
 }

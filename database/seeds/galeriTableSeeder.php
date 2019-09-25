@@ -15,27 +15,27 @@ class galeriTableSeeder extends Seeder
             [
                 'url' => 'http://45.32.105.117:7094/',
                 'directory' => 'uploads/gambar_galeri/',
-                'gambar_galeri' => '1.jpeg'
+                'gambar_galeri' => '1.jpg'
             ],
             [
                 'url' => 'http://45.32.105.117:7094/',
                 'directory' => 'uploads/gambar_galeri/',
-                'gambar_galeri' => '2.jpeg'
+                'gambar_galeri' => '2.jpg'
             ],
             [
                 'url' => 'http://45.32.105.117:7094/',
                 'directory' => 'uploads/gambar_galeri/',
-                'gambar_galeri' => '3.jpeg'
+                'gambar_galeri' => '3.jpg'
             ],
             [
                 'url' => 'http://45.32.105.117:7094/',
                 'directory' => 'uploads/gambar_galeri/',
-                'gambar_galeri' => '4.jpeg'
+                'gambar_galeri' => '4.jpg'
             ],
             [
                 'url' => 'http://45.32.105.117:7094/',
                 'directory' => 'uploads/gambar_galeri/',
-                'gambar_galeri' => '5.jpeg'
+                'gambar_galeri' => '5.jpg'
             ],
         ]);
     }

@@ -68,6 +68,14 @@ class rencanaTableSeeder extends Seeder
                 'gambar_rencana' => 'rencana7.jpg',
                 'deskripsi' => '08.00 - 08.30 : Penjemputan Peserta di Meeting Point (Bandara/Stasiun)<br>08.30 - 10.00 : Wisata Petik Apel<br>10.00 - 13.00 : Wisata di Coban Talun<br>13.00 - 14.00 : Makan Siang di Lokal Resto<br>14.00 - 18.00 : Wisata di Jatim Park 3 (Dino Park &amp; The Legend Star)<br>18.00 - 19.00 : Makan Malam di Lokal Resto<br>19.00 - 20.00 : Wisata Alun-alun Kota Wisata Batu (Wisata Kuliner Pos Ketan Legenda)<br>21.00 : Cek in dan Istirahat'
             ],
+            [
+                'id_paket' => 4,
+                'rencana' => 'Day 1 (B, L, D)',
+                'url' => 'http://45.32.105.117:7094/',
+                'directory' => 'uploads/gambar_rencana/',
+                'gambar_rencana' => 'rencana8.jpg',
+                'deskripsi' => '08.00 - 08.30 : Penjemputan Peserta di Meeting Point (Bandara/Stasiun)<br>08.30 - 10.00 : Wisata Petik Apel<br>10.00 - 13.00 : Wisata di Coban Talun<br>13.00 - 14.00 : Makan Siang di Lokal Resto<br>14.00 - 18.00 : Wisata di Jatim Park 3 (Dino Park &amp; The Legend Star)<br>18.00 - 19.00 : Makan Malam di Lokal Resto<br>19.00 - 20.00 : Wisata Alun-alun Kota Wisata Batu (Wisata Kuliner Pos Ketan Legenda)<br>21.00 : Cek in dan Istirahat'
+            ],
         ]);
     }
 }

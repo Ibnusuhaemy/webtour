@@ -76,6 +76,30 @@ class destinasiTableSeeder extends Seeder
                 'directory' => 'uploads/gambar_destinasi/',
                 'gambar_destinasi' => '8.jpg'
             ],
+            [
+                'id_paket' => 4,
+                'nama_tempat_destinasi' => 'Alun Alun Batu',
+                'kota_destinasi' => 'Batu',
+                'url' => 'http://45.32.105.117:7094/',
+                'directory' => 'uploads/gambar_destinasi/',
+                'gambar_destinasi' => '9.jpg'
+            ],
+            [
+                'id_paket' => 4,
+                'nama_tempat_destinasi' => 'Pos Ketan Batu',
+                'kota_destinasi' => 'Batu',
+                'url' => 'http://45.32.105.117:7094/',
+                'directory' => 'uploads/gambar_destinasi/',
+                'gambar_destinasi' => '10.jpg'
+            ],
+            [
+                'id_paket' => 4,
+                'nama_tempat_destinasi' => 'Jatim Park 3',
+                'kota_destinasi' => 'Batu',
+                'url' => 'http://45.32.105.117:7094/',
+                'directory' => 'uploads/gambar_destinasi/',
+                'gambar_destinasi' => '11.jpg'
+            ],
         ]);
     }
 }

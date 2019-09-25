@@ -68,6 +68,18 @@ class fasilitasTableSeeder extends Seeder
                 'id_paket' => 3,
                 'fasilitas' => 'Air mineral selama tour'
             ],
+            [
+                'id_paket' => 4,
+                'fasilitas' => 'Air mineral selama tour'
+            ],
+            [
+                'id_paket' => 4,
+                'fasilitas' => 'Makan selama tour'
+            ],
+            [
+                'id_paket' => 4,
+                'fasilitas' => 'Transportasi selama tour'
+            ],
         ]);
     }
 }

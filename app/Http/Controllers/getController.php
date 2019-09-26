@@ -42,7 +42,8 @@ class getController extends Controller
                 'paket.harga_anak',
                 'paket.meet_point',
                 'paket.overview',
-                'paket.grup_size',
+                'paket.start_trip',
+                'paket.end_trip',
                 'paket.lokasi',
                 'paket.booked',
                 'durasi.jam',
@@ -60,15 +61,15 @@ class getController extends Controller
     public function getPaketFamily(){
         $paket1day = paket::join('type_paket','type_paket.id', '=', 'paket.id_type')
             ->join('durasi','durasi.id_paket','=','paket.id')
-            ->where('durasi.hari','=',1)
-            ->where('paket.id_type','=',1)
-            ->get(['paket.id','paket.nama_paket','type_paket.type','paket.url', 'paket.directory','paket.gambar_paket','durasi.hari']);
+            ->where([['durasi.hari','=',1],['paket.id_type','=',1]])
+            ->orWhere([['durasi.jam','!=',null] ,['paket.id_type','=',1]])
+            ->get(['paket.id','paket.nama_paket','type_paket.type','paket.url', 'paket.directory','paket.gambar_paket','durasi.jam','durasi.hari','durasi.malam']);
 
         $paket2day = paket::join('type_paket','type_paket.id', '=', 'paket.id_type')
             ->join('durasi','durasi.id_paket','=','paket.id')
             ->where('durasi.hari','=',2)
             ->where('paket.id_type','=',1)
-            ->get(['paket.id','paket.nama_paket','type_paket.type','paket.url','paket.directory','paket.gambar_paket','durasi.hari']);
+            ->get(['paket.id','paket.nama_paket','type_paket.type','paket.url','paket.directory','paket.gambar_paket','durasi.jam','durasi.hari','durasi.malam']);
 
         $response = [
             'oneday' => $paket1day,
@@ -80,15 +81,15 @@ class getController extends Controller
     public function getPaketCorporate(){
         $paket1day = paket::join('type_paket','type_paket.id', '=', 'paket.id_type')
             ->join('durasi','durasi.id_paket','=','paket.id')
-            ->where('durasi.hari','=',1)
-            ->where('paket.id_type','=',2)
-            ->get(['paket.id','paket.nama_paket','type_paket.type','paket.url', 'paket.directory','paket.gambar_paket','durasi.hari']);
+            ->where([['durasi.hari','=',1],['paket.id_type','=',2]])
+            ->orWhere([['durasi.jam','!=',null] ,['paket.id_type','=',2]])
+            ->get(['paket.id','paket.nama_paket','type_paket.type','paket.url', 'paket.directory','paket.gambar_paket','durasi.jam','durasi.hari','durasi.malam']);
 
         $paket2day = paket::join('type_paket','type_paket.id', '=', 'paket.id_type')
             ->join('durasi','durasi.id_paket','=','paket.id')
             ->where('durasi.hari','=',2)
             ->where('paket.id_type','=',2)
-            ->get(['paket.id','paket.nama_paket','type_paket.type','paket.url', 'paket.directory','paket.gambar_paket','durasi.hari']);
+            ->get(['paket.id','paket.nama_paket','type_paket.type','paket.url', 'paket.directory','paket.gambar_paket','durasi.jam','durasi.hari','durasi.malam']);
 
         $response = [
             'oneday' => $paket1day,
@@ -100,15 +101,15 @@ class getController extends Controller
     public function getPaketCustom(){
         $paket1day = paket::join('type_paket','type_paket.id', '=', 'paket.id_type')
             ->join('durasi','durasi.id_paket','=','paket.id')
-            ->where('durasi.hari','=',1)
-            ->where('paket.id_type','=',3)
-            ->get(['paket.id','paket.nama_paket','type_paket.type','paket.url', 'paket.directory','paket.gambar_paket','durasi.hari']);
+            ->where([['durasi.hari','=',1],['paket.id_type','=',3]])
+            ->orWhere([['durasi.jam','!=',null] ,['paket.id_type','=',3]])
+            ->get(['paket.id','paket.nama_paket','type_paket.type','paket.url', 'paket.directory','paket.gambar_paket','durasi.jam','durasi.hari','durasi.malam']);
 
         $paket2day = paket::join('type_paket','type_paket.id', '=', 'paket.id_type')
             ->join('durasi','durasi.id_paket','=','paket.id')
             ->where('durasi.hari','=',2)
             ->where('paket.id_type','=',3)
-            ->get(['paket.id','paket.nama_paket','type_paket.type','paket.url', 'paket.directory','paket.gambar_paket','durasi.hari']);
+            ->get(['paket.id','paket.nama_paket','type_paket.type','paket.url', 'paket.directory','paket.gambar_paket','durasi.jam','durasi.hari','durasi.malam']);
 
         $response = [
             'oneday' => $paket1day,
@@ -137,7 +138,8 @@ class getController extends Controller
                 'paket.harga_dewasa',
                 'paket.harga_anak',
                 'paket.overview',
-                'paket.grup_size',
+                'paket.start_trip',
+                'paket.end_trip',
                 'paket.lokasi',
                 'paket.meet_point',
                 'paket.booked',

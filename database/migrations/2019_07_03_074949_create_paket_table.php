@@ -24,7 +24,8 @@ class CreatePaketTable extends Migration
             $table->integer('harga_anak');
             $table->integer('booked')->nullable();
             $table->longText('overview')->nullable();
-            $table->string('grup_size')->nullable();
+            $table->string('start_trip')->nullable();
+            $table->string('end_trip')->nullable();
             $table->string('lokasi')->nullable();
             $table->string('meet_point')->nullable();
             $table->timestamps();

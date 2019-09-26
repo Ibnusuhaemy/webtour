@@ -69,47 +69,13 @@
                 <!-- Collect the nav links, forms, and other content for toggling -->
                 <div class="collapse navbar-collapse menu-box-collapse" id="bs-example-navbar-collapse-1">
                   <ul class="nav navbar-nav menu-box-item">
-                    @if ($val == 6)
-                    <li><a href={{ url('/')}}>Home<span class="sr-only">(current)</span></a></li>
-                    <li><a href={{ url('/family-trip')}}>Family Trip</a></li>
-                    <li><a href={{ url('/corporate-trip')}}>Corporate</a></li>
-                    <li><a href="#">Custom Trip</a></li>
-                    <li><a href={{ url('/gallery-testimoni')}}>Gallery & Testimoni</a></li>
-                    <li><a href={{ url('/blog')}}>Blog</a></li>
-                    <li class="{{$header}}"><a href={{ url('/contact')}}>Contact Us</a></li>
-                    @elseif ($val == 5)
-                      <li><a href={{ url('/')}}>Home<span class="sr-only">(current)</span></a></li>
-                      <li><a href={{ url('/family-trip')}}>Family Trip</a></li>
-                      <li><a href={{ url('/corporate-trip')}}>Corporate</a></li>
-                      <li><a href="#">Custom Trip</a></li>
-                      <li><a href={{ url('/gallery-testimoni')}}>Gallery & Testimoni</a></li>
-                      <li class="{{$header}}"><a href={{ url('/blog')}}>Blog</a></li>
-                      <li><a href={{ url('/contact')}}>Contact Us</a></li>
-                    @elseif($val == 4)
-                      <li><a href={{ url('/')}}>Home<span class="sr-only">(current)</span></a></li>
-                      <li><a href={{ url('/family-trip')}}>Family Trip</a></li>
-                      <li><a href={{ url('/corporate-trip')}}>Corporate</a></li>
-                      <li><a href="#">Custom Trip</a></li>
-                      <li class="{{$header}}"><a href={{ url('/gallery-testimoni')}}>Gallery & Testimoni</a></li>
-                      <li><a href={{ url('/blog')}}>Blog</a></li>
-                      <li><a href={{ url('/contact')}}>Contact Us</a></li>
-                      @elseif($val == 3)
-                      <li><a href={{ url('/')}}>Home<span class="sr-only">(current)</span></a></li>
-                      <li><a href={{ url('/family-trip')}}>Family Trip</a></li>
-                      <li class="{{$header}}"><a href={{ url('/corporate-trip')}}>Corporate</a></li>
-                      <li><a href="#">Custom Trip</a></li>
-                      <li><a href={{ url('/gallery-testimoni')}}>Gallery & Testimoni</a></li>
-                      <li><a href={{ url('/blog')}}>Blog</a></li>
-                      <li><a href={{ url('/contact')}}>Contact Us</a></li>
-                      @elseif($val == 2)
-                      <li><a href={{ url('/')}}>Home<span class="sr-only">(current)</span></a></li>
-                      <li class="{{$header}}"><a href={{ url('/family-trip')}}>Family Trip</a></li>
-                      <li><a href={{ url('/corporate-trip')}}>Corporate</a></li>
-                      <li><a href="#">Custom Trip</a></li>
-                      <li><a href={{ url('/gallery-testimoni')}}>Gallery & Testimoni</a></li>
-                      <li><a href={{ url('/blog')}}>Blog</a></li>
-                      <li><a href={{ url('/contact')}}>Contact Us</a></li>
-                    @endif
+                    <li><a href={{ url('/')}}>Home</a></li>
+                    <li class="{{ (request()->is('family-trip')) ? 'active' : '' }}"><a href={{ url('/family-trip')}}>Family Trip</a></li>
+                    <li class="{{ (request()->is('corporate-trip')) ? 'active' : '' }}"><a href={{ url('/corporate-trip')}}>Corporate</a></li>
+                    <li class="{{ (request()->is('custom-trip')) ? 'active' : '' }}"><a href="#">Custom Trip</a></li>
+                    <li class="{{ (request()->is('gallery-testimoni')) ? 'active' : '' }}"><a href={{ url('/gallery-testimoni')}}>Gallery & Testimoni</a></li>
+                    <li class="{{ (request()->is('blog')) ? 'active' : '' }}"><a href={{ url('/blog')}}>Blog</a></li>
+                    <li class="{{ (request()->is('contact')) ? 'active' : '' }}"><a href={{ url('/contact')}}>Contact Us</a></li>
                   </ul>
                 </div><!-- /.navbar-collapse -->
               </nav>

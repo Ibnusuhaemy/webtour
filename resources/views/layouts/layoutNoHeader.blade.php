@@ -11,9 +11,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!-- Icon -->
-    <link rel="shortcut icon" href="images/jagadtour-icon.ico">
-    <link rel="icon" sizes="32x32" href="images/jagadtour-icon.ico">
-    <link rel="apple-touch-icon" sizes="32x32" href="images/jagadtour-icon.ico">
+    <link rel="shortcut icon" href="{{asset('images/jagadtour-icon.ico')}}">
+    <link rel="icon" sizes="32x32" href="{{asset('images/jagadtour-icon.ico')}}">
+    <link rel="apple-touch-icon" sizes="32x32" href="{{asset('images/jagadtour-icon.ico')}}">
 
     <!-- Stylesheets -->
     <link rel="stylesheet" type="text/css" href="{{asset('vendor/bootstrap.3.3.7/css/bootstrap.min.css')}}">
@@ -39,7 +39,7 @@
           <!-- Contact Info -->
           <div class="row header-info">
             <div class="col-sm-4 col-md-5 info-logo">
-              <img src="images/jagadtour-logo-baru.png" width="237" height="44" alt="Logo Jagadtour" class="img-responsive">
+              <img src="{{asset('images/jagadtour-logo-baru.png')}}" width="237" height="44" alt="Logo Jagadtour" class="img-responsive">
             </div>
             <div class="col-sm-8 col-md-7 info-contact">
               <span class="jgicon icon-call"></span>

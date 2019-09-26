@@ -12,102 +12,36 @@
           <div class="row">
             <div class="col-xs-12">
               <div class="owl-carousel corporate-one js-corporate-one owl-theme">
+                @foreach ($data->oneday as $dataOne)                   
                 <div class="item">
                   <div class="packdetail-packother card-single">
-                    <a href="#">
+                    <a href="{{url ('/package-detail'.'/'.$dataOne->id)}}">
                       <div class="panel panel-default card-single">
                         <div class="panel-body card-single-body">
-                          <img src="images/thumbnails/jagadtour-bromo-sunrise.jpg" width="1035" height="642" alt="" class="img-responsive">
+                          <img src={{$dataOne->url.$dataOne->directory.$dataOne->gambar_paket}} width="1035" height="642" alt="" class="img-responsive">
                           <div class="card-single-caption">
-                            <p class="tag tag-orange card-single-tag">Family Trip</p>
-                            <p class="card-single-title">Bromo Sunrise Tour</p>
-                            <p class="card-single-text">1 Day</p>
+                            <p class="tag tag-blue card-single-tag">{{$dataOne->type}}</p>
+                            <p class="card-single-title">{{$dataOne->nama_paket}}</p>
+                            <p class="card-single-text">
+                                <?php 
+                                if($dataOne->jam === null && $dataOne->malam !== null  ){
+                                  echo $dataOne->hari." D ".$dataOne->malam." N";
+                                }
+                                elseif ($dataOne->malam === null && $dataOne->jam === null) {
+                                  echo $dataOne->hari." D";
+                                }
+                                elseif ($dataOne->hari === null && $dataOne->malam === null ) {
+                                  echo "1 D";
+                                }
+                                ?>
+                            </p>
                           </div>
                         </div>
                       </div>
                     </a>
                   </div>
                 </div>
-                <div class="item">
-                  <div class="packdetail-packother card-single">
-                    <a href="#">
-                      <div class="panel panel-default card-single">
-                        <div class="panel-body card-single-body">
-                          <img src="images/thumbnails/jagadtour-bromo-sunrise.jpg" width="1035" height="642" alt="" class="img-responsive">
-                          <div class="card-single-caption">
-                            <p class="tag tag-orange card-single-tag">Family Trip</p>
-                            <p class="card-single-title">Bromo Sunrise Tour</p>
-                            <p class="card-single-text">1 Day</p>
-                          </div>
-                        </div>
-                      </div>
-                    </a>
-                  </div>
-                </div>
-                <div class="item">
-                  <div class="packdetail-packother card-single">
-                    <a href="#">
-                      <div class="panel panel-default card-single">
-                        <div class="panel-body card-single-body">
-                          <img src="images/thumbnails/jagadtour-bromo-sunrise.jpg" width="1035" height="642" alt="" class="img-responsive">
-                          <div class="card-single-caption">
-                            <p class="tag tag-orange card-single-tag">Family Trip</p>
-                            <p class="card-single-title">Tour Malang, Batu &amp; Bromo</p>
-                            <p class="card-single-text">4 Days 3 N</p>
-                          </div>
-                        </div>
-                      </div>
-                    </a>
-                  </div>
-                </div>
-                <div class="item">
-                  <div class="packdetail-packother card-single">
-                    <a href="#">
-                      <div class="panel panel-default card-single">
-                        <div class="panel-body card-single-body">
-                          <img src="images/thumbnails/jagadtour-rafting-songa.jpg" width="1035" height="642" alt="" class="img-responsive">
-                          <div class="card-single-caption">
-                            <p class="tag tag-orange card-single-tag">Corporate Trip</p>
-                            <p class="card-single-title">Rafting Songa Bromo &amp; Batu</p>
-                            <p class="card-single-text">3 Days 2 N</p>
-                          </div>
-                        </div>
-                      </div>
-                    </a>
-                  </div>
-                </div>
-                <div class="item">
-                  <div class="packdetail-packother card-single">
-                    <a href="#">
-                      <div class="panel panel-default card-single">
-                        <div class="panel-body card-single-body">
-                          <img src="images/thumbnails/jagadtour-rafting-songa.jpg" width="1035" height="642" alt="" class="img-responsive">
-                          <div class="card-single-caption">
-                            <p class="tag tag-orange card-single-tag">Corporate Trip</p>
-                            <p class="card-single-title">Tour Malang, Bromo, &amp; Batu</p>
-                            <p class="card-single-text">4 Days 3 N</p>
-                          </div>
-                        </div>
-                      </div>
-                    </a>
-                  </div>
-                </div>
-                <div class="item">
-                  <div class="packdetail-packother card-single">
-                    <a href="#">
-                      <div class="panel panel-default card-single">
-                        <div class="panel-body card-single-body">
-                          <img src="images/thumbnails/jagadtour-rafting-songa.jpg" width="1035" height="642" alt="" class="img-responsive">
-                          <div class="card-single-caption">
-                            <p class="tag tag-orange card-single-tag">Corporate Trip</p>
-                            <p class="card-single-title">Tour Museum Malang</p>
-                            <p class="card-single-text">3 Days 2 N</p>
-                          </div>
-                        </div>
-                      </div>
-                    </a>
-                  </div>
-                </div>
+                @endforeach
               </div>
             </div>
           </div>
@@ -130,108 +64,43 @@
           <div class="row">
             <div class="col-xs-12">
               <div class="owl-carousel corporate-two js-corporate-two owl-theme">
-                <div class="item">
-                  <div class="packdetail-packother card-single">
-                    <a href="#">
-                      <div class="panel panel-default card-single">
-                        <div class="panel-body card-single-body">
-                          <img src="images/thumbnails/jagadtour-bromo-sunrise.jpg" width="1035" height="642" alt="" class="img-responsive">
-                          <div class="card-single-caption">
-                            <p class="tag tag-orange card-single-tag">Family Trip</p>
-                            <p class="card-single-title">Bromo Sunrise Tour</p>
-                            <p class="card-single-text">1 Day</p>
+                  @foreach ($data->twoday as $dataTwo)                   
+                  <div class="item">
+                    <div class="packdetail-packother card-single">
+                      <a href="{{url ('/package-detail'.'/'.$dataTwo->id)}}">
+                        <div class="panel panel-default card-single">
+                          <div class="panel-body card-single-body">
+                            <img src={{$dataTwo->url.$dataTwo->directory.$dataTwo->gambar_paket}} width="1035" height="642" alt="" class="img-responsive">
+                            <div class="card-single-caption">
+                              <p class="tag tag-blue card-single-tag">{{$dataTwo->type}}</p>
+                              <p class="card-single-title">{{$dataTwo->nama_paket}}</p>
+                              <p class="card-single-text">
+                                  <?php 
+                                  if($dataTwo->jam === null && $dataTwo->malam !== null  ){
+                                    echo $dataTwo->hari." D ".$dataTwo->malam." N";
+                                  }
+                                  elseif ($dataTwo->malam === null && $dataTwo->jam === null) {
+                                    echo $dataTwo->hari." D";
+                                  }
+                                  elseif ($dataTwo->hari === null && $dataTwo->malam === null ) {
+                                    echo "1 D";
+                                  }
+                                  ?>
+                              </p>
+                            </div>
                           </div>
                         </div>
-                      </div>
-                    </a>
+                      </a>
+                    </div>
                   </div>
-                </div>
-                <div class="item">
-                  <div class="packdetail-packother card-single">
-                    <a href="#">
-                      <div class="panel panel-default card-single">
-                        <div class="panel-body card-single-body">
-                          <img src="images/thumbnails/jagadtour-bromo-sunrise.jpg" width="1035" height="642" alt="" class="img-responsive">
-                          <div class="card-single-caption">
-                            <p class="tag tag-orange card-single-tag">Family Trip</p>
-                            <p class="card-single-title">Bromo Sunrise Tour</p>
-                            <p class="card-single-text">1 Day</p>
-                          </div>
-                        </div>
-                      </div>
-                    </a>
-                  </div>
-                </div>
-                <div class="item">
-                  <div class="packdetail-packother card-single">
-                    <a href="#">
-                      <div class="panel panel-default card-single">
-                        <div class="panel-body card-single-body">
-                          <img src="images/thumbnails/jagadtour-bromo-sunrise.jpg" width="1035" height="642" alt="" class="img-responsive">
-                          <div class="card-single-caption">
-                            <p class="tag tag-orange card-single-tag">Family Trip</p>
-                            <p class="card-single-title">Tour Malang, Batu &amp; Bromo</p>
-                            <p class="card-single-text">4 Days 3 N</p>
-                          </div>
-                        </div>
-                      </div>
-                    </a>
-                  </div>
-                </div>
-                <div class="item">
-                  <div class="packdetail-packother card-single">
-                    <a href="#">
-                      <div class="panel panel-default card-single">
-                        <div class="panel-body card-single-body">
-                          <img src="images/thumbnails/jagadtour-rafting-songa.jpg" width="1035" height="642" alt="" class="img-responsive">
-                          <div class="card-single-caption">
-                            <p class="tag tag-orange card-single-tag">Corporate Trip</p>
-                            <p class="card-single-title">Rafting Songa Bromo &amp; Batu</p>
-                            <p class="card-single-text">3 Days 2 N</p>
-                          </div>
-                        </div>
-                      </div>
-                    </a>
-                  </div>
-                </div>
-                <div class="item">
-                  <div class="packdetail-packother card-single">
-                    <a href="#">
-                      <div class="panel panel-default card-single">
-                        <div class="panel-body card-single-body">
-                          <img src="images/thumbnails/jagadtour-rafting-songa.jpg" width="1035" height="642" alt="" class="img-responsive">
-                          <div class="card-single-caption">
-                            <p class="tag tag-orange card-single-tag">Corporate Trip</p>
-                            <p class="card-single-title">Tour Malang, Bromo, &amp; Batu</p>
-                            <p class="card-single-text">4 Days 3 N</p>
-                          </div>
-                        </div>
-                      </div>
-                    </a>
-                  </div>
-                </div>
-                <div class="item">
-                  <div class="packdetail-packother card-single">
-                    <a href="#">
-                      <div class="panel panel-default card-single">
-                        <div class="panel-body card-single-body">
-                          <img src="images/thumbnails/jagadtour-rafting-songa.jpg" width="1035" height="642" alt="" class="img-responsive">
-                          <div class="card-single-caption">
-                            <p class="tag tag-orange card-single-tag">Corporate Trip</p>
-                            <p class="card-single-title">Tour Museum Malang</p>
-                            <p class="card-single-text">3 Days 2 N</p>
-                          </div>
-                        </div>
-                      </div>
-                    </a>
-                  </div>
+                  @endforeach
                 </div>
               </div>
             </div>
-          </div>
-          <div class="row">
-            <div class="col-xs-12">
-              <hr class="package-separator">
+            <div class="row">
+              <div class="col-xs-12">
+                <hr class="package-separator">
+              </div>
             </div>
           </div>
         </div>
@@ -245,46 +114,27 @@
               <h2 class="content-title content-testi-title">Testimonials</h2>
               <p class="media-content-testi">Apa kata mereka setelah menggunakan jasa Jagad Tour</p>
               <div class="owl-carousel owl-theme content-testi-slider js-content-testi-slider">
-                <div class="item">
-                  <div class="panel panel-default testi-slider-item">
-                    <div class="panel-body">
-                      <div class="media testi-slider-media">
-                        <div class="media-body media-middle">
-                          <a class="home" href="#">
-                            <img src="images/testimonials/1.jpg" width="960" height="960" alt="Testimonial Putri Sahadaya di Jagadtour" class="media-object testi-slider-photo">
-                          </a>
-                          <div class="home-comment">
-                            <h4 class="media-heading testi-slider-name">Kartika - <span class="testi-slider-city">Bandung</span></h4>
-                            <p class="testi-slider-statement">
-                              Dari awal ketika melihat jagad tour ada satu pikiran saya bahwa, travel ini memiliki rasa tanggung jawab dan beda
-                              dengan yang lain mulai dari fasilitas dan pendukung lainnya. Sukses terus jagad tour.
-                            </p>
+                  @foreach ($dataTesti as $data)
+                  <div class="item">
+                      <div class="panel panel-default testi-slider-item">
+                        <div class="panel-body">
+                          <div class="media testi-slider-media">
+                            <div class="media-body media-middle">
+                              <a class="home" href="#">
+                                <img src={{$data->url.$data->directory.$data->foto_testimoni}} width="960" height="960" alt="Testimonial Putri Sahadaya di Jagadtour" class="media-object testi-slider-photo">
+                              </a>
+                              <div class="home-comment">
+                                <h4 class="media-heading testi-slider-name">{{$data->nama_testimoni}} - <span class="testi-slider-city">{{$data->kota_testimoni}}</span></h4>
+                                <p class="testi-slider-statement">
+                                  {{$data->testimoni}}
+                                </p>
+                              </div>
+                            </div>
                           </div>
                         </div>
                       </div>
                     </div>
-                  </div>
-                </div>
-                <div class="item">
-                  <div class="panel panel-default testi-slider-item">
-                    <div class="panel-body">
-                      <div class="media testi-slider-media">
-                        <div class="media-body media-middle">
-                          <a class="home" href="#">
-                            <img src="images/testimonials/2.jpg" width="3000" height="3000" alt="Testimonial Asuna Diana di Jagadtour" class="media-object testi-slider-photo">
-                          </a>
-                          <div class="home-comment">
-                            <h4 class="media-heading testi-slider-name">Andi - <span class="testi-slider-city">Jakarta</span></h4>
-                            <p class="testi-slider-statement">
-                              Bagi saya jagad tour punya treatment khusus untuk membuat client merasa nyaman dan bahagia saat berwisata di
-                              malang dan kami merasakan itu. Semoga Tuhan memberkati Jagad Tour dan timnya
-                            </p>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
+                  @endforeach
               </div>
               <a href="gallery-testi.php" style="text-decoration: none;">
                 <p class="media-content-testi-link">Baca Lainnya</p>

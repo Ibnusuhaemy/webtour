@@ -54,220 +54,60 @@
       
               </div>
               <div class="row listed-card list list-group-list">
+                @foreach ($data as $data)
+                @php
+                    if ($data->id_type == 1){
+                      $tag = 'Wisata';
+                      }
+                      else if ($data->id_type == 2) {
+                        $tag = 'Oleh-oleh';
+                      }
+                      else {
+                        $tag = 'Kuliner';
+                      }  
+                @endphp
                 <div class="list-group-item">
-                  <div class="panel panel-default card-complete">
-                    <div class="panel-heading card-complete-heading">
-                      <div class="card-complete-image">
-                        <img src="images/thumbnails/jagadtour-artikel-lukisan-3d.jpg" width="345" height="214"
-                          alt="Jagadtour Blog Image" class="img-responsive">
-                      </div>
-                      <p class="tag tag-orange card-complete-tag">Wisata</p>
-                    </div>
-                    <div class="panel-body card-complete-body">
-                      <h3 class="card-complete-title"><a href="blog-detail.php" class="title">4 Tempat Wisata dengan Lukisan 3D
-                          di Malang Raya</a></h3>
-                      <div class="row">
-                        <div class="col-xs-8">
-                          <div class="media">
-                            <div class="media-left">
-                              <a href="#">
-                                <img class="media-object" src="images/photos/putri-sahadaya.png" width="60" height="60"
-                                  alt="Jagadtour Blog Contributor">
-                              </a>
-                            </div>
-                            <div class="media-body">
-                              <p>Brian Murray</p>
-                              <p>24 May 2018</p>
-                            </div>
-                          </div>
+                    <div class="panel panel-default card-complete">
+                      <div class="panel-heading card-complete-heading">
+                        <div class="card-complete-image">
+                          <img src="images/thumbnails/jagadtour-artikel-lukisan-3d.jpg" width="345" height="214"
+                            alt="Jagadtour Blog Image" class="img-responsive">
                         </div>
-                        <div class="col-xs-4 media-comment">
-                          <p><span class="jgicon icon-comment"></span> 150</p>
-                        </div>
+                      <p class="tag tag-orange card-complete-tag">{{$tag}}</p>
                       </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="list-group-item">
-                  <div class="panel panel-default card-complete">
-                    <div class="panel-heading card-complete-heading">
-                      <div class="card-complete-image">
-                        <img src="images/thumbnails/jagadtour-artikel-kampung-biru.jpg" width="345" height="214"
-                          alt="Jagadtour Blog Image" class="img-responsive">
-                      </div>
-                      <p class="tag tag-orange card-complete-tag">Wisata</p>
-                    </div>
-                    <div class="panel-body card-complete-body">
-                      <div class="card-complete-caption">
-                        <h3 class="card-complete-title"><a href="blog-detail.php" class="title">Kampung Biru, Replika Santorini
-                            yang Ada di Kota Malang</a></h3>
+                      <div class="panel-body card-complete-body">
+                        <h3 class="card-complete-title">
+                          <a href={{url('/blog-detail'.'/'.$data->id)}} class="title">
+                            {{$data->Judul}}
+                          </a>
+                        </h3>
                         <div class="row">
                           <div class="col-xs-8">
                             <div class="media">
                               <div class="media-left">
-                                <a href="#">
-                                  <img class="media-object" src="images/photos/putri-sahadaya.png" width="60" height="60"
-                                    alt="Jagadtour Blog Contributor">
-                                </a>
                               </div>
                               <div class="media-body">
-                                <p>Paul Coleman</p>
-                                <p>24 May 2018</p>
+                                  @php
+                                  if ($data->komentar_count === 0){
+                                      echo"<p></p>";
+                                      echo"<p></p>";
+                                  }
+                                  else {
+                                      echo"<p>".$data->komentar[0]->nama_komentar."</p>";
+                                      echo"<p>".$data->komentar[0]->created_at."</p>";
+                                  }
+                                 @endphp
                               </div>
                             </div>
                           </div>
                           <div class="col-xs-4 media-comment">
-                            <p><span class="jgicon icon-comment"></span> 150</p>
+                          <p><span class="jgicon icon-comment"></span>{{$data->komentar_count}}</p>
                           </div>
                         </div>
                       </div>
                     </div>
                   </div>
-                </div>
-                <div class="list-group-item">
-                  <div class="panel panel-default card-complete">
-                    <div class="panel-heading card-complete-heading">
-                      <div class="card-complete-image">
-                        <img src="images/thumbnails/jagadtour-artikel-bakpao-telo.jpg" width="345" height="214"
-                          alt="Jagadtour Blog Image" class="img-responsive">
-                      </div>
-                      <p class="tag tag-orange card-complete-tag">Wisata</p>
-                    </div>
-                    <div class="panel-body card-complete-body">
-                      <div class="card-complete-caption">
-                        <h3 class="card-complete-title"><a href="blog-detail.php" class="title">Bakpao Telo, Oleh-oleh Paling
-                            Juara dari Malang</a></h3>
-                        <div class="row">
-                          <div class="col-xs-8">
-                            <div class="media">
-                              <div class="media-left">
-                                <a href="#">
-                                  <img class="media-object" src="images/photos/putri-sahadaya.png" width="60" height="60"
-                                    alt="Jagadtour Blog Contributor">
-                                </a>
-                              </div>
-                              <div class="media-body">
-                                <p>Nicholas Sanchez</p>
-                                <p>24 May 2018</p>
-                              </div>
-                            </div>
-                          </div>
-                          <div class="col-xs-4 media-comment">
-                            <p><span class="jgicon icon-comment"></span> 150</p>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="list-group-item">
-                  <div class="panel panel-default card-complete">
-                    <div class="panel-heading card-complete-heading">
-                      <div class="card-complete-image">
-                        <img src="images/thumbnails/jagadtour-artikel-kuliner-jumbo.jpg" width="345" height="214"
-                          alt="Jagadtour Blog Image" class="img-responsive">
-                      </div>
-                      <p class="tag tag-orange card-complete-tag">Kuliner</p>
-                    </div>
-                    <div class="panel-body card-complete-body">
-                      <div class="card-complete-caption">
-                        <h3 class="card-complete-title"><a href="blog-detail.php" class="title">Kuliner Malang dengan Porsi
-                            Jumbo, Bisa Makan Keroyokan</a></h3>
-                        <div class="row">
-                          <div class="col-xs-8">
-                            <div class="media">
-                              <div class="media-left">
-                                <a href="#">
-                                  <img class="media-object" src="images/photos/putri-sahadaya.png" width="60" height="60"
-                                    alt="Jagadtour Blog Contributor">
-                                </a>
-                              </div>
-                              <div class="media-body">
-                                <p>Brian Murray</p>
-                                <p>24 May 2018</p>
-                              </div>
-                            </div>
-                          </div>
-                          <div class="col-xs-4 media-comment">
-                            <p><span class="jgicon icon-comment"></span> 150</p>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="list-group-item">
-                  <div class="panel panel-default card-complete">
-                    <div class="panel-heading card-complete-heading">
-                      <div class="card-complete-image">
-                        <img src="images/thumbnails/jagadtour-artikel-air-terjun-perawan.jpg" width="345" height="214"
-                          alt="Jagadtour Blog Image" class="img-responsive">
-                      </div>
-                      <p class="tag tag-orange card-complete-tag">Wisata</p>
-                    </div>
-                    <div class="panel-body card-complete-body">
-                      <div class="card-complete-caption">
-                        <h3 class="card-complete-title"><a href="blog-detail.php" class="js-listed-card-title">Menjelajah Air
-                            Terjun 'Perawan' di Malang Raya</a></h3>
-                        <div class="row">
-                          <div class="col-xs-8">
-                            <div class="media">
-                              <div class="media-left">
-                                <a href="#">
-                                  <img class="media-object" src="images/photos/putri-sahadaya.png" width="60" height="60"
-                                    alt="Jagadtour Blog Contributor">
-                                </a>
-                              </div>
-                              <div class="media-body">
-                                <p>Paul Coleman</p>
-                                <p>24 May 2018</p>
-                              </div>
-                            </div>
-                          </div>
-                          <div class="col-xs-4 media-comment">
-                            <p><span class="jgicon icon-comment"></span> 150</p>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="list-group-item">
-                  <div class="panel panel-default card-complete">
-                    <div class="panel-heading card-complete-heading">
-                      <div class="card-complete-image">
-                        <img src="images/thumbnails/jagadtour-artikel-soto-sabin.jpg" width="345" height="214"
-                          alt="Jagadtour Blog Image" class="img-responsive">
-                      </div>
-                      <p class="tag tag-orange card-complete-tag">Kuliner</p>
-                    </div>
-                    <div class="panel-body card-complete-body">
-                      <div class="card-complete-caption">
-                        <h3 class="card-complete-title"><a href="blog-detail.php" class="js-listed-card-title">Soto Sabin
-                            Ketangi, Kuliner Malang yang Bikin Nagih</a></h3>
-                        <div class="row">
-                          <div class="col-xs-8">
-                            <div class="media">
-                              <div class="media-left">
-                                <a href="#">
-                                  <img class="media-object" src="images/photos/putri-sahadaya.png" width="60" height="60"
-                                    alt="Jagadtour Blog Contributor">
-                                </a>
-                              </div>
-                              <div class="media-body">
-                                <p>Nicholas Sanchez</p>
-                                <p>24 May 2018</p>
-                              </div>
-                            </div>
-                          </div>
-                          <div class="col-xs-4 media-comment">
-                            <p><span class="jgicon icon-comment"></span> 150</p>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
+                @endforeach
               </div>
             </div>
           </section>

@@ -1,3 +1,11 @@
+<?php
+  $client = new GuzzleHttp\Client();
+  $response = $client->request('GET', '45.32.105.117:7094/api/footer/get4blog');
+  $statusCode = $response->getStatusCode();
+  $body = json_decode($response->getBody()->getContents());
+  $data = $body->data;
+?>
+
 <!-- Footer -->
 <footer class="footer js-footer">
     <div class="footer-photo">
@@ -31,46 +39,18 @@
           </div>
           <div class="col-xs-6 col-sm-6 col-md-4 footer-menu-article full-width">
             <h4>Artikel Terbaru</h4>
+            @foreach ($data as $data)
             <div class="media article-media">
-              <div class="media-left article-media-photo">
-                <a href="blog-detail.php">
-                  <img class="media-object" src="images/thumbnails/jagadtour-ig-2.jpg" width="490" height="490" alt="Jagadtour Artikel">
-                </a>
-              </div>
-              <div class="media-body">
-                <p><a href="blog-detail.php">Tips mendaki dan berkeliling gunung bromo</a></p>
-              </div>
-            </div>
-            <div class="media article-media">
-              <div class="media-left article-media-photo">
-                <a href="blog-detail.php">
-                  <img class="media-object" src="images/thumbnails/jagadtour-ig-1.jpg" width="452" height="490" alt="Jagadtour Artikel">
-                </a>
-              </div>
-              <div class="media-body">
-                <p><a href="blog-detail.php">Biaya dan itenerary pantai balekambang malang</a></p>
-              </div>
-            </div>
-            <div class="media article-media">
-              <div class="media-left article-media-photo">
-                <a href="blog-detail.php">
-                  <img class="media-object" src="images/thumbnails/jagadtour-ig-1.jpg" width="452" height="490" alt="Jagadtour Artikel">
-                </a>
-              </div>
-              <div class="media-body">
-                <p><a href="blog-detail.php">Biaya dan itenerary pantai balekambang malang</a></p>
-              </div>
-            </div>
-            <div class="media article-media">
-              <div class="media-left article-media-photo">
-                <a href="#">
-                  <img class="media-object" src="images/thumbnails/jagadtour-ig-6.jpg" width="478" height="490" alt="Jagadtour Artikel">
-                </a>
-              </div>
-              <div class="media-body">
-                <p><a href="blog-detail.php">Kuliner jadul nan nikmat di sekitar kota malang</a></p>
-              </div>
-            </div>
+                <div class="media-left article-media-photo">
+                  <a href={{url('/blog-detail'.'/'.$data->id)}}>
+                    <img class="media-object" src={{$data->url.$data->directory.$data->gambar_blog}} style="height: 100%; width:100%;" alt="Jagadtour Artikel">
+                  </a>
+                </div>
+                <div class="media-body">
+                <p><a href={{url('/blog-detail'.'/'.$data->id)}}>{{$data->judul}}</a></p>
+                </div>
+              </div> 
+            @endforeach
           </div>
           <div class="col-xs-6 col-sm-6 col-md-2 footer-menu-info full-width">
             <h4>Informasi</h4>

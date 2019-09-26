@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+        <title>Jagadtour | @yield('title')</title>
   <!-- Meta Tags -->
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
   <meta name="description" content="">

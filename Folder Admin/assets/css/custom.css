@@ -115,3 +115,9 @@
     
 }
 /* , .dataTables_wrapper .dataTables_paginate .paginate_button.current:hover */
+
+@media only screen and (max-width: 640px) {
+  .dataTables_wrapper .dataTables_length, .dataTables_wrapper .dataTables_filter{
+      text-align: left;
+  }
+}

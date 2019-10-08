@@ -1722,7 +1722,7 @@ p {
   line-height: normal;
   display: list-item;
   padding-bottom: 8px;
-  width: calc(100% / 3);
+  width: calc(100% / 2);
   float: left;
 }
 

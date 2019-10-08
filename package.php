@@ -25,7 +25,7 @@
   <link rel="stylesheet" type="text/css" href="vendor/datetimepicker.4.17.42/css/bootstrap-datetimepicker.min.css">
   <link rel="stylesheet" type="text/css" href="vendor/slick/slick.css">
 
-  <link rel="stylesheet" type="text/css" href="css/main.css?v=23">
+  <link rel="stylesheet" type="text/css" href="css/main.css?v=24">
 
 </head>
 
@@ -107,8 +107,8 @@
      <div class="row wrapper">
         <div class="col-md-12 col-lg-9 packdetail-left">
 
-          <h2 class="content-title title-package">Explore Malang &amp; Kota Batu</h2>
-          <h2 class="content-title subtitle-package">Corporate Trip</h2>
+          <h2 class="content-title title-package">BEAUTIFUL EAST JAVA</h2>
+          <h2 class="content-title subtitle-package">Family Private Trip</h2>
           <div class="content-packdetail-panel packdetail-destination">
             <div class="packdetail-destination-slider js-packdetail-destination-slider">
               <div class="item">
@@ -227,7 +227,7 @@
                   </div>
                   <div class="media-body">
                     <h4 class="media-heading">Durasi</h4>
-                    <p>2 hari 1 malam</p>
+                    <p>5 Days 4 Nights</p>
                   </div>
                 </div>
               </div>
@@ -266,7 +266,7 @@
                   </div>
                   <div class="media-body">
                     <h4 class="media-heading">Meeting Point</h4>
-                    <p>Malang,Surabaya</p>
+                    <p>Malang / Surabaya</p>
                   </div>
                 </div>
               </div>
@@ -277,7 +277,7 @@
           <!-- Deskripsi Singkat -->
           <div class="packdetail-contents packdetail-facility">
             <p>
-              Nikmati sensasi berkeliling di berbagai spot wisata terbaik di kota malang dan batu - paris van java bersama JagadTour. Kami akan mengajak anda mengunjungi berbagai destinasi yang meliputi : Eco Green Park, Batu Secret Zoo, Museum Angkot, Alun-Alun Batu, Air Terjun Coban Rondo, Petik Apel Agro Rakyat, Tepat Oleh - Oleh Khas Malang.
+              Di paket ini, kamu akan mengunjungi destinasi popular di Jawa timur. Ada air terjun tumpak sewu, snorkling di pulau menjangan, nikmatin magical blue fire kawah ijen, menguji adrenaline di songa rafting, menikmati segarnya air terjun madakaripura dan ditutup dengan keindahan sunrise di gunung bromo. Absolutely Beautiful, you will fall in love with east java!
             </p>
           </div>
 
@@ -285,15 +285,32 @@
           <div class="packdetail-contents packdetail-facility">
             <h2 class="content-title">Fasilitas</h2>
             <ul class="facility-list">
-                <li class="facility-item"><span class="facility-box"><div class="facility-box_inner"></div></span>Bus Wisata</li>
-                <li class="facility-item"><span class="facility-box"><div class="facility-box_inner"></div></span>Jeep</li>
-                <li class="facility-item"><span class="facility-box"><div class="facility-box_inner"></div></span>Sarapan Pagi</li>
-                <li class="facility-item"><span class="facility-box"><div class="facility-box_inner"></div></span>Hotel</li>
-                <li class="facility-item"><span class="facility-box"><div class="facility-box_inner"></div></span>Villa</li>
-                <li class="facility-item"><span class="facility-box"><div class="facility-box_inner"></div></span>Coffe Break</li>
-                <li class="facility-item"><span class="facility-box"><div class="facility-box_inner"></div></span>Full Wifi</li>
-                <li class="facility-item"><span class="facility-box"><div class="facility-box_inner"></div></span>Makan Siang</li>
-                <li class="facility-item"><span class="facility-box"><div class="facility-box_inner"></div></span>Video tour</li>
+                <li class="facility-item"><span class="facility-box"><div class="facility-box_inner"></div></span>Private Car selama Tour</li>
+                <li class="facility-item"><span class="facility-box"><div class="facility-box_inner"></div></span>Profesional Driver Jagad Tour</li>
+                <li class="facility-item"><span class="facility-box"><div class="facility-box_inner"></div></span>Gasoline, Parking fee dan Tol fee</li>
+                <li class="facility-item"><span class="facility-box"><div class="facility-box_inner"></div></span>Tour Guide Jagad Tour</li>
+                <li class="facility-item"><span class="facility-box"><div class="facility-box_inner"></div></span>Tiket ke Semua Destinasi</li>
+                <li class="facility-item"><span class="facility-box"><div class="facility-box_inner"></div></span>Akomodasi Hotel 4 malam (Twin Share)</li>
+                <li class="facility-item"><span class="facility-box"><div class="facility-box_inner"></div></span>Makan selama Tour sesuai jadwal di itinerary</li>
+                <li class="facility-item"><span class="facility-box"><div class="facility-box_inner"></div></span>Kapal ke Menjangan dan Tabuhan</li>
+                <li class="facility-item"><span class="facility-box"><div class="facility-box_inner"></div></span>Peralatan Snorkling, dokumentasi underwater</li>
+                <li class="facility-item"><span class="facility-box"><div class="facility-box_inner"></div></span>Private Jeep exploring Bromo</li>
+                <li class="facility-item"><span class="facility-box"><div class="facility-box_inner"></div></span>Snack & Air Mineral Setiap pagi</li>
+                <li class="facility-item"><span class="facility-box"><div class="facility-box_inner"></div></span>Masker di Ijen dan Bromo</li>
+                <li class="facility-item"><span class="facility-box"><div class="facility-box_inner"></div></span>Dokumentasi Foto by Guide</li>
+                <li class="facility-item"><span class="facility-box"><div class="facility-box_inner"></div></span>Asuransi Prjalanan</li>
+                <li class="facility-item"><span class="facility-box"><div class="facility-box_inner"></div></span>Lokal Guide di Tumpak Sewu, Ijen, Menjangan dan Madakaripura</li>
+            </ul>
+          </div>
+
+          <!-- Exclude -->
+          <div class="packdetail-contents packdetail-facility">
+            <h2 class="content-title">Exclude</h2>
+            <ul class="facility-list">
+                <li class="facility-item"><span class="facility-box"><div class="facility-box_inner"></div></span>Personal Expenses</li>
+                <li class="facility-item"><span class="facility-box"><div class="facility-box_inner"></div></span>Meals diluar itinerary</li>
+                <li class="facility-item"><span class="facility-box"><div class="facility-box_inner"></div></span>Bar, Loundry, Bell Boy Tips</li>
+                <li class="facility-item"><span class="facility-box"><div class="facility-box_inner"></div></span>Tipping Guide & Driver (Sukarela)</li>
             </ul>
           </div>
 
@@ -305,7 +322,7 @@
                 <div class="panel-heading panel-complete-heading panel-heading-blue" role="tab" id="heading-itinerary">
                   <h4 class="panel-title panel-complete-title">
                     <a role="button" data-toggle="collapse" data-parent="#js-package" href="#js-package-itinerary-1" aria-expanded="true" aria-controls="js-package-itinerary">
-                      Hari ke 1: Taman Rekreasi Selecta
+                      Day 1 : Meetpoint - Tumpak Sewu - Hotel di Lereng Ijen (BLD)
                       <i class="glyphicon glyphicon-menu-down"></i>
                     </a>
                   </h4>
@@ -319,11 +336,10 @@
                         </a>
                       </div>
                       <div class="media-body">
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard
-                          dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen
-                          book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially
-                          unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more
-                          recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                        <p>Welcome to East Jawa! 
+                            Tim kami akan menjemput kamu pukul 08.00 di Malang, makan pagi sego buk khas malang lalu ke tumpak sewu sekitar 2 jam perjalan. Tiba di Tumpak sewu akan ditemani lokal guide kami untuk mengexplore semua sisi terbaik di air terjun tumpak sewu. Setelah mengeksplore air terjun, dilanjutkan perjalanan  ke lereng kawah ijen sekitar 5 jam. Cek in di hotel, dinner dan beristirahat untuk trekking dini hari.
+                            Hotel : Grand Harvest Licin Banyuwangi
+                        </p>
                       </div>
                     </div>
                   </div>
@@ -333,7 +349,7 @@
                 <div class="panel-heading panel-complete-heading panel-heading-blue" role="tab" id="heading-itinerary">
                   <h4 class="panel-title panel-complete-title">
                     <a role="button" data-toggle="collapse" data-parent="#js-package" href="#js-package-itinerary-2" aria-expanded="true" aria-controls="js-package-itinerary" class="collapsed">
-                      Hari ke 2: Jatim Park 1
+                      Day 2 : Ijen blue fire - Hotel - Baluran - Hotel di Banyuwangi (BLD)
                       <i class="glyphicon glyphicon-menu-down"></i>
                     </a>
                   </h4>
@@ -347,13 +363,9 @@
                         </a>
                       </div>
                       <div class="media-body">
-                        <p>ontrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature
-                          from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia,
-                          looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of
-                          the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33
-                          of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise
-                          on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit
-                          amet..", comes from a line in section 1.10.32.</p>
+                        <p>Morning call pukul 00.30 untuk persiapan menuju Kawah Ijen. 01.00 Berangkat ke Lereng Ijen kemudian Start trekking ditemani lokal guide ijen andalan kami. Trekking selama 1 jam untuk melihat blue fire, lalu menikmati sunrise gunung ijen dan panorama kaldera ijen, It will be amazing! Kembali ke hotel makan pagi, dan istirahat sejenak. Cek out dan siang hari makan di warung mbok wah kuliner khas banyuwangi. Cek in hotel lalu explore Taman Nasional Baluran sampai sunset tiba. Dinner ikan bakar pinggir pantai, kembali ke hotel dan istirahat.
+                            Hotel : Ketapang Indah 
+                          </p>
                       </div>
                     </div>
                   </div>
@@ -363,7 +375,7 @@
                 <div class="panel-heading panel-complete-heading panel-heading-blue" role="tab" id="heading-itinerary">
                   <h4 class="panel-title panel-complete-title">
                     <a role="button" data-toggle="collapse" data-parent="#js-package" href="#js-package-itinerary-3" aria-expanded="true" aria-controls="js-package-itinerary" class="collapsed">
-                      Hari ke 3: Museum Angkut
+                      Day 3 : Snorkling Menjangan - Tabuhan - Hotel di Probolinggo (BLD)
                       <i class="glyphicon glyphicon-menu-down"></i>
                     </a>
                   </h4>
@@ -377,12 +389,62 @@
                         </a>
                       </div>
                       <div class="media-body">
-                        <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its
-                          layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using
-                          'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors
-                          now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in
-                          their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour
-                          and the like).</p>
+                        <p>Setelah makan pagi di hotel, cek out kemudian menuju ke menjangan start 07.30. Explore indahnya Pulau menjangan di semua titik snorkling. Kemudian dilanjutkan ke Pulau Tabuhan untuk makan siang bakar ikan dan seafood. Kembali ke daratan sekitar pukul 14.00, bersih diri lalu ke Probolinggo. Cek in hotel di probolinggo, dinner dan istirahat untuk aktifitas rafting besok hari.
+                          Hotel : Bromo Park Hotel
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="panel panel-default panel-complete content-packdetail-panel packdetail-itinerary">
+                <div class="panel-heading panel-complete-heading panel-heading-blue" role="tab" id="heading-itinerary">
+                  <h4 class="panel-title panel-complete-title">
+                    <a role="button" data-toggle="collapse" data-parent="#js-package" href="#js-package-itinerary-4" aria-expanded="true" aria-controls="js-package-itinerary" class="collapsed">
+                      Day 4 : Rafting Songa Atas - Air Terjun Madakaripura - Hotel lereng Bromo (BLD)
+                      <i class="glyphicon glyphicon-menu-down"></i>
+                    </a>
+                  </h4>
+                </div>
+                <div id="js-package-itinerary-4" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading-itinerary">
+                  <div class="panel-body panel-complete-content packdetail-itinerary-detail">
+                    <div class="media">
+                      <div class="media-left">
+                        <a href="#">
+                          <img class="media-object" width="490" height="490" src="images/sliders/jagadtour-museum-angkut-malang.jpg" alt="Jagadtour Itinerary Image">
+                        </a>
+                      </div>
+                      <div class="media-body">
+                        <p>Yeeeayy, saatnya Rafting di Sungai Pekalen Songa! Setelah makan pagi di hotel, dilanjut ke songa untuk memacu adrenaline mengarungi arung jeram sejauh 15 km. Setelah usai dilanjutkan makan siang, lalu ke air terjun madakaripura dengan dipandu lokal guide kami di madakaripura. 
+                            Setelah usai, selanjutnya menuju ke lereng bromo sekitar 3.5 jam perjalanan.Tiba di lereng bromo, cek in hotel dan santai menikmati indahnya sunset gunung bromo. Dinner di resto hotel kemudian istirahat untuk tour sunrise bromo esok hari.
+                            Hotel : Lava View Bromo
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="panel panel-default panel-complete content-packdetail-panel packdetail-itinerary">
+                <div class="panel-heading panel-complete-heading panel-heading-blue" role="tab" id="heading-itinerary">
+                  <h4 class="panel-title panel-complete-title">
+                    <a role="button" data-toggle="collapse" data-parent="#js-package" href="#js-package-itinerary-5" aria-expanded="true" aria-controls="js-package-itinerary" class="collapsed">
+                      Day  5 : Sunrise Bromo – All Spots Bromo - Surabaya (BL)
+                      <i class="glyphicon glyphicon-menu-down"></i>
+                    </a>
+                  </h4>
+                </div>
+                <div id="js-package-itinerary-5" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading-itinerary">
+                  <div class="panel-body panel-complete-content packdetail-itinerary-detail">
+                    <div class="media">
+                      <div class="media-left">
+                        <a href="#">
+                          <img class="media-object" width="490" height="490" src="images/sliders/jagadtour-museum-angkut-malang.jpg" alt="Jagadtour Itinerary Image">
+                        </a>
+                      </div>
+                      <div class="media-body">
+                        <p>Pagi hari pukul 02.30 peserta dibangunkan untuk mengejar sunrise terbaik di gunung bromo. Dengan menggunakan jeep 4x4 menuju ke spot sunrise ditemani guide kami. Lanjut ke lautan pasir, blok widodaren, kawah bromo, pasir berbisik, savana dan bukit teletubies.  Setelah semua spot dikunjungi, kembali ke hotel, makan pagi dan berkemas untuk menuju surabaya. Sebelum balik ke surabaya, makan siang dulu di rawon setan andalan surabaya. lalu kami antar ke Bandara dan selamat jalan.
+                           Thank you
+                        </p>
                       </div>
                     </div>
                   </div>
@@ -471,6 +533,11 @@
                         <div class="col-md-12">
                           <input type="text" class="form-control" id="datetimepicker4" placeholder="Tanggal" name="date" value="">
                         </div>
+                          <input type="hidden" name="paket" value="Beautiful East Java">
+                          <input type="hidden" name="gambar" value="images/sliders/jagadtour-wisata-bromo-6.jpg">
+                          <input type="hidden" name="tipe" value="Family Private Trip">
+                          <input type="hidden" name="durasi" value="5 Days 4 Nights">
+
                       </div>
                     </div>
 
@@ -882,10 +949,10 @@
           $(".footer-copyright").css('padding-bottom', '80px');
         }
       });
-//      $('.js-packdetail-price').scrollToFixed({
-// bottom: 0,
-// limit: $('.js-package-separator').offset().top
-// });
+    //      $('.js-packdetail-price').scrollToFixed({
+    // bottom: 0,
+    // limit: $('.js-package-separator').offset().top
+    // });
     });
 
   </script>

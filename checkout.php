@@ -174,15 +174,283 @@
         </div>
         <div class="col-md-4">
           <h2 class="content-title">Paket Anda</h2>
+          
+          <?php
+            $harga_2 = 5330000;
+            $harga_3 = 4330000;
+            $harga_4 = 3880000;
+            $harga_5 = 3620000;
+            $harga_6 = 3440000;
+            $harga_7 = 3420000;
+            $harga_8 = 3410000;
+            $harga_9 = 3400000;
+            $harga_10 = 3390000;
+            $harga_11 = 3380000;
+            $harga_12 = 3370000;
+            $harga_13 = 3360000;
+            $harga_14 = 3350000;
+            $harga_15 = 3340000;
+            $harga_16 = 3330000;
+            $harga_17 = 3320000;
+            $harga_18 = 3310000;
+            $harga_19 = 3300000;
+            
+            $percent_kid = 75/100;
+            $percent_pajak = 10/100;
+
+            $harga_old;
+            $harga_kid;
+            $harga_total;
+            $harga_total_pajak;
+
+            $old = $_REQUEST['old'];
+            $kid = $_REQUEST['kid'];
+            $paket = $_REQUEST['paket'];
+            $gambar = $_REQUEST['gambar'];
+            $tipe = $_REQUEST['tipe'];
+            $durasi = $_REQUEST['durasi'];
+            $date = $_REQUEST['date'];
+
+            if ($kid == null) {
+              $kid = 0;
+            }
+
+            if ($old <= 2 ) {
+              $harga_old = $harga_2 * $old;
+              if($kid == 0){
+                  $harga_kid = 0;
+                  $harga_total = $harga_old + $harga_kid;
+                  $harga_total_pajak = ($harga_total * $percent_pajak) + $harga_total ;
+                }else{
+                  $harga_kid = ($harga_2 * $percent_kid) * $kid;
+                  $harga_total = $harga_old + $harga_kid;
+                  $harga_total_pajak = ($harga_total * $percent_pajak) + $harga_total ;
+                }
+            }
+            else if($old <= 3){
+              $harga_old = $harga_3 * $old;
+              if($kid == 0){
+                  $harga_kid = 0;
+                  $harga_total = $harga_old + $harga_kid;
+                  $harga_total_pajak = ($harga_total * $percent_pajak) + $harga_total ;
+                }else{
+                  $harga_kid = ($harga_3 * $percent_kid) * $kid;
+                  $harga_total = $harga_old + $harga_kid;
+                  $harga_total_pajak = ($harga_total * $percent_pajak) + $harga_total ;
+                }
+            }
+            else if($old <= 4){
+              $harga_old = $harga_4 * $old;
+              if($kid == 0){
+                  $harga_kid = 0;
+                  $harga_total = $harga_old + $harga_kid;
+                  $harga_total_pajak = ($harga_total * $percent_pajak) + $harga_total ;
+                }else{
+                  $harga_kid = ($harga_4 * $percent_kid) * $kid;
+                  $harga_total = $harga_old + $harga_kid;
+                  $harga_total_pajak = ($harga_total * $percent_pajak) + $harga_total ;
+                }
+            }
+            else if($old <= 5){
+              $harga_old = $harga_5 * $old;
+              if($kid == 0){
+                  $harga_kid = 0;
+                  $harga_total = $harga_old + $harga_kid;
+                  $harga_total_pajak = ($harga_total * $percent_pajak) + $harga_total ;
+                }else{
+                  $harga_kid = ($harga_5 * $percent_kid) * $kid;
+                  $harga_total = $harga_old + $harga_kid;
+                  $harga_total_pajak = ($harga_total * $percent_pajak) + $harga_total ;
+                }
+            }
+            else if($old <= 6){
+              $harga_old = $harga_6 * $old;
+              if($kid == 0){
+                  $harga_kid = 0;
+                  $harga_total = $harga_old + $harga_kid;
+                  $harga_total_pajak = ($harga_total * $percent_pajak) + $harga_total ;
+                }else{
+                  $harga_kid = ($harga_6 * $percent_kid) * $kid;
+                  $harga_total = $harga_old + $harga_kid;
+                  $harga_total_pajak = ($harga_total * $percent_pajak) + $harga_total ;
+                }
+            }
+            else if($old <= 7){
+              $harga_old = $harga_7 * $old;
+              if($kid == 0){
+                  $harga_kid = 0;
+                  $harga_total = $harga_old + $harga_kid;
+                  $harga_total_pajak = ($harga_total * $percent_pajak) + $harga_total ;
+                }else{
+                  $harga_kid = ($harga_7 * $percent_kid) * $kid;
+                  $harga_total = $harga_old + $harga_kid;
+                  $harga_total_pajak = ($harga_total * $percent_pajak) + $harga_total ;
+                }
+            }
+            else if($old <= 8){
+              $harga_old = $harga_8 * $old;
+              if($kid == 0){
+                  $harga_kid = 0;
+                  $harga_total = $harga_old + $harga_kid;
+                  $harga_total_pajak = ($harga_total * $percent_pajak) + $harga_total ;
+                }else{
+                  $harga_kid = ($harga_8 * $percent_kid) * $kid;
+                  $harga_total = $harga_old + $harga_kid;
+                  $harga_total_pajak = ($harga_total * $percent_pajak) + $harga_total ;
+                }
+            }
+            else if($old <= 9){
+              $harga_old = $harga_9 * $old;
+              if($kid == 0){
+                  $harga_kid = 0;
+                  $harga_total = $harga_old + $harga_kid;
+                  $harga_total_pajak = ($harga_total * $percent_pajak) + $harga_total ;
+                }else{
+                  $harga_kid = ($harga_9 * $percent_kid) * $kid;
+                  $harga_total = $harga_old + $harga_kid;
+                  $harga_total_pajak = ($harga_total * $percent_pajak) + $harga_total ;
+                }
+            }
+            else if($old <= 10){
+              $harga_old = $harga_10 * $old;
+              if($kid == 0){
+                  $harga_kid = 0;
+                  $harga_total = $harga_old + $harga_kid;
+                  $harga_total_pajak = ($harga_total * $percent_pajak) + $harga_total ;
+                }else{
+                  $harga_kid = ($harga_10 * $percent_kid) * $kid;
+                  $harga_total = $harga_old + $harga_kid;
+                  $harga_total_pajak = ($harga_total * $percent_pajak) + $harga_total ;
+                }
+            }
+            else if($old <= 11){
+              $harga_old = $harga_11 * $old;
+              if($kid == 0){
+                  $harga_kid = 0;
+                  $harga_total = $harga_old + $harga_kid;
+                  $harga_total_pajak = ($harga_total * $percent_pajak) + $harga_total ;
+                }else{
+                  $harga_kid = ($harga_11 * $percent_kid) * $kid;
+                  $harga_total = $harga_old + $harga_kid;
+                  $harga_total_pajak = ($harga_total * $percent_pajak) + $harga_total ;
+                }
+            }
+            else if($old <= 12){
+              $harga_old = $harga_12 * $old;
+              if($kid == 0){
+                  $harga_kid = 0;
+                  $harga_total = $harga_old + $harga_kid;
+                  $harga_total_pajak = ($harga_total * $percent_pajak) + $harga_total ;
+                }else{
+                  $harga_kid = ($harga_12 * $percent_kid) * $kid;
+                  $harga_total = $harga_old + $harga_kid;
+                  $harga_total_pajak = ($harga_total * $percent_pajak) + $harga_total ;
+                }
+            }
+            else if($old <= 13){
+              $harga_old = $harga_13 * $old;
+              if($kid == 0){
+                  $harga_kid = 0;
+                  $harga_total = $harga_old + $harga_kid;
+                  $harga_total_pajak = ($harga_total * $percent_pajak) + $harga_total ;
+                }else{
+                  $harga_kid = ($harga_13 * $percent_kid) * $kid;
+                  $harga_total = $harga_old + $harga_kid;
+                  $harga_total_pajak = ($harga_total * $percent_pajak) + $harga_total ;
+                }
+            }
+            else if($old <= 14){
+              $harga_old = $harga_14 * $old;
+              if($kid == 0){
+                  $harga_kid = 0;
+                  $harga_total = $harga_old + $harga_kid;
+                  $harga_total_pajak = ($harga_total * $percent_pajak) + $harga_total ;
+                }else{
+                  $harga_kid = ($harga_14 * $percent_kid) * $kid;
+                  $harga_total = $harga_old + $harga_kid;
+                  $harga_total_pajak = ($harga_total * $percent_pajak) + $harga_total ;
+                }
+            }
+            else if($old <= 15){
+              $harga_old = $harga_15 * $old;
+              if($kid == 0){
+                  $harga_kid = 0;
+                  $harga_total = $harga_old + $harga_kid;
+                  $harga_total_pajak = ($harga_total * $percent_pajak) + $harga_total ;
+                }else{
+                  $harga_kid = ($harga_15 * $percent_kid) * $kid;
+                  $harga_total = $harga_old + $harga_kid;
+                  $harga_total_pajak = ($harga_total * $percent_pajak) + $harga_total ;
+                }
+            }
+            else if($old <= 16){
+              $harga_old = $harga_16 * $old;
+              if($kid == 0){
+                  $harga_kid = 0;
+                  $harga_total = $harga_old + $harga_kid;
+                  $harga_total_pajak = ($harga_total * $percent_pajak) + $harga_total ;
+                }else{
+                  $harga_kid = ($harga_16 * $percent_kid) * $kid;
+                  $harga_total = $harga_old + $harga_kid;
+                  $harga_total_pajak = ($harga_total * $percent_pajak) + $harga_total ;
+                }
+            }
+            else if($old <= 17){
+              $harga_old = $harga_17 * $old;
+              if($kid == 0){
+                  $harga_kid = 0;
+                  $harga_total = $harga_old + $harga_kid;
+                  $harga_total_pajak = ($harga_total * $percent_pajak) + $harga_total ;
+                }else{
+                  $harga_kid = ($harga_17 * $percent_kid) * $kid;
+                  $harga_total = $harga_old + $harga_kid;
+                  $harga_total_pajak = ($harga_total * $percent_pajak) + $harga_total ;
+                }
+            }
+            else if($old <= 18){
+              $harga_old = $harga_18 * $old;
+              if($kid == 0){
+                  $harga_kid = 0;
+                  $harga_total = $harga_old + $harga_kid;
+                  $harga_total_pajak = ($harga_total * $percent_pajak) + $harga_total ;
+                }else{
+                  $harga_kid = ($harga_18 * $percent_kid) * $kid;
+                  $harga_total = $harga_old + $harga_kid;
+                  $harga_total_pajak = ($harga_total * $percent_pajak) + $harga_total ;
+                }
+            }
+            else if($old >= 19){
+              $harga_old = $harga_19 * $old;
+              if($kid == 0){
+                  $harga_kid = 0;
+                  $harga_total = $harga_old + $harga_kid;
+                  $harga_total_pajak = ($harga_total * $percent_pajak) + $harga_total ;
+                }else{
+                  $harga_kid = ($harga_19 * $percent_kid) * $kid;
+                  $harga_total = $harga_old + $harga_kid;
+                  $harga_total_pajak = ($harga_total * $percent_pajak) + $harga_total ;
+                }
+            }
+            else{
+              $harga_old = 'Apakah inputan sudah benar?';
+              $harga_kid = "Apakah inputan sudah benar?";
+            }
+
+            function rupiah($angka){
+	
+              $hasil_rupiah = "Rp " . number_format($angka,2,',','.');
+              return $hasil_rupiah;
+            
+            }
+          ?>
 			<div class="panel panel-default">
 				<div class="panel-body">
 					<div class="row">
 						<div class="col-xs-6 col-md-7 mry-05">
-							<p class="title"><strong>New York: Museum of Modern Art</strong></p>
-							<p class="text-muted">Bromo, Lumajang</p>
+							<p class="title"><strong><?php echo $paket ?></strong></p>
 						</div>
 						<div class="col-xs-6 col-md-5">
-							<img src="images/thumbnails/jagadtour-bromo-sunrise.jpg" class="img-rounded img-responsive" alt="">
+							<img src="<?php echo $gambar ?>" class="img-rounded img-responsive" alt="">
 						</div>
 					</div>
 					<hr>
@@ -191,7 +459,7 @@
 							<span>Tipe Tour</span>
 						</div>
 						<div class="col-xs-6">
-							<span>Daily Tour</span>
+							<span><?php echo $tipe ?></span>
 						</div>
 					</div>
 					<div class="row mry-05">
@@ -199,7 +467,7 @@
 							<span>Tanggal</span>
 						</div>
 						<div class="col-xs-6">
-							<span>8 Agustus 2019</span>
+							<span><?php echo $date ?></span>
 						</div>
 					</div>
 					<div class="row mry-05">
@@ -207,16 +475,16 @@
 							<span>Durasi</span>
 						</div>
 						<div class="col-xs-6">
-							<span>Full day</span>
+							<span><?php echo $durasi ?></span>
 						</div>
 					</div>
-					<div style="background: #f7f7f7; padding: 20px; margin-top: 20px;">
+          <div style="background: #f7f7f7; padding: 20px; margin-top: 20px;">
 						<div class="row mry-05">
 							<div class="col-xs-5">
 								<span>Total Dewasa</span>
 							</div>
 							<div class="col-xs-6">
-								<span>2</span>
+                <span><?php echo $old ?></span>
 							</div>
 						</div>
 						<div class="row mry-05">
@@ -224,17 +492,17 @@
 								<span>Total Anak-Anak</span>
 							</div>
 							<div class="col-xs-6">
-								<span>2</span>
+								<span><?php echo $kid ?></span>
 							</div>
 						</div>
 					</div>
-					<hr>
+          <hr>
 					<div class="row mry-05">
 						<div class="col-xs-5">
 							<span>Harga Dewasa</span>
 						</div>
 						<div class="col-xs-7 text-right">
-							<span>Rp. 120.000</span>
+							<span><?php echo rupiah($harga_old) ?></span>
 						</div>
 					</div>
 					<div class="row mry-05">
@@ -242,7 +510,7 @@
 							<span>Harga anak-anak</span>
 						</div>
 						<div class="col-xs-7 text-right">
-							<span>Rp 30.000</span>
+							<span><?php echo rupiah($harga_kid) ?></span>
 						</div>
 					</div>
 					<div class="row mry-05">
@@ -250,7 +518,7 @@
 							<span>Harga Bayi</span>
 						</div>
 						<div class="col-xs-7 text-right">
-							<span>Rp 20000</span>
+							<span>Gratis</span>
 						</div>
 					</div>
 					<div class="row mry-05">
@@ -258,7 +526,7 @@
 							<span>Sub Total</span>
 						</div>
 						<div class="col-xs-7 text-right">
-							<span>Rp. 400.000</span>
+							<span><?php echo rupiah($harga_total) ?></span>
 						</div>
 					</div>
 					<div class="row mry-05">
@@ -274,7 +542,7 @@
 							<h4>Total </h4>
 						</div>
 						<div class="col-xs-7 text-right">
-							<h4>Rp.440.000</h4>
+							<h4><?php echo rupiah($harga_total_pajak) ?></h4>
 						</div>
 					</div>
 				</div>

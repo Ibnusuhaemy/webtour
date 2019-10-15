@@ -1192,41 +1192,29 @@
         // autoplay: true
       });
       $('.js-packdetail-destination-thumbnail').slick({
-        slidesToShow: 5,
+        slidesToShow: 4,
         slidesToScroll: 1,
         asNavFor: '.js-packdetail-destination-slider',
         focusOnSelect: true,
         centerMode: true,
-        centerPadding: '60px',
+        centerPadding: '100px',
         prevArrow: '<i class="thumbnail-icon thumbnail-icon-left jgicon icon-chevron-left"></i>',
         nextArrow: '<i class="thumbnail-icon thumbnail-icon-right jgicon icon-arrow-right"></i>',
         responsive: [
           {
             breakpoint: 1024,
             settings: {
-              slisesToShow: 3,
+              slidesToShow: 3,
               slidesToScroll: 1
             }
           },
           {
-            breakpoint: 768,
-            settings: {
-              slidesToShow: 2,
-              slidesToScroll: 1
-            }
-          },
-          {
-            breakpoint: 575,
+            breakpoint:768,
             settings: {
               focusOnSelect: false,
-              centerMode: false
-            }
-          },
-          {
-            breakpoint: 479,
-            settings: {
-              slidesToShow: 1,
-              slidesToScroll: 1
+              centerMode: false,              
+              slidesToShow: 2,
+              slidesToScroll: 2
             }
           }
         ]

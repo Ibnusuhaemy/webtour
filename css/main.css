@@ -1526,10 +1526,13 @@ p {
 .jumbotron-title{
   position: absolute;
   z-index: 3;
+  font-family: "DINNextLTPro-Medium", Fallback, sans-serif;
+  color: #fff;
+  text-transform: uppercase;
 }
 
 .title-jumbotron{
-  top: 50%;
+  top: 60%;
   left: 5%;
   color: #fff;
   font-size: 32px;
@@ -1537,7 +1540,7 @@ p {
 }
 
 .subtitle-jumbotron{
-  top: 45%;
+  top: 55%;
   left: 5%;
   font-size: 20px;
 }
@@ -1659,7 +1662,7 @@ p {
 }
 
 .packdetail-destination-slider .destination-slider-image {
-  margin-bottom: 16px;
+  margin-bottom: 5px;
   overflow: hidden;
   max-height: 600px;
 }
@@ -1694,17 +1697,23 @@ p {
 }
 
 .thumbnail-icon-left{
-    transform: translate(50%, -50%);
+    transform: translate(50%, -70%);
     left: 0;
 }
 
 .thumbnail-icon-right{
     right: 0;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, -70%);
 }
 
 .item.slick-slide.slick-current.slick-active.slick-center .destination-slider-image{
-  transform: scale(1.1);
+  padding: 5px;
+  margin: -7px 0;
+  overflow: unset;
+}
+
+.item.slick-slide.slick-current.slick-active.slick-center .destination-slider-image img{
+  box-shadow: 0 5px 10px rgba(0,0,0, .225);
 }
 
 .slick-track{
@@ -3292,6 +3301,15 @@ p {
     margin-top: 0;
   }
 
+  /* - jumbotron - */
+  .title-jumbotron {
+    top: 66%;
+  }
+
+  .subtitle-jumbotron {
+    top: 61%;
+  }
+
   /* - price - */
   .packdetail-right {
     position: relative;
@@ -3564,6 +3582,16 @@ p {
     padding: 10px;
   }
 
+  /* - Jumbotron - */
+  .title-jumbotron{
+    font-size: 26px;  
+    top: 55%;
+  }
+
+  .subtitle-jumbotron{
+    font-size: 16px;
+    top: 50%;
+  }
 
   /* --- ## Blog ## --- */
   /* - Card List - */
@@ -3918,6 +3946,14 @@ p {
   }
 
   /* --- ## Package ## --- */
+  .title-jumbotron{
+    top: 55%;
+  }
+
+  .subtitle-jumbotron{
+    top: 48%;
+  }
+
   .hero-package .hero-slider {
     height: 240px;
   }
@@ -3959,7 +3995,7 @@ p {
   }
 
   .thumbnail-icon{
-    top: 55%;
+    top: 50%;
   }
 
   .panel-complete-heading .panel-complete-title{
@@ -4415,6 +4451,14 @@ p {
     padding-left: 15px;
   }
 
+  /* - Jumbotron - */
+  .title-jumbotron {
+    top: 52%;
+  }
+  .subtitle-jumbotron {
+    top: 45%;
+  }
+
   /* - Content - */
   /*
   .content-packdetail .packdetail-left {
@@ -4765,6 +4809,17 @@ p {
   }
 
   /* --- ## Package ## --- */
+  .title-jumbotron{
+    top: 52%;
+    left: 8%;
+    font-size: 20px;
+  }
+
+  .subtitle-jumbotron{
+    top: 42%;
+    left: 8%;
+  }
+
   .packdetail-destination-slider .owl-nav [class*='owl-'],
   .packdetail-destination-slider .owl-nav button.owl-next,
   .packdetail-destination-slider .owl-nav button.owl-prev {
@@ -4800,6 +4855,6 @@ p {
 
 @media screen and (max-width:320px){
   .thumbnail-icon{
-    top: 60%;
+    top: 50%;
   }
 }

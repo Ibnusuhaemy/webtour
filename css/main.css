@@ -217,6 +217,11 @@ p {
 
 /* - Forms - */
 /* Textfield */
+
+.disabled {
+  display: none;
+}
+
 .form-control {
   font-family: "DINNextLTPro-Regular", Fallback, sans-serif;
   border-color: #e5e5e5;
@@ -227,12 +232,42 @@ p {
   line-height: 19px;
 }
 
+.form-input-box{
+  display: inline-block;
+  width: 60%;
+  margin: 5px 0;
+  vertical-align: baseline;
+}
+
+/* .form-input{
+} */
+
+.form-cek-harga-box{
+  width: 100%;
+  text-align: right;
+}
+
+.cek-harga{  
+  text-align: right;
+}
+
 /* Label */
 .control-label {
   font-family: "DINNextLTPro-Bold", Fallback, sans-serif;
   font-size: 16px;
   line-height: 18px;
   color: #4b4b4b;
+}
+
+.form-label-box{
+  display: inline-block;
+  width: 35%;
+  vertical-align: top;
+}
+
+.form-label{
+  display: inline;
+  margin-right: 6px;
 }
 
 /* Help Text */
@@ -838,6 +873,11 @@ p {
 .panel-complete .panel-complete-content {
   padding-left: 20px;
   padding-right: 20px;
+}
+
+.content-packdetail .packdetail-contents.panel-heading-faqs{
+  border: none;
+  padding-bottom: 0;  
 }
 
 .panel-heading-faqs .panel-title.panel-complete-title{
@@ -1476,6 +1516,39 @@ p {
   padding: 16px;
 }
 
+/* Jumbotron */
+
+.jumbotron-contents{
+  position: relative;
+  width: 100%;
+}
+
+.jumbotron-title{
+  position: absolute;
+  z-index: 3;
+  font-family: "DINNextLTPro-Medium", Fallback, sans-serif;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.title-jumbotron{
+  top: 60%;
+  left: 5%;
+  color: #fff;
+  font-size: 32px;
+  padding-left: 0;
+}
+
+.subtitle-jumbotron{
+  top: 55%;
+  left: 5%;
+  font-size: 20px;
+}
+
+.jumbotron-contents .slick-slider:last-child{
+  padding: 0 30px;
+}
+
 /* - Content - */
 .content-packdetail {
   padding-top: 50px;
@@ -1483,7 +1556,7 @@ p {
 }
 
 .content-packdetail .row.wrapper:first-child{
-  margin-bottom: 50px;
+  margin-bottom: 20px;
 }
 
 .content-packdetail .packdetail-contents {
@@ -1506,10 +1579,6 @@ p {
   padding-bottom: 0;
   margin-bottom: 0;
   border-bottom: none;
-}
-
-.content-packdetail .content-packdetail-panel.panel-left {
-   margin-top: 110px;
 }
 
 .content-packdetail .content-title {
@@ -1538,11 +1607,13 @@ p {
 
 .packdetail-info .media-heading {
   margin-bottom: 0;
-  font-size: 18px;
+  font-size: 16px;
+  display: inline;
 }
 
 .packdetail-info .media a {
   font-size: 25px;
+  vertical-align: top;
 }
 
 .packdetail-destination .panel-complete-content {
@@ -1591,10 +1662,9 @@ p {
 }
 
 .packdetail-destination-slider .destination-slider-image {
-  margin-bottom: 16px;
+  margin-bottom: 5px;
   overflow: hidden;
-  border-radius: 6px;
-  max-height: 500px;
+  max-height: 600px;
 }
 
 .packdetail-destination-slider .destination-slider-image img {
@@ -1604,10 +1674,11 @@ p {
 
 .js-packdetail-destination-thumbnail .slick-track{
   padding-bottom: 20px;
+  padding-top: 10px;
 }
 
 .js-packdetail-destination-thumbnail .destination-slider-image{
-  padding: 0 20px;
+  padding: 0 10px;
   margin-bottom: 0;
 }
 
@@ -1622,21 +1693,27 @@ p {
     border-radius: 25px;
     z-index: 1;
     color: #fff;
-    top: 55%;
+    top: 50%;
 }
 
 .thumbnail-icon-left{
-    transform: translate(-50%, -50%);
+    transform: translate(50%, -70%);
     left: 0;
 }
 
 .thumbnail-icon-right{
     right: 0;
-    transform: translate(50%, -50%);
+    transform: translate(-50%, -70%);
 }
 
 .item.slick-slide.slick-current.slick-active.slick-center .destination-slider-image{
-  transform: scale(1.1);
+  padding: 5px;
+  margin: -7px 0;
+  overflow: unset;
+}
+
+.item.slick-slide.slick-current.slick-active.slick-center .destination-slider-image img{
+  box-shadow: 0 5px 10px rgba(0,0,0, .225);
 }
 
 .slick-track{
@@ -1765,14 +1842,14 @@ p {
 /* - Price - */
 .packdetail-right {
   position: sticky;
-  top: 10vh;
+  top: 25vh;
 }
 .packdetail-right .form-group{
   margin: 0 ;
 }
 .packdetail-right .panel-body{
-  padding-top: 5px;
-  padding-bottom: 5px;
+  padding-top: 10px;
+  padding-bottom: 25px;
 }
 
 /*
@@ -3224,6 +3301,15 @@ p {
     margin-top: 0;
   }
 
+  /* - jumbotron - */
+  .title-jumbotron {
+    top: 66%;
+  }
+
+  .subtitle-jumbotron {
+    top: 61%;
+  }
+
   /* - price - */
   .packdetail-right {
     position: relative;
@@ -3496,6 +3582,16 @@ p {
     padding: 10px;
   }
 
+  /* - Jumbotron - */
+  .title-jumbotron{
+    font-size: 26px;  
+    top: 55%;
+  }
+
+  .subtitle-jumbotron{
+    font-size: 16px;
+    top: 50%;
+  }
 
   /* --- ## Blog ## --- */
   /* - Card List - */
@@ -3626,6 +3722,7 @@ p {
 
   .packdetail-destination-slider .destination-slider-image {
     max-width: none;
+    margin-bottom: 5px;
   }
 
   .packdetail-itinerary .packdetail-itinerary-detail .media-left {
@@ -3849,6 +3946,14 @@ p {
   }
 
   /* --- ## Package ## --- */
+  .title-jumbotron{
+    top: 55%;
+  }
+
+  .subtitle-jumbotron{
+    top: 48%;
+  }
+
   .hero-package .hero-slider {
     height: 240px;
   }
@@ -3890,7 +3995,7 @@ p {
   }
 
   .thumbnail-icon{
-    top: 55%;
+    top: 50%;
   }
 
   .panel-complete-heading .panel-complete-title{
@@ -3899,8 +4004,8 @@ p {
   }
 
   .content-packdetail .content-title{
-    font-size: 30px;
-    text-align: center;
+    font-size: 16px;
+    font-weight: 700;
   }
 
   .panel-complete .panel-heading-blue a{
@@ -3916,10 +4021,10 @@ p {
     padding-left: 15px;
     padding-right: 0;
   }
-
-  .packdetail-info .media-heading {
-    margin-bottom: 0;
-    font-size: 16px;
+  
+  .packdetail-facility .facility-list .facility-item{
+    width: calc(100% / 1);
+    font-size: 14px;
   }
 
   .panel-heading-faqs .panel-title.panel-complete-title a{
@@ -4044,7 +4149,7 @@ p {
   }
 
   .content .content-title {
-    font-size: 22px;
+    font-size: 16px;
   }
 
   .content .content-caption {
@@ -4346,10 +4451,14 @@ p {
     padding-left: 15px;
   }
 
-  .packdetail-facility .facility-list .facility-item{
-    width: calc(100% / 2);
-    font-size: 14px;
+  /* - Jumbotron - */
+  .title-jumbotron {
+    top: 52%;
   }
+  .subtitle-jumbotron {
+    top: 45%;
+  }
+
   /* - Content - */
   /*
   .content-packdetail .packdetail-left {
@@ -4369,10 +4478,6 @@ p {
     top: -20px;
   }
 
-  .content-packdetail .content-title {
-    text-align: center;
-  }
-
   .content-packdetail .subtitle-package{
     font-size: 25px;
   }
@@ -4388,7 +4493,7 @@ p {
 
   .packdetail-destination-slider .destination-slider-image {
     /* max-width: 180px; */
-    max-height: 155px;
+    max-height: 250px;
   }
 
   .packdetail-destination-slider .destination-slider-image img {
@@ -4704,6 +4809,17 @@ p {
   }
 
   /* --- ## Package ## --- */
+  .title-jumbotron{
+    top: 52%;
+    left: 8%;
+    font-size: 20px;
+  }
+
+  .subtitle-jumbotron{
+    top: 42%;
+    left: 8%;
+  }
+
   .packdetail-destination-slider .owl-nav [class*='owl-'],
   .packdetail-destination-slider .owl-nav button.owl-next,
   .packdetail-destination-slider .owl-nav button.owl-prev {
@@ -4739,6 +4855,6 @@ p {
 
 @media screen and (max-width:320px){
   .thumbnail-icon{
-    top: 60%;
+    top: 50%;
   }
 }

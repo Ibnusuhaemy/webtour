@@ -25,7 +25,7 @@
   <link rel="stylesheet" type="text/css" href="vendor/datetimepicker.4.17.42/css/bootstrap-datetimepicker.min.css">
   <link rel="stylesheet" type="text/css" href="vendor/slick/slick.css">
 
-  <link rel="stylesheet" type="text/css" href="css/main.css?v=25">
+  <link rel="stylesheet" type="text/css" href="css/main.css?v=26">
 
 </head>
 
@@ -103,374 +103,376 @@
 
         <!-- Jumbotron -->
           <section class="jumbotron-contents">
-            <div class="jumbotron-panel">
-                <h2 class="tag jumbotron-title title-jumbotron">BEAUTIFUL EAST JAVA</h2>
-                <h2 class="tag-orange tag card-single-tag jumbotron-title subtitle-jumbotron">Family Private Trip</h2>
-              <div class="packdetail-destination-slider js-packdetail-destination-slider">
-                <div class="item">
-                  <div class="destination-slider-image">
-                    <img src="images/sliders/detail_package_1.jpg" width="1280" height="720" alt="Paket Wisata Jagadtour">
+            <div class="container">
+              <div class="jumbotron-panel">
+                  <h2 class="tag jumbotron-title title-jumbotron">BEAUTIFUL EAST JAVA</h2>
+                  <h2 class="tag-orange tag card-single-tag jumbotron-title subtitle-jumbotron">Family Private Trip</h2>
+                <div class="packdetail-destination-slider js-packdetail-destination-slider">
+                  <div class="item">
+                    <div class="destination-slider-image">
+                      <img src="images/sliders/detail_package_1.jpg" width="1280" height="720" alt="Paket Wisata Jagadtour">
+                    </div>
+                    <!-- <div class="destination-slider-caption">
+                      <p>Bromo</p>
+                    </div> -->
                   </div>
-                  <!-- <div class="destination-slider-caption">
-                    <p>Bromo</p>
-                  </div> -->
-                </div>
-                <div class="item">
-                  <div class="destination-slider-image">
-                    <img src="images/sliders/detail_package_2.jpg" width="1280" height="720" alt="Paket Wisata Jagadtour">
+                  <div class="item">
+                    <div class="destination-slider-image">
+                      <img src="images/sliders/detail_package_2.jpg" width="1280" height="720" alt="Paket Wisata Jagadtour">
+                    </div>
+                    <!-- <div class="destination-slider-caption">
+                      <p>Bromo</p>
+                    </div> -->
                   </div>
-                  <!-- <div class="destination-slider-caption">
-                    <p>Bromo</p>
-                  </div> -->
-                </div>
-                <div class="item">
-                  <div class="destination-slider-image">
-                    <img src="images/sliders/detail_package_3.jpg" width="1280" height="720" alt="Paket Wisata Jagadtour">
+                  <div class="item">
+                    <div class="destination-slider-image">
+                      <img src="images/sliders/detail_package_3.jpg" width="1280" height="720" alt="Paket Wisata Jagadtour">
+                    </div>
+                    <!-- <div class="destination-slider-caption">
+                      <p>Bromo</p>
+                    </div> -->
                   </div>
-                  <!-- <div class="destination-slider-caption">
-                    <p>Bromo</p>
-                  </div> -->
-                </div>
-                <div class="item">
-                  <div class="destination-slider-image">
-                    <img src="images/sliders/detail_package_4.jpg" width="1280" height="720" alt="Paket Wisata Jagadtour">
+                  <div class="item">
+                    <div class="destination-slider-image">
+                      <img src="images/sliders/detail_package_4.jpg" width="1280" height="720" alt="Paket Wisata Jagadtour">
+                    </div>
+                    <!-- <div class="destination-slider-caption">
+                      <p>Bromo</p>
+                    </div> -->
                   </div>
-                  <!-- <div class="destination-slider-caption">
-                    <p>Bromo</p>
-                  </div> -->
-                </div>
-                <div class="item">
-                  <div class="destination-slider-image">
-                    <img src="images/sliders/detail_package_5.jpg" width="1280" height="720" alt="Paket Wisata Jagadtour">
+                  <div class="item">
+                    <div class="destination-slider-image">
+                      <img src="images/sliders/detail_package_5.jpg" width="1280" height="720" alt="Paket Wisata Jagadtour">
+                    </div>
+                    <!-- <div class="destination-slider-caption">
+                      <p>Bromo</p>
+                    </div> -->
                   </div>
-                  <!-- <div class="destination-slider-caption">
-                    <p>Bromo</p>
-                  </div> -->
-                </div>
-                <div class="item">
-                  <div class="destination-slider-image">
-                    <img src="images/sliders/detail_package_6.jpg" width="1280" height="720" alt="Paket Wisata Jagadtour">
+                  <div class="item">
+                    <div class="destination-slider-image">
+                      <img src="images/sliders/detail_package_6.jpg" width="1280" height="720" alt="Paket Wisata Jagadtour">
+                    </div>
+                    <!-- <div class="destination-slider-caption">
+                      <p>Pananjakan</p>
+                    </div> -->
                   </div>
-                  <!-- <div class="destination-slider-caption">
-                    <p>Pananjakan</p>
-                  </div> -->
-                </div>
-                <div class="item">
-                  <div class="destination-slider-image">
-                    <img src="images/sliders/detail_package_7.jpg" width="1280" height="720" alt="Paket Wisata Jagadtour">
+                  <div class="item">
+                    <div class="destination-slider-image">
+                      <img src="images/sliders/detail_package_7.jpg" width="1280" height="720" alt="Paket Wisata Jagadtour">
+                    </div>
+                    <!-- <div class="destination-slider-caption">
+                      <p>Malang Kota</p>
+                    </div> -->
                   </div>
-                  <!-- <div class="destination-slider-caption">
-                    <p>Malang Kota</p>
-                  </div> -->
-                </div>
-                <div class="item">
-                  <div class="destination-slider-image">
-                    <img src="images/sliders/detail_package_8.jpg" width="1280" height="720" alt="Paket Wisata Jagadtour">
+                  <div class="item">
+                    <div class="destination-slider-image">
+                      <img src="images/sliders/detail_package_8.jpg" width="1280" height="720" alt="Paket Wisata Jagadtour">
+                    </div>
+                    <!-- <div class="destination-slider-caption">
+                      <p>Malang Kota</p>
+                    </div> -->
                   </div>
-                  <!-- <div class="destination-slider-caption">
-                    <p>Malang Kota</p>
-                  </div> -->
-                </div>
-                <div class="item">
-                  <div class="destination-slider-image">
-                    <img src="images/sliders/detail_package_9.jpg" width="1280" height="720" alt="Paket Wisata Jagadtour">
+                  <div class="item">
+                    <div class="destination-slider-image">
+                      <img src="images/sliders/detail_package_9.jpg" width="1280" height="720" alt="Paket Wisata Jagadtour">
+                    </div>
+                    <!-- <div class="destination-slider-caption">
+                      <p>Malang Kota</p>
+                    </div> -->
                   </div>
-                  <!-- <div class="destination-slider-caption">
-                    <p>Malang Kota</p>
-                  </div> -->
-                </div>
-                <div class="item">
-                  <div class="destination-slider-image">
-                    <img src="images/sliders/detail_package_10.jpg" width="1280" height="720" alt="Paket Wisata Jagadtour">
+                  <div class="item">
+                    <div class="destination-slider-image">
+                      <img src="images/sliders/detail_package_10.jpg" width="1280" height="720" alt="Paket Wisata Jagadtour">
+                    </div>
+                    <!-- <div class="destination-slider-caption">
+                      <p>Malang Kota</p>
+                    </div> -->
                   </div>
-                  <!-- <div class="destination-slider-caption">
-                    <p>Malang Kota</p>
-                  </div> -->
-                </div>
-                <div class="item">
-                  <div class="destination-slider-image">
-                    <img src="images/sliders/detail_package_11.jpg" width="1280" height="720" alt="Paket Wisata Jagadtour">
+                  <div class="item">
+                    <div class="destination-slider-image">
+                      <img src="images/sliders/detail_package_11.jpg" width="1280" height="720" alt="Paket Wisata Jagadtour">
+                    </div>
+                    <!-- <div class="destination-slider-caption">
+                      <p>Malang Kota</p>
+                    </div> -->
                   </div>
-                  <!-- <div class="destination-slider-caption">
-                    <p>Malang Kota</p>
-                  </div> -->
-                </div>
-                <div class="item">
-                  <div class="destination-slider-image">
-                    <img src="images/sliders/detail_package_12.jpg" width="1280" height="720" alt="Paket Wisata Jagadtour">
+                  <div class="item">
+                    <div class="destination-slider-image">
+                      <img src="images/sliders/detail_package_12.jpg" width="1280" height="720" alt="Paket Wisata Jagadtour">
+                    </div>
+                    <!-- <div class="destination-slider-caption">
+                      <p>Malang Kota</p>
+                    </div> -->
                   </div>
-                  <!-- <div class="destination-slider-caption">
-                    <p>Malang Kota</p>
-                  </div> -->
-                </div>
-                <div class="item">
-                  <div class="destination-slider-image">
-                    <img src="images/sliders/detail_package_13.jpg" width="1280" height="720" alt="Paket Wisata Jagadtour">
+                  <div class="item">
+                    <div class="destination-slider-image">
+                      <img src="images/sliders/detail_package_13.jpg" width="1280" height="720" alt="Paket Wisata Jagadtour">
+                    </div>
+                    <!-- <div class="destination-slider-caption">
+                      <p>Malang Kota</p>
+                    </div> -->
                   </div>
-                  <!-- <div class="destination-slider-caption">
-                    <p>Malang Kota</p>
-                  </div> -->
-                </div>
-                <div class="item">
-                  <div class="destination-slider-image">
-                    <img src="images/sliders/detail_package_14.jpg" width="1280" height="720" alt="Paket Wisata Jagadtour">
+                  <div class="item">
+                    <div class="destination-slider-image">
+                      <img src="images/sliders/detail_package_14.jpg" width="1280" height="720" alt="Paket Wisata Jagadtour">
+                    </div>
+                    <!-- <div class="destination-slider-caption">
+                      <p>Malang Kota</p>
+                    </div> -->
                   </div>
-                  <!-- <div class="destination-slider-caption">
-                    <p>Malang Kota</p>
-                  </div> -->
-                </div>
-                <div class="item">
-                  <div class="destination-slider-image">
-                    <img src="images/sliders/detail_package_15.jpg" width="1280" height="720" alt="Paket Wisata Jagadtour">
+                  <div class="item">
+                    <div class="destination-slider-image">
+                      <img src="images/sliders/detail_package_15.jpg" width="1280" height="720" alt="Paket Wisata Jagadtour">
+                    </div>
+                    <!-- <div class="destination-slider-caption">
+                      <p>Malang Kota</p>
+                    </div> -->
                   </div>
-                  <!-- <div class="destination-slider-caption">
-                    <p>Malang Kota</p>
-                  </div> -->
-                </div>
-                <div class="item">
-                  <div class="destination-slider-image">
-                    <img src="images/sliders/detail_package_16.jpg" width="1280" height="720" alt="Paket Wisata Jagadtour">
+                  <div class="item">
+                    <div class="destination-slider-image">
+                      <img src="images/sliders/detail_package_16.jpg" width="1280" height="720" alt="Paket Wisata Jagadtour">
+                    </div>
+                    <!-- <div class="destination-slider-caption">
+                      <p>Malang Kota</p>
+                    </div> -->
                   </div>
-                  <!-- <div class="destination-slider-caption">
-                    <p>Malang Kota</p>
-                  </div> -->
-                </div>
-                <div class="item">
-                  <div class="destination-slider-image">
-                    <img src="images/sliders/detail_package_17.jpg" width="1280" height="720" alt="Paket Wisata Jagadtour">
+                  <div class="item">
+                    <div class="destination-slider-image">
+                      <img src="images/sliders/detail_package_17.jpg" width="1280" height="720" alt="Paket Wisata Jagadtour">
+                    </div>
+                    <!-- <div class="destination-slider-caption">
+                      <p>Malang Kota</p>
+                    </div> -->
                   </div>
-                  <!-- <div class="destination-slider-caption">
-                    <p>Malang Kota</p>
-                  </div> -->
-                </div>
-                <div class="item">
-                  <div class="destination-slider-image">
-                    <img src="images/sliders/detail_package_18.jpg" width="1280" height="720" alt="Paket Wisata Jagadtour">
+                  <div class="item">
+                    <div class="destination-slider-image">
+                      <img src="images/sliders/detail_package_18.jpg" width="1280" height="720" alt="Paket Wisata Jagadtour">
+                    </div>
+                    <!-- <div class="destination-slider-caption">
+                      <p>Malang Kota</p>
+                    </div> -->
                   </div>
-                  <!-- <div class="destination-slider-caption">
-                    <p>Malang Kota</p>
-                  </div> -->
-                </div>
-                <div class="item">
-                  <div class="destination-slider-image">
-                    <img src="images/sliders/detail_package_19.jpg" width="1280" height="720" alt="Paket Wisata Jagadtour">
+                  <div class="item">
+                    <div class="destination-slider-image">
+                      <img src="images/sliders/detail_package_19.jpg" width="1280" height="720" alt="Paket Wisata Jagadtour">
+                    </div>
+                    <!-- <div class="destination-slider-caption">
+                      <p>Malang Kota</p>
+                    </div> -->
                   </div>
-                  <!-- <div class="destination-slider-caption">
-                    <p>Malang Kota</p>
-                  </div> -->
-                </div>
-                <div class="item">
-                  <div class="destination-slider-image">
-                    <img src="images/sliders/detail_package_20.jpg" width="1280" height="720" alt="Paket Wisata Jagadtour">
+                  <div class="item">
+                    <div class="destination-slider-image">
+                      <img src="images/sliders/detail_package_20.jpg" width="1280" height="720" alt="Paket Wisata Jagadtour">
+                    </div>
+                    <!-- <div class="destination-slider-caption">
+                      <p>Malang Kota</p>
+                    </div> -->
                   </div>
-                  <!-- <div class="destination-slider-caption">
-                    <p>Malang Kota</p>
-                  </div> -->
-                </div>
-                <div class="item">
-                  <div class="destination-slider-image">
-                    <img src="images/sliders/detail_package_21.jpg" width="1280" height="720" alt="Paket Wisata Jagadtour">
+                  <div class="item">
+                    <div class="destination-slider-image">
+                      <img src="images/sliders/detail_package_21.jpg" width="1280" height="720" alt="Paket Wisata Jagadtour">
+                    </div>
+                    <!-- <div class="destination-slider-caption">
+                      <p>Malang Kota</p>
+                    </div> -->
                   </div>
-                  <!-- <div class="destination-slider-caption">
-                    <p>Malang Kota</p>
-                  </div> -->
-                </div>
-                <div class="item">
-                  <div class="destination-slider-image">
-                    <img src="images/sliders/detail_package_22.jpg" width="1280" height="720" alt="Paket Wisata Jagadtour">
+                  <div class="item">
+                    <div class="destination-slider-image">
+                      <img src="images/sliders/detail_package_22.jpg" width="1280" height="720" alt="Paket Wisata Jagadtour">
+                    </div>
+                    <!-- <div class="destination-slider-caption">
+                      <p>Malang Kota</p>
+                    </div> -->
                   </div>
-                  <!-- <div class="destination-slider-caption">
-                    <p>Malang Kota</p>
-                  </div> -->
-                </div>
-                <div class="item">
-                  <div class="destination-slider-image">
-                    <img src="images/sliders/detail_package_23.jpg" width="1280" height="720" alt="Paket Wisata Jagadtour">
+                  <div class="item">
+                    <div class="destination-slider-image">
+                      <img src="images/sliders/detail_package_23.jpg" width="1280" height="720" alt="Paket Wisata Jagadtour">
+                    </div>
+                    <!-- <div class="destination-slider-caption">
+                      <p>Malang Kota</p>
+                    </div> -->
                   </div>
-                  <!-- <div class="destination-slider-caption">
-                    <p>Malang Kota</p>
-                  </div> -->
-                </div>
-                <div class="item">
-                  <div class="destination-slider-image">
-                    <img src="images/sliders/detail_package_24.jpg" width="1280" height="720" alt="Paket Wisata Jagadtour">
+                  <div class="item">
+                    <div class="destination-slider-image">
+                      <img src="images/sliders/detail_package_24.jpg" width="1280" height="720" alt="Paket Wisata Jagadtour">
+                    </div>
+                    <!-- <div class="destination-slider-caption">
+                      <p>Malang Kota</p>
+                    </div> -->
                   </div>
-                  <!-- <div class="destination-slider-caption">
-                    <p>Malang Kota</p>
-                  </div> -->
-                </div>
-                <div class="item">
-                  <div class="destination-slider-image">
-                    <img src="images/sliders/detail_package_25.jpg" width="1280" height="720" alt="Paket Wisata Jagadtour">
+                  <div class="item">
+                    <div class="destination-slider-image">
+                      <img src="images/sliders/detail_package_25.jpg" width="1280" height="720" alt="Paket Wisata Jagadtour">
+                    </div>
+                    <!-- <div class="destination-slider-caption">
+                      <p>Malang Kota</p>
+                    </div> -->
                   </div>
-                  <!-- <div class="destination-slider-caption">
-                    <p>Malang Kota</p>
-                  </div> -->
-                </div>
-                <div class="item">
-                  <div class="destination-slider-image">
-                    <img src="images/sliders/detail_package_26.jpg" width="1280" height="720" alt="Paket Wisata Jagadtour">
+                  <div class="item">
+                    <div class="destination-slider-image">
+                      <img src="images/sliders/detail_package_26.jpg" width="1280" height="720" alt="Paket Wisata Jagadtour">
+                    </div>
+                    <!-- <div class="destination-slider-caption">
+                      <p>Malang Kota</p>
+                    </div> -->
                   </div>
-                  <!-- <div class="destination-slider-caption">
-                    <p>Malang Kota</p>
-                  </div> -->
-                </div>
-                <div class="item">
-                  <div class="destination-slider-image">
-                    <img src="images/sliders/detail_package_27.jpg" width="1280" height="720" alt="Paket Wisata Jagadtour">
+                  <div class="item">
+                    <div class="destination-slider-image">
+                      <img src="images/sliders/detail_package_27.jpg" width="1280" height="720" alt="Paket Wisata Jagadtour">
+                    </div>
+                    <!-- <div class="destination-slider-caption">
+                      <p>Malang Kota</p>
+                    </div> -->
                   </div>
-                  <!-- <div class="destination-slider-caption">
-                    <p>Malang Kota</p>
-                  </div> -->
-                </div>
-                <div class="item">
-                  <div class="destination-slider-image">
-                    <img src="images/sliders/detail_package_28.jpg" width="1280" height="720" alt="Paket Wisata Jagadtour">
-                  </div>
-                  <!-- <div class="destination-slider-caption">
-                    <p>Malang Kota</p>
-                  </div> -->
-                </div>
-              </div>
-              <div class="packdetail-destination-slider js-packdetail-destination-thumbnail">
-                <div class="item">
-                  <div class="destination-slider-image">
-                    <img src="images/sliders/detail_package_1.jpg" width="1280" height="720" alt="Paket Wisata Jagadtour">
+                  <div class="item">
+                    <div class="destination-slider-image">
+                      <img src="images/sliders/detail_package_28.jpg" width="1280" height="720" alt="Paket Wisata Jagadtour">
+                    </div>
+                    <!-- <div class="destination-slider-caption">
+                      <p>Malang Kota</p>
+                    </div> -->
                   </div>
                 </div>
-                <div class="item">
-                  <div class="destination-slider-image">
-                    <img src="images/sliders/detail_package_2.jpg" width="1280" height="720" alt="Paket Wisata Jagadtour">
+                <div class="packdetail-destination-slider js-packdetail-destination-thumbnail">
+                  <div class="item">
+                    <div class="destination-slider-image">
+                      <img src="images/sliders/detail_package_1.jpg" width="1280" height="720" alt="Paket Wisata Jagadtour">
+                    </div>
                   </div>
-                </div>
-                <div class="item">
-                  <div class="destination-slider-image">
-                    <img src="images/sliders/detail_package_3.jpg" width="1280" height="720" alt="Paket Wisata Jagadtour">
+                  <div class="item">
+                    <div class="destination-slider-image">
+                      <img src="images/sliders/detail_package_2.jpg" width="1280" height="720" alt="Paket Wisata Jagadtour">
+                    </div>
                   </div>
-                </div>
-                <div class="item">
-                  <div class="destination-slider-image">
-                    <img src="images/sliders/detail_package_4.jpg" width="1280" height="720" alt="Paket Wisata Jagadtour">
+                  <div class="item">
+                    <div class="destination-slider-image">
+                      <img src="images/sliders/detail_package_3.jpg" width="1280" height="720" alt="Paket Wisata Jagadtour">
+                    </div>
                   </div>
-                </div>
-                <div class="item">
-                  <div class="destination-slider-image">
-                    <img src="images/sliders/detail_package_5.jpg" width="1280" height="720" alt="Paket Wisata Jagadtour">
+                  <div class="item">
+                    <div class="destination-slider-image">
+                      <img src="images/sliders/detail_package_4.jpg" width="1280" height="720" alt="Paket Wisata Jagadtour">
+                    </div>
                   </div>
-                </div>
-                <div class="item">
-                  <div class="destination-slider-image">
-                    <img src="images/sliders/detail_package_6.jpg" width="1280" height="720" alt="Paket Wisata Jagadtour">
+                  <div class="item">
+                    <div class="destination-slider-image">
+                      <img src="images/sliders/detail_package_5.jpg" width="1280" height="720" alt="Paket Wisata Jagadtour">
+                    </div>
                   </div>
-                </div>
-                <div class="item">
-                  <div class="destination-slider-image">
-                    <img src="images/sliders/detail_package_7.jpg" width="1280" height="720" alt="Paket Wisata Jagadtour">
+                  <div class="item">
+                    <div class="destination-slider-image">
+                      <img src="images/sliders/detail_package_6.jpg" width="1280" height="720" alt="Paket Wisata Jagadtour">
+                    </div>
                   </div>
-                </div>
-                <div class="item">
-                  <div class="destination-slider-image">
-                    <img src="images/sliders/detail_package_8.jpg" width="1280" height="720" alt="Paket Wisata Jagadtour">
+                  <div class="item">
+                    <div class="destination-slider-image">
+                      <img src="images/sliders/detail_package_7.jpg" width="1280" height="720" alt="Paket Wisata Jagadtour">
+                    </div>
                   </div>
-                </div>
-                <div class="item">
-                  <div class="destination-slider-image">
-                    <img src="images/sliders/detail_package_9.jpg" width="1280" height="720" alt="Paket Wisata Jagadtour">
+                  <div class="item">
+                    <div class="destination-slider-image">
+                      <img src="images/sliders/detail_package_8.jpg" width="1280" height="720" alt="Paket Wisata Jagadtour">
+                    </div>
                   </div>
-                </div>
-                <div class="item">
-                  <div class="destination-slider-image">
-                    <img src="images/sliders/detail_package_10.jpg" width="1280" height="720" alt="Paket Wisata Jagadtour">
+                  <div class="item">
+                    <div class="destination-slider-image">
+                      <img src="images/sliders/detail_package_9.jpg" width="1280" height="720" alt="Paket Wisata Jagadtour">
+                    </div>
                   </div>
-                </div>
-                <div class="item">
-                  <div class="destination-slider-image">
-                    <img src="images/sliders/detail_package_11.jpg" width="1280" height="720" alt="Paket Wisata Jagadtour">
+                  <div class="item">
+                    <div class="destination-slider-image">
+                      <img src="images/sliders/detail_package_10.jpg" width="1280" height="720" alt="Paket Wisata Jagadtour">
+                    </div>
                   </div>
-                </div>
-                <div class="item">
-                  <div class="destination-slider-image">
-                    <img src="images/sliders/detail_package_12.jpg" width="1280" height="720" alt="Paket Wisata Jagadtour">
+                  <div class="item">
+                    <div class="destination-slider-image">
+                      <img src="images/sliders/detail_package_11.jpg" width="1280" height="720" alt="Paket Wisata Jagadtour">
+                    </div>
                   </div>
-                </div>
-                <div class="item">
-                  <div class="destination-slider-image">
-                    <img src="images/sliders/detail_package_13.jpg" width="1280" height="720" alt="Paket Wisata Jagadtour">
+                  <div class="item">
+                    <div class="destination-slider-image">
+                      <img src="images/sliders/detail_package_12.jpg" width="1280" height="720" alt="Paket Wisata Jagadtour">
+                    </div>
                   </div>
-                </div>
-                <div class="item">
-                  <div class="destination-slider-image">
-                    <img src="images/sliders/detail_package_14.jpg" width="1280" height="720" alt="Paket Wisata Jagadtour">
+                  <div class="item">
+                    <div class="destination-slider-image">
+                      <img src="images/sliders/detail_package_13.jpg" width="1280" height="720" alt="Paket Wisata Jagadtour">
+                    </div>
                   </div>
-                </div>
-                <div class="item">
-                  <div class="destination-slider-image">
-                    <img src="images/sliders/detail_package_15.jpg" width="1280" height="720" alt="Paket Wisata Jagadtour">
+                  <div class="item">
+                    <div class="destination-slider-image">
+                      <img src="images/sliders/detail_package_14.jpg" width="1280" height="720" alt="Paket Wisata Jagadtour">
+                    </div>
                   </div>
-                </div>
-                <div class="item">
-                  <div class="destination-slider-image">
-                    <img src="images/sliders/detail_package_16.jpg" width="1280" height="720" alt="Paket Wisata Jagadtour">
+                  <div class="item">
+                    <div class="destination-slider-image">
+                      <img src="images/sliders/detail_package_15.jpg" width="1280" height="720" alt="Paket Wisata Jagadtour">
+                    </div>
                   </div>
-                </div>
-                <div class="item">
-                  <div class="destination-slider-image">
-                    <img src="images/sliders/detail_package_17.jpg" width="1280" height="720" alt="Paket Wisata Jagadtour">
+                  <div class="item">
+                    <div class="destination-slider-image">
+                      <img src="images/sliders/detail_package_16.jpg" width="1280" height="720" alt="Paket Wisata Jagadtour">
+                    </div>
                   </div>
-                </div>
-                <div class="item">
-                  <div class="destination-slider-image">
-                    <img src="images/sliders/detail_package_18.jpg" width="1280" height="720" alt="Paket Wisata Jagadtour">
+                  <div class="item">
+                    <div class="destination-slider-image">
+                      <img src="images/sliders/detail_package_17.jpg" width="1280" height="720" alt="Paket Wisata Jagadtour">
+                    </div>
                   </div>
-                </div>
-                <div class="item">
-                  <div class="destination-slider-image">
-                    <img src="images/sliders/detail_package_19.jpg" width="1280" height="720" alt="Paket Wisata Jagadtour">
+                  <div class="item">
+                    <div class="destination-slider-image">
+                      <img src="images/sliders/detail_package_18.jpg" width="1280" height="720" alt="Paket Wisata Jagadtour">
+                    </div>
                   </div>
-                </div>
-                <div class="item">
-                  <div class="destination-slider-image">
-                    <img src="images/sliders/detail_package_20.jpg" width="1280" height="720" alt="Paket Wisata Jagadtour">
+                  <div class="item">
+                    <div class="destination-slider-image">
+                      <img src="images/sliders/detail_package_19.jpg" width="1280" height="720" alt="Paket Wisata Jagadtour">
+                    </div>
                   </div>
-                </div>
-                <div class="item">
-                  <div class="destination-slider-image">
-                    <img src="images/sliders/detail_package_21.jpg" width="1280" height="720" alt="Paket Wisata Jagadtour">
+                  <div class="item">
+                    <div class="destination-slider-image">
+                      <img src="images/sliders/detail_package_20.jpg" width="1280" height="720" alt="Paket Wisata Jagadtour">
+                    </div>
                   </div>
-                </div>
-                <div class="item">
-                  <div class="destination-slider-image">
-                    <img src="images/sliders/detail_package_22.jpg" width="1280" height="720" alt="Paket Wisata Jagadtour">
+                  <div class="item">
+                    <div class="destination-slider-image">
+                      <img src="images/sliders/detail_package_21.jpg" width="1280" height="720" alt="Paket Wisata Jagadtour">
+                    </div>
                   </div>
-                </div>
-                <div class="item">
-                  <div class="destination-slider-image">
-                    <img src="images/sliders/detail_package_23.jpg" width="1280" height="720" alt="Paket Wisata Jagadtour">
+                  <div class="item">
+                    <div class="destination-slider-image">
+                      <img src="images/sliders/detail_package_22.jpg" width="1280" height="720" alt="Paket Wisata Jagadtour">
+                    </div>
                   </div>
-                </div>
-                <div class="item">
-                  <div class="destination-slider-image">
-                    <img src="images/sliders/detail_package_24.jpg" width="1280" height="720" alt="Paket Wisata Jagadtour">
+                  <div class="item">
+                    <div class="destination-slider-image">
+                      <img src="images/sliders/detail_package_23.jpg" width="1280" height="720" alt="Paket Wisata Jagadtour">
+                    </div>
                   </div>
-                </div>
-                <div class="item">
-                  <div class="destination-slider-image">
-                    <img src="images/sliders/detail_package_25.jpg" width="1280" height="720" alt="Paket Wisata Jagadtour">
+                  <div class="item">
+                    <div class="destination-slider-image">
+                      <img src="images/sliders/detail_package_24.jpg" width="1280" height="720" alt="Paket Wisata Jagadtour">
+                    </div>
                   </div>
-                </div>
-                <div class="item">
-                  <div class="destination-slider-image">
-                    <img src="images/sliders/detail_package_26.jpg" width="1280" height="720" alt="Paket Wisata Jagadtour">
+                  <div class="item">
+                    <div class="destination-slider-image">
+                      <img src="images/sliders/detail_package_25.jpg" width="1280" height="720" alt="Paket Wisata Jagadtour">
+                    </div>
                   </div>
-                </div>
-                <div class="item">
-                  <div class="destination-slider-image">
-                    <img src="images/sliders/detail_package_27.jpg" width="1280" height="720" alt="Paket Wisata Jagadtour">
+                  <div class="item">
+                    <div class="destination-slider-image">
+                      <img src="images/sliders/detail_package_26.jpg" width="1280" height="720" alt="Paket Wisata Jagadtour">
+                    </div>
                   </div>
-                </div>
-                <div class="item">
-                  <div class="destination-slider-image">
-                    <img src="images/sliders/detail_package_28.jpg" width="1280" height="720" alt="Paket Wisata Jagadtour">
+                  <div class="item">
+                    <div class="destination-slider-image">
+                      <img src="images/sliders/detail_package_27.jpg" width="1280" height="720" alt="Paket Wisata Jagadtour">
+                    </div>
+                  </div>
+                  <div class="item">
+                    <div class="destination-slider-image">
+                      <img src="images/sliders/detail_package_28.jpg" width="1280" height="720" alt="Paket Wisata Jagadtour">
+                    </div>
                   </div>
                 </div>
               </div>
@@ -553,21 +555,142 @@
           <div class="packdetail-contents packdetail-facility">
             <h2 class="content-title">Fasilitas</h2>
             <ul class="facility-list">
-                <li class="facility-item"><span class="facility-box"><div class="facility-box_inner"></div></span>Private Car selama Tour</li>
-                <li class="facility-item"><span class="facility-box"><div class="facility-box_inner"></div></span>Profesional Driver Jagad Tour</li>
-                <li class="facility-item"><span class="facility-box"><div class="facility-box_inner"></div></span>Gasoline, Parking fee dan Tol fee</li>
-                <li class="facility-item"><span class="facility-box"><div class="facility-box_inner"></div></span>Tour Guide Jagad Tour</li>
-                <li class="facility-item"><span class="facility-box"><div class="facility-box_inner"></div></span>Tiket ke Semua Destinasi</li>
-                <li class="facility-item"><span class="facility-box"><div class="facility-box_inner"></div></span>Akomodasi Hotel 4 malam (Twin Share)</li>
-                <li class="facility-item"><span class="facility-box"><div class="facility-box_inner"></div></span>Makan selama Tour sesuai jadwal di itinerary</li>
-                <li class="facility-item"><span class="facility-box"><div class="facility-box_inner"></div></span>Kapal ke Menjangan dan Tabuhan</li>
-                <li class="facility-item"><span class="facility-box"><div class="facility-box_inner"></div></span>Peralatan Snorkling, dokumentasi underwater</li>
-                <li class="facility-item"><span class="facility-box"><div class="facility-box_inner"></div></span>Private Jeep exploring Bromo</li>
-                <li class="facility-item"><span class="facility-box"><div class="facility-box_inner"></div></span>Snack & Air Mineral Setiap pagi</li>
-                <li class="facility-item"><span class="facility-box"><div class="facility-box_inner"></div></span>Masker di Ijen dan Bromo</li>
-                <li class="facility-item"><span class="facility-box"><div class="facility-box_inner"></div></span>Dokumentasi Foto by Guide</li>
-                <li class="facility-item"><span class="facility-box"><div class="facility-box_inner"></div></span>Asuransi Prjalanan</li>
-                <li class="facility-item"><span class="facility-box"><div class="facility-box_inner"></div></span>Lokal Guide di Tumpak Sewu, Ijen, Menjangan dan Madakaripura</li>
+                <li class="facility-item">
+                  <span class="facility-box">
+                    <div class="facility-box_inner">
+                    </div>
+                  </span>
+                  <p>
+                    Private Car selama Tour
+                  </p>
+                </li>
+                <li class="facility-item">
+                  <span class="facility-box">
+                    <div class="facility-box_inner">
+                    </div>
+                  </span>
+                  <p>
+                    Profesional Driver Jagad Tour
+                  </p>
+                </li>
+                <li class="facility-item">
+                  <span class="facility-box">
+                    <div class="facility-box_inner">
+                    </div>
+                  </span>
+                  <p>
+                    Gasoline, Parking fee dan Tol fee
+                  </p>
+                </li>
+                <li class="facility-item">
+                  <span class="facility-box">
+                    <div class="facility-box_inner">
+                    </div>
+                  </span>
+                  <p>
+                    Tour Guide Jagad Tour
+                  </p>
+                </li>
+                <li class="facility-item">
+                  <span class="facility-box">
+                    <div class="facility-box_inner">
+                    </div>
+                  </span>
+                  <p>
+                    Tiket ke Semua Destinasi
+                  </p>
+                </li>
+                <li class="facility-item">
+                  <span class="facility-box">
+                    <div class="facility-box_inner">
+                    </div>
+                  </span>
+                  <p>
+                    Akomodasi Hotel 4 malam (Twin Share)
+                  </p>
+                </li>
+                <li class="facility-item">
+                  <span class="facility-box">
+                    <div class="facility-box_inner">
+                    </div>
+                  </span>
+                  <p>
+                    Makan selama Tour sesuai jadwal di itinerary
+                  </p>
+                </li>
+                <li class="facility-item">
+                  <span class="facility-box">
+                    <div class="facility-box_inner">
+                    </div>
+                  </span>
+                  <p>
+                    Kapal ke Menjangan dan Tabuhan
+                  </p>
+                </li>
+                <li class="facility-item">
+                  <span class="facility-box">
+                    <div class="facility-box_inner">
+                    </div>
+                  </span>
+                  <p>
+                    Peralatan Snorkling, dokumentasi underwater
+                  </p>
+                </li>
+                <li class="facility-item">
+                  <span class="facility-box">
+                    <div class="facility-box_inner">
+                    </div>
+                  </span>
+                  <p>
+                    Private Jeep exploring Bromo
+                  </p>
+                </li>
+                <li class="facility-item">
+                  <span class="facility-box">
+                    <div class="facility-box_inner">
+                    </div>
+                  </span>
+                  <p>
+                    Snack & Air Mineral Setiap pagi
+                  </p>
+                </li>
+                <li class="facility-item">
+                  <span class="facility-box">
+                    <div class="facility-box_inner">
+                    </div>
+                  </span>
+                  <p>
+                    Masker di Ijen dan Bromo
+                  </p>
+                </li>
+                <li class="facility-item">
+                  <span class="facility-box">
+                    <div class="facility-box_inner">
+
+                    </div>
+                  </span>
+                  <p>
+                    Dokumentasi Foto by Guide
+                  </p>
+                </li>
+                <li class="facility-item">
+                  <span class="facility-box">
+                    <div class="facility-box_inner">
+                    </div>
+                  </span>
+                  <p>
+                    Asuransi Prjalanan
+                  </p>
+                </li>
+                <li class="facility-item">
+                  <span class="facility-box">
+                    <div class="facility-box_inner">
+                    </div>
+                  </span>
+                  <p>
+                    Lokal Guide di Tumpak Sewu, Ijen, Menjangan dan Madakaripura
+                  </p>  
+                </li>
             </ul>
           </div>
 
@@ -575,10 +698,42 @@
           <div class="packdetail-contents packdetail-facility">
             <h2 class="content-title">Exclude</h2>
             <ul class="facility-list">
-                <li class="facility-item"><span class="facility-box"><div class="facility-box_inner"></div></span>Personal Expenses</li>
-                <li class="facility-item"><span class="facility-box"><div class="facility-box_inner"></div></span>Meals diluar itinerary</li>
-                <li class="facility-item"><span class="facility-box"><div class="facility-box_inner"></div></span>Bar, Loundry, Bell Boy Tips</li>
-                <li class="facility-item"><span class="facility-box"><div class="facility-box_inner"></div></span>Tipping Guide & Driver (Sukarela)</li>
+                <li class="facility-item">
+                  <span class="facility-box">
+                  <div class="facility-box_inner">
+                </div>
+              </span>
+                <p>
+                  Personal Expenses
+                </p>
+              </li>
+                <li class="facility-item">
+                  <span class="facility-box">
+                  <div class="facility-box_inner">
+                </div>
+              </span>
+                <p>
+                  Meals diluar itinerary
+                </p>
+              </li>
+                <li class="facility-item">
+                  <span class="facility-box">
+                  <div class="facility-box_inner">
+                </div>
+              </span>
+                <p>
+                  Bar, Loundry, Bell Boy Tips
+                </p>
+              </li>
+                <li class="facility-item">
+                  <span class="facility-box">
+                  <div class="facility-box_inner">
+                </div>
+              </span>
+                <p>
+                  Tipping Guide & Driver (Sukarela)
+                </p>
+              </li>
             </ul>
           </div>
 
@@ -823,7 +978,7 @@
                       <div class="row">
                         <div class="col-md-12">
                           <div class="form-label-box">
-                            <span id="member-help" class="help-block form-label">Dewasa<br>10 - 65th</span>                            
+                            <span id="member-help" class="help-block form-label">Dewasa 10 - 65th</span>                            
                           </div>
                           <div class="form-input-box">
                             <input type="text" class="form-control form-input" id="old" placeholder="Dewasa" name="old" value="">
@@ -831,15 +986,19 @@
                         </div>
                         <div class="col-md-12">
                           <div class="form-label-box">
-                            <span id="member-help" class="help-block form-label">Anak<br>5 - 9th</span>
+                            <span id="member-help" class="help-block form-label">Anak 5 - 9th | 1 - 4th free</span>
                           </div>
                           <div class="form-input-box">
                             <input type="text" class="form-control form-input" id="kid" placeholder="Anak" name="kid" value="">
                           </div>
                         </div>
+                        <div class="col-xs-12">
+                          <input type="button" class="btn btn-rounded btn-orange btn-cek-harga" value="Cek Harga" name="cek" onClick="sum()">
+                        </div>
                       </div>
-                      <span id="member-help" class="help-block">1 - 4th free</span>
+                      <!-- <span id="member-help" class="help-block"></span> -->
                     </div>
+                    
                   </div>
 
                   <!--
@@ -853,12 +1012,9 @@
                     <div class="g-recaptcha" data-sitekey="6LfpmK8UAAAAABFxfsXkfagvooSbzW1Q2LhB14E4" required></div>
                   </div>
                   -->
-                  
+
                   <div class="form-group">
                     <div class="row">
-                      <div class="col-xs-12">
-                        <input type="button" class="btn btn-rounded btn-orange btn-cek-harga" value="Cek Harga" name="cek" onClick="sum()">
-                      </div>
                       <div class="col-xs-12">
                         <div class="form-cek-harga-box hidden">
                           <input type="text" disabled class="form-control form-input cek-harga" id="total" placeholder="Rp 0.000.000,00" name="cek_total" value="">
@@ -1335,28 +1491,49 @@
       var harga_19 = 3300000;
 
       var old = document.form.old.value;
+      var var_old = parseInt(old);
       var kid = document.form.kid.value;
-      var total_peserta = parseInt(old) + parseInt(kid);
+      var var_kid = parseInt(kid);
 
-      if(total_peserta <= 2) {
-        harga_old = parseInt(harga_2) * parseInt($old);
-        if(kid == 0) {
-          harga_kid = 0;
-          harga_total = parseInt(harga_old) + parseInt(harga_kid);
-          harga_total_pajak = (parseInt(harga_total) * parseInt(percent_pajak)) + parseInt(harga_total) ;
-          document.getElementById('total').value = harga_total_pajak;
-        }else{
-          harga_kid = (parseInt(harga_2) * parseInt(percent_kid)) * parseInt(kid);
-          harga_total = parseInt(harga_old) + parseInt(harga_kid);
-          harga_total_pajak = (parseInt(harga_total) * parseInt(percent_pajak)) + parseInt(harga_total) ;
-          document.getElementById('total').value = harga_total_pajak;
-        }
+      if (var_old === null) {
+        var_old = 0;
       }
+      else if(var_kid === null) {
+        var_kid = 0;
+      }
+      
+      var total_peserta = var_old + var_kid;
+      document.getElementById('total').value = total_peserta;
+      return total_peserta;
+      // harga_kid = kid * (harga_2 * percent_kid) ;
+      // harga_total = harga_kid + harga_old;
+
+      
+      // if(total_peserta <= 2) {
+      //   harga_old = parseInt(old) * harga_2;
+      //   if(parseInt(kid) == 0) {
+      //     harga
+      //   }
+      // }
+      // if(total_peserta <= 2) {
+      //   harga_old = parseInt(harga_2) * parseInt($old);
+      //   if(kid == 0) {
+      //     harga_kid = 0;
+      //     harga_total = parseInt(harga_old) + parseInt(harga_kid);
+      //     harga_total_pajak = (parseInt(harga_total) * parseInt(percent_pajak)) + parseInt(harga_total) ;
+         
+      //   }else{
+      //     harga_kid = (parseInt(harga_2) * parseInt(percent_kid)) * parseInt(kid);
+      //     harga_total = parseInt(harga_old) + parseInt(harga_kid);
+      //     harga_total_pajak = (parseInt(harga_total) * parseInt(percent_pajak)) + parseInt(harga_total) ;
+      //     document.getElementById('total').value = harga_total_pajak;
+      //   }
+      // }
 
       
     }
   </script>
-
+ 
 </body>
 <?php
   // $btn=$_POST[document.getElementById("btnsubmitticket")];

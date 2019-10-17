@@ -27,7 +27,7 @@
 
   <link rel="stylesheet" type="text/css" href="vendor/angle-vladov-mobile-slider/jquery.mobile-slider.min.css">
 
-  <link rel="stylesheet" type="text/css" href="css/main.css?v=26">
+  <link rel="stylesheet" type="text/css" href="css/main.css?v=27">
 
 </head>
 
@@ -94,7 +94,7 @@
     <div class="panel panel-default menu-cta-panel js-menu-cta-other animated">
       <div class="panel-body">
         <ul class="list-inline menu-cta-list">
-          <li class="menu-cta-item"><a href="tel:+62878889992"><img class="img-responsive" src="images/icons/jagadtour-whatsapp.png" width="124" height="126" alt=""></a></li>
+          <li class="menu-cta-item"><a href="tel:+62878889992"><img class="img-responsive" src="images/icons/jagadtour-whatsapp.png" width="124" height="127" alt=""></a></li>
           <li class="menu-cta-item"><a href="mailto:halo@jagadtour.com"><span class="fa fa-envelope-o"></span></a></li>
           <li class="menu-cta-item"><a href="tel:+62878889992"><span class="fa fa-phone"></span></a></li>
         </ul>

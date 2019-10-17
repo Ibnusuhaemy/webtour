@@ -26,7 +26,7 @@
   <link rel="stylesheet" type="text/css" href="vendor/datetimepicker.4.17.42/css/bootstrap-datetimepicker.min.css">
   <link rel="stylesheet" type="text/css" href="vendor/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.css" />
   <link rel="stylesheet" type="text/css" href="vendor/angle-vladov-mobile-slider/jquery.mobile-slider.min.css">
-  <link rel="stylesheet" type="text/css" href="css/main.css?v=25">
+  <link rel="stylesheet" type="text/css" href="css/main.css?v=26">
 
 </head>
 

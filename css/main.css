@@ -234,7 +234,7 @@ p {
 
 .form-input-box{
   display: inline-block;
-  width: 60%;
+  width: 100%;
   margin: 5px 0;
   vertical-align: baseline;
 }
@@ -261,7 +261,7 @@ p {
 
 .form-label-box{
   display: inline-block;
-  width: 35%;
+  width: 100%;
   vertical-align: top;
 }
 
@@ -1523,6 +1523,10 @@ p {
   width: 100%;
 }
 
+.jumbotron-contents .jumbotron-panel {
+  position: relative;
+}
+
 .jumbotron-title{
   position: absolute;
   z-index: 3;
@@ -1532,26 +1536,22 @@ p {
 }
 
 .title-jumbotron{
-  top: 60%;
-  left: 5%;
+  top: 68%;
+  left: 6%;
   color: #fff;
   font-size: 32px;
   padding-left: 0;
 }
 
 .subtitle-jumbotron{
-  top: 55%;
-  left: 5%;
+  top: 63%;
+  left: 6%;
   font-size: 20px;
-}
-
-.jumbotron-contents .slick-slider:last-child{
-  padding: 0 30px;
 }
 
 /* - Content - */
 .content-packdetail {
-  padding-top: 50px;
+  padding-top: 0;
   padding-bottom: 50px;
 }
 
@@ -1607,13 +1607,22 @@ p {
 
 .packdetail-info .media-heading {
   margin-bottom: 0;
-  font-size: 16px;
+  font-size: 14px;
   display: inline;
 }
 
 .packdetail-info .media a {
-  font-size: 25px;
-  vertical-align: top;
+  font-size: 16px;
+  line-height: 1;
+}
+
+.packdetail-info .media p {
+  margin-left: 20.5px;
+}
+
+.packdetail-info .media a:focus,
+.packdetail-info .media a:hover {
+  text-decoration: none;
 }
 
 .packdetail-destination .panel-complete-content {
@@ -1665,6 +1674,7 @@ p {
   margin-bottom: 5px;
   overflow: hidden;
   max-height: 600px;
+  border-radius: 10px;
 }
 
 .packdetail-destination-slider .destination-slider-image img {
@@ -1697,13 +1707,13 @@ p {
 }
 
 .thumbnail-icon-left{
-    transform: translate(50%, -70%);
+    transform: translate(-50%, -70%);
     left: 0;
 }
 
 .thumbnail-icon-right{
     right: 0;
-    transform: translate(-50%, -70%);
+    transform: translate(50%, -70%);
 }
 
 .item.slick-slide.slick-current.slick-active.slick-center .destination-slider-image{
@@ -1798,21 +1808,27 @@ p {
   font-size: 16px;
   line-height: normal;
   display: list-item;
-  padding-bottom: 8px;
   width: calc(100% / 2);
   float: left;
 }
 
 .packdetail-facility .facility-list .facility-item .facility-box {
   display: inline-block;
-  vertical-align: middle;
+  vertical-align: top;
 }
 
 .packdetail-facility .facility-list .facility-item .facility-box_inner {
   width: 5px;
   height: 5px;
   background-color: #0077c2;
-  margin-right: 15px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.packdetail-facility .facility-list .facility-item p {
+  width: 90%;
+  display: inline-block;
+  margin-left: 15px;
 }
 
 /* .packdetail-facility .facility-list .facility-item-icon-in {
@@ -3128,6 +3144,18 @@ p {
     height: 300px;
     bottom: 0;
   }
+
+  /* - jumbotron - */
+  .title-jumbotron {
+    top: 69%;
+    left: 6%;
+  }
+
+  .subtitle-jumbotron {
+    top: 63%;
+    left: 6%;
+  }
+
   /* - price - */
   .packdetail-right {
     top: 30%;
@@ -3303,11 +3331,13 @@ p {
 
   /* - jumbotron - */
   .title-jumbotron {
-    top: 66%;
+    top: 63%;
+    left: 7%;
   }
 
   .subtitle-jumbotron {
-    top: 61%;
+    top: 56%;
+    left: 8%;
   }
 
   /* - price - */
@@ -3947,11 +3977,11 @@ p {
 
   /* --- ## Package ## --- */
   .title-jumbotron{
-    top: 55%;
+    top: 50 %;
   }
 
   .subtitle-jumbotron{
-    top: 48%;
+    top: 43%;
   }
 
   .hero-package .hero-slider {
@@ -3990,17 +4020,18 @@ p {
     padding: 10px;
   }
 
-  .js-packdetail-destination-thumbnail{
-    padding-top: 20px;
-  }
-
   .thumbnail-icon{
-    top: 50%;
+    top: 53%;
   }
 
   .panel-complete-heading .panel-complete-title{
     text-align: left;
     margin-right: 20px;
+  }
+
+  .content-packdetail .packdetail-contents {
+    padding-top: 20px;
+    padding-bottom: 20px;;
   }
 
   .content-packdetail .content-title{
@@ -4029,6 +4060,10 @@ p {
 
   .panel-heading-faqs .panel-title.panel-complete-title a{
     font-size: 16px;
+  }
+
+  .content-packdetail .packdetail-contents.destination-section {
+    padding-top: 10px;
   }
 
   /* --- ## Blog Detail ## --- */
@@ -4402,8 +4437,9 @@ p {
   .packdetail-contents .packdetail-info .col-xs-6{
     /* width: 100%; */
   }
+
   .packdetail-info .media a{
-    font-size: 25px;
+    font-size: 16px;
   }
 
   .content-packdetail .packdetail-contents.destination-section .media-left{
@@ -4453,10 +4489,10 @@ p {
 
   /* - Jumbotron - */
   .title-jumbotron {
-    top: 52%;
+    left: 5%;
   }
   .subtitle-jumbotron {
-    top: 45%;
+    left: 5%;
   }
 
   /* - Content - */
@@ -4810,13 +4846,13 @@ p {
 
   /* --- ## Package ## --- */
   .title-jumbotron{
-    top: 52%;
+    top: 47%;
     left: 8%;
-    font-size: 20px;
+    font-size: 18px;
   }
 
   .subtitle-jumbotron{
-    top: 42%;
+    top: 38%;
     left: 8%;
   }
 
@@ -4855,6 +4891,6 @@ p {
 
 @media screen and (max-width:320px){
   .thumbnail-icon{
-    top: 50%;
+    top: 48%;
   }
 }

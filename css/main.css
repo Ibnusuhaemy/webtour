@@ -1536,7 +1536,7 @@ p {
 }
 
 .title-jumbotron{
-  top: 68%;
+  top: 70%;
   left: 6%;
   color: #fff;
   font-size: 32px;
@@ -1544,7 +1544,7 @@ p {
 }
 
 .subtitle-jumbotron{
-  top: 63%;
+  top: 65%;
   left: 6%;
   font-size: 20px;
 }
@@ -1673,7 +1673,6 @@ p {
 .packdetail-destination-slider .destination-slider-image {
   margin-bottom: 5px;
   overflow: hidden;
-  max-height: 600px;
   border-radius: 10px;
 }
 

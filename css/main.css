@@ -1857,16 +1857,30 @@ p {
 /* - Price - */
 .packdetail-right {
   position: sticky;
-  top: 25vh;
-}
-.packdetail-right .form-group{
-  margin: 0 ;
-}
-.packdetail-right .panel-body{
-  padding-top: 10px;
-  padding-bottom: 25px;
+  top: 23vh;
 }
 
+.packdetail-right .form-group {
+  margin: 0 ;
+}
+
+.packdetail-right .panel-body.panel-price {
+  padding: 0;
+}
+
+.packdetail-right .panel-price-form-inner {
+  padding: 0 20px 10px;
+}
+
+.packdetail-right .panel-price-form-inner.separate {
+  border-bottom: 2px solid #cecece;
+  border-radius: 20px;
+  margin-bottom: 10px;
+}
+
+.packdetail-right .panel-price-form-btn-box{
+  padding: 0 20px 20px;
+}
 /*
 .packdetail-price {
   position: fixed;

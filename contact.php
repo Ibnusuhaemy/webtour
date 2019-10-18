@@ -27,7 +27,7 @@
 
   <link rel="stylesheet" type="text/css" href="vendor/angle-vladov-mobile-slider/jquery.mobile-slider.min.css">
 
-  <link rel="stylesheet" type="text/css" href="css/main.css?v=27">
+  <link rel="stylesheet" type="text/css" href="css/main.css?v=28">
 
 </head>
 
@@ -284,7 +284,6 @@
         }
       }
     });
-
   </script>
 
   <!-- Photo Gallery Footer -->
@@ -310,32 +309,32 @@
         console.log(data);
       }
     });
-
   </script>
 
   <?php
-      use PHPMailer\PHPMailer\PHPMailer;
 
-      require 'vendor/autoload.php';
+  use PHPMailer\PHPMailer\PHPMailer;
 
-        if(isset($_POST['send'])) {
-          $nama = $_POST['nama'];
-          $email = $_POST['email'];
-          $pesan = $_POST['pesan'];
+  require 'vendor/autoload.php';
 
-          $mail = new PHPMailer;
-          $mail->isSMTP();
-          $mail->Host = 'smtp.gmail.com';
-          $mail->Port = 587;
-          $mail->Username = 'webjagadtour@gmail.com'; // Email Yang Digunakan untuk Mengirim ----------------------- SETTING EMAIL TERLEBIH DULU
-          $mail->Password = 'jagadtour123'; // Password Email Yang Digunakan Untuk Mengirim ----- SETTING EMAIL TERLEBIH DULU
-          $mail->SMTPSecure = 'tls';
-          $mail->SMTPAuth = true;
-          $mail->isHTML(true);
-          $mail->addAddress('liwaalex99@gmail.com'); // Email Yang Penerima Pesan.. Contoh = JagadTour@gmail.com
-          $mail->setFrom('liwaalex11@gmail.com', 'Jagad Tour'); // Email Yang Mengirim Pesan .. Contoh = JagadTour2@gmail.com
-          $mail->Subject = 'Pengirim '.$nama;
-          $mail->Body = '
+  if (isset($_POST['send'])) {
+    $nama = $_POST['nama'];
+    $email = $_POST['email'];
+    $pesan = $_POST['pesan'];
+
+    $mail = new PHPMailer;
+    $mail->isSMTP();
+    $mail->Host = 'smtp.gmail.com';
+    $mail->Port = 587;
+    $mail->Username = 'webjagadtour@gmail.com'; // Email Yang Digunakan untuk Mengirim ----------------------- SETTING EMAIL TERLEBIH DULU
+    $mail->Password = 'jagadtour123'; // Password Email Yang Digunakan Untuk Mengirim ----- SETTING EMAIL TERLEBIH DULU
+    $mail->SMTPSecure = 'tls';
+    $mail->SMTPAuth = true;
+    $mail->isHTML(true);
+    $mail->addAddress('liwaalex99@gmail.com'); // Email Yang Penerima Pesan.. Contoh = JagadTour@gmail.com
+    $mail->setFrom('liwaalex11@gmail.com', 'Jagad Tour'); // Email Yang Mengirim Pesan .. Contoh = JagadTour2@gmail.com
+    $mail->Subject = 'Pengirim ' . $nama;
+    $mail->Body = '
 
           <body style="height: 100%; margin: 0; padding: 0; width: 100%; -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; background-color: #FAFAFA;">
           <!--*|IF:MC_PREVIEW_TEXT|*-->
@@ -415,12 +414,12 @@
                                                       <h1 style="display: block; margin: 0; padding: 0; color: #202020; font-family: Helvetica; font-size: 16px; font-style: normal; font-weight: bold; line-height: 125%; letter-spacing: normal; text-align: center;">Contact Us</h1>
                                                       <p>
                                                         <b>Email pengirim</b>
-                                                        <br/>'.$email.'
+                                                        <br/>' . $email . '
                                                       </p>
                                                       <p>
                                                         <b>Isi pesan</b>
                                                       </p>
-                                                      <p>'.$pesan.'</p>
+                                                      <p>' . $pesan . '</p>
                                                     </td>
                                                   </tr>
                                                 </tbody>
@@ -519,14 +518,14 @@
                       </center>
                     </body>
           ';
-          $mail->send();
-          echo '<script language="javascript">';
-          echo 'alert("Terimakasih Email Anda sudah terkirim")';
-          echo '</script>';
-        }else{
-          echo '<p>Please enter valid data</p>';
-        }
-      ?>
+    $mail->send();
+    echo '<script language="javascript">';
+    echo 'alert("Terimakasih Email Anda sudah terkirim")';
+    echo '</script>';
+  } else {
+    echo '<p>Please enter valid data</p>';
+  }
+  ?>
 </body>
 
 </html>

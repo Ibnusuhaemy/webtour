@@ -25,7 +25,7 @@
   <link rel="stylesheet" type="text/css" href="vendor/angle-vladov-mobile-slider/jquery.mobile-slider.min.css">
   <link rel="stylesheet" type="text/css" href="vendor/datetimepicker.4.17.42/css/bootstrap-datetimepicker.min.css">
 
-  <link rel="stylesheet" type="text/css" href="css/main.css?v=27">
+  <link rel="stylesheet" type="text/css" href="css/main.css?v=28">
 
 </head>
 
@@ -942,7 +942,6 @@
         }
       });
     });
-
   </script>
 
   <!-- //---API google recaptcha--// -->
@@ -976,67 +975,62 @@
       console.log(data);
       e.preventDefault();
     }
-
   </script>
   <script>
     function
-
   </script>
 
   <!-- //---PHP mailer Pemensanan--// -->
   <?php
-      use PHPMailer\PHPMailer\PHPMailer;
 
-      require 'vendor/autoload.php';
+  use PHPMailer\PHPMailer\PHPMailer;
 
-      $secret = '6LfpmK8UAAAAALK5qi5unR40vHhbiNcDrHh71KYi'; // CHANGE THIS TO YOUR OWN!
-      $url = "https://www.google.com/recaptcha/api/siteverify?secret=$secret&response=".$_POST['g-recaptcha-response'];
-      $verify = json_decode(file_get_contents($url));
+  require 'vendor/autoload.php';
 
-      if ($verify->success == true) {
-          $nama = $_POST['namaPemesan'];
-          $email = $_POST['email'];
-          $telp = $_POST['telp'];
-          $old = $_POST['old'];
-          $kid = $_POST['kid'];
-          $hotel = $_POST['star'];
-          
-          $hargaHotel = number_format($_POST['star'], 0, ".", ".");
-          $hargaOld = number_format(($old * 1000000), 0, ".", ".");
-          $hargaKid = number_format(($kid * 500000), 0, ".", ".");
-          $hargaTotal = number_format(($old * 1000000) + ($kid * 500000) + ($hotel * 1), 0, ".", ".");
+  $secret = '6LfpmK8UAAAAALK5qi5unR40vHhbiNcDrHh71KYi'; // CHANGE THIS TO YOUR OWN!
+  $url = "https://www.google.com/recaptcha/api/siteverify?secret=$secret&response=" . $_POST['g-recaptcha-response'];
+  $verify = json_decode(file_get_contents($url));
 
-          $bitangHotel = 0;
+  if ($verify->success == true) {
+    $nama = $_POST['namaPemesan'];
+    $email = $_POST['email'];
+    $telp = $_POST['telp'];
+    $old = $_POST['old'];
+    $kid = $_POST['kid'];
+    $hotel = $_POST['star'];
 
-          if($hotel == 8000000){
-            $bintangHotel = 5;
-          }
-          else if ($hotel == 5000000){
-            $bintangHotel = 4;
-          }
-          else if ($hotel == 3000000){
-            $bintangHotel = 3;
-          }
-          else if ($hotel == 2000000){
-            $bintangHotel = 2;
-          }
-          else if ($hotel < 2000000){
-            $bintangHotel = 1;
-          }
+    $hargaHotel = number_format($_POST['star'], 0, ".", ".");
+    $hargaOld = number_format(($old * 1000000), 0, ".", ".");
+    $hargaKid = number_format(($kid * 500000), 0, ".", ".");
+    $hargaTotal = number_format(($old * 1000000) + ($kid * 500000) + ($hotel * 1), 0, ".", ".");
 
-          $mail = new PHPMailer;
-          $mail->isSMTP();
-          $mail->Host = 'smtp.gmail.com';
-          $mail->Port = 587;
-          $mail->Username = 'webjagadtour@gmail.com';
-          $mail->Password = 'jagadtour123'; 
-          $mail->SMTPSecure = 'tls';
-          $mail->SMTPAuth = true;
-          $mail->isHTML(true);
-          $mail->addAddress('liwaalex99@gmail.com');
-          $mail->setFrom('liwaalex11@gmail.com', 'Jagad Tour');
-          $mail->Subject = 'Pengirim '.$nama;
-          $mail->Body = '      
+    $bitangHotel = 0;
+
+    if ($hotel == 8000000) {
+      $bintangHotel = 5;
+    } else if ($hotel == 5000000) {
+      $bintangHotel = 4;
+    } else if ($hotel == 3000000) {
+      $bintangHotel = 3;
+    } else if ($hotel == 2000000) {
+      $bintangHotel = 2;
+    } else if ($hotel < 2000000) {
+      $bintangHotel = 1;
+    }
+
+    $mail = new PHPMailer;
+    $mail->isSMTP();
+    $mail->Host = 'smtp.gmail.com';
+    $mail->Port = 587;
+    $mail->Username = 'webjagadtour@gmail.com';
+    $mail->Password = 'jagadtour123';
+    $mail->SMTPSecure = 'tls';
+    $mail->SMTPAuth = true;
+    $mail->isHTML(true);
+    $mail->addAddress('liwaalex99@gmail.com');
+    $mail->setFrom('liwaalex11@gmail.com', 'Jagad Tour');
+    $mail->Subject = 'Pengirim ' . $nama;
+    $mail->Body = '      
              
           <body style="height: 100%; margin: 0; padding: 0; width: 100%; -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; background-color: #FAFAFA;">
           <!--*|IF:MC_PREVIEW_TEXT|*-->
@@ -1118,26 +1112,26 @@
                                                         <b>Identitas pengirim</b>
                                                       </p>
                                                         <ul>
-                                                          <li>Nama Pemesan : '.$nama.'</li>
-                                                          <li>Email        : '.$email.'</li>
-                                                          <li>No. Telp     : '.$telp.'</li>
+                                                          <li>Nama Pemesan : ' . $nama . '</li>
+                                                          <li>Email        : ' . $email . '</li>
+                                                          <li>No. Telp     : ' . $telp . '</li>
                                                         </ul>
                                                       <p>
                                                         <b>Detail Pemesanan</b>
                                                       </p>
                                                         <ul>
-                                                          <li>Dewasa : '.$old.' Orang</li>
-                                                          <li>Anak   : '.$kid.' Orang</li>
-                                                          <li>Hotel  : Bintang '.$bintangHotel.'</li>
+                                                          <li>Dewasa : ' . $old . ' Orang</li>
+                                                          <li>Anak   : ' . $kid . ' Orang</li>
+                                                          <li>Hotel  : Bintang ' . $bintangHotel . '</li>
                                                         </ul>
                                                     <p>
                                                       <b>Perkiraan Biaya</b>
                                                     </p>
                                                       <ul>
-                                                        <li>Harga Dewasa : Rp '.$hargaOld.'</li>
-                                                        <li>Harga Anak   : Rp '.$hargaKid.'</li>
-                                                        <li>Harga Hotel  : Rp '.$hargaHotel.'</li>
-                                                        <li>Total Biaya  : Rp '.$hargaTotal.'</li>
+                                                        <li>Harga Dewasa : Rp ' . $hargaOld . '</li>
+                                                        <li>Harga Anak   : Rp ' . $hargaKid . '</li>
+                                                        <li>Harga Hotel  : Rp ' . $hargaHotel . '</li>
+                                                        <li>Total Biaya  : Rp ' . $hargaTotal . '</li>
                                                       </ul>
                                                     </td>
                                                   </tr>
@@ -1237,23 +1231,21 @@
                       </center>
                     </body>
           ';
-          if($mail->send()){
-            echo '<script language="javascript">';
-            echo 'alert("Terimakasih Email Anda sudah terkirim")';
-            echo '</script>';
-          }
-          else{
-            echo '<script language="javascript">';
-            echo 'alert("Maaf Terjadi Error dalam pengiriman Email Anda")';
-            echo '</script>';
-          }
-
-        }else if ($verify->success == false){
-          echo '<script language="javascript">';
-          echo 'alert("Mohon captcha diisi dengan benar")';
-          echo '</script>';
-        }
-      ?>
+    if ($mail->send()) {
+      echo '<script language="javascript">';
+      echo 'alert("Terimakasih Email Anda sudah terkirim")';
+      echo '</script>';
+    } else {
+      echo '<script language="javascript">';
+      echo 'alert("Maaf Terjadi Error dalam pengiriman Email Anda")';
+      echo '</script>';
+    }
+  } else if ($verify->success == false) {
+    echo '<script language="javascript">';
+    echo 'alert("Mohon captcha diisi dengan benar")';
+    echo '</script>';
+  }
+  ?>
 
   <script type="text/javascript">
     $('.js-packdetail-destination-slider').owlCarousel({
@@ -1285,7 +1277,6 @@
         }
       }
     });
-
   </script>
   <script type="text/javascript">
     $('.js-package-facility-slider').owlCarousel({
@@ -1304,7 +1295,6 @@
         }
       }
     });
-
   </script>
   <script type="text/javascript">
     $('.js-content-testi-slider').owlCarousel({
@@ -1326,7 +1316,6 @@
         }
       }
     });
-
   </script>
   <script type="text/javascript">
     $('.js-photo-slider').owlCarousel({
@@ -1357,7 +1346,6 @@
         }
       }
     });
-
   </script>
 
   <script type="text/javascript" src="vendor/scrolltofixed.1.0.8/jquery-scrolltofixed-min.js"></script>
@@ -1375,7 +1363,6 @@
         }
       });
     });
-
   </script>
 
   <script type="text/javascript" src="vendor/moment.2.0.0/moment.min.js"></script>
@@ -1386,7 +1373,6 @@
         format: 'L'
       });
     });
-
   </script>
 
   <!-- Photo Gallery Footer -->
@@ -1411,7 +1397,6 @@
         console.log(data);
       }
     });
-
   </script>
 
   <!-- Cek Tiket -->
@@ -1435,16 +1420,15 @@
 
     //  }
     // });
-
   </script>
 
 </body>
 <?php
-  // $btn=$_POST[document.getElementById("btnsubmitticket")];
+// $btn=$_POST[document.getElementById("btnsubmitticket")];
 
-  // if($btn){
-  //   header("Location:https://stackoverflow.com/questions/768431/how-do-i-make-a-redirect-in-php");
-  // }
-  ?>
+// if($btn){
+//   header("Location:https://stackoverflow.com/questions/768431/how-do-i-make-a-redirect-in-php");
+// }
+?>
 
 </html>

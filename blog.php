@@ -25,7 +25,7 @@
 
   <link rel="stylesheet" type="text/css" href="vendor/angle-vladov-mobile-slider/jquery.mobile-slider.min.css">
 
-  <link rel="stylesheet" type="text/css" href="css/main.css?v=27">
+  <link rel="stylesheet" type="text/css" href="css/main.css?v=28">
 
 </head>
 
@@ -577,7 +577,6 @@
         startAt: 2
       });
     });
-
   </script>
 
   <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/list.js/1.5.0/list.min.js"></script>
@@ -586,7 +585,6 @@
       valueNames: ['title']
     };
     var userList = new List('listed', options);
-
   </script>
 
   <script type="text/javascript">
@@ -594,7 +592,6 @@
       $('.js-search-field').toggleClass('show');
       $('.js-form-inline').toggleClass('form-show');
     });
-
   </script>
 
   <script type="text/javascript" src="vendor/scrolltofixed.1.0.8/jquery-scrolltofixed-min.js"></script>
@@ -609,7 +606,6 @@
         }
       });
     });
-
   </script>
 
 </body>

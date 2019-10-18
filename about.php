@@ -26,7 +26,7 @@
   <link rel="stylesheet" type="text/css" href="vendor/datetimepicker.4.17.42/css/bootstrap-datetimepicker.min.css">
   <link rel="stylesheet" type="text/css" href="vendor/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.css" />
   <link rel="stylesheet" type="text/css" href="vendor/angle-vladov-mobile-slider/jquery.mobile-slider.min.css">
-  <link rel="stylesheet" type="text/css" href="css/main.css?v=27">
+  <link rel="stylesheet" type="text/css" href="css/main.css?v=28">
 
 </head>
 
@@ -469,7 +469,6 @@
         theme: "dark"
       });
     })(jQuery);
-
   </script>
 
   <script type="application/javascript" src="vendor/angle-vladov-mobile-slider/jquery.mobile-slider.min.js"></script>
@@ -481,7 +480,6 @@
         startAt: 2
       });
     });
-
   </script>
 
   <script type="text/javascript">
@@ -500,7 +498,6 @@
         maindesc.text(thedesc);
       }).fadeIn(1000);
     });
-
   </script>
 
   <script type="text/javascript" src="vendor/scrolltofixed.1.0.8/jquery-scrolltofixed-min.js"></script>
@@ -515,7 +512,6 @@
         }
       });
     });
-
   </script>
 
 </body>

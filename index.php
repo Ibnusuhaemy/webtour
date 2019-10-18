@@ -26,7 +26,7 @@
 
   <link rel="stylesheet" type="text/css" href="vendor/angle-vladov-mobile-slider/jquery.mobile-slider.min.css">
 
-  <link rel="stylesheet" type="text/css" href="css/main.css?v=27">
+  <link rel="stylesheet" type="text/css" href="css/main.css?v=28">
 </head>
 
 <body>
@@ -776,7 +776,6 @@
       animateOut: 'fadeOut',
       smartSpeed: 450
     });
-
   </script>
 
   <!-- Progress Bar -->
@@ -792,7 +791,6 @@
     //          $('h1').removeClass('view')
     //       }
     //    });
-
   </script>
 
   <script type="text/javascript">
@@ -1015,7 +1013,6 @@
       }
       //}
     });
-
   </script>
 
   <script type="text/javascript">
@@ -1037,7 +1034,6 @@
         }
       }
     });
-
   </script>
   <script type="text/javascript">
     $('.js-content-testi-slider').owlCarousel({
@@ -1062,7 +1058,6 @@
         }
       }
     });
-
   </script>
   <script type="text/javascript">
     $('.js-content-client-slider').owlCarousel({
@@ -1088,7 +1083,6 @@
         }
       }
     });
-
   </script>
   <script type="text/javascript">
     $('.js-photo-slider').owlCarousel({
@@ -1119,7 +1113,6 @@
         }
       }
     });
-
   </script>
 
   <script type="application/javascript" src="vendor/angle-vladov-mobile-slider/jquery.mobile-slider.min.js"></script>
@@ -1131,7 +1124,6 @@
         startAt: 2
       });
     });
-
   </script>
 
   <script type="text/javascript" src="vendor/scrolltofixed.1.0.8/jquery-scrolltofixed-min.js"></script>
@@ -1149,7 +1141,6 @@
         }
       });
     });
-
   </script>
 
 </body>

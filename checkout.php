@@ -25,7 +25,7 @@
   <link rel="stylesheet" type="text/css" href="vendor/angle-vladov-mobile-slider/jquery.mobile-slider.min.css">
   <link rel="stylesheet" type="text/css" href="vendor/datetimepicker.4.17.42/css/bootstrap-datetimepicker.min.css">
 
-  <link rel="stylesheet" type="text/css" href="css/main.css?v=27">
+  <link rel="stylesheet" type="text/css" href="css/main.css?v=28">
   <link rel="stylesheet" type="text/css" href="css/kevin_style.css">
 
 </head>
@@ -95,70 +95,70 @@
     <div class="container">
       <div class="row">
         <div class="col-md-8">
-            <h2 class="content-title">Checkout</h2>
+          <h2 class="content-title">Checkout</h2>
           <hr>
           <div class="checkour-form">
             <form action="#">
               <div class="row">
                 <div class="col-md-6">
                   <div class="form-group">
-                      <label for="nama-depan">Nama Depan <span class="text-danger">*</span></label>
-                      <input type="text" name="nama-depan" class="form-control" id="nama-depan" placeholder="Nama Depan" required>
-                    </div>
+                    <label for="nama-depan">Nama Depan <span class="text-danger">*</span></label>
+                    <input type="text" name="nama-depan" class="form-control" id="nama-depan" placeholder="Nama Depan" required>
+                  </div>
                 </div>
                 <div class="col-md-6">
                   <div class="form-group">
-                      <label for="nama-belakang">Nama Belakang <span class="text-danger">*</span></label>
-                      <input type="text" name="nama-belakang" class="form-control" id="nama-belakang" placeholder="Nama Belakang" required>
-                    </div>
+                    <label for="nama-belakang">Nama Belakang <span class="text-danger">*</span></label>
+                    <input type="text" name="nama-belakang" class="form-control" id="nama-belakang" placeholder="Nama Belakang" required>
+                  </div>
                 </div>
                 <div class="col-md-6">
                   <div class="form-group">
-                      <label for="email">Email <span class="text-danger">*</span></label>
-                      <input type="email" name="email" class="form-control" id="email" placeholder="mail@domain.com" required>
-                    </div>
+                    <label for="email">Email <span class="text-danger">*</span></label>
+                    <input type="email" name="email" class="form-control" id="email" placeholder="mail@domain.com" required>
+                  </div>
                 </div>
                 <div class="col-md-6">
                   <div class="form-group">
-                      <label for="Telepon">Telepon <span class="text-danger">*</span></label>
-                      <input type="text" name="Telepon" class="form-control" id="Telepon" placeholder="Telepon" required>
-                    </div>
+                    <label for="Telepon">Telepon <span class="text-danger">*</span></label>
+                    <input type="text" name="Telepon" class="form-control" id="Telepon" placeholder="Telepon" required>
+                  </div>
                 </div>
                 <div class="col-md-6">
                   <div class="form-group">
-                      <label for="alamat1">Alamat 1 <span class="text-danger">*</span></label>
-                      <input type="text" name="alamat1" class="form-control" id="alamat1" placeholder="Alamat 1" required>
-                    </div>
+                    <label for="alamat1">Alamat 1 <span class="text-danger">*</span></label>
+                    <input type="text" name="alamat1" class="form-control" id="alamat1" placeholder="Alamat 1" required>
+                  </div>
                 </div>
                 <div class="col-md-6">
                   <div class="form-group">
-                      <label for="alamat2">Alamat 2 <span class="text-danger">*</span></label>
-                      <input type="text" name="alamat2" class="form-control" id="alamat2" placeholder="Alamat 2" required>
-                    </div>
+                    <label for="alamat2">Alamat 2 <span class="text-danger">*</span></label>
+                    <input type="text" name="alamat2" class="form-control" id="alamat2" placeholder="Alamat 2" required>
+                  </div>
                 </div>
                 <div class="col-md-6">
                   <div class="form-group">
-                      <label for="Kota">Kota <span class="text-danger">*</span></label>
-                      <input type="text" name="Kota" class="form-control" id="Kota" placeholder="Kota Anda" required>
-                    </div>
+                    <label for="Kota">Kota <span class="text-danger">*</span></label>
+                    <input type="text" name="Kota" class="form-control" id="Kota" placeholder="Kota Anda" required>
+                  </div>
                 </div>
                 <div class="col-md-6">
                   <div class="form-group">
-                      <label for="Provinsi">Provinsi <span class="text-danger">*</span></label>
-                      <input type="text" name="Provinsi" class="form-control" id="Provinsi" placeholder="Provinsi Anda" required>
-                    </div>
+                    <label for="Provinsi">Provinsi <span class="text-danger">*</span></label>
+                    <input type="text" name="Provinsi" class="form-control" id="Provinsi" placeholder="Provinsi Anda" required>
+                  </div>
                 </div>
                 <div class="col-md-6">
                   <div class="form-group">
-                      <label for="kodepos">Kode Pos <span class="text-danger">*</span></label>
-                      <input type="text" name="kodepos" class="form-control" id="kodepos" placeholder="Kode Pos" pattern="[0-9]+" title="please enter number only" required>
-                    </div>
+                    <label for="kodepos">Kode Pos <span class="text-danger">*</span></label>
+                    <input type="text" name="kodepos" class="form-control" id="kodepos" placeholder="Kode Pos" pattern="[0-9]+" title="please enter number only" required>
+                  </div>
                 </div>
                 <div class="col-md-12">
                   <div class="form-group">
-                      <label for="kebutuhanTambahan">Kebutuhan Tambahan <span class="text-danger">*</span></label><br>
-                      <textarea name="kebutuhanTambahan" id="kebutuhanTambahan" class="form-control" rows="10" placeholder="Kebutuhan Tambahan" required></textarea>
-                    </div>
+                    <label for="kebutuhanTambahan">Kebutuhan Tambahan <span class="text-danger">*</span></label><br>
+                    <textarea name="kebutuhanTambahan" id="kebutuhanTambahan" class="form-control" rows="10" placeholder="Kebutuhan Tambahan" required></textarea>
+                  </div>
                 </div>
                 <div class="col-md-12">
                   <div class="checkbox"> <label> <input type="checkbox"> Saya sudah membaca dan menerima <a href="#">syarat dan ketentuan</a> dan <a href="#">kebijakan privasi</a> </label> </div>
@@ -174,327 +174,309 @@
         </div>
         <div class="col-md-4">
           <h2 class="content-title">Paket Anda</h2>
-          
+
           <?php
-            $harga_2 = 5330000;
-            $harga_3 = 4330000;
-            $harga_4 = 3880000;
-            $harga_5 = 3620000;
-            $harga_6 = 3440000;
-            $harga_7 = 3420000;
-            $harga_8 = 3410000;
-            $harga_9 = 3400000;
-            $harga_10 = 3390000;
-            $harga_11 = 3380000;
-            $harga_12 = 3370000;
-            $harga_13 = 3360000;
-            $harga_14 = 3350000;
-            $harga_15 = 3340000;
-            $harga_16 = 3330000;
-            $harga_17 = 3320000;
-            $harga_18 = 3310000;
-            $harga_19 = 3300000;
-            
-            $percent_kid = 75/100;
-            $percent_pajak = 2/100;
-            $percent_dp = 40/100;
+          $harga_2 = 5330000;
+          $harga_3 = 4330000;
+          $harga_4 = 3880000;
+          $harga_5 = 3620000;
+          $harga_6 = 3440000;
+          $harga_7 = 3420000;
+          $harga_8 = 3410000;
+          $harga_9 = 3400000;
+          $harga_10 = 3390000;
+          $harga_11 = 3380000;
+          $harga_12 = 3370000;
+          $harga_13 = 3360000;
+          $harga_14 = 3350000;
+          $harga_15 = 3340000;
+          $harga_16 = 3330000;
+          $harga_17 = 3320000;
+          $harga_18 = 3310000;
+          $harga_19 = 3300000;
 
-            @$old = $_REQUEST['old'];
-            @$kid = $_REQUEST['kid'];
-            @$paket = $_REQUEST['paket'];
-            @$gambar = $_REQUEST['gambar'];
-            @$tipe = $_REQUEST['tipe'];
-            @$durasi = $_REQUEST['durasi'];
-            @$date = $_REQUEST['date'];
-            
-            $harga_old;
-            $harga_kid;
-            $harga_total;
-            $harga_total_pajak;
-            $harga_dp;
-            @$total_peserta = $old + $kid;
-            
-            if ($old == null) {
-              $old = 0;
-            }
-            
-            if ($kid == null) {
-              $kid = 0;
-            } 
-            
-            if ($date == null) {
-              $date = "Tolong pilih tanggal*";
-            }
-            
-            if ($paket == null) {
-              $durasi = "Pilih paket yang anda inginkan*";
-              $tipe = "Pilih paket yang anda inginkan*";
-              $paket = "Paket";
-            }
+          $percent_kid = 75 / 100;
+          $percent_pajak = 2 / 100;
+          $percent_dp = 40 / 100;
 
-            if ($total_peserta <= 2 ) {
-              $harga_old = $harga_2 * $old;
-              if($kid == 0){
-                  $harga_kid = 0;
-                  $harga_total = $harga_old + $harga_kid;
-                  $harga_total_pajak = ($harga_total * $percent_pajak) + $harga_total ;
-                  $harga_dp = $harga_total_pajak * $percent_dp;
-                }else{
-                  $harga_kid = ($harga_2 * $percent_kid) * $kid;
-                  $harga_total = $harga_old + $harga_kid;
-                  $harga_total_pajak = ($harga_total * $percent_pajak) + $harga_total ;
-                  $harga_dp = $harga_total_pajak * $percent_dp;
-                }
-            }
-            else if($total_peserta <= 3){
-              $harga_old = $harga_3 * $old;
-              if($kid == 0){
-                  $harga_kid = 0;
-                  $harga_total = $harga_old + $harga_kid;
-                  $harga_total_pajak = ($harga_total * $percent_pajak) + $harga_total ;
-                  $harga_dp = $harga_total_pajak * $percent_dp;
-                }else{
-                  $harga_kid = ($harga_3 * $percent_kid) * $kid;
-                  $harga_total = $harga_old + $harga_kid;
-                  $harga_total_pajak = ($harga_total * $percent_pajak) + $harga_total ;
-                  $harga_dp = $harga_total_pajak * $percent_dp;
-                }
-            }
-            else if($total_peserta <= 4){
-              $harga_old = $harga_4 * $old;
-              if($kid == 0){
-                  $harga_kid = 0;
-                  $harga_total = $harga_old + $harga_kid;
-                  $harga_total_pajak = ($harga_total * $percent_pajak) + $harga_total ;
-                  $harga_dp = $harga_total_pajak * $percent_dp;
-                }else{
-                  $harga_kid = ($harga_4 * $percent_kid) * $kid;
-                  $harga_total = $harga_old + $harga_kid;
-                  $harga_total_pajak = ($harga_total * $percent_pajak) + $harga_total ;
-                  $harga_dp = $harga_total_pajak * $percent_dp;
-                }
-            }
-            else if($total_peserta <= 5){
-              $harga_old = $harga_5 * $old;
-              if($kid == 0){
-                  $harga_kid = 0;
-                  $harga_total = $harga_old + $harga_kid;
-                  $harga_total_pajak = ($harga_total * $percent_pajak) + $harga_total ;
-                  $harga_dp = $harga_total_pajak * $percent_dp;
-                }else{
-                  $harga_kid = ($harga_5 * $percent_kid) * $kid;
-                  $harga_total = $harga_old + $harga_kid;
-                  $harga_total_pajak = ($harga_total * $percent_pajak) + $harga_total ;
-                  $harga_dp = $harga_total_pajak * $percent_dp;
-                }
-            }
-            else if($total_peserta <= 6){
-              $harga_old = $harga_6 * $old;
-              if($kid == 0){
-                  $harga_kid = 0;
-                  $harga_total = $harga_old + $harga_kid;
-                  $harga_total_pajak = ($harga_total * $percent_pajak) + $harga_total ;
-                  $harga_dp = $harga_total_pajak * $percent_dp;
-                }else{
-                  $harga_kid = ($harga_6 * $percent_kid) * $kid;
-                  $harga_total = $harga_old + $harga_kid;
-                  $harga_total_pajak = ($harga_total * $percent_pajak) + $harga_total ;
-                  $harga_dp = $harga_total_pajak * $percent_dp;
-                }
-            }
-            else if($total_peserta <= 7){
-              $harga_old = $harga_7 * $old;
-              if($kid == 0){
-                  $harga_kid = 0;
-                  $harga_total = $harga_old + $harga_kid;
-                  $harga_total_pajak = ($harga_total * $percent_pajak) + $harga_total ;
-                  $harga_dp = $harga_total_pajak * $percent_dp;
-                }else{
-                  $harga_kid = ($harga_7 * $percent_kid) * $kid;
-                  $harga_total = $harga_old + $harga_kid;
-                  $harga_total_pajak = ($harga_total * $percent_pajak) + $harga_total ;
-                  $harga_dp = $harga_total_pajak * $percent_dp;
-                }
-            }
-            else if($total_peserta <= 8){
-              $harga_old = $harga_8 * $old;
-              if($kid == 0){
-                  $harga_kid = 0;
-                  $harga_total = $harga_old + $harga_kid;
-                  $harga_total_pajak = ($harga_total * $percent_pajak) + $harga_total ;
-                  $harga_dp = $harga_total_pajak * $percent_dp;
-                }else{
-                  $harga_kid = ($harga_8 * $percent_kid) * $kid;
-                  $harga_total = $harga_old + $harga_kid;
-                  $harga_total_pajak = ($harga_total * $percent_pajak) + $harga_total ;
-                  $harga_dp = $harga_total_pajak * $percent_dp;
-                }
-            }
-            else if($total_peserta <= 9){
-              $harga_old = $harga_9 * $old;
-              if($kid == 0){
-                  $harga_kid = 0;
-                  $harga_total = $harga_old + $harga_kid;
-                  $harga_total_pajak = ($harga_total * $percent_pajak) + $harga_total ;
-                  $harga_dp = $harga_total_pajak * $percent_dp;
-                }else{
-                  $harga_kid = ($harga_9 * $percent_kid) * $kid;
-                  $harga_total = $harga_old + $harga_kid;
-                  $harga_total_pajak = ($harga_total * $percent_pajak) + $harga_total ;
-                  $harga_dp = $harga_total_pajak * $percent_dp;
-                }
-            }
-            else if($total_peserta <= 10){
-              $harga_old = $harga_10 * $old;
-              if($kid == 0){
-                  $harga_kid = 0;
-                  $harga_total = $harga_old + $harga_kid;
-                  $harga_total_pajak = ($harga_total * $percent_pajak) + $harga_total ;
-                  $harga_dp = $harga_total_pajak * $percent_dp;
-                }else{
-                  $harga_kid = ($harga_10 * $percent_kid) * $kid;
-                  $harga_total = $harga_old + $harga_kid;
-                  $harga_total_pajak = ($harga_total * $percent_pajak) + $harga_total ;
-                  $harga_dp = $harga_total_pajak * $percent_dp;
-                }
-            }
-            else if($total_peserta <= 11){
-              $harga_old = $harga_11 * $old;
-              if($kid == 0){
-                  $harga_kid = 0;
-                  $harga_total = $harga_old + $harga_kid;
-                  $harga_total_pajak = ($harga_total * $percent_pajak) + $harga_total ;
-                  $harga_dp = $harga_total_pajak * $percent_dp;
-                }else{
-                  $harga_kid = ($harga_11 * $percent_kid) * $kid;
-                  $harga_total = $harga_old + $harga_kid;
-                  $harga_total_pajak = ($harga_total * $percent_pajak) + $harga_total ;
-                  $harga_dp = $harga_total_pajak * $percent_dp;
-                }
-            }
-            else if($total_peserta <= 12){
-              $harga_old = $harga_12 * $old;
-              if($kid == 0){
-                  $harga_kid = 0;
-                  $harga_total = $harga_old + $harga_kid;
-                  $harga_total_pajak = ($harga_total * $percent_pajak) + $harga_total ;
-                  $harga_dp = $harga_total_pajak * $percent_dp;
-                }else{
-                  $harga_kid = ($harga_12 * $percent_kid) * $kid;
-                  $harga_total = $harga_old + $harga_kid;
-                  $harga_total_pajak = ($harga_total * $percent_pajak) + $harga_total ;
-                  $harga_dp = $harga_total_pajak * $percent_dp;
-                }
-            }
-            else if($total_peserta <= 13){
-              $harga_old = $harga_13 * $old;
-              if($kid == 0){
-                  $harga_kid = 0;
-                  $harga_total = $harga_old + $harga_kid;
-                  $harga_total_pajak = ($harga_total * $percent_pajak) + $harga_total ;
-                  $harga_dp = $harga_total_pajak * $percent_dp;
-                }else{
-                  $harga_kid = ($harga_13 * $percent_kid) * $kid;
-                  $harga_total = $harga_old + $harga_kid;
-                  $harga_total_pajak = ($harga_total * $percent_pajak) + $harga_total ;
-                  $harga_dp = $harga_total_pajak * $percent_dp;
-                }
-            }
-            else if($total_peserta <= 14){
-              $harga_old = $harga_14 * $old;
-              if($kid == 0){
-                  $harga_kid = 0;
-                  $harga_total = $harga_old + $harga_kid;
-                  $harga_total_pajak = ($harga_total * $percent_pajak) + $harga_total ;
-                  $harga_dp = $harga_total_pajak * $percent_dp;
-                }else{
-                  $harga_kid = ($harga_14 * $percent_kid) * $kid;
-                  $harga_total = $harga_old + $harga_kid;
-                  $harga_total_pajak = ($harga_total * $percent_pajak) + $harga_total ;
-                  $harga_dp = $harga_total_pajak * $percent_dp;
-                }
-            }
-            else if($total_peserta <= 15){
-              $harga_old = $harga_15 * $old;
-              if($kid == 0){
-                  $harga_kid = 0;
-                  $harga_total = $harga_old + $harga_kid;
-                  $harga_total_pajak = ($harga_total * $percent_pajak) + $harga_total ;
-                  $harga_dp = $harga_total_pajak * $percent_dp;
-                }else{
-                  $harga_kid = ($harga_15 * $percent_kid) * $kid;
-                  $harga_total = $harga_old + $harga_kid;
-                  $harga_total_pajak = ($harga_total * $percent_pajak) + $harga_total ;
-                  $harga_dp = $harga_total_pajak * $percent_dp;
-                }
-            }
-            else if($total_peserta <= 16){
-              $harga_old = $harga_16 * $old;
-              if($kid == 0){
-                  $harga_kid = 0;
-                  $harga_total = $harga_old + $harga_kid;
-                  $harga_total_pajak = ($harga_total * $percent_pajak) + $harga_total ;
-                  $harga_dp = $harga_total_pajak * $percent_dp;
-                }else{
-                  $harga_kid = ($harga_16 * $percent_kid) * $kid;
-                  $harga_total = $harga_old + $harga_kid;
-                  $harga_total_pajak = ($harga_total * $percent_pajak) + $harga_total ;
-                  $harga_dp = $harga_total_pajak * $percent_dp;
-                }
-            }
-            else if($total_peserta <= 17){
-              $harga_old = $harga_17 * $old;
-              if($kid == 0){
-                  $harga_kid = 0;
-                  $harga_total = $harga_old + $harga_kid;
-                  $harga_total_pajak = ($harga_total * $percent_pajak) + $harga_total ;
-                  $harga_dp = $harga_total_pajak * $percent_dp;
-                }else{
-                  $harga_kid = ($harga_17 * $percent_kid) * $kid;
-                  $harga_total = $harga_old + $harga_kid;
-                  $harga_total_pajak = ($harga_total * $percent_pajak) + $harga_total ;
-                  $harga_dp = $harga_total_pajak * $percent_dp;
-                }
-            }
-            else if($total_peserta <= 18){
-              $harga_old = $harga_18 * $old;
-              if($kid == 0){
-                  $harga_kid = 0;
-                  $harga_total = $harga_old + $harga_kid;
-                  $harga_total_pajak = ($harga_total * $percent_pajak) + $harga_total ;
-                  $harga_dp = $harga_total_pajak * $percent_dp;
-                }else{
-                  $harga_kid = ($harga_18 * $percent_kid) * $kid;
-                  $harga_total = $harga_old + $harga_kid;
-                  $harga_total_pajak = ($harga_total * $percent_pajak) + $harga_total ;
-                  $harga_dp = $harga_total_pajak * $percent_dp;
-                }
-            }
-            else if($total_peserta >= 19){
-              $harga_old = $harga_19 * $old;
-              if($kid == 0){
-                  $harga_kid = 0;
-                  $harga_total = $harga_old + $harga_kid;
-                  $harga_total_pajak = ($harga_total * $percent_pajak) + $harga_total ;
-                  $harga_dp = $harga_total_pajak * $percent_dp;
-                }else{
-                  $harga_kid = ($harga_19 * $percent_kid) * $kid;
-                  $harga_total = $harga_old + $harga_kid;
-                  $harga_total_pajak = ($harga_total * $percent_pajak) + $harga_total ;
-                  $harga_dp = $harga_total_pajak * $percent_dp;
-                }
-            }
-            else{
-              $harga_old = 'Apakah inputan sudah benar?';
-              $harga_kid = "Apakah inputan sudah benar?";
-            }
+          @$old = $_REQUEST['old'];
+          @$kid = $_REQUEST['kid'];
+          @$paket = $_REQUEST['paket'];
+          @$gambar = $_REQUEST['gambar'];
+          @$tipe = $_REQUEST['tipe'];
+          @$durasi = $_REQUEST['durasi'];
+          @$date = $_REQUEST['date'];
 
-            function rupiah($angka){
-	
-              $hasil_rupiah = "Rp " . number_format($angka,2,',','.');
-              return $hasil_rupiah;
-            
+          $harga_old;
+          $harga_kid;
+          $harga_total;
+          $harga_total_pajak;
+          $harga_dp;
+          @$total_peserta = $old + $kid;
+
+          if ($old == null) {
+            $old = 0;
+          }
+
+          if ($kid == null) {
+            $kid = 0;
+          }
+
+          if ($date == null) {
+            $date = "Tolong pilih tanggal*";
+          }
+
+          if ($paket == null) {
+            $durasi = "Pilih paket yang anda inginkan*";
+            $tipe = "Pilih paket yang anda inginkan*";
+            $paket = "Paket";
+          }
+
+          if ($total_peserta <= 2) {
+            $harga_old = $harga_2 * $old;
+            if ($kid == 0) {
+              $harga_kid = 0;
+              $harga_total = $harga_old + $harga_kid;
+              $harga_total_pajak = ($harga_total * $percent_pajak) + $harga_total;
+              $harga_dp = $harga_total_pajak * $percent_dp;
+            } else {
+              $harga_kid = ($harga_2 * $percent_kid) * $kid;
+              $harga_total = $harga_old + $harga_kid;
+              $harga_total_pajak = ($harga_total * $percent_pajak) + $harga_total;
+              $harga_dp = $harga_total_pajak * $percent_dp;
             }
+          } else if ($total_peserta <= 3) {
+            $harga_old = $harga_3 * $old;
+            if ($kid == 0) {
+              $harga_kid = 0;
+              $harga_total = $harga_old + $harga_kid;
+              $harga_total_pajak = ($harga_total * $percent_pajak) + $harga_total;
+              $harga_dp = $harga_total_pajak * $percent_dp;
+            } else {
+              $harga_kid = ($harga_3 * $percent_kid) * $kid;
+              $harga_total = $harga_old + $harga_kid;
+              $harga_total_pajak = ($harga_total * $percent_pajak) + $harga_total;
+              $harga_dp = $harga_total_pajak * $percent_dp;
+            }
+          } else if ($total_peserta <= 4) {
+            $harga_old = $harga_4 * $old;
+            if ($kid == 0) {
+              $harga_kid = 0;
+              $harga_total = $harga_old + $harga_kid;
+              $harga_total_pajak = ($harga_total * $percent_pajak) + $harga_total;
+              $harga_dp = $harga_total_pajak * $percent_dp;
+            } else {
+              $harga_kid = ($harga_4 * $percent_kid) * $kid;
+              $harga_total = $harga_old + $harga_kid;
+              $harga_total_pajak = ($harga_total * $percent_pajak) + $harga_total;
+              $harga_dp = $harga_total_pajak * $percent_dp;
+            }
+          } else if ($total_peserta <= 5) {
+            $harga_old = $harga_5 * $old;
+            if ($kid == 0) {
+              $harga_kid = 0;
+              $harga_total = $harga_old + $harga_kid;
+              $harga_total_pajak = ($harga_total * $percent_pajak) + $harga_total;
+              $harga_dp = $harga_total_pajak * $percent_dp;
+            } else {
+              $harga_kid = ($harga_5 * $percent_kid) * $kid;
+              $harga_total = $harga_old + $harga_kid;
+              $harga_total_pajak = ($harga_total * $percent_pajak) + $harga_total;
+              $harga_dp = $harga_total_pajak * $percent_dp;
+            }
+          } else if ($total_peserta <= 6) {
+            $harga_old = $harga_6 * $old;
+            if ($kid == 0) {
+              $harga_kid = 0;
+              $harga_total = $harga_old + $harga_kid;
+              $harga_total_pajak = ($harga_total * $percent_pajak) + $harga_total;
+              $harga_dp = $harga_total_pajak * $percent_dp;
+            } else {
+              $harga_kid = ($harga_6 * $percent_kid) * $kid;
+              $harga_total = $harga_old + $harga_kid;
+              $harga_total_pajak = ($harga_total * $percent_pajak) + $harga_total;
+              $harga_dp = $harga_total_pajak * $percent_dp;
+            }
+          } else if ($total_peserta <= 7) {
+            $harga_old = $harga_7 * $old;
+            if ($kid == 0) {
+              $harga_kid = 0;
+              $harga_total = $harga_old + $harga_kid;
+              $harga_total_pajak = ($harga_total * $percent_pajak) + $harga_total;
+              $harga_dp = $harga_total_pajak * $percent_dp;
+            } else {
+              $harga_kid = ($harga_7 * $percent_kid) * $kid;
+              $harga_total = $harga_old + $harga_kid;
+              $harga_total_pajak = ($harga_total * $percent_pajak) + $harga_total;
+              $harga_dp = $harga_total_pajak * $percent_dp;
+            }
+          } else if ($total_peserta <= 8) {
+            $harga_old = $harga_8 * $old;
+            if ($kid == 0) {
+              $harga_kid = 0;
+              $harga_total = $harga_old + $harga_kid;
+              $harga_total_pajak = ($harga_total * $percent_pajak) + $harga_total;
+              $harga_dp = $harga_total_pajak * $percent_dp;
+            } else {
+              $harga_kid = ($harga_8 * $percent_kid) * $kid;
+              $harga_total = $harga_old + $harga_kid;
+              $harga_total_pajak = ($harga_total * $percent_pajak) + $harga_total;
+              $harga_dp = $harga_total_pajak * $percent_dp;
+            }
+          } else if ($total_peserta <= 9) {
+            $harga_old = $harga_9 * $old;
+            if ($kid == 0) {
+              $harga_kid = 0;
+              $harga_total = $harga_old + $harga_kid;
+              $harga_total_pajak = ($harga_total * $percent_pajak) + $harga_total;
+              $harga_dp = $harga_total_pajak * $percent_dp;
+            } else {
+              $harga_kid = ($harga_9 * $percent_kid) * $kid;
+              $harga_total = $harga_old + $harga_kid;
+              $harga_total_pajak = ($harga_total * $percent_pajak) + $harga_total;
+              $harga_dp = $harga_total_pajak * $percent_dp;
+            }
+          } else if ($total_peserta <= 10) {
+            $harga_old = $harga_10 * $old;
+            if ($kid == 0) {
+              $harga_kid = 0;
+              $harga_total = $harga_old + $harga_kid;
+              $harga_total_pajak = ($harga_total * $percent_pajak) + $harga_total;
+              $harga_dp = $harga_total_pajak * $percent_dp;
+            } else {
+              $harga_kid = ($harga_10 * $percent_kid) * $kid;
+              $harga_total = $harga_old + $harga_kid;
+              $harga_total_pajak = ($harga_total * $percent_pajak) + $harga_total;
+              $harga_dp = $harga_total_pajak * $percent_dp;
+            }
+          } else if ($total_peserta <= 11) {
+            $harga_old = $harga_11 * $old;
+            if ($kid == 0) {
+              $harga_kid = 0;
+              $harga_total = $harga_old + $harga_kid;
+              $harga_total_pajak = ($harga_total * $percent_pajak) + $harga_total;
+              $harga_dp = $harga_total_pajak * $percent_dp;
+            } else {
+              $harga_kid = ($harga_11 * $percent_kid) * $kid;
+              $harga_total = $harga_old + $harga_kid;
+              $harga_total_pajak = ($harga_total * $percent_pajak) + $harga_total;
+              $harga_dp = $harga_total_pajak * $percent_dp;
+            }
+          } else if ($total_peserta <= 12) {
+            $harga_old = $harga_12 * $old;
+            if ($kid == 0) {
+              $harga_kid = 0;
+              $harga_total = $harga_old + $harga_kid;
+              $harga_total_pajak = ($harga_total * $percent_pajak) + $harga_total;
+              $harga_dp = $harga_total_pajak * $percent_dp;
+            } else {
+              $harga_kid = ($harga_12 * $percent_kid) * $kid;
+              $harga_total = $harga_old + $harga_kid;
+              $harga_total_pajak = ($harga_total * $percent_pajak) + $harga_total;
+              $harga_dp = $harga_total_pajak * $percent_dp;
+            }
+          } else if ($total_peserta <= 13) {
+            $harga_old = $harga_13 * $old;
+            if ($kid == 0) {
+              $harga_kid = 0;
+              $harga_total = $harga_old + $harga_kid;
+              $harga_total_pajak = ($harga_total * $percent_pajak) + $harga_total;
+              $harga_dp = $harga_total_pajak * $percent_dp;
+            } else {
+              $harga_kid = ($harga_13 * $percent_kid) * $kid;
+              $harga_total = $harga_old + $harga_kid;
+              $harga_total_pajak = ($harga_total * $percent_pajak) + $harga_total;
+              $harga_dp = $harga_total_pajak * $percent_dp;
+            }
+          } else if ($total_peserta <= 14) {
+            $harga_old = $harga_14 * $old;
+            if ($kid == 0) {
+              $harga_kid = 0;
+              $harga_total = $harga_old + $harga_kid;
+              $harga_total_pajak = ($harga_total * $percent_pajak) + $harga_total;
+              $harga_dp = $harga_total_pajak * $percent_dp;
+            } else {
+              $harga_kid = ($harga_14 * $percent_kid) * $kid;
+              $harga_total = $harga_old + $harga_kid;
+              $harga_total_pajak = ($harga_total * $percent_pajak) + $harga_total;
+              $harga_dp = $harga_total_pajak * $percent_dp;
+            }
+          } else if ($total_peserta <= 15) {
+            $harga_old = $harga_15 * $old;
+            if ($kid == 0) {
+              $harga_kid = 0;
+              $harga_total = $harga_old + $harga_kid;
+              $harga_total_pajak = ($harga_total * $percent_pajak) + $harga_total;
+              $harga_dp = $harga_total_pajak * $percent_dp;
+            } else {
+              $harga_kid = ($harga_15 * $percent_kid) * $kid;
+              $harga_total = $harga_old + $harga_kid;
+              $harga_total_pajak = ($harga_total * $percent_pajak) + $harga_total;
+              $harga_dp = $harga_total_pajak * $percent_dp;
+            }
+          } else if ($total_peserta <= 16) {
+            $harga_old = $harga_16 * $old;
+            if ($kid == 0) {
+              $harga_kid = 0;
+              $harga_total = $harga_old + $harga_kid;
+              $harga_total_pajak = ($harga_total * $percent_pajak) + $harga_total;
+              $harga_dp = $harga_total_pajak * $percent_dp;
+            } else {
+              $harga_kid = ($harga_16 * $percent_kid) * $kid;
+              $harga_total = $harga_old + $harga_kid;
+              $harga_total_pajak = ($harga_total * $percent_pajak) + $harga_total;
+              $harga_dp = $harga_total_pajak * $percent_dp;
+            }
+          } else if ($total_peserta <= 17) {
+            $harga_old = $harga_17 * $old;
+            if ($kid == 0) {
+              $harga_kid = 0;
+              $harga_total = $harga_old + $harga_kid;
+              $harga_total_pajak = ($harga_total * $percent_pajak) + $harga_total;
+              $harga_dp = $harga_total_pajak * $percent_dp;
+            } else {
+              $harga_kid = ($harga_17 * $percent_kid) * $kid;
+              $harga_total = $harga_old + $harga_kid;
+              $harga_total_pajak = ($harga_total * $percent_pajak) + $harga_total;
+              $harga_dp = $harga_total_pajak * $percent_dp;
+            }
+          } else if ($total_peserta <= 18) {
+            $harga_old = $harga_18 * $old;
+            if ($kid == 0) {
+              $harga_kid = 0;
+              $harga_total = $harga_old + $harga_kid;
+              $harga_total_pajak = ($harga_total * $percent_pajak) + $harga_total;
+              $harga_dp = $harga_total_pajak * $percent_dp;
+            } else {
+              $harga_kid = ($harga_18 * $percent_kid) * $kid;
+              $harga_total = $harga_old + $harga_kid;
+              $harga_total_pajak = ($harga_total * $percent_pajak) + $harga_total;
+              $harga_dp = $harga_total_pajak * $percent_dp;
+            }
+          } else if ($total_peserta >= 19) {
+            $harga_old = $harga_19 * $old;
+            if ($kid == 0) {
+              $harga_kid = 0;
+              $harga_total = $harga_old + $harga_kid;
+              $harga_total_pajak = ($harga_total * $percent_pajak) + $harga_total;
+              $harga_dp = $harga_total_pajak * $percent_dp;
+            } else {
+              $harga_kid = ($harga_19 * $percent_kid) * $kid;
+              $harga_total = $harga_old + $harga_kid;
+              $harga_total_pajak = ($harga_total * $percent_pajak) + $harga_total;
+              $harga_dp = $harga_total_pajak * $percent_dp;
+            }
+          } else {
+            $harga_old = 'Apakah inputan sudah benar?';
+            $harga_kid = "Apakah inputan sudah benar?";
+          }
+
+          function rupiah($angka)
+          {
+
+            $hasil_rupiah = "Rp " . number_format($angka, 2, ',', '.');
+            return $hasil_rupiah;
+          }
           ?>
           <div class="panel panel-default">
             <div class="panel-body">
@@ -767,7 +749,6 @@
         }
       });
     });
-
   </script>
 
   <!-- //---API google recaptcha--// -->
@@ -801,24 +782,23 @@
       console.log(data);
       e.preventDefault();
     }
-
   </script>
   <script>
     function
-
   </script>
 
   <!-- //---PHP mailer Pemensanan--// -->
   <?php
-      use PHPMailer\PHPMailer\PHPMailer;
 
-      require 'vendor/autoload.php';
+  use PHPMailer\PHPMailer\PHPMailer;
 
-      $secret = '6LfpmK8UAAAAALK5qi5unR40vHhbiNcDrHh71KYi'; // CHANGE THIS TO YOUR OWN!
-      $url = "https://www.google.com/recaptcha/api/siteverify?secret=$secret&response=".$_POST['g-recaptcha-response'];
-      $verify = json_decode(file_get_contents($url));
+  require 'vendor/autoload.php';
 
-      ?>
+  $secret = '6LfpmK8UAAAAALK5qi5unR40vHhbiNcDrHh71KYi'; // CHANGE THIS TO YOUR OWN!
+  $url = "https://www.google.com/recaptcha/api/siteverify?secret=$secret&response=" . $_POST['g-recaptcha-response'];
+  $verify = json_decode(file_get_contents($url));
+
+  ?>
 
   <script type="text/javascript">
     $('.js-packdetail-destination-slider').owlCarousel({
@@ -850,7 +830,6 @@
         }
       }
     });
-
   </script>
   <script type="text/javascript">
     $('.js-package-facility-slider').owlCarousel({
@@ -869,7 +848,6 @@
         }
       }
     });
-
   </script>
   <script type="text/javascript">
     $('.js-content-testi-slider').owlCarousel({
@@ -891,7 +869,6 @@
         }
       }
     });
-
   </script>
   <script type="text/javascript">
     $('.js-photo-slider').owlCarousel({
@@ -922,7 +899,6 @@
         }
       }
     });
-
   </script>
 
   <script type="text/javascript" src="vendor/scrolltofixed.1.0.8/jquery-scrolltofixed-min.js"></script>
@@ -940,7 +916,6 @@
         }
       });
     });
-
   </script>
 
   <script type="text/javascript" src="vendor/moment.2.0.0/moment.min.js"></script>
@@ -951,7 +926,6 @@
         format: 'L'
       });
     });
-
   </script>
 
   <!-- Photo Gallery Footer -->
@@ -976,7 +950,6 @@
         console.log(data);
       }
     });
-
   </script>
 
   <!-- Cek Tiket -->
@@ -1000,16 +973,15 @@
 
     //  }
     // });
-
   </script>
 
 </body>
 <?php
-  // $btn=$_POST[document.getElementById("btnsubmitticket")];
+// $btn=$_POST[document.getElementById("btnsubmitticket")];
 
-  // if($btn){
-  //   header("Location:https://stackoverflow.com/questions/768431/how-do-i-make-a-redirect-in-php");
-  // }
-  ?>
+// if($btn){
+//   header("Location:https://stackoverflow.com/questions/768431/how-do-i-make-a-redirect-in-php");
+// }
+?>
 
 </html>

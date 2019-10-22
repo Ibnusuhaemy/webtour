@@ -928,7 +928,7 @@
             </div>
           </div>
 
-          <div class="col-xs-12 price-form-socmed">
+          <div class="price-form-socmed">
             <p class="price-socmed-caption">Bagikan ?</p>
             <ul class="list-inline">
               <li><a href="#"><span class="jgicon icon-facebook"></span></a></li>
@@ -944,9 +944,7 @@
           <!-- Price -->
           <div class="panel panel-default panel-complete content-packdetail-panel packdetail-price js-packdetail-price panel-left">
             <div class="panel-heading panel-complete-heading panel-heading-blue" role="tab" id="heading-facility">
-              <h4 class="panel-title panel-complete-title">
-                <a role="button">Cek Harga Paket</a>
-              </h4>
+              <h4 class="panel-title panel-complete-title">Cek Harga Paket</h4>
             </div>
             <div id="js-package-price" class="panel-collapse collapse in">
               <div class="panel-body panel-price">

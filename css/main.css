@@ -247,7 +247,7 @@ p {
   text-align: right;
 }
 
-.cek-harga{  
+.cek-harga{
   text-align: right;
 }
 
@@ -877,7 +877,7 @@ p {
 
 .content-packdetail .packdetail-contents.panel-heading-faqs{
   border: none;
-  padding-bottom: 0;  
+  padding-bottom: 0;
 }
 
 .panel-heading-faqs .panel-title.panel-complete-title{
@@ -1607,7 +1607,7 @@ p {
 
 .packdetail-info .media-heading {
   margin-bottom: 0;
-  font-size: 14px;
+  font-size: 16px;
   display: inline;
 }
 
@@ -1901,7 +1901,7 @@ p {
 }
 
 .packdetail-price .packdetail-price-form {
-  margin-top: 5px;
+  margin-top: 16px;
 }
 
 .packdetail-price-form .control-label {
@@ -3200,6 +3200,11 @@ p {
     margin-bottom: 10px;
   }
 
+  .price-form-socmed {
+    margin-top: 20px;
+    margin-bottom: 15px;
+  }
+
   /* --- ## Contact ## --- */
   /* - Contact Left - */
   .content-contact .contact-left {
@@ -3356,6 +3361,7 @@ p {
   /* - price - */
   .packdetail-right {
     position: relative;
+    top: 0;
   }
 
   /*
@@ -3627,7 +3633,7 @@ p {
 
   /* - Jumbotron - */
   .title-jumbotron{
-    font-size: 26px;  
+    font-size: 26px;
     top: 55%;
   }
 
@@ -3753,6 +3759,7 @@ p {
   }
 
   /* - Content - */
+  .packdetail-info .media-heading,
   .packdetail-info .media-body p {
     font-size: 14px;
   }
@@ -3806,16 +3813,27 @@ p {
   }
 
   /* Price */
+  .packdetail-price-form .control-label {
+    margin-bottom: 5px;
+  }
+
+  .packdetail-right .panel-price-form-inner {
+    padding-bottom: 0;
+  }
   .packdetail-price-form .form-group {
-    margin-bottom: 30px;
+    margin-bottom: 10px;
   }
 
   .packdetail-price-form .btn {
-    margin-bottom: 30px;
+    margin-bottom: 10px;
   }
 
   .packdetail-price-form .price-form-socmed {
     text-align: left;
+  }
+
+  .packdetail-right .panel-price-form-btn-box {
+    padding-bottom: 15px;
   }
 
   /* Testimonials */
@@ -4065,7 +4083,7 @@ p {
     padding-left: 15px;
     padding-right: 0;
   }
-  
+
   .packdetail-facility .facility-list .facility-item{
     width: calc(100% / 1);
     font-size: 14px;
@@ -4468,11 +4486,11 @@ p {
     border-width: 2px;
   }
 
-  
+
   .content-home-package .panel{
     margin-bottom: 5px;
   }
-  
+
   .content-home-package .owl-nav{
     padding-top: 5px;
   }

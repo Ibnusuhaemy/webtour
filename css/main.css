@@ -4061,13 +4061,14 @@ p {
   }
 
   .content-packdetail .packdetail-contents {
-    padding-top: 20px;
-    padding-bottom: 20px;;
+    padding-top: 15px;
+    padding-bottom: 15px;
   }
 
   .content-packdetail .content-title{
     font-size: 16px;
     font-weight: 700;
+    margin-bottom: 5px;
   }
 
   .panel-complete .panel-heading-blue a{
@@ -4077,6 +4078,10 @@ p {
   .content-packdetail .title-package {
     font-size: 40px;
     text-align: center;
+  }
+
+  .packdetail-facility .facility-list {
+    margin-bottom: 0;
   }
 
   .packdetail-facility .facility-list .col-xs-4{
@@ -4093,8 +4098,13 @@ p {
     font-size: 16px;
   }
 
+  .js-packdetail-destination-thumbnail .slick-track {
+    padding-bottom: 10px;
+  }
+
   .content-packdetail .packdetail-contents.destination-section {
     padding-top: 10px;
+    padding-bottom: 10px;
   }
 
   /* --- ## Blog Detail ## --- */

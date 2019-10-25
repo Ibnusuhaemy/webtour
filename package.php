@@ -1464,13 +1464,218 @@
   <script type="text/javascript">
     function sum() {
 
-      // var old = document.form.old.value;
-      // var kid = document.form.kid.value;
-      // var var_old = Number(old);
-      // var var_kid = Number(kid);
-      // console.log(var_kid);
-      // var total_peserta = var_old + var_kid;
-      document.getElementById('total').value = "halo";
+      var old = document.form.old.value;
+      var kid = document.form.kid.value;
+      var var_old = Number(old);
+      var var_kid = Number(kid);
+      var harga_2 = 5330000;
+      var harga_3 = 4330000;
+      var harga_4 = 3880000;
+      var harga_5 = 3620000;
+      var harga_6 = 3440000;
+      var harga_7 = 3420000;
+      var harga_8 = 3410000;
+      var harga_9 = 3400000;
+      var harga_10 = 3390000;
+      var harga_11 = 3380000;
+      var harga_12 = 3370000;
+      var harga_13 = 3360000;
+      var harga_14 = 3350000;
+      var harga_15 = 3340000;
+      var harga_16 = 3330000;
+      var harga_17 = 3320000;
+      var harga_18 = 3310000;
+      var harga_19 = 3300000;
+      var harga;
+      var percent_kid = 75 / 100;
+      var percent_pajak = 2 / 100;
+      var percent_dp = 40 / 100;
+      var harga_old;
+      var harga_kid;
+      var harga_total;
+      var harga_total_pajak;
+      var harga_dp;
+      var total_peserta = var_old + var_kid;
+
+      if (total_peserta <= 2) {
+        harga_old = harga_2 * var_old;
+        if (var_kid == 0) {
+          harga_kid = 0;
+          harga = harga_kid + harga_old;
+        } else {
+          harga_kid = (harga_2 * percent_kid) * var_kid;
+          harga = harga_kid + harga_old;
+        }
+      } else if (total_peserta <= 3) {
+        harga_old = harga_3 * var_old;
+        if (var_kid == 0) {
+          harga_kid = 0;
+          harga = harga_kid + harga_old;
+        } else {
+          harga_kid = (harga_3 * percent_kid) * var_kid;
+          harga = harga_kid + harga_old;
+        }
+      } else if (total_peserta <= 4) {
+        harga_old = harga_4 * var_old;
+        if (var_kid == 0) {
+          harga_kid = 0;
+          harga = harga_kid + harga_old;
+        } else {
+          harga_kid = (harga_4 * percent_kid) * var_kid;
+          harga = harga_kid + harga_old;
+        }
+      } else if (total_peserta <= 5) {
+        harga_old = harga_5 * var_old;
+        if (var_kid == 0) {
+          harga_kid = 0;
+          harga = harga_kid + harga_old;
+        } else {
+          harga_kid = (harga_5 * percent_kid) * var_kid;
+          harga = harga_kid + harga_old;
+        }
+      } else if (total_peserta <= 6) {
+        harga_old = harga_6 * var_old;
+        if (var_kid == 0) {
+          harga_kid = 0;
+          harga = harga_kid + harga_old;
+        } else {
+          harga_kid = (harga_6 * percent_kid) * var_kid;
+          harga = harga_kid + harga_old;
+        }
+      } else if (total_peserta <= 7) {
+        harga_old = harga_7 * var_old;
+        if (var_kid == 0) {
+          harga_kid = 0;
+          harga = harga_kid + harga_old;
+        } else {
+          harga_kid = (harga_7 * percent_kid) * var_kid;
+          harga = harga_kid + harga_old;
+        }
+      } else if (total_peserta <= 8) {
+        harga_old = harga_8 * var_old;
+        if (var_kid == 0) {
+          harga_kid = 0;
+          harga = harga_kid + harga_old;
+        } else {
+          harga_kid = (harga_8 * percent_kid) * var_kid;
+          harga = harga_kid + harga_old;
+        }
+      } else if (total_peserta <= 9) {
+        harga_old = harga_9 * var_old;
+        if (var_kid == 0) {
+          harga_kid = 0;
+          harga = harga_kid + harga_old;
+        } else {
+          harga_kid = (harga_9 * percent_kid) * var_kid;
+          harga = harga_kid + harga_old;
+        }
+      } else if (total_peserta <= 10) {
+        harga_old = harga_10 * var_old;
+        if (var_kid == 0) {
+          harga_kid = 0;
+          harga = harga_kid + harga_old;
+        } else {
+          harga_kid = (harga_10 * percent_kid) * var_kid;
+          harga = harga_kid + harga_old;
+        }
+      } else if (total_peserta <= 11) {
+        harga_old = harga_11 * var_old;
+        if (var_kid == 0) {
+          harga_kid = 0;
+          harga = harga_kid + harga_old;
+        } else {
+          harga_kid = (harga_11 * percent_kid) * var_kid;
+          harga = harga_kid + harga_old;
+        }
+      } else if (total_peserta <= 12) {
+        harga_old = harga_12 * var_old;
+        if (var_kid == 0) {
+          harga_kid = 0;
+          harga = harga_kid + harga_old;
+        } else {
+          harga_kid = (harga_12 * percent_kid) * var_kid;
+          harga = harga_kid + harga_old;
+        }
+      } else if (total_peserta <= 13) {
+        harga_old = harga_13 * var_old;
+        if (var_kid == 0) {
+          harga_kid = 0;
+          harga = harga_kid + harga_old;
+        } else {
+          harga_kid = (harga_13 * percent_kid) * var_kid;
+          harga = harga_kid + harga_old;
+        }
+      } else if (total_peserta <= 14) {
+        harga_old = harga_14 * var_old;
+        if (var_kid == 0) {
+          harga_kid = 0;
+          harga = harga_kid + harga_old;
+        } else {
+          harga_kid = (harga_14 * percent_kid) * var_kid;
+          harga = harga_kid + harga_old;
+        }
+      } else if (total_peserta <= 15) {
+        harga_old = harga_15 * var_old;
+        if (var_kid == 0) {
+          harga_kid = 0;
+          harga = harga_kid + harga_old;
+        } else {
+          harga_kid = (harga_15 * percent_kid) * var_kid;
+          harga = harga_kid + harga_old;
+        }
+      } else if (total_peserta <= 16) {
+        harga_old = harga_16 * var_old;
+        if (var_kid == 0) {
+          harga_kid = 0;
+          harga = harga_kid + harga_old;
+        } else {
+          harga_kid = (harga_16 * percent_kid) * var_kid;
+          harga = harga_kid + harga_old;
+        }
+      } else if (total_peserta <= 17) {
+        harga_old = harga_17 * var_old;
+        if (var_kid == 0) {
+          harga_kid = 0;
+          harga = harga_kid + harga_old;
+        } else {
+          harga_kid = (harga_17 * percent_kid) * var_kid;
+          harga = harga_kid + harga_old;
+        }
+      } else if (total_peserta <= 18) {
+        harga_old = harga_18 * var_old;
+        if (var_kid == 0) {
+          harga_kid = 0;
+          harga = harga_kid + harga_old;
+        } else {
+          harga_kid = (harga_18 * percent_kid) * var_kid;
+          harga = harga_kid + harga_old;
+        }
+      } else if (total_peserta >= 19) {
+        harga_old = harga_19 * var_old;
+        if (var_kid == 0) {
+          harga_kid = 0;
+          harga = harga_kid + harga_old;
+        } else {
+          harga_kid = (harga_19 * percent_kid) * var_kid;
+          harga = harga_kid + harga_old;
+        }
+      } else {
+        harga = "Tolong masukkan jumlah peserta!";
+      }
+
+      var number_string = harga.toString(),
+        sisa = number_string.length % 3,
+        rupiah = number_string.substr(0, sisa),
+        ribuan = number_string.substr(sisa).match(/\d{3}/g);
+
+      if (ribuan) {
+        separator = sisa ? '.' : '';
+        rupiah += separator + ribuan.join('.');
+        rp = 'Rp ' + rupiah;
+      }
+
+
+      document.getElementById('total').value = rp;
       // return total_peserta;
       // document.getElementById('isi').innerHTML = "halo";
 

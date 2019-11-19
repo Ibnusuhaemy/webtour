@@ -470,7 +470,7 @@
                         <img src="images/testimonials/7.jpg" width="3000" height="3000" alt="Testimonial Thomas Budi di Jagadtour" class="media-object testi-slider-photo">
                       </a>
                       <div class="home-comment">
-                        <h4 class="media-heading testi-slider-name">Helen - <span class="testi-slider-city">Jakarta Barat</span></h4>
+                        <h4 class="media-heading testi-slider-name">Pangestu - <span class="testi-slider-city">Medan</span></h4>
                         <p class="testi-slider-statement">
                           Saya baru pertama kali di Malang dan kami pasrahkan semua kepada jagad tour. well, semua berjalan dengan lancar dan
                           menarik untuk diceritakan. Semoga Jagad Tour makin jaya dan laris manis
@@ -810,7 +810,7 @@
                         <img src="images/testimonials/23.jpeg" width="720" height="720" alt="Testimonial Thomas Budi di Jagadtour" class="media-object testi-slider-photo">
                       </a>
                       <div class="home-comment">
-                        <h4 class="media-heading testi-slider-name">Koh Andrean - <span class="testi-slider-city">Jakarta</span></h4>
+                        <h4 class="media-heading testi-slider-name">Wina - <span class="testi-slider-city">Medan</span></h4>
                         <p class="testi-slider-statement">
                           Terimakasih sudah meberikan pelayanan yang istimewa bagi kami. Malang memang wenak tenan. Terima mas andy dan mas
                           asep yang sudah menemani kami selama 3 hari ini. Kami semuanya puas dan recommended
@@ -858,27 +858,6 @@
                         <p class="testi-slider-statement">
                           Biarpun kami hanya mendonasikan pakaian yang sudah tidak kami pakai, kami merasa berarti untuk sesama. Pertahankan
                           terus jagad tour atas pelayanannya. Teruslah berinovasi untuk selalu menjadi yang terbaik
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="item">
-              <div class="panel panel-default testi-slider-item">
-                <div class="panel-body">
-                  <div class="media testi-slider-media">
-                    <div class="media-body media-middle">
-                      <a class="home" href="#">
-                        <img src="images/testimonials/13.jpg" width="2591" height="2591" alt="Testimonial Thomas Budi di Jagadtour" class="media-object testi-slider-photo">
-                      </a>
-                      <div class="home-comment">
-                        <h4 class="media-heading testi-slider-name">Alex</h4>
-                        <p class="testi-slider-city">Jakarta</p>
-                        <p class="testi-slider-statement">
-                          Customer servicenya asik bisa memberi referensi dan saran untuk rombongan kita yang notabenenya pensiunan, semua
-                          terorganiser dengan baik dan servicenya juga OK. Kami semuanya puas
                         </p>
                       </div>
                     </div>

@@ -1303,7 +1303,7 @@ p {
 
 .home-choose-founder .panel-body {
   width: 100%;
-  max-width: 300px;
+  max-width: 360px;
 }
 
 .home-choose-founder .choose-founder-title {
@@ -2866,6 +2866,11 @@ p {
   margin-top: 15px;
 }
 
+/* --- ## Checkout ## --- */
+.content-checkout {
+  padding-top: 30px;
+}
+
 /* --- ## Footer ## --- */
 /* - Footer Instagram Slider - */
 .footer .footer-photo {
@@ -3082,6 +3087,67 @@ p {
   padding-top: 44px;
 }
 
+.family-trip {
+  display: inline-block;
+  text-align: center;
+  margin-bottom: 30px;
+  border: 1px solid #0077c2;
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+.family-trip--orange {
+  border-color: #ff681f;
+}
+
+.family-trip li {
+  margin-bottom: 0;
+  border-right: 1px solid #0077c2;
+}
+
+.family-trip--orange li {
+  border-right-color: #ff681f;
+}
+
+.family-trip li:last-child{
+  margin-right: -1px;
+}
+
+.family-trip li:hover{
+  background-color: #eee;
+}
+
+.family-trip > li >a:focus,
+.family-trip > li >a:hover{
+  background-color: transparent;
+}
+
+.family-trip li a {
+  font-family: "DINNextLTPro-Regular", Fallback, sans-serif;
+  font-size: 16px;
+  border: none;
+  margin-right: 0;
+  border-radius: 0;
+}
+
+.family-trip--orange li a {
+  color: #ff681f;
+}
+
+.family-trip > li.active > a,
+.family-trip > li.active > a:focus,
+.family-trip > li.active > a:hover{
+  border: none;
+  background-color: #0077c2;
+  color: #fff;
+}
+
+.family-trip--orange > li.active > a,
+.family-trip--orange > li.active > a:focus,
+.family-trip--orange > li.active > a:hover{
+  background-color: #ff681f;
+}
+
 
 /* --- ## FAQ ## --- */
 .content-faq .content-packdetail-panel {
@@ -3142,6 +3208,14 @@ p {
   .hero-slider .owl-nav.disabled + .owl-dots {
     max-width: 970px;
     text-align: center;
+  }
+
+  .content-home-choose .home-choose-founder {
+    padding: 20px 25px;
+  }
+
+  .home-choose-founder .panel-body {
+    max-width: 250px;
   }
 
   /* - Testimonial - */
@@ -3312,9 +3386,22 @@ p {
   }
 
   /* - Why Choose Us - */
+  .content-home-choose .home-choose-founder {
+    overflow: hidden;
+  }
+
   .content-home-choose .home-choose-media {
     margin-bottom: 20px;
     margin-top: 0;
+  }
+
+  .home-choose-founder .panel-body {
+    max-width: 450px;
+  }
+
+  .home-choose-founder .choose-founder-photo {
+    bottom: auto;
+    top: -40px;
   }
 
 
@@ -3612,6 +3699,10 @@ p {
   /* --- ## Home Page ## --- */
   .hero-video-content {
     bottom: 0;
+  }
+
+  .home-choose-founder .panel-body {
+    max-width: 350px;
   }
 
   /* --- ## Package Page ## --- */
@@ -4801,6 +4892,11 @@ p {
   .content-gallery-list img {
     /*    max-height: 200px;*/
     /*    width: auto;*/
+  }
+
+  /* --- ## FAQ ## --- */
+  .family-trip li a {
+    font-size: 14px;
   }
 
   /* --- ## FAQ ## --- */

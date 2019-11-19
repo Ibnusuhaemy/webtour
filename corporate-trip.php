@@ -101,136 +101,29 @@
     </div>
   </div>
 
-  <!-- 1 day -->
+  <!-- Tabs -->
   <section class="content content-home-package">
     <div class="container">
-      <div class="row">
-        <div class="col-xs-12">
-          <h2 class="trip content-title">1 day</h2>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-xs-12">
-          <div class="owl-carousel corporate-one js-corporate-one owl-theme">
-            <div class="item">
-              <div class="packdetail-packother card-single">
-                <a href="package.php">
-                  <div class="panel panel-default card-single">
-                    <div class="panel-body card-single-body">
-                      <img src="images/thumbnails/jagadtour-bromo-sunrise.jpg" width="1035" height="642" alt="" class="img-responsive">
-                      <div class="card-single-caption">
-                        <p class="tag tag-orange card-single-tag">Family Trip</p>
-                        <p class="card-single-title">Bromo Sunrise Tour</p>
-                        <p class="card-single-text">1 Day</p>
-                      </div>
-                    </div>
-                  </div>
-                </a>
-              </div>
-            </div>
-            <div class="item">
-              <div class="packdetail-packother card-single">
-                <a href="package.php">
-                  <div class="panel panel-default card-single">
-                    <div class="panel-body card-single-body">
-                      <img src="images/thumbnails/jagadtour-bromo-sunrise.jpg" width="1035" height="642" alt="" class="img-responsive">
-                      <div class="card-single-caption">
-                        <p class="tag tag-orange card-single-tag">Family Trip</p>
-                        <p class="card-single-title">Bromo Sunrise Tour</p>
-                        <p class="card-single-text">1 Day</p>
-                      </div>
-                    </div>
-                  </div>
-                </a>
-              </div>
-            </div>
-            <div class="item">
-              <div class="packdetail-packother card-single">
-                <a href="package.php">
-                  <div class="panel panel-default card-single">
-                    <div class="panel-body card-single-body">
-                      <img src="images/thumbnails/jagadtour-bromo-sunrise.jpg" width="1035" height="642" alt="" class="img-responsive">
-                      <div class="card-single-caption">
-                        <p class="tag tag-orange card-single-tag">Family Trip</p>
-                        <p class="card-single-title">Tour Malang, Batu &amp; Bromo</p>
-                        <p class="card-single-text">4 Days 3 N</p>
-                      </div>
-                    </div>
-                  </div>
-                </a>
-              </div>
-            </div>
-            <div class="item">
-              <div class="packdetail-packother card-single">
-                <a href="package.php">
-                  <div class="panel panel-default card-single">
-                    <div class="panel-body card-single-body">
-                      <img src="images/thumbnails/jagadtour-rafting-songa.jpg" width="1035" height="642" alt="" class="img-responsive">
-                      <div class="card-single-caption">
-                        <p class="tag tag-orange card-single-tag">Corporate Trip</p>
-                        <p class="card-single-title">Rafting Songa Bromo &amp; Batu</p>
-                        <p class="card-single-text">3 Days 2 N</p>
-                      </div>
-                    </div>
-                  </div>
-                </a>
-              </div>
-            </div>
-            <div class="item">
-              <div class="packdetail-packother card-single">
-                <a href="package.php">
-                  <div class="panel panel-default card-single">
-                    <div class="panel-body card-single-body">
-                      <img src="images/thumbnails/jagadtour-rafting-songa.jpg" width="1035" height="642" alt="" class="img-responsive">
-                      <div class="card-single-caption">
-                        <p class="tag tag-orange card-single-tag">Corporate Trip</p>
-                        <p class="card-single-title">Tour Malang, Bromo, &amp; Batu</p>
-                        <p class="card-single-text">4 Days 3 N</p>
-                      </div>
-                    </div>
-                  </div>
-                </a>
-              </div>
-            </div>
-            <div class="item">
-              <div class="packdetail-packother card-single">
-                <a href="package.php">
-                  <div class="panel panel-default card-single">
-                    <div class="panel-body card-single-body">
-                      <img src="images/thumbnails/jagadtour-rafting-songa.jpg" width="1035" height="642" alt="" class="img-responsive">
-                      <div class="card-single-caption">
-                        <p class="tag tag-orange card-single-tag">Corporate Trip</p>
-                        <p class="card-single-title">Tour Museum Malang</p>
-                        <p class="card-single-text">3 Days 2 N</p>
-                      </div>
-                    </div>
-                  </div>
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-xs-12">
-          <hr class="package-separator">
-        </div>
-      </div>
-    </div>
-  </section>
 
-  <!-- 2 day -->
-  <section class="content content-home-package">
-    <div class="container">
+      <!-- Nav Tabs -->
       <div class="row">
-        <div class="col-xs-12">
-          <h2 class="trip content-title">2 day</h2>
+        <div class="col-lg-12 text-center">
+          <ul class="nav nav-tabs family-trip" role="tablist">
+            <li role="presentation" class="active"><a href="#one" aria-controls="home" role="tab" data-toggle="tab">1 Day</a></li>
+            <li role="presentation"><a href="#two" aria-controls="profile" role="tab" data-toggle="tab">2 Days</a></li>
+            <li role="presentation"><a href="#three" aria-controls="messages" role="tab" data-toggle="tab">3 Days</a></li>
+            <li role="presentation"><a href="#four" aria-controls="settings" role="tab" data-toggle="tab">4 Days</a></li>
+            <li role="presentation"><a href="#five" aria-controls="settings" role="tab" data-toggle="tab">5 Days</a></li>
+          </ul>
         </div>
       </div>
+
+      <!-- Tab Content -->
       <div class="row">
-        <div class="col-xs-12">
-          <div class="owl-carousel corporate-two js-corporate-two owl-theme">
-            <div class="item">
+        <div class="tab-content">
+
+          <div role="tabpanel" class="tab-pane fade in active" id="one">
+            <div class="col-lg-4 col-md-4 col-sm-6">
               <div class="packdetail-packother card-single">
                 <a href="package.php">
                   <div class="panel panel-default card-single">
@@ -246,7 +139,7 @@
                 </a>
               </div>
             </div>
-            <div class="item">
+            <div class="col-lg-4 col-md-4 col-sm-6">
               <div class="packdetail-packother card-single">
                 <a href="package.php">
                   <div class="panel panel-default card-single">
@@ -262,7 +155,7 @@
                 </a>
               </div>
             </div>
-            <div class="item">
+            <div class="col-lg-4 col-md-4 col-sm-6">
               <div class="packdetail-packother card-single">
                 <a href="package.php">
                   <div class="panel panel-default card-single">
@@ -270,56 +163,8 @@
                       <img src="images/thumbnails/jagadtour-bromo-sunrise.jpg" width="1035" height="642" alt="" class="img-responsive">
                       <div class="card-single-caption">
                         <p class="tag tag-orange card-single-tag">Family Trip</p>
-                        <p class="card-single-title">Tour Malang, Batu &amp; Bromo</p>
-                        <p class="card-single-text">4 Days 3 N</p>
-                      </div>
-                    </div>
-                  </div>
-                </a>
-              </div>
-            </div>
-            <div class="item">
-              <div class="packdetail-packother card-single">
-                <a href="package.php">
-                  <div class="panel panel-default card-single">
-                    <div class="panel-body card-single-body">
-                      <img src="images/thumbnails/jagadtour-rafting-songa.jpg" width="1035" height="642" alt="" class="img-responsive">
-                      <div class="card-single-caption">
-                        <p class="tag tag-orange card-single-tag">Corporate Trip</p>
-                        <p class="card-single-title">Rafting Songa Bromo &amp; Batu</p>
-                        <p class="card-single-text">3 Days 2 N</p>
-                      </div>
-                    </div>
-                  </div>
-                </a>
-              </div>
-            </div>
-            <div class="item">
-              <div class="packdetail-packother card-single">
-                <a href="package.php">
-                  <div class="panel panel-default card-single">
-                    <div class="panel-body card-single-body">
-                      <img src="images/thumbnails/jagadtour-rafting-songa.jpg" width="1035" height="642" alt="" class="img-responsive">
-                      <div class="card-single-caption">
-                        <p class="tag tag-orange card-single-tag">Corporate Trip</p>
-                        <p class="card-single-title">Tour Malang, Bromo, &amp; Batu</p>
-                        <p class="card-single-text">4 Days 3 N</p>
-                      </div>
-                    </div>
-                  </div>
-                </a>
-              </div>
-            </div>
-            <div class="item">
-              <div class="packdetail-packother card-single">
-                <a href="package.php">
-                  <div class="panel panel-default card-single">
-                    <div class="panel-body card-single-body">
-                      <img src="images/thumbnails/jagadtour-rafting-songa.jpg" width="1035" height="642" alt="" class="img-responsive">
-                      <div class="card-single-caption">
-                        <p class="tag tag-orange card-single-tag">Corporate Trip</p>
-                        <p class="card-single-title">Tour Museum Malang</p>
-                        <p class="card-single-text">3 Days 2 N</p>
+                        <p class="card-single-title">Bromo Sunrise Tour</p>
+                        <p class="card-single-text">1 Day</p>
                       </div>
                     </div>
                   </div>
@@ -327,13 +172,358 @@
               </div>
             </div>
           </div>
+
+          <div role="tabpanel" class="tab-pane fade" id="two">
+            <div class="col-lg-4 col-md-4 col-sm-6">
+              <div class="packdetail-packother card-single">
+                <a href="package.php">
+                  <div class="panel panel-default card-single">
+                    <div class="panel-body card-single-body">
+                      <img src="images/thumbnails/jagadtour-bromo-sunrise.jpg" width="1035" height="642" alt="" class="img-responsive">
+                      <div class="card-single-caption">
+                        <p class="tag tag-orange card-single-tag">Family Trip</p>
+                        <p class="card-single-title">Bromo Sunrise Tour</p>
+                        <p class="card-single-text">2 Days</p>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-6">
+              <div class="packdetail-packother card-single">
+                <a href="package.php">
+                  <div class="panel panel-default card-single">
+                    <div class="panel-body card-single-body">
+                      <img src="images/thumbnails/jagadtour-bromo-sunrise.jpg" width="1035" height="642" alt="" class="img-responsive">
+                      <div class="card-single-caption">
+                        <p class="tag tag-orange card-single-tag">Family Trip</p>
+                        <p class="card-single-title">Bromo Sunrise Tour</p>
+                        <p class="card-single-text">2 Days</p>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-6">
+              <div class="packdetail-packother card-single">
+                <a href="package.php">
+                  <div class="panel panel-default card-single">
+                    <div class="panel-body card-single-body">
+                      <img src="images/thumbnails/jagadtour-bromo-sunrise.jpg" width="1035" height="642" alt="" class="img-responsive">
+                      <div class="card-single-caption">
+                        <p class="tag tag-orange card-single-tag">Family Trip</p>
+                        <p class="card-single-title">Bromo Sunrise Tour</p>
+                        <p class="card-single-text">2 Days</p>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-6">
+              <div class="packdetail-packother card-single">
+                <a href="package.php">
+                  <div class="panel panel-default card-single">
+                    <div class="panel-body card-single-body">
+                      <img src="images/thumbnails/jagadtour-bromo-sunrise.jpg" width="1035" height="642" alt="" class="img-responsive">
+                      <div class="card-single-caption">
+                        <p class="tag tag-orange card-single-tag">Family Trip</p>
+                        <p class="card-single-title">Bromo Sunrise Tour</p>
+                        <p class="card-single-text">2 Days</p>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div role="tabpanel" class="tab-pane fade" id="three">
+            <div class="col-lg-4 col-md-4 col-sm-6">
+              <div class="packdetail-packother card-single">
+                <a href="package.php">
+                  <div class="panel panel-default card-single">
+                    <div class="panel-body card-single-body">
+                      <img src="images/thumbnails/jagadtour-bromo-sunrise.jpg" width="1035" height="642" alt="" class="img-responsive">
+                      <div class="card-single-caption">
+                        <p class="tag tag-orange card-single-tag">Family Trip</p>
+                        <p class="card-single-title">Bromo Sunrise Tour</p>
+                        <p class="card-single-text">3 Days</p>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-6">
+              <div class="packdetail-packother card-single">
+                <a href="package.php">
+                  <div class="panel panel-default card-single">
+                    <div class="panel-body card-single-body">
+                      <img src="images/thumbnails/jagadtour-bromo-sunrise.jpg" width="1035" height="642" alt="" class="img-responsive">
+                      <div class="card-single-caption">
+                        <p class="tag tag-orange card-single-tag">Family Trip</p>
+                        <p class="card-single-title">Bromo Sunrise Tour</p>
+                        <p class="card-single-text">3 Days</p>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-6">
+              <div class="packdetail-packother card-single">
+                <a href="package.php">
+                  <div class="panel panel-default card-single">
+                    <div class="panel-body card-single-body">
+                      <img src="images/thumbnails/jagadtour-bromo-sunrise.jpg" width="1035" height="642" alt="" class="img-responsive">
+                      <div class="card-single-caption">
+                        <p class="tag tag-orange card-single-tag">Family Trip</p>
+                        <p class="card-single-title">Bromo Sunrise Tour</p>
+                        <p class="card-single-text">3 Days</p>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-6">
+              <div class="packdetail-packother card-single">
+                <a href="package.php">
+                  <div class="panel panel-default card-single">
+                    <div class="panel-body card-single-body">
+                      <img src="images/thumbnails/jagadtour-bromo-sunrise.jpg" width="1035" height="642" alt="" class="img-responsive">
+                      <div class="card-single-caption">
+                        <p class="tag tag-orange card-single-tag">Family Trip</p>
+                        <p class="card-single-title">Bromo Sunrise Tour</p>
+                        <p class="card-single-text">3 Days</p>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-6">
+              <div class="packdetail-packother card-single">
+                <a href="package.php">
+                  <div class="panel panel-default card-single">
+                    <div class="panel-body card-single-body">
+                      <img src="images/thumbnails/jagadtour-bromo-sunrise.jpg" width="1035" height="642" alt="" class="img-responsive">
+                      <div class="card-single-caption">
+                        <p class="tag tag-orange card-single-tag">Family Trip</p>
+                        <p class="card-single-title">Bromo Sunrise Tour</p>
+                        <p class="card-single-text">3 Days</p>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div role="tabpanel" class="tab-pane fade" id="four">
+            <div class="col-lg-4 col-md-4 col-sm-6">
+              <div class="packdetail-packother card-single">
+                <a href="package.php">
+                  <div class="panel panel-default card-single">
+                    <div class="panel-body card-single-body">
+                      <img src="images/thumbnails/jagadtour-bromo-sunrise.jpg" width="1035" height="642" alt="" class="img-responsive">
+                      <div class="card-single-caption">
+                        <p class="tag tag-orange card-single-tag">Family Trip</p>
+                        <p class="card-single-title">Bromo Sunrise Tour</p>
+                        <p class="card-single-text">4 Days</p>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-6">
+              <div class="packdetail-packother card-single">
+                <a href="package.php">
+                  <div class="panel panel-default card-single">
+                    <div class="panel-body card-single-body">
+                      <img src="images/thumbnails/jagadtour-bromo-sunrise.jpg" width="1035" height="642" alt="" class="img-responsive">
+                      <div class="card-single-caption">
+                        <p class="tag tag-orange card-single-tag">Family Trip</p>
+                        <p class="card-single-title">Bromo Sunrise Tour</p>
+                        <p class="card-single-text">4 Days</p>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-6">
+              <div class="packdetail-packother card-single">
+                <a href="package.php">
+                  <div class="panel panel-default card-single">
+                    <div class="panel-body card-single-body">
+                      <img src="images/thumbnails/jagadtour-bromo-sunrise.jpg" width="1035" height="642" alt="" class="img-responsive">
+                      <div class="card-single-caption">
+                        <p class="tag tag-orange card-single-tag">Family Trip</p>
+                        <p class="card-single-title">Bromo Sunrise Tour</p>
+                        <p class="card-single-text">4 Days</p>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-6">
+              <div class="packdetail-packother card-single">
+                <a href="package.php">
+                  <div class="panel panel-default card-single">
+                    <div class="panel-body card-single-body">
+                      <img src="images/thumbnails/jagadtour-bromo-sunrise.jpg" width="1035" height="642" alt="" class="img-responsive">
+                      <div class="card-single-caption">
+                        <p class="tag tag-orange card-single-tag">Family Trip</p>
+                        <p class="card-single-title">Bromo Sunrise Tour</p>
+                        <p class="card-single-text">4 Days</p>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-6">
+              <div class="packdetail-packother card-single">
+                <a href="package.php">
+                  <div class="panel panel-default card-single">
+                    <div class="panel-body card-single-body">
+                      <img src="images/thumbnails/jagadtour-bromo-sunrise.jpg" width="1035" height="642" alt="" class="img-responsive">
+                      <div class="card-single-caption">
+                        <p class="tag tag-orange card-single-tag">Family Trip</p>
+                        <p class="card-single-title">Bromo Sunrise Tour</p>
+                        <p class="card-single-text">4 Days</p>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-6">
+              <div class="packdetail-packother card-single">
+                <a href="package.php">
+                  <div class="panel panel-default card-single">
+                    <div class="panel-body card-single-body">
+                      <img src="images/thumbnails/jagadtour-bromo-sunrise.jpg" width="1035" height="642" alt="" class="img-responsive">
+                      <div class="card-single-caption">
+                        <p class="tag tag-orange card-single-tag">Family Trip</p>
+                        <p class="card-single-title">Bromo Sunrise Tour</p>
+                        <p class="card-single-text">4 Days</p>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div role="tabpanel" class="tab-pane fade" id="five">
+            <div class="col-lg-4 col-md-4 col-sm-6">
+              <div class="packdetail-packother card-single">
+                <a href="package.php">
+                  <div class="panel panel-default card-single">
+                    <div class="panel-body card-single-body">
+                      <img src="images/thumbnails/jagadtour-bromo-sunrise.jpg" width="1035" height="642" alt="" class="img-responsive">
+                      <div class="card-single-caption">
+                        <p class="tag tag-orange card-single-tag">Family Trip</p>
+                        <p class="card-single-title">Bromo Sunrise Tour</p>
+                        <p class="card-single-text">5 Days</p>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-6">
+              <div class="packdetail-packother card-single">
+                <a href="package.php">
+                  <div class="panel panel-default card-single">
+                    <div class="panel-body card-single-body">
+                      <img src="images/thumbnails/jagadtour-bromo-sunrise.jpg" width="1035" height="642" alt="" class="img-responsive">
+                      <div class="card-single-caption">
+                        <p class="tag tag-orange card-single-tag">Family Trip</p>
+                        <p class="card-single-title">Bromo Sunrise Tour</p>
+                        <p class="card-single-text">5 Days</p>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-6">
+              <div class="packdetail-packother card-single">
+                <a href="package.php">
+                  <div class="panel panel-default card-single">
+                    <div class="panel-body card-single-body">
+                      <img src="images/thumbnails/jagadtour-bromo-sunrise.jpg" width="1035" height="642" alt="" class="img-responsive">
+                      <div class="card-single-caption">
+                        <p class="tag tag-orange card-single-tag">Family Trip</p>
+                        <p class="card-single-title">Bromo Sunrise Tour</p>
+                        <p class="card-single-text">5 Days</p>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-6">
+              <div class="packdetail-packother card-single">
+                <a href="package.php">
+                  <div class="panel panel-default card-single">
+                    <div class="panel-body card-single-body">
+                      <img src="images/thumbnails/jagadtour-bromo-sunrise.jpg" width="1035" height="642" alt="" class="img-responsive">
+                      <div class="card-single-caption">
+                        <p class="tag tag-orange card-single-tag">Family Trip</p>
+                        <p class="card-single-title">Bromo Sunrise Tour</p>
+                        <p class="card-single-text">5 Days</p>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-6">
+              <div class="packdetail-packother card-single">
+                <a href="package.php">
+                  <div class="panel panel-default card-single">
+                    <div class="panel-body card-single-body">
+                      <img src="images/thumbnails/jagadtour-bromo-sunrise.jpg" width="1035" height="642" alt="" class="img-responsive">
+                      <div class="card-single-caption">
+                        <p class="tag tag-orange card-single-tag">Family Trip</p>
+                        <p class="card-single-title">Bromo Sunrise Tour</p>
+                        <p class="card-single-text">5 Days</p>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-6">
+              <div class="packdetail-packother card-single">
+                <a href="package.php">
+                  <div class="panel panel-default card-single">
+                    <div class="panel-body card-single-body">
+                      <img src="images/thumbnails/jagadtour-bromo-sunrise.jpg" width="1035" height="642" alt="" class="img-responsive">
+                      <div class="card-single-caption">
+                        <p class="tag tag-orange card-single-tag">Family Trip</p>
+                        <p class="card-single-title">Bromo Sunrise Tour</p>
+                        <p class="card-single-text">5 Days</p>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+
         </div>
       </div>
-      <div class="row">
-        <div class="col-xs-12">
-          <hr class="package-separator">
-        </div>
-      </div>
+
     </div>
   </section>
 

@@ -91,7 +91,7 @@
     <!-- Hero Slider -->
   </div>
   <!-- Package Detail -->
-  <section class="content content-packdetail font-dinnex">
+  <section class="content content-packdetail font-dinnex content-checkout">
     <div class="container">
       <div class="row">
         <div class="col-md-8">

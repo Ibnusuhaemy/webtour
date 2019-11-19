@@ -430,7 +430,7 @@
               <p class="choose-founder-desc">
               </p>
               <cite class="choose-founder-name">- Ikhwanul Ma'arif</cite>
-              <img class="choose-founder-photo" src="images/photos/founder.png" width="735" height="1173" alt="Ikhwanul Maarif, founder Jagadtour">
+              <img class="choose-founder-photo" src="images/photos/pak-iwan.png" width="735" height="1173" alt="Ikhwanul Maarif, founder Jagadtour">
             </div>
           </div>
         </div>
